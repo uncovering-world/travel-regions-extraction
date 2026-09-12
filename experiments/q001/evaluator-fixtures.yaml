@@ -149,10 +149,10 @@
     },
     {
       "id": "F011-local-overlay-rejected-witness",
-      "description": "A local entry-point detail outside hard territorial scope is not a split witness.",
+      "description": "A local access rule is not a split witness even when its geometry matches an administrative unit.",
       "input": {
         "units": {"A": {"p1_signature": "incomplete"}, "B": {"p1_signature": "incomplete"}},
-        "witnesses": [{"id": "W11", "dimension": "airport_queue_procedure", "status": "verified", "scope": "local_overlay"}]
+        "witnesses": [{"id": "W11", "dimension": "border_security_permit", "status": "verified", "scope": "local_overlay", "overlay_geometry": "whole_municipality"}]
       },
       "expected": {
         "P1": {"result": "separation_not_proven", "witnesses": [], "applied_rules": ["R007", "R008"]}
