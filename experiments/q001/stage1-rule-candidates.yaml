@@ -1,0 +1,643 @@
+schema_version: q001.stage1-rule-candidates.v1
+artifact_kind: normative_candidate_comparison
+status: proposed_not_adopted
+review_date: '2026-09-12'
+review_ref: stage1-rule-review.md
+language: ru
+scope: stage1_mandatory_separation_only
+production_enabled: false
+current_evaluator_consumes_this_file: false
+new_geographic_facts: false
+normative_files_modified: false
+factual_inputs_modified: false
+evaluator_modified: false
+
+basis:
+  repository_commit: 6ad56e16e3744c8ae98266408ac13a7717c9000f
+  spec_version: 0.2.0-draft
+  evaluator_version: 0.2.0
+  dataset_snapshot: '2026-09-11'
+  factual_input_sha256: fd4875e773731a4533549d3526ef54c4a0945c4ca84d8045214a517ebba61831
+  comparison_count: 49
+  factual_unit_count: 56
+  evaluation_count: 147
+  source_refs:
+    - ../../docs/spec.md
+    - ../../docs/decisions.md
+    - ../../docs/open-questions.md
+    - ../../docs/partition-architecture.md
+    - ../../data/adversarial-test-set.csv
+    - evaluator-contract.md
+    - comparisons.yaml
+    - evidence.json
+    - sources.json
+    - data-gaps.md
+    - route-matrix.json
+    - results/evaluator-results.json
+  recorded_outcomes:
+    P1: {must_separate: 4, hard_compatible: 0, separation_not_proven: 41, model_unresolved: 1, data_unknown: 3}
+    P2: {must_separate: 8, hard_compatible: 0, separation_not_proven: 1, model_unresolved: 1, data_unknown: 39}
+    P3: {must_separate: 8, hard_compatible: 0, separation_not_proven: 0, model_unresolved: 41, data_unknown: 0}
+  limits:
+    - No real comparison proves complete P1 equality and different jurisdictions.
+    - Current P2 certificates are not automatically J1-J6 certificates.
+    - P3 terminal model blockers mask retained data blockers.
+    - Crimea has no factual unit or comparison in this Q001 snapshot.
+    - Existing summary C001/P1 wording is stale; contract and results give data_unknown.
+
+disposition:
+  choice: B
+  value: q001_can_be_narrowed
+  adoption_required: true
+  proposed_core: candidate-core-v1
+  closed_by_this_artifact: false
+  recommendations:
+    - Keep existential hard-decision witness semantics without a frequency threshold.
+    - Add independent final admission competence as an explicit normative invariant.
+    - Require premise-level jurisdiction proof instead of different-office inference.
+    - Exclude undefined territorial identity from the proposed production core.
+    - Reject dispute and controller labels as sufficient separators.
+    - Retain uncovered accepted constraints as explicit conflicts or unfulfilled guarantees.
+  remaining_model_questions: [Q002, Q004, Q005, Q006, Q007, Q008, Q009, Q011]
+  next_experiment_refs: [NX-01, NX-02, NX-03, NX-04, NX-05, NX-06, NX-07, NX-08, NX-09, NX-10]
+
+semantics:
+  predicate_notation: declarative_logic_not_current_evaluator_DSL
+  mandatory_separator_meaning: Sufficient only within a rule set selecting this rule and after all proof gates pass; not normative adoption.
+  truth_states: [proven_true, proven_false, data_unknown, model_unresolved]
+  unknown_is_value: false
+  not_proven_implies_compatible: false
+  positive_certificate_overrides_unrelated_unknown: true
+  hard_compatible_is_final_merge: false
+  equality_requires_positive_complete_signature: true
+  candidate_signature: [hard_decision_function_over_common_context_domain, normalized_admission_competence_structure_over_context_domain]
+  terminal_precedence:
+    - rule_conflict
+    - must_separate
+    - model_unresolved
+    - data_unknown
+    - hard_compatible
+    - separation_not_proven
+  evidence_consistency: Adding consistent evidence at fixed time and rule version preserves sufficient certificates; corrections or new versions may change them.
+  minimality_claim: Two explicit sufficient certificate types; strict logical independence for every future S/H is not proved.
+  construction_limit: Pairwise negative constraints alone need not determine a unique coarsest partition.
+  geometry_limit: A witness supports certified disjoint homogeneous fragments, not every point of containing reference objects.
+
+context_scope:
+  id: proposed-civilian-short-stay-v1
+  related_rules: [R007, R012]
+  related_open_questions: [Q002]
+  included: [civilian_short_stay, rare_travel_documents, class_based_special_authorisations, class_based_travel_history]
+  excluded_primary_purposes: [employment, settlement, diplomatic_mission, military_mission]
+  duration: Determined by applicable policy; no universal 90-day threshold.
+  frequency_threshold: null
+  named_person_exception_is_separator: false
+  class_may_have_one_actual_member: true
+  actual_completed_trip_required: false
+  admission_allowed_on_both_sides_required: false
+  coherent_nonempty_context_class_required: true
+  matched_trip_required: true
+  matched_trip_definition: Same relevant personal attributes and evidenced logical entry/route class; destination varies, raw place/port/carrier names do not create differences.
+  discretionary_event_difference_is_policy_difference: false
+
+hard_outputs:
+  included_when_territorial_and_standing:
+    - accepted_travel_document
+    - visa_eta_admission_authorisation_requirement
+    - territorial_authorisation_validity
+    - entry_eligibility_or_prohibition
+    - civilian_stay_conditions_duration_or_termination
+    - permission_to_enter_or_be_present_in_territorial_scope
+    - independently_applicable_legal_entry_or_exit_route_obligation
+  excluded_as_standalone_factors:
+    - officer_or_office_label
+    - document_or_stamp_display_name
+    - queue_or_processing_logistics
+    - transport_service_availability
+    - physical_hazard_or_advisory
+    - site_facility_service_or_activity_permission
+    - named_individual_discretionary_event
+    - incident_or_emergency_event_measure
+    - island_destination_administrative_or_political_label
+  unresolved_edges:
+    customs_biosecurity_fiscal: [Q004]
+    territorial_presence_vs_site_access: [Q005, Q009]
+    contested_legal_applicability: [Q006]
+    shared_or_noninstitutional_control: [Q007]
+    standing_vs_incident_measure: [Q008]
+  legal_applicability_requirement: Evidence must establish application to C independently of a bare territorial claim, through operative territorial admission competence or a documented personal/document jurisdiction and a direct travel obligation.
+
+gates:
+  - id: G-SCOPE
+    requires:
+      - Nonempty disjoint certified scopes or explicit disjoint fragments of reference objects.
+      - Claimed hard effect or competence is evidenced throughout each certified fragment.
+      - Boundary follows legal or operational scope; administrative proxy requires justification and precision.
+    unknown_effect: No invented full-area certificate or exact geometry.
+  - id: G-CONTEXT
+    requires:
+      - One versioned context scope applied to every comparison.
+      - Coherent nonempty civilian class with all decision-relevant attributes and exceptions evaluated.
+      - Matched logical trip context; denial is an admissible response on either side.
+    unknown_effect: Missing context evidence blocks the certificate; undefined scope is a model blocker.
+  - id: G-HARD
+    requires:
+      - Difference belongs to an explicitly included hard output.
+      - Regulated act has territorial entry or civilian presence/stay legal effect.
+      - Effect is not inferred from issuer identity, object size, popularity, or coverage of a whole administrative unit.
+    unknown_effect: Ambiguous territorial versus site/activity scope is Q005/Q009 model_unresolved.
+  - id: G-TIME
+    requires:
+      - Constitutive or standing class-based instrument is effective at comparison time.
+      - Rule is not activated solely by a particular incident, emergency, or event order.
+      - Observation, retrieval, effective dates and uncertainty remain separate.
+    duration_threshold: null
+    future_persistence_required: false
+    normative_sunset_automatically_excluded: false
+    prolonged_emergency_automatically_standing: false
+    unknown_effect: No age-based promotion; undefined classification remains Q008/Q007.
+  - id: G-EVIDENCE
+    requires:
+      - Each premise has source reference, locator or excerpt, source competence, temporal and territorial scope.
+      - Both sides of the asserted difference are proved, including applicable exceptions.
+      - Source statements are not promoted beyond their actual entailment or verification status.
+      - Material conflicts and uncertainty are explicit; positive allocation audit supports negative competence assertions.
+    unknown_effect: Missing proof or source conflict does not become equality or a split.
+
+jurisdiction_definition:
+  id: independent-final-admission-competence-v1
+  semantic_object: legal_capacity_with_territorial_effect_not_office_or_sovereign_label
+  final_meaning: Ordinary administrative admission/stay competence under the current constitutive arrangement, not absence of judicial review or ultimate legislative authority.
+  legal_order_meaning: Evidenced operative normative order; this does not adjudicate internationally lawful sovereignty.
+  independent_meaning: Reserved territorial decision capacity not ordinarily substitutable by another admission capacity acting for its own territory.
+  independent_legislature_required: false
+  absence_of_parent_legislative_power_required: false
+  unlimited_discretion_required: false
+  actual_divergent_decision_required: false
+  recognition_threshold: null
+  holder_must_be_located_in_scope: false
+  normalization:
+    relation_types: [acts_for, case_substitution, required_assent, judicial_review, recognises_leave]
+    collapse: Execution agents acting for one capacity share that capacity; normalize attribution before comparing.
+    distinguish: A shared holder can exercise multiple capacities; a shared court or visa processor is not capacity equality.
+    joint_arrangements: Compare the full capacity and veto/assent structure; do not assign a cell per actor.
+    equality: Invariant under consistent bijective relabeling of all capacities and evidence locators.
+    inequality: A proved reserved capacity has territorial effect on one scope and not the other, or an evidenced required-assent structure differs.
+  premises:
+    - id: J1
+      field: constitutive_allocation
+      requires: Effective normative clauses allocate ordinary civilian admission/refusal and stay conditioning or termination to a specified capacity, holder and competence chain.
+    - id: J2
+      field: territorial_legal_effect
+      requires: Decision creates or ends territorial entry/stay permission or refusal; scope is not merely office district, processing port, facility, service or activity.
+    - id: J3
+      field: reserved_ordinary_competence
+      requires: For at least one nonempty class-based civilian matter the capacity can decide finally without necessary individual assent of another capacity; territorial refusal or stay-termination power is documented.
+    - id: J4
+      field: non_substitution
+      requires: Another capacity's leave for its own territory cannot itself decide for this scope or override its reserved territorial refusal; ordinary case substitution and recognition exceptions are audited.
+    - id: J5
+      field: attribution_delegation_review_closure
+      requires: Relevant acts-for, substitution, assent, review and leave-recognition relations are evidenced; implementation delegation is collapsed, constitutive transfer is distinguished from ordinary supervision.
+    - id: J6
+      field: effective_territorial_application
+      requires: Allocation applies in the scope at t; de facto orders additionally require independent civilian admission/enforcement corroboration, not only claims or military observations.
+  sufficiency_not_exhaustiveness: true
+  separation_proof_scope: J1-J6 cover the separating capacity and all relations affecting its independence or scope; unrelated incomplete dimensions do not cancel a sufficient certificate.
+  compatibility_proof_scope: Complete coverage and equality of both competence structures is required, not merely absence of a separating certificate.
+  unresolved_shared_arrangement_policy: Retain unknown or Q007 model blocker; do not fall back to country labels.
+
+rule_sets:
+  - id: witness-only-strict-v1
+    status: comparator
+    rule_refs: [CR-W]
+    composition: any_proven
+    relation_to_existing_profile: P1-like with proposed gates; not a rerun or synonym for existing P1.
+    deliberate_limit: Equal decision functions do not preserve distinct admission capacities.
+  - id: candidate-core-v1
+    status: recommended_candidate
+    rule_refs: [CR-W, CR-J]
+    composition: any_proven
+    relation_to_existing_profile: P2-like with stricter proof, scope and time gates; not existing evaluator P2.
+    deliberate_limit: No guarantee of blanket dependency or status-only separateness.
+  - id: core-plus-identity-undefined
+    status: rejected_for_production
+    rule_refs: [CR-W, CR-J, CR-I]
+    composition: undefined_due_to_CR-I
+    relation_to_existing_profile: P3 remains historical and model-unresolved; identity is not Stage 2 semantics.
+
+rules:
+  - id: CR-W
+    name: proven_hard_territorial_decision_discontinuity
+    status: proposed_sufficient
+    selected_in_recommended_core: true
+    mandatory_separator: true
+    operational_definition_ref: stage1-rule-review.md#32-existential-witness-semantics
+    predicate: exists C in S_v and d in H_v such that all gates hold and both territorial decisions are proved and unequal at the same t
+    gate_refs: [G-SCOPE, G-CONTEXT, G-HARD, G-TIME, G-EVIDENCE]
+    evidence_requirements:
+      - Applicable class-based decision rules for both sides and their effective dates.
+      - Nonempty matched traveller context and all relevant exemptions.
+      - Specific unequal hard output, not merely different policy text or IDs.
+      - Territorial legal effect, homogeneous certified scopes and standing-rule basis.
+    hard_rationale: A single hard decision function cannot correctly represent both certified scopes.
+    counterexamples:
+      - Different discretionary officer events under one policy.
+      - Different ports or carriers without territorial legal effect.
+      - Site/activity permit, unverified access, weather closure, or advisory alone.
+    intentionally_not_separated:
+      - Complete equal hard decision functions under different institutions.
+      - Legal-status, dependency, island or destination labels with no hard effect.
+      - Out-of-scope traveller purposes and named individual exceptions.
+    known_failure_modes:
+      - Rare valid class may create a boundary; this is intentional within S, not suppressed by frequency.
+      - Permit classification can remain Q005/Q009 model-unresolved.
+      - Witness may prove only reference fragments, not whole overlapping endpoints.
+      - Standing-versus-event gate is a proposed convention with Q008 limits.
+    related_rules: [R007, R008, R012, R014, R015, R027, R028, R031, R038, R039]
+    related_open_questions: [Q001, Q002, Q004, Q005, Q006, Q008, Q009]
+    related_candidate_rules: [CR-J, CR-C, CR-P, CR-B]
+    existing_comparison_refs: [C007, C018, C029, C030, C042]
+    existing_evidence_refs: [E07, E08, E10, E19, E26, E28, E44]
+    existing_outcome_revalidation: No candidate outcomes computed; current witness certificates need the new gates checked separately.
+
+  - id: CR-J
+    name: proven_independent_final_admission_competence_difference
+    status: proposed_sufficient
+    selected_in_recommended_core: true
+    mandatory_separator: true
+    operational_definition_ref: stage1-rule-review.md#42-operational-definition-independent_final_admission_jurisdiction
+    predicate: all applicable gates and J1-J6 hold, and normalized territorial competence structures over the same S and t are proved unequal
+    gate_refs: [G-SCOPE, G-CONTEXT, G-TIME, G-EVIDENCE]
+    jurisdiction_premise_refs: [J1, J2, J3, J4, J5, J6]
+    evidence_requirements:
+      - Constitutive allocation and territorial admission/stay legal effects.
+      - Reserved ordinary final decision powers and non-substitution proof.
+      - Positive audit of attribution, delegation, required assent, override, review and leave recognition.
+      - Effective application; independent civilian operational corroboration for de facto arrangements.
+      - Evidence of differing capacities or assent structures on the two certified scopes.
+    hard_rationale: The proposed institutional invariant forbids hiding different independent final territorial admission responsibilities in one Stage 1 cell.
+    counterexamples:
+      - Different local immigration offices within one substitutable national admission chain.
+      - Separate permit issuer without proof of final territorial competence.
+      - Different military patrols or civil administrators without admission capacity.
+    intentionally_not_separated:
+      - Different legal-status labels with one admission competence and otherwise equal hard decisions.
+      - Office districts, stamps, visa processing contractors and administrative autonomy alone.
+    known_failure_modes:
+      - Documentary extraction requires auditable legal interpretation; no automatic natural-language oracle is supplied.
+      - Independent capacities with equal policies are deliberately split by normative choice, not empirical necessity.
+      - Shared competence can remain unresolved; ultimate sovereignty and ordinary case substitution must not be confused.
+      - Existing independent_admission_jurisdiction booleans do not entail every stricter premise.
+    related_rules: [R008, R011, R018, R023, R024, R038, R039]
+    related_open_questions: [Q001, Q006, Q007, Q008]
+    related_candidate_rules: [CR-W, CR-C, CR-I]
+    existing_comparison_refs: [C001, C007, C008, C009, C012]
+    existing_evidence_refs: [E02, E03, E18, E20, E21, E23]
+    existing_outcome_revalidation: Current P2 counts are preserved as historical outputs; all J1-J6 premises require a separate audit, especially E23 non-substitution.
+
+  - id: CR-C
+    name: stable_distinct_control_as_independent_separator
+    status: rejected_as_independent_rule_at_present
+    selected_in_recommended_core: false
+    mandatory_separator: false
+    predicate: null
+    considered_predicate: stable actual controller or civilian access/control system differs
+    evidence_requirements:
+      - Civil, military, border and enforcement roles must be decomposed by scope and time.
+      - Any claimed independent hard effect must be defined beyond controller identity.
+    hard_rationale: No independent hard rationale remains defined beyond qualifying CR-W consequences or CR-J capacities.
+    counterexamples: [different_patrol_same_admission_system, different_municipality_same_competence, military_position_without_civilian_regime]
+    intentionally_not_separated: [control_actor_label_alone, mine_hazard_alone, unverified_civilian_access]
+    known_failure_modes: [duplicates_CR-W_or_CR-J, military_or_administrative_over_splitting, undefined_stability, claim_geometry_substitution]
+    related_rules: [R015, R024, R028, R030, R039]
+    related_open_questions: [Q005, Q006, Q007, Q008, Q009]
+    related_candidate_rules: [CR-W, CR-J]
+    existing_comparison_refs: [C032, C040, C043, C044, C045, C046, C047, C049]
+    existing_evidence_refs: [E37, E38, E41, E50, E51, E52, E53, E54, E55]
+
+  - id: CR-I
+    name: territorial_legal_identity
+    status: rejected_for_production_undefined
+    selected_in_recommended_core: false
+    mandatory_separator: false
+    predicate: null
+    evidence_requirements:
+      - A new exact general predicate and its normative travel rationale would be needed before admission to any production profile.
+      - Neither internal nor external curated place membership may substitute for the missing predicate.
+    hard_rationale: None established independently of admission competence or specific legal consequences.
+    counterexamples: [municipal_legal_personality, ordinary_province_own_laws, autonomous_region_without_admission_power]
+    intentionally_not_separated: [ISO_code_exists, autonomous_true, disputed_true, dependent_territory_true, historically_separate_label]
+    known_failure_modes: [hidden_politically_salient_place_list, recognition_bias, administrative_over_splitting, circular_identity_definition, destination_leakage]
+    related_rules: [R010, R016, R018, R019, R038, R042]
+    related_open_questions: [Q001, Q001.identity, Q006, Q011]
+    related_candidate_rules: [CR-J, CR-L, CR-D]
+
+  - id: CR-D
+    name: disputed_status_flag
+    status: rejected_as_sufficient
+    selected_in_recommended_core: false
+    mandatory_separator: false
+    predicate: disputed(A) != disputed(B)
+    evidence_requirements: [Evidence that a claim exists proves only that a claim exists.]
+    hard_rationale: No hard admission or access consequence follows from the flag.
+    counterexamples: [new_unenforced_claim_with_unchanged_decisions_and_competence]
+    intentionally_not_separated: [claim_or_recognition_change_alone]
+    known_failure_modes: [claim_blindness_violation, hidden_claim_significance_threshold, claimant_polygon_as_operational_geometry]
+    related_rules: [R016, R022, R024]
+    related_open_questions: [Q006]
+    related_candidate_rules: [CR-I, CR-L]
+
+  - id: CR-L
+    name: explicit_international_legal_status_separator
+    status: deferred_no_adoptable_predicate
+    selected_in_recommended_core: false
+    mandatory_separator: false
+    predicate: null
+    evidence_requirements:
+      - An explicit general legal-status predicate with specified competent instruments, applicability and territorial effect or separately justified status-preservation purpose.
+      - Universal inclusion and exclusion semantics independent of names, recognition counts and curated place membership.
+      - Operational scope rather than automatic claimant polygon assignment.
+    hard_rationale: No status-only hard rationale adopted; independently applicable travel consequences already belong to CR-W.
+    counterexamples: [external_decolonization_registry_as_universal_dispute_definition, any_claim_as_legal_status, full_operational_equality_without_new_predicate]
+    intentionally_not_separated: [status_label_alone_under_candidate_core]
+    known_failure_modes: [external_curated_registry, recognition_source_selection_bias, incomplete_class_coverage, overlap, D007_not_guaranteed_by_core]
+    related_rules: [R010, R022, R024, R042]
+    related_open_questions: [Q006, Q011]
+    related_candidate_rules: [CR-W, CR-I, CR-D]
+    existing_comparison_refs: [C031, C033, C034, C040]
+    existing_evidence_refs: [E36, E37, E39, E40, E50]
+
+  - id: CR-P
+    name: any_mandatory_permit
+    status: rejected_as_blanket_rule
+    selected_in_recommended_core: false
+    mandatory_separator: false
+    predicate: permit_requirement(A,C) != permit_requirement(B,C)
+    evidence_requirements: [Permit existence alone is insufficient; territorial admission or presence effect must pass G-HARD for CR-W.]
+    hard_rationale: Only an accepted territorial legal effect is hard; generic permit existence is not.
+    counterexamples: [museum_ticket, trekking_activity_permit, landing_facility_permission, ambiguous_park_access_rule]
+    intentionally_not_separated: [site_or_activity_permission_alone, whole_administrative_scope_label_alone]
+    known_failure_modes: [every_restricted_object_becomes_cell, whole_province_proxy, hidden_area_or_popularity_threshold]
+    related_rules: [R014, R017, R027]
+    related_open_questions: [Q005, Q009]
+    related_candidate_rules: [CR-W]
+    existing_comparison_refs: [C036, C037, C038, C039, C041, C042, C043]
+    existing_evidence_refs: [E07, E08, E43, E44, E45, E46, E48, E54]
+
+  - id: CR-B
+    name: customs_biosecurity_fiscal_difference
+    status: deferred_Q004
+    selected_in_recommended_core: false
+    mandatory_separator: false
+    predicate: null
+    evidence_requirements: [A general criterion must distinguish included traveller obligations from excluded local fiscal or quarantine differences without territory-type proxies.]
+    hard_rationale: No complete hard-class boundary is defined in this review.
+    counterexamples: [local_tax_rate_difference, internal_quarantine_zone_without_general_hard_gate]
+    intentionally_not_separated: [customs_VAT_or_biosecurity_label_alone]
+    known_failure_modes: [ordinary_internal_zone_over_splitting, customs_as_immigration_proxy]
+    related_rules: [R013, R016, R017]
+    related_open_questions: [Q004]
+    related_candidate_rules: [CR-W]
+    existing_comparison_refs: [C013]
+    existing_evidence_refs: [E11, E12, E13]
+
+accepted_constraint_regressions:
+  - decision_id: D005
+    display_pair: Reunion / metropolitan France
+    comparison_refs: [C018]
+    evidence_refs: [E26, E27]
+    P1_mechanism: CR-W explains the destination visa/document distinction; a complete verified context is missing.
+    P2_mechanism: Includes CR-W; independent competence is not proved and is unnecessary if W is established.
+    P3_required: false
+    core_guarantee_proved_in_snapshot: false
+    outcome: general_mechanism_available_application_data_incomplete
+    remaining_questions: [Q002]
+    final_region_count_asserted: false
+  - decision_id: D004
+    display_pair: British Overseas Territories / ordinary UK
+    comparison_refs: [C010, C011, C012]
+    evidence_refs: [E22, E23, E24, E25]
+    P1_mechanism: Case-specific W may apply; category membership entails no witness.
+    P2_mechanism: Existing C012 split needs a stricter J1-J6 audit; C010/C011 competence remains unknown.
+    P3_required: false
+    P3_note: Undefined P3 cannot supply the missing blanket guarantee.
+    core_guarantee_proved_in_snapshot: false
+    outcome: partially_explained_blanket_guarantee_unresolved
+    conflict_if_core_signatures_equal: Mandatory Stage 1 separation then requires a new general rule or a changed guarantee.
+    related_decisions: [D016]
+    remaining_questions: [Q001, Q011]
+    crown_dependencies_are_BOT_evidence: false
+    antarctic_exception_adopted: false
+  - decision_id: D007
+    display_pair: Western Sahara west / ordinary Morocco
+    comparison_refs: [C031]
+    evidence_refs: [E36, E37, E39, E40]
+    P1_mechanism: No completed hard witness; one matching passport rule is not complete equality.
+    P2_mechanism: Independent final competence is unknown; coarse common administration proves neither equality nor inequality.
+    P3_required: false
+    P3_note: Status-only guarantee would require a newly defined CR-L, not undefined identity.
+    core_guarantee_proved_in_snapshot: false
+    outcome: conceptual_status_preservation_gap_plus_data_gaps
+    conflict_if_core_signatures_equal: Core forbids inventing a mandatory boundary; D007 guarantee remains unresolved in Q006.
+    internal_control_split_implies_separation_from_controller: false
+    dispute_overlay_fulfils_separate_region_constraint: false
+    stage2_fulfilment_promised: false
+    remaining_questions: [Q006]
+  - decision_id: D006
+    display_pair: Crimea / ordinary Ukraine
+    comparison_refs: []
+    evidence_refs: []
+    adversarial_refs: [T059, T060]
+    P1_mechanism: Conditional difference in civilian admission or independently applicable legal access can explain the constraint.
+    P2_mechanism: Conditional different operative admission capacities can explain it without recognition or a Crimea-specific capacity.
+    P3_required: false
+    core_guarantee_proved_in_snapshot: false
+    outcome: operational_mechanism_available_no_Q001_factual_dossier
+    related_decisions: [D013]
+    stronger_Russia_comparison_is_accepted: false
+    remaining_questions: [Q006, Q007, Q008]
+    current_geometry_asserted: false
+
+invariants:
+  - id: INV-NAME
+    transformation: Consistently rename territories, authorities and all related IDs while preserving facts and relationships.
+    expected: Isomorphic outcome and certificate structure.
+  - id: INV-CLAIM
+    transformation: Change claim or recognition labels only; keep independently applicable D and J unchanged.
+    expected: No outcome change; a new applicable legal obligation is a different input change.
+  - id: INV-DESTINATION
+    transformation: Change destination popularity or identity only.
+    expected: No new Stage 1 certificate.
+  - id: INV-ISLAND
+    transformation: Change island or remote label without altering hard effects or scopes of competence.
+    expected: No new Stage 1 certificate; hard-compatible geometry may be MultiPolygon.
+  - id: INV-ADMIN
+    transformation: Add a province label, service district or local office with no independent competence or decision discontinuity.
+    expected: No new Stage 1 certificate.
+  - id: INV-OPEN
+    transformation: Remove a required proof or replace complete coverage evidence with sampled matches.
+    expected: Unknown or incomplete signature; no equality or split inferred from absence.
+  - id: INV-REFINEMENT
+    transformation: Propose a later cell crossing a proved Stage 1 separator in the same release.
+    expected: Invalid refinement.
+  - id: INV-ORDER
+    transformation: Permute input order or swap comparison endpoints.
+    expected: Same semantic result; oriented witness fields swap consistently.
+
+normative_experiment_contract:
+  synthetic: true
+  geographic_assertions: false
+  implemented_as_current_evaluator_fixtures: false
+  executed_by_this_artifact: false
+  oracle_basis: Explicit proposed predicates and proof assumptions, never desired real-region names.
+  consistency_gate: Prove each bundle coherent under exact S/H, including leave validity, refusal history and recognition; if J difference entails an included D difference, reject asserted complete D equality.
+  expected_outcomes_conditional_on_consistency_gate: true
+  equal_D_different_J_real_pair_proved: false
+  defaults:
+    context: coherent_class_based_civilian_short_stay
+    scopes: nonempty_disjoint_with_homogeneous_certified_effects
+    time: same_fixed_t_with_standing_rules_effective
+    evidence: complete_consistent_premise_proofs_except_explicitly_missing
+    decision_coverage: complete_except_explicitly_unknown
+    jurisdiction_coverage: complete_except_explicitly_unknown
+  comparator: witness-only-strict-v1
+  recommended: candidate-core-v1
+  required_transformations: [INV-NAME, INV-ORDER]
+  acceptance_criteria:
+    - Decide explicitly whether NX-01 independent responsibility should be hard even when all D outputs equal.
+    - Explain NX-01 versus NX-02 using the same J1-J6 definition under name and type-label swaps.
+    - Preserve NX-04 distinction between shared apex/processor and shared admission capacity.
+    - If NX-05 or NX-06 must split, publish a separate general hard predicate; do not insert expected place outcomes.
+    - Preserve data/model unknown in NX-07 and NX-08.
+  optional_existing_evidence_audit:
+    evidence_refs: [E02, E03, E18, E20, E21, E23]
+    premise_refs: [J1, J2, J3, J4, J5, J6]
+    cells: [entailed, not_entailed, unknown]
+    new_geographic_research_required: false
+    preserving_existing_split_counts_required: false
+
+normative_experiments:
+  - id: NX-01
+    name: equal_decisions_independent_capacities
+    facts:
+      decision_functions: complete_equal
+      competence_structures: proved_different
+      territorial_titles: separate
+      reserved_powers: independently_final
+      ordinary_cross_capacity_substitution: proved_absent
+      J1_J6: all_proved
+    expected_comparator: hard_compatible
+    expected_candidate: must_separate
+    applied_candidate_rules: [CR-J]
+    normative_choice: Tests the additional institutional invariant, not a factual visa difference.
+  - id: NX-02
+    name: different_offices_one_competence
+    facts:
+      decision_functions: complete_equal
+      competence_structures: complete_equal
+      office_holders: different
+      service_districts: different
+      territorial_admission_title: single
+      ordinary_case_substitution: same_chain
+    expected_comparator: hard_compatible
+    expected_candidate: hard_compatible
+    applied_candidate_rules: []
+    normative_choice: Office and district inequality are not jurisdiction inequality.
+  - id: NX-03
+    name: one_capacity_different_territorial_visa_rule
+    facts:
+      decision_functions: proved_unequal_by_matched_visa_witness
+      competence_structures: complete_equal
+      territorial_effect: proved
+      rule_kind: standing
+    expected_comparator: must_separate
+    expected_candidate: must_separate
+    applied_candidate_rules: [CR-W]
+    normative_choice: J is not necessary for a hard travel-decision boundary.
+  - id: NX-04
+    name: independent_capacities_shared_apex_and_processor
+    facts:
+      decision_functions: complete_equal
+      competence_structures: proved_different
+      J1_J6: all_proved
+      apex_court: shared
+      visa_processor: shared
+      ultimate_legislator: may_amend_constitutive_instrument
+      ordinary_cross_capacity_substitution: proved_absent
+    expected_comparator: hard_compatible
+    expected_candidate: must_separate
+    applied_candidate_rules: [CR-J]
+    normative_choice: Review or future legislative power is not ordinary substitution of admission capacity.
+  - id: NX-05
+    name: status_and_claim_only_difference
+    facts:
+      decision_functions: complete_equal
+      competence_structures: complete_equal
+      legal_status_labels: different
+      claim_labels: different
+      independently_applicable_legal_travel_consequences: complete_equal
+    expected_comparator: hard_compatible
+    expected_candidate: hard_compatible
+    applied_candidate_rules: []
+    normative_choice: A contrary mandatory product constraint exposes Q006; this synthetic case does not assert equality for any real disputed territory.
+  - id: NX-06
+    name: military_patrol_actor_only_difference
+    facts:
+      decision_functions: complete_equal
+      competence_structures: complete_equal
+      military_patrol_actor: different
+      civilian_admission_and_presence_effect: complete_equal
+    expected_comparator: hard_compatible
+    expected_candidate: hard_compatible
+    applied_candidate_rules: []
+    normative_choice: Raw control actor identity is not a third hard dimension.
+  - id: NX-07
+    name: missing_non_substitution_proof
+    facts:
+      decision_functions: complete_equal
+      competence_structures: data_unknown
+      J4: missing_evidence
+      J1_J2_J3_J5_J6: otherwise_proved_to_the_extent_independent_of_J4
+    expected_comparator: hard_compatible
+    expected_candidate: data_unknown
+    applied_candidate_rules: []
+    blocker_refs: [J4]
+    normative_choice: A local authority assertion does not fill a missing institutional premise.
+  - id: NX-08
+    name: unresolved_territorial_or_site_permit
+    facts:
+      decision_functions: model_unresolved
+      competence_structures: complete_equal
+      permit_difference: proved
+      regulated_act_classification: unresolved_territorial_presence_vs_site_access
+    expected_comparator: model_unresolved
+    expected_candidate: model_unresolved
+    applied_candidate_rules: []
+    blocker_refs: [Q005, Q009]
+    normative_choice: Permit existence cannot resolve its own hard classification.
+  - id: NX-09
+    name: rare_class_standing_document_discontinuity
+    facts:
+      decision_functions: proved_unequal_by_matched_document_witness
+      competence_structures: complete_equal
+      actual_class_members: 1
+      class_uses_named_person_ID: false
+      context_within_scope: true
+      territorial_effect: proved
+      rule_kind: standing
+    expected_comparator: must_separate
+    expected_candidate: must_separate
+    applied_candidate_rules: [CR-W]
+    normative_choice: Valid hard difference remains sufficient regardless of class frequency.
+  - id: NX-10
+    name: incident_closure_outside_standing_core
+    facts:
+      decision_functions: complete_equal_on_core_outputs
+      competence_structures: complete_equal
+      additional_access_measure: event_specific_temporary_closure
+      measure_kind: proved_incident_order
+    expected_comparator: hard_compatible
+    expected_candidate: hard_compatible
+    applied_candidate_rules: []
+    normative_choice: Proposed G-TIME excludes the incident measure from the core; access overlay still applies and full travel conditions are not claimed equal.
