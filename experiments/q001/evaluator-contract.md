@@ -1,6 +1,6 @@
 # Experiment Q001 — evaluator contract
 
-Статус: implementation-ready contract для `spec.md` 0.1.1-draft и factual snapshot 2026-09-11. Контракт не выбирает между P1/P2/P3 и не назначает canonical regions.
+Статус: implementation-ready contract для `spec.md` 0.1.2-draft и factual snapshot 2026-09-11. Контракт не выбирает между P1/P2/P3 и не назначает canonical regions.
 
 ## 1. Основные предикаты
 
@@ -13,8 +13,10 @@
 1. `C` входит в scope R007;
 2. evidence для контекста и обоих решений достаточно и действует на `as_of`;
 3. `HardTravelDecision(A,C) != HardTravelDecision(B,C)` по hard dimension profile;
-4. различие относится к территориальному scope, а не только к local overlay или детали конкретной точки входа;
+4. различие относится к допуску в A/B как в назначения целиком, а не к `LocalAccessDecision` для local overlay, отдельной точки, маршрута или деятельности внутри общей admission jurisdiction;
 5. witness не имеет статуса provisional, conflicted или unknown.
+
+Совпадение local overlay с целой административной единицей и его площадь не меняют этот тест. Border-security, military, conservation, object-, route- и activity-specific permits отклоняются как split witness, пока evidence не показывает, что разрешение регулирует обычный гражданский допуск в candidate territory как в назначение целиком.
 
 P2 дополнительно принимает independently verified различие `final_admission_jurisdiction`. P3 может дополнительно принимать identity discriminator, но этот discriminator пока не определён.
 
