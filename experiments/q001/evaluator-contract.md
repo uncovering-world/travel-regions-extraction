@@ -1,5 +1,7 @@
 # Experiment Q001 — evaluator contract
 
+Historical non-production contract for P1/P2/P3. Its algorithms, fixture semantics and recorded results remain pinned to `0.2.0-draft`; references to R011/R010 below describe that historical spec. Current production uses only CR-W in `S1-core-v1`, with a separate [adoption and input contract](stage1-core-adoption.md). P3 remains model-unresolved where identity matters and is not the Stage 2 destination model. No historical P1 result is automatically a current CR-W certificate.
+
 Статус: implementation-ready Stage 1 contract для `spec.md` 0.2.0-draft и factual snapshot 2026-09-11. Контракт не выбирает между P1/P2/P3 и не назначает canonical regions.
 
 Q001 is primarily a Stage 1 Mandatory Separation experiment. Its profiles test hard-boundary hypotheses based on regime, jurisdiction, and potentially territorial/legal identity. They do not produce the complete canonical travel partition and do not model Stage 2 destination identity. A `hard_compatible` pair may still be divided by Stage 2.

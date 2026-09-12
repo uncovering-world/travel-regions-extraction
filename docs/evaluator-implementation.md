@@ -1,6 +1,18 @@
 # Reference evaluator implementation notes
 
-Version 0.2.0 implements the Q001 Stage 1 pairwise contract for spec 0.2.0-draft. It does not build geometry, assign canonical regions, select a profile, or implement Stage 2 destination partitioning.
+This document distinguishes the current normative `S1-core-v1` evaluator from the historical Q001 engine. Neither builds geometry, assigns canonical regions or implements Stage 2.
+
+## Current normative evaluator
+
+`core.evaluate_core` and CLI `evaluate-core --input PATH` implement the CR-W-only profile, spec `0.3.0-draft`, evaluator version `s1-core-1.0.0`. The input contract is in [stage1-core-adoption.md](../experiments/q001/stage1-core-adoption.md). Every accepted certificate must pass all five R044 gates with verified, applicable, temporally valid evidence, both decisions and relevant exceptions. No frequency filter, jurisdiction separator, identity dimension or label-derived boundary exists in this path.
+
+Gate records are externally grounded normalized proof attestations. The evaluator checks their state, provenance and applicability envelope; it does not infer truth from a URL, interpret natural-language laws, verify source contents or prove geometry from scope IDs. A producer must justify every gate conjunct, including nonempty/disjoint/homogeneous scopes, class coherence, route matching, exceptions and territorial/standing classification. Missing proof remains unknown. The checked-in example is synthetic and asserts no geographic fact.
+
+Core completeness requires separately evidenced full coverage and equal normalized hard functions for all seven accepted dimensions, at one scope/time. It never consumes historical synthetic completeness tokens or requires CR-J/identity. A verified certificate takes precedence over unrelated unknowns; a contradicting positive full-equality proof creates a data/source conflict requiring resolution. Output goes to stdout and cannot rewrite historical result files. The public historical `Profile` enum deliberately remains exactly P1/P2/P3; core identification is separate.
+
+## Historical engine
+
+Version 0.2.0 implements the historical Q001 pairwise contract for spec 0.2.0-draft. Its serialization version and profile definitions remain pinned for reproduction; the paragraphs below describe that historical behavior, not current production adoption.
 
 ## Contract mapping
 

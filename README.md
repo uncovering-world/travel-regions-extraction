@@ -4,7 +4,7 @@ Working specification and experimental data for building a reproducible, single-
 
 The partition is constructed in two internal stages. Stage 1 establishes mandatory hard boundaries. Stage 2 may subdivide each Stage 1 cell using destination semantics. The invariant `Stage2Partition refines Stage1Partition` prevents later work from crossing a mandatory boundary. These stages are not a user-visible hierarchy; the Stage 2 output is the single-level canonical partition.
 
-The project does not yet contain a final world partition and does not select a winner among profiles P1, P2, and P3.
+The current normative Stage 1 production profile is **`S1-core-v1`**, containing only **CR-W: proven hard territorial TravelDecision discontinuity**, subject to all five proof gates in spec R044. CR-J remains a well-defined normative candidate, not adopted. Undefined territorial/legal identity is excluded; P1/P2/P3 remain historical non-production experiment profiles. No final world partition is produced.
 
 ## Repository contents
 
@@ -14,6 +14,17 @@ The project does not yet contain a final world partition and does not select a w
 - `docs/partition-architecture.md` — concise guide to the two-stage construction model;
 - `data/adversarial-test-set.csv` — adversarial corpus for future experiments;
 - `experiments/q001/` — the complete Experiment Q001 factual dataset, evaluator contract, fixtures, provenance, and validation artifacts.
+- `experiments/q001/stage1-core-adoption.md` — CR-W adoption, residual questions, accepted-regression gaps and the separate current evaluator input contract.
+
+## Current Stage 1 core
+
+```bash
+PYTHONPATH=src python3 -m ctr_evaluator evaluate-core --input experiments/q001/stage1-core-example.json
+```
+
+The example is a synthetic proof fixture, not geographic evidence. Real inputs require an explicit versioned CR-W gate audit: nonempty disjoint scopes, matched civilian short-stay context, territorial legal effect, standing rule at the comparison time, and verified evidence for both decisions and relevant exceptions. One valid witness is sufficient regardless of class frequency. A missing certificate does not imply `hard_compatible`; positive full equality is required only across accepted hard decision dimensions. Jurisdiction and identity are not completeness requirements.
+
+Claims, dispute/control/military labels, dependency, autonomy, overseas and island status cannot split by themselves. D004–D007 remain accepted product regressions, even where CR-W does not guarantee them. Q001 is narrowed; Q002/Q004/Q005/Q006/Q007/Q008/Q009/Q011 remain open in their residual scope. Stage 2 is not implemented.
 
 ## Validate Q001
 
@@ -26,9 +37,9 @@ The expected result for the current snapshot is `PASS`, with 49 comparisons, 56 
 
 The reference evaluator implements `experiments/q001/evaluator-contract.md`. Interpret real-data outcomes together with their explicit data and model blockers.
 
-## Reference pairwise evaluator
+## Historical Q001 reference evaluator
 
-The minimal open-world evaluator implements the Q001 Stage 1 profiles P1, P2, and P3. It emits pairwise hard-boundary outcomes only and does not build a world partition. `hard_compatible` means that no Stage 1 boundary is required based on complete, equal hard signatures; it does not instruct Stage 2 to place the pair in one final region. P3 concerns unresolved territorial/legal identity and is not a destination evaluator.
+The historical evaluator implements P1/P2/P3 under contract/spec `0.2.0-draft`, preserving evaluator `0.2.0` serialization and the 147 recorded outputs. These profiles are not the current normative production profile. Historical P1 certificates lack the full new gate audit and are not automatically CR-W certificates. P3 is non-production and model-unresolved where identity matters, preserving already sufficient historical P1/P2 splits; it is not a Stage 2 destination evaluator. `hard_compatible` is always profile-relative and never a final-region merge instruction.
 
 Python 3.11 or newer is required. For a development installation:
 
@@ -54,4 +65,4 @@ Set another Q001 directory with the global option before the subcommand:
 python -m ctr_evaluator --q001-dir path/to/q001 evaluate-all --profiles P1,P2,P3
 ```
 
-A complete three-profile run updates deterministic artifacts under `experiments/q001/results/`. See `docs/evaluator-implementation.md` for adapter decisions and limitations of the current factual schema.
+A complete historical three-profile run writes deterministic artifacts under `experiments/q001/results/`; `evaluate-core` only emits its separately versioned JSON to stdout and never writes those artifacts. See `docs/evaluator-implementation.md` for both paths and the limits of evidence normalization.

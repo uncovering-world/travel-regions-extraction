@@ -1,6 +1,8 @@
 # Canonical Travel Regions — decision log
 
-Версия: 0.2.0-draft. Дата: 2026-09-12. Связанные документы: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Версия: 0.3.0-draft. Дата: 2026-09-12. Связанные документы: [spec.md](spec.md), [open-questions.md](open-questions.md).
+
+Текущее нормативное решение о Stage 1 — D032–D037. Предыдущие research/experimental записи сохраняют историю, но не отменяют более позднее явно принятое CR-W-only ядро. D004–D007 остаются accepted product constraints.
 
 ## Как читать журнал
 
@@ -300,3 +302,53 @@ Library ID приведены для точного поиска исходны�
 - Статус: tentative; прямо подтверждено направление для российских пограничных зон, универсализация на все типы режимных зон требует проверки Q005.
 - Основание: пользовательское уточнение от 12 сентября 2026 года.
 - История ID: при интеграции присвоен D031 вместо дублирующего D017 из upstream; исходный D017 о покрытии закрытых территорий сохранён.
+
+## CR-W core adoption
+
+### D032 — CR-W принят как текущее production Stage 1 ядро
+
+- Решение: `S1-core-v1` использует только CR-W — proven hard territorial TravelDecision discontinuity с G-SCOPE/G-CONTEXT/G-HARD/G-TIME/G-EVIDENCE из review. Один valid class-based witness достаточен независимо от частоты; frequency threshold отсутствует.
+- Rationale: доказанные разные territorial decisions несовместимы с единой принятой hard decision function. Ненайденный certificate не доказывает equality; `hard_compatible` требует positive complete equality всех принятых dimensions на одном S/t.
+- Правила: R007–R009, R012, R031, R038, R039, R044.
+- Статус: accepted. Q001 narrowed/resolved for regime-based mandatory separation; все Stage 1 semantics не объявляются complete.
+- Основание: явное пользовательское normative decision от 2026-09-12, после Q001 Stage 1 rule review.
+
+### D033 — CR-J определён, но не принят
+
+- Решение: CR-J имеет статус **well-defined normative candidate; not adopted**. Полное определение J1–J6 в review/candidate YAML сохраняется без сокращения для будущего experiment/decision. CR-J не separator и не обязательная signature dimension production `S1-core-v1`.
+- Rationale: CR-J может создать mandatory boundary при равных current traveller-facing hard functions; institutional responsibility — самостоятельный нормативный выбор, не доказанный current travel discontinuity. Дополнительное empirical coverage не доказано текущими 49 cases.
+- Правила: R011, R038, R044.
+- Статус: accepted deferral; adoption of CR-J unresolved in Q001.
+- Основание: явное пользовательское решение от 2026-09-12. Эта запись отличается от рекомендации принять W OR J в историческом review.
+
+### D034 — Undefined territorial/legal identity исключена из production
+
+- Решение: **territorial/legal identity alone is not an accepted Stage 1 hard separator**. Undefined identity не входит в production или production-candidate hard semantics. P3 — historical, non-production, model-unresolved profile, не Stage 2 destination model.
+- Rationale: общего операционального predicate нет; labels, registry и politically salient place lists не заменяют его. Future explicit legal-status rule требует отдельного решения Q006.
+- Правила: R010, R038, R042, R044.
+- Статус: accepted. Historical P3 sufficient P1/P2 outcomes и identity blockers сохраняются как результаты старого эксперимента.
+- Основание: явное пользовательское решение от 2026-09-12.
+
+### D035 — Claims, disputes, control и category labels недостаточны
+
+- Решение: disputed flag, claim, different recognition/controller/military control, dependency, autonomy, overseas и island labels самостоятельно не создают Stage 1 split. Только их доказанные actual hard territorial travel consequences могут поддержать CR-W.
+- Rationale: факт о status/control не доказывает различие D; они сохраняются в собственных factual layers и unresolved Q006/Q007/etc., без скрытой hard dimension.
+- Правила: R015, R016, R018, R022–R024, R039, R044.
+- Статус: accepted.
+- Основание: явное пользовательское решение от 2026-09-12.
+
+### D036 — Accepted product regressions не являются hardcoded правилами
+
+- Решение: D004/D005/D006/D007 не удаляются и не понижаются. Их статус — accepted product regression constraint, отличный от currently derivable Stage 1 rule. Если CR-W не гарантирует constraint, сохраняется явный незакрытый конфликт/requirement.
+- Rationale: general rule нельзя выводить из desired answer. Для Réunion есть regime mechanism, но complete witness в snapshot не собран; blanket UKOT guarantee из CR-W не следует; Crimea не имеет Q001 factual dossier; Western Sahara west / Morocco не имеет доказанного CR-W. Никаких special cases, claimed resolution через Stage 2 или подмены отдельного региона dispute overlay.
+- Правила: R008, R009, R018, R022, R024, R044; остаток Q006/Q011 и relevant data/model gaps.
+- Статус: accepted distinction; accepted constraints остаются незакрытыми в недоказанной части.
+- Основание: явное пользовательское решение от 2026-09-12.
+
+### D037 — Historical profiles и current production разделены
+
+- Решение: P1/P2/P3 сохраняют historical contract `0.2.0-draft`, profile version `q001-0.2.0` и evaluator serialization `0.2.0`. Новый `S1-core-v1` имеет собственный proof input, evaluator version `s1-core-1.0.0` и spec `0.3.0-draft`. Старые P1 results не переименовываются в production results; factual dataset и старые result files не изменяются.
+- Rationale: historical witness schema не содержит полного CR-W gate audit; перенос требует нового versioned certificate. J/identity не наследуются в production completeness.
+- Правила: R008, R033, R035, R038, R044.
+- Статус: accepted implementation consequence of D032–D034.
+- Основание: явное пользовательское требование воспроизводимости от 2026-09-12.

@@ -1,5 +1,7 @@
 # Experiment Q001 — factual dataset
 
+Historical P1/P2/P3 experiment; facts and recorded results remain unchanged. Current production adoption is **CR-W only**, profile `S1-core-v1`, not a reinterpretation of these results. CR-J is well-defined but not adopted; P3 is non-production/model-unresolved, not Stage 2. See [stage1-core-adoption.md](stage1-core-adoption.md) for the decision and separate proof input contract.
+
 Срез проверки: **11 сентября 2026**. Набор предназначен для сравнения трёх гипотез, а не для выбора canonical regions.
 
 - **P1 — regime_only:** существенный TravelDecision witness в scope R007.

@@ -1,5 +1,7 @@
 # Q001 — Stage 1 rule review
 
+Последующее решение пользователя: принят **только CR-W** в `S1-core-v1`; CR-J — well-defined normative candidate, not adopted. См. [adoption record](stage1-core-adoption.md). Остальной текст сохранён как исторический анализ, включая прежнюю рекомендацию W OR J; она не является текущей принятой нормой.
+
 Дата review: 2026-09-12. Статус: **candidate analysis; normative changes not applied**.
 
 Рекомендация: **B — Q001 can be narrowed**. Минимальный кандидат — доказанная территориальная разница hard TravelDecision **OR** доказанная самостоятельная конечная admission competence. Неопределённую territorial/legal identity исключить из предлагаемого production profile. Отдельный control separator сейчас не добавлять: доказанные admission/access consequences уже покрываются первым основанием, структурированная фактическая admission jurisdiction — вторым. Остаточные вопросы legal status, доступа и контроля остаются явно ограниченными Q006/Q005/Q007/Q008/Q009.

@@ -1,4 +1,16 @@
 schema_version: q001.stage1-rule-candidates.v1
+# The comparison/recommendation fields below preserve the historical review.
+# They are not the current production profile. J1-J6 remain unchanged.
+current_adoption:
+  record: stage1-core-adoption.md
+  spec_version: 0.3.0-draft
+  profile: S1-core-v1
+  mandatory_separator_set: [CR-W]
+  CR_W: accepted
+  CR_J: well-defined normative candidate; not adopted
+  territorial_legal_identity_alone: not_an_accepted_Stage_1_hard_separator
+  P3: historical_non_production_model_unresolved_not_Stage_2
+  decision_refs: [D032, D033, D034, D035, D036, D037]
 artifact_kind: normative_candidate_comparison
 status: proposed_not_adopted
 review_date: '2026-09-12'

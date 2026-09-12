@@ -1,6 +1,6 @@
 # Canonical Travel Regions — рабочая спецификация
 
-Версия: 0.2.0-draft. Дата: 2026-09-12. Статус: экспериментальная спецификация, не утверждённая мировая классификация.
+Версия: 0.3.0-draft. Дата: 2026-09-12. Статус: CR-W принят как текущее production Stage 1 ядро; полная семантика Stage 1 и мировая классификация не завершены.
 
 ## Основание и границы достоверности
 
@@ -46,6 +46,8 @@ Canonical означает «однозначный результат при ф
 
 ### R007 — Контекст путешественника и проверяемое различие [tentative; Q002]
 
+Для текущего `S1-core-v1` действуют принятые gates R044: единый versioned civilian short-stay scope, непротиворечивый непустой class-based C, matched logical trip и все влияющие exceptions. Один допустимый редкий класс достаточен без frequency threshold. Результат отказа на одной стороне допустим; реальная совершённая поездка и разрешённый въезд на обе стороны не требуются. Сравниваются нормативные требования/допустимость, а не разные discretionary решения офицеров. Полный набор будущих traveller contexts остаётся Q002.
+
 Контекст C содержит гражданства, документы и их типы, резидентство, цель, длительность, предыдущие поездки, маршрут, точку въезда, способ транспорта, сопровождаемые товары/животных и дату. Базовая область эксперимента: гражданские краткосрочные посещения, включая редкие документы и специальные разрешения; работа, переселение, дипломатические и военные миссии не образуют первичный split. Ограничение длительности задаётся применимой политикой, а не универсальными 90 днями.
 
 TravelDecision различает admission, требуемое разрешение, принимаемые документы, условия пребывания/выезда, обязательные процедуры, физическую доступность и законность по каждой релевантной юрисдикции. Для split по различию условий нужен **witness**: конкретный допустимый C и два назначения A/B, для которых отличается существенное решение. Маршрут сравнивают по одинаковому классу поездки; само различие координат destination или названий аэропортов не является witness.
@@ -54,7 +56,7 @@ TravelDecision различает admission, требуемое разрешен
 
 `must_separate(A,B,profile)` and `hard_compatible(A,B,profile)` are independent Stage 1 predicates. `must_separate` means sufficient positive evidence forbids A and B from occupying one final canonical travel region under the selected profile. `hard_compatible` means positive evidence establishes equivalence across the profile's complete hard signature and no mandatory-separation certificate applies. It means only that Stage 1 requires no boundary between A and B. It does not decide whether Stage 2 places them in one final region. `not must_separate` does not imply `hard_compatible`.
 
-Каждое `must_separate(A,B,profile)` содержит rule_id, profile, географический scope A/B, as_of, проверенные предпосылки, факты с источниками и либо witness R007, либо разрешённое выбранным profile институциональное основание R010/R011. Для regime-based split witness должен входить в scope R007, относиться к hard dimension, иметь достаточное evidence и не сводиться к local overlay или детали конкретной точки входа. Слов «особый», «удалённый», «существенный» без операционального доказательства недостаточно. Неизвестная предпосылка остаётся неизвестной, а не превращается в false.
+Каждое `must_separate(A,B,profile)` содержит rule_id, versioned profile/traveller scope, географический scope A/B, as_of, проверенные предпосылки и факты с источниками. В production `S1-core-v1` достаточен только CR-W certificate по R044 со всеми пятью gates. Институциональные основания R011 доступны лишь историческим экспериментам P2/P3, не текущему production profile. Отсутствие CR-W certificate не есть `hard_compatible`. Неизвестная предпосылка остаётся неизвестной, а не превращается в false.
 
 `must_separate(A,B)` означает, что ни один итоговый регион не содержит точки обеих областей. Это не обещает, что A целиком станет ровно одним регионом: возможен дополнительный split внутри A.
 
@@ -62,7 +64,7 @@ TravelDecision различает admission, требуемое разрешен
 
 1. Fix U, time, rule profile, and facts. Build candidate geometries without using desired output names.
 2. Build their common geometric refinement as technical atoms. These atoms are not user-visible regions.
-3. Stage 1 computes the coarsest partition that satisfies every accepted mandatory-separation constraint. For each atom, evaluate the selected profile's hard signature as specified by R038.
+3. Stage 1 computes the coarsest partition satisfying the accepted hard rules of the versioned profile (currently only CR-W, R044). Accepted product regression constraints without a derivation are reported as unresolved requirements, not inserted as hardcoded boundaries. For each atom, evaluate the profile's hard signature as specified by R038.
 4. `signature_complete(A,profile)` is true only when every required profile dimension has an evidence-backed `known_value`, `known_absence`, or justified `not_applicable` state. `unknown` and `unresolved_model_semantics` make the signature incomplete.
 5. `signatures_equal(A,B,profile)` can be true only when both signatures are complete and every typed hard dimension is equal. A finite set of traveller examples cannot prove completeness.
 6. `hard_compatible` requires complete equal hard signatures and no applicable `must_separate` certificate. Absence of a witness, an empty search result, and `not must_separate` are not positive compatibility evidence.
@@ -71,19 +73,21 @@ TravelDecision различает admission, требуемое разрешен
 
 Hard-signature equality must be an equivalence relation, and Stage 1 must be order-independent. If hard constraints permit multiple coarsest partitions, the Stage 1 result is unresolved; names and political labels cannot break the tie. The rule for selecting the destination partition within each Stage 1 cell remains open in Q012.
 
-### R010 — Самостоятельная territorial identity [unresolved; Q001]
+### R010 — Самостоятельная territorial identity [not accepted as a hard separator; Q001, Q006]
 
 Вторая версия исследования предлагает запрещать слияние устойчивых внешних территориальных юрисдикций даже при равных travel policies. Общего проверяемого определения «внешней» и «самостоятельной» идентичности пока нет. Ни ISO-код, ни собственный флаг, ни туристическая известность его не заменяют.
 
-В эксперименте можно сравнить `regime_only`, `jurisdiction` и `jurisdiction_plus_identity`, но identity-aware profile обязан публиковать общий identity predicate или конкретный registry с основаниями. Ручной registry — явная гипотеза, не автоматически выведенное правило. Пока `Q001.identity` не закрыт, evaluator не угадывает identity по имени, статусу, ISO-коду или типу территории: когда outcome зависит от identity, он возвращает `model_unresolved` с `blocked_by_model: [Q001.identity]`.
+Territorial/legal identity alone is not an accepted Stage 1 hard separator. Undefined identity исключена из production и production-candidate semantics. P3 сохранён только как historical non-production, model-unresolved profile: при зависимости результата от identity он возвращает `model_unresolved` / `Q001.identity`; уже доказанный historical P1/P2 split сохраняется. P3 не является Stage 2 destination model. Registry, ISO-код и curated exceptions не заменяют predicate. Возможный будущий точно определённый legal-status rule требует отдельного решения Q006; неопределённая identity не блокирует completeness текущего CR-W core.
 
-### R011 — Immigration / admission jurisdiction [tentative]
+### R011 — Immigration / admission jurisdiction [well-defined normative candidate; not adopted]
 
-Разные самостоятельные территориальные органы с конечной компетенцией решать обычный допуск, отказ и условия пребывания требуют split. Делегированное консульское представительство, отдельный офис и разная форма штампа не являются отдельной юрисдикцией. Нужно различать visa issuer, admission authority и enforcement authority. Совпадение краткосрочной визовой политики не отменяет институционального различия.
+CR-J остаётся well-defined normative candidate, not adopted. Его полное шестичастное определение J1–J6 сохранено в [review §4.2](../experiments/q001/stage1-rule-review.md#42-operational-definition-independent_final_admission_jurisdiction) и [candidate schema](../experiments/q001/stage1-rule-candidates.yaml): constitutive allocation, territorial legal effect, reserved ordinary competence, non-substitution, attribution/delegation/review closure и effective territorial application. Ни одна premise не сокращается. Capacity не равна office, visa issuer, enforcement actor или sovereign label.
+
+CR-J может требовать границу при одинаковых current hard decision functions; это отдельный normative выбор об институциональной ответственности. Он не принят как current travel discontinuity и не входит в production hard signature/completeness. Historical P2/P3 сохраняют прежнюю experimental R011 семантику. Доказанные traveller consequences институциональных фактов могут поддержать CR-W, но разница компетенций сама по себе не даёт production split.
 
 ### R012 — Visa / immigration scopes [tentative]
 
-Разные территориальные области действия визы, ETA, разрешения на въезд или допустимых документов требуют split, если выполнены R007/R008 и речь идёт о допуске на территорию, а не об отдельном объекте внутри неё. Достаточен один документированный класс путешественников; различие не обязано затрагивать большинство. Изменение требований одновременно по всей области обновляет policy, но не обязательно геометрию. Общая виза сама по себе не требует merge.
+Разные territorial visa/ETA/permit/document applicability требуют split при verified CR-W certificate R044, включая все пять gates, обе доказанные стороны решения и relevant exceptions. Один valid class-based witness достаточен независимо от частоты класса. Общая виза не доказывает полную hard equality. Изменение требований одновременно по всей области обновляет policy, но не обязательно геометрию.
 
 ### R013 — Customs, biosecurity, fiscal scope [unresolved; Q004]
 
@@ -91,7 +95,11 @@ Hard-signature equality must be an equivalence relation, and Stage 1 must be ord
 
 Не решено, почему этот тест должен отделять, например, специальную островную зону, но не каждую внутреннюю биосанитарную зону большого государства. Пока граница класса не определена, `customs-only` и `biosecurity-only` случаи дают `model_unresolved`, а не автоматический split. Customs никогда не подменяет immigration.
 
+Это нерешённость дополнительного experimental hard rule. В `S1-core-v1` самостоятельная customs/biosecurity dimension не принята и не требуется для completeness; одно такое label не блокирует положительное равенство принятых dimensions. Если конкретный предполагаемый CR-W effect имеет неразрешённую hard classification, сохраняется blocker соответствующего gate.
+
 ### R014 — Destination permits и специальные зоны [unresolved; Q005]
+
+В текущем production только territorial legal effect, прошедший G-HARD и остальные gates R044, даёт CR-W. Нерешённая граница territorial presence permit / spatial overlay остаётся Q005/Q009, даже если permit verified. Whole administrative scope, размер и название destination не закрывают gate.
 
 Разрешение, регулирующее доступ к месту внутри уже доступной traveller-facing admission jurisdiction, по умолчанию является spatial access overlay, а не основанием split. К этому классу относятся билеты и бронирования, пограничные и военные зоны, охраняемые объекты, локальные заповедники, закрытые маршруты и activity-specific permits. Их геометрия может пересекать административные границы или совпадать с целым муниципалитетом, районом и даже субъектом: площадь и совпадение с административной единицей сами по себе не превращают overlay в canonical region.
 
@@ -101,9 +109,11 @@ Hard-signature equality must be an equivalence relation, and Stage 1 must be ord
 
 ### R015 — De facto control [tentative; Q007]
 
-Разные устойчивые фактические системы допуска и принуждения, меняющие въезд, документы, маршрут или физическое пересечение, требуют split по документированному operational scope. Простая смена подразделения, патруля или муниципальной администрации недостаточна. Контроль имеет вид деятельности и может быть совместным; вектор контролирующих полномочий предпочтительнее единственного поля controller. Неопределённая или подвижная зона контроля не превращается в точную линию без оговорки R030.
+Control label или различие military control самостоятельно не требуют split. Control evidence может поддержать CR-W, если доказывает actual hard territorial travel consequence и все gates R044, включая territorial legal effect и standing rule. Различие физического принуждения без определённого hard consequence не добавляется скрытой dimension; civil, military, border и enforcement roles остаются раздельными, shared/noninstitutional control — Q007, temporal uncertainty — Q008. Неопределённая operational geometry не превращается в точную линию без R030.
 
 ### R016 — Что само по себе недостаточно для split [tentative]
+
+Принято для текущего production: `disputed=true`, `claim exists`, `recognition differs`, `controller label differs`, `military control differs`, dependency label, autonomous status, overseas status и island status **не являются независимо достаточными separators**. Их actual hard territorial travel consequences могут участвовать в CR-W evidence; labels не становятся signature dimensions. Accepted product regressions D004–D007 сохраняются отдельно от derivable hard rules.
 
 Административная граница, автономия, язык, этничность, религия, валюта, флаг, часовой пояс, ISO-код, политическое признание, территориальная претензия, отдельный штамп, островной статус, удалённость, туристическая идентичность, узнаваемость destination, itinerary usefulness и транспортное неудобство сами по себе не создают Stage 1 `must_separate`. Это не запрет split по другим hard основаниям и не запрет Stage 2 subdivision по destination semantics. Отрицательный тест означает «данный фактор недостаточен», а не «все остальные факторы отсутствуют».
 
@@ -111,13 +121,13 @@ Hard-signature equality must be an equivalence relation, and Stage 1 must be ord
 
 EU/Schengen/CTA и другие общие пространства — переиспользуемые versioned policies. Claims, признание, advisories, санкции, временные санитарные ограничения, маршруты, локальные access zones допускают собственную геометрию и пересечения. Поиск применимого overlay обязан учитывать точку/маршрут/C/t, а не только region_id.
 
-Наличие overlay не отменяет hard split R011/R012/R015. Иначе любое неоднородное пространство можно было бы объявить одним регионом с произвольными вложенными проверками. Однородность R006 относится к утверждённым hard dimensions, не ко всем возможным местным правилам.
+Наличие overlay не отменяет verified CR-W split R044. Иначе любое неоднородное пространство можно было бы объявить одним регионом с произвольными вложенными проверками. Однородность R006 относится к утверждённым hard dimensions, не ко всем возможным местным правилам. CR-J не принят; historical R011 splits не подменяют текущую production норму.
 
 ## Категории территорий
 
 ### R018 — Dependent territories [tentative; Q001]
 
-Зависимость создаёт political relation и кандидата для анализа. Нельзя наследовать правила метрополии без подтверждённой ссылки на общий policy. Самостоятельная admission jurisdiction требует split по R011; статус зависимости без неё упирается в R010. Одна зависимая территория может содержать несколько регионов. Требование пользователя про UKOT сохраняется в D004 как product constraint, но конфликтующие claims не могут нарушать R004.
+Зависимость создаёт political relation и кандидата для анализа. Нельзя наследовать metropolitan policies без evidence. В текущем core split требует CR-W; самостоятельная admission jurisdiction без него остаётся непринятым CR-J candidate, dependency/overseas status не separator. D004 сохраняется accepted product regression constraint, но не гарантирован CR-W и не hardcoded. Одна зависимая территория может содержать несколько регионов; claims не могут нарушать R004.
 
 ### R019 — Overseas territories [tentative; Q001]
 
@@ -133,17 +143,17 @@ EU/Schengen/CTA и другие общие пространства — пере
 
 ### R022 — Disputed territories [tentative; Q006]
 
-Спор создаёт самостоятельный объект dispute с геометрией и юридическими позициями, но не автоматически canonical region. Различие lawful routes, территориального допуска или фактического доступа может дать split по R012/R015. Признание и claim polygon не присваивают точки. Требование сохранить спорную область отдельно даже без этих различий остаётся unresolved Q006.
+Спор создаёт объект dispute с геометрией и юридическими позициями, но не автоматически canonical region или Stage 1 boundary. Доказанное territorial admission/legal-route/access consequence может дать CR-W по R044; dispute/claim/recognition самостоятельно недостаточны. Claim polygon не присваивает точки. Требование сохранить legal-status область отдельно без CR-W остаётся unresolved Q006, а accepted D006/D007 не превращаются в rules и не считаются выполненными overlays либо будущим Stage 2.
 
 ### R023 — De facto states [tentative]
 
-Самостоятельная фактическая система территориального допуска оценивается по R011/R015 независимо от числа признающих государств. Контрпример: одинаковая граница и admission regime при изменившемся признании должны сохранять partition. Название государства и заявленный им весь контур не заменяют геометрию фактического scope.
+Фактическая система территориального допуска оценивается по CR-W/R044 независимо от числа признающих государств. Самостоятельность admission competence оценивается отдельно как непринятый CR-J candidate R011. Контрпример: прежние hard decisions при изменившемся recognition не дают нового split. Название государства и claim contour не заменяют operational scope.
 
 ### R024 — Occupation и disputed control [tentative; Q006, Q007]
 
 De jure sovereignty/legal status, de facto control и traveller reality хранятся отдельно. Первое включает нормативное основание и позицию компетентного источника, а не только взаимозаменяемый список претензий. Второе описывает исполнение на местности. Третье содержит физический доступ и legality_under каждой релевантной юрисдикции; фактический пропуск не доказывает законности маршрута.
 
-Если внутри спорной/оккупированной области существуют разные существенные operational regimes, она делится по R015. Отделение всей области от обычной территории контролирующего государства требует отдельного сертификата. Сам факт occupation не задаёт точный contour и число cells. Нельзя автоматически использовать административную границу области вместо фактической линии контроля.
+Если внутри области доказан CR-W discontinuity, соответствующие scopes разделяются по R044. Отделение от ordinary territory того же controller требует своего CR-W certificate; внутренняя control boundary его не заменяет. D006 касается ordinary Ukraine, D013 об ordinary Russia остаётся tentative; D007 не гарантирован при отсутствии CR-W. International legal status хранится независимо от claims, но сам label не hard dimension. Правовая применимость к C должна доказываться независимо от bare claim, иначе Q006. Ни occupation, ни military control не задают автоматически contour или число cells.
 
 ### R025 — Uninhabited и закрытые территории [tentative]
 
@@ -157,13 +167,15 @@ De jure sovereignty/legal status, de facto control и traveller reality хран
 
 ### R027 — Transit, preclearance и погранпункты [tentative]
 
+Для CR-W различают место оформления и territorial legal effect. Matched logical route class может обусловливать territorial document/admission rule; имена порта, перевозчика, очередь и processing logistics сами не split. Site/activity/entry-event differences не удовлетворяют G-HARD без доказанного territorial effect; отсутствие маршрута не кодируется как legal refusal.
+
 Airside, портовая процедура, иностранный preclearance и штамп относятся к EntryPoint/EntryEvent. Они не перемещают физическую географию в другое государство. Въезд в иммиграционном смысле и физическое присутствие раздельны. Контрпримером к split служит аэропорт с разными правилами transit и landside без самостоятельной территориальной юрисдикции.
 
 ## Геометрия, время, воспроизводимость
 
 ### R028 — Выбор границы по основанию split [tentative]
 
-Граница берётся из scope доказанного разделения: admission scope для R012, operational line для R015, соответствующая boundary для активного customs/permit профиля. Administrative polygon разрешён только как документированный proxy с точностью и основанием. Нельзя подменять operational line линией признания, границей advisory или цветом политической карты.
+В production граница берётся из certified CR-W scope. G-SCOPE требует nonempty disjoint scopes и доказанного effect на каждом сертифицируемом фрагменте; heterogeneous/overlapping reference objects сначала требуют явных disjoint fragments. Witness между точками не доказывает blanket separation containing entities. Administrative polygon разрешён только как документированный proxy с точностью и основанием. Claim line, advisory buffer и military map не заменяют scope certificate.
 
 Пересекающиеся обязательные границы уточняют друг друга. Правило «последний полигон побеждает» и blanket precedence из первой версии исследования здесь **не принимаются**: они могут стереть другое обязательное различие. Противоречивые описания одной границы проходят R030/R034. Утверждённого универсального ранжирования всех поставщиков нет.
 
@@ -178,6 +190,8 @@ Checkpoint lookup не переопределяет territory(point): отдел
 Хранятся исходная оценка границы, uncertainty geometry/precision, дата и альтернативы. Approximate assignment допустим в явно provisional release с quality flag; это единственный технический ответ, но не точное знание контроля. Если даже такой выбор не имеет обоснования, сборка возвращает неразрешённую область отдельно и не получает статус complete canonical release. Неизвестная область не является автоматически buffer state или terra nullius.
 
 ### R031 — Temporal model [tentative; Q008]
+
+Для текущего CR-W принят sufficient G-TIME R044: effective-at-t standing class-based или constitutive instrument, не активированный исключительно конкретным incident/emergency/event. Нет age/duration threshold: новая standing jurisdiction/rule может действовать сразу; expiry сама не исключает норму; долгое emergency ограничение не становится standing от возраста. Неопределённая классификация остаётся Q008. Пересмотр между releases не нарушает R041 о refinement стадий одной версии.
 
 Факт, policy membership, geometry и control record имеют `valid_from <= t < valid_to`, где открытый конец обозначается null. Отдельно хранятся `recorded_from/recorded_to`: когда система знала эту версию факта. `retrieved_at` и `last_verified_at` не заменяют время истинности. Неизвестная effective date остаётся неизвестной, а не датой загрузки.
 
@@ -221,7 +235,7 @@ CSV содержит специально трудные **кандидаты/о
 
 Pairwise evaluator работает в открытом мире: `no witness found != hard_compatible`, `unknown != false`, `not must_separate != hard_compatible`. Порядок проверки терминальных оснований детерминирован: (1) выявить конфликт нормативных derivations; (2) принять достаточный `must_separate` certificate; (3) вернуть `model_unresolved`, если неопределённый model predicate может изменить результат; (4) вернуть `data_unknown`, если конкретная data problem не позволяет оценить обязательную dimension; (5) принять `hard_compatible` только по полной равной signature; (6) иначе вернуть `separation_not_proven`.
 
-Рабочие profiles для Experiment Q001:
+Historical non-production profiles для Experiment Q001 (contract/spec `0.2.0-draft`, evaluator `0.2.0`; прежние outcomes не переинтерпретируются):
 
 - `P1 regime_only`: hard admission-decision scope, visa/document scope, релевантные hard permits и включённые profile route-dependent hard differences. Проверенный hard witness даёт `must_separate`; полные равные P1 signatures дают `hard_compatible`; отсутствие witness само по себе ничего не доказывает.
 - `P2 jurisdiction`: P1 плюс final admission jurisdiction. Независимо подтверждённые разные конечные admission jurisdictions дают `must_separate`, даже если текущая visa policy совпадает. Merge требует равенства P1 signature и jurisdiction dimensions.
@@ -229,11 +243,13 @@ Pairwise evaluator работает в открытом мире: `no witness fo
 
 Этот минимальный состав signature нужен для реализации evaluator, но не закрывает вопросы о полном множестве hard outputs, customs, permits, route dependence и identity.
 
+Текущий normative production profile — **`S1-core-v1`**, separator set **`[CR-W]`**, spec `0.3.0-draft`, R044. Он не является переименованием historical P1. Production completeness требует positive full equality только принятых hard decision dimensions R044 на одном S/t/scope; CR-J, undefined identity и control/status labels не требуются. Ненайденный certificate не равен `hard_compatible`. Нерешённость relevant принятой dimension/gate сохраняет model/data blocker; исключённая identity сама по себе production не блокирует. Ни historical results, ни sampled policies не считаются новым production audit.
+
 ## Two-stage architecture
 
 ### R039 — Stage 1 Mandatory Separation [accepted]
 
-Stage 1 establishes boundaries that the final partition may not cross. It considers only explicitly defined hard dimensions, including accepted traveller-facing admission, document, territorial legal/access, final-admission-jurisdiction, and materially relevant stable-control rules. Tourism identity, cultural identity, administrative subdivision, autonomy, island status, remoteness, transport inconvenience, destination recognizability, and itinerary usefulness do not create a Stage 1 boundary without an independent hard rule.
+Stage 1 establishes boundaries that the final partition may not cross. Its current production core is only CR-W under R044 and all five proof gates. Final admission competence CR-J is a well-defined normative candidate, not adopted. Undefined territorial/legal identity, claims, recognition, dispute, control actors, military control, dependency, autonomy, overseas and island labels are not independent hard separators. Tourism/cultural/destination identity, administrative subdivision, remoteness, transport inconvenience and itinerary usefulness do not enter this evaluator. Accepted product constraints remain regressions even where the current core cannot derive them.
 
 ### R040 — Stage 2 Destination Partition [accepted; Q012]
 
@@ -251,11 +267,35 @@ Equivalently, every Stage 2 cell is a subset of exactly one Stage 1 cell. If Sta
 
 ### R042 — Territorial/legal identity and destination identity [accepted; Q001, Q006, Q012]
 
-Territorial/legal identity concerns institutional status: separate legal or status entities, disputed international status, dependencies, constitutional territorial identity, and similar questions. It may become a Stage 1 hard separator only through an explicit accepted rule; Q001/Q006 remain unresolved. Destination identity concerns a coherent independent travel destination, traveller perception, itinerary structure, geography, and destination self-containment. It belongs to Stage 2. Neither concept implies the other, and P3 does not model destination identity.
+Territorial/legal identity concerns institutional status: separate legal or status entities, disputed international status, dependencies, constitutional territorial identity, and similar questions. Undefined territorial/legal identity alone is not accepted and is excluded from production and production-candidate hard semantics (D034). A future explicitly defined legal-status rule would require a separate decision; Q001 is narrowed and Q006 remains open. Destination identity concerns a coherent independent travel destination, traveller perception, itinerary structure, geography, and destination self-containment. It belongs to Stage 2. Neither concept implies the other, and historical non-production P3 does not model destination identity.
 
 ### R043 — Project boundary [accepted]
 
 This repository covers Stage 1 Mandatory Separation, Stage 2 Destination Partition, and their final single-level Canonical Travel Regions partition. Any finer subdivision beyond that canonical destination partition is outside this project's ontology and must not influence Stage 1 or Stage 2 rules.
+
+### R044 — CR-W: proven hard territorial TravelDecision discontinuity [accepted; D032]
+
+Current production profile: `S1-core-v1`. **A verified CR-W certificate is sufficient for `must_separate`.**
+
+```text
+exists C in S_v, d in H_v:
+    G-SCOPE AND G-CONTEXT AND G-HARD AND G-TIME AND G-EVIDENCE
+    AND proven(HardTravelDecision_d(A,C,t) != HardTravelDecision_d(B,C,t))
+```
+
+| Gate | Accepted sufficient requirements |
+|---|---|
+| G-SCOPE | Непустые непересекающиеся certified A/B или disjoint fragments; доказанное одинаковое relevant effect внутри каждого scope. Не blanket вывод о heterogeneous/overlapping containing objects. Geometry uncertainty сохраняется. |
+| G-CONTEXT | Один versioned traveller scope `civilian-short-stay-v1` и одно t; coherent nonempty civilian short-stay class, matched logical trip, фиксированы все influencing attributes и exceptions. Rare documents и class-based special permissions включены; work/settlement/diplomatic/military primary purposes исключены. Никакого frequency threshold или named-person selection. |
+| G-HARD | Разница принятой hard dimension имеет territorial legal entry/presence/stay/exit effect. Site/activity/facility/route logistics и processing event сами недостаточны. Whole administrative coverage не доказывает hard classification; неоднозначность permit/overlay остаётся Q005/Q009. Independently applicable legal obligation не выводится из одного claim. |
+| G-TIME | Class-based standing/constitutive rule действует на t, не является исключительно incident/emergency/event measure. Effective date, observation и retrieval раздельны; нет возрастного порога и требования знать будущее. Если тип меры не определён — Q008. |
+| G-EVIDENCE | Обе стороны D доказаны, relevant exceptions учтены. Каждая premise содержит проверенные source/locator, source competence, territorial/context scope и validity на t. Missing, provisional, conflicted и unknown evidence недостаточны. Verified statement не повышается до более сильного правового вывода. |
+
+Hard dimensions `H_v` (полные функции на одном `S_v`, а не выборки): `accepted_travel_document`; `visa_eta_admission_authorisation_requirement`; `territorial_authorisation_validity`; `entry_eligibility_or_prohibition`; `civilian_stay_conditions_duration_or_termination`; `permission_to_enter_or_be_present_in_territorial_scope`; `independently_applicable_legal_entry_or_exit_route_obligation`. Goods/customs/biosecurity dimensions не добавлены этим перечнем (Q004). Имена authority и output documents не являются semantic values сами по себе. Решения описывают правовые требования/допустимость, не random officer outcomes.
+
+Один прошедший gates witness достаточен независимо от числа носителей класса. **Absence of a CR-W certificate is not `hard_compatible`.** Compatibility требует положительного complete coverage/equality evidence по всем H_v для обоих scopes на одном S/t, включая exceptions, и отсутствия применимого certificate. Unknown не есть equality или split. CR-J и identity completeness не требуются. Исключённый label не blocker сам по себе; consequential unresolved hard predicate остаётся blocker. Если полный equality audit противоречит verified certificate, вход требует conflict resolution, не автоматического merge.
+
+Это принятое sufficient ядро, не завершение всех Stage 1 semantics. Q002/Q004/Q005/Q006/Q007/Q008/Q009/Q011 остаются открытыми в остаточной части. D004–D007 сохраняются accepted product regressions без гарантии вывести их из CR-W, без special-case rules и без обещания разрешить их через Stage 2.
 
 ## Проверки, которые должна реализовать первая сборка
 
@@ -266,7 +306,7 @@ This repository covers Stage 1 Mandatory Separation, Stage 2 Destination Partiti
 | V003 | R028–R030 | Общие рёбра, вершины, дырки, antimeridian и полюса имеют детерминированный lookup |
 | V004 | R007–R009, R038 | Каждый hard split имеет сертификат; `hard_compatible` имеет полную равную signature; перестановка входов не меняет результат |
 | V005 | R016–R017 | Переименование, новые claims, смена advisory и открытие рейса сами по себе не меняют partition |
-| V006 | R011–R012 | Общая visa policy не стирает разные admission jurisdictions; смена visa issuer при делегации не создаёт split |
+| V006 | R011–R012, R044 | Production: different jurisdiction alone не split и не dimension completeness; CR-W проверяется отдельно. Historical P2/P3 сохраняют R011 regression; delegated issuer не создаёт production split |
 | V007 | R022–R026 | Legal status и control независимы; overlapping Antarctic claims не дают overlapping regions |
 | V008 | R031–R033 | Один manifest воспроизводит идентичный результат; историческая коррекция доступна отдельно; нет overlap интервалов одной revision stream |
 | V009 | R034–R038 | unknown не превращается в false; отсутствие witness не становится `hard_compatible`; unresolved не засчитывается как определение региона |

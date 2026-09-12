@@ -1,26 +1,28 @@
 # Canonical Travel Regions — открытые вопросы модели
 
-Версия: 0.2.0-draft. Дата: 2026-09-12.
+Версия: 0.3.0-draft. Дата: 2026-09-12.
 
 Порядок отражает потенциальный масштаб изменения мировой карты: от изменения определения почти всех регионов к изменениям отдельных классов и истории. Это модельные вопросы. «Какой документ сейчас требуется?» и «Где проходит линия на дату t?» — задачи данных, не самостоятельные пункты этого списка.
 
-## Q001 — What creates a mandatory Stage 1 boundary: regime, jurisdiction, or territorial/legal identity?
+## Q001 — Narrowed: CR-W accepted; CR-J normative adoption remains open
 
-**Влияние: вся карта, включая обычные государства, зависимости и острова.** Правила R006, R009–R011, R018–R021, R038; решения D004, D009, D010, D012, D020.
+**Статус: narrowed; resolved for regime-based mandatory separation.** Правила R007–R012, R038/R039/R044; решения D032–D037. Текущее production Stage 1 ядро — `S1-core-v1`, только CR-W со всеми пятью gates. Один допустимый witness достаточен независимо от частоты; отсутствие certificate не equality.
 
-Первая версия исследования преимущественно предлагает делить по условиям поездки. Вторая вводит самостоятельную внешнюю territorial identity. Но «внешняя» не имеет нейтрального операционального определения. Если одинаковые визовые результаты дают merge, можно потерять отдельные юрисдикции. Если любое институциональное различие даёт split, можно получить федеративные субъекты и автономии.
+Открытый остаток Q001: принять ли CR-J как самостоятельную institutional responsibility dimension при возможном равенстве current hard D. CR-J — well-defined normative candidate, not adopted; J1–J6 полностью сохранены в [review §4.2](../experiments/q001/stage1-rule-review.md#42-operational-definition-independent_final_admission_jurisdiction) и [candidate YAML](../experiments/q001/stage1-rule-candidates.yaml). Нужен отдельный normative decision, а не дополнительные geographic facts ради preferred outcome.
 
-Нужно выбрать: только regime equivalence; самостоятельная admission jurisdiction плюс regimes; либо ещё отдельный territorial/legal identity layer, который запрещает совместное нахождение в Stage 1 cell. Подвопрос `Q001.identity` обозначает пока не определённый общий territorial/legal identity predicate. В третьем варианте нужен такой тест, а если его нет — признанный управляемый registry как часть продукта. Такой registry нельзя выдавать за дедукцию из travel rules. До закрытия подвопроса результат, зависящий от identity, должен быть `model_unresolved`, а не ручным split или `hard_compatible`.
+Undefined territorial/legal identity отвергнута из production и production-candidate core. `Q001.identity` сохраняется как historical P3 model blocker, не как обязательная production dimension. P3 non-production/model-unresolved и не является Stage 2 destination model. Возможное сохранение exact legal status без CR-W остаётся Q006; curated registry не разрешён этим решением.
 
-Q001 does not define destination identity. P1, P2, and P3 are Stage 1 hypotheses; P3 is not the future Stage 2 destination evaluator. Destination identity is tracked separately in Q012.
+P1/P2/P3 остаются historical profiles, результаты которых не переинтерпретируются как `S1-core-v1`. D004–D007 сохраняются accepted product regressions; если CR-W их не гарантирует, conflict/requirement остаётся явным, без автоматического переноса в Stage 2. Residual Q002/Q004/Q005/Q006/Q007/Q008/Q009/Q011 остаются открытыми; архитектурный Q012 также не решается здесь.
 
-**Различающий эксперимент:** Germany/France, UK/Jersey, Bermuda/UK, Åland/Finland, Sicily/Italy, Madeira/Portugal, Hawaii/US. Обезличить названия, сохранить факты и проверить одинаковое решение по одинаковым профилям. Отсутствие найденного regime witness не считается доказательством эквивалентности. **Критерий закрытия:** выбранный тест даёт результат без ссылки на заранее желаемое имя региона и отдельно определяет положительное доказательство `must_separate` и положительное доказательство `hard_compatible`. Product exceptions перечислены явно.
+**Следующий различающий experiment:** synthetic NX-01/NX-02/NX-04 из review — independent capacities versus offices/shared apex при полном одинаковом D, с проверкой совместимости этих premises с exact S/H. **Критерий закрытия остатка:** явно принять либо отвергнуть дополнительный institutional invariant CR-J с J1–J6 и generic counterexamples. Полная Stage 1 semantics этим не объявляется завершённой. [Adoption record](../experiments/q001/stage1-core-adoption.md).
 
 ## Q002 — Для какого множества путешественников и каких решений нужна однородность?
 
 **Влияние: почти все visa/permit/document границы.** R007, R011–R014, R038.
 
 «Обычный путешественник» не задаёт множество: гражданин, резидент, беженец, владелец emergency document, исследователь, яхтсмен и турист могут иметь разные права. Требуется ли split для одного редкого класса? Включать ли длительное пребывание, работу, медицинские и дипломатические поездки? Зависимость от маршрута тоже может быть не территориальной.
+
+Решённая часть D032/R044: в принятом civilian-short-stay-v1 один valid class-based witness достаточен без frequency threshold, включая rare documents; нельзя менять S ради отдельного case. Остаток — точная применимость и расширение context/hard-output domain, не повторный выбор частотного порога.
 
 Варианты: универсальность для всех лиц/целей; фиксированный гражданский short-stay scope; типовые профили с явно признанной неполнотой. Спецификация временно выбирает второй вариант и допускает редкие документы. Нельзя менять область C ради удобного результата отдельного case. Completeness относится только к явно выбранному profile и scope: она не означает знание всех мыслимых traveller contexts за пределами них.
 
@@ -79,6 +81,8 @@ R014 уже исключает локальные пограничные, вое
 **Влияние: карта во времени, особенно санитарные ограничения и конфликты.** R012, R015, R017, R031.
 
 «Временная мера» может длиться годы, а новая постоянная юрисдикция существует пока один день. Порог в 30/90/365 дней был бы модельным решением, а не фактом. Требуется решить, оцениваем ли мы намеренный срок, институциональную природу, реальную длительность или сочетание с hysteresis.
+
+R044 принимает узкий sufficient standing/constitutive gate для CR-W без age threshold; incident/emergency меры не повышаются по длительности. Остаток Q008 — неоднозначная institutional classification и более полная temporal semantics; вопрос не закрыт.
 
 **Эксперимент:** один scope с ограничениями на 1 день, 3 месяца и неопределённый срок; смена control при одинаковых travel consequences; новая admission jurisdiction с опубликованной датой начала. **Критерий закрытия:** предикат stability не требует знания будущего и задаёт события split/merge без исключений по странам.
 

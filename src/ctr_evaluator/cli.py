@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 
 from .fixtures import validate_fixtures
+from .core import evaluate_core
 from .loaders import InputError, load_q001
 from .model import Profile
 from .reporting import build_artifact, write_result_artifacts
@@ -38,6 +39,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     subparsers.add_parser("validate-fixtures", help="validate all synthetic contract fixtures")
 
+    core_parser = subparsers.add_parser("evaluate-core", help="evaluate an explicit S1-core-v1 CR-W proof bundle; never reinterpret historical Q001 inputs")
+    core_parser.add_argument("--input", required=True, type=Path, help="versioned JSON proof bundle")
+
     evaluate_parser = subparsers.add_parser("evaluate", help="evaluate one Q001 comparison")
     evaluate_parser.add_argument("--comparison", required=True)
     evaluate_parser.add_argument("--profile", required=True, choices=[item.value for item in Profile])
@@ -53,6 +57,9 @@ def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
     try:
+        if args.command == "evaluate-core":
+            _json_dump(evaluate_core(json.loads(args.input.read_text(encoding="utf-8"))))
+            return 0
         if args.command == "validate-fixtures":
             report = validate_fixtures(args.q001_dir)
             payload = {
