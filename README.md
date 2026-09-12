@@ -1,24 +1,54 @@
 # Canonical Travel Regions
 
-Рабочая спецификация и экспериментальные данные для построения воспроизводимого одноуровневого разбиения мира на canonical travel regions.
+Working specification and experimental data for building a reproducible, single-level partition of the world into canonical travel regions.
 
-Проект пока не содержит окончательного мирового partition и не выбирает победителя между профилями P1/P2/P3.
+The project does not yet contain a final world partition and does not select a winner among profiles P1, P2, and P3.
 
-## Состав
+## Repository contents
 
-- `docs/spec.md` — нормативная спецификация;
-- `docs/decisions.md` — журнал решений и их статусов;
-- `docs/open-questions.md` — нерешённые вопросы модели;
-- `data/adversarial-test-set.csv` — adversarial corpus для последующих экспериментов;
-- `experiments/q001/` — полный factual dataset, evaluator contract, fixtures, provenance и validation artifacts Experiment Q001.
+- `docs/spec.md` — normative specification;
+- `docs/decisions.md` — decision log and current statuses;
+- `docs/open-questions.md` — unresolved model questions;
+- `data/adversarial-test-set.csv` — adversarial corpus for future experiments;
+- `experiments/q001/` — the complete Experiment Q001 factual dataset, evaluator contract, fixtures, provenance, and validation artifacts.
 
-## Проверка Q001
+## Validate Q001
 
 ```bash
 cd experiments/q001
 python3 validate.py
 ```
 
-Ожидаемый результат текущего snapshot: `PASS`, 49 comparisons, 56 factual units и четыре verified regime-witness comparisons.
+The expected result for the current snapshot is `PASS`, with 49 comparisons, 56 factual units, and four verified regime-witness comparisons.
 
-Следующий этап — реализовать reference evaluator по `experiments/q001/evaluator-contract.md`, сначала добиться прохождения всех fixtures и только затем прогонять P1/P2/P3 на реальных comparisons.
+The reference evaluator implements `experiments/q001/evaluator-contract.md`. Interpret real-data outcomes together with their explicit data and model blockers.
+
+## Reference pairwise evaluator
+
+The minimal open-world evaluator implements profiles P1, P2, and P3. It emits pairwise outcomes only and does not build a world partition.
+
+Python 3.11 or newer is required. For a development installation:
+
+```bash
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -e .
+```
+
+Run the evaluator and its tests with:
+
+```bash
+python -m ctr_evaluator validate-fixtures
+python -m ctr_evaluator evaluate --comparison C001 --profile P1
+python -m ctr_evaluator evaluate-all --profile P1
+python -m ctr_evaluator evaluate-all --profiles P1,P2,P3
+python -m pytest
+```
+
+Set another Q001 directory with the global option before the subcommand:
+
+```bash
+python -m ctr_evaluator --q001-dir path/to/q001 evaluate-all --profiles P1,P2,P3
+```
+
+A complete three-profile run updates deterministic artifacts under `experiments/q001/results/`. See `docs/evaluator-implementation.md` for adapter decisions and limitations of the current factual schema.
