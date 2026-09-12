@@ -441,6 +441,40 @@
       "blocked_by": [
         "No reliable ordinary civilian route/admission/permit evidence for Territory 01; current exact control unverified."
       ],
+      "evaluator_data_blockers": [
+        {
+          "id": "admission_rules",
+          "kind": "missing_fact",
+          "profiles": [
+            "P1",
+            "P3"
+          ]
+        },
+        {
+          "id": "civilian_access",
+          "kind": "missing_fact",
+          "profiles": [
+            "P1",
+            "P3"
+          ]
+        },
+        {
+          "id": "current_control_geometry",
+          "kind": "missing_fact",
+          "profiles": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        {
+          "id": "final_admission_jurisdiction",
+          "kind": "missing_fact",
+          "profiles": [
+            "P2"
+          ]
+        }
+      ],
       "witnesses": [],
       "interpretation": "Dimension assessment only; no canonical verdict.",
       "model_questions": [

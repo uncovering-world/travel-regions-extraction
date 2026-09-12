@@ -7,6 +7,7 @@ from dataclasses import dataclass
 from .model import (
     ComparisonInput,
     DataBlocker,
+    DataBlockerKind,
     EvaluatorOutput,
     EvaluatorResult,
     FactualUnitReference,
@@ -75,7 +76,13 @@ def _assess_witnesses(comparison: ComparisonInput) -> WitnessAssessment:
             if not blocker_ids:
                 blocker_ids = (f"{witness.id}.evidence_status",)
             for blocker_id in blocker_ids:
-                blockers.add(DataBlocker(blocker_id, tuple(refs)))
+                blockers.add(
+                    DataBlocker(
+                        blocker_id,
+                        tuple(refs),
+                        kind=DataBlockerKind.VERIFICATION_STATUS,
+                    )
+                )
             rejected.append((witness.id, "evidence status is not verified"))
             continue
         accepted.append(witness)

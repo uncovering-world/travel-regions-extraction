@@ -36,6 +36,8 @@ Evaluator получает только `blind-comparisons.yaml`, без `blind-
 
 `must_separate` и `may_merge` независимы. P1 принимает verified hard witness; P2 дополнительно принимает independently verified разные final admission jurisdictions; P3 не угадывает identity и возвращает `model_unresolved` с `Q001.identity`, если P1/P2 уже не доказали split. Q006 остаётся только для disputed/occupied/international-status distinctions.
 
+Comparison `blocked_by` strings are human-readable diagnostics and have no terminal evaluator semantics. A comparison-level missing fact produces `data_unknown` only when represented by a typed `evaluator_data_blockers` entry with a stable ID and explicit profile applicability, or when it follows from another structured status such as provisional witness evidence.
+
 ## Ограничения
 
 Это проверяемый исследовательский snapshot с явными gaps, не полностью подтверждённый справочник поездок. Часть обязательных disputed cases намеренно остаётся заблокированной: ни отсутствие источника, ни политический статус не заполняются догадкой. Дата проверки страницы не делает историческое наблюдение 2023–2025 актуальной картой 2026. Полный список ограничений — в data-gaps.md. Спецификация формализует контракт, но evaluator не реализован, profiles не ранжированы, canonical verdicts отсутствуют.

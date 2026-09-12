@@ -10,6 +10,7 @@ from typing import Any, Iterable, Mapping
 from .model import (
     ComparisonInput,
     DataBlocker,
+    DataBlockerKind,
     DatasetBundle,
     DimensionState,
     EvidenceRecord,
@@ -176,13 +177,43 @@ def load_q001(q001_dir: str | Path = "experiments/q001") -> DatasetBundle:
         if "Q006" in model_questions:
             model_blockers.append(ModelBlocker("Q006", frozenset({Profile.P3})))
         data_blockers: list[DataBlocker] = []
-        if jurisdiction_difference is None:
+        for item in raw.get("evaluator_data_blockers", []):
+            try:
+                blocker_profiles = frozenset(Profile(value) for value in item["profiles"])
+                blocker_kind = DataBlockerKind(item["kind"])
+                blocker_id = str(item["id"])
+            except (KeyError, TypeError, ValueError) as exc:
+                raise InputError(
+                    f"{comparison_id}: malformed evaluator_data_blockers entry"
+                ) from exc
+            if not blocker_profiles or not blocker_id:
+                raise InputError(
+                    f"{comparison_id}: evaluator data blocker requires id and profiles"
+                )
+            refs = tuple(sorted(set(item.get("evidence_refs", []))))
+            if any(ref not in evidence for ref in refs):
+                raise InputError(
+                    f"{comparison_id}: evaluator data blocker references unknown evidence"
+                )
             data_blockers.append(
                 DataBlocker(
-                    "final_admission_jurisdiction",
-                    profiles=frozenset({Profile.P2, Profile.P3}),
+                    blocker_id,
+                    refs,
+                    blocker_profiles,
+                    blocker_kind,
                 )
             )
+        if jurisdiction_difference is None:
+            for jurisdiction_profile in (Profile.P2, Profile.P3):
+                if not any(
+                    jurisdiction_profile in blocker.profiles for blocker in data_blockers
+                ):
+                    data_blockers.append(
+                        DataBlocker(
+                            "final_admission_jurisdiction",
+                            profiles=frozenset({jurisdiction_profile}),
+                        )
+                    )
         comparisons.append(
             ComparisonInput(
                 id=comparison_id,

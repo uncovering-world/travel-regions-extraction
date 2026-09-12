@@ -1,11 +1,12 @@
 """Canonical Travel Regions reference pairwise evaluator."""
 
 from .evaluator import evaluate, may_merge, must_separate
-from .model import DimensionState, EvaluatorResult, Profile
+from .model import DataBlockerKind, DimensionState, EvaluatorResult, Profile
 from .signatures import signature_complete, signatures_equal
 
 __all__ = [
     "DimensionState",
+    "DataBlockerKind",
     "EvaluatorResult",
     "Profile",
     "evaluate",
@@ -15,4 +16,4 @@ __all__ = [
     "signatures_equal",
 ]
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"

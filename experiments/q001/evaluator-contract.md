@@ -109,12 +109,19 @@ comparison:
   b: factual_unit_id
   candidate_witnesses: []
   relevant_rules: []
+  evaluator_data_blockers:
+    - id: stable_machine_id
+      kind: missing_fact | source_conflict | verification_status
+      profiles: [P1, P2, P3]
+      evidence_refs: []
 evidence_records: []
 ```
 
 - `profile` фиксирует exact набор hard dimensions; одного имени P1/P2/P3 без версии недостаточно для воспроизводимой сборки.
 - `factual_units` содержат типизированные значения и состояния, но не canonical verdict.
 - `comparison` ссылается на endpoints по ID. Имена и political labels не являются входом в решение.
+- `comparison.evaluator_data_blockers` is the typed source for comparison-level `data_unknown` semantics. Every entry has a stable ID, blocker kind, explicit profile applicability, and optional evidence references.
+- Human-readable `blocked_by` prose is diagnostic documentation only. `blocked_by` prose is not an evaluator blocker, is never parsed by the adapter, and cannot by itself produce `data_unknown`.
 - `evidence_records` содержат status, temporal scope, source refs и locators. Порядок записей не значим.
 - `spec_version` обязателен; evaluator не смешивает правила разных версий.
 
@@ -143,7 +150,7 @@ explanation: string
 - `witnesses`: нормализованные sufficient witnesses, поддерживающие `must_separate`. Для остальных outcomes массив пуст. Отклонённые candidates отражаются в explanation/blocks.
 - `signature.a_complete` и `b_complete`: результаты `signature_complete`.
 - `signature.equal`: результат `signatures_equal`; значение `true` возможно только при двух complete signatures.
-- `blocked_by_data`: стабильные machine-readable IDs конкретных missing/conflicted records или dimensions.
+- `blocked_by_data`: стабильные machine-readable IDs конкретных missing/conflicted records или dimensions. A comparison-level ID must come from `evaluator_data_blockers`; prose in `blocked_by` is not a substitute.
 - `blocked_by_model`: стабильные Qxxx/predicate IDs, например `Q001.identity`.
 - `evidence_refs`: отсортированное объединение evidence, реально использованного для outcome и signature assessment.
 - `explanation`: короткое детерминированное объяснение без вывода из имён территорий.
@@ -214,7 +221,7 @@ Evaluator обязан быть:
 ```yaml
 representative_evaluations:
   C001: # Germany / France
-    P1: {result: separation_not_proven, because: provisional LTV candidate is not a verified witness and P1 signatures are incomplete, blocked_by_data: [E01.status]}
+    P1: {result: data_unknown, because: provisional LTV candidate has a concrete verification-status blocker under fixture F013 and outcome precedence, blocked_by_data: [E01.status]}
     P2: {result: must_separate, because: independently verified final admission jurisdictions differ under R011, evidence_refs: [E02, E03]}
     P3: {result: must_separate, because: P2 already proves separation, evidence_refs: [E02, E03]}
   C002: # Italy / Sicily
@@ -250,9 +257,9 @@ representative_evaluations:
     P2: {result: data_unknown, blocked_by_data: [final_admission_jurisdiction]}
     P3: {result: model_unresolved, blocked_by_model: [Q001.identity, Q006]}
   C032: # Western Sahara west / east
-    P1: {result: data_unknown, blocked_by_data: [east_civilian_access, east_admission_rules]}
+    P1: {result: data_unknown, blocked_by_data: [east_admission_rules, east_civilian_access]}
     P2: {result: data_unknown, blocked_by_data: [east_final_admission_jurisdiction]}
-    P3: {result: model_unresolved, blocked_by_data: [east_civilian_access, east_admission_rules], blocked_by_model: [Q001.identity, Q006]}
+    P3: {result: model_unresolved, blocked_by_data: [east_admission_rules, east_civilian_access], blocked_by_model: [Q001.identity, Q006]}
   C042: # India / Arunachal Pradesh
     P1: {result: must_separate, because: verified whole-territory PAP witness, evidence_refs: [E07, E08, E44]}
     P2: {result: must_separate, because: P1 already proves separation, evidence_refs: [E07, E08, E44]}
@@ -262,9 +269,9 @@ representative_evaluations:
     P2: {result: data_unknown, blocked_by_data: [final_admission_jurisdiction]}
     P3: {result: model_unresolved, blocked_by_model: [Q001.identity]}
   C040: # China / Aksai Chin
-    P1: {result: data_unknown, blocked_by_data: [civilian_access, admission_rules, current_control_geometry]}
-    P2: {result: data_unknown, blocked_by_data: [final_admission_jurisdiction, current_control_geometry]}
-    P3: {result: model_unresolved, blocked_by_data: [civilian_access, admission_rules, current_control_geometry], blocked_by_model: [Q001.identity, Q006]}
+    P1: {result: data_unknown, blocked_by_data: [admission_rules, civilian_access, current_control_geometry]}
+    P2: {result: data_unknown, blocked_by_data: [current_control_geometry, final_admission_jurisdiction]}
+    P3: {result: model_unresolved, blocked_by_data: [admission_rules, civilian_access, current_control_geometry], blocked_by_model: [Q001.identity, Q006]}
 ```
 
 Comments are display labels only; an implementation consumes comparison IDs and facts, not those names.

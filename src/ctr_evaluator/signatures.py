@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from .model import (
     DataBlocker,
+    DataBlockerKind,
     DimensionState,
     FactualUnitReference,
     ModelBlocker,
@@ -98,7 +99,15 @@ def assess_signature(unit: FactualUnitReference, profile: Profile) -> SignatureA
         if not dimension.complete:
             complete = False
         if dimension.blocker_id:
-            blocker = DataBlocker(dimension.blocker_id, dimension.evidence_refs)
+            blocker = DataBlocker(
+                dimension.blocker_id,
+                dimension.evidence_refs,
+                kind=(
+                    DataBlockerKind.SOURCE_CONFLICT
+                    if dimension.source_conflict
+                    else DataBlockerKind.MISSING_FACT
+                ),
+            )
             if dimension.state is DimensionState.UNRESOLVED_MODEL_SEMANTICS:
                 model_blockers.add(ModelBlocker(dimension.blocker_id))
             else:

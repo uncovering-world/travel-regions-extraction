@@ -7,6 +7,7 @@ u={x['id']:x for x in (json.loads(f.read_text()) for f in (p/'facts').glob('*.js
 e={x['id']:x for x in load('evidence.json')['evidence']};s={x['id']:x for x in load('sources.json')['sources']}
 c=load('comparisons.yaml')['comparisons'];b=load('blind-comparisons.yaml');key=load('blind-answer-key.json')
 fixtures=load('evaluator-fixtures.yaml')['fixtures']
+contract=(p/'evaluator-contract.md').read_text()
 checks=[]
 def ok(condition,message):
  assert condition,message
@@ -34,11 +35,42 @@ for x in c:
  ok(x['questions']['territorial_identity_candidate']=='unresolved',f"{x['id']}: identity unresolved")
  ok(x['questions']['regime_difference']!='false',f"{x['id']}: no unsourced global equality")
  ok('Q001' in x['model_questions'],f"{x['id']}: general identity question is Q001")
+ ok(isinstance(x.get('blocked_by',[]),list) and all(isinstance(v,str) for v in x.get('blocked_by',[])),f"{x['id']}: prose blockers are diagnostic strings")
+ typed=x.get('evaluator_data_blockers',[])
+ ok(isinstance(typed,list),f"{x['id']}: typed evaluator blockers are a list")
+ ok(len({v.get('id') for v in typed})==len(typed),f"{x['id']}: typed evaluator blocker IDs unique")
+ for v in typed:
+  ok(bool(re.fullmatch(r'[a-z][a-z0-9_.-]*',v.get('id',''))),f"{x['id']}: stable evaluator blocker ID")
+  ok(v.get('kind') in {'missing_fact','source_conflict','verification_status'},f"{x['id']}/{v.get('id')}: typed blocker kind")
+  profiles=v.get('profiles',[])
+  ok(bool(profiles) and profiles==sorted(set(profiles)) and set(profiles)<={'P1','P2','P3'},f"{x['id']}/{v.get('id')}: explicit sorted profile applicability")
+  ok(all(r in e for r in v.get('evidence_refs',[])),f"{x['id']}/{v.get('id')}: blocker evidence exists")
  if x['questions']['regime_difference'] is True:
   ok(bool(x['witnesses']),f"{x['id']}: positive witness")
   for w in x['witnesses']:
    ok(w['decision_a']!=w['decision_b'] and w['status']=='verified',f"{x['id']}: verified differing component")
    ok(all(k in w['context'] for k in ['nationality','document','authorisations','residence_permit','arrival_mode','route_class']),f"{x['id']}: specified context")
+# Representative data blockers must be derivable from typed metadata/status, never prose.
+def available_data_blockers(x,profile):
+ result={v['id'] for v in x.get('evaluator_data_blockers',[]) if profile in v['profiles']}
+ if profile in {'P2','P3'} and x['questions']['independent_admission_jurisdiction']=='unknown' and not result:
+  result.add('final_admission_jurisdiction')
+ for w in x.get('witnesses',[]):
+  bad=[r for r in w.get('evidence_refs',[]) if e[r]['evidence_status'] not in {'verified','supported'}]
+  result.update(f'{r}.status' for r in bad)
+ return result
+representative=contract.split('## 8. Representative Q001 classifications',1)[1].split('## 9.',1)[0]
+current=None
+by_comparison={x['id']:x for x in c}
+for line in representative.splitlines():
+ match=re.match(r'\s{2}(C\d{3}):',line)
+ if match:current=match.group(1);continue
+ match=re.match(r'\s{4}(P[123]): \{result: ([a-z_]+)',line)
+ if current and match:
+  blockers=re.search(r'blocked_by_data: \[([^]]*)\]',line)
+  if blockers:
+   expected={v.strip() for v in blockers.group(1).split(',') if v.strip()}
+   ok(expected<=available_data_blockers(by_comparison[current],match.group(1)),f'{current}/{match.group(1)}: representative data blockers are machine-readable')
 forbidden=['canonical_region','canonical_verdict','merge_decision','split_decision','country']
 for x in list(u.values())+c:
  ok(not any(k in d for d in walk(x) if isinstance(d,dict) for k in forbidden),'No country or canonical decision field')

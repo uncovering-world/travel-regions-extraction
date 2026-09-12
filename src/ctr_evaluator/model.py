@@ -37,11 +37,18 @@ class SignatureEquality(str, Enum):
     UNKNOWN = "unknown"
 
 
+class DataBlockerKind(str, Enum):
+    MISSING_FACT = "missing_fact"
+    SOURCE_CONFLICT = "source_conflict"
+    VERIFICATION_STATUS = "verification_status"
+
+
 @dataclass(frozen=True, order=True)
 class DataBlocker:
     id: str
     evidence_refs: tuple[str, ...] = ()
     profiles: frozenset[Profile] = field(default_factory=lambda: frozenset(Profile))
+    kind: DataBlockerKind = DataBlockerKind.MISSING_FACT
 
 
 @dataclass(frozen=True, order=True)

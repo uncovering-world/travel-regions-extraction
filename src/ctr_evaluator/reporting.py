@@ -91,12 +91,14 @@ def build_artifact(
     return artifact, outputs
 
 
-def _representative_results(contract_path: Path) -> dict[tuple[str, str], str]:
+def _representative_expectations(
+    contract_path: Path,
+) -> dict[tuple[str, str], dict[str, object]]:
     text = contract_path.read_text(encoding="utf-8")
     section = text.split("## 8. Representative Q001 classifications", 1)[1]
     section = section.split("## 9.", 1)[0]
     current: str | None = None
-    expected: dict[tuple[str, str], str] = {}
+    expected: dict[tuple[str, str], dict[str, object]] = {}
     for line in section.splitlines():
         comparison_match = re.match(r"\s{2}(C\d{3}):", line)
         if comparison_match:
@@ -104,8 +106,46 @@ def _representative_results(contract_path: Path) -> dict[tuple[str, str], str]:
             continue
         profile_match = re.match(r"\s{4}(P[123]): \{result: ([a-z_]+)", line)
         if current and profile_match:
-            expected[(current, profile_match.group(1))] = profile_match.group(2)
+            expectation: dict[str, object] = {"result": profile_match.group(2)}
+            for field in ("blocked_by_data", "blocked_by_model"):
+                field_match = re.search(rf"{field}: \[([^]]*)\]", line)
+                if field_match:
+                    expectation[field] = tuple(
+                        sorted(
+                            item.strip()
+                            for item in field_match.group(1).split(",")
+                            if item.strip()
+                        )
+                    )
+            expected[(current, profile_match.group(1))] = expectation
     return expected
+
+
+def representative_mismatches(
+    bundle: DatasetBundle, outputs: tuple[EvaluatorOutput, ...]
+) -> tuple[str, ...]:
+    expected = _representative_expectations(
+        Path(bundle.q001_dir) / "evaluator-contract.md"
+    )
+    actual = {
+        (item.comparison_id, item.profile.value): item.to_dict() for item in outputs
+    }
+    mismatches: list[str] = []
+    for key, expectation in sorted(expected.items()):
+        comparison, profile = key
+        output = actual.get(key)
+        if output is None:
+            mismatches.append(f"{comparison}/{profile}: missing evaluator output")
+            continue
+        for field, expected_value in expectation.items():
+            actual_value: object = output[field]
+            if field.startswith("blocked_by_"):
+                actual_value = tuple(actual_value)
+            if actual_value != expected_value:
+                mismatches.append(
+                    f"{comparison}/{profile} {field}: contract {expected_value!r}; evaluator {actual_value!r}"
+                )
+    return tuple(mismatches)
 
 
 def render_run_summary(
@@ -171,20 +211,13 @@ def render_run_summary(
             "",
         ]
     )
-    expected = _representative_results(Path(bundle.q001_dir) / "evaluator-contract.md")
-    actual = {(item.comparison_id, item.profile.value): item.result.value for item in outputs}
-    mismatches = [
-        (comparison, profile, expected_result, actual.get((comparison, profile), "missing"))
-        for (comparison, profile), expected_result in sorted(expected.items())
-        if actual.get((comparison, profile)) != expected_result
-    ]
+    mismatches = representative_mismatches(bundle, outputs)
     if mismatches:
-        for comparison, profile, expected_result, actual_result in mismatches:
-            lines.append(
-                f"- {comparison}/{profile}: contract representative `{expected_result}`; evaluator `{actual_result}`."
-            )
+        lines.extend(f"- {mismatch}." for mismatch in mismatches)
     else:
-        lines.append("No result-level mismatches were found.")
+        lines.append(
+            "No representative classification mismatches were found; documented results and typed blockers agree with executable evaluator semantics."
+        )
     lines.extend(
         [
             "",

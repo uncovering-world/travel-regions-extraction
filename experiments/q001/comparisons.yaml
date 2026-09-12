@@ -1117,6 +1117,31 @@
       "blocked_by": [
         "Operational contrast is coarse civil/military evidence, not two verified immigration jurisdictions; east civilian routes unknown."
       ],
+      "evaluator_data_blockers": [
+        {
+          "id": "east_admission_rules",
+          "kind": "missing_fact",
+          "profiles": [
+            "P1",
+            "P3"
+          ]
+        },
+        {
+          "id": "east_civilian_access",
+          "kind": "missing_fact",
+          "profiles": [
+            "P1",
+            "P3"
+          ]
+        },
+        {
+          "id": "east_final_admission_jurisdiction",
+          "kind": "missing_fact",
+          "profiles": [
+            "P2"
+          ]
+        }
+      ],
       "witnesses": [],
       "interpretation": "Dimension assessment only; no canonical verdict.",
       "model_questions": [
@@ -1390,6 +1415,40 @@
       ],
       "blocked_by": [
         "No reliable ordinary civilian route/admission/permit evidence for Aksai Chin; current exact control unverified."
+      ],
+      "evaluator_data_blockers": [
+        {
+          "id": "admission_rules",
+          "kind": "missing_fact",
+          "profiles": [
+            "P1",
+            "P3"
+          ]
+        },
+        {
+          "id": "civilian_access",
+          "kind": "missing_fact",
+          "profiles": [
+            "P1",
+            "P3"
+          ]
+        },
+        {
+          "id": "current_control_geometry",
+          "kind": "missing_fact",
+          "profiles": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        {
+          "id": "final_admission_jurisdiction",
+          "kind": "missing_fact",
+          "profiles": [
+            "P2"
+          ]
+        }
       ],
       "witnesses": [],
       "interpretation": "Dimension assessment only; no canonical verdict.",
