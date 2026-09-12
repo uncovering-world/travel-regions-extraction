@@ -1,5 +1,5 @@
 {
-  "evaluator_version": "0.1.0",
+  "evaluator_version": "0.1.1",
   "spec_version": "0.1.1-draft",
   "dataset_snapshot": "2026-09-11",
   "profiles": {
@@ -42,7 +42,7 @@
   },
   "frozen_factual_inputs_hash": {
     "algorithm": "sha256",
-    "value": "e7bfc115e203c2cdcb56dad126c74327b877a8a4350431823010e7c7ab74731e",
+    "value": "fd4875e773731a4533549d3526ef54c4a0945c4ca84d8045214a517ebba61831",
     "files": {
       "facts/ac.json": "ec0bb8e31a5dae9003298f4bf2c2188d5bbfd37033c004a827afa3a2676fc3c1",
       "facts/ajk.json": "311145e9402861147a23a6672cac516199139898f05aebfaaeaa7e17ea8dbea8",
@@ -104,16 +104,16 @@
       "sources.json": "5cf49ffe933a518bdc74810af9c3dd5a1e3f7aa32d5291c724137d8890e6a37b",
       "source-index.md": "b319c207bef137cecd28917f245d93316141cd41bbbb09fd92132ac57ae1d58c",
       "route-matrix.json": "46ce054076c494967ca0b0c05a6e6504c1670746aa3a93c30fba736b3e304739",
-      "comparisons.yaml": "acc0b0bba78b2d05ade8fc9703479f31b1396054e65b89193137383d25ed9dfc"
+      "comparisons.yaml": "ad43a574edba61ef8e2b7c49b58155779dd02a9bd675c6544f080f8b16a09617"
     }
   },
   "summary": {
     "P1": {
       "must_separate": 4,
       "may_merge": 0,
-      "separation_not_proven": 43,
+      "separation_not_proven": 41,
       "model_unresolved": 1,
-      "data_unknown": 1,
+      "data_unknown": 3,
       "rule_conflict": 0
     },
     "P2": {
@@ -1934,7 +1934,7 @@
     {
       "comparison_id": "C032",
       "profile": "P1",
-      "result": "separation_not_proven",
+      "result": "data_unknown",
       "applied_rules": [],
       "witnesses": [],
       "signature": {
@@ -1942,10 +1942,13 @@
         "b_complete": false,
         "equal": "unknown"
       },
-      "blocked_by_data": [],
+      "blocked_by_data": [
+        "east_admission_rules",
+        "east_civilian_access"
+      ],
       "blocked_by_model": [],
       "evidence_refs": [],
-      "explanation": "No sufficient split certificate or complete equal signature is available."
+      "explanation": "Concrete data blockers prevent the required assessment: east_admission_rules, east_civilian_access."
     },
     {
       "comparison_id": "C032",
@@ -1959,11 +1962,11 @@
         "equal": "unknown"
       },
       "blocked_by_data": [
-        "final_admission_jurisdiction"
+        "east_final_admission_jurisdiction"
       ],
       "blocked_by_model": [],
       "evidence_refs": [],
-      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+      "explanation": "Concrete data blockers prevent the required assessment: east_final_admission_jurisdiction."
     },
     {
       "comparison_id": "C032",
@@ -1979,14 +1982,15 @@
         "equal": "unknown"
       },
       "blocked_by_data": [
-        "final_admission_jurisdiction"
+        "east_admission_rules",
+        "east_civilian_access"
       ],
       "blocked_by_model": [
         "Q001.identity",
         "Q006"
       ],
       "evidence_refs": [],
-      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: east_admission_rules, east_civilian_access."
     },
     {
       "comparison_id": "C033",
@@ -2390,7 +2394,7 @@
     {
       "comparison_id": "C040",
       "profile": "P1",
-      "result": "separation_not_proven",
+      "result": "data_unknown",
       "applied_rules": [],
       "witnesses": [],
       "signature": {
@@ -2398,10 +2402,14 @@
         "b_complete": false,
         "equal": "unknown"
       },
-      "blocked_by_data": [],
+      "blocked_by_data": [
+        "admission_rules",
+        "civilian_access",
+        "current_control_geometry"
+      ],
       "blocked_by_model": [],
       "evidence_refs": [],
-      "explanation": "No sufficient split certificate or complete equal signature is available."
+      "explanation": "Concrete data blockers prevent the required assessment: admission_rules, civilian_access, current_control_geometry."
     },
     {
       "comparison_id": "C040",
@@ -2415,11 +2423,12 @@
         "equal": "unknown"
       },
       "blocked_by_data": [
+        "current_control_geometry",
         "final_admission_jurisdiction"
       ],
       "blocked_by_model": [],
       "evidence_refs": [],
-      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+      "explanation": "Concrete data blockers prevent the required assessment: current_control_geometry, final_admission_jurisdiction."
     },
     {
       "comparison_id": "C040",
@@ -2435,14 +2444,16 @@
         "equal": "unknown"
       },
       "blocked_by_data": [
-        "final_admission_jurisdiction"
+        "admission_rules",
+        "civilian_access",
+        "current_control_geometry"
       ],
       "blocked_by_model": [
         "Q001.identity",
         "Q006"
       ],
       "evidence_refs": [],
-      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: admission_rules, civilian_access, current_control_geometry."
     },
     {
       "comparison_id": "C041",
