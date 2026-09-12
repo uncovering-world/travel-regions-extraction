@@ -1,0 +1,198 @@
+{
+  "id": "nc",
+  "name": "New Caledonia",
+  "unit_kind": "territorial_unit",
+  "geometry_scope": {
+    "description": "New Caledonia",
+    "geometry_status": "unknown",
+    "source_refs": [],
+    "description_role": "experiment_selection_not_operational_polygon"
+  },
+  "political_relations": {
+    "administering_entities": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "claimant_entities": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "constitutional_relations": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "international_status": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "admission": {
+    "final_admission_authority": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "independent_final_decision": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "territorial_scope": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "visa_and_documents": {
+    "visa_scope": {
+      "value": "Outside Schengen; destination visa unless exempt",
+      "evidence_refs": [
+        "E26"
+      ],
+      "source_refs": [
+        "S25",
+        "S26"
+      ],
+      "status": "supported"
+    },
+    "document_scope": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "relevant_exceptions": {
+      "value": "Qualifying Schengen residence permit / D visa; nationality-specific exceptions need exact lookup",
+      "evidence_refs": [
+        "E26"
+      ],
+      "source_refs": [
+        "S25",
+        "S26"
+      ],
+      "status": "supported"
+    }
+  },
+  "entry_procedures": {
+    "land": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "air": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "sea": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "route_dependent": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "customs": {
+    "customs_scope": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "traveller_facing_formalities": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "permits": {
+    "territorial_permits": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "local_overlays": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "control": {
+    "civil_administration": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "border_control": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "military_control": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "enforcement_authorities": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "control_geometry_status": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "access": {
+    "ordinary_civilian_access": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "foreigner_specific_rules": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "route_constraints": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "temporal": {
+    "as_of": "2026-09-11",
+    "valid_from": null,
+    "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+  }
+}

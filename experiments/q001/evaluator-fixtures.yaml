@@ -1,0 +1,207 @@
+{
+  "format": "JSON syntax, valid YAML 1.2",
+  "contract": "evaluator-contract.md",
+  "spec_version": "0.1.1-draft",
+  "oracle_semantics": "expected is a required subset of the full evaluator output",
+  "synthetic_dsl": "Defined in evaluator-contract.md section 9",
+  "fixtures": [
+    {
+      "id": "F001-jurisdiction-only-difference",
+      "description": "Complete equal P1 regimes, different independently verified final admission jurisdictions.",
+      "input": {
+        "units": {
+          "A": {"p1_signature": "complete:S1", "final_admission_jurisdiction": "known_value:J1"},
+          "B": {"p1_signature": "complete:S1", "final_admission_jurisdiction": "known_value:J2"}
+        },
+        "witnesses": [],
+        "evidence": ["EV-J1", "EV-J2"]
+      },
+      "expected": {
+        "P1": {"result": "may_merge", "signature": {"a_complete": true, "b_complete": true, "equal": true}},
+        "P2": {"result": "must_separate", "applied_rules": ["R011"], "evidence_refs": ["EV-J1", "EV-J2"]},
+        "P3": {"result": "must_separate", "applied_rules": ["R011"]}
+      }
+    },
+    {
+      "id": "F002-verified-visa-witness",
+      "description": "One verified visa/document witness is enough for a regime split.",
+      "input": {
+        "units": {"A": {}, "B": {}},
+        "witnesses": [{"id": "W1", "scope": "R007", "dimension": "document_scope", "a": "accepted", "b": "rejected", "status": "verified", "evidence_refs": ["EV-W1"]}]
+      },
+      "expected": {
+        "P1": {"result": "must_separate", "witnesses": ["W1"]},
+        "P2": {"result": "must_separate", "witnesses": ["W1"]},
+        "P3": {"result": "must_separate", "witnesses": ["W1"]}
+      }
+    },
+    {
+      "id": "F003-no-witness-incomplete-signature",
+      "description": "No witness and incomplete signatures do not permit merge.",
+      "input": {
+        "units": {
+          "A": {"p1_signature": "incomplete:open_context_coverage"},
+          "B": {"p1_signature": "incomplete:open_context_coverage"}
+        },
+        "witnesses": []
+      },
+      "expected": {
+        "P1": {"result": "separation_not_proven", "signature": {"a_complete": false, "b_complete": false, "equal": "unknown"}}
+      }
+    },
+    {
+      "id": "F004-complete-equal-p2",
+      "description": "All P2 dimensions are complete and equal.",
+      "input": {
+        "units": {
+          "A": {"p1_signature": "complete:S4", "final_admission_jurisdiction": "known_value:J4"},
+          "B": {"p1_signature": "complete:S4", "final_admission_jurisdiction": "known_value:J4"}
+        },
+        "witnesses": []
+      },
+      "expected": {
+        "P2": {"result": "may_merge", "signature": {"a_complete": true, "b_complete": true, "equal": true}}
+      }
+    },
+    {
+      "id": "F005-identity-undefined",
+      "description": "P1/P2 equivalent but P3 depends on undefined identity.",
+      "input": {
+        "units": {
+          "A": {"p2_signature": "complete:S5", "identity_discriminator": "unresolved_model_semantics"},
+          "B": {"p2_signature": "complete:S5", "identity_discriminator": "unresolved_model_semantics"}
+        },
+        "witnesses": []
+      },
+      "expected": {
+        "P2": {"result": "may_merge"},
+        "P3": {"result": "model_unresolved", "blocked_by_model": ["Q001.identity"]}
+      }
+    },
+    {
+      "id": "F006-authoritative-source-conflict",
+      "description": "Compatible authoritative evidence records disagree on one required factual value.",
+      "input": {
+        "units": {
+          "A": {"visa_scope": "source_conflict:EV6A/EV6B"},
+          "B": {"visa_scope": "known_value:V6"}
+        },
+        "witnesses": [],
+        "evidence": ["EV6A", "EV6B"]
+      },
+      "expected": {
+        "P1": {"result": "data_unknown", "blocked_by_data": ["A.visa_scope.source_conflict"], "evidence_refs": ["EV6A", "EV6B"]}
+      }
+    },
+    {
+      "id": "F007-rule-conflict",
+      "description": "Two applicable normative rules require incompatible terminal outcomes after facts are normalized.",
+      "input": {
+        "units": {"A": {"p1_signature": "complete:S7"}, "B": {"p1_signature": "complete:S7"}},
+        "derivations": [
+          {"rule": "R-SYNTH-SPLIT", "requires": "must_separate"},
+          {"rule": "R-SYNTH-MERGE", "requires": "may_merge"}
+        ]
+      },
+      "expected": {
+        "P1": {"result": "rule_conflict", "applied_rules": ["R-SYNTH-MERGE", "R-SYNTH-SPLIT"]}
+      }
+    },
+    {
+      "id": "F008-known-absence-is-complete",
+      "description": "Evidence-backed absence is a complete value, not unknown.",
+      "input": {
+        "units": {
+          "A": {"p1_dimensions": {"hard_permits": "known_absence:EV8A", "visa_scope": "known_value:V8", "document_scope": "known_value:D8", "admission_decision_scope": "known_value:A8"}},
+          "B": {"p1_dimensions": {"hard_permits": "known_absence:EV8B", "visa_scope": "known_value:V8", "document_scope": "known_value:D8", "admission_decision_scope": "known_value:A8"}}
+        }
+      },
+      "expected": {
+        "P1": {"result": "may_merge", "signature": {"a_complete": true, "b_complete": true, "equal": true}}
+      }
+    },
+    {
+      "id": "F009-empty-is-not-known-absence",
+      "description": "An empty/missing field cannot be interpreted as evidence-backed absence.",
+      "input": {
+        "units": {
+          "A": {"hard_permits": null},
+          "B": {"hard_permits": "known_absence:EV9"}
+        },
+        "witnesses": []
+      },
+      "expected": {
+        "P1": {"result": "data_unknown", "blocked_by_data": ["A.hard_permits"], "signature": {"a_complete": false, "b_complete": false, "equal": "unknown"}}
+      }
+    },
+    {
+      "id": "F010-not-applicable-with-rationale",
+      "description": "A justified not_applicable value can participate in a complete signature.",
+      "input": {
+        "units": {
+          "A": {"route_dependent_hard_decisions": "not_applicable:R-SYNTH-NO-ROUTE-DIM", "other_p1_dimensions": "complete:S10"},
+          "B": {"route_dependent_hard_decisions": "not_applicable:R-SYNTH-NO-ROUTE-DIM", "other_p1_dimensions": "complete:S10"}
+        }
+      },
+      "expected": {
+        "P1": {"result": "may_merge", "signature": {"a_complete": true, "b_complete": true, "equal": true}}
+      }
+    },
+    {
+      "id": "F011-local-overlay-rejected-witness",
+      "description": "A local entry-point detail outside hard territorial scope is not a split witness.",
+      "input": {
+        "units": {"A": {"p1_signature": "incomplete"}, "B": {"p1_signature": "incomplete"}},
+        "witnesses": [{"id": "W11", "dimension": "airport_queue_procedure", "status": "verified", "scope": "local_overlay"}]
+      },
+      "expected": {
+        "P1": {"result": "separation_not_proven", "witnesses": [], "applied_rules": ["R007", "R008"]}
+      }
+    },
+    {
+      "id": "F012-out-of-scope-traveller-rejected",
+      "description": "A diplomatic-only difference does not satisfy the R007 civilian short-stay scope.",
+      "input": {
+        "units": {"A": {"p1_signature": "incomplete"}, "B": {"p1_signature": "incomplete"}},
+        "witnesses": [{"id": "W12", "traveller_scope": "diplomatic_mission", "a": "allowed", "b": "denied", "status": "verified"}]
+      },
+      "expected": {
+        "P1": {"result": "separation_not_proven", "witnesses": []}
+      }
+    },
+    {
+      "id": "F013-provisional-witness-not-sufficient",
+      "description": "A differing decision with provisional evidence is not a sufficient certificate.",
+      "input": {
+        "units": {"A": {"p1_signature": "incomplete"}, "B": {"p1_signature": "incomplete"}},
+        "witnesses": [{"id": "W13", "scope": "R007", "dimension": "visa_scope", "a": "inside", "b": "outside", "status": "provisional"}]
+      },
+      "expected": {
+        "P1": {"result": "data_unknown", "blocked_by_data": ["W13.evidence_status"], "witnesses": []}
+      }
+    },
+    {
+      "id": "F014-order-and-name-invariance",
+      "description": "Renaming endpoints and reversing input record order do not change the semantic result.",
+      "input_variants": [
+        {"names": ["Alpha", "Beta"], "record_order": ["EV14A", "EV14B"]},
+        {"names": ["Unrelated X", "Unrelated Y"], "record_order": ["EV14B", "EV14A"]}
+      ],
+      "shared_facts": {"A": {"p2_signature": "complete:S14"}, "B": {"p2_signature": "complete:S14"}},
+      "expected": {
+        "P2": {"result": "may_merge", "all_variants_equal": true}
+      }
+    },
+    {
+      "id": "F015-swap-symmetry",
+      "description": "Swapping A/B preserves result and reverses only oriented witness decisions.",
+      "input_variants": [
+        {"a": "U1", "b": "U2", "witness": {"a": "visa_required", "b": "visa_exempt"}},
+        {"a": "U2", "b": "U1", "witness": {"a": "visa_exempt", "b": "visa_required"}}
+      ],
+      "expected": {
+        "P1": {"result": "must_separate", "all_variants_equal": true}
+      }
+    }
+  ]
+}

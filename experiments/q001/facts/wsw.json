@@ -1,0 +1,216 @@
+{
+  "id": "wsw",
+  "name": "Western Sahara west / Moroccan-administered zone",
+  "unit_kind": "territorial_unit",
+  "geometry_scope": {
+    "description": "Western Sahara west / Moroccan-administered zone",
+    "geometry_status": "disputed",
+    "source_refs": [],
+    "description_role": "experiment_selection_not_operational_polygon"
+  },
+  "political_relations": {
+    "administering_entities": {
+      "value": "Morocco",
+      "evidence_refs": [
+        "E37"
+      ],
+      "source_refs": [
+        "S35",
+        "S37"
+      ],
+      "status": "supported"
+    },
+    "claimant_entities": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "constitutional_relations": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "international_status": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "admission": {
+    "final_admission_authority": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "independent_final_decision": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "territorial_scope": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "visa_and_documents": {
+    "visa_scope": {
+      "value": "British ordinary passport: 90-day visa exemption",
+      "evidence_refs": [
+        "E39"
+      ],
+      "source_refs": [
+        "S36"
+      ],
+      "status": "supported"
+    },
+    "document_scope": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "relevant_exceptions": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "entry_procedures": {
+    "land": {
+      "value": "Moroccan entry stamp; exact intra-zone checkpoints unknown",
+      "evidence_refs": [
+        "E39"
+      ],
+      "source_refs": [
+        "S36"
+      ],
+      "status": "supported"
+    },
+    "air": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "sea": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "route_dependent": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "customs": {
+    "customs_scope": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "traveller_facing_formalities": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "permits": {
+    "territorial_permits": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "local_overlays": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "control": {
+    "civil_administration": {
+      "value": "Morocco, coarse administered zone",
+      "evidence_refs": [
+        "E37"
+      ],
+      "source_refs": [
+        "S35",
+        "S37"
+      ],
+      "status": "supported"
+    },
+    "border_control": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "military_control": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "enforcement_authorities": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "control_geometry_status": {
+      "value": "approximate",
+      "evidence_refs": [
+        "E37"
+      ],
+      "source_refs": [
+        "S35",
+        "S37"
+      ],
+      "status": "supported"
+    }
+  },
+  "access": {
+    "ordinary_civilian_access": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "foreigner_specific_rules": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "route_constraints": {
+      "value": "Reported travel restrictions not precisely specified",
+      "evidence_refs": [
+        "E40"
+      ],
+      "source_refs": [
+        "S36",
+        "S37"
+      ],
+      "status": "qualified"
+    }
+  },
+  "temporal": {
+    "as_of": "2026-09-11",
+    "valid_from": null,
+    "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+  }
+}

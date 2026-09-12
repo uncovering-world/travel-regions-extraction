@@ -1,0 +1,216 @@
+{
+  "id": "je",
+  "name": "Jersey",
+  "unit_kind": "territorial_unit",
+  "geometry_scope": {
+    "description": "Jersey",
+    "geometry_status": "unknown",
+    "source_refs": [],
+    "description_role": "experiment_selection_not_operational_polygon"
+  },
+  "political_relations": {
+    "administering_entities": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "claimant_entities": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "constitutional_relations": {
+      "value": "Self-governing Crown Dependency outside UK; immigration jurisdiction with mutual leave recognition",
+      "evidence_refs": [
+        "E18"
+      ],
+      "source_refs": [
+        "S17"
+      ],
+      "status": "supported"
+    },
+    "international_status": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "admission": {
+    "final_admission_authority": {
+      "value": "Jersey immigration officers / Minister",
+      "evidence_refs": [
+        "E20"
+      ],
+      "source_refs": [
+        "S19"
+      ],
+      "status": "supported"
+    },
+    "independent_final_decision": {
+      "value": true,
+      "evidence_refs": [
+        "E18"
+      ],
+      "source_refs": [
+        "S17"
+      ],
+      "status": "supported"
+    },
+    "territorial_scope": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "visa_and_documents": {
+    "visa_scope": {
+      "value": "Near-aligned UK visa policy, recognised leave; full equality not established",
+      "evidence_refs": [
+        "E18"
+      ],
+      "source_refs": [
+        "S17"
+      ],
+      "status": "supported"
+    },
+    "document_scope": {
+      "value": "French ID day-return ferry exception under MOU",
+      "evidence_refs": [
+        "E19"
+      ],
+      "source_refs": [
+        "S18"
+      ],
+      "status": "supported"
+    },
+    "relevant_exceptions": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "entry_procedures": {
+    "land": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "air": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "sea": {
+      "value": "Direct day-return ferry exception depends on participating carrier",
+      "evidence_refs": [
+        "E19"
+      ],
+      "source_refs": [
+        "S18"
+      ],
+      "status": "supported"
+    },
+    "route_dependent": {
+      "value": true,
+      "evidence_refs": [
+        "E19"
+      ],
+      "source_refs": [
+        "S18"
+      ],
+      "status": "supported"
+    }
+  },
+  "customs": {
+    "customs_scope": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "traveller_facing_formalities": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "permits": {
+    "territorial_permits": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "local_overlays": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "control": {
+    "civil_administration": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "border_control": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "military_control": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "enforcement_authorities": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "control_geometry_status": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "access": {
+    "ordinary_civilian_access": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "foreigner_specific_rules": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    },
+    "route_constraints": {
+      "value": "unknown",
+      "evidence_refs": [],
+      "status": "unknown",
+      "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+    }
+  },
+  "temporal": {
+    "as_of": "2026-09-11",
+    "valid_from": null,
+    "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+  }
+}

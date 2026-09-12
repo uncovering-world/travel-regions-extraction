@@ -1,0 +1,4954 @@
+{
+  "schema_version": "q001.1",
+  "comparisons": [
+    {
+      "id": "Comparison 01",
+      "a": "Territory 05",
+      "b": "Territory 07",
+      "theme": "ordinary neighbouring states",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": true,
+        "distinct_operational_control": true,
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 001",
+        "Evidence 002",
+        "Evidence 003"
+      ],
+      "blocked_by": [
+        "LTV legal witness provisional: consolidated law full-text validation outstanding; no global equivalence claim."
+      ],
+      "witnesses": [
+        {
+          "context": {
+            "purpose": "civilian tourism",
+            "duration_days": 7,
+            "as_of": "2026-09-11",
+            "prior_travel": "no overstay; no entry ban",
+            "baggage": "ordinary personal effects",
+            "nationality": "visa-required third-country national",
+            "document": "valid ordinary passport",
+            "authorisations": "valid LTV visa explicitly Territory 05 only",
+            "residence_permit": null,
+            "arrival_mode": "air",
+            "route_class": "direct external arrival at authorised port"
+          },
+          "decision_dimension": "visa_territorial_validity",
+          "decision_a": "within visa scope",
+          "decision_b": "outside visa scope",
+          "evidence_refs": [
+            "Evidence 001"
+          ],
+          "status": "provisional_legal_construction",
+          "not_admission_guarantee": true
+        }
+      ],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "Comparison 02",
+      "a": "Territory 06",
+      "b": "Territory 02",
+      "theme": "shared admission / fiscal scope",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": false,
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 009",
+        "Evidence 010",
+        "Evidence 011"
+      ],
+      "blocked_by": [
+        "Q004: specific traveller-facing luggage witness not extracted; tax boundary alone not P1 proof."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q004"
+      ]
+    },
+    {
+      "id": "Comparison 03",
+      "a": "Territory 10",
+      "b": "Territory 18",
+      "theme": "ordinary internal control",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 004"
+      ],
+      "blocked_by": [
+        "National competence supported only by indexed constitutional text; complete document/permit exceptions audit absent."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "Comparison 04",
+      "a": "Territory 16",
+      "b": "Territory 14",
+      "theme": "autonomy/geography negative control",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 012",
+        "Evidence 013"
+      ],
+      "blocked_by": [
+        "Source partly stale; final authority and full regime audit missing."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "Comparison 05",
+      "a": "Territory 20",
+      "b": "Territory 11",
+      "theme": "shared visa / own admission",
+      "questions": {
+        "regime_difference": true,
+        "independent_admission_jurisdiction": true,
+        "distinct_operational_control": true,
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 014",
+        "Evidence 015",
+        "Evidence 016",
+        "Evidence 008"
+      ],
+      "blocked_by": [],
+      "witnesses": [
+        {
+          "context": {
+            "purpose": "civilian tourism",
+            "duration_days": 1,
+            "as_of": "2026-09-11",
+            "prior_travel": "no overstay; no entry ban",
+            "baggage": "ordinary personal effects",
+            "nationality": "Entity 011",
+            "document": "valid Entity 012 national ID only; adult, no special status",
+            "authorisations": "none",
+            "residence_permit": null,
+            "arrival_mode": "sea",
+            "route_class": "direct day-return commercial ferry from Entity 011; Territory 11 carrier participates in MOU"
+          },
+          "decision_dimension": "acceptable_identity_document",
+          "decision_a": "ID alone insufficient under standard visitor passport rule",
+          "decision_b": "ID expressly accepted for defined ferry exception",
+          "evidence_refs": [
+            "Evidence 008",
+            "Evidence 015"
+          ],
+          "status": "verified",
+          "not_admission_guarantee": true
+        }
+      ],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "Comparison 06",
+      "a": "Territory 20",
+      "b": "Territory 03",
+      "theme": "recognised external visa plus validity rule",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 017",
+        "Evidence 008"
+      ],
+      "blocked_by": [
+        "Nationality schedule for MRV and final statutory authority need extraction."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "Comparison 07",
+      "a": "Territory 07",
+      "b": "Territory 17",
+      "theme": "overseas visa scope",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 018",
+        "Evidence 019"
+      ],
+      "blocked_by": [
+        "Exact nationality × visa type × destination exemption must be checked for strict positive witness."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "Comparison 08",
+      "a": "Territory 13",
+      "b": "Territory 21",
+      "theme": "status versus operational regime",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 020",
+        "Evidence 021",
+        "Evidence 022",
+        "Evidence 023"
+      ],
+      "blocked_by": [
+        "British visa similarity is bounded; final legal authority and individual-route restrictions not fully established."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "Comparison 09",
+      "a": "Territory 04",
+      "b": "Territory 19",
+      "theme": "territorial destination permit",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 007",
+        "Evidence 028"
+      ],
+      "blocked_by": [
+        "Positive candidate, but ordinary baseline absence of equivalent destination permit is not exhaustively sourced; Q005 scope."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q009"
+      ]
+    },
+    {
+      "id": "Comparison 10",
+      "a": "Territory 09",
+      "b": "Territory 12",
+      "theme": "local permits versus whole-territory proposal",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 005",
+        "Evidence 006",
+        "Evidence 025"
+      ],
+      "blocked_by": [
+        "All-UT PAP proposal not law; Q005/Q009 require destination-matched overlay treatment."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q006",
+        "Q009"
+      ]
+    },
+    {
+      "id": "Comparison 11",
+      "a": "Territory 15",
+      "b": "Territory 08",
+      "theme": "registration versus independent admission",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 026",
+        "Evidence 027",
+        "Evidence 030"
+      ],
+      "blocked_by": [
+        "Registration source freshness and legal basis; separate final admission not established."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "Comparison 12",
+      "a": "Territory 04",
+      "b": "Territory 01",
+      "theme": "claim/control versus civilian regime",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "Evidence 007",
+        "Evidence 029"
+      ],
+      "blocked_by": [
+        "No reliable ordinary civilian route/admission/permit evidence for Territory 01; current exact control unverified."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q006",
+        "Q009"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "Territory 01",
+      "name": "Territory 01",
+      "unit_kind": "territorial_unit",
+      "geometry_scope": {
+        "description": "Territory 01",
+        "geometry_status": "disputed",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "Entity 035 claim; Entity 032 control does not establish legal title",
+          "evidence_refs": [
+            "Evidence 029"
+          ],
+          "source_refs": [
+            "Source 028"
+          ],
+          "status": "historical"
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "National non-open-area permit procedure; точная применимость по месту unknown",
+          "evidence_refs": [
+            "Evidence 007"
+          ],
+          "source_refs": [
+            "Source 006"
+          ],
+          "status": "supported"
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "Entity 032 control reported; civil organisational details unknown",
+          "evidence_refs": [
+            "Evidence 029"
+          ],
+          "source_refs": [
+            "Source 028"
+          ],
+          "status": "historical_coarse_control"
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 02",
+      "name": "Territory 02",
+      "unit_kind": "territorial_unit",
+      "geometry_scope": {
+        "description": "Territory 02",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "Autonomy; aliens competence retained by Entity 017",
+          "evidence_refs": [
+            "Evidence 010"
+          ],
+          "source_refs": [
+            "Source 009"
+          ],
+          "status": "supported"
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": false,
+          "evidence_refs": [
+            "Evidence 010"
+          ],
+          "source_refs": [
+            "Source 009"
+          ],
+          "status": "supported"
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "Entity 018 / Entity 048 requirements",
+          "evidence_refs": [
+            "Evidence 009"
+          ],
+          "source_refs": [
+            "Source 008"
+          ],
+          "status": "supported"
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "Entity 049 customs; VAT/excise exclusion",
+          "evidence_refs": [
+            "Evidence 011"
+          ],
+          "source_refs": [
+            "Source 010"
+          ],
+          "status": "supported"
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 03",
+      "name": "Territory 03",
+      "unit_kind": "territorial_unit",
+      "geometry_scope": {
+        "description": "Territory 03",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "MRV rule for listed nationalities; Territory 20/Entity 054/Entity 055 documents recognised",
+          "evidence_refs": [
+            "Evidence 017"
+          ],
+          "source_refs": [
+            "Source 016"
+          ],
+          "status": "supported"
+        },
+        "document_scope": {
+          "value": "45-day post-visit validity of passport and qualifying MRV",
+          "evidence_refs": [
+            "Evidence 017"
+          ],
+          "source_refs": [
+            "Source 016"
+          ],
+          "status": "supported"
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 04",
+      "name": "Territory 04",
+      "unit_kind": "reference_scope",
+      "geometry_scope": {
+        "description": "Territory 04; сравнительная reference scope, не утверждение однородности всей страны.",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "National non-open-area permit procedure; точная применимость по месту unknown",
+          "evidence_refs": [
+            "Evidence 007"
+          ],
+          "source_refs": [
+            "Source 006"
+          ],
+          "status": "supported"
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 05",
+      "name": "Territory 05",
+      "unit_kind": "reference_scope",
+      "geometry_scope": {
+        "description": "Territory 05; сравнительная reference scope, не утверждение однородности всей страны.",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "Territory 05 border authorities",
+          "evidence_refs": [
+            "Evidence 002"
+          ],
+          "source_refs": [
+            "Source 002"
+          ],
+          "status": "supported"
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "Entity 048; возможна LTV territorial limitation",
+          "evidence_refs": [
+            "Evidence 001"
+          ],
+          "source_refs": [
+            "Source 001"
+          ],
+          "status": "provisional"
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 06",
+      "name": "Territory 06",
+      "unit_kind": "reference_scope",
+      "geometry_scope": {
+        "description": "Territory 06; сравнительная reference scope, не утверждение однородности всей страны.",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "Entity 018 / Entity 048 requirements",
+          "evidence_refs": [
+            "Evidence 009"
+          ],
+          "source_refs": [
+            "Source 008"
+          ],
+          "status": "supported"
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "Entity 049 customs/VAT/excise",
+          "evidence_refs": [
+            "Evidence 011"
+          ],
+          "source_refs": [
+            "Source 010"
+          ],
+          "status": "supported"
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 07",
+      "name": "Territory 07",
+      "unit_kind": "reference_scope",
+      "geometry_scope": {
+        "description": "Territory 07; сравнительная reference scope, не утверждение однородности всей страны.",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "Entity 011 border police",
+          "evidence_refs": [
+            "Evidence 003"
+          ],
+          "source_refs": [
+            "Source 003"
+          ],
+          "status": "supported"
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "Entity 048; возможна LTV territorial limitation",
+          "evidence_refs": [
+            "Evidence 001"
+          ],
+          "source_refs": [
+            "Source 001"
+          ],
+          "status": "provisional"
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 08",
+      "name": "Territory 08",
+      "unit_kind": "territorial_unit",
+      "geometry_scope": {
+        "description": "Territory 08",
+        "geometry_status": "disputed",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "Entity 038-administered side; detailed constitutional/final admission competence unknown",
+          "evidence_refs": [
+            "Evidence 030"
+          ],
+          "source_refs": [
+            "Source 029"
+          ],
+          "status": "provisional"
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "Trekking/border restrictions; no blanket NOC inferred",
+          "evidence_refs": [
+            "Evidence 026",
+            "Evidence 027"
+          ],
+          "source_refs": [
+            "Source 025",
+            "Source 026"
+          ],
+          "status": "qualified"
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "Registration with local authorities; source freshness qualified",
+          "evidence_refs": [
+            "Evidence 026"
+          ],
+          "source_refs": [
+            "Source 025"
+          ],
+          "status": "qualified"
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 09",
+      "name": "Territory 09",
+      "unit_kind": "reference_scope",
+      "geometry_scope": {
+        "description": "Territory 09; сравнительная reference scope, не утверждение однородности всей страны.",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "В использованном перечне не установлено blanket PAP для этой ordinary reference scope; не доказательство отсутствия иных требований",
+          "evidence_refs": [
+            "Evidence 005"
+          ],
+          "source_refs": [
+            "Source 005"
+          ],
+          "status": "bounded_negative"
+        },
+        "local_overlays": {
+          "value": "Protected/restricted permits по paragraph 14; наличие конкретного overlay проверять по schedule",
+          "evidence_refs": [
+            "Evidence 005"
+          ],
+          "source_refs": [
+            "Source 005"
+          ],
+          "status": "supported"
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 10",
+      "name": "Territory 10",
+      "unit_kind": "reference_scope",
+      "geometry_scope": {
+        "description": "Territory 10; сравнительная reference scope, не утверждение однородности всей страны.",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "Territory 10 national immigration competence; конкретный officer chain unknown",
+          "evidence_refs": [
+            "Evidence 004"
+          ],
+          "source_refs": [
+            "Source 004"
+          ],
+          "status": "provisional"
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 11",
+      "name": "Territory 11",
+      "unit_kind": "territorial_unit",
+      "geometry_scope": {
+        "description": "Territory 11",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "Self-governing Crown Dependency outside Territory 20; immigration jurisdiction with mutual leave recognition",
+          "evidence_refs": [
+            "Evidence 014"
+          ],
+          "source_refs": [
+            "Source 013"
+          ],
+          "status": "supported"
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "Territory 11 immigration officers / Minister",
+          "evidence_refs": [
+            "Evidence 016"
+          ],
+          "source_refs": [
+            "Source 015"
+          ],
+          "status": "supported"
+        },
+        "independent_final_decision": {
+          "value": true,
+          "evidence_refs": [
+            "Evidence 014"
+          ],
+          "source_refs": [
+            "Source 013"
+          ],
+          "status": "supported"
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "Near-aligned Territory 20 visa policy, recognised leave; full equality not established",
+          "evidence_refs": [
+            "Evidence 014"
+          ],
+          "source_refs": [
+            "Source 013"
+          ],
+          "status": "supported"
+        },
+        "document_scope": {
+          "value": "Entity 012 ID day-return ferry exception under MOU",
+          "evidence_refs": [
+            "Evidence 015"
+          ],
+          "source_refs": [
+            "Source 014"
+          ],
+          "status": "supported"
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "Direct day-return ferry exception depends on participating carrier",
+          "evidence_refs": [
+            "Evidence 015"
+          ],
+          "source_refs": [
+            "Source 014"
+          ],
+          "status": "supported"
+        },
+        "route_dependent": {
+          "value": true,
+          "evidence_refs": [
+            "Evidence 015"
+          ],
+          "source_refs": [
+            "Source 014"
+          ],
+          "status": "supported"
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 12",
+      "name": "Territory 12",
+      "unit_kind": "territorial_unit",
+      "geometry_scope": {
+        "description": "Territory 12",
+        "geometry_status": "disputed",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "All-UT PAP proposal is not an enacted requirement in the reviewed source",
+          "evidence_refs": [
+            "Evidence 025"
+          ],
+          "source_refs": [
+            "Source 024"
+          ],
+          "status": "proposal_not_law"
+        },
+        "local_overlays": {
+          "value": "PAP only scheduled portions, not automatic blanket territory requirement",
+          "evidence_refs": [
+            "Evidence 006"
+          ],
+          "source_refs": [
+            "Source 005"
+          ],
+          "status": "supported"
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 13",
+      "name": "Territory 13",
+      "unit_kind": "reference_scope",
+      "geometry_scope": {
+        "description": "Territory 13; сравнительная reference scope, не утверждение однородности всей страны.",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "British ordinary passport: 90-day visa exemption",
+          "evidence_refs": [
+            "Evidence 022"
+          ],
+          "source_refs": [
+            "Source 021"
+          ],
+          "status": "supported"
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "Entity 027–Algeria land/sea closed; unauthorised crossing illegal",
+          "evidence_refs": [
+            "Evidence 024"
+          ],
+          "source_refs": [
+            "Source 023"
+          ],
+          "status": "supported"
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 14",
+      "name": "Territory 14",
+      "unit_kind": "territorial_unit",
+      "geometry_scope": {
+        "description": "Territory 14",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "Entity 020 / Entity 048 guide; source partly stale",
+          "evidence_refs": [
+            "Evidence 013"
+          ],
+          "source_refs": [
+            "Source 011",
+            "Source 012"
+          ],
+          "status": "qualified"
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "Entity 049 customs/VAT/excise territorial scope",
+          "evidence_refs": [
+            "Evidence 012"
+          ],
+          "source_refs": [
+            "Source 010"
+          ],
+          "status": "supported"
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 15",
+      "name": "Territory 15",
+      "unit_kind": "reference_scope",
+      "geometry_scope": {
+        "description": "Territory 15; сравнительная reference scope, не утверждение однородности всей страны.",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 16",
+      "name": "Territory 16",
+      "unit_kind": "reference_scope",
+      "geometry_scope": {
+        "description": "Territory 16; сравнительная reference scope, не утверждение однородности всей страны.",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "Entity 049 customs/VAT/excise territorial scope",
+          "evidence_refs": [
+            "Evidence 012"
+          ],
+          "source_refs": [
+            "Source 010"
+          ],
+          "status": "supported"
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 17",
+      "name": "Territory 17",
+      "unit_kind": "territorial_unit",
+      "geometry_scope": {
+        "description": "Territory 17",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "Outside Entity 048; destination visa unless exempt",
+          "evidence_refs": [
+            "Evidence 018"
+          ],
+          "source_refs": [
+            "Source 017",
+            "Source 018"
+          ],
+          "status": "supported"
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "Qualifying Entity 048 residence permit / D visa; nationality-specific exceptions need exact lookup",
+          "evidence_refs": [
+            "Evidence 018"
+          ],
+          "source_refs": [
+            "Source 017",
+            "Source 018"
+          ],
+          "status": "supported"
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "Entity 049 customs; outside VAT/excise",
+          "evidence_refs": [
+            "Evidence 019"
+          ],
+          "source_refs": [
+            "Source 010"
+          ],
+          "status": "supported"
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 18",
+      "name": "Territory 18",
+      "unit_kind": "territorial_unit",
+      "geometry_scope": {
+        "description": "Territory 18",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "Territory 10 national immigration competence; конкретный officer chain unknown",
+          "evidence_refs": [
+            "Evidence 004"
+          ],
+          "source_refs": [
+            "Source 004"
+          ],
+          "status": "provisional"
+        },
+        "independent_final_decision": {
+          "value": false,
+          "evidence_refs": [
+            "Evidence 004"
+          ],
+          "source_refs": [
+            "Source 004"
+          ],
+          "status": "provisional_inference_national_competence"
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 19",
+      "name": "Territory 19",
+      "unit_kind": "territorial_unit",
+      "geometry_scope": {
+        "description": "Territory 19",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "Foreigner Entity 034 travel permit plus organised tour",
+          "evidence_refs": [
+            "Evidence 028"
+          ],
+          "source_refs": [
+            "Source 027"
+          ],
+          "status": "supported"
+        },
+        "local_overlays": {
+          "value": "National non-open-area permit procedure; точная применимость по месту unknown",
+          "evidence_refs": [
+            "Evidence 007"
+          ],
+          "source_refs": [
+            "Source 006"
+          ],
+          "status": "supported"
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "Organised tour through specialised Entity 033 agency; permit issuance may stop",
+          "evidence_refs": [
+            "Evidence 028"
+          ],
+          "source_refs": [
+            "Source 027"
+          ],
+          "status": "supported"
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 20",
+      "name": "Territory 20",
+      "unit_kind": "reference_scope",
+      "geometry_scope": {
+        "description": "Territory 20; сравнительная reference scope, не утверждение однородности всей страны.",
+        "geometry_status": "unknown",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "document_scope": {
+          "value": "Passport/travel document valid for stay; standard visit up to six months",
+          "evidence_refs": [
+            "Evidence 008"
+          ],
+          "source_refs": [
+            "Source 007"
+          ],
+          "status": "supported"
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    },
+    {
+      "id": "Territory 21",
+      "name": "Territory 21",
+      "unit_kind": "territorial_unit",
+      "geometry_scope": {
+        "description": "Territory 21",
+        "geometry_status": "disputed",
+        "source_refs": [],
+        "description_role": "experiment_selection_not_operational_polygon"
+      },
+      "political_relations": {
+        "administering_entities": {
+          "value": "Entity 027",
+          "evidence_refs": [
+            "Evidence 021"
+          ],
+          "source_refs": [
+            "Source 020",
+            "Source 022"
+          ],
+          "status": "supported"
+        },
+        "claimant_entities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "constitutional_relations": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "international_status": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "admission": {
+        "final_admission_authority": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "independent_final_decision": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "territorial_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "visa_and_documents": {
+        "visa_scope": {
+          "value": "British ordinary passport: 90-day visa exemption",
+          "evidence_refs": [
+            "Evidence 022"
+          ],
+          "source_refs": [
+            "Source 021"
+          ],
+          "status": "supported"
+        },
+        "document_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "relevant_exceptions": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "entry_procedures": {
+        "land": {
+          "value": "Entity 029 entry stamp; exact intra-zone checkpoints unknown",
+          "evidence_refs": [
+            "Evidence 022"
+          ],
+          "source_refs": [
+            "Source 021"
+          ],
+          "status": "supported"
+        },
+        "air": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "sea": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_dependent": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "customs": {
+        "customs_scope": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "traveller_facing_formalities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "permits": {
+        "territorial_permits": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "local_overlays": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        }
+      },
+      "control": {
+        "civil_administration": {
+          "value": "Entity 027, coarse administered zone",
+          "evidence_refs": [
+            "Evidence 021"
+          ],
+          "source_refs": [
+            "Source 020",
+            "Source 022"
+          ],
+          "status": "supported"
+        },
+        "border_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "military_control": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "enforcement_authorities": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "control_geometry_status": {
+          "value": "approximate",
+          "evidence_refs": [
+            "Evidence 021"
+          ],
+          "source_refs": [
+            "Source 020",
+            "Source 022"
+          ],
+          "status": "supported"
+        }
+      },
+      "access": {
+        "ordinary_civilian_access": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "foreigner_specific_rules": {
+          "value": "unknown",
+          "evidence_refs": [],
+          "status": "unknown",
+          "gap": "Поле не установлено для этой единицы; не выводить из parent/claim."
+        },
+        "route_constraints": {
+          "value": "Reported travel restrictions not precisely specified",
+          "evidence_refs": [
+            "Evidence 023"
+          ],
+          "source_refs": [
+            "Source 021",
+            "Source 022"
+          ],
+          "status": "qualified"
+        }
+      },
+      "temporal": {
+        "as_of": "2026-09-11",
+        "valid_from": null,
+        "uncertainty": "Snapshot проверки источников; наблюдаемые даты и ограничения заданы в evidence registry."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "Evidence 001",
+      "statement": "LTV visa может быть ограничена одним issuing state; иные states включаются с согласия.",
+      "source_refs": [
+        "Source 001"
+      ],
+      "locator": "Visa Code Article 25",
+      "evidence_status": "provisional",
+      "observed_as_of": "2024-06-28",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 002",
+      "statement": "Territory 05: решения пограничного допуска принадлежат компетентным национальным пограничным органам.",
+      "source_refs": [
+        "Source 002"
+      ],
+      "locator": "§71(3)",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 003",
+      "statement": "Entity 011: border police проверяет условия допуска, наличие visa само по себе не гарантирует въезд.",
+      "source_refs": [
+        "Source 003"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 004",
+      "statement": "Territory 10: immigration отнесена к исключительной законодательной компетенции государства.",
+      "source_refs": [
+        "Source 004"
+      ],
+      "locator": "Constitution Article 117",
+      "evidence_status": "provisional",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 005",
+      "statement": "Entity 035: paragraph 14 устанавливает разрешения иностранцам на protected/restricted areas; территориальный список дан отдельно.",
+      "source_refs": [
+        "Source 005"
+      ],
+      "locator": "Order 2025 para 14; Third Schedule",
+      "evidence_status": "verified",
+      "observed_as_of": "2025-09-16",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 006",
+      "statement": "В перечне protected areas — весь Entity 041 и части Entity 043 / Entity 037 между Inner Line и описанной международной границей.",
+      "source_refs": [
+        "Source 005"
+      ],
+      "locator": "Third Schedule; PDF pp75–80",
+      "evidence_status": "verified",
+      "observed_as_of": "2025-09-16",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 007",
+      "statement": "Entity 032: travel permit для non-open areas оформляют уполномоченные public security органы; это не самостоятельное международное admission.",
+      "source_refs": [
+        "Source 006"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 008",
+      "statement": "Territory 20: стандартное гражданское посещение обычно до шести месяцев; требуется действительный в течение пребывания passport или допускаемый travel document.",
+      "source_refs": [
+        "Source 007"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 009",
+      "statement": "Territory 02: применяются Entity 018 visa/document requirements; оформление регионального паспорта не создаёт другое гражданство.",
+      "source_refs": [
+        "Source 008"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 010",
+      "statement": "Territory 02: полномочия в отношении aliens остаются у Entity 017.",
+      "source_refs": [
+        "Source 009"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2025",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 011",
+      "statement": "Territory 02 входит в Entity 049 customs territory, но исключена из VAT/excise territory; mainland Entity 017 входит во все три.",
+      "source_refs": [
+        "Source 010"
+      ],
+      "locator": "territorial table",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 012",
+      "statement": "Territory 14 и Entity 022 в таблице Entity 049 customs/VAT/excise имеют ту же территориальную применимость, что Entity 020.",
+      "source_refs": [
+        "Source 010"
+      ],
+      "locator": "territorial table",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 013",
+      "statement": "Аэропорты Territory 14 и Entity 022 описывают Entity 020/Entity 048 document regime, но справочные списки частично устарели.",
+      "source_refs": [
+        "Source 011",
+        "Source 012"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 014",
+      "statement": "Entity 065 имеют собственные immigration jurisdictions при взаимном признании leave и почти совпадающих visa requirements.",
+      "source_refs": [
+        "Source 013"
+      ],
+      "locator": "§§2,3.2; largely responsible for enter and stay",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 015",
+      "statement": "Territory 11: Entity 012 national ID допускается для прямого day-return на участвующем коммерческом ferry; обычное прибытие из-за Entity 066 требует passport с исключениями.",
+      "source_refs": [
+        "Source 014"
+      ],
+      "locator": "Arriving from outside Entity 066",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 016",
+      "statement": "Territory 11 immigration officers предоставляют или отказывают в leave; Minister осуществляет соответствующие полномочия по stay.",
+      "source_refs": [
+        "Source 015"
+      ],
+      "locator": "adapted Immigration Act §§3–4",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 017",
+      "statement": "Territory 03: для гражданств из Order требуется Territory 20/Entity 054/Entity 055 MRV; MRV и passport должны сохранять силу 45 дней после визита.",
+      "source_refs": [
+        "Source 016"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 018",
+      "statement": "Entity 012 overseas исключены из Entity 048: требуется подходящая destination visa, если нет освобождения; Entity 048 residence permit или D visa создаёт исключение.",
+      "source_refs": [
+        "Source 017",
+        "Source 018"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 019",
+      "statement": "Territory 17, Guadeloupe, Martinique и Saint-Martin входят в Entity 049 customs territory, исключены из VAT/excise; Saint-Barthélemy и остальные перечисленные overseas вне Entity 049 customs.",
+      "source_refs": [
+        "Source 010"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 020",
+      "statement": "Entity 030 остаётся объектом Entity 061 decolonization / Non-Self-Governing Territories list.",
+      "source_refs": [
+        "Source 019"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 021",
+      "statement": "Entity 027 администрирует большую часть Entity 030; точной действующей civil/military границы эти источники не устанавливают.",
+      "source_refs": [
+        "Source 020",
+        "Source 022"
+      ],
+      "locator": "Entity 061 report + independent external government guidance",
+      "evidence_status": "verified",
+      "observed_as_of": "2025-09-30",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 022",
+      "statement": "British ordinary passport: до 90 дней без visa в Entity 027 и Entity 028 Entity 030; проверять Entity 029 entry stamp.",
+      "source_refs": [
+        "Source 021"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 023",
+      "statement": "Entity 062 сообщает об ограничениях самостоятельного доступа в Entity 030, но не задаёт достаточно точных legal conditions или polygons.",
+      "source_refs": [
+        "Source 021",
+        "Source 022"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 024",
+      "statement": "Entity 027–Algeria land/sea border закрыта; неразрешённое пересечение незаконно.",
+      "source_refs": [
+        "Source 023"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 025",
+      "statement": "Entity 037: August 2026 review описывает существующие northern/eastern PAP areas; all-UT PAP обсуждался как предложение.",
+      "source_refs": [
+        "Source 024"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-08-24",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 026",
+      "statement": "Entity 039: Entity 062 предписывает иностранцам регистрацию; trekking permits относятся к маршрутам/занятиям, не автоматически ко всей территории.",
+      "source_refs": [
+        "Source 025"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 027",
+      "statement": "В 2019 заявлялась отмена NOC для GB/AJK с исключениями для чувствительных приграничных зон.",
+      "source_refs": [
+        "Source 026"
+      ],
+      "locator": "",
+      "evidence_status": "historical",
+      "observed_as_of": "2019-03-26",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 028",
+      "statement": "Territory 19: иностранным посетителям требуется permit и organised tour через специализированное Entity 033 agency.",
+      "source_refs": [
+        "Source 027"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 029",
+      "statement": "Territory 01: AP описывает Entity 032 control и Entity 035 claim; Entity 041 — Entity 035 control и Entity 032 claim.",
+      "source_refs": [
+        "Source 028"
+      ],
+      "locator": "",
+      "evidence_status": "historical",
+      "observed_as_of": "2023-08",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "Evidence 030",
+      "statement": "UNMOGIP размещает field stations на Entity 035-administered и Entity 038-administered сторонах; Gilgit и Skardu отнесены ко второй.",
+      "source_refs": [
+        "Source 029"
+      ],
+      "locator": "",
+      "evidence_status": "provisional",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    }
+  ],
+  "provenance_policy": "Opaque evidence and source IDs; full authority/URL registry withheld. Unknown and source freshness preserved."
+}

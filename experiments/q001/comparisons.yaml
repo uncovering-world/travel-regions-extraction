@@ -1,0 +1,1742 @@
+{
+  "format": "JSON syntax, valid YAML 1.2",
+  "snapshot": "2026-09-11",
+  "comparisons": [
+    {
+      "id": "C001",
+      "a": "de",
+      "b": "fr",
+      "theme": "ordinary neighbouring states",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": true,
+        "distinct_operational_control": true,
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E01",
+        "E02",
+        "E03"
+      ],
+      "blocked_by": [
+        "LTV legal witness provisional: consolidated law full-text validation outstanding; no global equivalence claim."
+      ],
+      "witnesses": [
+        {
+          "context": {
+            "purpose": "civilian tourism",
+            "duration_days": 7,
+            "as_of": "2026-09-11",
+            "prior_travel": "no overstay; no entry ban",
+            "baggage": "ordinary personal effects",
+            "nationality": "visa-required third-country national",
+            "document": "valid ordinary passport",
+            "authorisations": "valid LTV visa explicitly Germany only",
+            "residence_permit": null,
+            "arrival_mode": "air",
+            "route_class": "direct external arrival at authorised port"
+          },
+          "decision_dimension": "visa_territorial_validity",
+          "decision_a": "within visa scope",
+          "decision_b": "outside visa scope",
+          "evidence_refs": [
+            "E01"
+          ],
+          "status": "provisional_legal_construction",
+          "not_admission_guarantee": true
+        }
+      ],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C002",
+      "a": "it",
+      "b": "sic",
+      "theme": "ordinary internal control",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E04"
+      ],
+      "blocked_by": [
+        "National competence supported only by indexed constitutional text; complete document/permit exceptions audit absent."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C003",
+      "a": "es",
+      "b": "and",
+      "theme": "ordinary internal control",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E05"
+      ],
+      "blocked_by": [
+        "National entry guidance does not prove every local exception absent."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C004",
+      "a": "us",
+      "b": "oh",
+      "theme": "ordinary internal control",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": false,
+        "distinct_operational_control": false,
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E06"
+      ],
+      "blocked_by": [
+        "False refers to independent final international admission, not state law enforcement; other TravelDecision dimensions unaudited."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C005",
+      "a": "in",
+      "b": "mh",
+      "theme": "ordinary internal control",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E07"
+      ],
+      "blocked_by": [
+        "No exhaustive ordinary-traveller regime equivalence proof."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q009"
+      ]
+    },
+    {
+      "id": "C006",
+      "a": "cn",
+      "b": "zj",
+      "theme": "ordinary internal control",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E09"
+      ],
+      "blocked_by": [
+        "Non-open areas and port-dependent transit are not exhaustively mapped."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q009"
+      ]
+    },
+    {
+      "id": "C007",
+      "a": "uk",
+      "b": "je",
+      "theme": "shared visa / own admission",
+      "questions": {
+        "regime_difference": true,
+        "independent_admission_jurisdiction": true,
+        "distinct_operational_control": true,
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E18",
+        "E19",
+        "E20",
+        "E10"
+      ],
+      "blocked_by": [],
+      "witnesses": [
+        {
+          "context": {
+            "purpose": "civilian tourism",
+            "duration_days": 1,
+            "as_of": "2026-09-11",
+            "prior_travel": "no overstay; no entry ban",
+            "baggage": "ordinary personal effects",
+            "nationality": "France",
+            "document": "valid French national ID only; adult, no special status",
+            "authorisations": "none",
+            "residence_permit": null,
+            "arrival_mode": "sea",
+            "route_class": "direct day-return commercial ferry from France; Jersey carrier participates in MOU"
+          },
+          "decision_dimension": "acceptable_identity_document",
+          "decision_a": "ID alone insufficient under standard visitor passport rule",
+          "decision_b": "ID expressly accepted for defined ferry exception",
+          "evidence_refs": [
+            "E10",
+            "E19"
+          ],
+          "status": "verified",
+          "not_admission_guarantee": true
+        }
+      ],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C008",
+      "a": "uk",
+      "b": "gg",
+      "theme": "shared visa / own admission",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": true,
+        "distinct_operational_control": true,
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E18"
+      ],
+      "blocked_by": [
+        "No fully specified regime-difference witness within scope."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C009",
+      "a": "uk",
+      "b": "im",
+      "theme": "shared visa / own admission",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": true,
+        "distinct_operational_control": true,
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E18",
+        "E21"
+      ],
+      "blocked_by": [
+        "No fully specified regime-difference witness within scope."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C010",
+      "a": "uk",
+      "b": "bm",
+      "theme": "recognised external visa plus validity rule",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E22",
+        "E10"
+      ],
+      "blocked_by": [
+        "Nationality schedule for MRV and final statutory authority need extraction."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C011",
+      "a": "uk",
+      "b": "gi",
+      "theme": "new border arrangement",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E24",
+        "E25"
+      ],
+      "blocked_by": [
+        "Need nationality-specific current requirements on both sides and treaty final veto chain."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C012",
+      "a": "uk",
+      "b": "fk",
+      "theme": "territorial visitor admission",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": true,
+        "distinct_operational_control": true,
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E23",
+        "E10"
+      ],
+      "blocked_by": [
+        "Insurance requirement suggests difference; UK comparable no-requirement clause not independently established."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C013",
+      "a": "fi",
+      "b": "ax",
+      "theme": "shared admission / fiscal scope",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": false,
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E11",
+        "E12",
+        "E13"
+      ],
+      "blocked_by": [
+        "Q004: specific traveller-facing luggage witness not extracted; tax boundary alone not P1 proof."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q004"
+      ]
+    },
+    {
+      "id": "C014",
+      "a": "pt",
+      "b": "mad",
+      "theme": "autonomy/geography negative control",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E14",
+        "E15"
+      ],
+      "blocked_by": [
+        "Source partly stale; final authority and full regime audit missing."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C015",
+      "a": "pt",
+      "b": "azo",
+      "theme": "autonomy/geography negative control",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E14",
+        "E15"
+      ],
+      "blocked_by": [
+        "Source partly stale; final authority and full regime audit missing."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C016",
+      "a": "dk",
+      "b": "fo",
+      "theme": "territorial visa endorsement",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E16",
+        "E17"
+      ],
+      "blocked_by": [
+        "Positive difference requires nationality-specific exemption exclusion for complete witness."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C017",
+      "a": "dk",
+      "b": "gl",
+      "theme": "territorial visa endorsement",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E16",
+        "E17"
+      ],
+      "blocked_by": [
+        "Residence rules changed in March 2026; do not use obsolete residence-permit counterexample."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C018",
+      "a": "fr",
+      "b": "re",
+      "theme": "overseas visa scope",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E26",
+        "E27"
+      ],
+      "blocked_by": [
+        "Exact nationality × visa type × destination exemption must be checked for strict positive witness."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C019",
+      "a": "fr",
+      "b": "gp",
+      "theme": "overseas visa scope",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E26",
+        "E27"
+      ],
+      "blocked_by": [
+        "Exact nationality × visa type × destination exemption must be checked for strict positive witness."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C020",
+      "a": "fr",
+      "b": "mq",
+      "theme": "overseas visa scope",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E26",
+        "E27"
+      ],
+      "blocked_by": [
+        "Exact nationality × visa type × destination exemption must be checked for strict positive witness."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C021",
+      "a": "gp",
+      "b": "mq",
+      "theme": "similar overseas scopes",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E26",
+        "E27"
+      ],
+      "blocked_by": [
+        "Common summary rule is not proof of mutual visa validity or global equivalence."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C022",
+      "a": "sm",
+      "b": "sx",
+      "theme": "adjacent distinct visa scopes",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E26",
+        "E30",
+        "E33"
+      ],
+      "blocked_by": [
+        "One-way visa recognition does not prove reverse recognition; fully specified traveller witness pending."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C023",
+      "a": "fr",
+      "b": "bl",
+      "theme": "overseas scope and identity",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E26"
+      ],
+      "blocked_by": [
+        "Exact exemptions, final authority delegation and identity criterion unresolved."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C024",
+      "a": "fr",
+      "b": "pf",
+      "theme": "overseas scope and identity",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E26"
+      ],
+      "blocked_by": [
+        "Exact exemptions, final authority delegation and identity criterion unresolved."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C025",
+      "a": "fr",
+      "b": "nc",
+      "theme": "overseas scope and identity",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E26"
+      ],
+      "blocked_by": [
+        "Exact exemptions, final authority delegation and identity criterion unresolved."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C026",
+      "a": "nl",
+      "b": "aw",
+      "theme": "Kingdom relationship versus admission",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E28",
+        "E29",
+        "E33"
+      ],
+      "blocked_by": [
+        "National constitutional relationship does not settle independent final admission; Schengen single-entry witness needs fuller applicable source."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C027",
+      "a": "nl",
+      "b": "cw",
+      "theme": "Kingdom relationship versus admission",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E28",
+        "E29",
+        "E33"
+      ],
+      "blocked_by": [
+        "National constitutional relationship does not settle independent final admission; Schengen single-entry witness needs fuller applicable source."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C028",
+      "a": "nl",
+      "b": "bq",
+      "theme": "Kingdom relationship versus admission",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E28",
+        "E29",
+        "E33"
+      ],
+      "blocked_by": [
+        "National constitutional relationship does not settle independent final admission; Schengen single-entry witness needs fuller applicable source."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C029",
+      "a": "aw",
+      "b": "cw",
+      "theme": "nationality exception",
+      "questions": {
+        "regime_difference": true,
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E28"
+      ],
+      "blocked_by": [],
+      "witnesses": [
+        {
+          "context": {
+            "purpose": "civilian tourism",
+            "duration_days": 7,
+            "as_of": "2026-09-11",
+            "prior_travel": "no overstay; no entry ban",
+            "baggage": "ordinary personal effects",
+            "nationality": "Jamaica",
+            "document": "valid ordinary passport",
+            "authorisations": "none; no alternative visa exemptions",
+            "residence_permit": null,
+            "arrival_mode": "air",
+            "route_class": "direct destination admission, not transit/cruise"
+          },
+          "decision_dimension": "visa_requirement",
+          "decision_a": "visa required",
+          "decision_b": "visa exempt",
+          "evidence_refs": [
+            "E28"
+          ],
+          "status": "verified",
+          "not_admission_guarantee": true
+        }
+      ],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C030",
+      "a": "cw",
+      "b": "bq",
+      "theme": "nationality exception",
+      "questions": {
+        "regime_difference": true,
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E28"
+      ],
+      "blocked_by": [],
+      "witnesses": [
+        {
+          "context": {
+            "purpose": "civilian tourism",
+            "duration_days": 7,
+            "as_of": "2026-09-11",
+            "prior_travel": "no overstay; no entry ban",
+            "baggage": "ordinary personal effects",
+            "nationality": "Jamaica",
+            "document": "valid ordinary passport",
+            "authorisations": "none; no alternative visa exemptions",
+            "residence_permit": null,
+            "arrival_mode": "air",
+            "route_class": "direct destination admission, not transit/cruise"
+          },
+          "decision_dimension": "visa_requirement",
+          "decision_a": "visa exempt",
+          "decision_b": "visa required",
+          "evidence_refs": [
+            "E28"
+          ],
+          "status": "verified",
+          "not_admission_guarantee": true
+        }
+      ],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001"
+      ]
+    },
+    {
+      "id": "C031",
+      "a": "ma",
+      "b": "wsw",
+      "theme": "status versus operational regime",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E36",
+        "E37",
+        "E39",
+        "E40"
+      ],
+      "blocked_by": [
+        "British visa similarity is bounded; final legal authority and individual-route restrictions not fully established."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "C032",
+      "a": "wsw",
+      "b": "wse",
+      "theme": "distinct control zones",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": true,
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E37",
+        "E38",
+        "E41"
+      ],
+      "blocked_by": [
+        "Operational contrast is coarse civil/military evidence, not two verified immigration jurisdictions; east civilian routes unknown."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "C033",
+      "a": "ws",
+      "b": "wsw",
+      "theme": "status object overlaps zone",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E36",
+        "E37"
+      ],
+      "blocked_by": [
+        "Non-disjoint layers: status object is not an alternative destination. Q006 identity criterion."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "C034",
+      "a": "ws",
+      "b": "wse",
+      "theme": "status object overlaps zone",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E36",
+        "E38"
+      ],
+      "blocked_by": [
+        "Non-disjoint layers; east civil administration/admission unknown."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "C035",
+      "a": "wsw",
+      "b": "berm",
+      "theme": "restricted overlay versus territory",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E37",
+        "E41"
+      ],
+      "blocked_by": [
+        "Q005/Q009; legal buffer polygon and tourist permissions unknown."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q006",
+        "Q009"
+      ]
+    },
+    {
+      "id": "C036",
+      "a": "in",
+      "b": "jk",
+      "theme": "administration and protected portions",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E07",
+        "E08",
+        "E49"
+      ],
+      "blocked_by": [
+        "No blanket PAP; exact destination/route witness and civil-control geometry missing."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q006",
+        "Q009"
+      ]
+    },
+    {
+      "id": "C037",
+      "a": "in",
+      "b": "ld",
+      "theme": "local permits versus whole-territory proposal",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E07",
+        "E08",
+        "E43"
+      ],
+      "blocked_by": [
+        "All-UT PAP proposal not law; Q005/Q009 require destination-matched overlay treatment."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q006",
+        "Q009"
+      ]
+    },
+    {
+      "id": "C038",
+      "a": "pk",
+      "b": "gb",
+      "theme": "registration versus independent admission",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E45",
+        "E47",
+        "E53"
+      ],
+      "blocked_by": [
+        "Registration source freshness and legal basis; separate final admission not established."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "C039",
+      "a": "pk",
+      "b": "ajk",
+      "theme": "district permissions versus identity",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E46",
+        "E47",
+        "E53"
+      ],
+      "blocked_by": [
+        "District permits do not prove whole-territory regime; final jurisdiction and constitutional relations incomplete."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "C040",
+      "a": "cn",
+      "b": "ac",
+      "theme": "claim/control versus civilian regime",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E09",
+        "E50"
+      ],
+      "blocked_by": [
+        "No reliable ordinary civilian route/admission/permit evidence for Aksai Chin; current exact control unverified."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q006",
+        "Q009"
+      ]
+    },
+    {
+      "id": "C041",
+      "a": "cn",
+      "b": "tar",
+      "theme": "territorial destination permit",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E09",
+        "E48"
+      ],
+      "blocked_by": [
+        "Positive candidate, but ordinary baseline absence of equivalent destination permit is not exhaustively sourced; Q005 scope."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q009"
+      ]
+    },
+    {
+      "id": "C042",
+      "a": "in",
+      "b": "ar",
+      "theme": "whole-territory protected permit",
+      "questions": {
+        "regime_difference": true,
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E07",
+        "E08",
+        "E44",
+        "E50"
+      ],
+      "blocked_by": [],
+      "witnesses": [
+        {
+          "context": {
+            "purpose": "civilian tourism",
+            "duration_days": 7,
+            "as_of": "2026-09-11",
+            "prior_travel": "no overstay; no entry ban",
+            "baggage": "ordinary personal effects",
+            "nationality": "France",
+            "document": "valid ordinary passport; no Afghanistan/China/Pakistan origin",
+            "authorisations": "valid ordinary Indian tourist visa; no protected-area permit",
+            "residence_permit": null,
+            "arrival_mode": "land",
+            "route_class": "internal ordinary visit: Maharashtra ordinary city versus Arunachal Pradesh; not protected settlement, no border crossing"
+          },
+          "decision_dimension": "protected_area_permit",
+          "decision_a": "ordinary reference destination outside listed protected/restricted areas: no paragraph-14 permit required",
+          "decision_b": "PAP required across destination territory",
+          "evidence_refs": [
+            "E07",
+            "E08",
+            "E44"
+          ],
+          "status": "verified",
+          "not_admission_guarantee": true
+        }
+      ],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q006",
+        "Q009"
+      ]
+    },
+    {
+      "id": "C043",
+      "a": "ld",
+      "b": "sc",
+      "theme": "base camp versus glacier",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E43",
+        "E54",
+        "E55"
+      ],
+      "blocked_by": [
+        "Base camp is not glacier; current civil access and military polygon unknown."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "C044",
+      "a": "ac",
+      "b": "sh",
+      "theme": "separate disputed units",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E50",
+        "E51",
+        "E52"
+      ],
+      "blocked_by": [
+        "No civilian admission/access evidence; do not merge from common claimed/controlling state."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "C045",
+      "a": "gb",
+      "b": "sh",
+      "theme": "administered travel area versus disputed tract",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E45",
+        "E51",
+        "E52",
+        "E53"
+      ],
+      "blocked_by": [
+        "Border route legality, admission and exact geometry unknown."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "C046",
+      "a": "jk",
+      "b": "loc",
+      "theme": "LoC access overlay",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E46",
+        "E49",
+        "E53"
+      ],
+      "blocked_by": [
+        "Cross-side sources: do not project Pakistan restrictions onto India; local legal geometry missing."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q006",
+        "Q009"
+      ]
+    },
+    {
+      "id": "C047",
+      "a": "ld",
+      "b": "lac",
+      "theme": "LAC access overlay",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E08",
+        "E43"
+      ],
+      "blocked_by": [
+        "Protected-area schedule is not actual military control geometry."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q005",
+        "Q006",
+        "Q009"
+      ]
+    },
+    {
+      "id": "C048",
+      "a": "ajk",
+      "b": "gb",
+      "theme": "different permit / administration descriptions",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E45",
+        "E46",
+        "E47",
+        "E53"
+      ],
+      "blocked_by": [
+        "Authority chain and fully matched contexts missing."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    },
+    {
+      "id": "C049",
+      "a": "ar",
+      "b": "lac",
+      "theme": "PAP versus operational boundary",
+      "questions": {
+        "regime_difference": "unknown",
+        "independent_admission_jurisdiction": "unknown",
+        "distinct_operational_control": "unknown",
+        "territorial_identity_candidate": "unresolved"
+      },
+      "relevant_rules": [
+        "R007",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R016"
+      ],
+      "evidence_refs": [
+        "E08",
+        "E44",
+        "E50"
+      ],
+      "blocked_by": [
+        "PAP covers destination jurisdiction; LAC affected areas have no exact supplied geometry."
+      ],
+      "witnesses": [],
+      "interpretation": "Dimension assessment only; no canonical verdict.",
+      "model_questions": [
+        "Q001",
+        "Q006"
+      ]
+    }
+  ]
+}

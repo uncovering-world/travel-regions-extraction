@@ -1,0 +1,19 @@
+{
+  "experiment": "Q001",
+  "snapshot": "2026-09-11",
+  "counts": {
+    "comparisons": 49,
+    "factual_units": 56,
+    "evidence": 55,
+    "sources": 52,
+    "blind_comparisons": 12
+  },
+  "profile_results_computed": false,
+  "representative_profile_results_documented": true,
+  "canonical_verdicts": false,
+  "evaluator_contract": "evaluator-contract.md",
+  "evaluator_fixtures": "evaluator-fixtures.yaml",
+  "blind_evaluator_files": [
+    "blind-comparisons.yaml"
+  ]
+}
