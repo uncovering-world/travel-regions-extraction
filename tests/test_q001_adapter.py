@@ -9,12 +9,16 @@ from pathlib import Path
 from ctr_evaluator.evaluator import evaluate
 from ctr_evaluator.loaders import load_q001
 from ctr_evaluator.model import DataBlockerKind, EvaluatorResult, Profile
-from ctr_evaluator.reporting import evaluate_profiles, representative_mismatches
+from ctr_evaluator.reporting import (
+    build_artifact,
+    evaluate_profiles,
+    representative_mismatches,
+)
 
 
 def test_q001_adapter_loads_expected_snapshot() -> None:
     bundle = load_q001()
-    assert bundle.spec_version == "0.1.1-draft"
+    assert bundle.spec_version == "0.2.0-draft"
     assert bundle.dataset_snapshot == "2026-09-11"
     assert len(bundle.comparisons) == 49
     assert len(evaluate_profiles(bundle, Profile)) == 147
@@ -30,13 +34,20 @@ def test_q001_verified_witnesses_are_the_only_p1_splits() -> None:
     assert split_ids == {"C007", "C029", "C030", "C042"}
 
 
-def test_q001_incomplete_schema_produces_no_merge() -> None:
+def test_q001_incomplete_schema_produces_no_hard_compatible() -> None:
     bundle = load_q001()
     assert all(
-        evaluate(comparison, profile).result is not EvaluatorResult.MAY_MERGE
+        evaluate(comparison, profile).result is not EvaluatorResult.HARD_COMPATIBLE
         for comparison in bundle.comparisons
         for profile in Profile
     )
+
+
+def test_generated_artifact_uses_canonical_outcome_terminology() -> None:
+    artifact, _ = build_artifact(load_q001(), Profile)
+    serialized = json.dumps(artifact)
+    assert '"hard_compatible"' in serialized
+    assert '"may_merge"' not in serialized
 
 
 def test_q001_preserves_provisional_evidence() -> None:

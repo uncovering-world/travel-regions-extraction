@@ -96,13 +96,13 @@ for old,new in key['unit_ids'].items():
  blind=next(x for x in b['units'] if x['id']==new)
  ok(shape(u[old])==shape(blind),f'{old}: blind fact structure preserved')
 ok(10 <= len(fixtures) <= 20,'10–20 evaluator fixtures')
-allowed_results={'must_separate','may_merge','separation_not_proven','model_unresolved','data_unknown','rule_conflict'}
+allowed_results={'must_separate','hard_compatible','separation_not_proven','model_unresolved','data_unknown','rule_conflict'}
 for f in fixtures:
  ok(bool(f['id']) and bool(f.get('expected')),f"{f['id']}: fixture identity and oracle")
  for profile,expected in f['expected'].items():
   ok(profile in {'P1','P2','P3'} and expected['result'] in allowed_results,f"{f['id']}/{profile}: valid pairwise outcome")
   sig=expected.get('signature',{})
-  if expected['result']=='may_merge' and sig:
-   ok(sig.get('a_complete') is True and sig.get('b_complete') is True and sig.get('equal') is True,f"{f['id']}/{profile}: may_merge requires complete equal signature")
+  if expected['result']=='hard_compatible' and sig:
+   ok(sig.get('a_complete') is True and sig.get('b_complete') is True and sig.get('equal') is True,f"{f['id']}/{profile}: hard_compatible requires complete equal signature")
 result={'status':'PASS','checks_passed':len(checks),'comparison_count':len(c),'unit_count':len(u),'positive_regime_witness_comparisons':[x['id'] for x in c if x['questions']['regime_difference'] is True],'scope':'Structural and editorial invariants; not independent legal verification.'}
 print(json.dumps(result,ensure_ascii=False,indent=2))

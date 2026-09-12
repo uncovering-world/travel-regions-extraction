@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Версия: 0.1.0-draft. Дата: 2026-09-11. Связанные документы: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Версия: 0.2.0-draft. Дата: 2026-09-12. Связанные документы: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 ## Как читать журнал
 
@@ -223,7 +223,75 @@ Library ID приведены для точного поиска исходны�
 - Статус: tentative для схемы; adversarial-подход accepted по S05.
 - Основание: N01.
 
-### D017 — Локальные режимные зоны не создают split
+## Two-stage architecture decisions
+
+### D023 — Final regions remain single-level
+
+- Decision: the published Canonical Travel Regions output remains one exhaustive, mutually exclusive, single-level partition.
+- Rationale: construction stages must not become a user-visible parent/child ontology.
+- Rules: R003–R005, R043.
+- Status: accepted.
+- Basis: explicit user architecture decision, 2026-09-12.
+
+### D024 — Construct the partition in two refinement stages
+
+- Decision: construct the final partition through Stage 1 Mandatory Separation followed by Stage 2 Destination Partition.
+- Rationale: hard travel boundaries and destination semantics answer different questions and require different evidence.
+- Rules: R009, R039–R041.
+- Status: accepted.
+- Basis: explicit user architecture decision, 2026-09-12.
+
+### D025 — Stage 1 establishes mandatory hard boundaries
+
+- Decision: Stage 1 finds boundaries the final partition may not cross, using only accepted hard dimensions.
+- Rationale: admission, legal/access, jurisdiction, and materially relevant control differences can require separation without deciding destination structure.
+- Rules: R007–R017, R039.
+- Status: accepted.
+- Basis: explicit user architecture decision, 2026-09-12.
+
+### D026 — Stage 2 only subdivides Stage 1 cells
+
+- Decision: `Stage2Partition refines Stage1Partition`; Stage 2 cannot merge across a Stage 1 boundary.
+- Rationale: mandatory separation must be monotonic through construction.
+- Rules: R009, R041.
+- Status: accepted.
+- Basis: explicit user architecture decision, 2026-09-12.
+
+### D027 — Stage 2 introduces destination semantics
+
+- Decision: destination identity, geographic and itinerary coherence, gateway structure, and related destination concepts are first-class Stage 2 inputs.
+- Rationale: the final travel partition must be able to distinguish destinations even when Stage 1 finds no hard boundary.
+- Rules: R040.
+- Status: accepted; algorithm unresolved in Q012.
+- Basis: explicit user architecture decision, 2026-09-12.
+
+### D028 — `hard_compatible` is not a final merge decision
+
+- Decision: rename the Q001 outcome `may_merge` to `hard_compatible`.
+- Rationale: complete and equal hard signatures establish only that Stage 1 requires no boundary; Stage 2 may still split the units.
+- Rules: R008–R009, R035, R038.
+- Status: accepted.
+- Basis: explicit user terminology correction, 2026-09-12.
+
+### D029 — Territorial/legal identity differs from destination identity
+
+- Decision: territorial/legal identity remains a possible unresolved Stage 1 separator, while destination identity belongs to Stage 2.
+- Rationale: institutional status and coherent travel-destination meaning are separate predicates. P3 addresses only the former.
+- Rules: R010, R040, R042.
+- Status: accepted distinction; territorial/legal predicate and destination algorithm remain unresolved.
+- Basis: explicit user architecture decision, 2026-09-12.
+
+### D030 — Finer subdivisions are outside project scope
+
+- Decision: subdivisions finer than the Stage 2 canonical destination partition are outside this repository's ontology.
+- Rationale: an external finer-granularity product must not distort either construction stage.
+- Rules: R043.
+- Status: accepted.
+- Basis: explicit user scope decision, 2026-09-12.
+
+## Local access overlays
+
+### D031 — Локальные режимные зоны не создают split
 
 - Решение: пограничные, военные, природоохранные, объектовые, маршрутные и activity-specific ограничения внутри общей admission jurisdiction моделируются как spatial access overlays и сами по себе не создают canonical region.
 - Rationale: они изменяют локальный доступ уже допущенного путешественника, а не допуск в самостоятельное территориальное назначение. Совпадение overlay с административным районом или субъектом не меняет его семантику.
@@ -231,3 +299,4 @@ Library ID приведены для точного поиска исходны�
 - Контраргументы: некоторые разрешения охватывают candidate territory целиком и практически функционируют как destination admission. Общий predicate для отделения таких случаев остаётся Q005.
 - Статус: tentative; прямо подтверждено направление для российских пограничных зон, универсализация на все типы режимных зон требует проверки Q005.
 - Основание: пользовательское уточнение от 12 сентября 2026 года.
+- История ID: при интеграции присвоен D031 вместо дублирующего D017 из upstream; исходный D017 о покрытии закрытых территорий сохранён.

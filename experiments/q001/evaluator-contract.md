@@ -1,6 +1,8 @@
 # Experiment Q001 — evaluator contract
 
-Статус: implementation-ready contract для `spec.md` 0.1.2-draft и factual snapshot 2026-09-11. Контракт не выбирает между P1/P2/P3 и не назначает canonical regions.
+Статус: implementation-ready Stage 1 contract для `spec.md` 0.2.0-draft и factual snapshot 2026-09-11. Контракт не выбирает между P1/P2/P3 и не назначает canonical regions.
+
+Q001 is primarily a Stage 1 Mandatory Separation experiment. Its profiles test hard-boundary hypotheses based on regime, jurisdiction, and potentially territorial/legal identity. They do not produce the complete canonical travel partition and do not model Stage 2 destination identity. A `hard_compatible` pair may still be divided by Stage 2.
 
 ## 1. Основные предикаты
 
@@ -20,24 +22,24 @@
 
 P2 дополнительно принимает independently verified различие `final_admission_jurisdiction`. P3 может дополнительно принимать identity discriminator, но этот discriminator пока не определён.
 
-### `may_merge(A, B, profile)`
+### `hard_compatible(A, B, profile)`
 
 Истинен только при достаточном положительном доказательстве эквивалентности A и B по всем hard dimensions profile:
 
 ```text
-may_merge(A,B,P) :=
+hard_compatible(A,B,P) :=
     signature_complete(A,P)
     and signature_complete(B,P)
     and signatures_equal(A,B,P) = true
     and no applicable must_separate certificate
 ```
 
-`may_merge` не является отрицанием `must_separate`. Следующие импликации запрещены:
+`hard_compatible` не является отрицанием `must_separate` и не является решением объединить final canonical regions. Следующие импликации запрещены:
 
 ```text
-no witness found  => may_merge
+no witness found  => hard_compatible
 unknown           => false
-not must_separate => may_merge
+not must_separate => hard_compatible
 ```
 
 ## 2. Signature completeness
@@ -132,7 +134,7 @@ evidence_records: []
 ```yaml
 comparison_id: Cxxx
 profile: P1
-result: must_separate | may_merge | separation_not_proven | model_unresolved | data_unknown | rule_conflict
+result: must_separate | hard_compatible | separation_not_proven | model_unresolved | data_unknown | rule_conflict
 applied_rules: []
 witnesses: []
 signature:
@@ -157,7 +159,7 @@ explanation: string
 - `evidence_refs`: отсортированное объединение evidence, реально использованного для outcome и signature assessment.
 - `explanation`: короткое детерминированное объяснение без вывода из имён территорий.
 
-Даже при `must_separate` signature может быть incomplete: witness является достаточным контрпримером равенству. При `may_merge` обе completeness flags обязаны быть true, а `equal` — true.
+Даже при `must_separate` signature может быть incomplete: witness является достаточным контрпримером равенству. При `hard_compatible` обе completeness flags обязаны быть true, а `equal` — true.
 
 ## 5. Outcomes и приоритет
 
@@ -167,8 +169,8 @@ Evaluator применяет следующий порядок; внутри ш�
 2. `must_separate`: существует sufficient certificate P1/P2/P3. Более поздние undefined dimensions не отменяют уже доказанный split.
 3. `model_unresolved`: undefined model predicate может изменить terminal outcome. Для P3 после отсутствия достаточного P1/P2 split это как минимум `Q001.identity`.
 4. `data_unknown`: конкретный unknown или unresolved source conflict блокирует обязательную dimension либо проверку candidate certificate. Он используется, когда проблема локализована в данных, а не просто когда открытый поиск не доказал всеобщую эквивалентность.
-5. `may_merge`: обе signatures complete и equal; отдельного split-certificate нет.
-6. `separation_not_proven`: split-certificate отсутствует, но условия `may_merge` не выполнены, и более специфичный blocker выше не применим. Это открытый, не терминально-отрицательный результат.
+5. `hard_compatible`: обе signatures complete и equal; отдельного split-certificate нет. Это только положительная совместимость по hard dimensions Stage 1, а не final merge decision.
+6. `separation_not_proven`: split-certificate отсутствует, но условия `hard_compatible` не выполнены, и более специфичный blocker выше не применим. Это открытый, не терминально-отрицательный результат.
 
 Authoritative evidence records, дающие разные значения одной dimension в совместимых temporal/scope условиях, создают `source_conflict` в data assessment и обычно ведут к `data_unknown`. `rule_conflict` возникает только после нормализации фактов, когда конфликтуют сами правила.
 
@@ -184,14 +186,14 @@ else if model semantics for a required P1 dimension are unresolved:
 else if a concrete data blocker prevents required assessment:
     data_unknown
 else if both P1 signatures are complete and equal:
-    may_merge
+    hard_compatible
 else:
     separation_not_proven
 ```
 
 ### P2 — `jurisdiction`
 
-Сначала применяются все основания P1. Затем independently verified разные final admission jurisdictions дают `must_separate` по R011, даже при одинаковой visa policy. `may_merge` требует complete/equal P1 signature и complete/equal jurisdiction dimensions.
+Сначала применяются все основания P1. Затем independently verified разные final admission jurisdictions дают `must_separate` по R011, даже при одинаковой visa policy. `hard_compatible` требует complete/equal P1 signature и complete/equal jurisdiction dimensions.
 
 ### P3 — `jurisdiction_plus_identity`
 
@@ -205,6 +207,8 @@ blocked_by_model:
 
 Для disputed/occupied/international-status distinctions дополнительно указывается Q006, если именно этот тип identity участвует. P3 не содержит hidden manual list.
 
+The P3 discriminator concerns territorial/legal identity: institutional status, dependencies, constitutional territorial identity, and disputed or international status. It is not destination identity and P3 is not the future Stage 2 destination evaluator.
+
 ## 7. Determinism requirements
 
 Evaluator обязан быть:
@@ -214,11 +218,13 @@ Evaluator обязан быть:
 - symmetric для pairwise semantics: swap A/B меняет только ориентированные поля witness, но не result;
 - name-blind: names, country labels и display order не участвуют в predicate;
 - explicit about unknown: missing/null/empty не нормализуются в false или absence;
-- fail-closed для merge: неполная signature никогда не даёт `may_merge`.
+- fail-closed for hard compatibility: an incomplete signature never produces `hard_compatible`.
 
 ## 8. Representative Q001 classifications
 
 Это применение контракта к уже собранным фактам, а не изменение factual evidence и не назначение canonical regions.
+
+For example, a future complete evaluation of Portugal mainland / Madeira or Italy / Sicily could return `hard_compatible` under a Stage 1 profile. That would mean only that the profile found no mandatory hard boundary. Stage 2 could still separate Madeira or Sicily as a travel destination.
 
 ```yaml
 representative_evaluations:
@@ -289,3 +295,5 @@ Comments are display labels only; an implementation consumes comparison IDs and 
 - fixture с `input_variants` требует одинакового semantic outcome для каждого варианта.
 
 Production input не обязан использовать эти строковые сокращения; он обязан сохранять ту же типизированную семантику.
+
+For transitional compatibility, implementation version 0.2 accepts the legacy string `may_merge` only when parsing an input rule derivation. Fixtures, generated output, APIs, and canonical documentation use `hard_compatible`.

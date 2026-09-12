@@ -2,6 +2,8 @@
 
 Working specification and experimental data for building a reproducible, single-level partition of the world into canonical travel regions.
 
+The partition is constructed in two internal stages. Stage 1 establishes mandatory hard boundaries. Stage 2 may subdivide each Stage 1 cell using destination semantics. The invariant `Stage2Partition refines Stage1Partition` prevents later work from crossing a mandatory boundary. These stages are not a user-visible hierarchy; the Stage 2 output is the single-level canonical partition.
+
 The project does not yet contain a final world partition and does not select a winner among profiles P1, P2, and P3.
 
 ## Repository contents
@@ -9,6 +11,7 @@ The project does not yet contain a final world partition and does not select a w
 - `docs/spec.md` — normative specification;
 - `docs/decisions.md` — decision log and current statuses;
 - `docs/open-questions.md` — unresolved model questions;
+- `docs/partition-architecture.md` — concise guide to the two-stage construction model;
 - `data/adversarial-test-set.csv` — adversarial corpus for future experiments;
 - `experiments/q001/` — the complete Experiment Q001 factual dataset, evaluator contract, fixtures, provenance, and validation artifacts.
 
@@ -25,7 +28,7 @@ The reference evaluator implements `experiments/q001/evaluator-contract.md`. Int
 
 ## Reference pairwise evaluator
 
-The minimal open-world evaluator implements profiles P1, P2, and P3. It emits pairwise outcomes only and does not build a world partition.
+The minimal open-world evaluator implements the Q001 Stage 1 profiles P1, P2, and P3. It emits pairwise hard-boundary outcomes only and does not build a world partition. `hard_compatible` means that no Stage 1 boundary is required based on complete, equal hard signatures; it does not instruct Stage 2 to place the pair in one final region. P3 concerns unresolved territorial/legal identity and is not a destination evaluator.
 
 Python 3.11 or newer is required. For a development installation:
 

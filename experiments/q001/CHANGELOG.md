@@ -1,5 +1,20 @@
 # Experiment Q001 changelog
 
+## 2026-09-12 — two-stage partition architecture
+
+### Architecture and terminology
+
+- Formalized Q001 as a Stage 1 Mandatory Separation experiment within a two-stage construction process.
+- Recorded the monotonic invariant `Stage2Partition refines Stage1Partition`; Stage 2 may subdivide Stage 1 cells but cannot merge across a mandatory boundary.
+- Distinguished unresolved Stage 1 territorial/legal identity from future Stage 2 destination identity. P3 remains a territorial/legal identity hypothesis and is not a destination evaluator.
+- Renamed the positive complete-signature outcome from `may_merge` to `hard_compatible`. The new term means only that no Stage 1 boundary is required; it is not a final-region merge decision.
+- Added a temporary fixture-input alias for the former spelling. Canonical fixtures, APIs, generated output, and reports emit only `hard_compatible`.
+
+### Scope
+
+- No Stage 2 destination algorithm, geographic research, territory, factual record, witness, source, or canonical assignment was added.
+- The final project output remains a single-level, exhaustive, mutually exclusive partition. Finer subdivisions beyond the Stage 2 destination partition are outside project scope.
+
 ## 2026-09-12 — typed evaluator blocker alignment
 
 ### Contract and metadata changes
@@ -24,9 +39,9 @@
 
 ### Semantic changes
 
-- Разделены независимые предикаты `must_separate(A,B,profile)` и `may_merge(A,B,profile)`.
-- Запрещены closed-world выводы `no witness found => regimes equal => merge`, `unknown => false` и `not must_separate => may_merge`.
-- Введены pairwise outcomes `must_separate`, `may_merge`, `separation_not_proven`, `model_unresolved`, `data_unknown`, `rule_conflict` и их deterministic precedence.
+- Established independent `must_separate(A,B,profile)` and then-named `may_merge(A,B,profile)` predicates; version 0.2 renames the latter to `hard_compatible`.
+- Forbade closed-world implications from `no witness found`, `unknown`, or `not must_separate` to positive compatibility.
+- Introduced deterministic precedence for `must_separate`, the then-named `may_merge` (now `hard_compatible`), `separation_not_proven`, `model_unresolved`, `data_unknown`, and `rule_conflict`.
 - Определены `signature_complete` и `signatures_equal`, включая состояния `known_value`, `known_absence`, `unknown`, `not_applicable`, `unresolved_model_semantics`.
 - Формализованы минимальные P1/P2/P3 signatures. P2 принимает independently verified различие final admission jurisdiction как split; P3 блокируется `Q001.identity`, если P1/P2 уже не доказали split.
 - Добавлена R038; точечно уточнены R008, R009, R010, R035, R037 и проверки V004/V009/V010.

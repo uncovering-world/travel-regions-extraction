@@ -28,6 +28,12 @@ class InputError(ValueError):
     """Raised when evaluator input violates the executable contract."""
 
 
+def _evaluator_result(value: object) -> EvaluatorResult:
+    """Parse a terminal outcome, accepting the pre-0.2 input spelling only."""
+    normalized = "hard_compatible" if value == "may_merge" else str(value)
+    return EvaluatorResult(normalized)
+
+
 def _read_json(path: Path) -> Any:
     try:
         return json.loads(path.read_text(encoding="utf-8"))
@@ -373,7 +379,7 @@ def _fixture_comparison(
     derivations = tuple(
         RuleDerivation(
             rule=str(item["rule"]),
-            requires=EvaluatorResult(str(item["requires"])),
+            requires=_evaluator_result(item["requires"]),
         )
         for item in raw.get("derivations", [])
     )

@@ -131,7 +131,7 @@ def must_separate(
     return tuple(sorted(set(derivations)))
 
 
-def may_merge(
+def hard_compatible(
     a: FactualUnitReference,
     b: FactualUnitReference,
     profile: Profile,
@@ -173,8 +173,11 @@ def _explanation(
             base += " Data blockers also recorded: " + ", ".join(data) + "."
     elif result is EvaluatorResult.DATA_UNKNOWN:
         base = "Concrete data blockers prevent the required assessment: " + ", ".join(data) + "."
-    elif result is EvaluatorResult.MAY_MERGE:
-        base = "Both profile signatures are complete and equal, with no applicable split certificate."
+    elif result is EvaluatorResult.HARD_COMPATIBLE:
+        base = (
+            "Both Stage 1 profile signatures are complete and equal, with no applicable "
+            "mandatory-separation certificate."
+        )
     else:
         base = "No sufficient split certificate or complete equal signature is available."
     if rejected_witnesses:
@@ -224,7 +227,7 @@ def evaluate(comparison: ComparisonInput, profile: Profile) -> EvaluatorOutput:
     terminal_requirements = {item.requires for item in explicit_derivations}
     if {
         EvaluatorResult.MUST_SEPARATE,
-        EvaluatorResult.MAY_MERGE,
+        EvaluatorResult.HARD_COMPATIBLE,
     }.issubset(terminal_requirements):
         result = EvaluatorResult.RULE_CONFLICT
         rules.update(item.rule for item in explicit_derivations)
@@ -248,8 +251,8 @@ def evaluate(comparison: ComparisonInput, profile: Profile) -> EvaluatorOutput:
                 rules.add("R010")
         elif data_blockers:
             result = EvaluatorResult.DATA_UNKNOWN
-        elif may_merge(comparison.a, comparison.b, profile, comparison=comparison):
-            result = EvaluatorResult.MAY_MERGE
+        elif hard_compatible(comparison.a, comparison.b, profile, comparison=comparison):
+            result = EvaluatorResult.HARD_COMPATIBLE
             rules.update(("R008", "R009"))
             evidence_refs.update(a_signature.evidence_refs)
             evidence_refs.update(b_signature.evidence_refs)
@@ -266,7 +269,7 @@ def evaluate(comparison: ComparisonInput, profile: Profile) -> EvaluatorOutput:
     if result in {
         EvaluatorResult.RULE_CONFLICT,
         EvaluatorResult.MUST_SEPARATE,
-        EvaluatorResult.MAY_MERGE,
+        EvaluatorResult.HARD_COMPATIBLE,
         EvaluatorResult.SEPARATION_NOT_PROVEN,
     }:
         output_data_blockers: set[DataBlocker] = set()

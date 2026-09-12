@@ -15,7 +15,9 @@
 
 В `comparisons.yaml` только четыре сравнения получили `regime_difference=true`, каждое с конкретным контекстом и различающим компонентом решения. Остальные сохраняют установленные факты и явные условия, которых не хватает для такого вывода. Ни одному сравнению не присвоено глобальное `regime_difference=false`.
 
-Evaluator теперь формально open-world. `must_separate` доказывается достаточным certificate; `may_merge` требует отдельного положительного доказательства полной равной hard signature. Поэтому `no witness found`, `unknown` и `not must_separate` никогда не преобразуются в merge.
+Evaluator теперь формально open-world. `must_separate` доказывается достаточным certificate; `hard_compatible` требует отдельного положительного доказательства полной равной hard signature. Поэтому `no witness found`, `unknown` и `not must_separate` никогда не преобразуются в положительную Stage 1 совместимость.
+
+Q001 tests Stage 1 mandatory-boundary profiles. It does not construct the complete canonical travel partition; Stage 2 may later subdivide a `hard_compatible` pair using destination semantics.
 
 Representative run по существующим фактам показывает ожидаемую асимметрию:
 

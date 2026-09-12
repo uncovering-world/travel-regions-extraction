@@ -1,7 +1,7 @@
 {
   "format": "JSON syntax, valid YAML 1.2",
   "contract": "evaluator-contract.md",
-  "spec_version": "0.1.1-draft",
+  "spec_version": "0.2.0-draft",
   "oracle_semantics": "expected is a required subset of the full evaluator output",
   "synthetic_dsl": "Defined in evaluator-contract.md section 9",
   "fixtures": [
@@ -17,7 +17,7 @@
         "evidence": ["EV-J1", "EV-J2"]
       },
       "expected": {
-        "P1": {"result": "may_merge", "signature": {"a_complete": true, "b_complete": true, "equal": true}},
+        "P1": {"result": "hard_compatible", "signature": {"a_complete": true, "b_complete": true, "equal": true}},
         "P2": {"result": "must_separate", "applied_rules": ["R011"], "evidence_refs": ["EV-J1", "EV-J2"]},
         "P3": {"result": "must_separate", "applied_rules": ["R011"]}
       }
@@ -37,7 +37,7 @@
     },
     {
       "id": "F003-no-witness-incomplete-signature",
-      "description": "No witness and incomplete signatures do not permit merge.",
+      "description": "No witness and incomplete signatures do not establish hard compatibility.",
       "input": {
         "units": {
           "A": {"p1_signature": "incomplete:open_context_coverage"},
@@ -60,7 +60,7 @@
         "witnesses": []
       },
       "expected": {
-        "P2": {"result": "may_merge", "signature": {"a_complete": true, "b_complete": true, "equal": true}}
+        "P2": {"result": "hard_compatible", "signature": {"a_complete": true, "b_complete": true, "equal": true}}
       }
     },
     {
@@ -74,7 +74,7 @@
         "witnesses": []
       },
       "expected": {
-        "P2": {"result": "may_merge"},
+        "P2": {"result": "hard_compatible"},
         "P3": {"result": "model_unresolved", "blocked_by_model": ["Q001.identity"]}
       }
     },
@@ -100,11 +100,11 @@
         "units": {"A": {"p1_signature": "complete:S7"}, "B": {"p1_signature": "complete:S7"}},
         "derivations": [
           {"rule": "R-SYNTH-SPLIT", "requires": "must_separate"},
-          {"rule": "R-SYNTH-MERGE", "requires": "may_merge"}
+          {"rule": "R-SYNTH-COMPATIBLE", "requires": "hard_compatible"}
         ]
       },
       "expected": {
-        "P1": {"result": "rule_conflict", "applied_rules": ["R-SYNTH-MERGE", "R-SYNTH-SPLIT"]}
+        "P1": {"result": "rule_conflict", "applied_rules": ["R-SYNTH-COMPATIBLE", "R-SYNTH-SPLIT"]}
       }
     },
     {
@@ -117,7 +117,7 @@
         }
       },
       "expected": {
-        "P1": {"result": "may_merge", "signature": {"a_complete": true, "b_complete": true, "equal": true}}
+        "P1": {"result": "hard_compatible", "signature": {"a_complete": true, "b_complete": true, "equal": true}}
       }
     },
     {
@@ -144,7 +144,7 @@
         }
       },
       "expected": {
-        "P1": {"result": "may_merge", "signature": {"a_complete": true, "b_complete": true, "equal": true}}
+        "P1": {"result": "hard_compatible", "signature": {"a_complete": true, "b_complete": true, "equal": true}}
       }
     },
     {
@@ -189,7 +189,7 @@
       ],
       "shared_facts": {"A": {"p2_signature": "complete:S14"}, "B": {"p2_signature": "complete:S14"}},
       "expected": {
-        "P2": {"result": "may_merge", "all_variants_equal": true}
+        "P2": {"result": "hard_compatible", "all_variants_equal": true}
       }
     },
     {

@@ -1,11 +1,12 @@
 from __future__ import annotations
 
+from copy import deepcopy
 import json
 from dataclasses import replace
 
 import pytest
 
-from ctr_evaluator.evaluator import evaluate, may_merge
+from ctr_evaluator.evaluator import evaluate, hard_compatible
 from ctr_evaluator.loaders import load_fixture_variants, load_fixtures
 from ctr_evaluator.model import (
     DimensionState,
@@ -26,11 +27,18 @@ def _fixture(fixtures_by_id, fixture_id: str):
     return load_fixture_variants(fixtures_by_id[fixture_id])[0]
 
 
+def test_legacy_may_merge_input_alias_is_accepted(fixtures_by_id) -> None:
+    fixture = deepcopy(fixtures_by_id["F007-rule-conflict"])
+    fixture["input"]["derivations"][1]["requires"] = "may_merge"
+    comparison = load_fixture_variants(fixture)[0]
+    assert evaluate(comparison, Profile.P1).result is EvaluatorResult.RULE_CONFLICT
+
+
 @pytest.mark.parametrize("profile", list(Profile))
-def test_incomplete_signatures_never_merge(fixtures_by_id, profile: Profile) -> None:
+def test_incomplete_signatures_never_hard_compatible(fixtures_by_id, profile: Profile) -> None:
     comparison = _fixture(fixtures_by_id, "F003-no-witness-incomplete-signature")
-    assert may_merge(comparison.a, comparison.b, profile, comparison=comparison) is False
-    assert evaluate(comparison, profile).result is not EvaluatorResult.MAY_MERGE
+    assert hard_compatible(comparison.a, comparison.b, profile, comparison=comparison) is False
+    assert evaluate(comparison, profile).result is not EvaluatorResult.HARD_COMPATIBLE
 
 
 def test_missing_or_null_is_unknown_not_known_absence(fixtures_by_id) -> None:

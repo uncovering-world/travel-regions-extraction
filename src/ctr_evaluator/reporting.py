@@ -65,7 +65,7 @@ def build_artifact(
             result: profile_counts.get(result, 0)
             for result in (
                 "must_separate",
-                "may_merge",
+                "hard_compatible",
                 "separation_not_proven",
                 "model_unresolved",
                 "data_unknown",
@@ -167,13 +167,13 @@ def render_run_summary(
         "",
         "## Result counts",
         "",
-        "| Profile | must_separate | may_merge | separation_not_proven | model_unresolved | data_unknown | rule_conflict |",
+        "| Profile | must_separate | hard_compatible | separation_not_proven | model_unresolved | data_unknown | rule_conflict |",
         "|---|---:|---:|---:|---:|---:|---:|",
     ]
     for profile in Profile:
         counts = Counter(item.result.value for item in by_profile[profile])
         lines.append(
-            f"| {profile.value} | {counts['must_separate']} | {counts['may_merge']} | "
+            f"| {profile.value} | {counts['must_separate']} | {counts['hard_compatible']} | "
             f"{counts['separation_not_proven']} | {counts['model_unresolved']} | "
             f"{counts['data_unknown']} | {counts['rule_conflict']} |"
         )
@@ -198,14 +198,14 @@ def render_run_summary(
                 f"- {profile.value} blocked by model: {', '.join(model_ids) or 'none'}",
             ]
         )
-    may_merge = sorted(
+    hard_compatible = sorted(
         f"{item.comparison_id}/{item.profile.value}"
         for item in outputs
-        if item.result.value == "may_merge"
+        if item.result.value == "hard_compatible"
     )
     lines.extend(
         [
-            f"- `may_merge` produced: {'yes — ' + ', '.join(may_merge) if may_merge else 'no'}",
+            f"- `hard_compatible` produced: {'yes — ' + ', '.join(hard_compatible) if hard_compatible else 'no'}",
             "",
             "## Representative classification comparison",
             "",
@@ -221,7 +221,7 @@ def render_run_summary(
     lines.extend(
         [
             "",
-            "The evaluator emits pairwise outcomes only. This artifact contains no canonical region assignments.",
+            "The evaluator emits Stage 1 pairwise outcomes only. `hard_compatible` does not assign a final canonical region, and this artifact contains no canonical region assignments.",
             "",
         ]
     )

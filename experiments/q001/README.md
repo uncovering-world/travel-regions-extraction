@@ -22,9 +22,9 @@ python3 validate.py
 
 Scope: гражданское краткосрочное посещение, nationality/document/residence/route context. Работа, дипломатическая служба и военная миссия не создают положительных witnesses. Наблюдения MINURSO используются лишь как свидетельства operational restrictions, не как правила туристического допуска.
 
-Каждое содержательное поле имеет `evidence_refs`, а каждое evidence — `source_refs`, locator, статус и observed_as_of. `unknown` означает отсутствие установленного значения; пустые ссылки допустимы только у unknown или описания выбранной экспериментальной scope. `false` относится только к указанной размерности и не означает merge. Описание географии задаёт предмет исследования; оно не является точным operational polygon.
+Каждое содержательное поле имеет `evidence_refs`, а каждое evidence — `source_refs`, locator, статус и observed_as_of. `unknown` означает отсутствие установленного значения; пустые ссылки допустимы только у unknown или описания выбранной экспериментальной scope. `false` относится только к указанной размерности и не означает `hard_compatible`. Описание географии задаёт предмет исследования; оно не является точным operational polygon.
 
-`regime_difference=true` требует конкретного контекста и различающего компонента решения. «Visa exempt» не означает гарантированный admission. Наличие схожего правила для одного паспорта не даёт `regime_difference=false`: R009 запрещает доказывать глобальную эквивалентность конечной выборкой. Общие визовые различия без завершённой проверки nationality exceptions оставлены unknown с объяснением. Отсутствие witness даёт не merge, а `separation_not_proven`, `data_unknown` или `model_unresolved` в зависимости от blocker. `may_merge` требует отдельно доказанной полной равной hard signature.
+`regime_difference=true` требует конкретного контекста и различающего компонента решения. «Visa exempt» не означает гарантированный admission. Наличие схожего правила для одного паспорта не даёт `regime_difference=false`: R009 запрещает доказывать глобальную эквивалентность конечной выборкой. Общие визовые различия без завершённой проверки nationality exceptions оставлены unknown с объяснением. Отсутствие witness даёт не положительную совместимость, а `separation_not_proven`, `data_unknown` или `model_unresolved` в зависимости от blocker. `hard_compatible` требует отдельно доказанной полной равной hard signature.
 
 Для P2 различаются местный офис национального ведомства и самостоятельная юрисдикция, принимающая окончательное решение. Разные визовые надписи, парламент или статус constituent country сами по себе её не доказывают. `distinct_operational_control` может относиться к civil/military функции; сравнение C032 не устанавливает две immigration jurisdictions.
 
@@ -34,10 +34,12 @@ Evaluator получает только `blind-comparisons.yaml`, без `blind-
 
 ## Evaluator boundary
 
-`must_separate` и `may_merge` независимы. P1 принимает verified hard witness; P2 дополнительно принимает independently verified разные final admission jurisdictions; P3 не угадывает identity и возвращает `model_unresolved` с `Q001.identity`, если P1/P2 уже не доказали split. Q006 остаётся только для disputed/occupied/international-status distinctions.
+`must_separate` и `hard_compatible` независимы. P1 принимает verified hard witness; P2 дополнительно принимает independently verified разные final admission jurisdictions; P3 не угадывает territorial/legal identity и возвращает `model_unresolved` с `Q001.identity`, если P1/P2 уже не доказали split. Q006 остаётся только для disputed/occupied/international-status distinctions.
+
+Q001 is a Stage 1 Mandatory Separation experiment. A `hard_compatible` result means only that the selected profile requires no hard boundary; it does not assign a final canonical region. P3 is a Stage 1 territorial/legal identity hypothesis, not a Stage 2 destination-identity evaluator.
 
 Comparison `blocked_by` strings are human-readable diagnostics and have no terminal evaluator semantics. A comparison-level missing fact produces `data_unknown` only when represented by a typed `evaluator_data_blockers` entry with a stable ID and explicit profile applicability, or when it follows from another structured status such as provisional witness evidence.
 
 ## Ограничения
 
-Это проверяемый исследовательский snapshot с явными gaps, не полностью подтверждённый справочник поездок. Часть обязательных disputed cases намеренно остаётся заблокированной: ни отсутствие источника, ни политический статус не заполняются догадкой. Дата проверки страницы не делает историческое наблюдение 2023–2025 актуальной картой 2026. Полный список ограничений — в data-gaps.md. Спецификация формализует контракт, но evaluator не реализован, profiles не ранжированы, canonical verdicts отсутствуют.
+This is a verifiable research snapshot with explicit gaps, not a fully confirmed travel reference. Some required disputed cases intentionally remain blocked: neither absent sources nor political status are filled by inference. A page check date does not turn a 2023–2025 observation into a current 2026 map. See `data-gaps.md` for the full limitations. The reference evaluator is implemented, but profiles remain unranked, Stage 2 is undefined, and no canonical verdicts exist.

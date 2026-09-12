@@ -24,7 +24,7 @@ class DimensionState(str, Enum):
 
 class EvaluatorResult(str, Enum):
     MUST_SEPARATE = "must_separate"
-    MAY_MERGE = "may_merge"
+    HARD_COMPATIBLE = "hard_compatible"
     SEPARATION_NOT_PROVEN = "separation_not_proven"
     MODEL_UNRESOLVED = "model_unresolved"
     DATA_UNKNOWN = "data_unknown"

@@ -26,19 +26,19 @@ P3_DIMENSIONS = P2_DIMENSIONS + ("identity_discriminator",)
 PROFILE_DEFINITIONS: dict[Profile, dict[str, object]] = {
     Profile.P1: {
         "name": "regime_only",
-        "version": "q001-0.1.1",
+        "version": "q001-0.2.0",
         "traveller_scope_ref": "R007",
         "hard_dimensions": list(P1_DIMENSIONS),
     },
     Profile.P2: {
         "name": "jurisdiction",
-        "version": "q001-0.1.1",
+        "version": "q001-0.2.0",
         "traveller_scope_ref": "R007",
         "hard_dimensions": list(P2_DIMENSIONS),
     },
     Profile.P3: {
         "name": "jurisdiction_plus_identity",
-        "version": "q001-0.1.1",
+        "version": "q001-0.2.0",
         "traveller_scope_ref": "R007",
         "hard_dimensions": list(P3_DIMENSIONS),
     },

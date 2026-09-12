@@ -1,18 +1,20 @@
 # Canonical Travel Regions — открытые вопросы модели
 
-Версия: 0.1.2-draft. Дата: 2026-09-12.
+Версия: 0.2.0-draft. Дата: 2026-09-12.
 
 Порядок отражает потенциальный масштаб изменения мировой карты: от изменения определения почти всех регионов к изменениям отдельных классов и истории. Это модельные вопросы. «Какой документ сейчас требуется?» и «Где проходит линия на дату t?» — задачи данных, не самостоятельные пункты этого списка.
 
-## Q001 — Что определяет отдельность: regime, jurisdiction или destination identity?
+## Q001 — What creates a mandatory Stage 1 boundary: regime, jurisdiction, or territorial/legal identity?
 
 **Влияние: вся карта, включая обычные государства, зависимости и острова.** Правила R006, R009–R011, R018–R021, R038; решения D004, D009, D010, D012, D020.
 
 Первая версия исследования преимущественно предлагает делить по условиям поездки. Вторая вводит самостоятельную внешнюю territorial identity. Но «внешняя» не имеет нейтрального операционального определения. Если одинаковые визовые результаты дают merge, можно потерять отдельные юрисдикции. Если любое институциональное различие даёт split, можно получить федеративные субъекты и автономии.
 
-Нужно выбрать: только regime equivalence; самостоятельная admission jurisdiction плюс regimes; либо ещё отдельный identity layer, который запрещает merge. Подвопрос `Q001.identity` обозначает пока не определённый общий identity predicate. В третьем варианте нужен такой тест, а если его нет — признанный управляемый registry как часть продукта. Такой registry нельзя выдавать за дедукцию из travel rules. До закрытия подвопроса результат, зависящий от identity, должен быть `model_unresolved`, а не ручным split или merge.
+Нужно выбрать: только regime equivalence; самостоятельная admission jurisdiction плюс regimes; либо ещё отдельный territorial/legal identity layer, который запрещает совместное нахождение в Stage 1 cell. Подвопрос `Q001.identity` обозначает пока не определённый общий territorial/legal identity predicate. В третьем варианте нужен такой тест, а если его нет — признанный управляемый registry как часть продукта. Такой registry нельзя выдавать за дедукцию из travel rules. До закрытия подвопроса результат, зависящий от identity, должен быть `model_unresolved`, а не ручным split или `hard_compatible`.
 
-**Различающий эксперимент:** Germany/France, UK/Jersey, Bermuda/UK, Åland/Finland, Sicily/Italy, Madeira/Portugal, Hawaii/US. Обезличить названия, сохранить факты и проверить одинаковое решение по одинаковым профилям. Отсутствие найденного regime witness не считается доказательством эквивалентности. **Критерий закрытия:** выбранный тест даёт результат без ссылки на заранее желаемое имя региона и отдельно определяет положительное доказательство split и положительное доказательство merge. Product exceptions перечислены явно.
+Q001 does not define destination identity. P1, P2, and P3 are Stage 1 hypotheses; P3 is not the future Stage 2 destination evaluator. Destination identity is tracked separately in Q012.
+
+**Различающий эксперимент:** Germany/France, UK/Jersey, Bermuda/UK, Åland/Finland, Sicily/Italy, Madeira/Portugal, Hawaii/US. Обезличить названия, сохранить факты и проверить одинаковое решение по одинаковым профилям. Отсутствие найденного regime witness не считается доказательством эквивалентности. **Критерий закрытия:** выбранный тест даёт результат без ссылки на заранее желаемое имя региона и отдельно определяет положительное доказательство `must_separate` и положительное доказательство `hard_compatible`. Product exceptions перечислены явно.
 
 ## Q002 — Для какого множества путешественников и каких решений нужна однородность?
 
@@ -106,8 +108,18 @@ R014 уже исключает локальные пограничные, вое
 
 **Эксперимент:** попытаться одновременно выполнить literal UKOT-separateness, непересечение и единую Antarctic cell. **Критерий закрытия:** либо общее правило снимает конфликт, либо конвенции утверждаются как отдельная часть модели с ID, rationale, областью и тестами. Пока такие исключения нельзя принимать молча.
 
+## Q012 — How does Stage 2 determine the destination partition?
+
+**Impact: the final Canonical Travel Regions partition inside every Stage 1 cell.** Rules R009 and R040–R042; decisions D024, D026, D027, and D029.
+
+Stage 2 must treat destination semantics as first-class inputs while producing a deterministic, exhaustive, mutually exclusive refinement. Candidate factors include geographic coherence, destination identity, itinerary coherence, gateway or travel-graph structure, cultural-regional coherence, and stable traveller-facing destination concepts. Their definitions, interactions, thresholds, evidence requirements, and temporal behavior are not yet specified.
+
+The open question is how to choose a reproducible destination partition without using desired territory names as hidden labels or allowing arbitrary subdivision. The solution must preserve `Stage2Partition refines Stage1Partition`. Q001/P3 cannot be used as a substitute because territorial/legal identity and destination identity are separate concepts.
+
+**Closure criterion:** publish a name-blind Stage 2 contract with typed inputs, deterministic conflict and uncertainty behavior, refinement tests, and adversarial cases. This patch does not choose that contract.
+
 ## Что намеренно не включено в этот список
 
-Точные visa scopes островов, состояние погранпунктов, действующая линия контроля, качество coastline и доступность authoritative polygons — задачи сбора и верификации фактов. Они отмечаются в CSV как `evidence_status`/`premises`. Их решение может разблокировать применение уже определённого правила, но не отвечает автоматически на Q001–Q011.
+Точные visa scopes островов, состояние погранпунктов, действующая линия контроля, качество coastline и доступность authoritative polygons — задачи сбора и верификации фактов. Они отмечаются в CSV как `evidence_status`/`premises`. Их решение может разблокировать применение уже определённого правила, но не отвечает автоматически на Q001–Q012.
 
 Первый полезный эксперимент должен сравнить несколько явно названных профилей на одном небольшом наборе фактов. Главные показатели: нарушенные accepted constraints, число unresolved outcomes, число необоснованных split, число regions и чувствительность результата к изменению профиля. Уменьшение unresolved за счёт ручного присвоения «правильных» регионов не является прогрессом модели.

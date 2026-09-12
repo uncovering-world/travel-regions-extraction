@@ -1,6 +1,6 @@
 # Canonical Travel Regions — рабочая спецификация
 
-Версия: 0.1.2-draft. Дата: 2026-09-12. Статус: экспериментальная спецификация, не утверждённая мировая классификация.
+Версия: 0.2.0-draft. Дата: 2026-09-12. Статус: экспериментальная спецификация, не утверждённая мировая классификация.
 
 ## Основание и границы достоверности
 
@@ -34,13 +34,15 @@ LAND_V0 — ограничение первого эксперимента, **н
 
 Между одновременно действующими canonical regions запрещены отношения включения parent/child. Политические сущности, архипелаги, исторические области, disputed areas и policy areas существуют в других типах объектов. Связи с ними допускают many-to-many и пересечения. Историческая связь predecessor/successor не является иерархией текущих регионов.
 
+Stage 1 and Stage 2 are construction stages, not levels in the published ontology. Only the Stage 2 output is the final Canonical Travel Regions partition, and that output remains single-level.
+
 ### R006 — Определение canonical travel region [tentative; Q001]
 
-Canonical travel region — непустой класс точек U в опубликованном разбиении, имеющий стабильную идентичность, геометрию на момент t и явные связи с применимыми travel policies, legal-status records и control records. Внутри класса не остаётся доказанного обязательного разделения по выбранной версии спецификации. Условия поездки вычисляются без неявного наследования от другого canonical region.
+Canonical travel region — непустой класс точек U в опубликованном Stage 2 разбиении, имеющий стабильную идентичность, геометрию на момент t и явные связи с применимыми travel policies, legal-status records и control records. Внутри класса не остаётся доказанного обязательного разделения по выбранной версии спецификации. Условия поездки вычисляются без неявного наследования от другого canonical region.
 
 Canonical означает «однозначный результат при фиксированных правилах, фактах и параметрах», а не «единственно правильное природное деление». Отдельная территория не означает отдельного государства. Регионы могут иметь MultiPolygon-геометрию.
 
-## Формальная процедура split и merge
+## Formal construction procedure
 
 ### R007 — Контекст путешественника и проверяемое различие [tentative; Q002]
 
@@ -50,23 +52,24 @@ TravelDecision различает admission, требуемое разрешен
 
 ### R008 — Сертификат обязательного разделения [tentative]
 
-`must_separate(A,B,profile)` и `may_merge(A,B,profile)` — независимые предикаты. `must_separate` означает наличие достаточного положительного доказательства, что A и B не могут находиться в одном canonical travel region при выбранном profile. `may_merge` означает наличие отдельного положительного доказательства эквивалентности по полной hard signature этого profile. Из `not must_separate` не следует `may_merge`.
+`must_separate(A,B,profile)` and `hard_compatible(A,B,profile)` are independent Stage 1 predicates. `must_separate` means sufficient positive evidence forbids A and B from occupying one final canonical travel region under the selected profile. `hard_compatible` means positive evidence establishes equivalence across the profile's complete hard signature and no mandatory-separation certificate applies. It means only that Stage 1 requires no boundary between A and B. It does not decide whether Stage 2 places them in one final region. `not must_separate` does not imply `hard_compatible`.
 
 Каждое `must_separate(A,B,profile)` содержит rule_id, profile, географический scope A/B, as_of, проверенные предпосылки, факты с источниками и либо witness R007, либо разрешённое выбранным profile институциональное основание R010/R011. Для regime-based split witness должен входить в scope R007, относиться к hard dimension, иметь достаточное evidence и не сводиться к local overlay или детали конкретной точки входа. Слов «особый», «удалённый», «существенный» без операционального доказательства недостаточно. Неизвестная предпосылка остаётся неизвестной, а не превращается в false.
 
 `must_separate(A,B)` означает, что ни один итоговый регион не содержит точки обеих областей. Это не обещает, что A целиком станет ровно одним регионом: возможен дополнительный split внутри A.
 
-### R009 — Как получить наиболее крупное допустимое разбиение [tentative; Q001, Q005]
+### R009 — Two-stage partition construction [accepted; Q001, Q005, Q012]
 
-1. Зафиксировать U, время, профиль правил и факты. Собрать кандидатные геометрии независимо от желаемых названий результата.
-2. Построить их общее геометрическое уточнение: технические atoms. Они не являются пользовательскими регионами.
-3. Для каждого атома вычислить hard signature выбранного profile. Минимальный рабочий набор profile задаётся R038; он не считается окончательным ответом на Q001/Q002/Q004/Q005/Q009.
-4. `signature_complete(A,profile)` истинно только когда каждая обязательная dimension profile определена моделью и имеет для A evidence-backed состояние `known_value`, `known_absence` или обоснованное `not_applicable`. `unknown` и `unresolved_model_semantics` не являются значениями и делают signature неполной.
-5. `signatures_equal(A,B,profile)` может быть true только при полной signature обеих сторон и равенстве каждой типизированной hard dimension. Сравнивать все компоненты, не только `visa_required`. Доступность маршрута хранить как функцию контекста, а не как один boolean.
-6. Объединять разрешено только пары, для которых доказан `may_merge`: обе signatures полны, равны и не существует совместимого с тем же evidence действующего `must_separate` certificate. Отсутствие witness, пустой результат поиска и `not must_separate` не являются merge evidence.
-7. Если merge не доказан, evaluator возвращает открытый outcome по R038 и не выполняет молчаливое слияние.
+1. Fix U, time, rule profile, and facts. Build candidate geometries without using desired output names.
+2. Build their common geometric refinement as technical atoms. These atoms are not user-visible regions.
+3. Stage 1 computes the coarsest partition that satisfies every accepted mandatory-separation constraint. For each atom, evaluate the selected profile's hard signature as specified by R038.
+4. `signature_complete(A,profile)` is true only when every required profile dimension has an evidence-backed `known_value`, `known_absence`, or justified `not_applicable` state. `unknown` and `unresolved_model_semantics` make the signature incomplete.
+5. `signatures_equal(A,B,profile)` can be true only when both signatures are complete and every typed hard dimension is equal. A finite set of traveller examples cannot prove completeness.
+6. `hard_compatible` requires complete equal hard signatures and no applicable `must_separate` certificate. Absence of a witness, an empty search result, and `not must_separate` are not positive compatibility evidence.
+7. Stage 2 processes each Stage 1 cell independently and may subdivide it using destination-partition semantics. Stage 2 may never combine points from different Stage 1 cells.
+8. The final canonical partition is the Stage 2 output. Stage 1 output is an internal construction boundary, not a final region assignment.
 
-Равенство signature должно быть отношением эквивалентности. Нельзя применять жадное слияние «A похож на B, B похож на C»: результат не должен зависеть от порядка. Если модель задаёт только запрещённые пары и допускает несколько максимальных слияний, канонический результат не определён. Выбор одного по имени страны запрещён. Конечная выборка C может опровергнуть эквивалентность, но не доказывает её для всех путешественников.
+Hard-signature equality must be an equivalence relation, and Stage 1 must be order-independent. If hard constraints permit multiple coarsest partitions, the Stage 1 result is unresolved; names and political labels cannot break the tie. The rule for selecting the destination partition within each Stage 1 cell remains open in Q012.
 
 ### R010 — Самостоятельная territorial identity [unresolved; Q001]
 
@@ -102,7 +105,7 @@ TravelDecision различает admission, требуемое разрешен
 
 ### R016 — Что само по себе недостаточно для split [tentative]
 
-Административная граница, автономия, язык, этничность, религия, валюта, флаг, часовой пояс, ISO-код, политическое признание, территориальная претензия, отдельный штамп, туристическая популярность и транспортное неудобство не создают must_separate. Это не запрет split по другим основаниям. Отрицательный тест означает «данный фактор недостаточен», а не «все остальные факторы отсутствуют».
+Административная граница, автономия, язык, этничность, религия, валюта, флаг, часовой пояс, ISO-код, политическое признание, территориальная претензия, отдельный штамп, островной статус, удалённость, туристическая идентичность, узнаваемость destination, itinerary usefulness и транспортное неудобство сами по себе не создают Stage 1 `must_separate`. Это не запрет split по другим hard основаниям и не запрет Stage 2 subdivision по destination semantics. Отрицательный тест означает «данный фактор недостаточен», а не «все остальные факторы отсутствуют».
 
 ### R017 — Overlays и независимость правил [tentative]
 
@@ -126,7 +129,7 @@ EU/Schengen/CTA и другие общие пространства — пере
 
 ### R021 — Geographically isolated territories [tentative; Q001]
 
-Остров, эксклав и необходимость транзита через соседнее государство сами по себе не требуют split. При доказанной равной hard signature допускается MultiPolygon. Route graph сохраняет путь через другие регионы. Если продукт желает отдельного учёта острова при равных режимах, это изменение identity criterion R010, а не доказательство immigration-различия.
+Остров, эксклав и необходимость транзита через соседнее государство сами по себе не требуют Stage 1 split. При доказанной равной hard signature Stage 1 допускает MultiPolygon. Route graph сохраняет путь через другие регионы. Stage 2 may still split an island or remote area when future destination-partition rules justify it; that decision does not alter territorial/legal identity under R010.
 
 ### R022 — Disputed territories [tentative; Q006]
 
@@ -196,9 +199,9 @@ Lookup задаёт world_time и release_id/knowledge_time. Историчес�
 
 ### R035 — Контракт эксперимента и falsification [tentative]
 
-Pairwise evaluator по каждой проверке возвращает comparison_id, profile, result, applied_rules, witnesses, completeness/equality signature, blocked_by_data, blocked_by_model, evidence_refs, explanation, spec_version и dataset_version. Его outcomes: `must_separate`, `may_merge`, `separation_not_proven`, `model_unresolved`, `data_unknown`, `rule_conflict`. `separation_not_proven` означает только отсутствие достаточного split-certificate при недоказанном merge; это не отрицание существования различия. `data_unknown` означает, что конкретная неизвестность или конфликт evidence блокирует оценку обязательной dimension. `rule_conflict` зарезервирован для несовместимых нормативных выводов, а не для простого расхождения источников.
+Stage 1 pairwise evaluator по каждой проверке возвращает comparison_id, profile, result, applied_rules, witnesses, completeness/equality signature, blocked_by_data, blocked_by_model, evidence_refs, explanation, spec_version и dataset_version. Его outcomes: `must_separate`, `hard_compatible`, `separation_not_proven`, `model_unresolved`, `data_unknown`, `rule_conflict`. `hard_compatible` is only a positive Stage 1 compatibility result, never a final-region merge instruction. `separation_not_proven` означает только отсутствие достаточного split-certificate при недоказанной hard compatibility; это не отрицание существования различия. `data_unknown` означает, что конкретная неизвестность или конфликт evidence блокирует оценку обязательной dimension. `rule_conflict` зарезервирован для несовместимых нормативных выводов, а не для простого расхождения источников.
 
-Adversarial dataset может дополнительно использовать structural outcomes `no_split_on_stated_factor`, `must_refine` и `overlay_only`; они не являются pairwise ответами `may_merge`. Ни `separation_not_proven`, ни последние structural outcomes не считаются доказательством merge.
+Adversarial dataset может дополнительно использовать structural outcomes `no_split_on_stated_factor`, `must_refine` и `overlay_only`; они не являются pairwise ответами `hard_compatible`. Ни `separation_not_proven`, ни последние structural outcomes не считаются доказательством hard compatibility.
 
 Гипотеза опровергнута, если при подтверждённых предпосылках нарушены её предсказания или accepted constraints. Неожиданный outcome регистрируется до изменения правила. Изменение правила применяется ко всему набору и сопровождается пересмотром контрпримеров, а не исключением по названию территории.
 
@@ -216,15 +219,43 @@ CSV содержит специально трудные **кандидаты/о
 
 ### R038 — Open-world pairwise evaluator [tentative; Q001, Q002]
 
-Pairwise evaluator работает в открытом мире: `no witness found != may_merge`, `unknown != false`, `not must_separate != may_merge`. Порядок проверки терминальных оснований детерминирован: (1) выявить конфликт нормативных derivations; (2) принять достаточный `must_separate` certificate; (3) вернуть `model_unresolved`, если неопределённый model predicate может изменить результат; (4) вернуть `data_unknown`, если конкретная data problem не позволяет оценить обязательную dimension; (5) принять `may_merge` только по полной равной signature; (6) иначе вернуть `separation_not_proven`.
+Pairwise evaluator работает в открытом мире: `no witness found != hard_compatible`, `unknown != false`, `not must_separate != hard_compatible`. Порядок проверки терминальных оснований детерминирован: (1) выявить конфликт нормативных derivations; (2) принять достаточный `must_separate` certificate; (3) вернуть `model_unresolved`, если неопределённый model predicate может изменить результат; (4) вернуть `data_unknown`, если конкретная data problem не позволяет оценить обязательную dimension; (5) принять `hard_compatible` только по полной равной signature; (6) иначе вернуть `separation_not_proven`.
 
 Рабочие profiles для Experiment Q001:
 
-- `P1 regime_only`: hard admission-decision scope, visa/document scope, релевантные hard permits и включённые profile route-dependent hard differences. Проверенный hard witness даёт `must_separate`; полные равные P1 signatures дают `may_merge`; отсутствие witness само по себе ничего не доказывает.
+- `P1 regime_only`: hard admission-decision scope, visa/document scope, релевантные hard permits и включённые profile route-dependent hard differences. Проверенный hard witness даёт `must_separate`; полные равные P1 signatures дают `hard_compatible`; отсутствие witness само по себе ничего не доказывает.
 - `P2 jurisdiction`: P1 плюс final admission jurisdiction. Независимо подтверждённые разные конечные admission jurisdictions дают `must_separate`, даже если текущая visa policy совпадает. Merge требует равенства P1 signature и jurisdiction dimensions.
 - `P3 jurisdiction_plus_identity`: P2 плюс identity discriminator. До закрытия `Q001.identity` P3 не содержит скрытого списка территорий; если P1/P2 уже не дали достаточный `must_separate`, зависимость от identity возвращает `model_unresolved`.
 
 Этот минимальный состав signature нужен для реализации evaluator, но не закрывает вопросы о полном множестве hard outputs, customs, permits, route dependence и identity.
+
+## Two-stage architecture
+
+### R039 — Stage 1 Mandatory Separation [accepted]
+
+Stage 1 establishes boundaries that the final partition may not cross. It considers only explicitly defined hard dimensions, including accepted traveller-facing admission, document, territorial legal/access, final-admission-jurisdiction, and materially relevant stable-control rules. Tourism identity, cultural identity, administrative subdivision, autonomy, island status, remoteness, transport inconvenience, destination recognizability, and itinerary usefulness do not create a Stage 1 boundary without an independent hard rule.
+
+### R040 — Stage 2 Destination Partition [accepted; Q012]
+
+Stage 2 receives each Stage 1 cell independently and may subdivide it using destination semantics such as geographic coherence, destination identity, itinerary coherence, travel graph or gateway structure, cultural-regional coherence, and stable traveller-facing destination concepts. These are first-class inputs to the final partition. This version does not define their algorithm, weights, thresholds, or completeness test.
+
+### R041 — Monotonic refinement [accepted]
+
+Let `Stage1Partition` and `Stage2Partition` be partitions of the same universe U. The required invariant is:
+
+```text
+Stage2Partition refines Stage1Partition
+```
+
+Equivalently, every Stage 2 cell is a subset of exactly one Stage 1 cell. If Stage 1 requires A and B to be separate, no later construction step may merge them. Stage 2 can only split Stage 1 cells.
+
+### R042 — Territorial/legal identity and destination identity [accepted; Q001, Q006, Q012]
+
+Territorial/legal identity concerns institutional status: separate legal or status entities, disputed international status, dependencies, constitutional territorial identity, and similar questions. It may become a Stage 1 hard separator only through an explicit accepted rule; Q001/Q006 remain unresolved. Destination identity concerns a coherent independent travel destination, traveller perception, itinerary structure, geography, and destination self-containment. It belongs to Stage 2. Neither concept implies the other, and P3 does not model destination identity.
+
+### R043 — Project boundary [accepted]
+
+This repository covers Stage 1 Mandatory Separation, Stage 2 Destination Partition, and their final single-level Canonical Travel Regions partition. Any finer subdivision beyond that canonical destination partition is outside this project's ontology and must not influence Stage 1 or Stage 2 rules.
 
 ## Проверки, которые должна реализовать первая сборка
 
@@ -233,12 +264,12 @@ Pairwise evaluator работает в открытом мире: `no witness fo
 | V001 | R002–R004 | union(regions) == U; нет overlap положительной площади; пустые регионы запрещены |
 | V002 | R005 | Нет текущих canonical parent/child и дублирующих aggregate cells |
 | V003 | R028–R030 | Общие рёбра, вершины, дырки, antimeridian и полюса имеют детерминированный lookup |
-| V004 | R007–R009, R038 | Каждый hard split имеет сертификат; merge имеет полную равную signature; перестановка входов не меняет результат |
+| V004 | R007–R009, R038 | Каждый hard split имеет сертификат; `hard_compatible` имеет полную равную signature; перестановка входов не меняет результат |
 | V005 | R016–R017 | Переименование, новые claims, смена advisory и открытие рейса сами по себе не меняют partition |
 | V006 | R011–R012 | Общая visa policy не стирает разные admission jurisdictions; смена visa issuer при делегации не создаёт split |
 | V007 | R022–R026 | Legal status и control независимы; overlapping Antarctic claims не дают overlapping regions |
 | V008 | R031–R033 | Один manifest воспроизводит идентичный результат; историческая коррекция доступна отдельно; нет overlap интервалов одной revision stream |
-| V009 | R034–R038 | unknown не превращается в false; отсутствие witness не становится merge; unresolved не засчитывается как определение региона |
+| V009 | R034–R038 | unknown не превращается в false; отсутствие witness не становится `hard_compatible`; unresolved не засчитывается как определение региона |
 | V010 | R008–R010, R038 | Одинаковые факты под заменёнными названиями стран дают изоморфный результат; ручной registry показан отдельно |
 
 Эти проверки здесь специфицированы, но геометрический pipeline ещё не реализован. В этом выпуске проверены структура CSV и ссылки между документами.
