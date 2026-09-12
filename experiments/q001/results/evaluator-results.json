@@ -1,11 +1,11 @@
 {
-  "evaluator_version": "0.1.1",
-  "spec_version": "0.1.1-draft",
+  "evaluator_version": "0.2.0",
+  "spec_version": "0.2.0-draft",
   "dataset_snapshot": "2026-09-11",
   "profiles": {
     "P1": {
       "name": "regime_only",
-      "version": "q001-0.1.1",
+      "version": "q001-0.2.0",
       "traveller_scope_ref": "R007",
       "hard_dimensions": [
         "admission_decision_scope",
@@ -16,7 +16,7 @@
     },
     "P2": {
       "name": "jurisdiction",
-      "version": "q001-0.1.1",
+      "version": "q001-0.2.0",
       "traveller_scope_ref": "R007",
       "hard_dimensions": [
         "admission_decision_scope",
@@ -28,7 +28,7 @@
     },
     "P3": {
       "name": "jurisdiction_plus_identity",
-      "version": "q001-0.1.1",
+      "version": "q001-0.2.0",
       "traveller_scope_ref": "R007",
       "hard_dimensions": [
         "admission_decision_scope",
@@ -110,7 +110,7 @@
   "summary": {
     "P1": {
       "must_separate": 4,
-      "may_merge": 0,
+      "hard_compatible": 0,
       "separation_not_proven": 41,
       "model_unresolved": 1,
       "data_unknown": 3,
@@ -118,7 +118,7 @@
     },
     "P2": {
       "must_separate": 8,
-      "may_merge": 0,
+      "hard_compatible": 0,
       "separation_not_proven": 1,
       "model_unresolved": 1,
       "data_unknown": 39,
@@ -126,7 +126,7 @@
     },
     "P3": {
       "must_separate": 8,
-      "may_merge": 0,
+      "hard_compatible": 0,
       "separation_not_proven": 0,
       "model_unresolved": 41,
       "data_unknown": 0,
