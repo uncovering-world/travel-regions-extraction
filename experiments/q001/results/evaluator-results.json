@@ -1,0 +1,2978 @@
+{
+  "evaluator_version": "0.1.0",
+  "spec_version": "0.1.1-draft",
+  "dataset_snapshot": "2026-09-11",
+  "profiles": {
+    "P1": {
+      "name": "regime_only",
+      "version": "q001-0.1.1",
+      "traveller_scope_ref": "R007",
+      "hard_dimensions": [
+        "admission_decision_scope",
+        "visa_scope",
+        "document_scope",
+        "relevant_hard_permits"
+      ]
+    },
+    "P2": {
+      "name": "jurisdiction",
+      "version": "q001-0.1.1",
+      "traveller_scope_ref": "R007",
+      "hard_dimensions": [
+        "admission_decision_scope",
+        "visa_scope",
+        "document_scope",
+        "relevant_hard_permits",
+        "final_admission_jurisdiction"
+      ]
+    },
+    "P3": {
+      "name": "jurisdiction_plus_identity",
+      "version": "q001-0.1.1",
+      "traveller_scope_ref": "R007",
+      "hard_dimensions": [
+        "admission_decision_scope",
+        "visa_scope",
+        "document_scope",
+        "relevant_hard_permits",
+        "final_admission_jurisdiction",
+        "identity_discriminator"
+      ]
+    }
+  },
+  "frozen_factual_inputs_hash": {
+    "algorithm": "sha256",
+    "value": "e7bfc115e203c2cdcb56dad126c74327b877a8a4350431823010e7c7ab74731e",
+    "files": {
+      "facts/ac.json": "ec0bb8e31a5dae9003298f4bf2c2188d5bbfd37033c004a827afa3a2676fc3c1",
+      "facts/ajk.json": "311145e9402861147a23a6672cac516199139898f05aebfaaeaa7e17ea8dbea8",
+      "facts/and.json": "5e0d4f80438063ba26b3c8c627c2a4e818ccceb5b0b190414369d2ea8f743669",
+      "facts/ar.json": "41e761c7b5c0f97220d19f93d2b86741166d21d85e802ee22c70139b72584c05",
+      "facts/aw.json": "a9aad409012f695877e15a285e59b0f5b40d46ba262e66bab3a5db3f7b8ff028",
+      "facts/ax.json": "b703ab46597fa86203214a5a612806511a526f219865ed58d9b3d3d821c9bbb8",
+      "facts/azo.json": "5597e805d13c053acc3a72eef0dbff4a0bc2c4f0a15174f9bd926aee3adfd434",
+      "facts/berm.json": "f811146aac78b3db2930cd4840ea42b48e1033692099529c0ecf46adea91eb1b",
+      "facts/bl.json": "7dbb984fafdeedc69f9f57d9b502e914ba553f7fcfed401c5f8b6d74c406a005",
+      "facts/bm.json": "7e4f60c72c1694aba8f6a5afd3ff9ead646573986b77e7790a6df24e10640bf5",
+      "facts/bq.json": "ed9b078414fe70fc07f1e91447a3ccf2b6a89c31e98c63470adf6e42b9a2bee4",
+      "facts/cn.json": "18f8a8823c26ee55bfb9f06c221081196e28500759f9343cf4ae425729186b40",
+      "facts/cw.json": "b47be100f2e0001ab47cc419adfd21fa1dc3c92536badb63791e9d38d64752cf",
+      "facts/de.json": "ed8de250451a48aca6ea135b663d125b694e2af05305fc392078e3c37047589f",
+      "facts/dk.json": "b94720af69cc7d9e00a90a3df72f2fa069e2bb1005bde987612038299bb1baf5",
+      "facts/es.json": "695e1bb56ac93420a984141054e1809636d9ada9dd6c105dbecdc890f22fa8c9",
+      "facts/fi.json": "f8c8923089335f1553ebdb366ad8c52152339adaa7f0c6d62f79df5535d53929",
+      "facts/fk.json": "e7ad520eea290c329d15ff29d790850c439da6b801a0f9a2fe81ea1b26dab938",
+      "facts/fo.json": "743420de83ac19e95984e29f75e8c626dbea5b24a9e13fa1836b832c8ee084d7",
+      "facts/fr.json": "f8db6c0c3dc0428f1e33c761c90779fecd23a44acdbcf0872cd6491844605307",
+      "facts/gb.json": "6cc549e7ea27a2d2f880f8b32cecd3b223bf29668d20a3c85d5f800b39e64150",
+      "facts/gg.json": "c3683d5b21b0e8671b48ee5d53d714f17bb63f12b8114c9b9465d670a10bfa46",
+      "facts/gi.json": "380f1d71dad41f9c9637522ad96b93eee01c5e7aaa9097dd40e26b265df78986",
+      "facts/gl.json": "82f2b6f8d3937aecd638f14e72918fbeef47bf1a34fe172f3fdb9e11caadff04",
+      "facts/gp.json": "dfde8f18bbfa370424863fbb6b61d8efdcdd857f44ba2d4bbbcbcf667d1ddcbb",
+      "facts/im.json": "e60f0e14325891c8a536525e2c2e42edd19d9bc76dc641f68f60d12d4537734a",
+      "facts/in.json": "43ba7dc7b98182af184e0b55ae17e5b9722b9133ed1ea189735544b650f38729",
+      "facts/it.json": "b04c05662f37a5ad653c448d02b634f9b60af93d4a23289aa0afdd4f68881499",
+      "facts/je.json": "f346013c18c25dc5ff8357b2ac059e1271f0bdc6d4dc034a2128b21608cdc9f8",
+      "facts/jk.json": "7398e9c35d87047f157e6fcb7981362b798af6b0e57d2856574c756b03c06644",
+      "facts/lac.json": "514fe8ee31e994b50c2a5e3f3b8c35753b265171be66399fc0f6f5ab4e130ff8",
+      "facts/ld.json": "8185ca2826b8bd553045a4851f4adeef4e8e962f51714ad9a5d27b678cff7175",
+      "facts/loc.json": "a29b321cde72c18a38a12de908c7434b82af03df323ee5482916be7637d3f3db",
+      "facts/ma.json": "7b94aa1f152126627e039ce94a6c22536c03f7821a93146d669bd33153ae1bc0",
+      "facts/mad.json": "b7b21788c6931d34f4a4fdaf63ca5b778924bd3f0850ae2d0927be45c32705cd",
+      "facts/mh.json": "d9d425998f6f454daaa75d09b82788cc6ecb654fba12b74955757024ccec8a87",
+      "facts/mq.json": "8b9a8047b116794f70b1e7587d07531752c0457bcadd9aa35d989d0e999f30f7",
+      "facts/nc.json": "f8b8d0a8ea3ec9c7a33f6a8a35f9e470772cd77391af0bb731073fc0d0031a01",
+      "facts/nl.json": "f7c1f8b37a6357466ae9b88f50fa10e94ca6c09e801491959797550d1db70f72",
+      "facts/oh.json": "b476371aaf14306b1aa5fbfff1af6a34ebdd71d92d498e2282da16d08cbd1d33",
+      "facts/pf.json": "ab3b2e8ec8231b0a808b8903a0ed8b6ff2a2f57eca9622921aec862643d3ef29",
+      "facts/pk.json": "1e8775a93117720d775d883c6c68d3a979fbd509ed772edf5fd378e32f78a5a6",
+      "facts/pt.json": "1328c44cb741aa35e5cde6b4e4caffcaeb66b970c1f4af83e0043dbdc624f951",
+      "facts/re.json": "bb521dd7ad78365f909691f37256d554b4f358dd3c7708054aecbc6d5891535e",
+      "facts/sc.json": "0b76cdffc9458f0fb22cf4a1a8faada9295287fae3f8e839f2b48fdeea16a320",
+      "facts/sh.json": "8f11a3f27ee90d97afad7a5f22bf7928b7be21d3a176e945c858e1dbb2541a76",
+      "facts/sic.json": "b1ffd0803529b5861500cbecfa7d748fc0ec09b7df1de9d1c13520b4d92dd923",
+      "facts/sm.json": "aebc27239a471363627db2c0eeeda8a02b9d82afc5f90488c8715a3f89374959",
+      "facts/sx.json": "b96c6899f1b1e2018fd1c52036e3d450cc13b0326b5c5b23b77f3fdcc2e869dd",
+      "facts/tar.json": "d07f33cbc049d26d1c8bb787ed75795b2ff3c18ba3f72b0b1612f2a0135d8ce8",
+      "facts/uk.json": "e31df5f89264a9b83f3e740a2c1b79671b3854dc8cf7ccf6529e1d5a0f0caf9d",
+      "facts/us.json": "a64c3278a63bf154bafe68a905066e754642645220038d9119f6e4b6172df8c3",
+      "facts/ws.json": "db9c29333b94564cbbb3c70010dcd3d222411b9213426045f90a28fd95a081b9",
+      "facts/wse.json": "b3cb537fe9c467318f9460951b4fb80312b2f6913434f5ff3d47992a93c3dc1e",
+      "facts/wsw.json": "f91bea81c177d81bbaf2c9a17da880682e1bdd1b698f84d7f7770705a843ae4d",
+      "facts/zj.json": "11a9fa571f5c83bd2f075f775700152e8e53539ebd15f082b8b5aa5a2b2c8676",
+      "evidence.json": "87e0493169a4646348e85068ce4e593f47ad52977fb993529606230d93eae5b8",
+      "sources.json": "5cf49ffe933a518bdc74810af9c3dd5a1e3f7aa32d5291c724137d8890e6a37b",
+      "source-index.md": "b319c207bef137cecd28917f245d93316141cd41bbbb09fd92132ac57ae1d58c",
+      "route-matrix.json": "46ce054076c494967ca0b0c05a6e6504c1670746aa3a93c30fba736b3e304739",
+      "comparisons.yaml": "acc0b0bba78b2d05ade8fc9703479f31b1396054e65b89193137383d25ed9dfc"
+    }
+  },
+  "summary": {
+    "P1": {
+      "must_separate": 4,
+      "may_merge": 0,
+      "separation_not_proven": 43,
+      "model_unresolved": 1,
+      "data_unknown": 1,
+      "rule_conflict": 0
+    },
+    "P2": {
+      "must_separate": 8,
+      "may_merge": 0,
+      "separation_not_proven": 1,
+      "model_unresolved": 1,
+      "data_unknown": 39,
+      "rule_conflict": 0
+    },
+    "P3": {
+      "must_separate": 8,
+      "may_merge": 0,
+      "separation_not_proven": 0,
+      "model_unresolved": 41,
+      "data_unknown": 0,
+      "rule_conflict": 0
+    }
+  },
+  "results": [
+    {
+      "comparison_id": "C001",
+      "profile": "P1",
+      "result": "data_unknown",
+      "applied_rules": [
+        "R007",
+        "R008"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "E01.status"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E01"
+      ],
+      "explanation": "Concrete data blockers prevent the required assessment: E01.status. Rejected witness candidates: C001.W001: evidence status is not verified."
+    },
+    {
+      "comparison_id": "C001",
+      "profile": "P2",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E02",
+        "E03"
+      ],
+      "explanation": "Independently verified final admission jurisdictions differ under R011. Rejected witness candidates: C001.W001: evidence status is not verified."
+    },
+    {
+      "comparison_id": "C001",
+      "profile": "P3",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E02",
+        "E03"
+      ],
+      "explanation": "Independently verified final admission jurisdictions differ under R011. Rejected witness candidates: C001.W001: evidence status is not verified."
+    },
+    {
+      "comparison_id": "C002",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C002",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C002",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C003",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C003",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C003",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C004",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C004",
+      "profile": "P2",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C004",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity."
+    },
+    {
+      "comparison_id": "C005",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C005",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C005",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C006",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C006",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C006",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C007",
+      "profile": "P1",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008"
+      ],
+      "witnesses": [
+        "C007.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E10",
+        "E19"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C007.W001."
+    },
+    {
+      "comparison_id": "C007",
+      "profile": "P2",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "witnesses": [
+        "C007.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E10",
+        "E18",
+        "E19",
+        "E20"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C007.W001."
+    },
+    {
+      "comparison_id": "C007",
+      "profile": "P3",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "witnesses": [
+        "C007.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E10",
+        "E18",
+        "E19",
+        "E20"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C007.W001."
+    },
+    {
+      "comparison_id": "C008",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C008",
+      "profile": "P2",
+      "result": "must_separate",
+      "applied_rules": [
+        "R011"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E18"
+      ],
+      "explanation": "Independently verified final admission jurisdictions differ under R011."
+    },
+    {
+      "comparison_id": "C008",
+      "profile": "P3",
+      "result": "must_separate",
+      "applied_rules": [
+        "R011"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E18"
+      ],
+      "explanation": "Independently verified final admission jurisdictions differ under R011."
+    },
+    {
+      "comparison_id": "C009",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C009",
+      "profile": "P2",
+      "result": "must_separate",
+      "applied_rules": [
+        "R011"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E18",
+        "E21"
+      ],
+      "explanation": "Independently verified final admission jurisdictions differ under R011."
+    },
+    {
+      "comparison_id": "C009",
+      "profile": "P3",
+      "result": "must_separate",
+      "applied_rules": [
+        "R011"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E18",
+        "E21"
+      ],
+      "explanation": "Independently verified final admission jurisdictions differ under R011."
+    },
+    {
+      "comparison_id": "C010",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C010",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C010",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C011",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C011",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C011",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C012",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C012",
+      "profile": "P2",
+      "result": "must_separate",
+      "applied_rules": [
+        "R011"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E23"
+      ],
+      "explanation": "Independently verified final admission jurisdictions differ under R011."
+    },
+    {
+      "comparison_id": "C012",
+      "profile": "P3",
+      "result": "must_separate",
+      "applied_rules": [
+        "R011"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E23"
+      ],
+      "explanation": "Independently verified final admission jurisdictions differ under R011."
+    },
+    {
+      "comparison_id": "C013",
+      "profile": "P1",
+      "result": "model_unresolved",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [
+        "Q004"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q004."
+    },
+    {
+      "comparison_id": "C013",
+      "profile": "P2",
+      "result": "model_unresolved",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [
+        "Q004"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q004."
+    },
+    {
+      "comparison_id": "C013",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q004"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q004."
+    },
+    {
+      "comparison_id": "C014",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C014",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C014",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C015",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C015",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C015",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C016",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C016",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C016",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C017",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C017",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C017",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C018",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C018",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C018",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C019",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C019",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C019",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C020",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C020",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C020",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C021",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C021",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C021",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C022",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C022",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C022",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C023",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C023",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C023",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C024",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C024",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C024",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C025",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C025",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C025",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C026",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C026",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C026",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C027",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C027",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C027",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C028",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C028",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C028",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C029",
+      "profile": "P1",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008"
+      ],
+      "witnesses": [
+        "C029.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E28"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C029.W001."
+    },
+    {
+      "comparison_id": "C029",
+      "profile": "P2",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008"
+      ],
+      "witnesses": [
+        "C029.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E28"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C029.W001."
+    },
+    {
+      "comparison_id": "C029",
+      "profile": "P3",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008"
+      ],
+      "witnesses": [
+        "C029.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E28"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C029.W001."
+    },
+    {
+      "comparison_id": "C030",
+      "profile": "P1",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008"
+      ],
+      "witnesses": [
+        "C030.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E28"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C030.W001."
+    },
+    {
+      "comparison_id": "C030",
+      "profile": "P2",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008"
+      ],
+      "witnesses": [
+        "C030.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E28"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C030.W001."
+    },
+    {
+      "comparison_id": "C030",
+      "profile": "P3",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008"
+      ],
+      "witnesses": [
+        "C030.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E28"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C030.W001."
+    },
+    {
+      "comparison_id": "C031",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C031",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C031",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C032",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C032",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C032",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C033",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C033",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C033",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C034",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C034",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C034",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C035",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C035",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C035",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C036",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C036",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C036",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C037",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C037",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C037",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C038",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C038",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C038",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C039",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C039",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C039",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C040",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C040",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C040",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C041",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C041",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C041",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C042",
+      "profile": "P1",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008"
+      ],
+      "witnesses": [
+        "C042.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E07",
+        "E08",
+        "E44"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C042.W001."
+    },
+    {
+      "comparison_id": "C042",
+      "profile": "P2",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008"
+      ],
+      "witnesses": [
+        "C042.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E07",
+        "E08",
+        "E44"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C042.W001."
+    },
+    {
+      "comparison_id": "C042",
+      "profile": "P3",
+      "result": "must_separate",
+      "applied_rules": [
+        "R007",
+        "R008"
+      ],
+      "witnesses": [
+        "C042.W001"
+      ],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [
+        "E07",
+        "E08",
+        "E44"
+      ],
+      "explanation": "Verified hard territorial witness certificate accepted: C042.W001."
+    },
+    {
+      "comparison_id": "C043",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C043",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C043",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C044",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C044",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C044",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C045",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C045",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C045",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C046",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C046",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C046",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C047",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C047",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C047",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C048",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C048",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C048",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C049",
+      "profile": "P1",
+      "result": "separation_not_proven",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "No sufficient split certificate or complete equal signature is available."
+    },
+    {
+      "comparison_id": "C049",
+      "profile": "P2",
+      "result": "data_unknown",
+      "applied_rules": [],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [],
+      "evidence_refs": [],
+      "explanation": "Concrete data blockers prevent the required assessment: final_admission_jurisdiction."
+    },
+    {
+      "comparison_id": "C049",
+      "profile": "P3",
+      "result": "model_unresolved",
+      "applied_rules": [
+        "R010"
+      ],
+      "witnesses": [],
+      "signature": {
+        "a_complete": false,
+        "b_complete": false,
+        "equal": "unknown"
+      },
+      "blocked_by_data": [
+        "final_admission_jurisdiction"
+      ],
+      "blocked_by_model": [
+        "Q001.identity",
+        "Q006"
+      ],
+      "evidence_refs": [],
+      "explanation": "Undefined model predicates can change the outcome: Q001.identity, Q006. Data blockers also recorded: final_admission_jurisdiction."
+    }
+  ]
+}
