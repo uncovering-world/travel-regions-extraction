@@ -1,4 +1,0 @@
-interface:
-  display_name: "CTR: Deliver issue"
-  short_description: "Deliver scoped Canonical Regions work safely"
-  default_prompt: "Use $ctr-issue-deliver to complete the selected Canonical Travel Regions issue within its scope and report validation."

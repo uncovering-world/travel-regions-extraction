@@ -1,4 +1,0 @@
-interface:
-  display_name: "CTR: Select issue"
-  short_description: "Pick the next eligible Canonical Regions task"
-  default_prompt: "Use $ctr-issue-select to recommend the next eligible GitHub issue that advances the canonical regions goal."
