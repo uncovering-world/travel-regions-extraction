@@ -23,7 +23,6 @@ def test_package_valid_and_deterministic(data):
     assert first["cases"] == 3
     assert first["sources_read"] == 8
     assert first["production_certificates"] == 0
-    pilot.verify_checksums(ROOT)
 
 
 def test_failed_retrieval_cannot_support_claim(data):
@@ -81,10 +80,3 @@ def test_historical_factual_hash_unchanged(data):
     from ctr_evaluator.reporting import frozen_input_hashes
     actual, _ = frozen_input_hashes(ROOT.parent / "q001")
     assert actual == data[1]["historical_factual_hash"]
-
-
-def test_tampered_package_detected(tmp_path):
-    (tmp_path / "note.md").write_text("changed")
-    (tmp_path / "checksums.sha256").write_text("0" * 64 + "  note.md\n")
-    with pytest.raises(ValueError, match="checksum mismatch"):
-        pilot.verify_checksums(tmp_path)

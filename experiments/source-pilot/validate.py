@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import argparse
 from datetime import date
-import hashlib
 import json
 from pathlib import Path
 import re
@@ -107,18 +106,6 @@ def validate_records(source_data: dict, research: dict, root: Path) -> dict:
     return {"status": "PASS", "scope": "Research integrity only; not legal verification or a Stage 1 verdict", "cases": len(cases), "observations": len(observations), "source_targets": len(sources), "sources_read": sum(s["access"] == "read" for s in sources.values()), "production_certificates": 0}
 
 
-def verify_checksums(root: Path) -> None:
-    listed = set()
-    for line in (root / "checksums.sha256").read_text().splitlines():
-        digest, name = line.split("  ", 1)
-        require(name not in listed and name != "checksums.sha256", "duplicate or self-referential checksum")
-        listed.add(name)
-        path = local_file(root, name)
-        require(hashlib.sha256(path.read_bytes()).hexdigest() == digest, f"checksum mismatch: {name}")
-    expected = {p.relative_to(root).as_posix() for p in root.rglob("*") if p.is_file() and p.suffix in {".json", ".md", ".py"} and "__pycache__" not in p.parts}
-    require(listed == expected, "checksum manifest does not cover exactly the package files")
-
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parent)
@@ -126,7 +113,6 @@ def main() -> int:
     root = args.root.resolve()
     try:
         result = validate_records(json.loads((root / "sources.json").read_text()), json.loads((root / "observations.json").read_text()), root)
-        verify_checksums(root)
     except (OSError, ValueError, KeyError, TypeError) as exc:
         print(json.dumps({"status": "FAIL", "error": str(exc)}, ensure_ascii=False))
         return 1

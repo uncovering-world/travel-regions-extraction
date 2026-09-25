@@ -28,7 +28,7 @@ In the geographic part, eight pages were read out of the ten addresses tried; tw
 - [dossier-template.md](dossier-template.md) — a repeatable format for the next dossier, not a local backlog.
 - [validate.py](validate.py) — an offline integrity check of the package. It is **not a new evaluator** and not a legal check.
 
-Short excerpts and research notes are stored here, not full archived copies of pages. Checksums protect these local materials from unnoticed change but do not prove that the websites are unchanged. Publication, reading and effective dates are kept apart. `null` means "not established", not "the rule has always applied".
+Short excerpts and research notes are stored here, not full archived copies of pages. Git history protects these local materials from unnoticed change; it does not prove that the websites are unchanged. Publication, reading and effective dates are kept apart. `null` means "not established", not "the rule has always applied".
 
 ## What we learned about the process
 
@@ -51,8 +51,6 @@ This does not require studying every visa in the world first. The result is one 
 ```bash
 python3 experiments/source-pilot/validate.py
 python3 -m pytest -q
-(cd experiments/source-pilot && sha256sum --check --quiet checksums.sha256)
-(cd experiments/q001 && sha256sum --check --quiet checksums.sha256)
 ```
 
 The package does not change the normative specification, does not adopt the separateness of an admission authority as a ground for a boundary and does not develop a destination partition. The old Q001 stays frozen. New observations belong to the reading of 13 September, not retroactively to the old snapshot.
