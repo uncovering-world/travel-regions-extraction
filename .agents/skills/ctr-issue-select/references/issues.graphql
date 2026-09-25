@@ -1,0 +1,30 @@
+query($endCursor: String) {
+  repository(owner: "uncovering-world", name: "travel-regions-extraction") {
+    issues(first: 100, after: $endCursor, states: OPEN) {
+      pageInfo { hasNextPage endCursor }
+      nodes {
+        number url title state updatedAt
+        issueType { name }
+        assignees(first: 100) { pageInfo { hasNextPage endCursor } nodes { login } }
+        labels(first: 100) { pageInfo { hasNextPage endCursor } nodes { name } }
+        milestone { title state }
+        parent { number url }
+        subIssuesSummary { total completed }
+        issueDependenciesSummary { blockedBy }
+        blockedBy(first: 100) {
+          pageInfo { hasNextPage endCursor }
+          nodes { number url state stateReason }
+        }
+        issueFieldValues(first: 100) {
+          pageInfo { hasNextPage endCursor }
+          nodes {
+            ... on IssueFieldSingleSelectValue {
+              name
+              field { ... on IssueFieldCommon { name } }
+            }
+          }
+        }
+      }
+    }
+  }
+}

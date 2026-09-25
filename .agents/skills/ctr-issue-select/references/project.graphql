@@ -1,0 +1,23 @@
+query($endCursor: String) {
+  organization(login: "uncovering-world") {
+    projectV2(number: 3) {
+      title url
+      items(first: 100, after: $endCursor) {
+        pageInfo { hasNextPage endCursor }
+        nodes {
+          id isArchived
+          content { ... on Issue { number url state repository { nameWithOwner } } }
+          fieldValues(first: 100) {
+            pageInfo { hasNextPage endCursor }
+            nodes {
+              ... on ProjectV2ItemFieldSingleSelectValue {
+                name
+                field { ... on ProjectV2SingleSelectField { name } }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

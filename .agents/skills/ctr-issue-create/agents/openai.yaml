@@ -1,0 +1,4 @@
+interface:
+  display_name: "CTR: Create issue"
+  short_description: "Create goal-linked Canonical Regions tickets"
+  default_prompt: "Use $ctr-issue-create to create a bounded GitHub ticket for this Canonical Travel Regions task."

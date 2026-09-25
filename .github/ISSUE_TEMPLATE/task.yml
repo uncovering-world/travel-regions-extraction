@@ -1,0 +1,32 @@
+name: Task
+description: A bounded investigation, evidence audit, model experiment, implementation or process improvement
+type: Task
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: State the problem or decision, current repository anchors, and how this advances the reproducible canon of regions. For bugs, include reproduction, expected/actual behavior and revision, then set the issue type to Bug.
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: Checkable deliverables and acceptance criteria. For research, include what a valid negative result looks like. Do not require a preferred map or named-region exception.
+      placeholder: "- [ ] A bounded deliverable with a reproducible validation method"
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Scope/non-goals, related R/D/Q IDs, sources/artifacts, dependencies, blockers, validation and budget/approval boundaries. Native issue fields and project Status are set during triage, not duplicated here.
+      placeholder: |
+        Goal contribution:
+        Scope / non-goals:
+        Related rules / decisions / questions:
+        Dependencies / blockers:
+        Validation:
+    validations:
+      required: true

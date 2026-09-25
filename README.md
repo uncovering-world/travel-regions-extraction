@@ -8,6 +8,9 @@ The current normative Stage 1 production profile is **`S1-core-v1`**, containing
 
 ## Repository contents
 
+- `AGENTS.md` — project invariants, task routing and validation for coding agents;
+- [GitHub Issues](https://github.com/uncovering-world/travel-regions-extraction/issues) and [project 3](https://github.com/orgs/uncovering-world/projects/3) — task register and dedicated Canonical Travel Regions board;
+- `docs/workflow.md` and `.agents/skills/` — issue creation, selection and delivery; no local backlog mirror;
 - `docs/spec.md` — normative specification;
 - `docs/decisions.md` — decision log and current statuses;
 - `docs/open-questions.md` — unresolved model questions;
@@ -15,6 +18,11 @@ The current normative Stage 1 production profile is **`S1-core-v1`**, containing
 - `data/adversarial-test-set.csv` — adversarial corpus for future experiments;
 - `experiments/q001/` — the complete Experiment Q001 factual dataset, evaluator contract, fixtures, provenance, and validation artifacts.
 - `experiments/q001/stage1-core-adoption.md` — CR-W adoption, residual questions, accepted-regression gaps and the separate current evaluator input contract.
+- [Source-to-explanation pilot](experiments/source-pilot/README.md) — readable Denmark/Greenland, France/Reunion and Tibet dossiers, fresh source observations, exceptions and precise research gaps; not production certificates.
+
+## Working toward the canon
+
+Use the [GitHub workflow](docs/workflow.md) to turn a model/evidence/implementation blocker into a bounded ticket with acceptance criteria and a clear contribution to the final canon. Project skills: `$ctr-issue-create`, `$ctr-issue-select`, `$ctr-issue-deliver`. Selection reads live GitHub state and is not permission to start work. The current phase excludes Stage 2 implementation and a world partition; ticket priority cannot override accepted model constraints. Skills assist the process and do not run a background AI data-collection service.
 
 ## Current Stage 1 core
 
