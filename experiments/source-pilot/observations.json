@@ -1,0 +1,54 @@
+{
+  "schema_version": "source-pilot-v1",
+  "review_date": "2026-09-13",
+  "review_status": "research_draft_not_independently_verified",
+  "production_certificates": [],
+  "historical_factual_hash": "fd4875e773731a4533549d3526ef54c4a0945c4ca84d8045214a517ebba61831",
+  "observations": [
+    {"id": "greenland-visa", "kind": "source_supported", "sources": ["dk-greenland", "dk-short-stay"], "statement": "Ordinary Schengen visa coverage does not itself extend to Greenland; distinguish visa territorial validity from a guaranteed admission decision."},
+    {"id": "greenland-residence", "kind": "source_supported", "sources": ["dk-greenland", "dk-residence-change"], "statement": "Qualifying residence permits/cards can exempt the traveller; a D visa from another Schengen state is not the same document."},
+    {"id": "bangladesh-class", "kind": "source_supported", "sources": ["dk-nationalities"], "statement": "Bangladesh is listed as visa-required for Denmark; this provides a nationality candidate, not a complete traveller-class audit."},
+    {"id": "reunion-exceptions", "kind": "source_supported", "sources": ["fr-overseas", "fr-short-stay"], "statement": "Overseas-specific visa coverage and exemptions must be assessed together; residence, D visas and certain French multiple-entry visas prevent a blanket C-visa claim."},
+    {"id": "tibet-advisory", "kind": "source_supported", "sources": ["uk-tibet-advice"], "statement": "FCDO reports a permit and organised-tour requirement and possible abrupt restrictions; this is foreign advice, not a local legal proof."},
+    {"id": "china-permit-procedure", "kind": "source_supported", "sources": ["cn-travel-permit"], "statement": "NIA describes permits for non-open areas and a conditional no-further-approval statement for group itineraries without those areas."},
+    {"id": "permit-identity-gap", "kind": "research_inference", "sources": ["cn-travel-permit", "uk-tibet-advice"], "statement": "The read sources do not establish identity between the TAR tourism permit and the general NIA travel permit; combining their attributes would be unsupported."}
+  ],
+  "cases": [
+    {
+      "id": "greenland", "title": "Denmark and Greenland", "dossier": "cases/greenland.md", "legacy_comparison": "C017",
+      "observations": ["greenland-visa", "greenland-residence", "bangladesh-class"],
+      "candidate_context": {"purpose": "civilian_short_stay", "duration_days": 7, "nationality": "Bangladesh", "document": "ordinary passport", "visa": "valid ordinary uniform Schengen C; no Greenland endorsement or entry permit", "residence_or_family_exemption": "excluded in proposed class; exclusion audit incomplete", "trip_class": "ordinary tourist visit, same authorisation inventory; route applicability not fully audited"},
+      "research_outcome": "candidate_travel_discontinuity", "core_submission": "not_submitted",
+      "gates": {"G-SCOPE": "needs_evidence", "G-CONTEXT": "needs_evidence", "G-HARD": "supported_in_principle", "G-TIME": "needs_evidence", "G-EVIDENCE": "needs_evidence"},
+      "gaps": [
+        {"kind": "evidence", "question": "Audit remaining exemptions and document validity for the proposed class, and matched trip applicability."},
+        {"kind": "evidence", "question": "Establish precise disjoint territorial scopes and uniform visa-validity effect, without assuming all other rules equal."},
+        {"kind": "evidence", "question": "Retain reproducible source versions and establish applicable standing rules at the comparison date; publication is not commencement."}
+      ]
+    },
+    {
+      "id": "reunion", "title": "European France and Réunion", "dossier": "cases/reunion.md", "legacy_comparison": "C018",
+      "observations": ["reunion-exceptions"],
+      "candidate_context": {"purpose": "civilian_short_stay", "duration_days": 7, "nationality": null, "document": "ordinary passport", "visa": "ordinary short-stay C, not a qualifying long-validity circulation visa", "residence_or_family_exemption": "not established", "trip_class": "ordinary tourist visit; complete matched class not established"},
+      "research_outcome": "candidate_travel_discontinuity", "core_submission": "not_submitted",
+      "gates": {"G-SCOPE": "needs_evidence", "G-CONTEXT": "needs_evidence", "G-HARD": "supported_in_principle", "G-TIME": "needs_evidence", "G-EVIDENCE": "needs_evidence"},
+      "gaps": [
+        {"kind": "evidence", "question": "Read applicable territory-specific exemptions or capture official assistant parameters/results; choose an actually established nationality/document class."},
+        {"kind": "evidence", "question": "Complete source version, temporal and territorial applicability audit; failed law retrieval is not positive proof."}
+      ]
+    },
+    {
+      "id": "tibet", "title": "Tibet and ordinary Chinese territory", "dossier": "cases/tibet.md", "legacy_comparison": "C041",
+      "observations": ["tibet-advisory", "china-permit-procedure", "permit-identity-gap"],
+      "candidate_context": {"purpose": "civilian_short_stay", "duration_days": 7, "nationality": "United Kingdom", "document": "ordinary passport", "visa": "suitable general admission basis not audited", "residence_or_family_exemption": "not established", "trip_class": "ordinary tourist visit; a disjoint comparison area and routes remain unspecified"},
+      "research_outcome": "classification_unresolved", "core_submission": "not_submitted",
+      "gates": {"G-SCOPE": "needs_evidence", "G-CONTEXT": "needs_evidence", "G-HARD": "model_unresolved", "G-TIME": "needs_evidence", "G-EVIDENCE": "needs_evidence"},
+      "gaps": [
+        {"kind": "evidence", "question": "Identify local legal basis, actual regulated act, permit identity, affected classes and exact territorial scope."},
+        {"kind": "evidence", "question": "Define a disjoint ordinary reference area and positively establish the comparison decision; no country-wide absence inferred."},
+        {"kind": "model", "question": "Resolve territorial presence permit versus spatial access overlay by a general predicate, not a territory name or administrative size."},
+        {"kind": "evidence", "question": "Separate standing requirements from interruptions, and establish applicable source versions/dates."}
+      ]
+    }
+  ]
+}

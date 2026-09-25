@@ -1,0 +1,96 @@
+{
+  "schema_version": "source-pilot-v1",
+  "retrieval_date": "2026-09-13",
+  "capture_method": "web tool text reading; short excerpts only; no full-page archival capture",
+  "sources": [
+    {
+      "id": "dk-greenland", "legacy_source": "S15",
+      "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Short-stay-visa/Visa-to-the-Faroe-Island-or-Greenland",
+      "publisher": "Danish Immigration Service", "role": "domestic_official_guidance", "access": "read",
+      "source_date": "2026-09-04", "source_date_kind": "last_updated", "effective_from": null,
+      "locator": "Who needs a visa?; Who does not need a visa?",
+      "excerpt": "Your visa sticker must state",
+      "limitation": "Guidance supports territorial endorsement and exceptions, not a complete gate audit or an independently archived legal version."
+    },
+    {
+      "id": "fr-overseas", "legacy_source": "S26",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10610",
+      "publisher": "DILA / Service Public", "role": "domestic_official_guidance", "access": "read",
+      "source_date": "2024-11-20", "source_date_kind": "editorially_verified", "effective_from": null,
+      "locator": "Etranger non europeen; Textes de loi et references; outre-mer territory expansion",
+      "excerpt": "Pour certaines nationalités, il peut y avoir une dispense de visa",
+      "limitation": "Territory/nationality exceptions point to the assistant and ministerial orders; reading date is not an amendment date."
+    },
+    {
+      "id": "fr-schengen-unavailable", "legacy_source": "S25",
+      "url": "https://www.france-visas.gouv.fr/en/la-france-dans-l-espace-schengen",
+      "publisher": "France-Visas", "role": "domestic_official_guidance", "access": "failed",
+      "source_date": null, "source_date_kind": "unknown", "effective_from": null,
+      "locator": null, "excerpt": null,
+      "limitation": "Web tool reported timeout; no current text read. Historical full_text status is not inherited."
+    },
+    {
+      "id": "cn-travel-permit", "legacy_source": "S08",
+      "url": "https://s.nia.gov.cn/mps/bszy/wgrcrjEn/e-sqwgrlxz/202201/index.html",
+      "publisher": "China National Immigration Administration", "role": "domestic_official_guidance", "access": "read",
+      "source_date": null, "source_date_kind": "unknown", "effective_from": null,
+      "locator": "Sections III, IV, V",
+      "excerpt": "no further approval shall be required if no non-open area is included",
+      "limitation": "The quoted absence is limited to this group-itinerary procedure. Does not identify the TAR tourism permit or delimit all non-open areas."
+    },
+    {
+      "id": "dk-residence-change", "legacy_source": "S16",
+      "url": "https://nyidanmark.dk/en-GB/News-Front-Page/2026/03/New-access-to-entry-to-the-Faroe-Islands-and-Greenland-for-third-country-nationals",
+      "publisher": "Danish Immigration Service", "role": "domestic_official_guidance", "access": "read",
+      "source_date": "2026-03-20", "source_date_kind": "published_and_last_updated", "effective_from": null,
+      "locator": "If you have a residence permit; If you only have a D visa from another Schengen country",
+      "excerpt": "If you have a residence permit in Denmark or another Schengen country",
+      "limitation": "Announces new access at publication; exact legal commencement and historical applicability are not independently established."
+    },
+    {
+      "id": "dk-nationalities", "legacy_source": null,
+      "url": "https://www.nyidanmark.dk/en-GB/Words-and-concepts/US/Visum/Countries-with-a-visa-requirement-and-visa-free-countries/?anchor=63F86BF9BAE84296B40028C26E06EF02&callbackAnchor=4CF6F35BF1B447D5BC53435ECE553A8E63F86BF9BAE84296B40028C26E06EF02&callbackItem=AADA0185A3C54C4097E85F7B4350F32C",
+      "publisher": "Danish Immigration Service", "role": "domestic_official_guidance", "access": "read",
+      "source_date": "2025-07-24", "source_date_kind": "last_updated", "effective_from": null,
+      "locator": "Countries with a visa requirement: Bangladesh; passport footnotes",
+      "excerpt": "Bangladesh",
+      "limitation": "Establishes a named visa-required nationality; not a full audit of personal/status exemptions or document recognition."
+    },
+    {
+      "id": "fr-order-unavailable", "legacy_source": null,
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000024403998/",
+      "publisher": "Legifrance", "role": "domestic_legal_text", "access": "failed",
+      "source_date": null, "source_date_kind": "unknown", "effective_from": null,
+      "locator": null, "excerpt": null,
+      "limitation": "Linked by Service Public as the 26 July 2011 order including Reunion. Fetch returned 403; no operative provision read."
+    },
+    {
+      "id": "fr-short-stay", "legacy_source": null,
+      "url": "https://france-visas.gouv.fr/en/web/france-visas/short-stay-visa",
+      "resolved_url": "https://france-visas.gouv.fr/en/web/france-visas/visa-de-court-sejour",
+      "publisher": "France-Visas", "role": "domestic_official_guidance", "access": "read",
+      "source_date": null, "source_date_kind": "unknown", "effective_from": null,
+      "locator": "Uniform Schengen short-stay visa; Short-stay visas for non-European French territories",
+      "excerpt": "The visa may be valid for one or more entries.",
+      "limitation": "General guidance includes conditional waivers for some French-issued multiple-entry visas; does not complete a nationality-by-Reunion legal audit."
+    },
+    {
+      "id": "dk-short-stay", "legacy_source": null,
+      "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Short-stay-visa/?anchor=1FEB2D4621D14E549977C51C95614F30&callbackAnchor=CD602DEC3F9B408CB13AB192ACABD61C1FEB2D4621D14E549977C51C95614F30&callbackItem=AADA0185A3C54C4097E85F7B4350F32C",
+      "publisher": "Danish Immigration Service", "role": "domestic_official_guidance", "access": "read",
+      "source_date": null, "source_date_kind": "unknown", "effective_from": null,
+      "locator": "You want to apply for a short term visa to Denmark, opening paragraph",
+      "excerpt": "A visa normally grants you the right to stay in the entire Schengen region for up to 90 days.",
+      "limitation": "General baseline only; validity, territorial restrictions, exceptions and full admission conditions need case-specific checking."
+    },
+    {
+      "id": "uk-tibet-advice", "legacy_source": "S45",
+      "url": "https://www.gov.uk/foreign-travel-advice/china/regional-risks",
+      "publisher": "UK FCDO", "role": "foreign_travel_advisory", "access": "read",
+      "source_date": null, "source_date_kind": "unknown", "effective_from": null,
+      "locator": "Tibet and the Tibet Autonomous Region (TAR)",
+      "excerpt": "You must also travel on an organised tour.",
+      "limitation": "UK advice, not Chinese law; cannot establish all-nationality applicability, exact legal scope or equivalence to the NIA travel permit."
+    }
+  ]
+}
