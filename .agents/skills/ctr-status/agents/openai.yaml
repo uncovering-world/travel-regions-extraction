@@ -1,0 +1,4 @@
+interface:
+  display_name: "CTR: Status"
+  short_description: "Where the project stands and what is next"
+  default_prompt: "Use $ctr-status to summarise where Canonical Travel Regions stands and recommend the next step."

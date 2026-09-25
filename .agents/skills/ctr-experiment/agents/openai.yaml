@@ -1,0 +1,4 @@
+interface:
+  display_name: "CTR: Experiment"
+  short_description: "Reproducible experiment over many cases"
+  default_prompt: "Use $ctr-experiment to set up a reproducible experiment for this Canonical Travel Regions question."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "CTR: Decide"
+  short_description: "Prepare or record a normative decision"
+  default_prompt: "Use $ctr-decide to lay out the options for this Canonical Travel Regions decision."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "CTR: Issue"
+  short_description: "Create or update issues and board status"
+  default_prompt: "Use $ctr-issue to create or update the Canonical Travel Regions GitHub issue for this work."

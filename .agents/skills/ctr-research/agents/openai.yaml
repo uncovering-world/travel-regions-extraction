@@ -1,0 +1,4 @@
+interface:
+  display_name: "CTR: Research"
+  short_description: "Source-grounded desk research"
+  default_prompt: "Use $ctr-research to answer this Canonical Travel Regions question from primary sources."
