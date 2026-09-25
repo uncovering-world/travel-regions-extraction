@@ -5,3 +5,10 @@ __pycache__/
 .venv/
 dist/
 build/
+
+# Experiment downloads are refetched by the experiment's script
+experiments/*/cache/
+
+# Machine-local agent settings and personal instructions
+.claude/settings.local.json
+CLAUDE.local.md
