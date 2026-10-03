@@ -10,9 +10,10 @@
 | on_the_ground | Sudan controls all or most of the area; South Sudanese forces have at times briefly controlled large portions. | secondary | 2026-10-03 | S0114 | Sudan controls all or most of this area today, though at times independent South Sudan forces have briefly controlled large portions. |
 | inhabited | yes | secondary | 2026-10-03 | S0114 | Population  • Estimate  (2010) 16,000 |
 | area_km2 | 12500 | secondary | 2026-10-03 | S0114 | Total 4,800 sq mi (12,500 km 2 ) |
-| holder | Sudan (all or most of the area) | secondary | 2026-10-03 | S0114 | Sudan controls all or most of this area today, though at times independent South Sudan forces have briefly controlled large portions. |
+| holder | Rapid Support Forces (RSF): an RSF commander for the Kafia Kingi area and a police director serving the RSF-led administration ('New Sudan') were reported at a conference there in September 2026 | secondary | 2026-10-04 | S0372 | وجدد قائد قوات الدعم السريع بمنطقة كفيا قنجي إبراهيم الشغيل مطالبته للقبائل بنبذ التفرقة وقبول الآخر دون تميز على أساس اللون. |
 | stated_outline | The Sudan north-south line as of 1 January 1956, required by the 2005 Comprehensive Peace Agreement | secondary | 2026-10-03 | S0114 | under the terms of the 2005 Comprehensive Peace Agreement which required use of the Sudan "north–south line" as of 1 January 1956. |
 
 Sources:
 
 - S0114: https://en.wikipedia.org/w/index.php?title=Kafia_Kingi&oldid=1377801384
+- S0372: https://radiotamazuj.org/ar/news/article/%D8%AE%D8%AA%D8%A7%D9%85-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%8A%D8%B4-%D8%A7%D9%84%D8%B3%D9%84%D9%85%D9%8A-%D9%81%D9%8A-%D9%83%D9%81%D9%8A%D8%A7-%D9%82%D9%86%D8%AC%D9%8A

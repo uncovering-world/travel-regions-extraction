@@ -164,3 +164,10 @@ Weak rows as reported by the collector, not checked again: `moselle-condominium`
 ## 11. Holders of leased areas (added 2026-10-04)
 
 Collected for D057 (a lease is a region when its holder is not the lessor). On re-check two passages were not found and were dropped: `tiwinza` / `holder` and `tin-bigha` / `holder_since`; three sources could not be read and stay unchecked (`palanca-road` and `tin-bigha` holders, `kinmen-matsu` holder). As reported by the collector: control is split at `guantanamo-bay` (the United States inside the base, Cuba on the land approaches) and at `russian-ranges-kazakhstan` (the Russian range command sets the regime, both states approve foreigners); `moldauhafen` rests on a Czech ministry answer quoted in an interview; every `suleyman-shah-tomb` row is Wikipedia; treaty texts read from unofficial mirrors are recorded as secondary.
+
+## 12. Searches in the states' own languages (added 2026-10-04)
+
+- `kafia-kingi`: the holder is now the Rapid Support Forces (Arabic, UN and South Sudanese sources), replacing "Sudan". Since when is disputed: late August 2024 per the UN Panel of Experts and a South Sudanese county official, 2023 per Khatt30 and XCEPT. The UN passage, in a PDF, could not be matched on re-check, so no `holder_since` is recorded.
+- `suleyman-shah-tomb`: `restricted` rests on one family visit in 2015 arranged by the Turkish General Staff. A 2026 Kurdish report that the tomb was moved back to Karakozak is unverified.
+- `russian-ranges-kazakhstan`: the leased range is closed under Article 22 of the lease; the town of Priozersk has been open to foreigners since the mid-2000s. The register's value (`closed`) is for the range.
+- Entry rules (in `experiments/stage1-list/inputs/entry_rule_facts.csv`): Tibet's permit dates from a 1989 central-government regulation as cited by the US State Department (the regulation itself was not found); the Gorno-Badakhshan permit rests on Article 19 of Tajikistan's border law of 1997 in the wording of 2005-07-25 (the original 1997 wording is unknown).
