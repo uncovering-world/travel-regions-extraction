@@ -1,229 +1,229 @@
 # Canonical Travel Regions — decision log
 
-Версия: 0.3.0-draft. Дата: 2026-09-12. Связанные документы: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.3.0-draft. Date: 2026-09-12. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
-Текущее нормативное решение о Stage 1 — D032–D037. Предыдущие research/experimental записи сохраняют историю, но не отменяют более позднее явно принятое CR-W-only ядро. D004–D007 остаются accepted product constraints.
+The current normative decision on Stage 1 is D032–D037. Earlier research/experimental entries preserve the history but do not override the later, explicitly accepted CR-W-only core. D004–D007 remain accepted product constraints.
 
-## Как читать журнал
+## How to read the log
 
-`accepted` используется только для явного требования пользователя. `tentative` означает предложение исследования или новую формализацию, принятую только как гипотезу этой спецификации. `unresolved` означает противоречие или недостаточно определённое модельное решение. Просьба исправить форматирование исследования не считается согласием со всеми его выводами. Исследование не является протоколом пользовательского утверждения.
+`accepted` is used only for an explicit requirement of the user. `tentative` means a research proposal or a new formalisation, accepted only as a hypothesis of this specification. `unresolved` means a contradiction or an insufficiently defined model decision. A request to fix the formatting of a research report does not count as agreement with all of its conclusions. A research report is not a record of user approval.
 
-## Источники исходных решений
+## Sources of the original decisions
 
-| Source ID | Материал | Что действительно доступно |
+| Source ID | Material | What is actually available |
 |---|---|---|
-| S01 | Пользователь, «Правила разбиения территорий», 2026-09-10 | Видимая исходная реплика: одноярусное непересекающееся полное разбиение, условная независимость, учитывать въезд; UK overseas отдельно; Réunion не объединять с France, Crimea с Ukraine, Western Sahara с Morocco в travel-смысле |
-| S02 | «Глобальное одноуровневое разбиение мира на travel-territories», 2026-09-10 | Полностью прочитан отчёт, 985 строк; Library ID libfile_d734666989b48191ae91201e44ad6d07. Разделы «Критерии выделения», «Спорные, заморские и интеграционные случаи», temporal/provenance |
-| S03 | «Глобальное одноярусное разбиение мира на travel territories», 2026-09-11 | Полностью прочитан отчёт, 2203 строки; Library ID libfile_d2bdf9e1b63c8191b5014d5ea8f0be2b. Добавляет отдельный territorial identity criterion и алгоритм safe merge |
-| S04 | «Разница Кодекс и Ворк», 2026-09-11 | Видны пользовательские реплики о Linux, продолжении исследования, экспериментах и созданном Project; поиском найден фрагмент ответа ассистента от 19:16:20 UTC о Project/Work → спецификация/данные → git/Codex. Полного транскрипта нет |
-| S05 | Текущее пользовательское задание, 2026-09-11 | Прямое требование четырёх файлов, стабильных rule IDs, falsifiability, 50–100 adversarial cases и запрет подгонки под желаемый список |
-| N01 | Настоящая формализация | Новые инженерные предложения этого выпуска. Они не приписываются предыдущим разговорам |
+| S01 | User, "Rules for partitioning territories", 2026-09-10 | The visible original message: a single-tier, non-overlapping, complete partition, conditional independence, take entry into account; UK overseas separately; do not merge Réunion with France, Crimea with Ukraine, Western Sahara with Morocco in the travel sense |
+| S02 | "A global single-level partition of the world into travel-territories", 2026-09-10 | The report was read in full, 985 lines; Library ID libfile_d734666989b48191ae91201e44ad6d07. Sections "Delineation criteria", "Disputed, overseas and integration cases", temporal/provenance |
+| S03 | "A global single-tier partition of the world into travel territories", 2026-09-11 | The report was read in full, 2203 lines; Library ID libfile_d2bdf9e1b63c8191b5014d5ea8f0be2b. Adds a separate territorial identity criterion and a safe merge algorithm |
+| S04 | "The difference between Codex and Work", 2026-09-11 | Visible are the user's messages about Linux, continuing the research, experiments and the created Project; a search found a fragment of the assistant's answer of 19:16:20 UTC about Project/Work → specification/data → git/Codex. There is no full transcript |
+| S05 | The current user assignment, 2026-09-11 | A direct requirement for four files, stable rule IDs, falsifiability, 50–100 adversarial cases and a ban on fitting to a desired list |
+| N01 | The present formalisation | New engineering proposals of this release. They are not attributed to previous conversations |
 
-Library ID приведены для точного поиска исходных отчётов. Внешние первичные источники E01–E04 и границы их проверки приведены в spec.md. S02/S03 фиксируют историю предложений; их географические утверждения не становятся автоматически актуальными проверенными фактами.
+The Library IDs are given for exact lookup of the original reports. The external primary sources E01–E04 and the limits of their verification are given in spec.md. S02/S03 record the history of proposals; their geographic statements do not automatically become current verified facts.
 
-## Решения, подтверждённые пользователем
+## Decisions confirmed by the user
 
-### D001 — Полное одноуровневое разбиение
+### D001 — Complete single-level partition
 
-- Решение: географическая область покрытия должна разбиваться полностью и без пересечений на один уровень территорий.
-- Rationale: одна и та же посещённая точка не должна одновременно относиться к нескольким учитываемым территориям.
-- Правила: R001–R005.
-- Контраргументы: иерархия удобна для навигации и агрегирования, но её можно хранить вне canonical partition.
-- Статус: accepted.
-- Основание: S01, S05. Состав самого universe остаётся Q003, не accepted.
+- Decision: the geographic area of coverage must be partitioned completely and without overlaps into a single level of territories.
+- Rationale: one and the same visited point must not belong to several counted territories at the same time.
+- Rules: R001–R005.
+- Counterarguments: a hierarchy is convenient for navigation and aggregation, but it can be stored outside the canonical partition.
+- Status: accepted.
+- Basis: S01, S05. The composition of the universe itself remains Q003, not accepted.
 
-### D002 — Travel perspective и режим въезда
+### D002 — Travel perspective and entry regime
 
-- Решение: условную самостоятельность оценивать с позиции путешественника; как минимум учитывать режим въезда.
-- Rationale: государственная принадлежность не полностью описывает условия посещения.
-- Правила: R006, R007, R011, R012.
-- Контраргументы: «влияет на путешествие» без ограничения масштаба ведёт до парковок, охраняемых зон и отдельных объектов.
-- Статус: accepted в части цели и включения въезда; конкретные пороги/достаточность отдельных факторов tentative.
-- Основание: S01. Слово «как минимум» не означает согласия на любой customs/permit split.
+- Decision: assess conditional separateness from the traveller's point of view; at a minimum, take the entry regime into account.
+- Rationale: state affiliation does not fully describe the conditions of a visit.
+- Rules: R006, R007, R011, R012.
+- Counterarguments: "affects travel" without a limit on scale leads all the way to car parks, guarded zones and individual sites.
+- Status: accepted as regards the goal and the inclusion of entry; the specific thresholds/sufficiency of individual factors are tentative.
+- Basis: S01. The words "at a minimum" do not mean agreement to any customs/permit split.
 
-### D003 — Воспроизводимость и проверка противоречий
+### D003 — Reproducibility and checking for contradictions
 
-- Решение: перейти от исследования к воспроизводимым экспериментам; не составлять сейчас финальную мировую карту и не подгонять правила под список.
-- Rationale: общие критерии должны допускать опровержение.
-- Правила: R001, R008, R033–R036.
-- Контраргументы: конкретные примеры нужны как product constraints; следует сохранять их, а не считать любой ожидаемый исход запрещённым.
-- Статус: accepted.
-- Основание: S04, S05. Детальная структура manifest — N01, tentative.
+- Decision: move from research to reproducible experiments; do not compile a final world map now and do not fit the rules to a list.
+- Rationale: general criteria must be open to refutation.
+- Rules: R001, R008, R033–R036.
+- Counterarguments: concrete examples are needed as product constraints; they should be kept, rather than treating every expected outcome as forbidden.
+- Status: accepted.
+- Basis: S04, S05. The detailed structure of the manifest is N01, tentative.
 
-### D004 — Британские заморские территории учитывать отдельно
+### D004 — Count British overseas territories separately
 
-- Решение: не считать British Overseas Territories обычной частью UK в travel partition.
-- Rationale: явный пример желаемой условной территориальной самостоятельности.
-- Правила: R010, R018, R026.
-- Контраргументы: «каждая отдельно» не задаёт split внутри составной территории; Antarctic claims нельзя превратить в перекрывающиеся canonical cells. Crown Dependencies пользователь здесь отдельно не утверждал.
-- Статус: accepted как исходное требование; универсальное применение и Antarctic exception unresolved, см. D016, Q001.
-- Основание: S01. S03 расширяет это до общей identity model, но расширение не подтверждено пользователем.
+- Decision: do not treat British Overseas Territories as an ordinary part of the UK in the travel partition.
+- Rationale: an explicit example of the desired conditional territorial separateness.
+- Rules: R010, R018, R026.
+- Counterarguments: "each one separately" does not define a split inside a composite territory; Antarctic claims cannot be turned into overlapping canonical cells. The user did not separately approve Crown Dependencies here.
+- Status: accepted as an original requirement; universal application and the Antarctic exception are unresolved, see D016, Q001.
+- Basis: S01. S03 extends this to a general identity model, but the extension is not confirmed by the user.
 
-### D005 — Réunion отделяется от metropolitan France
+### D005 — Réunion is separated from metropolitan France
 
-- Решение: Réunion не входит в один обычный travel region с европейской территорией Франции.
-- Rationale: S01 задаёт явный пример; S02/S03 связывают его с territorial entry scope. E01 подтверждает различие Schengen applicability.
-- Правила: R012, R019.
-- Контраргументы: часть путешественников пользуется общими правами; это не устраняет различий для остальных. Отдельность от метрополии не доказывает, что Réunion нельзя объединить с каким-либо другим overseas компонентом.
-- Статус: accepted для отношения к метрополии. «Ровно один самостоятельный регион Réunion» не утверждён.
-- Основание: S01; S02/S03, соответствующие разделы; E01/E02. Réunion находится в EU customs territory, поэтому таможенное исключение нельзя использовать как ложное основание.
+- Decision: Réunion does not belong to one ordinary travel region together with the European territory of France.
+- Rationale: S01 gives an explicit example; S02/S03 link it to the territorial entry scope. E01 confirms the difference in Schengen applicability.
+- Rules: R012, R019.
+- Counterarguments: some travellers enjoy common rights; this does not remove the differences for the others. Separateness from the metropole does not prove that Réunion cannot be merged with some other overseas component.
+- Status: accepted for the relationship to the metropole. "Exactly one separate region Réunion" is not approved.
+- Basis: S01; S02/S03, the corresponding sections; E01/E02. Réunion is within the EU customs territory, so a customs exception cannot be used as a false basis.
 
-### D006 — Crimea не обычная travel territory Ukraine
+### D006 — Crimea is not an ordinary travel territory of Ukraine
 
-- Решение: не включать Crimea в один обычный travel region с остальной Украиной.
-- Rationale: S01 задаёт различие с позиции посещения. Это не отрицание юридического суверенитета Украины.
-- Правила: R015, R022, R024.
-- Контраргументы: отдельность travel region от Ukraine не говорит, должна ли территория объединяться с ordinary Russia и где именно проводить границу; контроль и правила меняются во времени.
-- Статус: accepted только для исходного различения. Остальные выводы D013 tentative.
-- Основание: S01; S02/S03 содержат более сильную рекомендацию, чем сама реплика пользователя.
+- Decision: do not include Crimea in one ordinary travel region together with the rest of Ukraine.
+- Rationale: S01 sets a distinction from the point of view of a visit. This is not a denial of Ukraine's legal sovereignty.
+- Rules: R015, R022, R024.
+- Counterarguments: the separateness of the travel region from Ukraine does not say whether the territory must be merged with ordinary Russia or where exactly to draw the boundary; control and rules change over time.
+- Status: accepted only for the original distinction. The remaining conclusions of D013 are tentative.
+- Basis: S01; S02/S03 contain a stronger recommendation than the user's message itself.
 
-### D007 — Western Sahara не ordinary Morocco
+### D007 — Western Sahara is not ordinary Morocco
 
-- Решение: Западная Сахара не должна исчезать в обычной travel territory Morocco.
-- Rationale: явный пример пользователя; требуется сохранять travel-самостоятельность спорной области.
-- Правила: R022, R024; возможное, пока нерешённое основание R010.
-- Контраргументы: общий admission/control regime по одну сторону спорной границы может не давать witness для split с Morocco. UN status сам по себе по R016 недостаточен. Это реальное напряжение между требованием и режимной моделью.
-- Статус: accepted как product constraint; общий механизм unresolved (Q006).
-- Основание: S01. Требование о двух cells по Berm — отдельное D014, не принятое пользователем.
+- Decision: Western Sahara must not disappear into the ordinary travel territory of Morocco.
+- Rationale: an explicit example from the user; the travel separateness of the disputed area must be preserved.
+- Rules: R022, R024; a possible, as yet unresolved basis in R010.
+- Counterarguments: a common admission/control regime on one side of the disputed boundary may give no witness for a split from Morocco. UN status by itself is insufficient under R016. This is a real tension between the requirement and the regime model.
+- Status: accepted as a product constraint; the general mechanism is unresolved (Q006).
+- Basis: S01. The requirement of two cells along the Berm is a separate D014, not accepted by the user.
 
-## Предложения исследований, не подтверждённые как окончательные решения
+## Research proposals not confirmed as final decisions
 
-### D008 — Раздельные identity, legal status, control и traveller reality
+### D008 — Separate identity, legal status, control and traveller reality
 
-- Решение: хранить независимые слои и не сводить их к country.
-- Rationale: одна физическая поездка может быть допустима фактически и недопустима по праву другой релевантной юрисдикции.
-- Правила: R017, R022–R024, R034, R037.
-- Контраргументы: сложнее схема и отображение; нужно различать юридическую оценку и заявленный claim, чтобы не уравнивать их автоматически.
-- Статус: tentative, сильное согласованное предложение S02/S03.
-- Основание: S02 «Формальная модель», S03 «Суверенитет, claims и признание».
+- Decision: store independent layers and do not reduce them to country.
+- Rationale: one physical trip may be permissible in fact and impermissible under the law of another relevant jurisdiction.
+- Rules: R017, R022–R024, R034, R037.
+- Counterarguments: the schema and the display are more complex; a legal assessment and an asserted claim must be distinguished, so as not to equate them automatically.
+- Status: tentative, a strong concordant proposal of S02/S03.
+- Basis: S02 "Formal model", S03 "Sovereignty, claims and recognition".
 
-### D009 — Общие визовые пространства являются overlays
+### D009 — Common visa areas are overlays
 
-- Решение: EU/Schengen/CTA не становятся родительскими canonical territories; общие policies переиспользуются.
-- Rationale: пересекающиеся scopes нельзя уложить в одно дерево.
-- Правила: R005, R011, R012, R017.
-- Контраргументы: сам запрет merge по общей визе не доказывает, какие территории сохранять отдельно. Нужна admission jurisdiction или определённая identity.
-- Статус: tentative, с прямой опорой на accepted R005.
-- Основание: S02/S03, примеры France/Germany и Crown Dependencies.
+- Decision: EU/Schengen/CTA do not become parent canonical territories; common policies are reused.
+- Rationale: overlapping scopes cannot be fitted into a single tree.
+- Rules: R005, R011, R012, R017.
+- Counterarguments: the prohibition on merging by a common visa does not by itself prove which territories to keep separate. An admission jurisdiction or a defined identity is needed.
+- Status: tentative, directly supported by accepted R005.
+- Basis: S02/S03, the examples of France/Germany and the Crown Dependencies.
 
-### D010 — Дополнительный критерий territorial identity
+### D010 — Additional criterion of territorial identity
 
-- Решение: S03 предлагает отделять внешние территориальные юрисдикции даже при одинаковых travel regimes.
-- Rationale: выполнить UKOT constraint и избежать превращения списка посещений в чистую карту виз.
-- Правила: R010, R018–R021.
-- Контраргументы: «самостоятельная» определяется через желаемый результат; непонятно отличие Åland от Sicily, remote island от overseas jurisdiction. Нельзя обосновать registry самим registry.
-- Статус: unresolved.
-- Основание: S03 «Отдельный territorial identity criterion». S02 слабее опирается на этот фактор; это содержательное изменение, не только форматирование.
+- Decision: S03 proposes separating external territorial jurisdictions even when travel regimes are identical.
+- Rationale: to satisfy the UKOT constraint and avoid turning the list of visits into a pure map of visas.
+- Rules: R010, R018–R021.
+- Counterarguments: "separate" is defined through the desired result; the difference between Åland and Sicily, between a remote island and an overseas jurisdiction, is unclear. A registry cannot be justified by the registry itself.
+- Status: unresolved.
+- Basis: S03 "A separate territorial identity criterion". S02 relies on this factor less strongly; this is a substantive change, not only formatting.
 
-### D011 — Customs/biosecurity как условный hard split
+### D011 — Customs/biosecurity as a conditional hard split
 
-- Решение: S02/S03 предлагают split при существенных обязанностях путешественника.
-- Rationale: одинаковая виза может скрывать обязательные декларации и ограничения ввоза.
-- Правила: R013, R016, R017.
-- Контраргументы: тот же критерий может дробить Tasmania, Hawaii, California и множество внутренних карантинных зон; понятие существенности не определено.
-- Статус: unresolved для общего критерия.
-- Основание: таблицы критериев S02/S03. Недостаток модели нельзя закрыть одним дополнительным таможенным документом.
+- Decision: S02/S03 propose a split where the traveller has substantial obligations.
+- Rationale: an identical visa may hide mandatory declarations and import restrictions.
+- Rules: R013, R016, R017.
+- Counterarguments: the same criterion may fragment Tasmania, Hawaii, California and a multitude of internal quarantine zones; the notion of substantiality is not defined.
+- Status: unresolved for the general criterion.
+- Basis: the criteria tables of S02/S03. A deficiency of the model cannot be closed by one additional customs document.
 
-### D012 — MultiPolygon и отсутствие автоматического island split
+### D012 — MultiPolygon and no automatic island split
 
-- Решение: географическая несвязность сама по себе не создаёт регион.
-- Rationale: физическая форма не обязана менять admission jurisdiction.
-- Правила: R009, R021.
-- Контраргументы: остров может быть отдельной единицей путешествий без формальностей; это вопрос identity, а не плохих данных о транспорте.
-- Статус: tentative.
-- Основание: S02 «Анклавы, эксклавы», S03 safe merge.
+- Decision: geographic disconnectedness by itself does not create a region.
+- Rationale: physical shape is not obliged to change the admission jurisdiction.
+- Rules: R009, R021.
+- Counterarguments: an island can be a separate unit of travel without formalities; this is a question of identity, not of poor transport data.
+- Status: tentative.
+- Basis: S02 "Enclaves, exclaves", S03 safe merge.
 
-### D013 — Crimea отдельно также от ordinary Russia
+### D013 — Crimea separate from ordinary Russia as well
 
-- Решение: S02/S03 рекомендуют отдельную disputed cell Crimea/Sevastopol, не объединённую ни с ordinary Ukraine, ни с ordinary Russia.
-- Rationale: различаются legal routes, применимые правовые ограничения и конфликтный status/control profile.
-- Правила: R008, R012, R022, R024.
-- Контраргументы: separate control объясняет границу с Ukraine, но не автоматически с Russia. Нужны территориальный legal-route witness или общий identity criterion. Одна или две cells Crimea/Sevastopol тоже не решено.
-- Статус: tentative.
-- Основание: S02 «Крым», S03 «Крым»; не расширять статус accepted D006.
+- Decision: S02/S03 recommend a separate disputed cell Crimea/Sevastopol, merged neither with ordinary Ukraine nor with ordinary Russia.
+- Rationale: the legal routes, the applicable legal restrictions and the conflicting status/control profile differ.
+- Rules: R008, R012, R022, R024.
+- Counterarguments: separate control explains the boundary with Ukraine, but not automatically the one with Russia. A territorial legal-route witness or a general identity criterion is needed. Whether Crimea/Sevastopol is one cell or two is also not decided.
+- Status: tentative.
+- Basis: S02 "Crimea", S03 "Crimea"; do not extend the accepted status of D006.
 
-### D014 — Разделение Western Sahara по operational control
+### D014 — Splitting Western Sahara by operational control
 
-- Решение: S02/S03 предлагают как минимум две области по сторонам Berm, связанные общим dispute_id.
-- Rationale: разные фактические условия контроля и доступа.
-- Правила: R015, R022, R024, R028, R030.
-- Контраргументы: карта Berm не тождественна точной актуальной карте контроля; буферные/ограниченные полосы и изменения контроля могут потребовать иного уточнения. Две области не доказывают отделения западной части от Morocco.
-- Статус: tentative. Ровно две итоговые cells не утверждены.
-- Основание: соответствующие разделы S02/S03. E03 подтверждает только legal-status layer.
+- Decision: S02/S03 propose at least two areas on the two sides of the Berm, linked by a common dispute_id.
+- Rationale: different actual conditions of control and access.
+- Rules: R015, R022, R024, R028, R030.
+- Counterarguments: a map of the Berm is not identical to an exact current map of control; buffer/restricted strips and changes of control may require a different refinement. Two areas do not prove the separation of the western part from Morocco.
+- Status: tentative. Exactly two final cells are not approved.
+- Basis: the corresponding sections of S02/S03. E03 confirms only the legal-status layer.
 
-### D015 — St Helena / Ascension / Tristan da Cunha проверять раздельно
+### D015 — Check St Helena / Ascension / Tristan da Cunha separately
 
-- Решение: одна конституционная единица может не быть атомарной для travel model.
-- Rationale: исследования указывают на разные территориальные admission/permit systems компонентов.
-- Правила: R011, R012, R018.
-- Контраргументы: три наименования не доказывают три конечных региона; необходимо сравнить компетенции и scope каждого компонента, включая permits необитаемых островов.
-- Статус: tentative.
-- Основание: S02/S03, разделы UKOT. S02 прямо оговаривает необходимость проверки Tristan da Cunha.
+- Decision: one constitutional unit may not be atomic for the travel model.
+- Rationale: the research reports point to different territorial admission/permit systems of the components.
+- Rules: R011, R012, R018.
+- Counterarguments: three names do not prove three final regions; the competences and scope of each component must be compared, including the permits of uninhabited islands.
+- Status: tentative.
+- Basis: S02/S03, the UKOT sections. S02 explicitly states the need to check Tristan da Cunha.
 
-### D016 — Antarctica первоначально как treaty-space cell
+### D016 — Antarctica initially as a treaty-space cell
 
-- Решение: одна provisional cell для выбранного антарктического universe; claims отдельно, станции как access objects.
-- Rationale: overlapping claims нельзя превратить в взаимно исключающие regions без дополнительного правила.
-- Правила: R002–R005, R014, R026.
-- Контраргументы: один treaty regime не доказывает одну destination identity; территориальные protected areas имеют permits. Land universe не совпадает с Treaty Area. Требуется явное ограничение D004 для British Antarctic Territory.
-- Статус: tentative; согласование с буквальным «каждая UKOT отдельно» unresolved.
-- Основание: S02/S03 «Антарктида»; E04. Не является принятым пользователем исключением.
+- Decision: one provisional cell for the chosen Antarctic universe; claims separately, stations as access objects.
+- Rationale: overlapping claims cannot be turned into mutually exclusive regions without an additional rule.
+- Rules: R002–R005, R014, R026.
+- Counterarguments: one treaty regime does not prove one destination identity; territorial protected areas have permits. The land universe does not coincide with the Treaty Area. An explicit limitation of D004 is required for the British Antarctic Territory.
+- Status: tentative; reconciliation with the literal "each UKOT separately" is unresolved.
+- Basis: S02/S03 "Antarctica"; E04. It is not an exception accepted by the user.
 
-### D017 — Закрытые территории не исключаются из покрытия
+### D017 — Closed territories are not excluded from coverage
 
-- Решение: хранить visitability отдельно, включая uninhabited/closed.
-- Rationale: открытие территории не должно создавать ранее отсутствовавшую Землю.
-- Правила: R002, R003, R025.
-- Контраргументы: исходное «возможное для посещения пространство» допускает более узкое прочтение universe.
-- Статус: tentative; Q003.
-- Основание: S02 restricted destinations; S03 «Closed и occupied areas».
+- Decision: store visitability separately, including uninhabited/closed.
+- Rationale: the opening of a territory must not create Earth that was previously absent.
+- Rules: R002, R003, R025.
+- Counterarguments: the original "space that can be visited" admits a narrower reading of the universe.
+- Status: tentative; Q003.
+- Basis: S02 restricted destinations; S03 "Closed and occupied areas".
 
-### D018 — Временные факты, provenance и bitemporality
+### D018 — Temporal facts, provenance and bitemporality
 
-- Решение: разделять время действительности и время знания, сохранять source_scope и историю.
-- Rationale: воспроизводить старые ответы и исправлять историю без потери audit trail.
-- Правила: R031–R034.
-- Контраргументы: дорого для первого эксперимента; полный operational SLA из исследования не нужен, пока нет production engine.
-- Статус: tentative.
-- Основание: S02 temporal rules; S03 «Provenance на уровне факта». Ежедневное обновление не считается обязательством проекта.
+- Decision: separate the time of validity from the time of knowledge, and preserve source_scope and history.
+- Rationale: to reproduce old answers and correct history without losing the audit trail.
+- Rules: R031–R034.
+- Counterarguments: expensive for a first experiment; the full operational SLA from the research is not needed while there is no production engine.
+- Status: tentative.
+- Basis: S02 temporal rules; S03 "Provenance at the level of the fact". Daily updating is not considered an obligation of the project.
 
-### D019 — Work/исследование и git/эксперименты
+### D019 — Work/research and git/experiments
 
-- Решение: архитектурный ответ предлагал перейти от Project/Work/Deep Research к спецификации и данным, затем к git repository и воспроизводимым экспериментам с Codex.
-- Rationale: обсуждение правил и повторяемые вычисления нуждаются в разных рабочих артефактах.
-- Правила: R001, R033, R037.
-- Контраргументы: это организация работы, не выбор конкретного GIS stack. Можно выполнять анализ разными инструментами.
-- Статус: tentative для инструментария; желание экспериментов accepted D003.
-- Основание: S04, найденный фрагмент ассистента; не полный transcript. Репозиторий, Python/Go, PostGIS и конкретные datasets не утверждались в доступном материале.
+- Decision: the architectural answer proposed moving from Project/Work/Deep Research to a specification and data, then to a git repository and reproducible experiments with Codex.
+- Rationale: discussion of the rules and repeatable computations need different working artifacts.
+- Rules: R001, R033, R037.
+- Counterarguments: this is an organisation of the work, not a choice of a specific GIS stack. The analysis can be carried out with different tools.
+- Status: tentative for the tooling; the wish for experiments is accepted D003.
+- Basis: S04, the found fragment of the assistant; not a full transcript. A repository, Python/Go, PostGIS and specific datasets were not approved in the available material.
 
-## Новые формализации этого выпуска
+## New formalisations of this release
 
-### D020 — Coarsest partition вместо неопределённого «минимального атома»
+### D020 — Coarsest partition instead of an undefined "minimal atom"
 
-- Решение: строить общее уточнение границ и объединять по полной hard signature; все неразрешённые предикаты показывать явно.
-- Rationale: однородность сама по себе допускает бесконечное дробление; нужен merge criterion и проверка независимости от порядка.
-- Правила: R006–R010, R035.
-- Контраргументы: равенство всех policies невозможно доказать выборкой; identity discriminator пока не определён.
-- Статус: tentative.
-- Основание: N01, развивает safe merge S03. Это не готовый алгоритм построения всей Земли.
+- Decision: build the common refinement of the boundaries and merge by the full hard signature; show all unresolved predicates explicitly.
+- Rationale: homogeneity by itself admits infinite fragmentation; a merge criterion and a check of independence from order are needed.
+- Rules: R006–R010, R035.
+- Counterarguments: the equality of all policies cannot be proven by sampling; the identity discriminator is not yet defined.
+- Status: tentative.
+- Basis: N01, develops the safe merge of S03. This is not a ready algorithm for constructing the whole Earth.
 
-### D021 — Пересекающиеся hard boundaries уточняются, не перезаписываются
+### D021 — Intersecting hard boundaries are refined, not overwritten
 
-- Решение: blanket precedence stack S02 не используется для стирания одной обязательной границы другой.
-- Rationale: immigration scope и control boundary могут пересекаться; обе должны сохраниться.
-- Правила: R009, R028–R030.
-- Контраргументы: при разных источниках одной линии всё равно нужен resolution policy. Отказ от last-wins не решает source conflict автоматически.
-- Статус: tentative.
-- Основание: N01; явное отклонение от рекомендованного precedence S02, согласующееся с common-refinement идеей S03.
+- Decision: the blanket precedence stack of S02 is not used to erase one mandatory boundary with another.
+- Rationale: an immigration scope and a control boundary may intersect; both must be preserved.
+- Rules: R009, R028–R030.
+- Counterarguments: when one line has different sources, a resolution policy is still needed. Giving up last-wins does not resolve a source conflict automatically.
+- Status: tentative.
+- Basis: N01; an explicit departure from the recommended precedence of S02, consistent with the common-refinement idea of S03.
 
-### D022 — CSV как набор assertions, а не каталог признанных регионов
+### D022 — CSV as a set of assertions, not a catalogue of recognised regions
 
-- Решение: фиксировать comparison target, premises, basis, factual verification и model issues отдельно от expected outcome.
-- Rationale: split с метрополией не означает один атом; отрицательный фактор не доказывает merge; интуиция не должна становиться тестовым oracle.
-- Правила: R008, R034–R036.
-- Контраргументы: многие реальные случаи останутся conditional до фактологической работы. Это допустимая граница этапа.
-- Статус: tentative для схемы; adversarial-подход accepted по S05.
-- Основание: N01.
+- Decision: record the comparison target, premises, basis, factual verification and model issues separately from the expected outcome.
+- Rationale: a split from the metropole does not mean a single atom; a negative factor does not prove a merge; intuition must not become the test oracle.
+- Rules: R008, R034–R036.
+- Counterarguments: many real cases will remain conditional until the fact-finding work is done. This is an acceptable limit of the stage.
+- Status: tentative for the schema; the adversarial approach is accepted under S05.
+- Basis: N01.
 
 ## Two-stage architecture decisions
 
@@ -293,62 +293,62 @@ Library ID приведены для точного поиска исходны�
 
 ## Local access overlays
 
-### D031 — Локальные режимные зоны не создают split
+### D031 — Local restricted-regime zones do not create a split
 
-- Решение: пограничные, военные, природоохранные, объектовые, маршрутные и activity-specific ограничения внутри общей admission jurisdiction моделируются как spatial access overlays и сами по себе не создают canonical region.
-- Rationale: они изменяют локальный доступ уже допущенного путешественника, а не допуск в самостоятельное территориальное назначение. Совпадение overlay с административным районом или субъектом не меняет его семантику.
-- Правила: R007, R008, R014, R017.
-- Контраргументы: некоторые разрешения охватывают candidate territory целиком и практически функционируют как destination admission. Общий predicate для отделения таких случаев остаётся Q005.
-- Статус: tentative; прямо подтверждено направление для российских пограничных зон, универсализация на все типы режимных зон требует проверки Q005.
-- Основание: пользовательское уточнение от 12 сентября 2026 года.
-- История ID: при интеграции присвоен D031 вместо дублирующего D017 из upstream; исходный D017 о покрытии закрытых территорий сохранён.
+- Decision: border, military, nature-protection, site-specific, route-specific and activity-specific restrictions inside a common admission jurisdiction are modelled as spatial access overlays and do not by themselves create a canonical region.
+- Rationale: they change the local access of an already admitted traveller, not admission to a separate territorial destination. The coincidence of an overlay with an administrative district or a federal subject does not change its semantics.
+- Rules: R007, R008, R014, R017.
+- Counterarguments: some permits cover a candidate territory as a whole and in practice function as destination admission. A general predicate for separating such cases remains Q005.
+- Status: tentative; the direction is directly confirmed for Russian border zones, generalisation to all types of restricted-regime zones requires the Q005 check.
+- Basis: the user's clarification of 12 September 2026.
+- ID history: during integration D031 was assigned instead of the duplicate D017 from upstream; the original D017 on the coverage of closed territories is preserved.
 
 ## CR-W core adoption
 
-### D032 — CR-W принят как текущее production Stage 1 ядро
+### D032 — CR-W is accepted as the current production Stage 1 core
 
-- Решение: `S1-core-v1` использует только CR-W — proven hard territorial TravelDecision discontinuity с G-SCOPE/G-CONTEXT/G-HARD/G-TIME/G-EVIDENCE из review. Один valid class-based witness достаточен независимо от частоты; frequency threshold отсутствует.
-- Rationale: доказанные разные territorial decisions несовместимы с единой принятой hard decision function. Ненайденный certificate не доказывает equality; `hard_compatible` требует positive complete equality всех принятых dimensions на одном S/t.
-- Правила: R007–R009, R012, R031, R038, R039, R044.
-- Статус: accepted. Q001 narrowed/resolved for regime-based mandatory separation; все Stage 1 semantics не объявляются complete.
-- Основание: явное пользовательское normative decision от 2026-09-12, после Q001 Stage 1 rule review.
+- Decision: `S1-core-v1` uses only CR-W — a proven hard territorial TravelDecision discontinuity with G-SCOPE/G-CONTEXT/G-HARD/G-TIME/G-EVIDENCE from the review. One valid class-based witness is sufficient regardless of frequency; there is no frequency threshold.
+- Rationale: proven different territorial decisions are incompatible with a single accepted hard decision function. A certificate that has not been found does not prove equality; `hard_compatible` requires positive complete equality of all accepted dimensions on the same S/t.
+- Rules: R007–R009, R012, R031, R038, R039, R044.
+- Status: accepted. Q001 narrowed/resolved for regime-based mandatory separation; the Stage 1 semantics as a whole are not declared complete.
+- Basis: the user's explicit normative decision of 2026-09-12, after the Q001 Stage 1 rule review.
 
-### D033 — CR-J определён, но не принят
+### D033 — CR-J is defined but not accepted
 
-- Решение: CR-J имеет статус **well-defined normative candidate; not adopted**. Полное определение J1–J6 в review/candidate YAML сохраняется без сокращения для будущего experiment/decision. CR-J не separator и не обязательная signature dimension production `S1-core-v1`.
-- Rationale: CR-J может создать mandatory boundary при равных current traveller-facing hard functions; institutional responsibility — самостоятельный нормативный выбор, не доказанный current travel discontinuity. Дополнительное empirical coverage не доказано текущими 49 cases.
-- Правила: R011, R038, R044.
-- Статус: accepted deferral; adoption of CR-J unresolved in Q001.
-- Основание: явное пользовательское решение от 2026-09-12. Эта запись отличается от рекомендации принять W OR J в историческом review.
+- Decision: CR-J has the status **well-defined normative candidate; not adopted**. The full definition of J1–J6 in the review/candidate YAML is preserved unabridged for a future experiment/decision. CR-J is not a separator and not a mandatory signature dimension of production `S1-core-v1`.
+- Rationale: CR-J can create a mandatory boundary when the current traveller-facing hard functions are equal; institutional responsibility is a normative choice in its own right, not proven by a current travel discontinuity. Additional empirical coverage is not proven by the current 49 cases.
+- Rules: R011, R038, R044.
+- Status: accepted deferral; adoption of CR-J unresolved in Q001.
+- Basis: the user's explicit decision of 2026-09-12. This entry differs from the recommendation in the historical review to accept W OR J.
 
-### D034 — Undefined territorial/legal identity исключена из production
+### D034 — Undefined territorial/legal identity is excluded from production
 
-- Решение: **territorial/legal identity alone is not an accepted Stage 1 hard separator**. Undefined identity не входит в production или production-candidate hard semantics. P3 — historical, non-production, model-unresolved profile, не Stage 2 destination model.
-- Rationale: общего операционального predicate нет; labels, registry и politically salient place lists не заменяют его. Future explicit legal-status rule требует отдельного решения Q006.
-- Правила: R010, R038, R042, R044.
-- Статус: accepted. Historical P3 sufficient P1/P2 outcomes и identity blockers сохраняются как результаты старого эксперимента.
-- Основание: явное пользовательское решение от 2026-09-12.
+- Decision: **territorial/legal identity alone is not an accepted Stage 1 hard separator**. Undefined identity is not part of the production or production-candidate hard semantics. P3 is a historical, non-production, model-unresolved profile, not a Stage 2 destination model.
+- Rationale: there is no general operational predicate; labels, a registry and politically salient place lists do not replace it. A future explicit legal-status rule requires a separate decision on Q006.
+- Rules: R010, R038, R042, R044.
+- Status: accepted. The historical P3 sufficient P1/P2 outcomes and identity blockers are preserved as results of the old experiment.
+- Basis: the user's explicit decision of 2026-09-12.
 
-### D035 — Claims, disputes, control и category labels недостаточны
+### D035 — Claims, disputes, control and category labels are insufficient
 
-- Решение: disputed flag, claim, different recognition/controller/military control, dependency, autonomy, overseas и island labels самостоятельно не создают Stage 1 split. Только их доказанные actual hard territorial travel consequences могут поддержать CR-W.
-- Rationale: факт о status/control не доказывает различие D; они сохраняются в собственных factual layers и unresolved Q006/Q007/etc., без скрытой hard dimension.
-- Правила: R015, R016, R018, R022–R024, R039, R044.
-- Статус: accepted.
-- Основание: явное пользовательское решение от 2026-09-12.
+- Decision: a disputed flag, a claim, different recognition/controller/military control, dependency, autonomy, overseas and island labels do not on their own create a Stage 1 split. Only their proven actual hard territorial travel consequences can support CR-W.
+- Rationale: a fact about status/control does not prove a difference in D; they are kept in their own factual layers and in unresolved Q006/Q007/etc., without a hidden hard dimension.
+- Rules: R015, R016, R018, R022–R024, R039, R044.
+- Status: accepted.
+- Basis: the user's explicit decision of 2026-09-12.
 
-### D036 — Accepted product regressions не являются hardcoded правилами
+### D036 — Accepted product regressions are not hardcoded rules
 
-- Решение: D004/D005/D006/D007 не удаляются и не понижаются. Их статус — accepted product regression constraint, отличный от currently derivable Stage 1 rule. Если CR-W не гарантирует constraint, сохраняется явный незакрытый конфликт/requirement.
-- Rationale: general rule нельзя выводить из desired answer. Для Réunion есть regime mechanism, но complete witness в snapshot не собран; blanket UKOT guarantee из CR-W не следует; Crimea не имеет Q001 factual dossier; Western Sahara west / Morocco не имеет доказанного CR-W. Никаких special cases, claimed resolution через Stage 2 или подмены отдельного региона dispute overlay.
-- Правила: R008, R009, R018, R022, R024, R044; остаток Q006/Q011 и relevant data/model gaps.
-- Статус: accepted distinction; accepted constraints остаются незакрытыми в недоказанной части.
-- Основание: явное пользовательское решение от 2026-09-12.
+- Decision: D004/D005/D006/D007 are not removed and not downgraded. Their status is accepted product regression constraint, distinct from a currently derivable Stage 1 rule. If CR-W does not guarantee a constraint, an explicit open conflict/requirement is kept.
+- Rationale: a general rule must not be derived from a desired answer. For Réunion there is a regime mechanism, but a complete witness has not been assembled in the snapshot; a blanket UKOT guarantee does not follow from CR-W; Crimea has no Q001 factual dossier; Western Sahara west / Morocco has no proven CR-W. No special cases, no claimed resolution through Stage 2, and no substituting a dispute overlay for a separate region.
+- Rules: R008, R009, R018, R022, R024, R044; the remainder of Q006/Q011 and the relevant data/model gaps.
+- Status: accepted distinction; the accepted constraints remain open in the part that is not proven.
+- Basis: the user's explicit decision of 2026-09-12.
 
-### D037 — Historical profiles и current production разделены
+### D037 — Historical profiles and current production are separated
 
-- Решение: P1/P2/P3 сохраняют historical contract `0.2.0-draft`, profile version `q001-0.2.0` и evaluator serialization `0.2.0`. Новый `S1-core-v1` имеет собственный proof input, evaluator version `s1-core-1.0.0` и spec `0.3.0-draft`. Старые P1 results не переименовываются в production results; factual dataset и старые result files не изменяются.
-- Rationale: historical witness schema не содержит полного CR-W gate audit; перенос требует нового versioned certificate. J/identity не наследуются в production completeness.
-- Правила: R008, R033, R035, R038, R044.
-- Статус: accepted implementation consequence of D032–D034.
-- Основание: явное пользовательское требование воспроизводимости от 2026-09-12.
+- Decision: P1/P2/P3 keep the historical contract `0.2.0-draft`, profile version `q001-0.2.0` and evaluator serialization `0.2.0`. The new `S1-core-v1` has its own proof input, evaluator version `s1-core-1.0.0` and spec `0.3.0-draft`. The old P1 results are not renamed into production results; the factual dataset and the old result files are not changed.
+- Rationale: the historical witness schema does not contain a full CR-W gate audit; carrying it over requires a new versioned certificate. J/identity are not inherited into production completeness.
+- Rules: R008, R033, R035, R038, R044.
+- Status: accepted implementation consequence of D032–D034.
+- Basis: the user's explicit reproducibility requirement of 2026-09-12.

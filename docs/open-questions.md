@@ -1,116 +1,116 @@
-# Canonical Travel Regions — открытые вопросы модели
+# Canonical Travel Regions — open questions of the model
 
-Версия: 0.3.0-draft. Дата: 2026-09-12.
+Version: 0.3.0-draft. Date: 2026-09-12.
 
-Порядок отражает потенциальный масштаб изменения мировой карты: от изменения определения почти всех регионов к изменениям отдельных классов и истории. Это модельные вопросы. «Какой документ сейчас требуется?» и «Где проходит линия на дату t?» — задачи данных, не самостоятельные пункты этого списка.
+The order reflects the potential scale of change to the world map: from a change in the definition of almost all regions to changes in individual classes and in history. These are model questions. "Which document is required now?" and "Where does the line run on date t?" are data tasks, not separate items of this list.
 
 ## Q001 — Narrowed: CR-W accepted; CR-J normative adoption remains open
 
-**Статус: narrowed; resolved for regime-based mandatory separation.** Правила R007–R012, R038/R039/R044; решения D032–D037. Текущее production Stage 1 ядро — `S1-core-v1`, только CR-W со всеми пятью gates. Один допустимый witness достаточен независимо от частоты; отсутствие certificate не equality.
+**Status: narrowed; resolved for regime-based mandatory separation.** Rules R007–R012, R038/R039/R044; decisions D032–D037. The current production Stage 1 core is `S1-core-v1`, CR-W only, with all five gates. One admissible witness is sufficient regardless of frequency; the absence of a certificate is not equality.
 
-Открытый остаток Q001: принять ли CR-J как самостоятельную institutional responsibility dimension при возможном равенстве current hard D. CR-J — well-defined normative candidate, not adopted; J1–J6 полностью сохранены в [review §4.2](../experiments/q001/stage1-rule-review.md#42-operational-definition-independent_final_admission_jurisdiction) и [candidate YAML](../experiments/q001/stage1-rule-candidates.yaml). Нужен отдельный normative decision, а не дополнительные geographic facts ради preferred outcome.
+The open remainder of Q001: whether to accept CR-J as an independent institutional responsibility dimension when current hard D may be equal. CR-J is a well-defined normative candidate, not adopted; J1–J6 are fully preserved in [review §4.2](../experiments/q001/stage1-rule-review.md#42-operational-definition-independent_final_admission_jurisdiction) and the [candidate YAML](../experiments/q001/stage1-rule-candidates.yaml). A separate normative decision is needed, not additional geographic facts for the sake of a preferred outcome.
 
-Undefined territorial/legal identity отвергнута из production и production-candidate core. `Q001.identity` сохраняется как historical P3 model blocker, не как обязательная production dimension. P3 non-production/model-unresolved и не является Stage 2 destination model. Возможное сохранение exact legal status без CR-W остаётся Q006; curated registry не разрешён этим решением.
+Undefined territorial/legal identity is rejected from the production and production-candidate core. `Q001.identity` is kept as a historical P3 model blocker, not as a mandatory production dimension. P3 is non-production/model-unresolved and is not the Stage 2 destination model. Possible preservation of exact legal status without CR-W remains Q006; a curated registry is not permitted by this decision.
 
-P1/P2/P3 остаются historical profiles, результаты которых не переинтерпретируются как `S1-core-v1`. D004–D007 сохраняются accepted product regressions; если CR-W их не гарантирует, conflict/requirement остаётся явным, без автоматического переноса в Stage 2. Residual Q002/Q004/Q005/Q006/Q007/Q008/Q009/Q011 остаются открытыми; архитектурный Q012 также не решается здесь.
+P1/P2/P3 remain historical profiles whose results are not reinterpreted as `S1-core-v1`. D004–D007 are kept as accepted product regressions; if CR-W does not guarantee them, the conflict/requirement remains explicit, without automatic transfer to Stage 2. Residual Q002/Q004/Q005/Q006/Q007/Q008/Q009/Q011 remain open; the architectural Q012 is not resolved here either.
 
-**Следующий различающий experiment:** synthetic NX-01/NX-02/NX-04 из review — independent capacities versus offices/shared apex при полном одинаковом D, с проверкой совместимости этих premises с exact S/H. **Критерий закрытия остатка:** явно принять либо отвергнуть дополнительный institutional invariant CR-J с J1–J6 и generic counterexamples. Полная Stage 1 semantics этим не объявляется завершённой. [Adoption record](../experiments/q001/stage1-core-adoption.md).
+**Next distinguishing experiment:** synthetic NX-01/NX-02/NX-04 from the review — independent capacities versus offices/shared apex under fully identical D, with a check that these premises are compatible with exact S/H. **Closure criterion for the remainder:** explicitly accept or reject the additional institutional invariant CR-J with J1–J6 and generic counterexamples. This does not declare the full Stage 1 semantics complete. [Adoption record](../experiments/q001/stage1-core-adoption.md).
 
-## Q002 — Для какого множества путешественников и каких решений нужна однородность?
+## Q002 — For which set of travellers and which decisions is homogeneity needed?
 
-**Влияние: почти все visa/permit/document границы.** R007, R011–R014, R038.
+**Impact: almost all visa/permit/document boundaries.** R007, R011–R014, R038.
 
-«Обычный путешественник» не задаёт множество: гражданин, резидент, беженец, владелец emergency document, исследователь, яхтсмен и турист могут иметь разные права. Требуется ли split для одного редкого класса? Включать ли длительное пребывание, работу, медицинские и дипломатические поездки? Зависимость от маршрута тоже может быть не территориальной.
+"An ordinary traveller" does not define a set: a citizen, a resident, a refugee, a holder of an emergency document, a researcher, a yachtsman and a tourist may have different rights. Is a split required for one rare class? Should long stays, work, medical and diplomatic trips be included? Dependence on the route may also be non-territorial.
 
-Решённая часть D032/R044: в принятом civilian-short-stay-v1 один valid class-based witness достаточен без frequency threshold, включая rare documents; нельзя менять S ради отдельного case. Остаток — точная применимость и расширение context/hard-output domain, не повторный выбор частотного порога.
+The part resolved by D032/R044: in the accepted civilian-short-stay-v1, one valid class-based witness is sufficient without a frequency threshold, including rare documents; S must not be changed for the sake of an individual case. The remainder is the exact applicability and the extension of the context/hard-output domain, not a repeated choice of a frequency threshold.
 
-Варианты: универсальность для всех лиц/целей; фиксированный гражданский short-stay scope; типовые профили с явно признанной неполнотой. Спецификация временно выбирает второй вариант и допускает редкие документы. Нельзя менять область C ради удобного результата отдельного case. Completeness относится только к явно выбранному profile и scope: она не означает знание всех мыслимых traveller contexts за пределами них.
+Options: universality for all persons/purposes; a fixed civilian short-stay scope; typical profiles with explicitly acknowledged incompleteness. The specification provisionally chooses the second option and allows rare documents. The domain C must not be changed for the sake of a convenient result in an individual case. Completeness applies only to the explicitly chosen profile and scope: it does not mean knowledge of all conceivable traveller contexts outside them.
 
-**Эксперимент:** один и тот же географический набор прогнать для обычного паспорта, нескольких гражданств, refugee document, residence permit, яхтенного прибытия и длительного пребывания. **Критерий закрытия:** формальный scope C и перечень hard outputs опубликованы; известно, какие различия намеренно остаются overlays.
+**Experiment:** run one and the same geographic set for an ordinary passport, several citizenships, a refugee document, a residence permit, arrival by yacht and a long stay. **Closure criterion:** the formal scope C and the list of hard outputs are published; it is known which differences intentionally remain overlays.
 
-## Q003 — Что значит покрыть всё пространство путешествий?
+## Q003 — What does it mean to cover the whole travel space?
 
-**Влияние: огромная часть поверхности Земли и все boundary features.** R002–R004, R025, R026; D001, D016, D017.
+**Impact: a huge part of the Earth's surface and all boundary features.** R002–R004, R025, R026; D001, D016, D017.
 
-Destination-only universe требует определения destination и меняется с доступностью. Land-only исключает путешествия по морю и шельфовому льду. Полная поверхность требует разбиения океана, открытого моря, льда и неоднозначных coastal features. Воздушное и подземное путешествие потребовало бы другой размерности, а не новых land polygons.
+A destination-only universe requires a definition of destination and changes with accessibility. Land-only excludes travel by sea and over shelf ice. The full surface requires a partition of the ocean, the high seas, ice and ambiguous coastal features. Air and underground travel would require a different dimensionality, not new land polygons.
 
-Нужно определить отношение территориального моря к суше: принадлежит ли оно тому же региону, отдельному maritime region или не входит в universe? EEZ нельзя автоматически считать такой же территорией. Antarctica land и Treaty Area также различны. LAND_V0 — явное временное ограничение эксперимента.
+The relation of the territorial sea to land needs to be defined: does it belong to the same region, to a separate maritime region, or is it outside the universe? An EEZ must not automatically be treated as the same kind of territory. Antarctica land and the Treaty Area are also distinct. LAND_V0 is an explicit temporary limitation of the experiment.
 
-**Эксперимент:** inland lake, South Pole, ice shelf, ocean cruise point, low-tide reef, reclaimed island, закрытый остров. **Критерий закрытия:** для каждого физического типа задана включённость и принцип классификации, независимо от суверенитета и доступности.
+**Experiment:** inland lake, South Pole, ice shelf, ocean cruise point, low-tide reef, reclaimed island, closed island. **Closure criterion:** for each physical type, inclusion and the principle of classification are defined, independently of sovereignty and accessibility.
 
-## Q004 — Таможня и биобезопасность действительно делят canonical geography?
+## Q004 — Do customs and biosecurity really divide canonical geography?
 
-**Влияние: от нескольких особых территорий до большого числа внутренних зон.** R013, R016, R017; D011.
+**Impact: from a few special territories to a large number of internal zones.** R013, R016, R017; D011.
 
-Нужен выбор между обязательным split по traveler-facing formalities, всеми такими формальностями как overlays или ограниченным классом внешних таможенных юрисдикций. Проблема не в том, есть ли декларация на конкретном острове: даже зная все правила, требуется объяснить границу класса.
+A choice is needed between a mandatory split by traveler-facing formalities, all such formalities as overlays, or a limited class of external customs jurisdictions. The problem is not whether there is a declaration on a particular island: even knowing all the rules, the boundary of the class has to be explained.
 
-**Эксперимент:** Åland, Canary Islands, Ceuta/Melilla, Heligoland, Büsingen, Livigno, Tasmania, Hawaii, California. Сначала сравнить формальности без названий и политических статусов. **Критерий закрытия:** один тест применим к внешним и внутренним зонам; если нужна identity-поправка, зависимость от Q001 явная.
+**Experiment:** Åland, Canary Islands, Ceuta/Melilla, Heligoland, Büsingen, Livigno, Tasmania, Hawaii, California. First compare the formalities without names and political statuses. **Closure criterion:** one test applies to external and internal zones; if an identity correction is needed, the dependence on Q001 is explicit.
 
-## Q005 — Где заканчивается регион и начинается access overlay?
+## Q005 — Where does a region end and an access overlay begin?
 
-**Влияние: тысячи permit areas, парков, баз и защищённых островов.** R009, R014, R017, R025–R027.
+**Impact: thousands of permit areas, parks, bases and protected islands.** R009, R014, R017, R025–R027.
 
-Если каждый обязательный permit достаточен, собственным регионом станет множество объектов. Если все permits overlays, теряются многие restricted destinations. Само слово destination не решает проблему. Площадь или число посетителей создают произвольную шкалу, если не утверждены как продуктовый параметр.
+If every mandatory permit is sufficient, a multitude of objects will become regions of their own. If all permits are overlays, many restricted destinations are lost. The word destination by itself does not solve the problem. Area or number of visitors create an arbitrary scale unless approved as a product parameter.
 
-R014 уже исключает локальные пограничные, военные, природоохранные, объектовые, маршрутные и activity-specific ограничения из достаточных оснований split. Это остаётся верно, даже если overlay совпадает с целым районом или субъектом: административный масштаб не является критерием. Открытая часть Q005 теперь уже: какой общий predicate отличает такой overlay от разрешения на обычный гражданский допуск в candidate territory как в назначение целиком.
+R014 already excludes local border, military, nature-conservation, site-specific, route-specific and activity-specific restrictions from the sufficient grounds for a split. This remains true even if the overlay coincides with a whole district or federal subject: administrative scale is not a criterion. The open part of Q005 is now narrower: which general predicate distinguishes such an overlay from a permission for ordinary civilian admission into the candidate territory as a destination as a whole.
 
-**Эксперимент:** Mount Athos, Tibet, Galápagos, Lord Howe Island, North Sentinel Island, Montserrat exclusion zone, Antarctic protected area, обычный national park и airport airside. **Критерий закрытия:** scope-level predicate либо честно утверждённая конвенция размера/институции, не список исключений по именам.
+**Experiment:** Mount Athos, Tibet, Galápagos, Lord Howe Island, North Sentinel Island, Montserrat exclusion zone, Antarctic protected area, an ordinary national park and airport airside. **Closure criterion:** a scope-level predicate or an honestly approved convention of size/institution, not a list of exceptions by name.
 
-## Q006 — Должен ли юридический спор сохранять отдельную идентичность без travel discontinuity?
+## Q006 — Should a legal dispute preserve a separate identity without travel discontinuity?
 
-**Влияние: все disputed/occupied areas и остаточные регионы контролирующих государств.** R010, R016, R022, R024; D006, D007, D013, D014.
+**Impact: all disputed/occupied areas and the residual regions of controlling states.** R010, R016, R022, R024; D006, D007, D013, D014.
 
-Разная фактическая власть внутри спорного района обосновывает внутренний split. Она не доказывает отделения от обычной территории того же контролёра. Claims объявлены overlays, но D007 требует не растворять Western Sahara в Morocco. Нельзя незаметно добавить «disputed=true» в hard signature и продолжать утверждать, что спор ничего не делит.
+Different de facto authority inside a disputed area justifies an internal split. It does not prove separation from the ordinary territory of the same controller. Claims are declared overlays, but D007 requires that Western Sahara not be dissolved into Morocco. One must not quietly add "disputed=true" to the hard signature and keep asserting that a dispute divides nothing.
 
-Варианты: только доказанные access/legal-route последствия; самостоятельный international-status identity criterion; отдельный продуктовый класс спорных территорий с явными правилами включения. В третьем варианте нужно объяснить, что отличает значимый спор от любого пограничного притязания.
+Options: only proven access/legal-route consequences; an independent international-status identity criterion; a separate product class of disputed territories with explicit inclusion rules. In the third option it has to be explained what distinguishes a significant dispute from any border claim.
 
-**Эксперимент:** западная часть Western Sahara vs Morocco; Crimea vs ordinary Russia; Golan vs Israel; Aksai Chin vs China; неисполняемая претензия к обычной территории. **Критерий закрытия:** D006/D007 объясняются общей нормой либо зафиксировано, какой accepted constraint несовместим с выбранной моделью.
+**Experiment:** the western part of Western Sahara vs Morocco; Crimea vs ordinary Russia; Golan vs Israel; Aksai Chin vs China; an unenforced claim to ordinary territory. **Closure criterion:** D006/D007 are explained by a general norm, or it is recorded which accepted constraint is incompatible with the chosen model.
 
-## Q007 — Как представить совместный, градуальный и подвижный контроль?
+## Q007 — How to represent joint, gradual and shifting control?
 
-**Влияние: конфликтные зоны и точность общего partition.** R015, R024, R028–R030.
+**Impact: conflict zones and the precision of the overall partition.** R015, R024, R028–R030.
 
-Кто контролирует въезд, кто патрулирует ночью, кто управляет гражданскими делами и кто применяет право — не всегда один субъект. Даже при идеальных наблюдениях бинарного controller может не существовать. Нужен выбор: vector of functions, основной control role либо специальные зоны совместного режима.
+Who controls entry, who patrols at night, who administers civilian affairs and who applies the law are not always one actor. Even with perfect observations, a binary controller may not exist. A choice is needed: a vector of functions, a primary control role, or special zones of joint regime.
 
-Отдельный вопрос: полное точечное назначение обязательно как вычислительная конвенция или также должно означать уверенное знание? Спецификация допускает provisional assignment с uncertainty, но не выдуманный factual contour.
+A separate question: is a complete point-wise assignment mandatory as a computational convention, or must it also mean confident knowledge? The specification allows a provisional assignment with uncertainty, but not an invented factual contour.
 
-**Эксперимент:** West Bank Areas A/B/C, Gaza, Cyprus buffer zone, UNDOF area, Siachen, Ukraine frontline. **Критерий закрытия:** задана модель функций контроля и поведение при неопределённой полосе; обновление observation не подменяет её изменением суверенитета.
+**Experiment:** West Bank Areas A/B/C, Gaza, Cyprus buffer zone, UNDOF area, Siachen, Ukraine frontline. **Closure criterion:** a model of control functions and the behaviour for an uncertain strip are defined; an observation update does not pass it off as a change of sovereignty.
 
-## Q008 — Какая устойчивость нужна, чтобы новая граница изменила partition?
+## Q008 — What stability is needed for a new boundary to change the partition?
 
-**Влияние: карта во времени, особенно санитарные ограничения и конфликты.** R012, R015, R017, R031.
+**Impact: the map over time, especially sanitary restrictions and conflicts.** R012, R015, R017, R031.
 
-«Временная мера» может длиться годы, а новая постоянная юрисдикция существует пока один день. Порог в 30/90/365 дней был бы модельным решением, а не фактом. Требуется решить, оцениваем ли мы намеренный срок, институциональную природу, реальную длительность или сочетание с hysteresis.
+A "temporary measure" may last for years, while a new permanent jurisdiction has so far existed for one day. A threshold of 30/90/365 days would be a model decision, not a fact. It has to be decided whether we assess the intended duration, the institutional nature, the actual duration, or a combination with hysteresis.
 
-R044 принимает узкий sufficient standing/constitutive gate для CR-W без age threshold; incident/emergency меры не повышаются по длительности. Остаток Q008 — неоднозначная institutional classification и более полная temporal semantics; вопрос не закрыт.
+R044 adopts a narrow sufficient standing/constitutive gate for CR-W without an age threshold; incident/emergency measures are not promoted by duration. The remainder of Q008 is ambiguous institutional classification and fuller temporal semantics; the question is not closed.
 
-**Эксперимент:** один scope с ограничениями на 1 день, 3 месяца и неопределённый срок; смена control при одинаковых travel consequences; новая admission jurisdiction с опубликованной датой начала. **Критерий закрытия:** предикат stability не требует знания будущего и задаёт события split/merge без исключений по странам.
+**Experiment:** one scope with restrictions for 1 day, 3 months and an indefinite period; a change of control with identical travel consequences; a new admission jurisdiction with a published start date. **Closure criterion:** the stability predicate does not require knowledge of the future and defines split/merge events without exceptions by country.
 
-## Q009 — Сколько пространственной зависимости допустимо внутри одного региона?
+## Q009 — How much spatial dependence is admissible inside one region?
 
-**Влияние: число cells после пересечения всех scopes.** R006–R009, R014, R017, R027.
+**Impact: the number of cells after intersecting all scopes.** R006–R009, R014, R017, R027.
 
-Если TravelDecision может произвольно обращаться к координатам через overlays, всю Землю можно оставить одним регионом. Если координаты вообще запрещены, один аэропорт с несколькими процедурами уничтожает однородность. Нужно определить hard dimensions, неизменные внутри региона, и soft dimensions, которым разрешена внутренняя география.
+If TravelDecision may refer to coordinates arbitrarily through overlays, the whole Earth can be left as one region. If coordinates are forbidden altogether, one airport with several procedures destroys homogeneity. Hard dimensions, invariant inside a region, and soft dimensions, for which internal geography is allowed, need to be defined.
 
-**Эксперимент:** общий admission regime плюс разные entry points, transit procedures, локальные permits и customs zone, пересекающая control boundary. **Критерий закрытия:** одинаковая signature гарантирует именно перечисленную однородность; overlays не используются как обход обязательных split.
+**Experiment:** a common admission regime plus different entry points, transit procedures, local permits and a customs zone crossing a control boundary. **Closure criterion:** an identical signature guarantees exactly the enumerated homogeneity; overlays are not used to bypass mandatory splits.
 
-## Q010 — Когда меняется region_id и как пересчитывать посещения?
+## Q010 — When does region_id change and how are visits recomputed?
 
-**Влияние: исторические наборы и пользовательский учёт, не обязательно число сегодняшних регионов.** R031–R033.
+**Impact: historical sets and user accounting, not necessarily the number of today's regions.** R031–R033.
 
-После небольшого изменения границы можно сохранить обе идентичности. После выделения части обычно нужен successor. Но количественная граница между этими событиями не определена. Не следует использовать процент площади как скрытый критерий.
+After a small change of a boundary, both identities can be kept. After a part is carved out, a successor is usually needed. But the quantitative boundary between these events is not defined. The percentage of area should not be used as a hidden criterion.
 
-Временная гипотеза: split/merge создают новые IDs, переименование и digitization correction сохраняют ID. Не решено, как трактовать «та же территория» после изменения статуса и как отображать посещение прошлого на современном наборе.
+Provisional hypothesis: split/merge create new IDs; a rename and a digitization correction keep the ID. It is not decided how to treat "the same territory" after a change of status, nor how to map a visit in the past onto the modern set.
 
-**Эксперимент:** rename; исправление coastline; передача анклава; разделение admission jurisdiction; объединение двух регионов; поздняя коррекция старой линии. **Критерий закрытия:** опубликована event taxonomy и правила historical/current visit views без потери исходного evidence.
+**Experiment:** rename; coastline correction; transfer of an enclave; division of an admission jurisdiction; merging of two regions; late correction of an old line. **Closure criterion:** an event taxonomy and rules for historical/current visit views are published without loss of the original evidence.
 
-## Q011 — Допустимы ли явные продуктовые конвенции?
+## Q011 — Are explicit product conventions admissible?
 
-**Влияние: честность и управляемость исключений, особенно Antarctic/identity cases.** R008, R010, R026, R035; D004, D016.
+**Impact: honesty and manageability of exceptions, especially Antarctic/identity cases.** R008, R010, R026, R035; D004, D016.
 
-Полностью выведенная карта может противоречить интуитивным требованиям проекта. Управляемый список конвенций допустим технически, но меняет смысл falsifiability: проверяется уже соответствие правилам и опубликованным конвенциям, а не только независимым фактам.
+A fully derived map may contradict the intuitive requirements of the project. A managed list of conventions is technically admissible, but it changes the meaning of falsifiability: what is then checked is conformance to the rules and the published conventions, not only to independent facts.
 
-**Эксперимент:** попытаться одновременно выполнить literal UKOT-separateness, непересечение и единую Antarctic cell. **Критерий закрытия:** либо общее правило снимает конфликт, либо конвенции утверждаются как отдельная часть модели с ID, rationale, областью и тестами. Пока такие исключения нельзя принимать молча.
+**Experiment:** try to satisfy literal UKOT-separateness, non-overlap and a single Antarctic cell simultaneously. **Closure criterion:** either a general rule removes the conflict, or the conventions are approved as a separate part of the model with an ID, rationale, domain and tests. Until then such exceptions must not be accepted silently.
 
 ## Q012 — How does Stage 2 determine the destination partition?
 
@@ -122,8 +122,8 @@ The open question is how to choose a reproducible destination partition without 
 
 **Closure criterion:** publish a name-blind Stage 2 contract with typed inputs, deterministic conflict and uncertainty behavior, refinement tests, and adversarial cases. This patch does not choose that contract.
 
-## Что намеренно не включено в этот список
+## What is intentionally not included in this list
 
-Точные visa scopes островов, состояние погранпунктов, действующая линия контроля, качество coastline и доступность authoritative polygons — задачи сбора и верификации фактов. Они отмечаются в CSV как `evidence_status`/`premises`. Их решение может разблокировать применение уже определённого правила, но не отвечает автоматически на Q001–Q012.
+Exact visa scopes of islands, the state of border crossing points, the current line of control, coastline quality and the availability of authoritative polygons are tasks of collecting and verifying facts. They are marked in the CSV as `evidence_status`/`premises`. Resolving them may unblock the application of an already defined rule, but does not automatically answer Q001–Q012.
 
-Первый полезный эксперимент должен сравнить несколько явно названных профилей на одном небольшом наборе фактов. Главные показатели: нарушенные accepted constraints, число unresolved outcomes, число необоснованных split, число regions и чувствительность результата к изменению профиля. Уменьшение unresolved за счёт ручного присвоения «правильных» регионов не является прогрессом модели.
+The first useful experiment should compare several explicitly named profiles on one small set of facts. The main indicators: violated accepted constraints, the number of unresolved outcomes, the number of unjustified splits, the number of regions and the sensitivity of the result to a change of profile. Reducing unresolved by manually assigning the "correct" regions is not progress of the model.
