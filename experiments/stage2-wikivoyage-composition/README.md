@@ -61,6 +61,8 @@ It supports no rule. It does show that "list first, geometry from stated composi
 
 Question: where the country page draws a region from a single Wikidata id (the region's own item), does that item list official units through "contains the administrative territorial entity" (P150)? What would change our mind: if adding this resolver lifts most of the under-50% countries above 90%, Wikidata composition closes the gap; if it changes little, composition is simply not recorded for those countries and only maps or text remain.
 
+Result (`probe_p150.py`, `outputs/p150.csv`): of 65 level-1 regions drawn from their own Wikidata item, 14 have any P150 statement — all five in Switzerland, three in Thailand, two each in Japan and Papua New Guinea, one each in the Philippines and Chile — and none in Turkey, Vietnam, Colombia, Peru, Tanzania, Angola or Algeria. The resolver changes little: for the countries where `mapshape` composition is absent, Wikidata does not record the composition either. What remains for them is the text of the pages and the map images.
+
 ## Status
 
-Second run planned 2026-10-03.
+Concluded 2026-10-03.
