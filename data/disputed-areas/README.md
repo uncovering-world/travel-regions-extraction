@@ -18,7 +18,7 @@ Facts about land areas whose attribution to a country is contested, undefined or
 
 Fields and allowed values are defined at the top of `build.py`. The `kind` of an area is one of: `own_regime`, `lease_or_base`, `de_facto_state`, `occupied_or_annexed`, `paper_claim`, `islets_for_maritime_zone`, `line_position`, `no_agreed_boundary`, `resolved_recently`; their meaning is in [UPDATING.md](UPDATING.md).
 
-Evidence levels: `primary` (an official or legal source read directly), `secondary` (a reputable secondary source, including Wikipedia), `memory` (written from general knowledge, no source — to be replaced), `machine` (read by `refresh_machine.py`).
+Every manual fact carries the passage of its source that it rests on (`quote`), so it can be checked by re-opening the source; `verify_quotes.py` does that. Evidence levels: `primary` (the official or legal text itself), `secondary` (a reputable secondary source, including Wikipedia at a pinned revision), `machine` (read by `refresh_machine.py`). Facts written from memory are not admitted.
 
 ## Commands
 
@@ -27,12 +27,13 @@ From the repository root:
 ```bash
 python3 data/disputed-areas/refresh_machine.py --date YYYY-MM-DD   # re-read Natural Earth and Wikidata
 python3 data/disputed-areas/discover.py                            # candidates from the pinned lists; what is not yet in the register
+python3 data/disputed-areas/verify_quotes.py                       # re-open sources and check the quoted passages
 python3 data/disputed-areas/build.py                               # validate and regenerate derived files
 python3 data/disputed-areas/build.py --check                       # what the tests run
 ```
 
 Both scripts are deterministic: the same inputs give byte-identical outputs. Natural Earth is pinned to a version and checked by checksum; Wikidata is live, so a refresh records the date it was read and any change shows up in `git diff`.
 
-## State on 2026-10-03
+## State
 
-210 areas from a multi-source census (Wikipedia's list of territorial disputes, a 2023 snapshot of the CIA World Factbook's disputes field, Natural Earth). No fact has primary evidence yet; about two thirds rest on memory only. The first census was compiled by an agent, not by the discovery script, so 143 of the 264 candidates are not yet matched to areas and 102 areas are not yet traced to a candidate; `DISCOVERY.md` lists both. `REPORT.md` is the work list for facts. How to work through it is in [UPDATING.md](UPDATING.md).
+See `REPORT.md` (facts) and `DISCOVERY.md` (candidates). The list of 210 areas came from a first census that was largely written from an agent's memory; its facts were removed and are being re-entered from sources with quoted passages.

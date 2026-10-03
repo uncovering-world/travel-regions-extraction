@@ -31,7 +31,7 @@ NE_SHA256 = "9cafef8b7dfb6b164dc58f218f981f4ace9f716f6c03795d4c62d1ac9f3d50f5"
 AGENT = "ctr-disputed-areas/0.1 (https://github.com/uncovering-world/travel-regions-extraction)"
 POVS = ["AR", "BD", "BR", "CN", "DE", "EG", "ES", "FR", "GB", "GR", "ID", "IL", "IN", "IT", "JP", "KO",
         "MA", "NL", "NP", "PK", "PL", "PS", "PT", "RU", "SA", "SE", "TR", "TW", "UA", "US", "VN"]
-FACT_COLUMNS = ["area_id", "field", "value", "source_ids", "read_date", "evidence", "origin"]
+FACT_COLUMNS = ["area_id", "field", "value", "source_ids", "quote", "read_date", "evidence", "origin"]
 
 
 def natural_earth() -> dict[str, dict]:
@@ -137,7 +137,7 @@ def main() -> int:
         if ne_ids:
             machine |= {k: (v, "NE") for k, v in ne_facts(ne_ids, features).items() if v}
         machine |= {k: (v, "WD") for k, v in labels.get(area["wikidata_id"], {}).items()}
-        facts += [{"area_id": area["area_id"], "field": k, "value": v, "source_ids": s, "read_date": args.date.isoformat(),
+        facts += [{"area_id": area["area_id"], "field": k, "value": v, "source_ids": s, "quote": "", "read_date": args.date.isoformat(),
                    "evidence": "machine", "origin": "machine"} for k, (v, s) in machine.items()]
     order = {a["area_id"]: n for n, a in enumerate(areas)}
     facts.sort(key=lambda f: (order[f["area_id"]], f["origin"] == "machine"))  # stable: manual rows keep their order

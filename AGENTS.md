@@ -23,6 +23,7 @@ Reply to the person in the language they write in. Everything that becomes publi
 ## Discipline that holds on every path
 
 - Keep facts, model choices and product constraints apart, and say whether something is a proposal or adopted.
+- **Nothing from memory.** Do not enter or assert a fact about the world from what you remember; open a source. If you must mention something unchecked in conversation, say that it is unchecked. In the register of disputed areas ([data/disputed-areas](data/disputed-areas/UPDATING.md)) every fact carries its source and the quoted passage it rests on.
 - A fact needs a source: locator, publisher, the date it takes effect and the date it was read, and to whom and where it applies. Mark what could not be confirmed as unverified. Model output, agreement between agents or a passing schema check is not verification.
 - Unknown is not false. In the strict core, the absence of a witness is not compatibility.
 - No hidden name-based exceptions. An exception, if one is ever allowed, is an explicit, cited, versioned convention (Q011).
