@@ -47,7 +47,7 @@ Decisions are taken one at a time in conversation with the owner; this list is t
 5. CR-W amendments (#17): all decided (above) — transit, scope, presence permits, group-only rules, fees. Left as a known rough case: one rule over several top-level units.
 6. Product profile (#22): decided (above).
 7. Release format for TYR and the importer gaps to raise there.
-8. Frozen Q001 package in Russian (#29): leave as history or publish an English snapshot.
+8. Frozen Q001 package (#29): decided — an English copy next to the untouched original (`experiments/q001-en/`, in progress).
 9. Stage 2 direction (#28): grouping source and level-selection rule — after the Stage 1 decisions.
 
 ## Experiments
