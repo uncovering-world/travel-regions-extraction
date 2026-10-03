@@ -126,6 +126,10 @@ What the record supports:
 
 It does not show that any waiting time makes a change final, and it says nothing on legality.
 
+## Revision, 2026-10-03 (after the run)
+
+The owner chose T = 3 and rejected the notion of an original holder: a retaking is a change like any other, taken over at once only when the other side stops contesting by an act (agreement, accepted ruling, renunciation, or ceasing to exist). The second point under "Not modelled" therefore no longer describes a gap: treating Azerbaijan's retakes as new seizures is what the rule now says, except that the one of 2023 would be taken over at once on the dissolution of the other side, which the simulation does not know. The counts are unaffected.
+
 ## Status
 
 Concluded 2026-10-03.

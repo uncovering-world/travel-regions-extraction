@@ -10,11 +10,13 @@ The owner proposed a separate status for territories in flux, reviewed after a w
 
 ## Proposal
 
+**Principle.** The canon follows a forcible change of control when the side that lost the area has stopped trying to get it back. Two things show that: an act of that side, or time. The rule is the same in every direction and has no notion of an original or rightful holder: who held an area first is often disputed, and some conflicts run for decades with long pauses (owner, 2026-10-03).
+
 ### When the rule applies
 
 All three must hold; otherwise the canon does not change.
 
-1. **Force.** Another party takes control of the area without the consent of the party the canon attributes it to. A transfer the parties agree on is not held back (path 5 below).
+1. **Force.** Another party takes control of the area without the consent of the party the canon attributes it to. A transfer the parties agree on is not held back (path 4 below).
 2. **A claim.** The new holder asserts the area as its own or as a separate entity. A raid, an intervention or an occupation that makes no such claim changes nothing: the parts of Russia's border oblasts held by Ukrainian forces are in Wikipedia's list of military occupations (2023–2025) and do not appear among the conquest attempts of the Modern Conquest data, which run to 2024 and require an intention of lasting control.
 3. **A stated outline.** Any boundary involved is a line the parties themselves state (claim, ceasefire, treaty line). A front line is never drawn.
 
@@ -31,9 +33,9 @@ stateDiagram-v2
     Fighting --> Quiet: 2 a full year without active conflict
     Quiet --> Fighting: 2 active conflict again
     Quiet --> Settled: 3 T quiet years in a row, new holder accepted
-    Fighting --> Settled: 4 control returns, nothing changed
-    Quiet --> Settled: 4 control returns, nothing changed
-    Settled --> Settled: 5 agreed change · 6 original holder returns · 7 fighting without change of control
+    Fighting --> Settled: 4 the other side stops contesting by an act · 5 control returns
+    Quiet --> Settled: 4 the other side stops contesting by an act · 5 control returns
+    Settled --> Settled: 6 fighting without change of control
 ```
 
 | State | The canon attributes the area to | A release says |
@@ -46,23 +48,26 @@ stateDiagram-v2
 
 ### Paths
 
-Years are from the Modern Conquest dataset, Florea's table of de facto states and UCDP; acceptance years are for T = 3.
+Years are from the Modern Conquest dataset, Florea's table of de facto states and UCDP, the Nagorno-Karabakh passage from the register; acceptance years are for T = 3.
 
 | | Path | Condition | Effect on the canon | Examples |
 |---|---|---|---|---|
 | 1 | Seizure | The three conditions above | Attribution unchanged; the area is marked unsettled | Crimea 2014; Northern Cyprus 1974 |
 | 2 | Clock | Each full calendar year after the seizure adds one if quiet and resets the clock if not | None | Western Sahara: fighting 1975–1989, clock from 1990; Nagorno-Karabakh: two quiet years, then reset in 1997–98 |
-| 3 | Acceptance | T quiet years in a row, the holder running a standing civil arrangement | Attribution moves to the holder; the former holder stays as claimant | Northern Cyprus 1977; Western Sahara 1992; Crimea 2017 |
-| 4 | Return | Control goes back to the party the canon attributes the area to | None: the canon never changed | Kuwait 1990–91; Falkland Islands 1982; 33 of 78 seizures since 1946 ended in the year of the seizure or the next |
-| 5 | Agreed change | The parties agree, or accept a ruling | Taken over at the next release, without waiting | Bakassi 2008 (ICJ); Hanish Islands 1998 (arbitration); Sinai by 1982 |
-| 6 | Return of the original holder | After an acceptance, the party the area was attributed to before the first forcible change regains control | Taken over at the next release | Nagorno-Karabakh 2020–2023; Thule Island 1982 |
-| 7 | Fighting without change of control | Active conflict, same holder | Flag only | Golan Heights 1973 and 2025; Kashmir |
+| 3 | Acceptance by time | T quiet years in a row, the holder running a standing civil arrangement. The other side may still claim the area; it has not fought for it for T years | Attribution moves to the holder; the other side stays as claimant | Northern Cyprus 1977; Western Sahara 1992; Crimea 2017 |
+| 4 | Acceptance by an act | The other side stops contesting by an act: it agrees to the change, accepts a ruling, gives up its claim, or ceases to exist. A dated, sourced fact | Taken over at the next release, without waiting | Bakassi 2008 (ICJ); Hanish Islands 1998 (arbitration); Sinai by 1982; Nagorno-Karabakh after the 2023 offensive ("The dispute ended after the dissolution of Artsakh") |
+| 5 | Return | Control goes back to the party the canon attributes the area to | None: the canon never changed | Kuwait 1990–91; Falkland Islands 1982; 33 of 78 seizures since 1946 ended in the year of the seizure or the next |
+| 6 | Fighting without change of control | Active conflict, same holder | Flag only | Golan Heights 1973 and 2025; Kashmir |
 
-Paths 4 and 6 make the rule asymmetric on purpose: the canon is slow to follow force and quick to follow its undoing. In the conquest data, none of the 18 retakes since 1946 that held when their conflict ended was later lost to force.
+A party that retakes an area the canon had attributed to someone else is a new holder like any other: the area is unsettled until the other side stops contesting by an act, or T quiet years pass. Thule Island: accepted as held by Argentina in 1979, retaken by British troops in 1982, and by the same rule accepted as held by the United Kingdom in 1985, after three quiet years.
+
+An earlier draft took a retaking by the "original holder" over at once. The owner rejected that basis: Nagorno-Karabakh needs no waiting because the other side stopped trying, not because its first holder came back.
+
+**First release.** The attribution of each contested area is found by applying the rule to its record: the holder whose control the other side last stopped contesting. Only the last settled holder is needed, never the first.
 
 ### What the register has to hold
 
-For each area in the [register](../../data/disputed-areas/README.md), as sourced facts: who holds it and since when; what the holder asserts; the party it was attributed to before the first forcible change; the UCDP conflicts that are about it; any line the parties state. The status, the clock and the attribution are computed. A new UCDP release is the yearly trigger: an area whose conflict became active is re-checked against sources.
+For each area in the [register](../../data/disputed-areas/README.md), as sourced facts: who holds it and since when; what the holder asserts; any act by which a party stopped contesting (agreement, accepted ruling, renunciation, dissolution), with its date; the UCDP conflicts that are about it; any line the parties state. The status, the clock and the attribution are computed. A new UCDP release is the yearly trigger: an area whose conflict became active is re-checked against sources.
 
 The link from areas to conflict records is a maintained input. Without it, the clock accepts entities that were at war: in the back-test it changes the outcome for 25 of 40 breakaway entities at T = 2.
 
@@ -132,7 +137,7 @@ The back-test does not model the requirement of a standing civil arrangement, wh
 To be put to the owner one at a time:
 
 1. ~~The value of T.~~ Decided: three years.
-2. Path 6: whether the original holder's return is taken over at once, as proposed, or waits like any other change.
+2. Path 4: which acts count as the other side having stopped contesting. Proposed: only an explicit act — agreement, accepted ruling, renunciation of the claim, or the party ceasing to exist; a claim kept on paper by a party that can no longer act waits for the clock.
 3. Whether the status can create a region. Proposed: no. A region exists through the reference registry (a supported point of view separates the area; decided 2026-10-03) or through CR-W (R044): where another party controls civilian access, the entry decision for the area differs from the rest of the region, which is what CR-W separates once a witness is cited and its gates pass. The status then decides only to whom such a region is attributed, and with which neighbour land that is not a region goes.
 4. What counts as evidence of a standing civil arrangement.
 5. The release interval; one release per year is assumed here.
