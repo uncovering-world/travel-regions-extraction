@@ -1,0 +1,75 @@
+{
+  "cells_per_iso_entry": {
+    "cells_outside_any_iso_entry": 10,
+    "entries_with_more_than_one_cell": {
+      "AZ": 2,
+      "BR": 2,
+      "BT": 2,
+      "CN": 2,
+      "ES": 2,
+      "IL": 3,
+      "IN": 5,
+      "KE": 2,
+      "MA": 2,
+      "PK": 2,
+      "RU": 3,
+      "SD": 2,
+      "UA": 3
+    }
+  },
+  "crw": {
+    "amended": {
+      "by_regime": {},
+      "cells": 0
+    },
+    "amended_any_evidence": {
+      "by_regime": {},
+      "cells": 0
+    },
+    "amended_confirmed_only": {
+      "by_regime": {},
+      "cells": 0
+    },
+    "amended_no_permits": {
+      "by_regime": {},
+      "cells": 0
+    },
+    "raw": {
+      "by_regime": {},
+      "cells": 0
+    }
+  },
+  "crw_share_of_baseline": 0.0,
+  "inputs": {
+    "iso3166-1.csv": "40a46573ba3d50459162730ad61cf68ea3ce5e1be0cb6a0859f924033ca81d09",
+    "ne_10m_admin_0_countries.geojson": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+    "ne_10m_admin_0_disputed_areas.geojson": "9cafef8b7dfb6b164dc58f218f981f4ace9f716f6c03795d4c62d1ac9f3d50f5"
+  },
+  "registry": {
+    "all_povs/min_area_0": 298,
+    "all_povs/min_area_100": 278,
+    "all_povs/min_area_1000": 271,
+    "iso_only/min_area_0": 249,
+    "iso_only/min_area_100": 249,
+    "iso_only/min_area_1000": 249,
+    "ne_default/min_area_0": 265,
+    "ne_default/min_area_100": 259,
+    "ne_default/min_area_1000": 256
+  },
+  "registry_baseline": {
+    "cells": 278,
+    "min_area_km2": 100,
+    "perspectives": "all_povs",
+    "skipped": {
+      "below_resolution": 20,
+      "whole_iso_entry": 5
+    }
+  },
+  "totals": {
+    "amended": 278,
+    "amended_any_evidence": 278,
+    "amended_confirmed_only": 278,
+    "amended_no_permits": 278,
+    "raw": 278
+  }
+}

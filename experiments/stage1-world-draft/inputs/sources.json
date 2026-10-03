@@ -1,0 +1,23 @@
+{
+  "ne_10m_admin_0_countries.geojson": {
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_countries.geojson",
+    "version": "Natural Earth v5.1.2 (git tag)",
+    "licence": "public domain",
+    "retrieved": "2026-10-03",
+    "sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255"
+  },
+  "ne_10m_admin_0_disputed_areas.geojson": {
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_disputed_areas.geojson",
+    "version": "Natural Earth v5.1.2 (git tag)",
+    "licence": "public domain",
+    "retrieved": "2026-10-03",
+    "sha256": "9cafef8b7dfb6b164dc58f218f981f4ace9f716f6c03795d4c62d1ac9f3d50f5"
+  },
+  "iso3166-1.csv": {
+    "url": "file:/usr/share/iso-codes/json/iso_3166-1.json",
+    "version": "Debian iso-codes 4.20.1 (Fedora iso-codes-4.20.1-3.fc44); a mirror of ISO 3166-1, primary source is the ISO Online Browsing Platform",
+    "licence": "LGPL-2.1+",
+    "retrieved": "2026-10-03",
+    "sha256": "40a46573ba3d50459162730ad61cf68ea3ce5e1be0cb6a0859f924033ca81d09"
+  }
+}
