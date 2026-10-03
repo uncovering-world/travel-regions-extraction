@@ -1,16 +1,16 @@
 {
-  "regions": 316,
+  "regions": 317,
   "regions_by_basis": {
     "ISO 3166-1 entry": 249,
     "entry rule": 29,
-    "residents": 20,
+    "residents": 21,
     "registry": 10,
     "leased area with its own access rule": 3,
     "unclaimed land": 3,
     "entry rule of the holder": 2
   },
-  "regions_with_nothing_open": 296,
-  "regions_with_an_open_point": 20,
+  "regions_with_nothing_open": 302,
+  "regions_with_an_open_point": 15,
   "special_places": 90,
   "special_places_by_kind": {
     "line_position": 47,
@@ -21,14 +21,14 @@
     "paper_claim": 2
   },
   "markers": 145,
-  "gaps": 20,
+  "gaps": 11,
   "gaps_by_missing_fact": {
-    "start date of the rule": 8,
     "whether entry follows its own rules": 4,
-    "kind": 2,
-    "who holds the area and since when": 2,
-    "whether civilians live there": 2,
-    "not confirmed in force": 2
+    "start date of the rule": 3,
+    "whether civilians live there": 1,
+    "the UCDP conflict about the area, or a year in holder_since": 1,
+    "kind": 1,
+    "who holds the area and since when": 1
   },
   "register_areas": 210,
   "register_areas_linked": 60,

@@ -103,6 +103,14 @@ Result: 316 regions, 296 with nothing open; 90 special places; 20 missing facts:
 
 The entry-rule passages were checked by their collectors only, not re-opened here.
 
+## Fifth run, 2026-10-03
+
+A last collection found 13 of 22 remaining facts (start dates of the rules for Mount Athos, Tristan da Cunha, Galápagos, Labuan and Kurdistan; Labuan and Nakhchivan in force; holders of the Bhutanese enclaves; residents of the Ilemi Triangle and the Tort-Kocho road; the kind of the armistice lines). One passage (since when Kafia Kingi has been held) was not found on re-check and was dropped.
+
+Result: 317 regions, 302 with nothing open; 90 special places; 11 missing facts, none of which changes whether a place is a region: access to four leased sites (kept as special places), start dates of three long-standing rules (Tibet, Gorno-Badakhshan, Minicoy), residents of one area, the kind of Doi Lang, and since when Kafia Kingi has been held.
+
+The list of entry rules is still the one-off census of 116 rows; a scripted discovery of rules is being built in `data/entry-rules/`.
+
 ## Status
 
-Concluded 2026-10-03 (four runs).
+Concluded 2026-10-03 (five runs).

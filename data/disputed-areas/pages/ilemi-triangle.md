@@ -8,8 +8,10 @@
 | kind | paper_claim | secondary | 2026-10-03 | S0097 | Kenya now has de facto control of all the territory in the Ilemi Triangle up to the northern 1950 Sudanese Patrol Line. The dispute arose from the 1914 treaty in which a straight parallel line was used to divide territories that were both part of the British Empire . |
 | origin | The dispute arose from a 1914 treaty that divided the territories by a straight parallel line. | secondary | 2026-10-03 | S0097 | The dispute arose from the 1914 treaty in which a straight parallel line was used to divide territories that were both part of the British Empire . |
 | on_the_ground | Kenya has de facto control of the whole triangle up to the 1950 Sudanese Patrol Line. | secondary | 2026-10-03 | S0097 | Kenya now has de facto control of all the territory in the Ilemi Triangle up to the northern 1950 Sudanese Patrol Line. |
+| inhabited | yes | secondary | 2026-10-03 | S0353 | Lokomarinyang is a village and a rolling hill west of the village. The village and the Ilemi Triangle in which it is located are disputed territories between South Sudan and Kenya . |
 | area_km2 | 11000 | secondary | 2026-10-03 | S0097 | Arbitrarily defined, it measures about 11,000 square kilometres (4,200 sq mi). |
 
 Sources:
 
 - S0097: https://en.wikipedia.org/w/index.php?title=Ilemi_Triangle&oldid=1377802647
+- S0353: https://en.wikipedia.org/w/index.php?title=Lokomarinyang&oldid=1338128882

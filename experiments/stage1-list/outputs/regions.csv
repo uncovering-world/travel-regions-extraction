@@ -265,6 +265,7 @@ area/gilgit-baltistan,Gilgit-Baltistan,residents; points of view differ,holder,s
 area/golan-heights,Golan Heights,registry: points of view differ,"Israel (the territory it holds was under military administration until 1981, when Israeli law was applied to it) (accepted 1970); active conflict",secondary,
 area/gornja-siga,Gornja Siga and other west-bank pockets,unclaimed land,none,secondary,
 area/guantanamo-bay,Guantanamo Bay Naval Base,leased area with its own access rule,the lessor,secondary,
+area/ilemi-triangle,Ilemi Triangle,residents; points of view differ,holder,secondary,who holds it
 area/indian-jammu-kashmir-ladakh,Jammu and Kashmir and Ladakh (Indian-administered),residents; points of view differ,holder,secondary,who holds it
 area/kinmen-matsu,"Kinmen, Matsu and Wuqiu",entry rule of the holder,Republic of China (Taiwan): its law counts Kinmen and Matsu in the area under the effective control of its government (accepted 1948),secondary,
 area/koalou,Koalou (Kourou) neutral zone,residents; no single holder,none,secondary,
@@ -286,29 +287,29 @@ area/transnistria-security-zone,Dniester Security Zone,residents; no single hold
 area/undof-zone,UNDOF area of separation,residents; no single holder,none,secondary,
 area/varosha,Varosha (Maraş),residents; no single holder,none,secondary,
 area/western-sahara-moroccan-controlled,Western Sahara west of the berm,registry: points of view differ,held by Morocco since 1979 (de facto control of most of the territory after Mauritania withdrew),secondary,
-rule/az-nakhchivan,Nakhchivan Autonomous Republic,entry rule: visa_exemption,AZ,cited_secondary,not confirmed in force
+rule/az-nakhchivan,Nakhchivan Autonomous Republic,entry rule: visa_exemption,AZ,cited_secondary,
 rule/cl-rapa-nui,Rapa Nui (Easter Island),entry rule: stay_limit,CL,cited_secondary,
 rule/cn-hainan,Hainan Province,entry rule: visa_exemption,CN,cited_secondary,
 rule/cn-tibet,Tibet Autonomous Region,entry rule: permit_whole_territory,CN,cited_secondary,start date of the rule
 rule/co-san-andres,"Archipelago of San Andrés, Providencia and Santa Catalina",entry rule: stay_limit,CO,cited_secondary,
-rule/ec-galapagos,Galápagos Province,entry rule: stay_limit,EC,cited_secondary,start date of the rule
+rule/ec-galapagos,Galápagos Province,entry rule: stay_limit,EC,cited_secondary,
 rule/fr-clipperton,Clipperton Island,entry rule: permit_whole_territory,FR,cited_secondary,
-rule/gr-mount-athos,Mount Athos,entry rule: permit_whole_territory,GR,cited_secondary,start date of the rule
+rule/gr-mount-athos,Mount Athos,entry rule: permit_whole_territory,GR,cited_secondary,
 rule/in-lakshadweep,Lakshadweep,entry rule: permit_whole_territory,IN,conflicted,
 rule/in-manipur,Manipur,entry rule: permit_whole_territory,IN,cited_secondary,
 rule/in-minicoy-maldivians,Minicoy (Lakshadweep),entry rule: visa_exemption,IN,unconfirmed,start date of the rule
 rule/in-mizoram,Mizoram,entry rule: permit_whole_territory,IN,cited_secondary,
 rule/in-nagaland,Nagaland,entry rule: permit_whole_territory,IN,cited_secondary,
 rule/in-sikkim,Sikkim,entry rule: permit_whole_territory,IN,cited_secondary,
-rule/iq-kurdistan,Kurdistan Region of Iraq,entry rule: own_visa_system,IQ,cited_secondary,start date of the rule
+rule/iq-kurdistan,Kurdistan Region of Iraq,entry rule: own_visa_system,IQ,cited_secondary,
 rule/kr-jeju,Jeju Province,entry rule: visa_exemption,KR,cited_secondary,
-rule/my-labuan,Labuan,entry rule: separate_immigration_control,MY,unconfirmed,not confirmed in force; start date of the rule
+rule/my-labuan,Labuan,entry rule: separate_immigration_control,MY,unconfirmed,
 rule/my-sabah,Sabah,entry rule: separate_immigration_control,MY,cited_secondary,
 rule/my-sarawak,Sarawak,entry rule: separate_immigration_control,MY,cited_secondary,
 rule/ru-chukotka,Chukotka Autonomous Okrug,entry rule: permit_whole_territory,RU,confirmed_primary,
 rule/sh-ascension,Ascension Island,entry rule: own_visa_system,SH,confirmed_primary,
 rule/sh-saint-helena,Saint Helena,entry rule: own_visa_system,SH,cited_secondary,
-rule/sh-tristan-da-cunha,Tristan da Cunha,entry rule: permit_whole_territory,SH,confirmed_primary,start date of the rule
+rule/sh-tristan-da-cunha,Tristan da Cunha,entry rule: permit_whole_territory,SH,confirmed_primary,
 rule/sj-jan-mayen,Jan Mayen,entry rule: permit_whole_territory,SJ,unconfirmed,
 rule/tj-gbao,Gorno-Badakhshan Autonomous Oblast (GBAO),entry rule: permit_whole_territory,TJ,cited_secondary,start date of the rule
 rule/tw-penghu,Penghu County,entry rule: visa_exemption,TW,cited_secondary,

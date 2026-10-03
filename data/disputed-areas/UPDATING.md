@@ -75,6 +75,14 @@ Four manual fields feed the [settling rule](../../docs/proposals/settling-rule.m
 - `contest_ended_by` — an explicit act by which the other side stopped contesting: an agreement, an accepted ruling, a renunciation of the claim, or the party ceasing to exist, with its date. Leave it out if there is none; a claim that is merely dormant is not an act.
 - `stated_outline` — the line the parties themselves state as the limit of the area (a ceasefire or armistice line, a treaty line, an administrative border named in the claim), or `none: the line is moving` when the held part is bounded by a front.
 
+## Archived copies of live pages
+
+A source that is a live page (not a Wikipedia revision and not a file at a pinned commit) gets an archived copy, so its passage stays checkable when the page changes. After importing new facts run
+
+`python3 data/disputed-areas/archive_sources.py`
+
+It writes `archived: <snapshot URL>` into the source's `note`. Pages the archive refuses or times out on are listed at the end; run it again later, and if a page still cannot be archived, save its text by hand under the source id and say so in the note.
+
 ## Importing facts collected in bulk
 
 Facts gathered many at a time (by research agents, for example) go into CSV files with the columns `area_id,field,value,source_url,quote,evidence`, one fact per row, and are added with

@@ -8,6 +8,7 @@
 | kind | own_regime | secondary | 2026-10-03 | S0128 | As part of the settlement, the Tort-Kocho road, along with a 15 m (49 ft) "security zone" were declared a neutral zone or a condominium . |
 | origin | On 21 February 2025 the heads of the Kyrgyz and Tajik security services signed an agreement on the delimitation of the state border. | secondary | 2026-10-03 | S0128 | On February 21, 2025, the head of the Kyrgyzstan SCNS Kamchybek Tashiev and the head of Tajikistan SCNS Saimumin Yatimov signed an agreement on the delimitation of the state borders. |
 | on_the_ground | The neutral roadbed is 10 metres wide, with a 15-metre security strip on each side. | secondary | 2026-10-03 | S0001 | The roadbed is 10 meters wide, with a 15-meter security strip on each side. |
+| inhabited | no | secondary | 2026-10-03 | S0001 | There will be a neutral zone in the center. Houses will be removed in the center, about 20 houses are being removed from the Tajik side, and three or four — from ours, |
 
 Sources:
 

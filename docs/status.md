@@ -55,4 +55,4 @@ Concluded on 2026-10-03 unless marked.
 
 ## Next step
 
-Twenty facts are still missing from the list build (start dates of eight old entry rules, four leased sites, a few residents, kinds and holders); the collectors ran out of web searches, so they need another pass. To do: archive copies for the 81 non-Wikipedia sources of the register, which are live pages. Then: outlines for places the substrate cannot represent, the binding to substrate units, and the release package. The decisions of 2026-10-03 are recorded as D038–D053, R045–R057 and Q013–Q019.
+The Stage 1 list is built: 317 regions, 302 with nothing open, 90 special places; the eleven facts still missing do not change whether a place is a region. Open: a scripted discovery of entry rules (being built in `data/entry-rules/`), since the census of 116 rules was made once; then outlines for places the substrate cannot represent (Q013), the binding to substrate units, and the release package for TYR.

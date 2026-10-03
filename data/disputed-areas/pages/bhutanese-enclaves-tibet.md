@@ -7,6 +7,8 @@
 | parties | China (occupied the exclaves in 1959); Bhutan (administered them for more than 300 years before that) | secondary | 2026-10-03 | S0036 | In July 1959, along with the occupation of Tibet, the Chinese People's Liberation Army occupied several Bhutanese exclaves in western Tibet which were under Bhutanese administration for more than 300 years and had been given to Bhutan by Ngawang Namgyal in the 17th century. |
 | kind | occupied_or_annexed | secondary | 2026-10-03 | S0346 | Darchen was once an exclave of Bhutan, held for almost 300 years and from where Bhutan raised revenue, until the People's Republic of China annexed it in 1959. |
 | origin | In July 1959 the Chinese People's Liberation Army occupied several Bhutanese exclaves in western Tibet. | secondary | 2026-10-03 | S0036 | In July 1959, along with the occupation of Tibet, the Chinese People's Liberation Army occupied several Bhutanese exclaves in western Tibet which were under Bhutanese administration for more than 300 years and had been given to Bhutan by Ngawang Namgyal in the 17th century. |
+| holder | China (stated for Darchen; the other former enclaves are not covered by the passage) | secondary | 2026-10-03 | S0346 | is a former Bhutanese enclave, currently held by the People's Republic of China and the seat of the Parga Township |
+| holder_since | 1959-07 | secondary | 2026-10-03 | S0036 | In July 1959, along with the occupation of Tibet, the Chinese People's Liberation Army occupied several Bhutanese exclaves in western Tibet |
 
 Sources:
 

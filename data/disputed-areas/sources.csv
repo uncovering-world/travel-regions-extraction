@@ -1,7 +1,7 @@
 source_id,url,access,note
 NE,https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2,machine,"Natural Earth 10m admin-0 disputed areas, v5.1.2"
 WD,https://www.wikidata.org/,machine,"Wikidata, read through the API at refresh time"
-S0001,https://24.kg/english/321315_Neutral_status_granted_to_Tort-Kocho_area_on_Kyrgyz-Tajik_border/,manual,
+S0001,https://24.kg/english/321315_Neutral_status_granted_to_Tort-Kocho_area_on_Kyrgyz-Tajik_border/,manual,archived: https://web.archive.org/web/20261003203311/https://24.kg/english/321315_Neutral_status_granted_to_Tort-Kocho_area_on_Kyrgyz-Tajik_border/
 S0002,https://de.wikipedia.org/w/index.php?title=Bodensee&oldid=270975181,manual,
 S0003,https://de.wikipedia.org/w/index.php?title=Gemeinschaftliches_deutsch-luxemburgisches_Hoheitsgebiet&oldid=268510923,manual,
 S0004,https://de.wikipedia.org/w/index.php?title=Moldauhafen&oldid=269028853,manual,
@@ -260,7 +260,7 @@ S0256,https://fr.wikipedia.org/w/index.php?title=%C3%8Ele_Tromelin&oldid=2397934
 S0257,https://fr.wikipedia.org/w/index.php?title=%C3%8Ele_des_Faisans&oldid=239825963,manual,
 S0258,https://fr.wikipedia.org/w/index.php?title=Fronti%C3%A8re_entre_la_France_et_le_Vanuatu&oldid=235015346,manual,
 S0259,https://news.un.org/en/story/2025/01/1159451,manual,
-S0260,https://peacekeeping.un.org/en/mission/undof,manual,
+S0260,https://peacekeeping.un.org/en/mission/undof,manual,archived: https://web.archive.org/web/20261003203433/https://peacekeeping.un.org/en/factsheet/undof
 S0261,https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/ag.json,manual,
 S0262,https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/by.json,manual,
 S0263,https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/cm.json,manual,
@@ -291,47 +291,47 @@ S0287,https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7
 S0288,https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/south-america/pe.json,manual,
 S0289,https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/south-asia/np.json,manual,
 S0290,https://taaf.fr/acceder-aux-territoires/demandes-dactivites-et-dacces/acces-et-mouillage-dans-les-eparses/,manual,
-S0291,https://taaf.fr/collectivites/presentation-des-territoires/les-iles-eparses/,manual,
-S0292,https://unficyp.unmissions.org/about-buffer-zone,manual,
-S0293,https://vayla.fi/en/transport-network/waterways/canals-and-bridges/the-saimaa-canal,manual,
-S0294,https://vayla.fi/en/transport-network/waterways/canals-and-bridges/the-saimaa-canal/navigation-in-the-saimaa-canal-and-lake-saimaa,manual,
+S0291,https://taaf.fr/collectivites/presentation-des-territoires/les-iles-eparses/,manual,archived: https://web.archive.org/web/20261003203559/https://taaf.fr/collectivites/presentation-des-territoires/les-iles-eparses/
+S0292,https://unficyp.unmissions.org/about-buffer-zone,manual,archived: https://web.archive.org/web/20261003203647/https://unficyp.unmissions.org/en/about-buffer-zone
+S0293,https://vayla.fi/en/transport-network/waterways/canals-and-bridges/the-saimaa-canal,manual,archived: https://web.archive.org/web/20261003203805/https://vayla.fi/en/transport-network/waterways/canals-and-bridges/the-saimaa-canal
+S0294,https://vayla.fi/en/transport-network/waterways/canals-and-bridges/the-saimaa-canal/navigation-in-the-saimaa-canal-and-lake-saimaa,manual,archived: https://web.archive.org/web/20261003203906/https://vayla.fi/en/transport-network/waterways/canals-and-bridges/the-saimaa-canal/navigation-in-the-saimaa-canal-and-lake-saimaa
 S0295,https://web.archive.org/web/20240217075910/https://www.thenewhumanitarian.org/report/57979/burundi-rwanda-tension-increases-ongoing-land-dispute,manual,
-S0296,https://www.canada.ca/en/environment-climate-change/services/migratory-bird-sanctuaries/locations/machias-seal-island.html,manual,
-S0297,https://www.cas.go.jp/jp/ryodo_eg/senkaku/senkaku.html,manual,
-S0298,https://www.doi.gov/oia/islands/navassa,manual,
-S0299,https://www.doi.gov/oia/islands/wakeatoll,manual,
-S0300,https://www.fws.gov/refuge/navassa-island/visit-us,manual,
-S0301,https://www.gov.uk/foreign-travel-advice/azerbaijan/entry-requirements,manual,
-S0302,https://www.gov.uk/foreign-travel-advice/british-indian-ocean-territory,manual,
-S0303,https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements,manual,
+S0296,https://www.canada.ca/en/environment-climate-change/services/migratory-bird-sanctuaries/locations/machias-seal-island.html,manual,archived: https://web.archive.org/web/20261003204004/https://www.canada.ca/en/environment-climate-change/services/migratory-bird-sanctuaries/locations/machias-seal-island.html
+S0297,https://www.cas.go.jp/jp/ryodo_eg/senkaku/senkaku.html,manual,archived: https://web.archive.org/web/20261003204038/https://www.cas.go.jp/jp/ryodo_eg/senkaku/senkaku.html
+S0298,https://www.doi.gov/oia/islands/navassa,manual,archived: https://web.archive.org/web/20261003204128/https://www.doi.gov/oia/islands/navassa
+S0299,https://www.doi.gov/oia/islands/wakeatoll,manual,archived: https://web.archive.org/web/20261003204206/https://www.doi.gov/oia/islands/wakeatoll
+S0300,https://www.fws.gov/refuge/navassa-island/visit-us,manual,archived: https://web.archive.org/web/20261003204240/https://www.fws.gov/refuge/navassa-island/visit-us
+S0301,https://www.gov.uk/foreign-travel-advice/azerbaijan/entry-requirements,manual,archived: https://web.archive.org/web/20261003204319/https://www.gov.uk/foreign-travel-advice/azerbaijan/entry-requirements
+S0302,https://www.gov.uk/foreign-travel-advice/british-indian-ocean-territory,manual,archived: https://web.archive.org/web/20260919111344/https://www.gov.uk/foreign-travel-advice/british-indian-ocean-territory
+S0303,https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements,manual,archived: https://web.archive.org/web/20261003204359/https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements
 S0304,https://www.gov.uk/foreign-travel-advice/falkland-islands/entry-requirements,manual,
-S0305,https://www.gov.uk/foreign-travel-advice/georgia/regional-risks,manual,
-S0306,https://www.gov.uk/foreign-travel-advice/kosovo/entry-requirements,manual,
+S0305,https://www.gov.uk/foreign-travel-advice/georgia/regional-risks,manual,archived: https://web.archive.org/web/20261003204500/https://www.gov.uk/foreign-travel-advice/georgia/regional-risks
+S0306,https://www.gov.uk/foreign-travel-advice/kosovo/entry-requirements,manual,archived: https://web.archive.org/web/20261003204536/https://www.gov.uk/foreign-travel-advice/kosovo/entry-requirements
 S0307,https://www.gov.uk/foreign-travel-advice/mayotte/entry-requirements,manual,
-S0308,https://www.gov.uk/foreign-travel-advice/moldova/entry-requirements,manual,
-S0309,https://www.gov.uk/foreign-travel-advice/montenegro/entry-requirements,manual,
-S0310,https://www.gov.uk/foreign-travel-advice/north-korea/entry-requirements,manual,
-S0311,https://www.gov.uk/foreign-travel-advice/palestine/regional-risks,manual,
-S0312,https://www.gov.uk/foreign-travel-advice/somalia/entry-requirements,manual,
-S0313,https://www.gov.uk/foreign-travel-advice/south-georgia-and-south-sandwich-islands/entry-requirements,manual,
-S0314,https://www.gov.uk/foreign-travel-advice/south-korea/entry-requirements,manual,
-S0315,https://www.gov.uk/foreign-travel-advice/taiwan/entry-requirements,manual,
-S0316,https://www.gov.uk/foreign-travel-advice/thailand/regional-risks,manual,
-S0317,https://www.gov.uk/foreign-travel-advice/the-occupied-palestinian-territories,manual,
-S0318,https://www.gov.uk/foreign-travel-advice/ukraine/entry-requirements,manual,
-S0319,https://www.gov.uk/foreign-travel-advice/western-sahara,manual,
+S0308,https://www.gov.uk/foreign-travel-advice/moldova/entry-requirements,manual,archived: https://web.archive.org/web/20261003204637/https://www.gov.uk/foreign-travel-advice/moldova/entry-requirements
+S0309,https://www.gov.uk/foreign-travel-advice/montenegro/entry-requirements,manual,archived: https://web.archive.org/web/20261003204717/https://www.gov.uk/foreign-travel-advice/montenegro/entry-requirements
+S0310,https://www.gov.uk/foreign-travel-advice/north-korea/entry-requirements,manual,archived: https://web.archive.org/web/20261003204808/https://www.gov.uk/foreign-travel-advice/north-korea/entry-requirements
+S0311,https://www.gov.uk/foreign-travel-advice/palestine/regional-risks,manual,archived: https://web.archive.org/web/20261003204844/https://www.gov.uk/foreign-travel-advice/palestine/regional-risks
+S0312,https://www.gov.uk/foreign-travel-advice/somalia/entry-requirements,manual,archived: https://web.archive.org/web/20261003204923/https://www.gov.uk/foreign-travel-advice/somalia/entry-requirements
+S0313,https://www.gov.uk/foreign-travel-advice/south-georgia-and-south-sandwich-islands/entry-requirements,manual,archived: https://web.archive.org/web/20261003205000/https://www.gov.uk/foreign-travel-advice/south-georgia-and-south-sandwich-islands/entry-requirements
+S0314,https://www.gov.uk/foreign-travel-advice/south-korea/entry-requirements,manual,archived: https://web.archive.org/web/20261003205126/https://www.gov.uk/foreign-travel-advice/south-korea/entry-requirements
+S0315,https://www.gov.uk/foreign-travel-advice/taiwan/entry-requirements,manual,archived: https://web.archive.org/web/20261003205205/https://www.gov.uk/foreign-travel-advice/taiwan/entry-requirements
+S0316,https://www.gov.uk/foreign-travel-advice/thailand/regional-risks,manual,archived: https://web.archive.org/web/20261003205240/https://www.gov.uk/foreign-travel-advice/thailand/regional-risks
+S0317,https://www.gov.uk/foreign-travel-advice/the-occupied-palestinian-territories,manual,archived: https://web.archive.org/web/20261003205319/https://www.gov.uk/foreign-travel-advice/palestine
+S0318,https://www.gov.uk/foreign-travel-advice/ukraine/entry-requirements,manual,archived: https://web.archive.org/web/20261003205434/https://www.gov.uk/foreign-travel-advice/ukraine/entry-requirements
+S0319,https://www.gov.uk/foreign-travel-advice/western-sahara,manual,archived: https://web.archive.org/web/20260921185623/https://www.gov.uk/foreign-travel-advice/western-sahara
 S0320,https://www.gov.uk/foreign-travel-advice/western-sahara/entry-requirements,manual,
-S0321,https://www.gov.uk/foreign-travel-advice/western-sahara/safety-and-security,manual,
-S0322,https://www.icj-cij.org/case/150,manual,
-S0323,https://www.icj-cij.org/case/165,manual,
-S0324,https://www.icj-cij.org/case/167,manual,
-S0325,https://www.icj-cij.org/case/185,manual,
-S0326,https://www.jeuneafrique.com/387125/politique/cote-divoire-civil-tue-militaires-guineens-a-kpeaba-louest-pays/,manual,
-S0327,https://www.newvision.co.ug/news/1213216/uganda-drc-reach-truce-rukwanzi,manual,
+S0321,https://www.gov.uk/foreign-travel-advice/western-sahara/safety-and-security,manual,archived: https://web.archive.org/web/20261003205536/https://www.gov.uk/foreign-travel-advice/western-sahara/safety-and-security
+S0322,https://www.icj-cij.org/case/150,manual,archived: https://web.archive.org/web/20261003205653/https://www.icj-cij.org/case/150
+S0323,https://www.icj-cij.org/case/165,manual,archived: https://web.archive.org/web/20261003205731/https://www.icj-cij.org/case/165
+S0324,https://www.icj-cij.org/case/167,manual,archived: https://web.archive.org/web/20261003205811/https://www.icj-cij.org/case/167
+S0325,https://www.icj-cij.org/case/185,manual,archived: https://web.archive.org/web/20261003205850/https://www.icj-cij.org/case/185
+S0326,https://www.jeuneafrique.com/387125/politique/cote-divoire-civil-tue-militaires-guineens-a-kpeaba-louest-pays/,manual,archived: https://web.archive.org/web/20261003205928/https://www.jeuneafrique.com/387125/politique/cote-divoire-civil-tue-militaires-guineens-a-kpeaba-louest-pays/
+S0327,https://www.newvision.co.ug/news/1213216/uganda-drc-reach-truce-rukwanzi,manual,archived: https://web.archive.org/web/20261003210011/https://www.newvision.co.ug/news/1213216/uganda-drc-reach-truce-rukwanzi
 S0328,https://www.senat.fr/leg/exposes-des-motifs/pjl25-437-expose.html,manual,
-S0329,https://www.sysselmesteren.no/en/entry-and-residence/,manual,
-S0330,https://www.sysselmesteren.no/en/the-governor-of-svalbard/,manual,
-S0331,https://www.tothevictoriafalls.com/vfpages/tourism/boomtown.html,manual,
+S0329,https://www.sysselmesteren.no/en/entry-and-residence/,manual,archived: https://web.archive.org/web/20261003210126/https://www.sysselmesteren.no/en/entry-and-residence/
+S0330,https://www.sysselmesteren.no/en/the-governor-of-svalbard/,manual,archived: https://web.archive.org/web/20261003210207/https://www.sysselmesteren.no/en/the-governor-of-svalbard/
+S0331,https://www.tothevictoriafalls.com/vfpages/tourism/boomtown.html,manual,archived: https://web.archive.org/web/20261003210250/https://www.tothevictoriafalls.com/vfpages/tourism/boomtown.html
 S0332,https://en.wikipedia.org/w/index.php?title=2024_Israel%E2%80%93Lebanon_ceasefire_agreement&oldid=1373415859,manual,
 S0333,https://en.wikipedia.org/w/index.php?title=2026_Lebanon_war&oldid=1377163492,manual,
 S0334,https://en.wikipedia.org/w/index.php?title=Abkhazia&oldid=1378251591,manual,
@@ -341,9 +341,9 @@ S0337,https://en.wikipedia.org/w/index.php?title=Donetsk_People%27s_Republic&old
 S0338,https://en.wikipedia.org/w/index.php?title=Purple_Line_%28ceasefire_line%29&oldid=1374825815,manual,
 S0339,https://en.wikipedia.org/w/index.php?title=Ras_Nouadhibou&oldid=1377539797,manual,
 S0340,https://en.wikipedia.org/w/index.php?title=Russian_occupation_of_Ukraine&oldid=1377021447,manual,
-S0341,https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=Q0010001,manual,
-S0342,https://matsne.gov.ge/en/document/view/19132,manual,
-S0343,https://minurso.unmissions.org/background,manual,
+S0341,https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=Q0010001,manual,archived: https://web.archive.org/web/20261003210405/https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx
+S0342,https://matsne.gov.ge/en/document/view/19132,manual,archived: https://web.archive.org/web/20260907030912/https://matsne.gov.ge/en/document/view/19132
+S0343,https://minurso.unmissions.org/background,manual,archived: https://web.archive.org/web/20261003210529/https://minurso.unmissions.org/en/background
 S0344,https://www.gov.uk/foreign-travel-advice/british-indian-ocean-territory/entry-requirements,manual,
 S0345,https://www.gov.uk/foreign-travel-advice/ukraine/regional-risks,manual,
 S0346,https://en.wikipedia.org/w/index.php?title=Darchen&oldid=1377590445,manual,
@@ -352,3 +352,5 @@ S0348,https://en.wikipedia.org/w/index.php?title=Kashmir_conflict&oldid=13774904
 S0349,https://en.wikipedia.org/w/index.php?title=Villa_Las_Estrellas&oldid=1373628997,manual,
 S0350,https://ru.wikipedia.org/w/index.php?title=%D0%A3%D0%BA%D0%B0%D1%82%D0%BD%D1%8B%D0%B9&oldid=150038619,manual,
 S0351,https://uk.wikipedia.org/w/index.php?title=%D0%9F%D0%B0%D0%BB%D0%B0%D0%BD%D0%BA%D0%B0_%28%D0%A8%D1%82%D0%B5%D1%84%D0%B0%D0%BD-%D0%92%D0%BE%D0%B4%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%29&oldid=48308531,manual,
+S0352,https://en.wikipedia.org/w/index.php?title=2000_Camp_David_Summit&oldid=1373255584,manual,
+S0353,https://en.wikipedia.org/w/index.php?title=Lokomarinyang&oldid=1338128882,manual,
