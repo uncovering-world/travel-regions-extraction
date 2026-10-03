@@ -1,0 +1,672 @@
+{
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02009R0810-20240628",
+      "authority": "EU / EUR-Lex",
+      "fact_types": [
+        "visa",
+        "law"
+      ],
+      "published_or_updated": "2024-06-28",
+      "checked_on": "2026-09-11",
+      "read_status": "search_excerpt",
+      "limitations": "Article 25 is confirmed by the indexed text; the full consolidated HTML is unavailable. A check of the applicable version is needed before the strict evaluator."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__71.html",
+      "authority": "Germany / Bundesrecht",
+      "fact_types": [
+        "admission",
+        "law"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "§71: competence of the authorities, not a list of all grounds for refusal."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.france-visas.gouv.fr/en/votre-arrivee-en-france",
+      "authority": "France / France-Visas",
+      "fact_types": [
+        "admission",
+        "documents"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Official page; the date of the check does not prove the absence of later or unreflected changes."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-v/articolo-117",
+      "authority": "Italy / Senato",
+      "fact_types": [
+        "constitutional",
+        "admission"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "search_excerpt",
+      "limitations": "Article 117: state competence over immigration; the full HTML refuses access, the indexed text was used."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.interior.gob.es/opencms/ca/servicios-al-ciudadano/tramites-y-gestiones/extranjeria/control-de-fronteras/entrada-en-espana/",
+      "authority": "Spain / Interior",
+      "fact_types": [
+        "entry"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "search_excerpt",
+      "limitations": "National requirements, not an exhaustive audit of exceptions inside the country."
+    },
+    {
+      "id": "S06",
+      "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+      "authority": "US / Department of State",
+      "fact_types": [
+        "admission",
+        "visa"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "CBP decides the question of admission at the port of entry; the page is not a survey of the internal rules of the states."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.mha.gov.in/sites/default/files/2025-09/4merged_16092025.pdf",
+      "authority": "India / Ministry of Home Affairs",
+      "fact_types": [
+        "law",
+        "permits",
+        "geometry"
+      ],
+      "published_or_updated": "2025-09-16",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "A 95-page compilation: Order 2025, paragraph 14 and Third Schedule. The claim boundary in the description is not taken as the actual line of control."
+    },
+    {
+      "id": "S08",
+      "url": "https://s.nia.gov.cn/mps/bszy/wgrcrjEn/e-sqwgrlxz/202201/index.html",
+      "authority": "China / NIA",
+      "fact_types": [
+        "permits",
+        "authority"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "A general procedure for non-open areas; does not establish a list covering Aksai Chin or Shaksgam."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.gov.uk/standard-visitor",
+      "authority": "UK / Home Office",
+      "fact_types": [
+        "visa",
+        "documents"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Official page; the date of the check does not prove the absence of later or unreflected changes."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.norden.org/en/info-norden/passport-requirements-travel-aland",
+      "authority": "Nordic Council of Ministers",
+      "fact_types": [
+        "documents",
+        "visa"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Information page; not proof of full equivalence of all contexts."
+    },
+    {
+      "id": "S11",
+      "url": "https://pub.norden.org/nord2025-038/aland-islands.html",
+      "authority": "Nordic Council of Ministers",
+      "fact_types": [
+        "constitutional",
+        "admission"
+      ],
+      "published_or_updated": "2025",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "National competence over aliens; not a catalogue of every border decision."
+    },
+    {
+      "id": "S12",
+      "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+      "authority": "European Commission / TAXUD",
+      "fact_types": [
+        "customs",
+        "tax"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "A table of the territorial applicability of customs/VAT/excise. Specific baggage formalities are not derived from the tax boundary."
+    },
+    {
+      "id": "S13",
+      "url": "https://www.madeiraairport.pt/en/fnc/passenger-guide/plan-your-trip/passports-and-visas",
+      "authority": "ANA / Madeira Airport",
+      "fact_types": [
+        "documents",
+        "visa"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Auxiliary operator source; the list of Schengen members contains outdated entries. Only evidence of the general regime, not strict proof."
+    },
+    {
+      "id": "S14",
+      "url": "https://www.pontadelgadaairport.pt/en/pdl/passenger-guide/plan-your-trip/passports-and-visas",
+      "authority": "ANA / Ponta Delgada Airport",
+      "fact_types": [
+        "documents",
+        "visa"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "A similar outdated reference classification; a full audit of exceptions has not been done."
+    },
+    {
+      "id": "S15",
+      "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Short-stay-visa/Visa-to-the-Faroe-Island-or-Greenland",
+      "authority": "Denmark / Immigration Service",
+      "fact_types": [
+        "visa",
+        "documents"
+      ],
+      "published_or_updated": "2026-09-04",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Separate visa endorsements; does not prove an autonomous final admission jurisdiction."
+    },
+    {
+      "id": "S16",
+      "url": "https://nyidanmark.dk/en-GB/News-Front-Page/2026/03/New-access-to-entry-to-the-Faroe-Islands-and-Greenland-for-third-country-nationals",
+      "authority": "Denmark / Immigration Service",
+      "fact_types": [
+        "temporal",
+        "visa"
+      ],
+      "published_or_updated": "2026-03-20",
+      "checked_on": "2026-09-11",
+      "read_status": "search_excerpt",
+      "limitations": "A change of access for holders of the corresponding residence documents."
+    },
+    {
+      "id": "S17",
+      "url": "https://www.gov.uk/government/publications/common-travel-area/common-travel-area-accessible",
+      "authority": "UK / Home Office",
+      "fact_types": [
+        "admission",
+        "constitutional",
+        "procedures"
+      ],
+      "published_or_updated": "2026-04-09",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Guidance v16; largely responsible does not mean the absence of recognition of another's leave or of special exceptions."
+    },
+    {
+      "id": "S18",
+      "url": "https://www.gov.je/Travel/InformationAdvice/Visitors/pages/visapassportrequirements.aspx",
+      "authority": "Jersey / Government",
+      "fact_types": [
+        "documents",
+        "entry"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "The day-return conditions apply only to commercial carriers that signed the MOU; carrier rules are separate."
+    },
+    {
+      "id": "S19",
+      "url": "https://www.jerseylaw.je/laws/current/l_16_2021",
+      "authority": "Jersey / legislation",
+      "fact_types": [
+        "admission",
+        "law"
+      ],
+      "published_or_updated": "2021",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Immigration (Jersey) Order 2021: adapted §§3–4; not a full analysis of judicial exceptions."
+    },
+    {
+      "id": "S20",
+      "url": "https://www.gov.im/categories/travel-traffic-and-motoring/immigration/immigration-in-the-isle-of-man/",
+      "authority": "Isle of Man / Government",
+      "fact_types": [
+        "admission",
+        "constitutional"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Official page; the date of the check does not prove the absence of later or unreflected changes."
+    },
+    {
+      "id": "S21",
+      "url": "https://www.gov.bm/bermuda-entry-visas",
+      "authority": "Bermuda / Immigration",
+      "fact_types": [
+        "visa",
+        "documents"
+      ],
+      "published_or_updated": "2026-04-13",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "The rule is in effect from 2023-08-11; the exact nationality schedule of the Order has not been extracted, evidence for a specific citizenship is not claimed."
+    },
+    {
+      "id": "S22",
+      "url": "https://www.gov.fk/customs/visitor-permit/",
+      "authority": "Falkland Islands / Customs & Immigration",
+      "fact_types": [
+        "admission",
+        "permits",
+        "insurance"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Visitor permit: local officers; the status of citizens with right of abode must be considered separately."
+    },
+    {
+      "id": "S23",
+      "url": "https://www.gibraltar.gov.gi/press-releases/technical-notice-reminder-concerning-visa-arrangements-5582026-12201",
+      "authority": "Gibraltar / Government",
+      "fact_types": [
+        "visa",
+        "temporal"
+      ],
+      "published_or_updated": "2026-07-15",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "The new rule is effective 15 July; the territory should not be labelled a formal member of Schengen."
+    },
+    {
+      "id": "S24",
+      "url": "https://www.gibraltar.gov.gi/press-releases/technical-notice-reminder-concerning-immigration-arrangements-at-gibraltar-airport-and-the-crossing-of-schengen-external-borders-5622026-12205",
+      "authority": "Gibraltar / Government",
+      "fact_types": [
+        "border",
+        "temporal"
+      ],
+      "published_or_updated": "2026-07-15",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Dual control; the allocation of the final vetoes requires the full normative text."
+    },
+    {
+      "id": "S25",
+      "url": "https://www.france-visas.gouv.fr/en/la-france-dans-l-espace-schengen",
+      "authority": "France / France-Visas",
+      "fact_types": [
+        "visa"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Confirms the exclusion of overseas from Schengen; the DROM heading on the page is not used for constitutional classification."
+    },
+    {
+      "id": "S26",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10610",
+      "authority": "France / DILA",
+      "fact_types": [
+        "visa",
+        "documents"
+      ],
+      "published_or_updated": "2024-11-20",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "The general overseas rule and exceptions; nationality × document × island requires the assistant/current arrêté. Does not prove general validity of a visa between the islands."
+    },
+    {
+      "id": "S27",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043834347",
+      "authority": "France / Legifrance",
+      "fact_types": [
+        "law",
+        "visa"
+      ],
+      "published_or_updated": "2021",
+      "checked_on": "2026-09-11",
+      "read_status": "search_excerpt",
+      "limitations": "Indexed Article 1: the DROM group; the full text is unavailable. Not used for positive evidence."
+    },
+    {
+      "id": "S28",
+      "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+      "authority": "Netherlands / Ministry of Foreign Affairs",
+      "fact_types": [
+        "visa",
+        "documents",
+        "routes"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Lists and exceptions for short visits. Proof of a visa requirement does not guarantee admission; the summary assertion IDs make it possible not to repeat the text."
+    },
+    {
+      "id": "S29",
+      "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+      "authority": "Netherlands / Ministry of Foreign Affairs",
+      "fact_types": [
+        "stay",
+        "admission"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Limits of stay and conditions; national exceptions are significant, but the 120-day scenarios are not used here."
+    },
+    {
+      "id": "S30",
+      "url": "https://www.government.nl/themes/government-and-democracy/caribbean-parts-of-the-kingdom",
+      "authority": "Netherlands / Government",
+      "fact_types": [
+        "constitutional"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "The status of countries / public bodies does not prove an independent admission jurisdiction."
+    },
+    {
+      "id": "S31",
+      "url": "https://www.gobierno.aw/en/department-for-the-integration-management-and-admission-of-foreign-nationals-dimas-0",
+      "authority": "Aruba / Government",
+      "fact_types": [
+        "authority"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "DIMAS admission/stay and tourist extension; a separate final decision on primary border admission requires a check of the LTU."
+    },
+    {
+      "id": "S32",
+      "url": "https://english.rijksdienstcn.com/immigration-naturalisation",
+      "authority": "Netherlands / RCN",
+      "fact_types": [
+        "authority"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "IND-CN residence and extensions; not a substitute for border admission."
+    },
+    {
+      "id": "S33",
+      "url": "https://english.rijksdienstcn.com/justice--security/royal-netherlands-marechaussee",
+      "authority": "Netherlands / RCN",
+      "fact_types": [
+        "border"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "The national KMar controls the borders of Caribbean Netherlands; a separate municipal final veto is not established."
+    },
+    {
+      "id": "S34",
+      "url": "https://www.un.org/dppa/decolonization/en/nsgt/western-sahara",
+      "authority": "UN / DPPA",
+      "fact_types": [
+        "international_status"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "search_excerpt",
+      "limitations": "NSGT list since 1963; not a recognition of the sovereignty of any party. Indexed text."
+    },
+    {
+      "id": "S35",
+      "url": "https://www.ecoi.net/en/file/local/2131667/n2525337.pdf",
+      "authority": "UN Secretary-General / S/2025/612 (mirror ecoi.net)",
+      "fact_types": [
+        "control",
+        "claims",
+        "access"
+      ],
+      "published_or_updated": "2025-09-30",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Primary UN report on a mirror; 2025 observations, not a current 2026 map. The restrictions on MINURSO do not carry over to ordinary tourists."
+    },
+    {
+      "id": "S36",
+      "url": "https://www.gov.uk/foreign-travel-advice/western-sahara/entry-requirements",
+      "authority": "UK / FCDO",
+      "fact_types": [
+        "entry",
+        "routes"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "The main passport advice for British citizens. Not a specification of the whole immigration jurisdiction and not a universal prohibition of individual trips."
+    },
+    {
+      "id": "S37",
+      "url": "https://www.gov.uk/foreign-travel-advice/western-sahara/safety-and-security",
+      "authority": "UK / FCDO",
+      "fact_types": [
+        "control",
+        "access"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "External official source, coarse control; advice is not law."
+    },
+    {
+      "id": "S38",
+      "url": "https://www.gov.uk/foreign-travel-advice/western-sahara/regional-risks",
+      "authority": "UK / FCDO",
+      "fact_types": [
+        "military",
+        "access",
+        "geometry"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "The 40 km advice zones and the description of the mine hazard are not a legal polygon of a restricted zone."
+    },
+    {
+      "id": "S39",
+      "url": "https://www.gov.uk/foreign-travel-advice/morocco/regional-risks",
+      "authority": "UK / FCDO",
+      "fact_types": [
+        "routes"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "The Morocco–Algeria closure does not establish the regime of Algeria–Polisario or Mauritania–east."
+    },
+    {
+      "id": "S40",
+      "url": "https://ladakh.gov.in/chief-secretary-reviews-protected-area-permit-pap-restricted-area-permit-rap-framework-to-enhance-tourist-facilitation-in-ladakh/",
+      "authority": "Ladakh / Administration",
+      "fact_types": [
+        "permits",
+        "temporal"
+      ],
+      "published_or_updated": "2026-08-24",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "A meeting and proposals, not an act introducing an all-UT PAP."
+    },
+    {
+      "id": "S41",
+      "url": "https://arunachaltourism.com/protected-area-permit/",
+      "authority": "Arunachal Pradesh / Tourism",
+      "fact_types": [
+        "permits"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Tourism procedure; the normative coverage is checked against S07."
+    },
+    {
+      "id": "S42",
+      "url": "https://www.gov.uk/foreign-travel-advice/pakistan/regional-risks",
+      "authority": "UK / FCDO",
+      "fact_types": [
+        "permits",
+        "access"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "The text still contains a notice about the forthcoming June 2026 elections; the freshness of individual blocks is not guaranteed. Travel advice ≠ prohibition."
+    },
+    {
+      "id": "S43",
+      "url": "https://www.gov.uk/foreign-travel-advice/pakistan/safety-and-security",
+      "authority": "UK / FCDO",
+      "fact_types": [
+        "permits",
+        "access"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Restrictions in several AJK districts; not a blanket permit for the whole territory."
+    },
+    {
+      "id": "S44",
+      "url": "https://www.radio.gov.pk/26-03-2019/pms-vision-to-make-pakistan-heaven-for-tourists-fawad",
+      "authority": "Radio Pakistan / statement reporting",
+      "fact_types": [
+        "permits",
+        "temporal"
+      ],
+      "published_or_updated": "2019-03-26",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "A historical statement on the abolition of the NOC with exceptions; not current exhaustive regulation."
+    },
+    {
+      "id": "S45",
+      "url": "https://www.gov.uk/foreign-travel-advice/china/regional-risks",
+      "authority": "UK / FCDO",
+      "fact_types": [
+        "permits",
+        "access"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "TAR permit and organised tour. The guidance about neighbouring areas does not automatically extend the TAR polygon."
+    },
+    {
+      "id": "S46",
+      "url": "https://www.gov.uk/foreign-travel-advice/india/regional-risks",
+      "authority": "UK / FCDO",
+      "fact_types": [
+        "access"
+      ],
+      "published_or_updated": null,
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Warnings and curfews; not proof of a total prohibition or of a separate immigration jurisdiction."
+    },
+    {
+      "id": "S47",
+      "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202601/t20260112_11811345.html",
+      "authority": "China / Ministry of Foreign Affairs",
+      "fact_types": [
+        "claims"
+      ],
+      "published_or_updated": "2026-01-12",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Primary source of China's position; not an independent verification of sovereignty/control."
+    },
+    {
+      "id": "S48",
+      "url": "https://timesofindia.indiatimes.com/india/shaksgam-valley-india-bristles-over-chinas-fresh-claim-dispute-explained/articleshow/126523897.cms",
+      "authority": "Times of India",
+      "fact_types": [
+        "control",
+        "claims"
+      ],
+      "published_or_updated": "2026-01-14",
+      "checked_on": "2026-09-11",
+      "read_status": "full_text",
+      "limitations": "Secondary source from one side of the dispute; coarse administration, the exact military geometry is not established."
+    },
+    {
+      "id": "S49",
+      "url": "https://apnews.com/article/c2585b3764b65270d67ecdcca0037afb",
+      "authority": "Associated Press",
+      "fact_types": [
+        "control",
+        "claims"
+      ],
+      "published_or_updated": "2023-08",
+      "checked_on": "2026-09-11",
+      "read_status": "search_excerpt",
+      "limitations": "A historical independent description of Aksai Chin and Arunachal; the indexed material was read, the URL did not return the full text when opened."
+    },
+    {
+      "id": "S50",
+      "url": "https://unmogip.unmissions.org/en/deployment",
+      "authority": "UNMOGIP",
+      "fact_types": [
+        "control"
+      ],
+      "published_or_updated": "unknown",
+      "checked_on": "2026-09-11",
+      "read_status": "search_excerpt",
+      "limitations": "A list of field stations by administered sides; not a polygon and not a comprehensive current map."
+    },
+    {
+      "id": "S51",
+      "url": "https://ladakh.gov.in/document/opening-up-of-siachen-base-camp-for-tourist/",
+      "authority": "Ladakh / Administration",
+      "fact_types": [
+        "access"
+      ],
+      "published_or_updated": "2023-05-18",
+      "checked_on": "2026-09-11",
+      "read_status": "landing_page",
+      "limitations": "Publication of an order about the base camp: not about the glacier area. The scanned attachment has not been extracted, the detailed conditions are unknown."
+    },
+    {
+      "id": "S52",
+      "url": "https://www.business-standard.com/india-news/defence-minister-rajnath-visits-siachen-reviews-military-preparedness-124042200274_1.html",
+      "authority": "PTI / Business Standard",
+      "fact_types": [
+        "military"
+      ],
+      "published_or_updated": "2024-04-22",
+      "checked_on": "2026-09-11",
+      "read_status": "search_excerpt",
+      "limitations": "A historical report of India's presence; neither civil admission nor exact geometry is derived from it."
+    }
+  ]
+}

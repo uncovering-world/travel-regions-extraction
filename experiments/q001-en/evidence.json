@@ -1,0 +1,619 @@
+{
+  "schema_version": "q001.1",
+  "evidence": [
+    {
+      "id": "E01",
+      "statement": "An LTV visa may be limited to one issuing state; other states are included with consent.",
+      "source_refs": [
+        "S01"
+      ],
+      "locator": "Visa Code Article 25",
+      "evidence_status": "provisional",
+      "observed_as_of": "2024-06-28",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E02",
+      "statement": "Germany: border admission decisions belong to the competent national border authorities.",
+      "source_refs": [
+        "S02"
+      ],
+      "locator": "§71(3)",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E03",
+      "statement": "France: border police check the conditions of admission; holding a visa does not by itself guarantee entry.",
+      "source_refs": [
+        "S03"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E04",
+      "statement": "Italy: immigration is assigned to the exclusive legislative competence of the state.",
+      "source_refs": [
+        "S04"
+      ],
+      "locator": "Constitution Article 117",
+      "evidence_status": "provisional",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E05",
+      "statement": "Spain: the national conditions of entry require documents and the prescribed visa through authorised points.",
+      "source_refs": [
+        "S05"
+      ],
+      "locator": "",
+      "evidence_status": "provisional",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E06",
+      "statement": "US: CBP makes the admission decision at the port of entry.",
+      "source_refs": [
+        "S06"
+      ],
+      "locator": "Entering the United States",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E07",
+      "statement": "India: paragraph 14 establishes permits for foreigners for protected/restricted areas; the territorial list is given separately.",
+      "source_refs": [
+        "S07"
+      ],
+      "locator": "Order 2025 para 14; Third Schedule",
+      "evidence_status": "verified",
+      "observed_as_of": "2025-09-16",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E08",
+      "statement": "The list of protected areas contains the whole of Arunachal Pradesh and parts of Jammu and Kashmir / Ladakh between the Inner Line and the described international boundary.",
+      "source_refs": [
+        "S07"
+      ],
+      "locator": "Third Schedule; PDF pp75–80",
+      "evidence_status": "verified",
+      "observed_as_of": "2025-09-16",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E09",
+      "statement": "China: the travel permit for non-open areas is issued by authorised public security bodies; this is not an independent international admission.",
+      "source_refs": [
+        "S08"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E10",
+      "statement": "UK: a standard civilian visit is usually up to six months; a passport valid for the duration of the stay or an accepted travel document is required.",
+      "source_refs": [
+        "S09"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E11",
+      "statement": "Åland: Finnish visa/document requirements apply; the issuing of a regional passport does not create a different citizenship.",
+      "source_refs": [
+        "S10"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E12",
+      "statement": "Åland: powers concerning aliens remain with Finland.",
+      "source_refs": [
+        "S11"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2025",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E13",
+      "statement": "Åland is in the EU customs territory, but is excluded from the VAT/excise territory; mainland Finland is in all three.",
+      "source_refs": [
+        "S12"
+      ],
+      "locator": "territorial table",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E14",
+      "statement": "Madeira and Azores in the EU customs/VAT/excise table have the same territorial applicability as Portugal.",
+      "source_refs": [
+        "S12"
+      ],
+      "locator": "territorial table",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E15",
+      "statement": "The Madeira and Azores airports describe the Portugal/Schengen document regime, but the reference lists are partly outdated.",
+      "source_refs": [
+        "S13",
+        "S14"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E16",
+      "statement": "An ordinary Schengen short-stay visa does not replace the Faroe Islands / Greenland endorsement. The Danish Immigration Service processes the corresponding entry permits.",
+      "source_refs": [
+        "S15"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E17",
+      "statement": "From 20 March 2026 the corresponding valid Schengen residence permits / qualifying EU-family residence cards give a new exemption for Faroe Islands and Greenland.",
+      "source_refs": [
+        "S15",
+        "S16"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-03-20",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E18",
+      "statement": "Crown Dependencies have their own immigration jurisdictions, with mutual recognition of leave and almost identical visa requirements.",
+      "source_refs": [
+        "S17"
+      ],
+      "locator": "§§2,3.2; largely responsible for enter and stay",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E19",
+      "statement": "Jersey: a French national ID is accepted for a direct day-return on a participating commercial ferry; ordinary arrival from outside the CTA requires a passport, with exceptions.",
+      "source_refs": [
+        "S18"
+      ],
+      "locator": "Arriving from outside CTA",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E20",
+      "statement": "Jersey immigration officers grant or refuse leave; the Minister exercises the corresponding powers over stay.",
+      "source_refs": [
+        "S19"
+      ],
+      "locator": "adapted Immigration Act §§3–4",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E21",
+      "statement": "Isle of Man: its own immigration rules and service; Treasury Minister, decisions on referred visa applications.",
+      "source_refs": [
+        "S20"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E22",
+      "statement": "Bermuda: nationalities listed in the Order require a UK/US/Canada MRV; the MRV and passport must remain valid for 45 days after the visit.",
+      "source_refs": [
+        "S21"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E23",
+      "statement": "Falkland Islands: the visitor permit is issued by local immigration officers; over one month — referral; evacuation insurance of at least USD 2 million.",
+      "source_refs": [
+        "S22"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E24",
+      "statement": "Gibraltar accepts Schengen short visas from 15 July 2026; the former exemption based on a UK visa/residence has ended.",
+      "source_refs": [
+        "S23"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-07-15",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E25",
+      "statement": "Gibraltar airport: the new arrangements provide for Gibraltar and Schengen checks; the allocation of the veto is not separately established.",
+      "source_refs": [
+        "S24"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-07-15",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E26",
+      "statement": "French overseas are excluded from Schengen: an appropriate destination visa is required unless an exemption applies; a Schengen residence permit or D visa creates an exception.",
+      "source_refs": [
+        "S25",
+        "S26"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E27",
+      "statement": "Réunion, Guadeloupe, Martinique and Saint-Martin are in the EU customs territory, excluded from VAT/excise; Saint-Barthélemy and the other listed overseas are outside EU customs.",
+      "source_refs": [
+        "S12"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E28",
+      "statement": "Jamaica ordinary passport: Curaçao visa-free, the other Dutch Caribbean require a visa in the absence of other exemptions.",
+      "source_refs": [
+        "S28"
+      ],
+      "locator": "nationalities",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E29",
+      "statement": "Dutch Caribbean: a Schengen MULT visa or a qualifying residence permit exempts from the Caribbean visa.",
+      "source_refs": [
+        "S28"
+      ],
+      "locator": "visa or residence permit",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E30",
+      "statement": "A visa for Saint-Martin exempts from the separate Sint Maarten visa, but not from that of the other Dutch Caribbean.",
+      "source_refs": [
+        "S28"
+      ],
+      "locator": "Saint Martin",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E31",
+      "statement": "Airside transit: Aruba 07–23; Bonaire 48h; Curaçao 48h with an exception for Haiti. Cruise exemption: Aruba 24h, the others 48h.",
+      "source_refs": [
+        "S28"
+      ],
+      "locator": "transit/cruise",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E32",
+      "statement": "US refugee travel document Form I-571 is a separate ground of exemption from the Dutch Caribbean visa.",
+      "source_refs": [
+        "S28"
+      ],
+      "locator": "refugee documents",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E33",
+      "statement": "Aruba, Curaçao and Sint Maarten are constituent countries; Bonaire is a public body of the Netherlands.",
+      "source_refs": [
+        "S30"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E34",
+      "statement": "Aruba DIMAS handles admission/stay and tourist extensions under local competence; a border final veto is not proven by this description.",
+      "source_refs": [
+        "S31"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E35",
+      "statement": "Bonaire: IND-CN handles immigration policy and extensions, KMar carries out border controls.",
+      "source_refs": [
+        "S32",
+        "S33"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E36",
+      "statement": "Western Sahara remains an object of the UN decolonization / Non-Self-Governing Territories list.",
+      "source_refs": [
+        "S34"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E37",
+      "statement": "Morocco administers most of Western Sahara; these sources do not establish an exact current civil/military boundary.",
+      "source_refs": [
+        "S35",
+        "S37"
+      ],
+      "locator": "UN report + independent external government guidance",
+      "evidence_status": "verified",
+      "observed_as_of": "2025-09-30",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E38",
+      "statement": "The UN report records the Moroccan and Frente POLISARIO positions and military actions; east of the Berm, restrictions on MINURSO by POLISARIO.",
+      "source_refs": [
+        "S35"
+      ],
+      "locator": "paras 1–9,41",
+      "evidence_status": "verified",
+      "observed_as_of": "2025-09-30",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E39",
+      "statement": "British ordinary passport: up to 90 days without a visa in Morocco and Moroccan-administered Western Sahara; check the Moroccan entry stamp.",
+      "source_refs": [
+        "S36"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E40",
+      "statement": "FCDO reports restrictions on independent access to Western Sahara, but does not set sufficiently precise legal conditions or polygons.",
+      "source_refs": [
+        "S36",
+        "S37"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E41",
+      "statement": "Berm is a militarised structure and a mine-hazard area; advice buffers are not an exact administrative or legal boundary.",
+      "source_refs": [
+        "S35",
+        "S38"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E42",
+      "statement": "The Morocco–Algeria land/sea border is closed; unauthorised crossing is illegal.",
+      "source_refs": [
+        "S39"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E43",
+      "statement": "Ladakh: the August 2026 review describes the existing northern/eastern PAP areas; an all-UT PAP was discussed as a proposal.",
+      "source_refs": [
+        "S40"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-08-24",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E44",
+      "statement": "Arunachal Pradesh: foreign tourists need a PAP; the tourism source describes issuance through authorised operators/bodies.",
+      "source_refs": [
+        "S07",
+        "S41"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E45",
+      "statement": "Gilgit-Baltistan: FCDO instructs foreigners to register; trekking permits relate to routes/activities, not automatically to the whole territory.",
+      "source_refs": [
+        "S42"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E46",
+      "statement": "In several districts of Azad Jammu and Kashmir prior permission is required; there are separate border/LoC restrictions.",
+      "source_refs": [
+        "S42",
+        "S43"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E47",
+      "statement": "In 2019 the abolition of the NOC for GB/AJK was announced, with exceptions for sensitive border zones.",
+      "source_refs": [
+        "S44"
+      ],
+      "locator": "",
+      "evidence_status": "historical",
+      "observed_as_of": "2019-03-26",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E48",
+      "statement": "Tibet Autonomous Region: foreign visitors require a permit and an organised tour through a specialised Chinese agency.",
+      "source_refs": [
+        "S45"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E49",
+      "statement": "Jammu and Kashmir: curfews and access restrictions are possible; security and tourist warnings are not equal to a visa regime.",
+      "source_refs": [
+        "S46"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E50",
+      "statement": "Aksai Chin: AP describes China control and India claim; Arunachal Pradesh — India control and China claim.",
+      "source_refs": [
+        "S49"
+      ],
+      "locator": "",
+      "evidence_status": "historical",
+      "observed_as_of": "2023-08",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E51",
+      "statement": "China asserts sovereignty over Shaksgam Valley and refers to the 1963 agreement; this is an attributed position.",
+      "source_refs": [
+        "S47"
+      ],
+      "locator": "",
+      "evidence_status": "verified",
+      "observed_as_of": "2026-01-12",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E52",
+      "statement": "A secondary source describes Shaksgam as China-administered and cites the India claim.",
+      "source_refs": [
+        "S48"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2026-01-14",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E53",
+      "statement": "UNMOGIP places field stations on the India-administered and Pakistan-administered sides; Gilgit and Skardu are assigned to the latter.",
+      "source_refs": [
+        "S50"
+      ],
+      "locator": "",
+      "evidence_status": "provisional",
+      "observed_as_of": "2026-09-11",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E54",
+      "statement": "There is a publication about the opening of the Siachen base camp to tourists; it does not establish accessibility of the Siachen Glacier as a whole.",
+      "source_refs": [
+        "S51"
+      ],
+      "locator": "",
+      "evidence_status": "qualified",
+      "observed_as_of": "2023-05-18",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "E55",
+      "statement": "A historical PTI report confirms India military presence in Siachen; the exact polygon and civil administration are not established.",
+      "source_refs": [
+        "S52"
+      ],
+      "locator": "",
+      "evidence_status": "historical",
+      "observed_as_of": "2024-04-22",
+      "checked_on": "2026-09-11"
+    }
+  ]
+}

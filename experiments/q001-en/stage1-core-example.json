@@ -1,0 +1,53 @@
+{
+  "schema_version": "s1-core-input-v1",
+  "profile": "S1-core-v1",
+  "traveller_scope": "civilian-short-stay-v1",
+  "comparison_id": "SYNTH-CR-W",
+  "as_of": "2026-09-12",
+  "scopes": {"a": "scope-a", "b": "scope-b"},
+  "metadata": {"synthetic": true, "notice": "Logical fixture only; no geographic or legal fact is asserted."},
+  "evidence": {
+    "SYNTH-PROOF": {
+      "status": "verified",
+      "source_ref": "synthetic-fixture-assumptions",
+      "locator": "explicit stipulated premises, not an external geographic source",
+      "source_competence": "synthetic proof oracle for R044 gates and decisions",
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "traveller_scope": "civilian-short-stay-v1",
+      "scopes": ["scope-a", "scope-b"],
+      "contexts": ["visitor-class-1"]
+    }
+  },
+  "certificates": [{
+    "id": "W1",
+    "status": "verified",
+    "dimension": "visa_eta_admission_authorisation_requirement",
+    "traveller_scope": "civilian-short-stay-v1",
+    "as_of": "2026-09-12",
+    "scope_a": "scope-a",
+    "scope_b": "scope-b",
+    "rule_kind": "standing_class_rule",
+    "context": {
+      "id": "visitor-class-1",
+      "purpose": "civilian_short_stay",
+      "class_basis": "class_rule",
+      "trip_class": "direct civilian arrival, seven-day visit",
+      "attributes": {
+        "document_class": "synthetic-document-class",
+        "duration_days": 7,
+        "other_authorisations": "none",
+        "exceptions": "none apply under the stipulated proof"
+      }
+    },
+    "gates": {
+      "G-SCOPE": {"state": "proven_true", "evidence_refs": ["SYNTH-PROOF"]},
+      "G-CONTEXT": {"state": "proven_true", "evidence_refs": ["SYNTH-PROOF"]},
+      "G-HARD": {"state": "proven_true", "evidence_refs": ["SYNTH-PROOF"]},
+      "G-TIME": {"state": "proven_true", "evidence_refs": ["SYNTH-PROOF"]},
+      "G-EVIDENCE": {"state": "proven_true", "evidence_refs": ["SYNTH-PROOF"]}
+    },
+    "decision_a": {"state": "known_value", "value": "visa_required", "evidence_refs": ["SYNTH-PROOF"]},
+    "decision_b": {"state": "known_value", "value": "visa_exempt", "evidence_refs": ["SYNTH-PROOF"]}
+  }]
+}

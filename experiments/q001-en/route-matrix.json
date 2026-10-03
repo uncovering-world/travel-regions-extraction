@@ -1,0 +1,72 @@
+{
+  "scope": "Western Sahara route hypotheses and sourced limitations",
+  "routes": [
+    {
+      "origin": "Morocco proper",
+      "destination": "wsw",
+      "route_legality": "Moroccan stamp expected; exact checkpoint law unknown",
+      "physical_access": "visa rule for British ordinary passport documented",
+      "permit": "unknown",
+      "final_admission_authority": "unknown",
+      "evidence_refs": [
+        "E39",
+        "E40"
+      ]
+    },
+    {
+      "origin": "Algeria",
+      "destination": "Morocco proper",
+      "route_legality": "land/sea border closed; unauthorised crossing illegal",
+      "physical_access": "not an ordinary legal land route",
+      "permit": "unknown",
+      "final_admission_authority": "unknown",
+      "evidence_refs": [
+        "E42"
+      ]
+    },
+    {
+      "origin": "Algeria",
+      "destination": "wse",
+      "route_legality": "unknown",
+      "physical_access": "ordinary civilian availability unknown",
+      "permit": "unknown",
+      "final_admission_authority": "unknown",
+      "evidence_refs": [
+        "E38"
+      ]
+    },
+    {
+      "origin": "Mauritania",
+      "destination": "wsw",
+      "route_legality": "unknown: current authorised crossing requirements not verified",
+      "physical_access": "unknown: do not infer opening from planned roads",
+      "permit": "unknown",
+      "final_admission_authority": "unknown",
+      "evidence_refs": [
+        "E38"
+      ]
+    },
+    {
+      "origin": "Mauritania",
+      "destination": "wse",
+      "route_legality": "unknown",
+      "physical_access": "unknown",
+      "permit": "unknown",
+      "final_admission_authority": "unknown",
+      "evidence_refs": [
+        "E38"
+      ]
+    },
+    {
+      "origin": "wsw",
+      "destination": "wse",
+      "route_legality": "unknown: no ordinary legal crossing established",
+      "physical_access": "Berm mine/military hazard",
+      "permit": "unknown",
+      "final_admission_authority": "unknown",
+      "evidence_refs": [
+        "E41"
+      ]
+    }
+  ]
+}
