@@ -119,6 +119,8 @@ The list of entry rules is still the one-off census of 116 rows; a scripted disc
 
 Result: 322 regions, 309 with nothing open; 87 special places; 2 missing facts.
 
+Correction the same day: two register areas inside Antarctica (the overlapping Peninsula claims and Marie Byrd Land) had come out as regions; Antarctica is one cell (D040). The list build now treats any area tied to an ISO entry the same way instead of naming four areas in its code. After the correction: 320 regions, 307 with nothing open.
+
 ## Status
 
 Concluded 2026-10-04 (six runs).

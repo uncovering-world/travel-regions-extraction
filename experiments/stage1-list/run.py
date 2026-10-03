@@ -131,13 +131,12 @@ def main() -> None:
         if not kind:
             gap("kind", "everything")
         elif link.get("iso"):
-            if a["area_id"] in ("west-bank", "gaza-strip", "sadr-free-zone", "western-sahara-moroccan-controlled"):
-                markers.append({"area_id": a["area_id"], "name": a["name"], "marker": f"part of the ISO entry {link['iso']}"})
-                if cell:
-                    h = held.get(a["area_id"], {})
-                    region("registry: points of view differ", f"held by {h.get('holder', '?')} since {h.get('holder_since', '?')}", "" if h else "who holds it")
-            else:
-                markers.append({"area_id": a["area_id"], "name": a["name"], "marker": f"is the ISO entry {link['iso']}; {kind}"})
+            # the area is, or lies inside, an ISO entry: that entry is the region (Antarctica is one cell, D040);
+            # a registry cell inside it still separates
+            markers.append({"area_id": a["area_id"], "name": a["name"], "marker": f"covered by the ISO entry {link['iso']}; {kind}"})
+            if cell:
+                h = held.get(a["area_id"], {})
+                region("registry: points of view differ", f"held by {h.get('holder', '?')} since {h.get('holder_since', '?')}", "" if h else "who holds it")
         elif kind in SPECIAL:
             place("a dispute about a line or an undelimited stretch; the land goes with whoever holds it")
         elif kind == "unclaimed":
