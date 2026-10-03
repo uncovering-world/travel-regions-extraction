@@ -134,8 +134,8 @@ def main() -> None:
             if a["area_id"] in ("west-bank", "gaza-strip", "sadr-free-zone", "western-sahara-moroccan-controlled"):
                 markers.append({"area_id": a["area_id"], "name": a["name"], "marker": f"part of the ISO entry {link['iso']}"})
                 if cell:
-                    region("registry: points of view differ", "by the settling rule", "who holds it and since when")
-                    gap("who holds the area and since when, as register fields", "the country it is listed under")
+                    h = held.get(a["area_id"], {})
+                    region("registry: points of view differ", f"held by {h.get('holder', '?')} since {h.get('holder_since', '?')}", "" if h else "who holds it")
             else:
                 markers.append({"area_id": a["area_id"], "name": a["name"], "marker": f"is the ISO entry {link['iso']}; {kind}"})
         elif kind in SPECIAL:
@@ -156,12 +156,13 @@ def main() -> None:
                 place("residents unknown: treated as a special place until sourced")
                 gap("whether civilians live there", "region or special place")
         elif kind == "lease_or_base":
-            if rule and entry_rule(census[rule])[0]:
-                region("leased area with its own entry rule", "the lessor", "; ".join(entry_rule(census[rule])[1]))
-            elif rule:
-                place("leased; its recorded entry rule does not qualify")
+            access = a["traveller_access"]
+            if access in ("restricted", "closed", "expedition_only"):
+                region("leased area with its own access rule", "the lessor")
+            elif access == "open":
+                place("leased; open to visitors under the ordinary rules")
             else:
-                place("leased; no entry rule of its own recorded")
+                place("leased; access rule not recorded")
                 gap("whether entry follows its own rules", "region or special place")
         elif kind in BY_CONTROL:
             h = held.get(a["area_id"], {})
@@ -181,13 +182,16 @@ def main() -> None:
                 whose, pending = "by the settling rule", "who holds it and since when"
                 gap("who holds the area and since when", "the country it is listed under")
             moving = h.get("stated_outline", "").startswith("none")
-            if (cell or (rule and entry_rule(census[rule])[0])) and not moving:
-                region("registry: points of view differ" if cell else "entry rule", whose, pending)
-            elif moving:
+            # for an area another party holds, the holder's own entry rule is the witness; the test for units of
+            # one country (top-level, or detached with its own rule) is not applied to it
+            witness = bool(rule) and census[rule]["regime_kind"] not in NOT_A_WITNESS and census[rule]["evidence"] in CITED \
+                and rule_facts.get(rule, {}).get("in_force", census[rule]["in_force_2026"]) == "yes"
+            if moving:
                 markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "the line is moving: a flag on the regions it touches; " + whose})
+            elif cell or witness:
+                region("registry: points of view differ" if cell else "entry rule of the holder", whose, pending)
             else:
-                markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "held by another party; no stated outline or entry rule recorded, so a flag on the regions it touches"})
-                gap("a registry cell, an entry rule, or confirmation that the line is still moving", "region or flag")
+                markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; " + whose})
 
     for cid, c in registry.items():
         if cid not in used_cells:

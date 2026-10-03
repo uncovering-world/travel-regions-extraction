@@ -1,48 +1,24 @@
 area_id,name,kind,missing,undecided
 abyei,Abyei Area,own_regime,whether civilians live there,region or special place
-akrotiri-dhekelia,Akrotiri and Dhekelia Sovereign Base Areas,lease_or_base,whether entry follows its own rules,region or special place
-ankoko-island,Ankoko Island,occupied_or_annexed,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
 antarctic-peninsula-overlap,Overlapping Antarctic claims 25°W-80°W,own_regime,whether civilians live there,region or special place
 armistice-no-mans-lands,"1949 no-man's-lands (Latrun, Jerusalem) and Mount Scopus enclave",,kind,everything
-artsvashen,Artsvashen (Bashkend),occupied_or_annexed,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
-azerbaijani-held-armenian-border-areas,Border heights inside Armenia held by Azerbaijan since 2021-2022,occupied_or_annexed,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
 bhutanese-enclaves-tibet,"Former Bhutanese enclaves in western Tibet (Darchen, Khochar and others)",,kind,everything
 caspian-islets-ukatny,"Ukatny, Zhestky and Maly Zhemchuzhny islands",islets_for_maritime_zone,whether civilians live there,region or special place
-chagos,Chagos Archipelago (British Indian Ocean Territory),occupied_or_annexed,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
-diego-garcia,Diego Garcia base,lease_or_base,whether entry follows its own rules,region or special place
 doi-lang,Doi Lang,,kind,everything
-gazakh-exclaves,"Barkhudarli, Sofulu and Yukhari Askipara",occupied_or_annexed,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
-ghajar,Ghajar (northern part),occupied_or_annexed,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
-guantanamo-bay,Guantanamo Bay Naval Base,lease_or_base,whether entry follows its own rules,region or special place
 ilemi-triangle,Ilemi Triangle,paper_claim,whether civilians live there,region or special place
-israeli-posts-south-lebanon,Israeli-held points in south Lebanon,occupied_or_annexed,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
 kafia-kingi,Kafia Kingi enclave,occupied_or_annexed,who holds the area and since when,the country it is listed under
-kafia-kingi,Kafia Kingi enclave,occupied_or_annexed,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
-karki,Karki (Tigranashen),occupied_or_annexed,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
-kinmen-matsu,"Kinmen, Matsu and Wuqiu",de_facto_state,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
-kokkina,Kokkina (Erenköy) exclave,de_facto_state,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
-la-guera,La Güera and the western side of Ras Nouadhibou,occupied_or_annexed,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
 ladakh-lac-buffer-zones,"Eastern Ladakh LAC friction areas (Depsang, Galwan, Pangong north bank, Gogra-Hot Springs)",own_regime,whether civilians live there,region or special place
 minerva-reefs,Minerva Reefs,islets_for_maritime_zone,whether civilians live there,region or special place
 moldauhafen,Moldauhafen and Saalehafen (Hamburg),lease_or_base,whether entry follows its own rules,region or special place
 moselle-condominium,"Germany-Luxembourg river condominium (Moselle, Sauer, Our)",own_regime,whether civilians live there,region or special place
 palanca-road,Odesa-Reni road section at Palanca,lease_or_base,whether entry follows its own rules,region or special place
-pratas,Pratas (Dongsha) Island,de_facto_state,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
 russian-ranges-kazakhstan,Russian-leased military test ranges in Kazakhstan (Sary-Shagan and others),lease_or_base,whether entry follows its own rules,region or special place
-saimaa-canal,Saimaa Canal (Russian section),lease_or_base,whether entry follows its own rules,region or special place
 shaksgam,Trans-Karakoram Tract (Shaksgam Valley),paper_claim,whether civilians live there,region or special place
 suleyman-shah-tomb,Tomb of Suleyman Shah,lease_or_base,whether entry follows its own rules,region or special place
 tin-bigha,Tin Bigha Corridor (Dahagram-Angarpota access),lease_or_base,whether entry follows its own rules,region or special place
 tiwinza,Tiwinza,lease_or_base,whether entry follows its own rules,region or special place
 tort-kocho-road,Tort-Kocho road (Vorukh access),own_regime,whether civilians live there,region or special place
-transnistria,Transnistria (including Bender),de_facto_state,"a registry cell, an entry rule, or confirmation that the line is still moving",region or flag
 varosha,Varosha (Maraş),own_regime,whether civilians live there,region or special place
-western-sahara-moroccan-controlled,Western Sahara west of the berm,occupied_or_annexed,"who holds the area and since when, as register fields",the country it is listed under
-,BT/Bhutan#1159320455,,the register area this registry cell corresponds to,region or special place
-,IN/India#1159320865,,the register area this registry cell corresponds to,region or special place
-,IN/India#1159320859,,the register area this registry cell corresponds to,region or special place
-,UA/Ukraine#1763286545,,the register area this registry cell corresponds to,region or special place
-,UA/Ukraine#1763286547,,the register area this registry cell corresponds to,region or special place
 ,Nakhchivan Autonomous Republic,entry_rule,not confirmed in force,region or object inside its region
 ,Hainan Province,entry_rule,whether the unit is a top-level unit of its country,region or object inside its region
 ,Tibet Autonomous Region,entry_rule,start date of the rule,region or object inside its region
