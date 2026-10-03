@@ -1,0 +1,45 @@
+region,searched,item,label,description,reviewed
+area/baikonur,Baikonur Cosmodrome and city,Q165413,Baikonur,"city in Kazakhstan, administered by Russia (the lease also covers the cosmodrome, Q177477)",2026-10-04
+area/diego-garcia,Diego Garcia base,Q184851,Diego Garcia,Chagos atoll in the Indian Ocean,2026-10-04
+area/gornja-siga,Gornja Siga and other west-bank pockets,Q102285156,Gornja Siga,terra nullius between Croatia and Serbia (the other pockets have no item),2026-10-04
+area/kinmen-matsu,"Kinmen, Matsu and Wuqiu",Q249870,Kinmen County,"Kinmen only; Matsu is Lienchiang County, Q249872",2026-10-04
+area/koalou,Koalou,,,"the item found is a village, not the zone; no item for the zone",2026-10-04
+area/korean-dmz,Korean Demilitarized Zone,Q331990,Korean Demilitarized Zone,demilitarized zone in Korea,2026-10-04
+area/moldauhafen,Moldauhafen and Saalehafen,Q280224,Moldauhafen,lot in the port of Hamburg (Saalehafen not tied),2026-10-04
+area/rukwanzi-semliki,Rukwanzi Island,Q1714359,Rukwanzi Island,island in Democratic Republic of the Congo,2026-10-04
+area/russian-ranges-kazakhstan,Russian-leased military test ranges in Kazakhstan,Q782082,Sary Shagan,one of the ranges,2026-10-04
+area/tiwinza,Tiwinza,Q124045778,Tiwinza area,,2026-10-04
+area/transnistria,Transnistria,Q907112,Transnistria,unrecognized state in the international borders of Moldova,2026-10-04
+area/transnistria-security-zone,Dniester Security Zone,,,no item found,2026-10-04
+area/undof-zone,UNDOF area of separation,,,no item found,2026-10-04
+area/varosha,Varosha,Q75666,Varosha,human settlement in Cyprus,2026-10-04
+rule/au-macquarie-island,Macquarie Island,Q46650,Macquarie Island,sub-Antarctic island of Australia,2026-10-04
+rule/az-nakhchivan,Nakhchivan Autonomous Republic,Q131083,Nakhchivan Autonomous Republic,autonomous republic of Azerbaijan,2026-10-04
+rule/cl-rapa-nui,Rapa Nui,Q115116609,Easter Island,special territory of Chile,2026-10-04
+rule/cn-hainan,Hainan Province,Q42200,Hainan,province of China,2026-10-04
+rule/cn-tibet,Tibet Autonomous Region,Q17269,Tibet Autonomous Region,autonomous region of China,2026-10-04
+rule/co-san-andres,"Archipelago of San Andrés, Providencia and Santa Catalina",Q26855,"Archipelago of San Andrés, Providencia and Santa Catalina",department of Colombia,2026-10-04
+rule/ec-galapagos,Galápagos Province,Q475038,Galápagos Province,province of Ecuador,2026-10-04
+rule/fr-clipperton,Clipperton Island,Q161258,Clipperton Island,French atoll in the Pacific Ocean,2026-10-04
+rule/gr-mount-athos,Mount Athos,Q780149,monastic community of Mount Athos,autonomous part of Greece,2026-10-04
+rule/in-lakshadweep,Lakshadweep,Q26927,Lakshadweep,union territory of India,2026-10-04
+rule/in-manipur,Manipur,Q1193,Manipur,state in northeastern India,2026-10-04
+rule/in-minicoy-maldivians,Minicoy,Q162448,Minicoy,atoll in India,2026-10-04
+rule/in-mizoram,Mizoram,Q1502,Mizoram,state in northeastern India,2026-10-04
+rule/in-nagaland,Nagaland,Q1599,Nagaland,state in Northeastern India,2026-10-04
+rule/in-sikkim,Sikkim,Q1505,Sikkim,state in northeastern India,2026-10-04
+rule/iq-kurdistan,Kurdistan Region of Iraq,Q205047,Kurdistan Region of Iraq,federal region of the Republic of Iraq,2026-10-04
+rule/kr-jeju,Jeju Province,Q41164,Jeju Province,province of South Korea,2026-10-04
+rule/my-labuan,Labuan,Q214504,Labuan,federal territory of Malaysia,2026-10-04
+rule/my-sabah,Sabah,Q179029,Sabah,state of Malaysia,2026-10-04
+rule/my-sarawak,Sarawak,Q170462,Sarawak,state of Malaysia,2026-10-04
+rule/ru-chukotka,Chukotka Autonomous Okrug,Q7984,Chukotka Autonomous District,federal subject of Russia,2026-10-04
+rule/sh-ascension,Ascension Island,Q46197,Ascension Island,"equatorial island in the Atlantic Ocean, a British overseas territory belonging to the United Kingdom",2026-10-04
+rule/sh-saint-helena,Saint Helena,Q34497,Saint Helena,island in the South Atlantic Ocean,2026-10-04
+rule/sh-tristan-da-cunha,Tristan da Cunha,Q220982,Tristan da Cunha,South Atlantic island group,2026-10-04
+rule/sj-jan-mayen,Jan Mayen,Q14056,Jan Mayen,"island in the Arctic Ocean, part of Norway",2026-10-04
+rule/tj-gbao,Gorno-Badakhshan Autonomous Oblast,Q207319,Gorno-Badakhshan Autonomous Region,autonomous region of Tajikistan,2026-10-04
+rule/tw-penghu,Penghu County,Q198525,Penghu County,county of Taiwan,2026-10-04
+rule/tz-zanzibar,Zanzibar,Q1774,Zanzibar Islands,semi-autonomous part of Tanzania,2026-10-04
+rule/vn-phu-quoc,Phu Quoc Island,Q146695,Phú Quốc,"Special zone of An Giang province, Vietnam",2026-10-04
+rule/ye-socotra,Socotra Archipelago,Q15728745,Socotra Archipelago Governorate,Yemeni governorate that makes up the Socotra Archipelago in the Guardafui Channel,2026-10-04

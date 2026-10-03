@@ -1,0 +1,321 @@
+region,name,basis,item,tied_by,osm_relation,gadm_id,iso_3166_2,natural_earth,outline_sources
+AD,Andorra,ISO 3166-1 entry,Q228,Natural Earth admin-0 feature by ISO code,9407,AND,,admin-0,Natural Earth + GADM + OpenStreetMap
+AE,United Arab Emirates,ISO 3166-1 entry,Q878,Natural Earth admin-0 feature by ISO code,307763,ARE,,admin-0,Natural Earth + GADM + OpenStreetMap
+AF,Afghanistan,ISO 3166-1 entry,Q889,Natural Earth admin-0 feature by ISO code,303427,AFG,,admin-0,Natural Earth + GADM + OpenStreetMap
+AG,Antigua and Barbuda,ISO 3166-1 entry,Q316390,Natural Earth admin-0 feature by ISO code,7117069,,,admin-0,Natural Earth + OpenStreetMap
+AI,Anguilla,ISO 3166-1 entry,Q25228,Natural Earth admin-0 feature by ISO code,2177161,AIA,,admin-0,Natural Earth + GADM + OpenStreetMap
+AL,Albania,ISO 3166-1 entry,Q222,Natural Earth admin-0 feature by ISO code,53292,ALB,,admin-0,Natural Earth + GADM + OpenStreetMap
+AM,Armenia,ISO 3166-1 entry,Q399,Natural Earth admin-0 feature by ISO code,364066,,,admin-0,Natural Earth + OpenStreetMap
+AO,Angola,ISO 3166-1 entry,Q916,Natural Earth admin-0 feature by ISO code,195267,AGO,,admin-0,Natural Earth + GADM + OpenStreetMap
+AQ,Antarctica,ISO 3166-1 entry,Q51,Natural Earth admin-0 feature by ISO code,2186646,ATA,,admin-0,Natural Earth + GADM + OpenStreetMap
+AR,Argentina,ISO 3166-1 entry,Q414,Natural Earth admin-0 feature by ISO code,286393,ARG,,admin-0,Natural Earth + GADM + OpenStreetMap
+AS,American Samoa,ISO 3166-1 entry,Q16641,Natural Earth admin-0 feature by ISO code,2177187,ASM,US-AS,admin-0,Natural Earth + GADM + OpenStreetMap
+AT,Austria,ISO 3166-1 entry,Q40,Natural Earth admin-0 feature by ISO code,16239,AUT,,admin-0,Natural Earth + GADM + OpenStreetMap
+AU,Australia,ISO 3166-1 entry,Q408,Natural Earth admin-0 feature by ISO code,80500,AUS,,admin-0,Natural Earth + GADM + OpenStreetMap
+AW,Aruba,ISO 3166-1 entry,Q21203,Natural Earth admin-0 feature by ISO code,1231749,ABW,NL-AW,admin-0,Natural Earth + GADM + OpenStreetMap
+AX,Åland Islands,ISO 3166-1 entry,Q5689,Natural Earth admin-0 feature by ISO code,2375170,ALA,FI-01,admin-0,Natural Earth + GADM + OpenStreetMap
+AZ,Azerbaijan,ISO 3166-1 entry,Q227,Natural Earth admin-0 feature by ISO code,364110,AZE,,admin-0,Natural Earth + GADM + OpenStreetMap
+BA,Bosnia and Herzegovina,ISO 3166-1 entry,Q11198,Natural Earth admin-0 feature by ISO code,2528144,,BA-BIH,admin-0,Natural Earth + OpenStreetMap
+BB,Barbados,ISO 3166-1 entry,Q244,Natural Earth admin-0 feature by ISO code,547511,,,admin-0,Natural Earth + OpenStreetMap
+BD,Bangladesh,ISO 3166-1 entry,Q902,Natural Earth admin-0 feature by ISO code,184640,BGD,,admin-0,Natural Earth + GADM + OpenStreetMap
+BE,Belgium,ISO 3166-1 entry,Q1118,Natural Earth admin-0 feature by ISO code,58004,BEL.2.4_1,BE-VBR,admin-0,Natural Earth + GADM + OpenStreetMap
+BF,Burkina Faso,ISO 3166-1 entry,Q965,Natural Earth admin-0 feature by ISO code,192783,,,admin-0,Natural Earth + OpenStreetMap
+BG,Bulgaria,ISO 3166-1 entry,Q219,Natural Earth admin-0 feature by ISO code,186382,BGR,,admin-0,Natural Earth + GADM + OpenStreetMap
+BH,Bahrain,ISO 3166-1 entry,Q398,Natural Earth admin-0 feature by ISO code,378734,BHR,,admin-0,Natural Earth + GADM + OpenStreetMap
+BI,Burundi,ISO 3166-1 entry,Q967,Natural Earth admin-0 feature by ISO code,195269,BDI,,admin-0,Natural Earth + GADM + OpenStreetMap
+BJ,Benin,ISO 3166-1 entry,Q962,Natural Earth admin-0 feature by ISO code,192784,BEN,,admin-0,Natural Earth + GADM + OpenStreetMap
+BL,Saint Barthélemy,ISO 3166-1 entry,Q25362,Natural Earth admin-0 feature by ISO code,537967 7552779,BLM,FR-BL,admin-0,Natural Earth + GADM + OpenStreetMap
+BM,Bermuda,ISO 3166-1 entry,Q23635,Natural Earth admin-0 feature by ISO code,1993208,,,admin-0,Natural Earth + OpenStreetMap
+BN,Brunei Darussalam,ISO 3166-1 entry,Q921,Natural Earth admin-0 feature by ISO code,2103120,BRN,,admin-0,Natural Earth + GADM + OpenStreetMap
+BO,"Bolivia, Plurinational State of",ISO 3166-1 entry,Q750,Natural Earth admin-0 feature by ISO code,252645,BOL,,admin-0,Natural Earth + GADM + OpenStreetMap
+BQ,"Bonaire, Sint Eustatius and Saba",ISO 3166-1 entry,Q27561,Natural Earth admin-0 feature by ISO code,1216720,,,admin-0,Natural Earth + OpenStreetMap
+BR,Brazil,ISO 3166-1 entry,Q155,Natural Earth admin-0 feature by ISO code,59470,,,admin-0,Natural Earth + OpenStreetMap
+BS,Bahamas,ISO 3166-1 entry,Q778,Natural Earth admin-0 feature by ISO code,547469,,,admin-0,Natural Earth + OpenStreetMap
+BT,Bhutan,ISO 3166-1 entry,Q917,Natural Earth admin-0 feature by ISO code,184629,BTN,,admin-0,Natural Earth + GADM + OpenStreetMap
+BV,Bouvet Island,ISO 3166-1 entry,Q23408,Natural Earth admin-0 feature by ISO code,2425963 13360562,,,admin-0,Natural Earth + OpenStreetMap
+BW,Botswana,ISO 3166-1 entry,Q963,Natural Earth admin-0 feature by ISO code,1889339,BWA,,admin-0,Natural Earth + GADM + OpenStreetMap
+BY,Belarus,ISO 3166-1 entry,Q184,Natural Earth admin-0 feature by ISO code,59065,BLR,,admin-0,Natural Earth + GADM + OpenStreetMap
+BZ,Belize,ISO 3166-1 entry,Q242,Natural Earth admin-0 feature by ISO code,287827,BLZ,,admin-0,Natural Earth + GADM + OpenStreetMap
+CA,Canada,ISO 3166-1 entry,Q16,Natural Earth admin-0 feature by ISO code,1428125,CAN,,admin-0,Natural Earth + GADM + OpenStreetMap
+CC,Cocos (Keeling) Islands,ISO 3166-1 entry,Q36004,Natural Earth admin-0 feature by ISO code,82636,,,admin-0,Natural Earth + OpenStreetMap
+CD,"Congo, The Democratic Republic of the",ISO 3166-1 entry,Q974,Natural Earth admin-0 feature by ISO code,192795,,,admin-0,Natural Earth + OpenStreetMap
+CF,Central African Republic,ISO 3166-1 entry,Q929,Natural Earth admin-0 feature by ISO code,192790,CAF,,admin-0,Natural Earth + GADM + OpenStreetMap
+CG,Congo,ISO 3166-1 entry,Q971,Natural Earth admin-0 feature by ISO code,192794,,,admin-0,Natural Earth + OpenStreetMap
+CH,Switzerland,ISO 3166-1 entry,Q39,Natural Earth admin-0 feature by ISO code,51701,CHE,,admin-0,Natural Earth + GADM + OpenStreetMap
+CI,Côte d'Ivoire,ISO 3166-1 entry,Q1008,Natural Earth admin-0 feature by ISO code,192779,CIV,,admin-0,Natural Earth + GADM + OpenStreetMap
+CK,Cook Islands,ISO 3166-1 entry,Q26988,Natural Earth admin-0 feature by ISO code,2184233,,,admin-0,Natural Earth + OpenStreetMap
+CL,Chile,ISO 3166-1 entry,Q298,Natural Earth admin-0 feature by ISO code,167454,,,admin-0,Natural Earth + OpenStreetMap
+CM,Cameroon,ISO 3166-1 entry,Q1009,Natural Earth admin-0 feature by ISO code,192830,,,admin-0,Natural Earth + OpenStreetMap
+CN,China,ISO 3166-1 entry,Q148,Natural Earth admin-0 feature by ISO code,270056,,,admin-0,Natural Earth + OpenStreetMap
+CO,Colombia,ISO 3166-1 entry,Q739,Natural Earth admin-0 feature by ISO code,120027,,,admin-0,Natural Earth + OpenStreetMap
+CR,Costa Rica,ISO 3166-1 entry,Q800,Natural Earth admin-0 feature by ISO code,287667,,,admin-0,Natural Earth + OpenStreetMap
+CU,Cuba,ISO 3166-1 entry,Q241,Natural Earth admin-0 feature by ISO code,307833,,,admin-0,Natural Earth + OpenStreetMap
+CV,Cabo Verde,ISO 3166-1 entry,Q1011,Natural Earth admin-0 feature by ISO code,535774,,,admin-0,Natural Earth + OpenStreetMap
+CW,Curaçao,ISO 3166-1 entry,Q25279,Natural Earth admin-0 feature by ISO code,1216719 2867318,,NL-CW,admin-0,Natural Earth + OpenStreetMap
+CX,Christmas Island,ISO 3166-1 entry,Q31063,Natural Earth admin-0 feature by ISO code,2177207,,,admin-0,Natural Earth + OpenStreetMap
+CY,Cyprus,ISO 3166-1 entry,Q229,Natural Earth admin-0 feature by ISO code,3263726,,,admin-0,Natural Earth + OpenStreetMap
+CZ,Czechia,ISO 3166-1 entry,Q213,Natural Earth admin-0 feature by ISO code,51684,CZE,,admin-0,Natural Earth + GADM + OpenStreetMap
+DE,Germany,ISO 3166-1 entry,Q183,Natural Earth admin-0 feature by ISO code,51477,DEU,,admin-0,Natural Earth + GADM + OpenStreetMap
+DJ,Djibouti,ISO 3166-1 entry,Q977,Natural Earth admin-0 feature by ISO code,192801,,,admin-0,Natural Earth + OpenStreetMap
+DK,Denmark,ISO 3166-1 entry,Q35,Natural Earth admin-0 feature by ISO code,50046,,,admin-0,Natural Earth + OpenStreetMap
+DM,Dominica,ISO 3166-1 entry,Q784,Natural Earth admin-0 feature by ISO code,307823,,,admin-0,Natural Earth + OpenStreetMap
+DO,Dominican Republic,ISO 3166-1 entry,Q786,Natural Earth admin-0 feature by ISO code,307828,,,admin-0,Natural Earth + OpenStreetMap
+DZ,Algeria,ISO 3166-1 entry,Q262,Natural Earth admin-0 feature by ISO code,192756,,,admin-0,Natural Earth + OpenStreetMap
+EC,Ecuador,ISO 3166-1 entry,Q736,Natural Earth admin-0 feature by ISO code,108089,,,admin-0,Natural Earth + OpenStreetMap
+EE,Estonia,ISO 3166-1 entry,Q191,Natural Earth admin-0 feature by ISO code,79510,EST,,admin-0,Natural Earth + GADM + OpenStreetMap
+EG,Egypt,ISO 3166-1 entry,Q79,Natural Earth admin-0 feature by ISO code,1473947,,,admin-0,Natural Earth + OpenStreetMap
+EH,Western Sahara,ISO 3166-1 entry,Q6250,Natural Earth admin-0 feature by ISO code,2559126,,,admin-0,Natural Earth + OpenStreetMap
+ER,Eritrea,ISO 3166-1 entry,Q986,Natural Earth admin-0 feature by ISO code,296961,,,admin-0,Natural Earth + OpenStreetMap
+ES,Spain,ISO 3166-1 entry,Q29,Natural Earth admin-0 feature by ISO code,1311341,ESP,,admin-0,Natural Earth + GADM + OpenStreetMap
+ET,Ethiopia,ISO 3166-1 entry,Q115,Natural Earth admin-0 feature by ISO code,192800,,,admin-0,Natural Earth + OpenStreetMap
+FI,Finland,ISO 3166-1 entry,Q33,Natural Earth admin-0 feature by ISO code,54224,FIN,,admin-0,Natural Earth + GADM + OpenStreetMap
+FJ,Fiji,ISO 3166-1 entry,Q712,Natural Earth admin-0 feature by ISO code,571747,FJI,,admin-0,Natural Earth + GADM + OpenStreetMap
+FK,Falkland Islands (Malvinas),ISO 3166-1 entry,Q9648,Natural Earth admin-0 feature by ISO code,2185374,FLK,,admin-0,Natural Earth + GADM + OpenStreetMap
+FM,"Micronesia, Federated States of",ISO 3166-1 entry,Q702,Natural Earth admin-0 feature by ISO code,571802,,,admin-0,Natural Earth + OpenStreetMap
+FO,Faroe Islands,ISO 3166-1 entry,Q4628,Natural Earth admin-0 feature by ISO code,52939,FRO,,admin-0,Natural Earth + GADM + OpenStreetMap
+FR,France,ISO 3166-1 entry,Q142,Natural Earth admin-0 feature by ISO code,2202162,FRA,,admin-0,Natural Earth + GADM + OpenStreetMap
+GA,Gabon,ISO 3166-1 entry,Q1000,Natural Earth admin-0 feature by ISO code,192793,,,admin-0,Natural Earth + OpenStreetMap
+GB,United Kingdom,ISO 3166-1 entry,Q26,Natural Earth admin-0 feature by ISO code,156393,GBR.2_1,GB-NIR,admin-0,Natural Earth + GADM + OpenStreetMap
+GD,Grenada,ISO 3166-1 entry,Q769,Natural Earth admin-0 feature by ISO code,550727,,,admin-0,Natural Earth + OpenStreetMap
+GE,Georgia,ISO 3166-1 entry,Q230,Natural Earth admin-0 feature by ISO code,28699,,,admin-0,Natural Earth + OpenStreetMap
+GF,French Guiana,ISO 3166-1 entry,Q3769,Natural Earth admin-0 feature by ISO code,1260551 2502058,GUF,FR-GF FR-973,admin-0,Natural Earth + GADM + OpenStreetMap
+GG,Guernsey,ISO 3166-1 entry,Q25230,Natural Earth admin-0 feature by ISO code,270009,,,admin-0,Natural Earth + OpenStreetMap
+GH,Ghana,ISO 3166-1 entry,Q117,Natural Earth admin-0 feature by ISO code,192781,,,admin-0,Natural Earth + OpenStreetMap
+GI,Gibraltar,ISO 3166-1 entry,Q1410,Natural Earth admin-0 feature by ISO code,1278736,GIB,,admin-0,Natural Earth + GADM + OpenStreetMap
+GL,Greenland,ISO 3166-1 entry,Q223,Natural Earth admin-0 feature by ISO code,2184073,,DK-GL,admin-0,Natural Earth + OpenStreetMap
+GM,Gambia,ISO 3166-1 entry,Q1005,Natural Earth admin-0 feature by ISO code,192774,,,admin-0,Natural Earth + OpenStreetMap
+GN,Guinea,ISO 3166-1 entry,Q1006,Natural Earth admin-0 feature by ISO code,192778,,,admin-0,Natural Earth + OpenStreetMap
+GP,Guadeloupe,ISO 3166-1 entry,Q17012,Natural Earth admin-0 feature by ISO code,1401835 2562137,GLP,FR-GP FR-971 FR-GUA,admin-0,Natural Earth + GADM + OpenStreetMap
+GQ,Equatorial Guinea,ISO 3166-1 entry,Q983,Natural Earth admin-0 feature by ISO code,192791,GNQ,,admin-0,Natural Earth + GADM + OpenStreetMap
+GR,Greece,ISO 3166-1 entry,Q41,Natural Earth admin-0 feature by ISO code,192307,,,admin-0,Natural Earth + OpenStreetMap
+GS,South Georgia and the South Sandwich Islands,ISO 3166-1 entry,Q35086,Natural Earth admin-0 feature by ISO code,1983628,,,admin-0,Natural Earth + OpenStreetMap
+GT,Guatemala,ISO 3166-1 entry,Q774,Natural Earth admin-0 feature by ISO code,1521463,,,admin-0,Natural Earth + OpenStreetMap
+GU,Guam,ISO 3166-1 entry,Q16635,Natural Earth admin-0 feature by ISO code,1152532,GUM,US-GU,admin-0,Natural Earth + GADM + OpenStreetMap
+GW,Guinea-Bissau,ISO 3166-1 entry,Q1007,Natural Earth admin-0 feature by ISO code,192776,GNB,,admin-0,Natural Earth + GADM + OpenStreetMap
+GY,Guyana,ISO 3166-1 entry,Q734,Natural Earth admin-0 feature by ISO code,287083,GUY,,admin-0,Natural Earth + GADM + OpenStreetMap
+HK,Hong Kong,ISO 3166-1 entry,Q8646,Natural Earth admin-0 feature by ISO code,913110,HKG,CN-91 CN-HK,admin-0,Natural Earth + GADM + OpenStreetMap
+HM,Heard Island and McDonald Islands,ISO 3166-1 entry,Q131198,Natural Earth admin-0 feature by ISO code,2177227 8449400,,,admin-0,Natural Earth + OpenStreetMap
+HN,Honduras,ISO 3166-1 entry,Q783,Natural Earth admin-0 feature by ISO code,287670,,,admin-0,Natural Earth + OpenStreetMap
+HR,Croatia,ISO 3166-1 entry,Q224,Natural Earth admin-0 feature by ISO code,214885,,,admin-0,Natural Earth + OpenStreetMap
+HT,Haiti,ISO 3166-1 entry,Q790,Natural Earth admin-0 feature by ISO code,307829,,,admin-0,Natural Earth + OpenStreetMap
+HU,Hungary,ISO 3166-1 entry,Q28,Natural Earth admin-0 feature by ISO code,21335,HUN,,admin-0,Natural Earth + GADM + OpenStreetMap
+ID,Indonesia,ISO 3166-1 entry,Q252,Natural Earth admin-0 feature by ISO code,304751,,,admin-0,Natural Earth + OpenStreetMap
+IE,Ireland,ISO 3166-1 entry,Q27,Natural Earth admin-0 feature by ISO code,62273,,,admin-0,Natural Earth + OpenStreetMap
+IL,Israel,ISO 3166-1 entry,Q801,Natural Earth admin-0 feature by ISO code,1473946,ISR,,admin-0,Natural Earth + GADM + OpenStreetMap
+IM,Isle of Man,ISO 3166-1 entry,Q9676,Natural Earth admin-0 feature by ISO code,62269,IMN,,admin-0,Natural Earth + GADM + OpenStreetMap
+IN,India,ISO 3166-1 entry,Q668,Natural Earth admin-0 feature by ISO code,304716,,,admin-0,Natural Earth + OpenStreetMap
+IO,British Indian Ocean Territory,ISO 3166-1 entry,Q43448,Natural Earth admin-0 feature by ISO code,1993867,,,admin-0,Natural Earth + OpenStreetMap
+IQ,Iraq,ISO 3166-1 entry,Q205047,Natural Earth admin-0 feature by ISO code,,,,admin-0,Natural Earth
+IR,"Iran, Islamic Republic of",ISO 3166-1 entry,Q794,Natural Earth admin-0 feature by ISO code,304938,IRN,,admin-0,Natural Earth + GADM + OpenStreetMap
+IS,Iceland,ISO 3166-1 entry,Q189,Natural Earth admin-0 feature by ISO code,299133,,,admin-0,Natural Earth + OpenStreetMap
+IT,Italy,ISO 3166-1 entry,Q38,Natural Earth admin-0 feature by ISO code,365331,,,admin-0,Natural Earth + OpenStreetMap
+JE,Jersey,ISO 3166-1 entry,Q785,Natural Earth admin-0 feature by ISO code,367988 6956667,JEY,GB-JSY,admin-0,Natural Earth + GADM + OpenStreetMap
+JM,Jamaica,ISO 3166-1 entry,Q766,Natural Earth admin-0 feature by ISO code,555017,JAM,,admin-0,Natural Earth + GADM + OpenStreetMap
+JO,Jordan,ISO 3166-1 entry,Q810,Natural Earth admin-0 feature by ISO code,184818,JOR,,admin-0,Natural Earth + GADM + OpenStreetMap
+JP,Japan,ISO 3166-1 entry,Q17,Natural Earth admin-0 feature by ISO code,382313,,,admin-0,Natural Earth + OpenStreetMap
+KE,Kenya,ISO 3166-1 entry,Q114,Natural Earth admin-0 feature by ISO code,192798,,,admin-0,Natural Earth + OpenStreetMap
+KG,Kyrgyzstan,ISO 3166-1 entry,Q813,Natural Earth admin-0 feature by ISO code,178009,,,admin-0,Natural Earth + OpenStreetMap
+KH,Cambodia,ISO 3166-1 entry,Q424,Natural Earth admin-0 feature by ISO code,49898,,,admin-0,Natural Earth + OpenStreetMap
+KI,Kiribati,ISO 3166-1 entry,Q710,Natural Earth admin-0 feature by ISO code,571178,,,admin-0,Natural Earth + OpenStreetMap
+KM,Comoros,ISO 3166-1 entry,Q970,Natural Earth admin-0 feature by ISO code,535790,,,admin-0,Natural Earth + OpenStreetMap
+KN,Saint Kitts and Nevis,ISO 3166-1 entry,Q763,Natural Earth admin-0 feature by ISO code,536899,,,admin-0,Natural Earth + OpenStreetMap
+KP,"Korea, Democratic People's Republic of",ISO 3166-1 entry,Q423,Natural Earth admin-0 feature by ISO code,192734,PRK,,admin-0,Natural Earth + GADM + OpenStreetMap
+KR,"Korea, Republic of",ISO 3166-1 entry,Q884,Natural Earth admin-0 feature by ISO code,307756,,,admin-0,Natural Earth + OpenStreetMap
+KW,Kuwait,ISO 3166-1 entry,Q817,Natural Earth admin-0 feature by ISO code,305099,,,admin-0,Natural Earth + OpenStreetMap
+KY,Cayman Islands,ISO 3166-1 entry,Q5785,Natural Earth admin-0 feature by ISO code,2185366,,KY,admin-0,Natural Earth + OpenStreetMap
+KZ,Kazakhstan,ISO 3166-1 entry,Q232,Natural Earth admin-0 feature by ISO code,214665,,,admin-0,Natural Earth + OpenStreetMap
+LA,Lao People's Democratic Republic,ISO 3166-1 entry,Q819,Natural Earth admin-0 feature by ISO code,49903,,,admin-0,Natural Earth + OpenStreetMap
+LB,Lebanon,ISO 3166-1 entry,Q822,Natural Earth admin-0 feature by ISO code,184843,LBN,,admin-0,Natural Earth + GADM + OpenStreetMap
+LC,Saint Lucia,ISO 3166-1 entry,Q760,Natural Earth admin-0 feature by ISO code,550728,,,admin-0,Natural Earth + OpenStreetMap
+LI,Liechtenstein,ISO 3166-1 entry,Q347,Natural Earth admin-0 feature by ISO code,1155955,LIE,,admin-0,Natural Earth + GADM + OpenStreetMap
+LK,Sri Lanka,ISO 3166-1 entry,Q854,Natural Earth admin-0 feature by ISO code,536807,,,admin-0,Natural Earth + OpenStreetMap
+LR,Liberia,ISO 3166-1 entry,Q1014,Natural Earth admin-0 feature by ISO code,192780,,,admin-0,Natural Earth + OpenStreetMap
+LS,Lesotho,ISO 3166-1 entry,Q1013,Natural Earth admin-0 feature by ISO code,2093234,LSO,,admin-0,Natural Earth + GADM + OpenStreetMap
+LT,Lithuania,ISO 3166-1 entry,Q37,Natural Earth admin-0 feature by ISO code,72596,LTU,,admin-0,Natural Earth + GADM + OpenStreetMap
+LU,Luxembourg,ISO 3166-1 entry,Q32,Natural Earth admin-0 feature by ISO code,2171347,LUX,,admin-0,Natural Earth + GADM + OpenStreetMap
+LV,Latvia,ISO 3166-1 entry,Q211,Natural Earth admin-0 feature by ISO code,72594,,,admin-0,Natural Earth + OpenStreetMap
+LY,Libya,ISO 3166-1 entry,Q1016,Natural Earth admin-0 feature by ISO code,192758,,,admin-0,Natural Earth + OpenStreetMap
+MA,Morocco,ISO 3166-1 entry,Q1028,Natural Earth admin-0 feature by ISO code,3630439,,,admin-0,Natural Earth + OpenStreetMap
+MC,Monaco,ISO 3166-1 entry,Q235,Natural Earth admin-0 feature by ISO code,36990,MCO,,admin-0,Natural Earth + GADM + OpenStreetMap
+MD,"Moldova, Republic of",ISO 3166-1 entry,Q217,Natural Earth admin-0 feature by ISO code,58974,MDA,,admin-0,Natural Earth + GADM + OpenStreetMap
+ME,Montenegro,ISO 3166-1 entry,Q236,Natural Earth admin-0 feature by ISO code,53296,,,admin-0,Natural Earth + OpenStreetMap
+MF,Saint Martin (French part),ISO 3166-1 entry,Q126125,Natural Earth admin-0 feature by ISO code,1891583,,FR-MF,admin-0,Natural Earth + OpenStreetMap
+MG,Madagascar,ISO 3166-1 entry,Q1019,Natural Earth admin-0 feature by ISO code,447325,,,admin-0,Natural Earth + OpenStreetMap
+MH,Marshall Islands,ISO 3166-1 entry,Q709,Natural Earth admin-0 feature by ISO code,571771,,,admin-0,Natural Earth + OpenStreetMap
+MK,North Macedonia,ISO 3166-1 entry,Q221,Natural Earth admin-0 feature by ISO code,53293,,,admin-0,Natural Earth + OpenStreetMap
+ML,Mali,ISO 3166-1 entry,Q912,Natural Earth admin-0 feature by ISO code,192785,,,admin-0,Natural Earth + OpenStreetMap
+MM,Myanmar,ISO 3166-1 entry,Q836,Natural Earth admin-0 feature by ISO code,50371,,,admin-0,Natural Earth + OpenStreetMap
+MN,Mongolia,ISO 3166-1 entry,Q711,Natural Earth admin-0 feature by ISO code,161033,,,admin-0,Natural Earth + OpenStreetMap
+MO,Macao,ISO 3166-1 entry,Q14773,Natural Earth admin-0 feature by ISO code,1867188,,CN-92 CN-MO,admin-0,Natural Earth + OpenStreetMap
+MP,Northern Mariana Islands,ISO 3166-1 entry,Q16644,Natural Earth admin-0 feature by ISO code,306004,,US-MP,admin-0,Natural Earth + OpenStreetMap
+MQ,Martinique,ISO 3166-1 entry,Q17054,Natural Earth admin-0 feature by ISO code,2473088 7112170 1891495,MTQ,FR-MQ FR-972,admin-0,Natural Earth + GADM + OpenStreetMap
+MR,Mauritania,ISO 3166-1 entry,Q1025,Natural Earth admin-0 feature by ISO code,192763,MRT,,admin-0,Natural Earth + GADM + OpenStreetMap
+MS,Montserrat,ISO 3166-1 entry,Q13353,Natural Earth admin-0 feature by ISO code,537257,MSR,,admin-0,Natural Earth + GADM + OpenStreetMap
+MT,Malta,ISO 3166-1 entry,Q233,Natural Earth admin-0 feature by ISO code,365307,,,admin-0,Natural Earth + OpenStreetMap
+MU,Mauritius,ISO 3166-1 entry,Q1027,Natural Earth admin-0 feature by ISO code,535828,MUS,,admin-0,Natural Earth + GADM + OpenStreetMap
+MV,Maldives,ISO 3166-1 entry,Q826,Natural Earth admin-0 feature by ISO code,536773,,,admin-0,Natural Earth + OpenStreetMap
+MW,Malawi,ISO 3166-1 entry,Q1020,Natural Earth admin-0 feature by ISO code,195290,MWI,,admin-0,Natural Earth + GADM + OpenStreetMap
+MX,Mexico,ISO 3166-1 entry,Q96,Natural Earth admin-0 feature by ISO code,114686,,,admin-0,Natural Earth + OpenStreetMap
+MY,Malaysia,ISO 3166-1 entry,Q833,Natural Earth admin-0 feature by ISO code,2108121,,,admin-0,Natural Earth + OpenStreetMap
+MZ,Mozambique,ISO 3166-1 entry,Q1029,Natural Earth admin-0 feature by ISO code,195273,,,admin-0,Natural Earth + OpenStreetMap
+NA,Namibia,ISO 3166-1 entry,Q1030,Natural Earth admin-0 feature by ISO code,195266,NAM,,admin-0,Natural Earth + GADM + OpenStreetMap
+NC,New Caledonia,ISO 3166-1 entry,Q33788,Natural Earth admin-0 feature by ISO code,3407643,,FR-NC,admin-0,Natural Earth + OpenStreetMap
+NE,Niger,ISO 3166-1 entry,Q1032,Natural Earth admin-0 feature by ISO code,192786,,,admin-0,Natural Earth + OpenStreetMap
+NF,Norfolk Island,ISO 3166-1 entry,Q31057,Natural Earth admin-0 feature by ISO code,2574988 2386068,NFK,,admin-0,Natural Earth + GADM + OpenStreetMap
+NG,Nigeria,ISO 3166-1 entry,Q1033,Natural Earth admin-0 feature by ISO code,192787,,,admin-0,Natural Earth + OpenStreetMap
+NI,Nicaragua,ISO 3166-1 entry,Q811,Natural Earth admin-0 feature by ISO code,287666,,,admin-0,Natural Earth + OpenStreetMap
+NL,Netherlands,ISO 3166-1 entry,Q55,Natural Earth admin-0 feature by ISO code,47796,NLD,,admin-0,Natural Earth + GADM + OpenStreetMap
+NO,Norway,ISO 3166-1 entry,Q20,Natural Earth admin-0 feature by ISO code,2978650,,,admin-0,Natural Earth + OpenStreetMap
+NP,Nepal,ISO 3166-1 entry,Q837,Natural Earth admin-0 feature by ISO code,184633,,,admin-0,Natural Earth + OpenStreetMap
+NR,Nauru,ISO 3166-1 entry,Q697,Natural Earth admin-0 feature by ISO code,571804,NRU,,admin-0,Natural Earth + GADM + OpenStreetMap
+NU,Niue,ISO 3166-1 entry,Q34020,Natural Earth admin-0 feature by ISO code,1558556 3548481,,,admin-0,Natural Earth + OpenStreetMap
+NZ,New Zealand,ISO 3166-1 entry,Q664,Natural Earth admin-0 feature by ISO code,556706,NZL,,admin-0,Natural Earth + GADM + OpenStreetMap
+OM,Oman,ISO 3166-1 entry,Q842,Natural Earth admin-0 feature by ISO code,305138,,,admin-0,Natural Earth + OpenStreetMap
+PA,Panama,ISO 3166-1 entry,Q804,Natural Earth admin-0 feature by ISO code,287668,,,admin-0,Natural Earth + OpenStreetMap
+PE,Peru,ISO 3166-1 entry,Q419,Natural Earth admin-0 feature by ISO code,288247,PER,,admin-0,Natural Earth + GADM + OpenStreetMap
+PF,French Polynesia,ISO 3166-1 entry,Q30971,Natural Earth admin-0 feature by ISO code,3412620,PYF,FR-PF,admin-0,Natural Earth + GADM + OpenStreetMap
+PG,Papua New Guinea,ISO 3166-1 entry,Q691,Natural Earth admin-0 feature by ISO code,307866,,,admin-0,Natural Earth + OpenStreetMap
+PH,Philippines,ISO 3166-1 entry,Q928,Natural Earth admin-0 feature by ISO code,443174,,,admin-0,Natural Earth + OpenStreetMap
+PK,Pakistan,ISO 3166-1 entry,Q843,Natural Earth admin-0 feature by ISO code,307573,,,admin-0,Natural Earth + OpenStreetMap
+PL,Poland,ISO 3166-1 entry,Q36,Natural Earth admin-0 feature by ISO code,49715,,,admin-0,Natural Earth + OpenStreetMap
+PM,Saint Pierre and Miquelon,ISO 3166-1 entry,Q34617,Natural Earth admin-0 feature by ISO code,3406826,SPM,FR-PM,admin-0,Natural Earth + GADM + OpenStreetMap
+PN,Pitcairn,ISO 3166-1 entry,Q35672,Natural Earth admin-0 feature by ISO code,2185375,,,admin-0,Natural Earth + OpenStreetMap
+PR,Puerto Rico,ISO 3166-1 entry,Q1183,Natural Earth admin-0 feature by ISO code,4422604,,US-PR,admin-0,Natural Earth + OpenStreetMap
+PS,"Palestine, State of",ISO 3166-1 entry,Q39760,Natural Earth admin-0 feature by ISO code,1473938,,GZZ,admin-0,Natural Earth + OpenStreetMap
+PT,Portugal,ISO 3166-1 entry,Q45,Natural Earth admin-0 feature by ISO code,295480,,,admin-0,Natural Earth + OpenStreetMap
+PW,Palau,ISO 3166-1 entry,Q695,Natural Earth admin-0 feature by ISO code,571805,PLW,,admin-0,Natural Earth + GADM + OpenStreetMap
+PY,Paraguay,ISO 3166-1 entry,Q733,Natural Earth admin-0 feature by ISO code,287077,,,admin-0,Natural Earth + OpenStreetMap
+QA,Qatar,ISO 3166-1 entry,Q846,Natural Earth admin-0 feature by ISO code,305095,,,admin-0,Natural Earth + OpenStreetMap
+RE,Réunion,ISO 3166-1 entry,Q17070,Natural Earth admin-0 feature by ISO code,1785276 2470060,REU,FR-RE FR-974 FR-LRE,admin-0,Natural Earth + GADM + OpenStreetMap
+RO,Romania,ISO 3166-1 entry,Q218,Natural Earth admin-0 feature by ISO code,90689,ROU,,admin-0,Natural Earth + GADM + OpenStreetMap
+RS,Serbia,ISO 3166-1 entry,Q44749,Natural Earth admin-0 feature by ISO code,1279074,,RS-VO YU-VO CS-VO,admin-0,Natural Earth + OpenStreetMap
+RU,Russian Federation,ISO 3166-1 entry,Q159,Natural Earth admin-0 feature by ISO code,60189,,,admin-0,Natural Earth + OpenStreetMap
+RW,Rwanda,ISO 3166-1 entry,Q1037,Natural Earth admin-0 feature by ISO code,171496,RWA,,admin-0,Natural Earth + GADM + OpenStreetMap
+SA,Saudi Arabia,ISO 3166-1 entry,Q851,Natural Earth admin-0 feature by ISO code,307584,,,admin-0,Natural Earth + OpenStreetMap
+SB,Solomon Islands,ISO 3166-1 entry,Q685,Natural Earth admin-0 feature by ISO code,1857436,,,admin-0,Natural Earth + OpenStreetMap
+SC,Seychelles,ISO 3166-1 entry,Q1042,Natural Earth admin-0 feature by ISO code,536765,,,admin-0,Natural Earth + OpenStreetMap
+SD,Sudan,ISO 3166-1 entry,Q1049,Natural Earth admin-0 feature by ISO code,192789,,,admin-0,Natural Earth + OpenStreetMap
+SE,Sweden,ISO 3166-1 entry,Q34,Natural Earth admin-0 feature by ISO code,52822,SWE,,admin-0,Natural Earth + GADM + OpenStreetMap
+SG,Singapore,ISO 3166-1 entry,Q334,Natural Earth admin-0 feature by ISO code,536780,,,admin-0,Natural Earth + OpenStreetMap
+SH,"Saint Helena, Ascension and Tristan da Cunha",ISO 3166-1 entry,Q34497,Natural Earth admin-0 feature by ISO code,4868269,,,admin-0,Natural Earth + OpenStreetMap
+SI,Slovenia,ISO 3166-1 entry,Q215,Natural Earth admin-0 feature by ISO code,218657,,,admin-0,Natural Earth + OpenStreetMap
+SJ,Svalbard and Jan Mayen,ISO 3166-1 entry,Q25231,Natural Earth admin-0 feature by ISO code,1337397,,NO-21,admin-0,Natural Earth + OpenStreetMap
+SK,Slovakia,ISO 3166-1 entry,Q214,Natural Earth admin-0 feature by ISO code,14296,SVK,,admin-0,Natural Earth + GADM + OpenStreetMap
+SL,Sierra Leone,ISO 3166-1 entry,Q1044,Natural Earth admin-0 feature by ISO code,192777,,,admin-0,Natural Earth + OpenStreetMap
+SM,San Marino,ISO 3166-1 entry,Q238,Natural Earth admin-0 feature by ISO code,54624,,,admin-0,Natural Earth + OpenStreetMap
+SN,Senegal,ISO 3166-1 entry,Q1041,Natural Earth admin-0 feature by ISO code,192775,,,admin-0,Natural Earth + OpenStreetMap
+SO,Somalia,ISO 3166-1 entry,Q485112,Natural Earth admin-0 feature by ISO code,,,,admin-0,Natural Earth
+SR,Suriname,ISO 3166-1 entry,Q730,Natural Earth admin-0 feature by ISO code,287082,SUR,,admin-0,Natural Earth + GADM + OpenStreetMap
+SS,South Sudan,ISO 3166-1 entry,Q958,Natural Earth admin-0 feature by ISO code,1656678,,,admin-0,Natural Earth + OpenStreetMap
+ST,Sao Tome and Principe,ISO 3166-1 entry,Q1039,Natural Earth admin-0 feature by ISO code,535880,,,admin-0,Natural Earth + OpenStreetMap
+SV,El Salvador,ISO 3166-1 entry,Q792,Natural Earth admin-0 feature by ISO code,1520612,,,admin-0,Natural Earth + OpenStreetMap
+SX,Sint Maarten (Dutch part),ISO 3166-1 entry,Q26273,Natural Earth admin-0 feature by ISO code,1231790,SXM,NL-SX SX,admin-0,Natural Earth + GADM + OpenStreetMap
+SY,Syrian Arab Republic,ISO 3166-1 entry,Q858,Natural Earth admin-0 feature by ISO code,184840,,,admin-0,Natural Earth + OpenStreetMap
+SZ,Eswatini,ISO 3166-1 entry,Q1050,Natural Earth admin-0 feature by ISO code,88210,,,admin-0,Natural Earth + OpenStreetMap
+TC,Turks and Caicos Islands,ISO 3166-1 entry,Q18221,Natural Earth admin-0 feature by ISO code,547479,,,admin-0,Natural Earth + OpenStreetMap
+TD,Chad,ISO 3166-1 entry,Q657,Natural Earth admin-0 feature by ISO code,2361304,,,admin-0,Natural Earth + OpenStreetMap
+TF,French Southern Territories,ISO 3166-1 entry,Q129003,Natural Earth admin-0 feature by ISO code,2186658,ATF,FR-TF,admin-0,Natural Earth + GADM + OpenStreetMap
+TG,Togo,ISO 3166-1 entry,Q945,Natural Earth admin-0 feature by ISO code,192782,,,admin-0,Natural Earth + OpenStreetMap
+TH,Thailand,ISO 3166-1 entry,Q869,Natural Earth admin-0 feature by ISO code,2067731,,,admin-0,Natural Earth + OpenStreetMap
+TJ,Tajikistan,ISO 3166-1 entry,Q863,Natural Earth admin-0 feature by ISO code,214626,,,admin-0,Natural Earth + OpenStreetMap
+TK,Tokelau,ISO 3166-1 entry,Q36823,Natural Earth admin-0 feature by ISO code,2186600,,,admin-0,Natural Earth + OpenStreetMap
+TL,Timor-Leste,ISO 3166-1 entry,Q574,Natural Earth admin-0 feature by ISO code,305142,,,admin-0,Natural Earth + OpenStreetMap
+TM,Turkmenistan,ISO 3166-1 entry,Q874,Natural Earth admin-0 feature by ISO code,223026,,,admin-0,Natural Earth + OpenStreetMap
+TN,Tunisia,ISO 3166-1 entry,Q948,Natural Earth admin-0 feature by ISO code,192757,,,admin-0,Natural Earth + OpenStreetMap
+TO,Tonga,ISO 3166-1 entry,Q678,Natural Earth admin-0 feature by ISO code,2186665,,,admin-0,Natural Earth + OpenStreetMap
+TR,Türkiye,ISO 3166-1 entry,Q43,Natural Earth admin-0 feature by ISO code,174737,,,admin-0,Natural Earth + OpenStreetMap
+TT,Trinidad and Tobago,ISO 3166-1 entry,Q754,Natural Earth admin-0 feature by ISO code,555717,,,admin-0,Natural Earth + OpenStreetMap
+TV,Tuvalu,ISO 3166-1 entry,Q672,Natural Earth admin-0 feature by ISO code,2177266,,,admin-0,Natural Earth + OpenStreetMap
+TW,"Taiwan, Province of China",ISO 3166-1 entry,Q865,Natural Earth admin-0 feature by ISO code,449220,TWN.7_1,,admin-0,Natural Earth + GADM + OpenStreetMap
+TZ,"Tanzania, United Republic of",ISO 3166-1 entry,Q924,Natural Earth admin-0 feature by ISO code,195270,,,admin-0,Natural Earth + OpenStreetMap
+UA,Ukraine,ISO 3166-1 entry,Q212,Natural Earth admin-0 feature by ISO code,60199,,,admin-0,Natural Earth + OpenStreetMap
+UG,Uganda,ISO 3166-1 entry,Q1036,Natural Earth admin-0 feature by ISO code,192796,UGA,,admin-0,Natural Earth + GADM + OpenStreetMap
+UM,United States Minor Outlying Islands,ISO 3166-1 entry,Q16645,Natural Earth admin-0 feature by ISO code,2185386,,US-UM,admin-0,Natural Earth + OpenStreetMap
+US,United States,ISO 3166-1 entry,Q30,Natural Earth admin-0 feature by ISO code,148838,USA,,admin-0,Natural Earth + GADM + OpenStreetMap
+UY,Uruguay,ISO 3166-1 entry,Q77,Natural Earth admin-0 feature by ISO code,287072,URY,,admin-0,Natural Earth + GADM + OpenStreetMap
+UZ,Uzbekistan,ISO 3166-1 entry,Q265,Natural Earth admin-0 feature by ISO code,196240,,,admin-0,Natural Earth + OpenStreetMap
+VA,Holy See (Vatican City State),ISO 3166-1 entry,Q237,Natural Earth admin-0 feature by ISO code,36989,,,admin-0,Natural Earth + OpenStreetMap
+VC,Saint Vincent and the Grenadines,ISO 3166-1 entry,Q757,Natural Earth admin-0 feature by ISO code,550725,VCT,,admin-0,Natural Earth + GADM + OpenStreetMap
+VE,"Venezuela, Bolivarian Republic of",ISO 3166-1 entry,Q717,Natural Earth admin-0 feature by ISO code,272644,,,admin-0,Natural Earth + OpenStreetMap
+VG,"Virgin Islands, British",ISO 3166-1 entry,Q25305,Natural Earth admin-0 feature by ISO code,285454,,VG,admin-0,Natural Earth + OpenStreetMap
+VI,"Virgin Islands, U.S.",ISO 3166-1 entry,Q11703,Natural Earth admin-0 feature by ISO code,286898,,US-VI VI,admin-0,Natural Earth + OpenStreetMap
+VN,Viet Nam,ISO 3166-1 entry,Q881,Natural Earth admin-0 feature by ISO code,49915,,,admin-0,Natural Earth + OpenStreetMap
+VU,Vanuatu,ISO 3166-1 entry,Q686,Natural Earth admin-0 feature by ISO code,2177246,VUT,,admin-0,Natural Earth + GADM + OpenStreetMap
+WF,Wallis and Futuna,ISO 3166-1 entry,Q35555,Natural Earth admin-0 feature by ISO code,3412448,,FR-WF,admin-0,Natural Earth + OpenStreetMap
+WS,Samoa,ISO 3166-1 entry,Q683,Natural Earth admin-0 feature by ISO code,1872673,WSM,,admin-0,Natural Earth + GADM + OpenStreetMap
+YE,Yemen,ISO 3166-1 entry,Q805,Natural Earth admin-0 feature by ISO code,305092,,,admin-0,Natural Earth + OpenStreetMap
+YT,Mayotte,ISO 3166-1 entry,Q17063,Natural Earth admin-0 feature by ISO code,1259885 1363069,MYT,FR-YT FR-976 FR-MAY,admin-0,Natural Earth + GADM + OpenStreetMap
+ZA,South Africa,ISO 3166-1 entry,Q258,Natural Earth admin-0 feature by ISO code,87565,ZAF,,admin-0,Natural Earth + GADM + OpenStreetMap
+ZM,Zambia,ISO 3166-1 entry,Q953,Natural Earth admin-0 feature by ISO code,195271,ZMB,,admin-0,Natural Earth + GADM + OpenStreetMap
+ZW,Zimbabwe,ISO 3166-1 entry,Q954,Natural Earth admin-0 feature by ISO code,195272,ZWE,,admin-0,Natural Earth + GADM + OpenStreetMap
+area/abkhazia,Abkhazia,registry,Q23334,Natural Earth disputed-area feature,1152720,,,admin-0,Natural Earth + OpenStreetMap
+area/abyei,Abyei Area,residents,Q336494,Natural Earth disputed-area feature,13428763,,,admin-0,Natural Earth + OpenStreetMap
+area/aksai-chin,Aksai Chin,residents,Q1819167,Natural Earth disputed-area feature,,,,admin-0,Natural Earth
+area/armistice-no-mans-lands,"1949 no-man's-lands (Latrun, Jerusalem) and Mount Scopus enclave",residents,Q312818,Natural Earth disputed-area feature,,,,admin-0,Natural Earth
+area/arunachal-pradesh,Arunachal Pradesh,residents,Q1162,Natural Earth disputed-area feature,2027346,,IN-AR,admin-0,Natural Earth + OpenStreetMap
+area/azad-kashmir,Azad Jammu and Kashmir,residents,Q200697,Natural Earth disputed-area feature,357995,,PK-GB,admin-0,Natural Earth + OpenStreetMap
+area/baikonur,Baikonur Cosmodrome and city,leased area with its own access rule,Q165413,"name search, reviewed",5295657,,KZ-BAY,admin-0,Natural Earth + OpenStreetMap
+area/bir-tawil,Bir Tawil,unclaimed land,Q620634,register wikidata_id,3335661,,,admin-0,Natural Earth + OpenStreetMap
+area/ceuta,Ceuta,residents,Q5823,register wikidata_id,1822781,ESP.7.1_1,ES-CE,admin-0,Natural Earth + GADM + OpenStreetMap
+area/crimea,Crimea and Sevastopol,registry,Q7835,Natural Earth disputed-area feature,3788824,,,admin-0,Natural Earth + OpenStreetMap
+area/cyprus-buffer-zone,UN Buffer Zone in Cyprus,residents,Q116970,register wikidata_id,3263909 3263909,,,admin-0,Natural Earth + OpenStreetMap
+area/diego-garcia,Diego Garcia base,leased area with its own access rule,Q184851,"name search, reviewed",2732108,,,,OpenStreetMap
+area/east-jerusalem,East Jerusalem,registry,Q16129570,Natural Earth disputed-area feature,,,,admin-0,Natural Earth
+area/gilgit-baltistan,Gilgit-Baltistan,residents,Q200697,Natural Earth disputed-area feature,357995,,PK-GB,admin-0,Natural Earth + OpenStreetMap
+area/golan-heights,Golan Heights,registry,Q83210,register wikidata_id,16119376 16119376,,,admin-0,Natural Earth + OpenStreetMap
+area/gornja-siga,Gornja Siga and other west-bank pockets,unclaimed land,Q102285156,"name search, reviewed",16381727,,,,OpenStreetMap
+area/guantanamo-bay,Guantanamo Bay Naval Base,leased area with its own access rule,Q762570,register wikidata_id,,,,admin-0,Natural Earth
+area/ilemi-triangle,Ilemi Triangle,residents,Q973527,Natural Earth disputed-area feature,192797,,,admin-0,Natural Earth + OpenStreetMap
+area/indian-jammu-kashmir-ladakh,Jammu and Kashmir and Ladakh (Indian-administered),residents,Q43100,Natural Earth disputed-area feature,14101768,,,admin-0,Natural Earth + OpenStreetMap
+area/kinmen-matsu,"Kinmen, Matsu and Wuqiu",entry rule of the holder,Q249870,"name search, reviewed",3339695,,TW-KIN,admin-1,Natural Earth + OpenStreetMap
+area/koalou,Koalou (Kourou) neutral zone,residents,,"name search, reviewed",,,,,none
+area/korean-dmz,Korean Demilitarized Zone,residents,Q331990,"name search, reviewed",,,,admin-0,Natural Earth
+area/kosovo,Kosovo,registry,Q1246,Natural Earth disputed-area feature,2088990,,,admin-0,Natural Earth + OpenStreetMap
+area/kuril-islands,"Southern Kuril Islands (Iturup, Kunashir, Shikotan, Habomai)",residents,Q80389,Natural Earth disputed-area feature,7273443,,,admin-0,Natural Earth + OpenStreetMap
+area/melilla,Melilla,residents,Q5831,register wikidata_id,1154757,ESP.7.2_1,ES-ML,admin-0,Natural Earth + GADM + OpenStreetMap
+area/moldauhafen,Moldauhafen and Saalehafen (Hamburg),leased area with its own access rule,Q280224,"name search, reviewed",,,,,none
+area/northern-cyprus,Turkish Republic of Northern Cyprus,registry,Q23681,Natural Earth disputed-area feature,2514541,,,admin-0,Natural Earth + OpenStreetMap
+area/olivenza,Olivenza and Táliga,residents,Q488052,Natural Earth disputed-area feature,345593,,,admin-0,Natural Earth + OpenStreetMap
+area/paracel-islands,Paracel Islands,residents,Q274388,Natural Earth disputed-area feature,6753150 2417005,,,admin-0,Natural Earth + OpenStreetMap
+area/rukwanzi-semliki,Rukwanzi Island (Lake Albert) and Semliki River valley,residents,Q1714359,"name search, reviewed",,,,,none
+area/russian-ranges-kazakhstan,Russian-leased military test ranges in Kazakhstan (Sary-Shagan and others),leased area with its own access rule,Q782082,"name search, reviewed",,,,,none
+area/shebaa-farms,Shebaa Farms and Kfarchouba hills,registry,Q1133272,Natural Earth disputed-area feature,,,,admin-0,Natural Earth
+area/somaliland,Somaliland,registry,Q34754,Natural Earth disputed-area feature,3586169,,,admin-0,Natural Earth + OpenStreetMap
+area/south-ossetia,South Ossetia,registry,Q23427,Natural Earth disputed-area feature,,,,admin-0,Natural Earth
+area/spratly-islands,Spratly Islands,residents,Q215664,register wikidata_id,,,,,none
+area/tiwinza,Tiwinza,leased area with its own access rule,Q124045778,"name search, reviewed",,,,,none
+area/transnistria,Transnistria (including Bender),entry rule of the holder,Q907112,"name search, reviewed",65335,,,admin-0,Natural Earth + OpenStreetMap
+area/transnistria-security-zone,Dniester Security Zone,residents,,"name search, reviewed",,,,,none
+area/undof-zone,UNDOF area of separation,residents,,"name search, reviewed",,,,,none
+area/varosha,Varosha (Maraş),residents,Q75666,"name search, reviewed",,,,,none
+area/western-sahara-moroccan-controlled,Western Sahara west of the berm,registry,Q6250,Natural Earth disputed-area feature,2559126,,,admin-0,Natural Earth + OpenStreetMap
+rule/au-macquarie-island,Macquarie Island (Macquarie Island Nature Reserve),entry rule,Q46650,"name search, reviewed",3134562,AUS.9.22_1,,admin-1,Natural Earth + GADM + OpenStreetMap
+rule/az-nakhchivan,Nakhchivan Autonomous Republic,entry rule,Q131083,"name search, reviewed",186430,,AZ-NX,,OpenStreetMap
+rule/cl-rapa-nui,Rapa Nui (Easter Island),entry rule,Q115116609,"name search, reviewed",,,,,none
+rule/cn-hainan,Hainan Province,entry rule,Q42200,"name search, reviewed",2128285,,CN-46 CN-HI,admin-1,Natural Earth + OpenStreetMap
+rule/cn-tibet,Tibet Autonomous Region,entry rule,Q17269,"name search, reviewed",153292 18396685,,CN-54 CN-XZ,admin-1,Natural Earth + OpenStreetMap
+rule/co-san-andres,"Archipelago of San Andrés, Providencia and Santa Catalina",entry rule,Q26855,"name search, reviewed",2181889,,CO-SAP,admin-1,Natural Earth + OpenStreetMap
+rule/ec-galapagos,Galápagos Province,entry rule,Q475038,"name search, reviewed",1628150,,EC-W,admin-1,Natural Earth + OpenStreetMap
+rule/fr-clipperton,Clipperton Island,entry rule,Q161258,"name search, reviewed",2573010,,FR-CP,admin-0,Natural Earth + OpenStreetMap
+rule/gr-mount-athos,Mount Athos,entry rule,Q780149,"name search, reviewed",2135921,,GR-69,,OpenStreetMap
+rule/in-lakshadweep,Lakshadweep,entry rule,Q26927,"name search, reviewed",2027460,,IN-LD,admin-1,Natural Earth + OpenStreetMap
+rule/in-manipur,Manipur,entry rule,Q1193,"name search, reviewed",2027869,,IN-MN,admin-1,Natural Earth + OpenStreetMap
+rule/in-minicoy-maldivians,Minicoy (Lakshadweep),entry rule,Q162448,"name search, reviewed",10088357,,,,OpenStreetMap
+rule/in-mizoram,Mizoram,entry rule,Q1502,"name search, reviewed",2029046,,IN-MZ,admin-1,Natural Earth + OpenStreetMap
+rule/in-nagaland,Nagaland,entry rule,Q1599,"name search, reviewed",2027973,,IN-NL,admin-1,Natural Earth + OpenStreetMap
+rule/in-sikkim,Sikkim,entry rule,Q1505,"name search, reviewed",1791324,,IN-SK,admin-1,Natural Earth + OpenStreetMap
+rule/iq-kurdistan,Kurdistan Region of Iraq,entry rule,Q205047,"name search, reviewed",,,,admin-0,Natural Earth
+rule/kr-jeju,Jeju Province,entry rule,Q41164,"name search, reviewed",2398560,,KR-49,admin-1,Natural Earth + OpenStreetMap
+rule/my-labuan,Labuan,entry rule,Q214504,"name search, reviewed",4521286,,MY-15,admin-1,Natural Earth + OpenStreetMap
+rule/my-sabah,Sabah,entry rule,Q179029,"name search, reviewed",3879783,,MY-12,admin-1,Natural Earth + OpenStreetMap
+rule/my-sarawak,Sarawak,entry rule,Q170462,"name search, reviewed",3879784,,MY-13,admin-1,Natural Earth + OpenStreetMap
+rule/ru-chukotka,Chukotka Autonomous Okrug,entry rule,Q7984,"name search, reviewed",151231,,RU-CHU,admin-1,Natural Earth + OpenStreetMap
+rule/sh-ascension,Ascension Island,entry rule,Q46197,"name search, reviewed",6391626,,,admin-1,Natural Earth + OpenStreetMap
+rule/sh-saint-helena,Saint Helena,entry rule,Q34497,"name search, reviewed",4868269,,,admin-0,Natural Earth + OpenStreetMap
+rule/sh-tristan-da-cunha,Tristan da Cunha,entry rule,Q220982,"name search, reviewed",11074733,,,admin-1,Natural Earth + OpenStreetMap
+rule/sj-jan-mayen,Jan Mayen,entry rule,Q14056,"name search, reviewed",1337126 9353234,,NO-22,admin-0,Natural Earth + OpenStreetMap
+rule/tj-gbao,Gorno-Badakhshan Autonomous Oblast (GBAO),entry rule,Q207319,"name search, reviewed",3279614,,TJ-GB,admin-1,Natural Earth + OpenStreetMap
+rule/tw-penghu,Penghu County,entry rule,Q198525,"name search, reviewed",3339738,,TW-PEN,admin-1,Natural Earth + OpenStreetMap
+rule/tz-zanzibar,Zanzibar,entry rule,Q1774,"name search, reviewed",3775035,,,admin-0,Natural Earth + OpenStreetMap
+rule/vn-phu-quoc,Phu Quoc Island,entry rule,Q146695,"name search, reviewed",7135978,,,,OpenStreetMap
+rule/ye-socotra,Socotra Archipelago,entry rule,Q15728745,"name search, reviewed",5486640,,YE-SU,,OpenStreetMap

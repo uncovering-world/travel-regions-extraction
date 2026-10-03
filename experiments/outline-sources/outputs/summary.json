@@ -1,0 +1,77 @@
+{
+  "regions": 320,
+  "tied_by": {
+    "Natural Earth admin-0 feature by ISO code": 249,
+    "name search, reviewed": 44,
+    "Natural Earth disputed-area feature": 20,
+    "register wikidata_id": 7
+  },
+  "no_item": [
+    "area/koalou",
+    "area/transnistria-security-zone",
+    "area/undof-zone"
+  ],
+  "outline_sources": {
+    "Natural Earth + OpenStreetMap": 193,
+    "Natural Earth + GADM + OpenStreetMap": 100,
+    "Natural Earth": 10,
+    "none": 10,
+    "OpenStreetMap": 7
+  },
+  "by_basis": {
+    "ISO 3166-1 entry": {
+      "Natural Earth + OpenStreetMap": 150,
+      "Natural Earth + GADM + OpenStreetMap": 97,
+      "Natural Earth": 2
+    },
+    "entry rule": {
+      "Natural Earth + OpenStreetMap": 22,
+      "OpenStreetMap": 5,
+      "Natural Earth + GADM + OpenStreetMap": 1,
+      "none": 1,
+      "Natural Earth": 1
+    },
+    "entry rule of the holder": {
+      "Natural Earth + OpenStreetMap": 2
+    },
+    "leased area with its own access rule": {
+      "none": 3,
+      "Natural Earth + OpenStreetMap": 1,
+      "OpenStreetMap": 1,
+      "Natural Earth": 1
+    },
+    "registry": {
+      "Natural Earth + OpenStreetMap": 7,
+      "Natural Earth": 3
+    },
+    "residents": {
+      "Natural Earth + OpenStreetMap": 10,
+      "none": 6,
+      "Natural Earth": 3,
+      "Natural Earth + GADM + OpenStreetMap": 2
+    },
+    "unclaimed land": {
+      "Natural Earth + OpenStreetMap": 1,
+      "OpenStreetMap": 1
+    }
+  },
+  "without_natural_earth_or_gadm": [
+    "area/diego-garcia (OpenStreetMap)",
+    "area/gornja-siga (OpenStreetMap)",
+    "area/koalou (none)",
+    "area/moldauhafen (none)",
+    "area/rukwanzi-semliki (none)",
+    "area/russian-ranges-kazakhstan (none)",
+    "area/spratly-islands (none)",
+    "area/tiwinza (none)",
+    "area/transnistria-security-zone (none)",
+    "area/undof-zone (none)",
+    "area/varosha (none)",
+    "rule/az-nakhchivan (OpenStreetMap)",
+    "rule/cl-rapa-nui (none)",
+    "rule/gr-mount-athos (OpenStreetMap)",
+    "rule/in-minicoy-maldivians (OpenStreetMap)",
+    "rule/vn-phu-quoc (OpenStreetMap)",
+    "rule/ye-socotra (OpenStreetMap)"
+  ]
+}
