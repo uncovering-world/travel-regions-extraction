@@ -38,6 +38,7 @@ python3 experiments/stage2-scale-survey/run.py
 Inputs:
 
 - `inputs/nomadmania-counts.csv` — regions per country, 1,381 in total: the 1,301-region list from NomadMania's public `static/json/regions_en.json` (last modified 2025-03-31) plus the 80 regions added in the "Great Regions Review" post of 12 May 2026; retrieved 2026-10-03. Countries are NomadMania's; the ISO mapping is ours. Nine entries without an ISO 3166-1 entry (de facto states, the poles, 11 regions) are left out. Only counts are stored, not the list.
+- `inputs/wikivoyage-levels.csv` — for each country, the number of regions named in the `Regionlist` template of its English Wikivoyage page (level 1) and of those regions' pages (level 2; a region without sub-regions counts as one). Built by `fetch_wikivoyage.py` through the MediaWiki API on 2026-10-03; raw wikitext stays in the gitignored cache, only counts are committed. Of the level-1 region names, 51 had no page or no retrievable text.
 - `inputs/iso3166-2.csv` — code, type and parent of each ISO 3166-2 subdivision, from Debian `iso-codes` 4.20.1 (a mirror of the standard), read 2026-10-03. "Top tier" = subdivisions without a parent.
 
 ## Result
@@ -60,6 +61,25 @@ Inputs:
 
 Per-country rows are in `outputs/countries.csv`.
 
+### Wikivoyage levels (second question)
+
+Level 1 totals 979 regions for the same countries and level 2 totals 2,177; the reference (1,370) lies between.
+
+| Relation of the reference count to Wikivoyage levels | Countries | Reference regions |
+|---|---|---|
+| Single region | 21 | 21 |
+| Fits level 1 | 96 | 402 |
+| Fits level 2 | 14 | 319 |
+| Between the levels | 14 | 196 |
+| Coarser than level 1 | 39 | 116 |
+| Finer than level 2 | 10 | 295 |
+| No Wikivoyage regions | 10 | 21 |
+
+- 60% of multi-region countries fit one of the two levels. Level 1 fits mostly small and medium countries (Peru 10 vs 10, Egypt 9 vs 6, South Africa 9 vs 9); level 2 fits several large ones (United States 77 vs 85, Brazil 37 vs 27, United Kingdom 34 vs 29, Germany 20 vs 25, Turkey 14 vs 21).
+- With small counts the factor-1.5 test is lenient (3 against 4 "fits"), so the level-1 figure overstates agreement.
+- Neither level fits Russia (90 against 9 and 59), China (75 against 7 and 31), India (48 against 7 and 30), France, Italy, Japan, Australia or Thailand (10 against 5 and 21).
+- Taking, per country, whichever fits — the official top tier or a Wikivoyage level — covers 120 of 183 multi-region countries and 977 of 1,349 reference regions. The largest countries left without any fitting source are China, Australia, Indonesia, Japan, DR Congo, Nigeria, Colombia, Thailand, Algeria and Vietnam.
+
 ## Conclusion
 
 Outcome 2 of "what would change our mind", with outcome 3 as a minority case:
@@ -68,6 +88,8 @@ Outcome 2 of "what would change our mind", with outcome 3 as a minority case:
 - **For three quarters of countries the reference scale is reached only by grouping first-level units** (142 countries, 629 regions). Taking first-level units everywhere would give about 3,600 regions, 2.6 times the reference. So the central design question of Stage 2 is the source and rule of grouping: official groupings above the first level where they exist (statistical regions, NUTS-like tiers), a published travel hierarchy, or a threshold rule that merges units.
 - **A descending rule is needed for a handful of very large units** (China, Canada, Australia, Pakistan; 138 regions).
 - The world totals do not validate anything by themselves: per-country agreement is what has to be measured.
+
+On the second question: Wikivoyage is a serious candidate list source — it supplies a grouping at about the right scale for most small and medium countries, which is exactly where official tiers fail. It is not sufficient alone: for a dozen large countries the reference scale lies between or beyond its levels, so a rule that chooses the level per region (a weight or threshold) is still needed. Counts agreeing says nothing yet about whether the regions are the same or whether Wikivoyage regions resolve to substrate units; that is the next experiment.
 
 This supports no rule yet. It says where Stage 2 experiments should go next: test grouping sources on countries of the "groups" class, and keep one federation and one "descends" country as controls.
 

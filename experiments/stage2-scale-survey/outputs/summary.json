@@ -21,5 +21,28 @@
   },
   "share_of_multi_region_countries_matching_a_tier": 0.169,
   "top_tier_units_same_countries": 3572,
-  "top_tier_units_world": 3590
+  "top_tier_units_world": 3590,
+  "wikivoyage": {
+    "countries_by_relation": {
+      "between_levels": 14,
+      "coarser_than_level1": 39,
+      "finer_than_level2": 10,
+      "fits_level1": 96,
+      "fits_level2": 14,
+      "no_wikivoyage_regions": 10,
+      "single_region": 21
+    },
+    "level1_total": 979,
+    "level2_total": 2177,
+    "reference_regions_by_relation": {
+      "between_levels": 196,
+      "coarser_than_level1": 116,
+      "finer_than_level2": 295,
+      "fits_level1": 402,
+      "fits_level2": 319,
+      "no_wikivoyage_regions": 21,
+      "single_region": 21
+    },
+    "share_of_multi_region_countries_fitting_a_level": 0.601
+  }
 }

@@ -1,0 +1,205 @@
+iso,country,page,page_found,level1,level2,level1_pages_missing
+AD,Andorra,Andorra,1,0,0,0
+AE,United Arab Emirates,United Arab Emirates,1,7,7,5
+AF,Afghanistan,Afghanistan,1,5,5,0
+AG,Antigua and Barbuda,Antigua and Barbuda,1,3,3,0
+AL,Albania,Albania,1,3,3,0
+AM,Armenia,Armenia,1,4,8,0
+AO,Angola,Angola,1,6,6,0
+AQ,Antarctica,Antarctica,1,6,6,0
+AR,Argentina,Argentina,1,7,14,0
+AT,Austria,Austria,1,9,27,0
+AU,Australia,Australia,1,7,54,0
+AZ,Azerbaijan,Azerbaijan,1,9,9,0
+BA,Bosnia and Herzegovina,Bosnia and Herzegovina,1,6,6,0
+BB,Barbados,Barbados,1,4,4,0
+BD,Bangladesh,Bangladesh,1,6,23,0
+BE,Belgium,Belgium,1,3,24,0
+BF,Burkina Faso,Burkina Faso,1,4,4,0
+BG,Bulgaria,Bulgaria,1,9,9,0
+BH,Bahrain,Bahrain,1,0,0,0
+BI,Burundi,Burundi,1,0,0,0
+BJ,Benin,Benin,1,2,2,0
+BN,Brunei,Brunei,1,4,4,0
+BO,Bolivia,Bolivia,1,3,7,1
+BR,Brazil,Brazil,1,5,27,0
+BS,Bahamas,The Bahamas,1,14,14,1
+BT,Bhutan,Bhutan,1,3,3,0
+BW,Botswana,Botswana,1,3,3,0
+BY,Belarus,Belarus,1,6,6,0
+BZ,Belize,Belize,1,5,5,0
+CA,Canada,Canada,1,6,29,0
+CD,"Congo, Democratic Republic",Democratic Republic of the Congo,1,5,5,0
+CF,Central African Republic,Central African Republic,1,0,0,0
+CG,"Congo, Republic",Republic of the Congo,1,6,31,0
+CH,Switzerland,Switzerland,1,10,33,0
+CI,Côte d'Ivoire,Côte d'Ivoire,1,4,4,0
+CK,Cook Islands,Cook Islands,1,2,2,0
+CL,Chile,Chile,1,6,10,0
+CM,Cameroon,Cameroon,1,5,5,0
+CN,China,China,1,7,31,0
+CO,Colombia,Colombia,1,6,37,0
+CR,Costa Rica,Costa Rica,1,6,9,0
+CU,Cuba,Cuba,1,3,11,0
+CV,Cabo Verde,Cabo Verde,1,10,10,2
+CY,Cyprus,Cyprus,1,6,6,0
+CZ,Czechia,Czechia,1,8,10,0
+DE,Germany,Germany,1,5,25,0
+DJ,Djibouti,Djibouti,1,0,0,0
+DK,Denmark,Denmark,1,6,20,0
+DM,Dominica,Dominica,1,0,0,0
+DO,Dominican Republic,Dominican Republic,1,5,5,0
+DZ,Algeria,Algeria,1,5,27,0
+EC,Ecuador,Ecuador,1,4,4,0
+EE,Estonia,Estonia,1,4,4,0
+EG,Egypt,Egypt,1,6,6,0
+EH,Western Sahara,Western Sahara,1,0,0,0
+ER,Eritrea,Eritrea,1,2,3,1
+ES,Spain,Spain,1,8,28,0
+ET,Ethiopia,Ethiopia,1,5,5,0
+FI,Finland,Finland,1,5,20,0
+FJ,Fiji,Fiji,1,9,9,0
+FM,Micronesia,Federated States of Micronesia,1,4,5,0
+FR,France,France,1,13,84,0
+GA,Gabon,Gabon,1,3,3,1
+GB,United Kingdom,United Kingdom,1,6,29,0
+GD,Grenada,Grenada,1,3,3,0
+GE,Georgia,Georgia (country),1,7,7,1
+GF,French Guiana,French Guiana,1,0,0,0
+GH,Ghana,Ghana,1,4,7,0
+GL,Greenland,Greenland,1,4,4,0
+GM,Gambia,The Gambia,1,0,0,0
+GN,Guinea,Guinea,1,4,4,0
+GQ,Equatorial Guinea,Equatorial Guinea,1,3,3,0
+GR,Greece,Greece,1,6,34,0
+GT,Guatemala,Guatemala,1,6,6,0
+GW,Guinea-Bissau,Guinea-Bissau,1,0,0,0
+GY,Guyana,Guyana,1,3,9,0
+HN,Honduras,Honduras,1,3,3,0
+HR,Croatia,Croatia,1,5,12,0
+HT,Haiti,Haiti,1,3,3,0
+HU,Hungary,Hungary,1,8,33,0
+ID,Indonesia,Indonesia,1,8,37,0
+IE,Ireland,Ireland,1,6,26,0
+IL,Israel,Israel,1,9,19,0
+IN,India,India,1,7,30,0
+IQ,Iraq,Iraq,1,5,8,0
+IR,Iran,Iran,1,7,13,0
+IS,Iceland,Iceland,1,7,7,0
+IT,Italy,Italy,1,6,35,0
+JM,Jamaica,Jamaica,1,3,3,0
+JO,Jordan,Jordan,1,4,4,0
+JP,Japan,Japan,1,9,54,0
+KE,Kenya,Kenya,1,5,5,0
+KG,Kyrgyzstan,Kyrgyzstan,1,4,4,0
+KH,Cambodia,Cambodia,1,4,4,0
+KI,Kiribati,Kiribati,1,3,3,0
+KM,Comoros,Comoros,1,3,3,0
+KN,Saint Kitts and Nevis,Saint Kitts and Nevis,1,2,2,0
+KP,"Korea, North",North Korea,1,4,4,0
+KR,"Korea, South",South Korea,1,9,9,0
+KW,Kuwait,Kuwait,1,0,0,0
+KZ,Kazakhstan,Kazakhstan,1,6,6,0
+LA,Laos,Laos,1,3,3,0
+LB,Lebanon,Lebanon,1,5,13,0
+LC,Saint Lucia,Saint Lucia,1,0,0,0
+LI,Liechtenstein,Liechtenstein,1,0,0,0
+LK,Sri Lanka,Sri Lanka,1,9,9,0
+LR,Liberia,Liberia,1,3,9,0
+LS,Lesotho,Lesotho,1,0,0,0
+LT,Lithuania,Lithuania,1,5,5,0
+LU,Luxembourg,Luxembourg,1,5,5,0
+LV,Latvia,Latvia,1,5,5,0
+LY,Libya,Libya,1,3,9,0
+MA,Morocco,Morocco,1,7,7,0
+MC,Monaco,Monaco,1,0,0,0
+MD,Moldova,Moldova,1,2,3,0
+ME,Montenegro,Montenegro,1,5,5,0
+MG,Madagascar,Madagascar,1,6,6,0
+MH,Marshall Islands,Marshall Islands,1,2,2,0
+MK,North Macedonia,North Macedonia,1,3,4,0
+ML,Mali,Mali,1,8,8,0
+MM,Myanmar (Burma),Myanmar,1,6,6,0
+MN,Mongolia,Mongolia,1,5,5,0
+MR,Mauritania,Mauritania,1,3,3,0
+MT,Malta,Malta,1,3,3,0
+MU,Mauritius,Mauritius,1,10,10,8
+MV,Maldives,Maldives,1,10,10,4
+MW,Malawi,Malawi,1,3,3,0
+MX,Mexico,Mexico,1,6,20,0
+MY,Malaysia,Malaysia,1,5,15,0
+MZ,Mozambique,Mozambique,1,3,3,0
+NA,Namibia,Namibia,1,10,10,0
+NE,Niger,Niger,1,3,3,0
+NG,Nigeria,Nigeria,1,6,37,0
+NI,Nicaragua,Nicaragua,1,6,6,0
+NL,Netherlands,Netherlands,1,4,12,0
+NO,Norway,Norway,1,7,18,0
+NP,Nepal,Nepal,1,5,9,0
+NR,Nauru,Nauru,1,0,0,0
+NU,Niue,Niue,1,0,0,0
+NZ,New Zealand,New Zealand,1,5,21,0
+OM,Oman,Oman,1,4,4,0
+PA,Panama,Panama,1,4,4,0
+PE,Peru,Peru,1,10,10,0
+PF,French Polynesia,French Polynesia,1,5,5,0
+PG,Papua New Guinea,Papua New Guinea,1,9,9,0
+PH,Philippines,Philippines,1,4,15,0
+PK,Pakistan,Pakistan,1,6,10,0
+PL,Poland,Poland,1,6,6,5
+PS,Palestine,Palestinian territories,1,2,2,0
+PT,Portugal,Portugal,1,7,21,0
+PW,Palau,Palau,1,6,6,3
+PY,Paraguay,Paraguay,1,4,4,0
+QA,Qatar,Qatar,1,8,8,4
+RO,Romania,Romania,1,9,14,0
+RS,Serbia,Serbia,1,6,12,0
+RU,Russia,Russia,1,9,59,0
+RW,Rwanda,Rwanda,1,0,0,0
+SA,Saudi Arabia,Saudi Arabia,1,5,7,0
+SB,Solomon Islands,Solomon Islands,1,9,44,0
+SC,Seychelles,Seychelles,1,11,21,5
+SD,Sudan,Sudan,1,5,5,0
+SE,Sweden,Sweden,1,3,23,0
+SG,Singapore,Singapore,1,10,10,0
+SI,Slovenia,Slovenia,1,6,6,0
+SK,Slovakia,Slovakia,1,3,23,0
+SL,Sierra Leone,Sierra Leone,1,0,0,0
+SM,San Marino,San Marino,1,0,0,0
+SN,Senegal,Senegal,1,5,5,0
+SO,Somalia,Somalia,1,5,10,0
+SR,Suriname,Suriname,1,4,4,0
+SS,South Sudan,South Sudan,1,3,3,0
+ST,São Tomé and Príncipe,São Tomé and Príncipe,1,2,2,2
+SV,El Salvador,El Salvador,1,2,2,0
+SY,Syria,Syria,1,6,6,0
+SZ,Eswatini,Eswatini,1,0,0,0
+TD,Chad,Chad,1,3,3,0
+TF,French Southern and Antarctic Lands,French Southern and Antarctic Lands,1,0,0,0
+TG,Togo,Togo,1,3,9,0
+TH,Thailand,Thailand,1,5,21,0
+TJ,Tajikistan,Tajikistan,1,5,5,0
+TL,Timor Leste,East Timor,1,3,3,0
+TM,Turkmenistan,Turkmenistan,1,5,5,0
+TN,Tunisia,Tunisia,1,3,9,0
+TO,Tonga,Tonga,1,5,5,0
+TR,Turkey,Turkey,1,7,21,0
+TT,Trinidad and Tobago,Trinidad and Tobago,1,2,2,0
+TV,Tuvalu,Tuvalu,1,9,9,8
+TW,Taiwan,Taiwan,1,5,19,0
+TZ,Tanzania,Tanzania,1,6,6,0
+UA,Ukraine,Ukraine,1,4,17,0
+UG,Uganda,Uganda,1,4,4,0
+US,United States,United States of America,1,13,85,0
+UY,Uruguay,Uruguay,1,4,4,0
+UZ,Uzbekistan,Uzbekistan,1,5,5,0
+VA,Vatican,Vatican City,1,0,0,0
+VC,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,1,2,2,0
+VE,Venezuela,Venezuela,1,7,25,0
+VN,Vietnam,Vietnam,1,4,4,0
+VU,Vanuatu,Vanuatu,1,6,10,0
+WS,Samoa,Samoa,1,2,2,0
+YE,Yemen,Yemen,1,6,11,0
+ZA,South Africa,South Africa,1,9,37,0
+ZM,Zambia,Zambia,1,5,5,0
+ZW,Zimbabwe,Zimbabwe,1,5,5,0
