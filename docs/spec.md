@@ -2,7 +2,7 @@
 
 Version: 0.4.0-draft. Date: 2026-10-03. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
 
-Changes in 0.4.0-draft: R045–R058 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D056); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
+Changes in 0.4.0-draft: R045–R058 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D057); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
 
 ## Basis and limits of reliability
 
@@ -429,7 +429,7 @@ An area of kind `own_regime` (a buffer, separation or demilitarised zone, a cond
 
 ### R053 — Leased areas and bases [accepted; D047]
 
-An area of kind `lease_or_base` is attributed to the lessor's country, since the parties agree whose land it is; the lessee is recorded on it. It is a region only where entry to it follows rules of its own; otherwise it stays in the lessor's region as a special place. A leased road or part of a port with no population and no entry rule of its own is not a region.
+An area of kind `lease_or_base` is attributed to the lessor's country, since the parties agree whose land it is; the lessee is recorded on it. It is a region when its holder (R048) is a state other than the lessor; otherwise it stays in the lessor's region as a special place (amended by D057, which replaces the test "entry follows rules of its own").
 
 ### R054 — Recently resolved disputes [accepted; D048]
 

@@ -541,3 +541,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: GADM's licence allows non-commercial use and forbids redistribution without permission; OpenStreetMap's (ODbL) requires derived data to be distributed under the same licence. Geometry from them follows those terms wherever it is published.
 - Status: accepted.
 - Basis: owner decision, 2026-10-04; [outline-source survey](../experiments/outline-sources/README.md); Q013.
+
+### D057 — A leased area or base is a region when its holder is not the lessor
+
+- Decision: a leased area or base (register kind `lease_or_base`) is a region when its holder (R048) — the party whose officers in practice admit, refuse and remove a civilian — is a state other than the lessor. Otherwise it stays in the lessor's region as a special place. The region is attributed to the lessor's country and names its holder.
+- Rationale: R053 asked for "entry rules of its own" and the list build read that as a recorded entry rule with a source, so a base whose entry another state controls (Guantanamo Bay) fell to a special place for want of a document. The holder test already defines who decides entry and applies to every lease alike; a property lease where the lessor's officers still decide entry (the Czech lots in the Port of Hamburg, as expected) stays a special place.
+- Rules: R053 (amended).
+- Counterarguments: uninhabited military sites held by another state become regions too (expected for the Russian ranges in Kazakhstan); the holder of each lease has to be sourced.
+- Status: accepted.
+- Basis: owner decision, 2026-10-04; [Stage 1 as a list](../experiments/stage1-list/README.md).
