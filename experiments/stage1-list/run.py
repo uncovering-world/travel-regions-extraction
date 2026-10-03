@@ -156,9 +156,10 @@ def main() -> None:
                 place("residents unknown: treated as a special place until sourced")
                 gap("whether civilians live there", "region or special place")
         elif kind == "lease_or_base":
-            # R053 as amended by D057: a region when its holder (R048) is a state other than the lessor
+            # R053 as amended by D057 and D058: a region when its holder (R048) is a state other than the lessor
+            # and civilians live there
             role = lease_roles.get(a["area_id"], {}).get("holder_role", "")
-            if role == "lessee":
+            if role == "lessee" and a["inhabited"] == "yes":
                 region("leased area held by the lessee", "the lessor; held by " + held.get(a["area_id"], {}).get("holder", "?")[:60])
             elif link.get("registry_cell"):
                 region("registry: points of view differ", "per the registry")

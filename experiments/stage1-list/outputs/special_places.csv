@@ -52,6 +52,7 @@ place/ntem-island,Island at the mouth of the Ntem River,line_position,a dispute 
 place/okpara-villages,Villages near the Okpara River,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/orange-river-boundary,Orange River boundary,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/otangav,O'Tangav area,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/palanca-road,Odesa-Reni road section at Palanca,lease_or_base,leased; held by the lessee
 place/perejil,Perejil (Leila) Island,own_regime,no resident civilians
 place/pheasant-island,Pheasant Island,own_regime,no resident civilians
 place/point-20,'Point 20' reclaimed land at Tuas,no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
@@ -75,6 +76,7 @@ place/sir-creek,Sir Creek,line_position,a dispute about a line or an undelimited
 place/southern-patagonian-ice-field,Southern Patagonian Ice Field (Fitz Roy - Cerro Murallón section),no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/strovilia,Strovilia checkpoint area,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/sudan-south-sudan-other-border-areas,"14-Mile Area, Jodha, Kaka, Jebel Megeinis, Bebnis",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/suleyman-shah-tomb,Tomb of Suleyman Shah,lease_or_base,leased; held by the lessee
 place/susta,Susta,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/sveta-gera,Sveta Gera (Trdinov vrh) barracks,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/ta-muen-thom-emerald-triangle,"Other contested Thai-Cambodian border areas (Ta Muen Thom, Ta Krabey, Emerald Triangle/Chong Bok)",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it

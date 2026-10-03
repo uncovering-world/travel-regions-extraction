@@ -131,6 +131,12 @@ The owner replaced R053's test: a lease is a region when its holder is a state o
 
 Result: 319 regions, 306 with nothing open; 88 special places; 2 missing facts.
 
+## Leases under D058, 2026-10-04
+
+The owner added the residents test to leases (D058): a lease held by the lessee is a region only if civilians live there. Baikonur and Guantanamo Bay stay regions; the Palanca road section and the Tomb of Suleyman Shah become special places. The register's `inhabited` value for Guantanamo Bay was corrected from `garrison_only` to `yes`: its own passage counts "civilian employees, and family members" among about 6,100 residents.
+
+Result: 317 regions, 304 with nothing open; 90 special places; 2 missing facts.
+
 ## Status
 
-Concluded 2026-10-04 (six runs, two corrections, D057).
+Concluded 2026-10-04 (six runs, two corrections, D057–D058).

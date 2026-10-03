@@ -62,7 +62,7 @@ gilgit-baltistan,Gilgit-Baltistan,sourced,paper_claim,Pakistan (administers); In
 glorioso-islands,Glorioso Islands,sourced,paper_claim,"France (controls, as part of the French Southern and Antarctic Lands); Comoros (claims); Madagascar (claims)",5,garrison_only,,secondary,2026-10-03,,
 golan-heights,Golan Heights,sourced,occupied_or_annexed,Israel (occupies since 1967); Syria (internationally recognised as Syrian territory),1800,yes,,secondary,2026-10-03,Q83210,1159320905
 gornja-siga,Gornja Siga and other west-bank pockets,sourced,unclaimed,Croatia (does not claim it; asserts it is part of Serbia); Serbia (does not claim it),7,no,closed,secondary,2026-10-03,,
-guantanamo-bay,Guantanamo Bay Naval Base,sourced,lease_or_base,United States (holds the base under lease); Cuba (the base is on Cuban soil; protests the US presence as illegal),117,garrison_only,restricted,secondary,2026-10-03,Q762570,1159320529
+guantanamo-bay,Guantanamo Bay Naval Base,sourced,lease_or_base,United States (holds the base under lease); Cuba (the base is on Cuban soil; protests the US presence as illegal),117,yes,restricted,secondary,2026-10-03,Q762570,1159320529
 guinea-liberia-makona,"Guinea-Liberia border at the Makona River (Sorlumba, Foya District)",sourced,line_position,Liberia; Guinea,,,,secondary,2026-10-03,,
 halaib-triangle,Hala'ib Triangle,sourced,paper_claim,Egypt (full de facto control; claims); Sudan (claims),20580,yes,,secondary,2026-10-03,,
 hans-island,Hans Island (Tartupaluk),sourced,resolved_recently,"Canada; Denmark (for Greenland) - claimed by both until 14 June 2022, now split between them",1.3,no,,secondary,2026-10-03,,1159320559

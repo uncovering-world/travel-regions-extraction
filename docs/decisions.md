@@ -550,3 +550,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: uninhabited military sites held by another state become regions too (expected for the Russian ranges in Kazakhstan); the holder of each lease has to be sourced.
 - Status: accepted.
 - Basis: owner decision, 2026-10-04; [Stage 1 as a list](../experiments/stage1-list/README.md).
+
+### D058 — A leased area held by the lessee is a region only if civilians live there
+
+- Decision: amends D057. A leased area or base is a region when its holder (R048) is a state other than the lessor **and** civilians live there (register fact `inhabited` = yes). Otherwise it is a special place in the lessor's region.
+- Rationale: under D057 alone a road section and a guarded tomb held by another state became regions; the owner wanted small sites like these to be curiosities. Size thresholds were rejected earlier (D052), and "a destination in its own right" could not be checked from a source without excluding Guantanamo Bay, which has no travel-guide article. The residents test is the one already used for islets, paper claims and zones with no single holder (R051, R052).
+- Rules: R053 (amended).
+- Counterarguments: an uninhabited site that travellers do visit in its own right is a curiosity, not a region; the result depends on the register's `inhabited` facts, which are missing for many small sites (missing means special place).
+- Status: accepted.
+- Basis: owner decision, 2026-10-04; [Stage 1 as a list](../experiments/stage1-list/README.md).
