@@ -1,0 +1,35 @@
+{
+  "places": 47,
+  "by_group": {
+    "A": {
+      "Natural Earth": 5,
+      "Natural Earth + OpenStreetMap": 5,
+      "OpenStreetMap": 2,
+      "Natural Earth + Commons map": 2,
+      "none": 4,
+      "Natural Earth + OpenStreetMap + Commons map": 2
+    },
+    "B": {
+      "Natural Earth + OpenStreetMap + Commons map": 1,
+      "Natural Earth": 3,
+      "Natural Earth + OpenStreetMap": 2
+    },
+    "C": {
+      "Natural Earth + OpenStreetMap + Commons map": 5,
+      "Natural Earth + OpenStreetMap": 11,
+      "Natural Earth": 4,
+      "Natural Earth + Commons map": 1
+    }
+  },
+  "with_natural_earth": 41,
+  "no_source": [
+    "area/koalou",
+    "area/rukwanzi-semliki",
+    "area/transnistria-security-zone",
+    "area/varosha"
+  ],
+  "only_openstreetmap_or_commons": [
+    "area/gornja-siga",
+    "rule/ye-socotra"
+  ]
+}

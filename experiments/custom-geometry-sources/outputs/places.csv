@@ -1,0 +1,48 @@
+place,group,ne_ids,wikidata,natural_earth,osm_relation,commons_map,sources
+area/armistice-no-mans-lands,A,1159320909 1159320911 1746265963,Q16129570 Q312818,yes,,,Natural Earth
+area/baikonur,A,1159320965,Q165413,yes,5295657,,Natural Earth + OpenStreetMap
+area/bir-tawil,A,1729635091,Q620634,yes,3335661,,Natural Earth + OpenStreetMap
+area/cyprus-buffer-zone,A,1159320511,Q116970,yes,3263909 3263909,,Natural Earth + OpenStreetMap
+area/east-jerusalem,A,1746265961,Q212938,yes,,,Natural Earth
+area/gornja-siga,A,,Q102285156,,16381727,,OpenStreetMap
+area/guantanamo-bay,A,1159320529,Q762570,yes,,Data:Guantanamo Bay Naval Base.map,Natural Earth + Commons map
+area/ilemi-triangle,A,1159320973 1159321237,Q973527 Q973527,yes,192797 192797,,Natural Earth + OpenStreetMap
+area/koalou,A,,,,,,none
+area/korean-dmz,A,1159320991 1159321183,Q331990 Q331990,yes,,,Natural Earth
+area/kuril-islands,A,1159321213,Q80389,yes,7273443,,Natural Earth + OpenStreetMap
+area/rukwanzi-semliki,A,,Q1714359,,,,none
+area/shebaa-farms,A,1159320907,Q1133272,yes,,,Natural Earth
+area/somaliland,A,1159321259,Q34754,yes,3586169,Data:Somaliland.map,Natural Earth + OpenStreetMap + Commons map
+area/south-ossetia,A,1159320787,Q23427,yes,,,Natural Earth
+area/transnistria-security-zone,A,,,,,,none
+area/undof-zone,A,1159321297,Q1428532,yes,,Data:Syria/UNDOF.map,Natural Earth + Commons map
+area/varosha,A,,Q75666,,,,none
+area/western-sahara-moroccan-controlled,A,1159321037,Q6250,yes,2559126,Data:Western Sahara.map,Natural Earth + OpenStreetMap + Commons map
+rule/ye-socotra,A,,Q15728745,,5486640,,OpenStreetMap
+siachen,B,1159320963,Q333946,yes,3797223,Data:Siachen Glacier.map,Natural Earth + OpenStreetMap + Commons map
+demchok,B,1159320865,Q1057797,yes,,,Natural Earth
+bhutan-china-north,B,1159320455,,yes,,,Natural Earth
+kalapani,B,1159320873,Q3595348,yes,,,Natural Earth
+halaib-triangle,B,1729635095,Q796684,yes,4081614,,Natural Earth + OpenStreetMap
+bir-tawil (land),B,1729635091,Q620634,yes,3335661,,Natural Earth + OpenStreetMap
+Bajo Nuevo Bank (Petrel Is.),C,1159320425,Q1257783,yes,5748709,Data:Bajo Nuevo Bank.map,Natural Earth + OpenStreetMap + Commons map
+Sapodilla Cayes,C,1159320435,Q766270,yes,8774934,,Natural Earth + OpenStreetMap
+Hans Island,C,1159320559,Q681389,yes,11602182,,Natural Earth + OpenStreetMap
+Doumera Island,C,1159320583,Q1252656,yes,4143503,,Natural Earth + OpenStreetMap
+Penon de Alhucemas,C,1159320605,Q191697,yes,,,Natural Earth
+Bassas da India,C,1159320665,Q220601,yes,6077490 6077487,,Natural Earth + OpenStreetMap
+Europa Island,C,1159320667,Q193089,yes,6077619 6376308 2556649,,Natural Earth + OpenStreetMap
+Glorioso Is.,C,1159320675,Q236601,yes,6080163,,Natural Earth + OpenStreetMap
+Juan De Nova I.,C,1159320677,Q237034,yes,6077827,,Natural Earth + OpenStreetMap
+Matthew and Hunter Is.,C,1159320687,Q1909475,yes,,,Natural Earth
+Mbane Island,C,1159320695,,yes,,,Natural Earth
+Br. Indian Ocean Ter.,C,1159320723,Q43448,yes,1993867,Data:British Indian Ocean Territory.map,Natural Earth + OpenStreetMap + Commons map
+Rockall I.,C,1159320775,Q206137,yes,,,Natural Earth
+Dragonja River,C,1159320835,Q788452,yes,7299856,,Natural Earth + OpenStreetMap
+Pinnacle Is.,C,1159320959,Q29460,yes,3445960,,Natural Earth + OpenStreetMap
+Dokdo,C,1159320995,Q20317,yes,6646538,,Natural Earth + OpenStreetMap
+Spratly Is.,C,1159321165,Q43296,yes,6430384,Data:United States Minor Outlying Islands/Wake Atoll.map,Natural Earth + OpenStreetMap + Commons map
+Scarborough Reef,C,1159321227,Q628716,yes,,Data:Scarborough Reef.map,Natural Earth + Commons map
+Serranilla Bank,C,1159321245,Q1169008,yes,11212373,Data:Serranilla Bank.map,Natural Earth + OpenStreetMap + Commons map
+Wake Atoll,C,1159321391,Q43296,yes,6430384,Data:United States Minor Outlying Islands/Wake Atoll.map,Natural Earth + OpenStreetMap + Commons map
+Bird Island,C,1159321413,Q790669,yes,3473022,,Natural Earth + OpenStreetMap

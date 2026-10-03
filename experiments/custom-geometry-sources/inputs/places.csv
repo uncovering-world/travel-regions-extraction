@@ -1,0 +1,48 @@
+place,group,ne_ids
+area/armistice-no-mans-lands,A,1159320909 1159320911 1746265963
+area/baikonur,A,1159320965
+area/bir-tawil,A,1729635091
+area/cyprus-buffer-zone,A,1159320511
+area/east-jerusalem,A,1746265961
+area/gornja-siga,A,
+area/guantanamo-bay,A,1159320529
+area/ilemi-triangle,A,1159320973 1159321237
+area/koalou,A,
+area/korean-dmz,A,1159320991 1159321183
+area/kuril-islands,A,1159321213
+area/rukwanzi-semliki,A,
+area/shebaa-farms,A,1159320907
+area/somaliland,A,1159321259
+area/south-ossetia,A,1159320787
+area/transnistria-security-zone,A,
+area/undof-zone,A,1159321297
+area/varosha,A,
+area/western-sahara-moroccan-controlled,A,1159321037
+rule/ye-socotra,A,
+siachen,B,1159320963
+demchok,B,1159320865
+bhutan-china-north,B,1159320455
+kalapani,B,1159320873
+halaib-triangle,B,1729635095
+bir-tawil (land),B,1729635091
+Bajo Nuevo Bank (Petrel Is.),C,1159320425
+Sapodilla Cayes,C,1159320435
+Hans Island,C,1159320559
+Doumera Island,C,1159320583
+Penon de Alhucemas,C,1159320605
+Bassas da India,C,1159320665
+Europa Island,C,1159320667
+Glorioso Is.,C,1159320675
+Juan De Nova I.,C,1159320677
+Matthew and Hunter Is.,C,1159320687
+Mbane Island,C,1159320695
+Br. Indian Ocean Ter.,C,1159320723
+Rockall I.,C,1159320775
+Dragonja River,C,1159320835
+Pinnacle Is.,C,1159320959
+Dokdo,C,1159320995
+Spratly Is.,C,1159321165
+Scarborough Reef,C,1159321227
+Serranilla Bank,C,1159321245
+Wake Atoll,C,1159321391
+Bird Island,C,1159321413
