@@ -1,0 +1,85 @@
+{
+  "regimes": 59,
+  "started_2000_or_later": 55,
+  "border_resident_schemes_among_them": 6,
+  "all_endings": {
+    "ended_or_suspended": 23,
+    "within_years_of_start": {
+      "0": 2,
+      "1": 6,
+      "2": 6,
+      "3": 7,
+      "5": 12,
+      "10": 17
+    },
+    "cutoffs_1": {
+      "entered": 53,
+      "left_within_5_years_of_entering": 10,
+      "too_recent": 0
+    },
+    "cutoffs_2": {
+      "entered": 45,
+      "left_within_5_years_of_entering": 7,
+      "too_recent": 4
+    },
+    "cutoffs_3": {
+      "entered": 41,
+      "left_within_5_years_of_entering": 9,
+      "too_recent": 8
+    }
+  },
+  "without_2020_closures": {
+    "ended_or_suspended": 12,
+    "within_years_of_start": {
+      "0": 2,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "5": 6,
+      "10": 9
+    },
+    "cutoffs_1": {
+      "entered": 53,
+      "left_within_5_years_of_entering": 4,
+      "too_recent": 0
+    },
+    "cutoffs_2": {
+      "entered": 47,
+      "left_within_5_years_of_entering": 2,
+      "too_recent": 4
+    },
+    "cutoffs_3": {
+      "entered": 43,
+      "left_within_5_years_of_entering": 3,
+      "too_recent": 8
+    }
+  },
+  "stated_expiry_or_pilot": {
+    "yes": 10,
+    "no": 2,
+    "unknown": 43,
+    "of_yes_ended_other_than_2020_closure": 2,
+    "early_endings_within_2_years_with_stated_expiry": 0
+  },
+  "suspensions": {
+    "all": 16,
+    "in_2020": 12,
+    "resumed": 10,
+    "years_until_resumed": [
+      0,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4
+    ]
+  },
+  "evidence": {
+    "primary": 20,
+    "secondary": 39
+  }
+}
