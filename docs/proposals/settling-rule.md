@@ -58,7 +58,7 @@ Years are from the Modern Conquest dataset, Florea's table of de facto states an
 |---|---|---|---|---|
 | 1 | Seizure | The three conditions above | Attribution unchanged; the area is marked unsettled | Crimea 2014; Northern Cyprus 1974 |
 | 2 | Clock | Each full calendar year after the seizure adds one if quiet and resets the clock if not | None | Western Sahara: fighting 1975–1989, clock from 1990; Nagorno-Karabakh: two quiet years, then reset in 1997–98 |
-| 3 | Acceptance by time | T quiet years in a row, the holder running a standing civil arrangement. The other side may still claim the area; it has not fought for it for T years | Attribution moves to the holder; the other side stays as claimant | Northern Cyprus 1977; Western Sahara 1992; Crimea 2017 |
+| 3 | Acceptance by time | T quiet years in a row under the same holder. The other side may still claim the area; it has not fought for it for T years | Attribution moves to the holder; the other side stays as claimant | Northern Cyprus 1977; Western Sahara 1992; Crimea 2017 |
 | 4 | Acceptance by an act | The other side stops contesting by an act: it agrees to the change, accepts a ruling, gives up its claim, or ceases to exist. A dated, sourced fact | Taken over at the next release, without waiting | Bakassi 2008 (ICJ); Hanish Islands 1998 (arbitration); Sinai by 1982; Nagorno-Karabakh after the 2023 offensive ("The dispute ended after the dissolution of Artsakh") |
 | 5 | Return | Control goes back to the party the canon attributes the area to | None: the canon never changed | Kuwait 1990–91; Falkland Islands 1982; 33 of 78 seizures since 1946 ended in the year of the seizure or the next |
 | 6 | Fighting without change of control | Active conflict, same holder | Flag only | Golan Heights 1973 and 2025; Kashmir |
@@ -99,7 +99,7 @@ Not counted as undone: entities that became states and one island that sank.
 
 **Recommendation: T = 3.** Two is defensible (it is the literature's convention and the owner's first suggestion) at the price of the two reversals above. Five and ten are not supported over three.
 
-**Decided by the owner on 2026-10-03: T = 3; no original holder; only an explicit act ends a contest at once; the status creates no regions.** To be recorded in the spec with the rest of the rule once its open points are settled.
+**Decided by the owner on 2026-10-03: T = 3; no original holder; only an explicit act ends a contest at once; the status creates no regions; holding in fact is enough, with no separate condition about civil administration.** To be recorded in the spec with the rest of the rule once its open points are settled.
 
 ## How it would have run
 
@@ -134,7 +134,7 @@ Year in which the canon accepts the new holder, by T; "—" means never. From `o
 | Somaliland | 1991 | 1992 | 1993 | 1994 | 1996 | 2001 | alive in 2016 |
 | Donetsk | 2014 | — | — | — | — | — | alive in 2016 |
 
-The back-test does not model the requirement of a standing civil arrangement, which could only delay these years, and it treats the conquest dataset's definition as the claim condition. Sinai is in that dataset as a conquest attempt; whether Israel asserted it as its own is not checked here.
+The back-test treats the conquest dataset's definition as the claim condition. Sinai is in that dataset as a conquest attempt; whether Israel asserted it as its own is not checked here.
 
 ## Open points
 
@@ -143,7 +143,7 @@ To be put to the owner one at a time:
 1. ~~The value of T.~~ Decided: three years.
 2. ~~Path 4: which acts count as the other side having stopped contesting.~~ Decided: only an explicit act — agreement, accepted ruling, renunciation of the claim, or the party ceasing to exist. A claim kept on paper by a party that can no longer act waits for the clock, because "cannot act" would be a judgement of ours and an act has a date and a document.
 3. ~~Whether the status can create a region.~~ Decided: no new rule. A region exists through the reference registry (a supported point of view separates the area) or through CR-W (R044): where another party controls civilian access, the entry decision for the area differs from the rest of the region, which CR-W separates once a witness is cited and its gates pass. CR-W needs certified scopes (G-SCOPE), so it can separate only an area with a stable outline, never one bounded by a moving line. Until then an unsettled area stays inside the region of the party it is attributed to, with the status shown. Acceptance separates it at the latest, because it then has another country than the rest of the region; a strip between two neighbours moves into the neighbour's region instead. The status decides only to whom a region is attributed.
-4. What counts as evidence of a standing civil arrangement.
+4. ~~What counts as evidence of a standing civil arrangement.~~ Decided: no such condition. Holding the area in fact — being able to admit, refuse and remove a civilian — is enough, for inhabited and uninhabited areas alike; 16 of the 39 seizures accepted at three years are uninhabited, and a condition about administration for residents could never be met there.
 5. The release interval; one release per year is assumed here.
 
 ## What adoption would change
