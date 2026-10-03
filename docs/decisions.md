@@ -532,3 +532,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: civil administration can be split as well (a condominium); then the area has no holder and R052 applies if it qualifies.
 - Status: accepted.
 - Basis: owner decision, 2026-10-03 (agreed in principle, confirmed after R049 was adopted).
+
+### D056 — Outline sources: every available dataset, the canon being part of Track Your Regions
+
+- Decision: outlines of regions may come from any of Natural Earth, GADM, OpenStreetMap, and custom geometries digitised from cited documents. The canon is part of the Track Your Regions project, which already uses GADM; the licences of these datasets are taken as they apply to that project.
+- Rationale: the [outline-source survey](../experiments/outline-sources/README.md) found that Natural Earth covers every ISO entry and registry cell but few small places; OpenStreetMap covers almost everything; ten regions (mostly leases and zones) have no outline in any of them. Using all sources keeps custom work to those few.
+- Rules: R047 (amended).
+- Counterarguments: GADM's licence allows non-commercial use and forbids redistribution without permission; OpenStreetMap's (ODbL) requires derived data to be distributed under the same licence. Geometry from them follows those terms wherever it is published.
+- Status: accepted.
+- Basis: owner decision, 2026-10-04; [outline-source survey](../experiments/outline-sources/README.md); Q013.

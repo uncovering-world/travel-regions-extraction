@@ -121,6 +121,10 @@ Result: 322 regions, 309 with nothing open; 87 special places; 2 missing facts.
 
 Correction the same day: two register areas inside Antarctica (the overlapping Peninsula claims and Marie Byrd Land) had come out as regions; Antarctica is one cell (D040). The list build now treats any area tied to an ISO entry the same way instead of naming four areas in its code. After the correction: 320 regions, 307 with nothing open.
 
+## Correction, 2026-10-04: leased areas
+
+The list build had treated a leased area as a region whenever access to it was restricted or closed. R053 asks for an entry rule of its own, and a closed or fenced site is not one (a closed military site is an object inside its region, R056). The owner spotted the result in the Port of Hamburg's Czech lots. Now a lease is a region only with a recorded entry rule that is a witness: Baikonur. Moldauhafen, the Russian ranges in Kazakhstan, Tiwinza, Diego Garcia and Guantanamo Bay are special places; for Guantanamo no entry rule is recorded yet. After the correction: 315 regions, 302 with nothing open, 92 special places, one missing fact.
+
 ## Status
 
-Concluded 2026-10-04 (six runs).
+Concluded 2026-10-04 (six runs and two corrections).

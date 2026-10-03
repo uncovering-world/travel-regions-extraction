@@ -155,14 +155,12 @@ def main() -> None:
                 place("residents unknown: treated as a special place until sourced")
                 gap("whether civilians live there", "region or special place")
         elif kind == "lease_or_base":
-            access = a["traveller_access"]
-            if access in ("restricted", "closed", "expedition_only"):
-                region("leased area with its own access rule", "the lessor")
-            elif access == "open":
-                place("leased; open to visitors under the ordinary rules")
+            # R053: a region only where entry follows rules of its own, i.e. a recorded entry rule that is a witness;
+            # a closed or fenced site is not an entry rule (a closed military site is an object inside its region)
+            if rule and entry_rule(census[rule])[0]:
+                region("leased area with its own entry rule", "the lessor", "; ".join(entry_rule(census[rule])[1]))
             else:
-                place("leased; access rule not recorded")
-                gap("whether entry follows its own rules", "region or special place")
+                place("leased; no entry rule of its own recorded" + (f" (access: {a['traveller_access']})" if a["traveller_access"] else ""))
         elif kind in BY_CONTROL:
             h = held.get(a["area_id"], {})
             if "holder" in h and "holder_since" in h:
