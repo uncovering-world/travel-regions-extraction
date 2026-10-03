@@ -4,5 +4,10 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Bosnia and Herzegovina; Serbia | secondary | 2026-10-03 | S0142 | Sections along the Drina in dispute. |
+| kind | line_position | secondary | 2026-10-03 | S0040 | The border between Bosnia-Herzegovina and Serbia starts in the North at the tripoint with Croatia near Jamena and continues southward along the Drina river to the tripoint with Kosovo until it reaches the confluence with the Brusnički potok . |
 
 Sources:
+
+- S0040: https://en.wikipedia.org/w/index.php?title=Bosnia_and_Herzegovina%E2%80%93Serbia_border&oldid=1373883428
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

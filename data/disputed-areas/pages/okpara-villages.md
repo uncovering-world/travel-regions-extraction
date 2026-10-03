@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Benin; Nigeria | secondary | 2026-10-03 | S0172 | Several villages along the river are disputed between Benin and Nigeria . |
+| kind | line_position | secondary | 2026-10-03 | S0035 | By 2004-05 many of the boundary markers from the original demarcation were missing, prompting Benin and Nigeria to re-demarcate some sections of the border. |
+| origin | The border was confirmed by an Anglo-French treaty of 19 October 1906 and finalised by an exchange of notes in 1914. | secondary | 2026-10-03 | S0035 | This border was confirmed by a treaty of 19 October 1906, with some minor changes made in 1912 following on-the-ground demarcation which were later finalised officially via an exchange of notes in 1914. |
+| inhabited | yes | secondary | 2026-10-03 | S0172 | Several villages along the river are disputed between Benin and Nigeria . |
 
 Sources:
+
+- S0035: https://en.wikipedia.org/w/index.php?title=Benin%E2%80%93Nigeria_border&oldid=1362404823
+- S0172: https://en.wikipedia.org/w/index.php?title=Okpara_River&oldid=1358972074

@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | India (annexed in 1947; within Gujarat); Pakistan (contested the princely state) | secondary | 2026-10-03 | S0142 | India annexed Junagadh (located within Gujarat ) in 1947, shortly after the partition of India . Junagadh was one of the many princely states that was contested between India and Pakistan |
+| kind | paper_claim | secondary | 2026-10-03 | S0112 | Pakistan claims sovereignty over the erstwhile princely state to this day. |
+| origin | India annexed the princely state between November 1947 and February 1948, after its ruler had acceded to Pakistan. | secondary | 2026-10-03 | S0099 | Between November 1947 and February 1948, the princely state of Junagadh was annexed by the Union of India , following the state's accession to Pakistan , internal revolt and a blockade by the neighbouring princely states. |
+| on_the_ground | Integrated into the Indian Union after the 1948 plebiscite; now part of the Indian state of Gujarat. | secondary | 2026-10-03 | S0112 | After a plebiscite held in 1948, in which an overwhelming majority voted in favor of accession to India , Junagadh was integrated into the Indian Union and later became part of the state of Gujarat. |
+| inhabited | yes | secondary | 2026-10-03 | S0099 | In the plebiscite India polled 222,184 votes and Pakistan 130 out of a total population of 720,000 of Junagadh and its feudatories. |
 
 Sources:
+
+- S0099: https://en.wikipedia.org/w/index.php?title=Indian_annexation_of_Junagadh&oldid=1374010309
+- S0112: https://en.wikipedia.org/w/index.php?title=Junagadh_State&oldid=1370887874
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

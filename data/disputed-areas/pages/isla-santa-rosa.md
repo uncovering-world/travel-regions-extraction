@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Peru (administers, Santa Rosa de Loreto District); Colombia (claims, Leticia municipality) | secondary | 2026-10-03 | S0197 | Administration Peru District Santa Rosa de Loreto Claimed by Colombia Municipality Leticia |
+| kind | line_position | secondary | 2026-10-03 | S0142 | In 2025, Colombian government argued that the treaties set the boundary between the two countries at the deepest point of the Amazon River, and that islands like Santa Rosa have emerged on the Colombian side of that dividing line. |
+| origin | The island separated from Chinería Island around 1970 by fluvial fragmentation; the dispute over it was renewed in 2024 and escalated in 2025. | secondary | 2026-10-03 | S0057 | The conflict was renewed in 2024 and escalated in 2025 due to the dispute regarding Santa Rosa , an island that separated from Chinería Island around 1970 through a natural process of fluvial fragmentation. |
+| on_the_ground | The Peruvian government administers the island; the channel that separated it from Chinería Island has dried up. | secondary | 2026-10-03 | S0057 | The channel that separated both islands has since dried up and the Peruvian government has administered the island to date. |
+| inhabited | yes | secondary | 2026-10-03 | S0197 | Its largest settlement is Santa Rosa de Yavarí |
 
 Sources:
+
+- S0057: https://en.wikipedia.org/w/index.php?title=Colombian%E2%80%93Peruvian_territorial_dispute&oldid=1375393030
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0197: https://en.wikipedia.org/w/index.php?title=Santa_Rosa_Island_%28Amazon_River%29&oldid=1364198083

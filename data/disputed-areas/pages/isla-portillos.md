@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Costa Rica (sovereign over the whole northern part of Isla Portillos, per the International Court of Justice); Nicaragua (sovereign over Harbor Head Lagoon and the sandbar separating it from the Caribbean Sea) | primary | 2026-10-03 | S0323 | After holding hearings on the merits of the joined cases from 3 to 13 July 2017, the Court delivered its Judgment in the joined cases on 2 February 2018 in which it, inter alia , found that Costa Rica has sovereignty over the whole northern part of Isla Portillos, including its coast up to the point at which the right bank of the San Juan River reaches the low-water mark of the coast of the Caribbean Sea, with the exception of Harbor Head Lagoon and the sandbar separating it from the Caribbean Sea, sovereignty over which appertains to Nicaragua within the boundary defined in paragraph 73 of the Judgment. |
+| kind | resolved_recently | primary | 2026-10-03 | S0323 | After holding hearings on the merits of the joined cases from 3 to 13 July 2017, the Court delivered its Judgment in the joined cases on 2 February 2018 in which it, inter alia , found that Costa Rica has sovereignty over the whole northern part of Isla Portillos, including its coast up to the point at which the right bank of the San Juan River reaches the low-water mark of the coast of the Caribbean Sea, with the exception of Harbor Head Lagoon and the sandbar separating it from the Caribbean Sea, sovereignty over which appertains to Nicaragua within the boundary defined in paragraph 73 of the Judgment. |
+| origin | Settled by the International Court of Justice: its judgment of 16 December 2015 found that Costa Rica had sovereignty over the disputed territory in the northern part of Isla Portillos. | primary | 2026-10-03 | S0322 | Public hearings in the joined cases were held in April 2015, and the Court delivered its Judgment on the merits on 16 December 2015. Regarding the first case, the Court found, inter alia , that Costa Rica had sovereignty over the disputed territory lying in the northern part of Isla Portillos. |
 
 Sources:
+
+- S0322: https://www.icj-cij.org/case/150
+- S0323: https://www.icj-cij.org/case/165

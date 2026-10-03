@@ -4,5 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Montenegro; Bosnia and Herzegovina (the dispute over sovereignty has ended) | secondary | 2026-10-03 | S0226 | The Sutorina dispute was a border dispute between Montenegro and Bosnia and Herzegovina regarding the sovereignty over the territory of Sutorina . |
+| kind | resolved_recently | secondary | 2026-10-03 | S0225 | On 26 August 2015, governments of Bosnia and Herzegovina and Montenegro signed in Vienna a border agreement which gave sovereignty over Sutorina to Montenegro. |
+| origin | After the breakup of Yugoslavia Montenegro kept the territory, while some Bosnian officials called its transfer illegal; settled in 2015 by an agreement giving sovereignty to Montenegro. | secondary | 2026-10-03 | S0226 | After the breakup of Yugoslavia , control of the territory was retained by Montenegro, but some Bosnian officials claimed that the territory transfer had been illegal, disputing Montenegrin sovereignty over the area. In 2015, the two countries reached an agreement which gave the sovereignty over the territory to Montenegro. |
+| on_the_ground | A village and river in Herceg Novi Municipality, south-western Montenegro. | secondary | 2026-10-03 | S0225 | is a village and a river located in Herceg Novi Municipality in southwestern Montenegro . |
+| inhabited | yes | secondary | 2026-10-03 | S0225 | According to the 2011 census, its population was 670. |
+| traveller_access | open | primary | 2026-10-03 | S0309 | You can visit Montenegro without a visa for up to 90 days in any 180-day period. |
 
 Sources:
+
+- S0225: https://en.wikipedia.org/w/index.php?title=Sutorina&oldid=1374942414
+- S0226: https://en.wikipedia.org/w/index.php?title=Sutorina_dispute&oldid=1369130562
+- S0309: https://www.gov.uk/foreign-travel-advice/montenegro/entry-requirements

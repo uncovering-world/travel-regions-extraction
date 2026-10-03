@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Singapore (reclaimed the land at Tuas; does not recognise the 'Point 20 sliver' as Malaysian); Malaysia (claims the sliver as its territorial waters under its 1979 map) | secondary | 2026-10-03 | S0147 | The Tuas development reclamation project encroaches into this sliver of territorial waters. Singapore does not recognise the 1979 continental shelf boundary and, thus, does not recognise the "point 20 sliver" as under Malaysian sovereignty. |
+| kind | no_agreed_boundary | secondary | 2026-10-03 | S0147 | The border outside the points agreed to in the 1995 agreement has not been determined and is subject to some level of contention. |
+| origin | Arises from Malaysia's unilateral 1979 map, on which Point 20 juts east towards Singapore and forms a triangle of claimed Malaysian territorial waters. | secondary | 2026-10-03 | S0147 | The "sliver", regarded as an anomaly by Singapore, arises as a result of the unilateral declaration of Malaysia's territorial waters boundary as defined by a 1979 map published by Malaysia where, between turning points No 19 and No 21, Point 20 strikes out to the east of the general continental shelf boundary towards Singapore, thus forming a triangle of Malaysian territorial waters extending eastwards from the general north–south territorial waters boundary. |
+| on_the_ground | The land is part of Singapore's Tuas reclamation development at the south-western end of Singapore island. | secondary | 2026-10-03 | S0147 | This dispute resulted from Singapore's reclaiming of land in two areas, namely in the southwestern end of the island called the Tuas development, and in the waters adjacent to Pulau Tekong in the Straits of Johor. |
 
 Sources:
+
+- S0147: https://en.wikipedia.org/w/index.php?title=Malaysia%E2%80%93Singapore_border&oldid=1374855808

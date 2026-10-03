@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Cambodia (the temple is in Cambodia, per the ICJ in 1962); Thailand (the other party to the long dispute over its ownership) | secondary | 2026-10-03 | S0185 | In 1962, after a lengthy dispute between Cambodia and Thailand over ownership, the International Court of Justice in the Hague ruled that the temple is in Cambodia. |
+| kind | line_position | secondary | 2026-10-03 | S0047 | While the treaty defined the relevant segment of the boundary along the watershed line of the Dangrek Mountains , demarcation of the border by French surveyors produced maps that deviated from the line in the now-disputed areas, including around the Preah Vihear temple. |
+| origin | Stems from the Franco-Siamese treaties of 1904 and 1907, which defined the boundary that Cambodia inherited. | secondary | 2026-10-03 | S0047 | The dispute mostly stems from the Franco-Siamese treaties of 1904 and 1907 , which defined the final boundary between Siam (as Thailand was then known) and French Indochina , the borders of which were inherited by Cambodia. |
+| on_the_ground | After the 2025 border fighting a ceasefire remains in effect as of May 2026, with sporadic incidents and mistrust. | secondary | 2026-10-03 | S0006 | The ceasefire remains in effect as of May 2026, though sporadic incidents and general mistrust remain. |
 
 Sources:
+
+- S0006: https://en.wikipedia.org/w/index.php?title=2025_Cambodian%E2%80%93Thai_border_crisis&oldid=1377273427
+- S0047: https://en.wikipedia.org/w/index.php?title=Cambodian%E2%80%93Thai_border_dispute&oldid=1373024782
+- S0185: https://en.wikipedia.org/w/index.php?title=Preah_Vihear&oldid=1371100083

@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Azerbaijan (occupies); Armenia (internationally recognised territory) | secondary | 2026-10-03 | S0019 | Azerbaijani soldiers are occupying internationally recognized Armenian territory and conducting engineering and fortification works. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0019 | Despite international calls for withdrawal from the European Parliament , France , Iran , and the United States , Azerbaijan has maintained its presence on Armenian soil, occupying at least 215 square kilometers (83 sq mi) of internationally recognized Armenian territory. |
+| origin | Azerbaijani soldiers crossed several kilometres into Armenia's Syunik and Gegharkunik provinces on 12 May 2021. | secondary | 2026-10-03 | S0019 | The military forces of Armenia and Azerbaijan have been engaged in a border conflict since 12 May 2021, when Azerbaijani soldiers crossed several kilometers into Armenia in the provinces of Syunik and Gegharkunik . |
+| on_the_ground | Azerbaijani soldiers hold the positions and carry out engineering and fortification works. | secondary | 2026-10-03 | S0019 | Azerbaijani soldiers are occupying internationally recognized Armenian territory and conducting engineering and fortification works. |
 
 Sources:
+
+- S0019: https://en.wikipedia.org/w/index.php?title=Armenia%E2%80%93Azerbaijan_border_crisis_%282021%E2%80%93present%29&oldid=1370429034

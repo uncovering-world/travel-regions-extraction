@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Sahrawi Arab Democratic Republic / Polisario Front (controls); Morocco (claims; occupies the area west of the Berm) | secondary | 2026-10-03 | S0082 | It is controlled by the Sahrawi Arab Democratic Republic, as opposed to the area to the west of the Berm, which is occupied by Morocco as part of its Southern Provinces . Both states claim the entirety of Western Sahara as their territory. |
+| kind | de_facto_state | secondary | 2026-10-03 | S0082 | are terms used by the Polisario Front government of the Sahrawi Arab Democratic Republic , a partially recognized sovereign state in the western Maghreb , to describe the part of Western Sahara that lies to the east of a 2,200-kilometre (1,400 mi) border wall flanked by a minefield, |
+| origin | Consolidated as a Polisario-held zone by the 1991 cease-fire between the Polisario Front and Morocco. | secondary | 2026-10-03 | S0082 | The zone was consolidated as a Polisario-held zone in a 1991 cease-fire between the Polisario Front and Morocco, which had been agreed upon together as part of the Settlement Plan . |
+| on_the_ground | Polisario-held desert east of the Berm; access is difficult even for Sahrawis because of the climate, the military conflict and land mines. | secondary | 2026-10-03 | S0082 | Access is difficult even for Sahrawis due to the harsh climate of the Sahara , the military conflict and the abundance of land mines . |
+| inhabited | yes | secondary | 2026-10-03 | S0082 | The population of the territory east of the Wall is estimated to be less than 10,000 inhabitants. |
 
 Sources:
+
+- S0082: https://en.wikipedia.org/w/index.php?title=Free_Zone_%28region%29&oldid=1377256068

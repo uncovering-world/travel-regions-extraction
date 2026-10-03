@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Eritrea (accused by Djibouti of reoccupying the mainland hill and Doumeira Island in 2017); Djibouti (claims) | secondary | 2026-10-03 | S0070 | Following the 2017 Qatar diplomatic crisis , Qatar withdrew its peacekeeping forces from the disputed territory. Shortly after, Djibouti accused Eritrea of reoccupying the mainland hill and Doumeira Island. |
+| kind | line_position | secondary | 2026-10-03 | S0070 | The actual border at Ras Doumeira (a hill) though was never fully demarcated save for a broad agreement that the northern slopes of hill were Italian and the southern slopes were French and this arrangement sufficed whilst France and Italy remained in control of the area. |
+| origin | The 1900 boundary agreement starts the boundary at Ras Doumeira and left Doumeira Island without assigned sovereignty and demilitarised. | secondary | 2026-10-03 | S0070 | The currently in force 1900 boundary agreement specifies that the international boundary starts at Cape Doumeira ( Ras Doumeira ) at the Red Sea and runs for 1.5 km along the watershed divide of the peninsula. Furthermore, the 1900 protocol specified that Île Doumeira ( Doumeira Island ) immediately offshore and its adjacent smaller islets would not be assigned sovereignty and would remain demilitarized. |
+| on_the_ground | Occupied by Eritrea since Qatari peacekeepers withdrew in June 2017. | secondary | 2026-10-03 | S0142 | Disputed territory occupied by Eritrea following withdrawal of Qatari peacekeepers in June 2017. |
 
 Sources:
+
+- S0070: https://en.wikipedia.org/w/index.php?title=Djiboutian%E2%80%93Eritrean_border_conflict&oldid=1375297213
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

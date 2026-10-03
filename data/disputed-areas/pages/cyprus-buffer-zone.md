@@ -4,6 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United Nations (UNFICYP, patrols the zone); Republic of Cyprus (controls the area to the south); Turkish Republic of Northern Cyprus (to the north) | secondary | 2026-10-03 | S0246 | The United Nations Buffer Zone in Cyprus is a former demilitarized zone , patrolled by the United Nations Peacekeeping Force in Cyprus (UNFICYP), that was established between 1964 and 1990. It was extended on 9 August after the Battle of Tillyria and extended again in 1974 after the ceasefire of 16 August 1974, following the Turkish invasion of Cyprus and the de facto partition of the island into the area controlled by the Republic of Cyprus (excluding the British Sovereign Base Areas ) and the largely unrecognized Turkish Republic of Northern Cyprus in the north. |
+| kind | own_regime | primary | 2026-10-03 | S0292 | Civilians may enter these areas freely. Elsewhere in the buffer zone, civilian movement or activity requires specific authorization from UNFICYP. |
+| origin | Its limits are the lines where the belligerents stood at the ceasefire of 16 August 1974. | primary | 2026-10-03 | S0292 | Its northern and southern limits are the lines where the belligerents stood following the ceasefire of 16 August 1974, as recorded by UNFICYP. |
+| on_the_ground | Villages and Civil Use Areas inside the zone, where more than 10,000 people live or work, can be entered freely by civilians. | primary | 2026-10-03 | S0292 | There are several villages or special areas (called Civil Use Areas) within the Buffer Zone, where more than 10,000 people live and/or work. Civilians may enter these areas freely. |
+| inhabited | yes | primary | 2026-10-03 | S0292 | In line with UNFICYP’s mandate to work toward a return to normal conditions, many parts of the buffer zone are farmed and/or inhabited. |
+| traveller_access | restricted | primary | 2026-10-03 | S0292 | Elsewhere in the buffer zone, civilian movement or activity requires specific authorization from UNFICYP. |
+| area_km2 | 346 | secondary | 2026-10-03 | S0246 | In total, it spans an area of 346 square kilometres (134 sq mi), varying in width from less than 20 metres (66 ft) to more than 7 kilometres (4.3 mi). |
 | ne_name | Cyprus U.N. Buffer Zone | machine | 2026-10-03 | NE |  |
 | ne_type | Indeterminate | machine | 2026-10-03 | NE |  |
 | ne_area_km2 | 268 | machine | 2026-10-03 | NE |  |
@@ -13,4 +20,6 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0246: https://en.wikipedia.org/w/index.php?title=United_Nations_Buffer_Zone_in_Cyprus&oldid=1374866617
+- S0292: https://unficyp.unmissions.org/about-buffer-zone
 - WD: https://www.wikidata.org/

@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Kyrgyzstan; Tajikistan (the road belongs to neither side; both use it) | secondary | 2026-10-03 | S0001 | It will not belong to either the Kyrgyz or Tajik side. Both sides will use it, and no one will be able to block the road in Tort-Kocho, claiming it as their territory, |
+| kind | own_regime | secondary | 2026-10-03 | S0128 | As part of the settlement, the Tort-Kocho road, along with a 15 m (49 ft) "security zone" were declared a neutral zone or a condominium . |
+| origin | On 21 February 2025 the heads of the Kyrgyz and Tajik security services signed an agreement on the delimitation of the state border. | secondary | 2026-10-03 | S0128 | On February 21, 2025, the head of the Kyrgyzstan SCNS Kamchybek Tashiev and the head of Tajikistan SCNS Saimumin Yatimov signed an agreement on the delimitation of the state borders. |
+| on_the_ground | The neutral roadbed is 10 metres wide, with a 15-metre security strip on each side. | secondary | 2026-10-03 | S0001 | The roadbed is 10 meters wide, with a 15-meter security strip on each side. |
 
 Sources:
+
+- S0001: https://24.kg/english/321315_Neutral_status_granted_to_Tort-Kocho_area_on_Kyrgyz-Tajik_border/
+- S0128: https://en.wikipedia.org/w/index.php?title=Kyrgyzstan%E2%80%93Tajikistan_border&oldid=1362471070

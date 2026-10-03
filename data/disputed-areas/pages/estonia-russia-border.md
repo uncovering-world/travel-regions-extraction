@@ -4,5 +4,10 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Russia; Estonia (no border treaty ratified; the unratified agreement renounces Estonian claims to these lands) | secondary | 2026-10-03 | S0142 | Repeated attempts to resolve the border dispute have de jure failed, as no border treaty has been ratified. The unratified agreement does, however, renounce Estonian claims to these lands, in addition to acknowledgements of the de facto situation by heads of state and government at various points. |
+| kind | paper_claim | secondary | 2026-10-03 | S0142 | The Estonian constitution still references the 1920 treaty as the border. |
+| origin | In 1944 Soviet decrees moved the border, transferring Ivangorod to Leningrad Oblast and parts of Petserimaa to Pskov Oblast. | secondary | 2026-10-03 | S0142 | In 1944, decrees of the USSR Presidium of the Supreme Soviet, set the northeastern border along Narva river, re-ceding Ivangorod to Leningrad Oblast (but keeping Narva within the Estonian SSR) and select volosts/parishes of Petserimaa to Pskov Oblast. |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

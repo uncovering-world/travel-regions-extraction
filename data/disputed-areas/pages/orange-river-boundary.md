@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Namibia (argues for the river's median line); South Africa (maintains the northern-bank boundary) | secondary | 2026-10-03 | S0163 | However, Namibia argues that, based on international principles and its own 1990 constitution, the boundary should run along the river’s median line, not at the high-water mark of the northern bank. South Africa maintains the colonial-era boundary definition, leading to ongoing discussions but no formal resolution. |
+| kind | line_position | secondary | 2026-10-03 | S0163 | The Namibia–South Africa border dispute centers on the precise demarcation along the Orange River, which forms the southern boundary of Namibia. |
+| origin | The 1890 Heligoland-Zanzibar Treaty between Britain and Germany set the boundary along the northern bank of the river. | secondary | 2026-10-03 | S0163 | Historically, the 1890 Helgoland-Zanzibar Treaty between Britain and Germany set the boundary along the northern bank of the river. |
+| on_the_ground | The river can be crossed by road at Vioolsdrif/Noordoewer and Alexander Bay/Orangemund and by ferry at Sendlingsdrif (spellings as on the page). | secondary | 2026-10-03 | S0174 | The river can be crossed at Vioolsdrif / Noordoewer , Alexander Bay / Orangemund border crossing by road and the Sendlingsdrif border crossing by ferry. |
 
 Sources:
+
+- S0163: https://en.wikipedia.org/w/index.php?title=Namibia%E2%80%93South_Africa_border&oldid=1340134744
+- S0174: https://en.wikipedia.org/w/index.php?title=Orange_River&oldid=1376472224

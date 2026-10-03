@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Germany; Austria; Switzerland | secondary | 2026-10-03 | S0002 | An den Bodensee grenzen die drei Staaten Deutschland , Österreich und Schweiz |
+| kind | no_agreed_boundary | secondary | 2026-10-03 | S0002 | Eine anerkannte Grenze gibt es nur im Untersee zwischen Deutschland und der Schweiz. Im Bereich des Obersees wurde kein einvernehmlicher Grenzverlauf festgelegt. |
+| origin | In the rest of the Obersee no boundaries were ever fixed between the neighbouring states. | secondary | 2026-10-03 | S0002 | Der Rest des Obersees bleibt neben der Emsmündung vorläufig die einzige Gegend in Europa, in der zwischen den Nachbarstaaten nie Grenzen festgelegt wurden. |
+| on_the_ground | It is undisputed that each state exercises sovereign rights in the strip immediately along its own shore. | secondary | 2026-10-03 | S0002 | Klar und unstrittig war und ist, dass auch in einem Bereich in unmittelbarer Ufernähe der entsprechende Staat Hoheitsrechte ausüben kann. |
+| area_km2 | 473 | secondary | 2026-10-03 | S0131 | The area of the Obersee , or Upper Lake, is 473 km 2 (183 sq mi). |
 
 Sources:
+
+- S0002: https://de.wikipedia.org/w/index.php?title=Bodensee&oldid=270975181
+- S0131: https://en.wikipedia.org/w/index.php?title=Lake_Constance&oldid=1374346009

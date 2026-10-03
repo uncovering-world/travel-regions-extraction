@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Honduras (administers); El Salvador (claims) | secondary | 2026-10-03 | S0059 | Administration Honduras Department Valle Claimed by El Salvador Department La Unión |
+| kind | paper_claim | secondary | 2026-10-03 | S0059 | lies in the Gulf of Fonseca and is disputed between El Salvador and Honduras. |
+| origin | The island was never put to discussion in the International Court of Justice's delimitation of the Gulf of Fonseca islands. | secondary | 2026-10-03 | S0059 | Unlike other major islands of the Gulf of Fonseca, Rabbit Island was never put to discussion in the definition even though the government of El Salvador asked for a clarification of the situation of every island in the Gulf of Fonseca. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0059 | Demographics Population temporary military personnels only |
 
 Sources:
+
+- S0059: https://en.wikipedia.org/w/index.php?title=Conejo_Island&oldid=1365666330

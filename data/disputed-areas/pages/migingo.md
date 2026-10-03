@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Kenya; Uganda (both claim the island) | secondary | 2026-10-03 | S0272 | Uganda and Kenya both claim Migingo Island, a tiny island in the middle of Lake Victoria, which offers good fishing |
+| kind | line_position | secondary | 2026-10-03 | S0158 | A joint re- demarcation line of the border was launched on 2 June 2009 to recover and to place survey markers on land, making delineation of the boundary on the lake more precise, with results released in late July 2009 confirming that the island falls 510 m (1,670 ft) on the Kenyan side of the line. |
+| origin | In June 2004, according to the Kenyan government, Ugandan marine police pitched a tent and raised the Ugandan flag on the island; police of both countries have since occupied it at various times. | secondary | 2026-10-03 | S0158 | The Kenyan government claimed in June 2004 that Ugandan marine police pitched a tent on the island and raised the Ugandan flag and that of their police department. Ugandan and Kenyan police have since occupied the island at various times. |
+| on_the_ground | The Ugandan flag was lowered, Uganda withdrew its military troops and agreed that all its police officers would leave the island (the paragraph is about 2009; the page gives no later state). | secondary | 2026-10-03 | S0158 | The Ugandan flag was lowered, Uganda withdrew its military troops, and agreed that all its police officers would leave the island. |
+| inhabited | yes | secondary | 2026-10-03 | S0158 | In 2009, the island had a reported population of 131 |
+| area_km2 | 0.002 | secondary | 2026-10-03 | S0158 | At only 2,000 m 2 (0.49-acre; 0.20 ha), it is the 7th most densely populated island on earth . |
 
 Sources:
+
+- S0158: https://en.wikipedia.org/w/index.php?title=Migingo_Island&oldid=1364051415
+- S0272: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/ug.json

@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | DR Congo (administers); Zambia (claims) | secondary | 2026-10-03 | S0273 | Zambia-Democratic Republic of Congo(DRC):  boundary commission continues discussions over Congolese-administered triangle of land on the right bank of the Lunkinda River claimed by Zambia near the DRC village of Pweto |
+| kind | line_position | secondary | 2026-10-03 | S0142 | Zambia and Congo have different interpretations of the borders set out in an 1894 treaty between British settlers and Leopold II , King of the Belgians . |
+| origin | The Anglo-Belgian Treaty of 1894 placed the triangle from Pweto south to the Lunchinda River under Northern Rhodesia, although the Belgian Congo had administered it for many years. | secondary | 2026-10-03 | S0143 | Zambia 's formal northern frontier boundary was legally signed in the Anglo-Belgian Treaty of 1894, long after the 1884 Berlin Conference . This showed that the triangle of land at the northwestern point of Eastern Rhodesia from Pweto to as far south as the Lunchinda River was under Northern Rhodesia even though the Belgian Congo had administered it for many years. |
+| on_the_ground | De facto Belgian control of the Lunchinda enclave led to it eventually being ceded to DR Congo by Zambia, according to the Chiengi article. | secondary | 2026-10-03 | S0051 | The British then re-established the boma at Chiengi but the eventual outcome of de facto Belgian control of the Lunchinda enclave led to it eventually being ceded to DR Congo by Zambia—see the article on the Luapula Province border dispute . |
 
 Sources:
+
+- S0051: https://en.wikipedia.org/w/index.php?title=Chiengi&oldid=1377582370
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0143: https://en.wikipedia.org/w/index.php?title=Luapula_Province_border_dispute&oldid=1372018989
+- S0273: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/za.json

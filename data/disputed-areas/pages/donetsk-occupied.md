@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Russia (controls part; proclaimed annexation in 2022); Ukraine (the territory is part of Ukraine's Donetsk Oblast) | secondary | 2026-10-03 | S0073 | is a disputed republic of Russia with a capital in Donetsk , established on an illegally annexed part of Donetsk Oblast in eastern Ukraine . |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0073 | The United Nations General Assembly passed a resolution condemning the "attempted illegal annexation" and demanding that Russian forces withdraw. |
+| origin | Russia proclaimed the annexation in September 2022 after referendums widely described as fraudulent. | secondary | 2026-10-03 | S0073 | In September 2022, Russia proclaimed the annexation of the DPR and other occupied territories, following referendums widely described as fraudulent . |
+| on_the_ground | Around 55% of Donetsk Oblast was under the control of Russia and the DPR by June 2022 (no later figure sourced). | secondary | 2026-10-03 | S0073 | In the course of the Russian invasion of Ukraine , around 55% of Donetsk Oblast came under the control of Russia and the DPR by June 2022. |
 
 Sources:
+
+- S0073: https://en.wikipedia.org/w/index.php?title=Donetsk_People%27s_Republic&oldid=1376721103

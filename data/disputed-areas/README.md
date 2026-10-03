@@ -9,12 +9,13 @@ Facts about land areas whose attribution to a country is contested, undefined or
 | File | Edited by | Content |
 |---|---|---|
 | `areas.csv` | hand | One row per area: stable `area_id`, name, and the links that drive machine facts — `wikidata_id`, `natural_earth_id` (one or more Natural Earth `NE_ID` values, space-separated) |
-| `facts.csv` | hand (manual rows), `refresh_machine.py` (machine rows) | One row per fact: area, field, value, sources, date read, evidence level, origin |
+| `facts.csv` | hand or `import_facts.py` (manual rows), `refresh_machine.py` (machine rows) | One row per fact: area, field, value, sources, date read, evidence level, origin |
 | `sources.csv` | hand | Sources and whether they can be read by machine |
 | `registry.csv`, `pages/`, `REPORT.md` | `build.py` only | A summary table, one readable page per area, and the work list |
 | `discovery-map.csv` | hand | For every candidate found by `discover.py`: the area(s) it corresponds to, or `ignore` with a reason |
 | `candidates.csv`, `DISCOVERY.md` | `discover.py` only | Candidates from Wikipedia's list of territorial disputes and Natural Earth (both pinned), and the list of those not yet accounted for |
 | `seed/` | — | The census the register was first filled from (2026-10-03) and the script that imported it |
+| `REVIEW.md` | hand | Open review points: doubtful kinds, areas to split, merge or drop, sources overtaken by events. Not facts |
 
 Fields and allowed values are defined at the top of `build.py`. The `kind` of an area is one of: `own_regime`, `lease_or_base`, `de_facto_state`, `occupied_or_annexed`, `paper_claim`, `islets_for_maritime_zone`, `line_position`, `no_agreed_boundary`, `unclaimed`, `resolved_recently`; their meaning is in [UPDATING.md](UPDATING.md).
 
@@ -36,4 +37,4 @@ Both scripts are deterministic: the same inputs give byte-identical outputs. Nat
 
 ## State
 
-See `REPORT.md` (facts) and `DISCOVERY.md` (candidates). The list of 210 areas came from a first census that was largely written from an agent's memory; its facts were removed and are being re-entered from sources with quoted passages.
+See `REPORT.md` (facts), `DISCOVERY.md` (candidates) and `REVIEW.md` (open review points). The list of 210 areas came from a first census that was largely written from an agent's memory; its facts were removed and re-entered from sources on 2026-10-03: 1,067 manual facts, each with a passage that `verify_quotes.py` finds in its source, and 207 areas with both `parties` and `kind`. That a passage is on the page does not prove that the value follows from it: the `kind` and `traveller_access` rows and a sample of the others were read against their passages, about 650 rows were not.

@@ -4,5 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Israel (occupying power since 1967); Palestinian Authority (limited governing authority under the Oslo Accords); Hamas (won the 2006 election) | secondary | 2026-10-03 | S0084 | In the 1967 Arab–Israeli War , Israel captured and occupied the Gaza Strip among other territories, initiating a decades-long military occupation of the Palestinian territories . The mid-1990s Oslo Accords established the Palestinian Authority (PA) as a limited governing authority, initially led by the secular party Fatah until its electoral defeat in 2006 to the Sunni Islamist Hamas . |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0084 | Despite the Israeli disengagement, Gaza was still considered occupied by Israel under international law , being described as an " open-air prison ". |
+| origin | Israel captured and occupied the Gaza Strip in the 1967 Arab-Israeli War. | secondary | 2026-10-03 | S0084 | In the 1967 Arab–Israeli War , Israel captured and occupied the Gaza Strip among other territories, initiating a decades-long military occupation of the Palestinian territories . |
+| on_the_ground | Under the first phase of the Gaza peace plan a ceasefire took effect and the Israeli military withdrew from 47% of the territory. | secondary | 2026-10-03 | S0084 | Under the terms of the plan's first phase, a ceasefire came into effect, all 20 living Israeli hostages were released within 72 hours, around 2000 Palestinian prisoners were released, and the IDF withdrew from 47% of the territory. |
+| inhabited | yes | secondary | 2026-10-03 | S0084 | As of 2010, it has a population of just over 2 million, mostly of Palestinian refugees and their descendants. |
+| traveller_access | closed | primary | 2026-10-03 | S0317 | Border crossings out of Gaza have been closed to civilians and general traffic since the Israeli military took control of the Rafah crossing on 6 May 2024. |
+| area_km2 | 365 | secondary | 2026-10-03 | S0084 | The Gaza Strip is 41 kilometres (25 miles) long, from 6 to 12 km (3.7 to 7.5 mi) wide, and has a total area of 365 km 2 (141 sq mi). |
 
 Sources:
+
+- S0084: https://en.wikipedia.org/w/index.php?title=Gaza_Strip&oldid=1377248183
+- S0317: https://www.gov.uk/foreign-travel-advice/the-occupied-palestinian-territories

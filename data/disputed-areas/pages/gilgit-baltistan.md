@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Pakistan (administers); India (party to the Kashmir dispute since 1947) | secondary | 2026-10-03 | S0087 | is a region administered by Pakistan as an administrative territory and consists of the northern portion of the larger Kashmir region, which has been the subject of a dispute between India and Pakistan since 1947 and between India and China since 1959. |
+| kind | paper_claim | secondary | 2026-10-03 | S0087 | India, on the other hand, claims that Gilgit-Baltistan as a part of the former princely state of Jammu and Kashmir is "an integral part of the country [India]. |
+| origin | Part of the Kashmir region, disputed between India and Pakistan since 1947. | secondary | 2026-10-03 | S0087 | is a region administered by Pakistan as an administrative territory and consists of the northern portion of the larger Kashmir region, which has been the subject of a dispute between India and Pakistan since 1947 and between India and China since 1959. |
+| on_the_ground | Administered by Pakistan with provincial institutions created in 2009; the current set-up follows the Gilgit-Baltistan Order of 2018. | secondary | 2026-10-03 | S0087 | In 2009, the region was renamed as Gilgit-Baltistan and provincial institutions were created; the current administrative set-up is according to the Gilgit-Baltistan Order of 2018. |
+| inhabited | yes | secondary | 2026-10-03 | S0087 | Gilgit-Baltistan covers an area of 72,496 km 2 (27,911 sq mi) and has a population of 1.7 million people according to the 2023 national census , which is linguistically and ethnically diverse. |
+| area_km2 | 72496 | secondary | 2026-10-03 | S0087 | Gilgit-Baltistan covers an area of 72,496 km 2 (27,911 sq mi) and has a population of 1.7 million people according to the 2023 national census , which is linguistically and ethnically diverse. |
 
 Sources:
+
+- S0087: https://en.wikipedia.org/w/index.php?title=Gilgit-Baltistan&oldid=1374417251

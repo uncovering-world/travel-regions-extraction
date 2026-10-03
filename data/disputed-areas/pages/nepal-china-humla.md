@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Nepal (the area is in its Humla region); China (may have constructed 11 buildings there in 2021) | secondary | 2026-10-03 | S0289 | Nepal-China : China may have constructed 11 buildings in Nepal’s Humla region in 2021 |
+| kind | line_position | secondary | 2026-10-03 | S0053 | The report indicated that the buildings previously thought to have been constructed inside Nepal were on the Chinese side of the border, but found that China was building a fence around a border pillar, and attempting to construct a canal and a road on Nepali soil. |
+| origin | In November 2020 Nepali politicians claimed that China had annexed more than 150 ha of Nepalese land. | secondary | 2026-10-03 | S0053 | In November 2020, Nepali politicians claimed China had annexed more than 150 ha (370 acres) of Nepalese land. |
+| on_the_ground | A Nepali government report leaked in early 2022 found the buildings to be on the Chinese side of the border, but China fencing a border pillar and trying to build a canal and a road on Nepali soil. | secondary | 2026-10-03 | S0053 | In early 2022, the Nepali government report was leaked. The report indicated that the buildings previously thought to have been constructed inside Nepal were on the Chinese side of the border, but found that China was building a fence around a border pillar, and attempting to construct a canal and a road on Nepali soil. |
 
 Sources:
+
+- S0053: https://en.wikipedia.org/w/index.php?title=China%E2%80%93Nepal_border&oldid=1376882242
+- S0289: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/south-asia/np.json

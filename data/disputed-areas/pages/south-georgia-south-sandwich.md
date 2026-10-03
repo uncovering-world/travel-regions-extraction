@@ -4,5 +4,16 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United Kingdom (holds sovereignty); Argentina (disputes British sovereignty; claims) | secondary | 2026-10-03 | S0214 | British sovereignty of South Georgia and the South Sandwich Islands is disputed by Argentina . |
+| kind | paper_claim | secondary | 2026-10-03 | S0213 | Argentina continues to claim sovereignty over South Georgia and the South Sandwich Islands as part of the Province of Tierra del Fuego, Antarctica and South Atlantic Islands . |
+| origin | The dispute started in 1927, when Argentina claimed sovereignty over South Georgia, and widened in 1938, when Argentina also claimed the South Sandwich Islands. | secondary | 2026-10-03 | S0214 | The dispute started in 1927 when Argentina claimed sovereignty over South Georgia, and subsequently expanded in scope with Argentina claiming the South Sandwich Islands in 1938. |
+| on_the_ground | A British territory run by a Commissioner (a post held by the Governor of the Falkland Islands), who exercises executive power for the British monarch. | secondary | 2026-10-03 | S0213 | Executive power is vested in the monarch of the United Kingdom and is exercised by the Commissioner , a post held by the Governor of the Falkland Islands . |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0213 | The South Sandwich Islands are uninhabited, and a very small non-permanent population resides on South Georgia. |
+| traveller_access | restricted | primary | 2026-10-03 | S0313 | All persons (unless otherwise exempted) entering South Georgia and the South Sandwich Islands for work or visitor purposes need an Entry Permit. |
+| area_km2 | 3903 | secondary | 2026-10-03 | S0213 | The territory's total land area is 3,903 km 2 (1,507 sq mi). |
 
 Sources:
+
+- S0213: https://en.wikipedia.org/w/index.php?title=South_Georgia_and_the_South_Sandwich_Islands&oldid=1374746595
+- S0214: https://en.wikipedia.org/w/index.php?title=South_Georgia_and_the_South_Sandwich_Islands_sovereignty_dispute&oldid=1375995057
+- S0313: https://www.gov.uk/foreign-travel-advice/south-georgia-and-south-sandwich-islands/entry-requirements

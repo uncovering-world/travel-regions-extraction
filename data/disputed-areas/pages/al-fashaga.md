@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Sudan (claims); Ethiopia (claims) | secondary | 2026-10-03 | S0012 | Al Fashaga is located on the Ethiopia–Sudan border , and is claimed by both Sudan and Ethiopia. |
+| kind | paper_claim | secondary | 2026-10-03 | S0012 | Under a compromise reached in 2008, Ethiopian farmers cultivated the land while Sudan retained administrative control of it. |
+| origin | Ceded by Emperor Menelik II to the British in 1902 and incorporated into Anglo-Egyptian Sudan; Ethiopia never signed a treaty with Sudan over it. | secondary | 2026-10-03 | S0012 | However, in 1902, Emperor Menelik II ceded the region to the British, who incorporated it into Anglo-Egyptian Sudan . Ethiopia never signed a treaty with Sudan over the territory, because the government argued that the region came under Ethiopian control when Sudan was freed in 1956. |
+| on_the_ground | The 2008 compromise (Ethiopian farmers, Sudanese administration) ended in November 2020, when Sudan expelled Ethiopian farmers and border clashes followed. | secondary | 2026-10-03 | S0012 | This compromise ended in November 2020, when the Tigray War began and Sudan expelled Ethiopian farmers, resulting in border clashes between the two countries. |
 
 Sources:
+
+- S0012: https://en.wikipedia.org/w/index.php?title=Al-Fashaga_District&oldid=1303670016

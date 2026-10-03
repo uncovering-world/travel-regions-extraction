@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Thailand; Myanmar | secondary | 2026-10-03 | S0234 | is a pass in the Tenasserim Hills on the border between Thailand and Myanmar (Burma), at an elevation of 282 metres (925 ft). |
+| kind | line_position | secondary | 2026-10-03 | S0234 | Parts of the border are still disputed. |
+| on_the_ground | The three pagodas stand on the Thai side of the border, in the village of Phra Chedi Sam Ong. | secondary | 2026-10-03 | S0234 | The pagodas are now on the Thai side of the border in the village of Phra Chedi Sam Ong. |
+| inhabited | yes | secondary | 2026-10-03 | S0234 | The region is home to several hill tribes, including Karens and Mons , who are unable or unwilling to obtain citizenship from either country. |
+| traveller_access | open | secondary | 2026-10-03 | S0234 | Three Pagodas Pass is popular with tourists, who are allowed to obtain a one-day visa from the Thai side to visit Payathonsu. |
 
 Sources:
+
+- S0234: https://en.wikipedia.org/w/index.php?title=Three_Pagodas_Pass&oldid=1362438479

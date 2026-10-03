@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Chile (claims; says it patrols the area); Peru (claims; says it patrols the area) | secondary | 2026-10-03 | S0052 | Both countries also claim to patrol the area, the former with the Quebrada de Escritos observation point and the latter with the Francisco Bolognesi outpost. |
+| kind | line_position | secondary | 2026-10-03 | S0052 | The dispute consists of a bilateral disagreement on the exact location of the milestone, as both Chile [ c ] and Peru [ d ] have different locations for the exact placement. |
+| origin | Revived by the 2014 International Court of Justice ruling on the maritime boundary, which left the location of Punto Concordia (Milestone 1) to the parties. | secondary | 2026-10-03 | S0052 | With the 2014 ruling, the ICJ clarified that it was not authorized to establish the exact location of Punto Concordia , and noted that the border established by the court had a possibility to not match said location, but that such a situation was to be coordinated by both parties to the dispute. |
+| on_the_ground | Both countries say they patrol the area: Chile from the Quebrada de Escritos observation point, Peru from the Francisco Bolognesi outpost. | secondary | 2026-10-03 | S0052 | Both countries also claim to patrol the area, the former with the Quebrada de Escritos observation point and the latter with the Francisco Bolognesi outpost. |
 
 Sources:
+
+- S0052: https://en.wikipedia.org/w/index.php?title=Chilean%E2%80%93Peruvian_territorial_dispute&oldid=1378086931

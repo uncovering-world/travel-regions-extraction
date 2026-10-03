@@ -4,5 +4,16 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Morocco (controls the territory west of the Berm); Polisario Front (controls the territory to the east); the territory is disputed | primary | 2026-10-03 | S0319 | Western Sahara is a disputed territory. The Berm is the militarised boundary between Moroccan-controlled Western Sahara and territory to the east controlled by the Polisario Front. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0252 | Approximately 30% of the Western Sahara is controlled by the Polisario Front and the remaining 70% is occupied by Morocco. |
+| origin | Spain moved to transfer the territory to Morocco and Mauritania by a tripartite agreement of 14 November 1975; Morocco took control of the northern two-thirds as its Southern Provinces. | secondary | 2026-10-03 | S0252 | In the waning days of Franco's rule, and after the Green March, the Spanish government signed a tripartite agreement with Morocco and Mauritania as it moved to transfer the territory on 14 November 1975. The accords were based on a bipartite administration, and Morocco and Mauritania each moved to annex the territories, with Morocco taking control of the northern two-thirds of Western Sahara as its Southern Provinces , and Mauritania taking control of the southern third as Tiris al-Gharbiyya . |
+| on_the_ground | Most of Western Sahara is administered by Morocco, which closely monitors and controls access to the territory. | primary | 2026-10-03 | S0321 | Most of Western Sahara is under administration of Morocco, which closely monitors and controls access to the territory. |
+| inhabited | yes | secondary | 2026-10-03 | S0252 | Mauritania withdrew its claims in 1979, and Morocco secured de facto control of most of the territory, including all major cities and most natural resources. |
+| traveller_access | restricted | primary | 2026-10-03 | S0320 | Travel is restricted. Organised groups are generally permitted, but independent travellers could be turned back at the border. |
 
 Sources:
+
+- S0252: https://en.wikipedia.org/w/index.php?title=Western_Sahara&oldid=1378120876
+- S0319: https://www.gov.uk/foreign-travel-advice/western-sahara
+- S0320: https://www.gov.uk/foreign-travel-advice/western-sahara/entry-requirements
+- S0321: https://www.gov.uk/foreign-travel-advice/western-sahara/safety-and-security

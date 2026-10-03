@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Northern Cyprus (de facto); Cyprus (de jure) | secondary | 2026-10-03 | S0121 | Country ( de jure ) Cyprus  •  District Nicosia District Country ( de facto ) Northern Cyprus |
+| kind | de_facto_state | secondary | 2026-10-03 | S0121 | is a coastal exclave (pene-exclave) of the de facto Northern Cyprus , and a former Turkish Cypriot enclave in Cyprus |
+| origin | Kokkina was one of the Turkish Cypriot enclaves formed from December 1963 in the intercommunal fighting, and one of the last port areas under Turkish Cypriot control. | secondary | 2026-10-03 | S0121 | Since December 1963, thousands of Turkish Cypriots became concentrated in enclaves, as a result of the intercommunal fighting (see Cyprus problem ). Kokkina was one of the last port areas under Turkish Cypriot control and a vital supply link with Turkey for the fighters. |
+| on_the_ground | All inhabitants were moved out in 1976; the exclave has since functioned as a military camp. | secondary | 2026-10-03 | S0121 | In 1976, all Kokkina inhabitants were transferred to Yialousa (renamed Yeni Erenköy or "New Erenköy" in Turkish) and the exclave has since functioned as a North Cyprus Defence Force military camp for the Turkish forces. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0121 | In 1976, all Kokkina inhabitants were transferred to Yialousa (renamed Yeni Erenköy or "New Erenköy" in Turkish) and the exclave has since functioned as a North Cyprus Defence Force military camp for the Turkish forces. |
 
 Sources:
+
+- S0121: https://en.wikipedia.org/w/index.php?title=Kokkina&oldid=1374454114

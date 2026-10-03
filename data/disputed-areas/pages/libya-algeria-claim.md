@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Algeria (the territory is in south-eastern Algeria); Libya (claim of about 32,000 sq km still shown on its maps; dormant) | secondary | 2026-10-03 | S0261 | Algeria-Libya:  dormant dispute includes Libyan claims of about 32,000 sq km still reflected on its maps of southeastern Algeria |
+| kind | paper_claim | secondary | 2026-10-03 | S0267 | Libya-Algeria:  dormant disputes include Libyan claims of about 32,000 sq km still reflected on its maps of southeastern Algeria |
+| area_km2 | 32000 | secondary | 2026-10-03 | S0261 | Algeria-Libya:  dormant dispute includes Libyan claims of about 32,000 sq km still reflected on its maps of southeastern Algeria |
 
 Sources:
+
+- S0261: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/ag.json
+- S0267: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/ly.json

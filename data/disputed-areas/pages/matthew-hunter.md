@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | France (claims as part of New Caledonia); Vanuatu (claims as part of Tafea Province) | secondary | 2026-10-03 | S0153 | The pair, which lie 70 km (43 mi) apart, are claimed by Vanuatu as part of Tafea Province , and considered by the people of Aneityum part of their custom ownership, but also claimed by France as part of New Caledonia . |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0258 | Cette querelle territoriale a des implications importantes pour l'extension de la zone économique exclusive vanuataise. |
+| origin | France officially annexed both islands in 1929; in 1965 the United Kingdom also claimed them as part of the New Hebrides. | secondary | 2026-10-03 | S0153 | France officially annexed both islands in 1929. In 1965, the United Kingdom also claimed the two islands, as part of the New Hebrides . |
+| on_the_ground | Vanuatu has made no occupation; Météo-France set up an automatic weather station in 1979 and the French Navy regularly visits both islands. | secondary | 2026-10-03 | S0153 | In 1980, on its independence, Vanuatu claimed sovereignty, but made no occupation of the islands. In 1979, Météo-France set up an automatic weather station on one of the islands, and the French Navy regularly visits both of them. |
+| inhabited | no | secondary | 2026-10-03 | S0153 | Matthew Island and Hunter Island are two uninhabited volcanic islands in the South Pacific |
+| area_km2 | 1.3 | secondary | 2026-10-03 | S0153 | Total islands 2 Area 1.3 km 2 (0.50 sq mi) |
 
 Sources:
+
+- S0153: https://en.wikipedia.org/w/index.php?title=Matthew_Island_and_Hunter_Island&oldid=1373164328
+- S0258: https://fr.wikipedia.org/w/index.php?title=Fronti%C3%A8re_entre_la_France_et_le_Vanuatu&oldid=235015346

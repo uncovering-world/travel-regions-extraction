@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Côte d'Ivoire (the village flew the Ivorian flag); Guinea (its soldiers occupied the village in January 2013 and raised the Guinean flag) | secondary | 2026-10-03 | S0326 | En janvier 2013, des militaires guinéens avaient occupé ce village de Kpéaba, où ils avaient retiré le drapeau ivoirien pour hisser celui de la Guinée, provoquant des incidents avec les habitants, qui n’avaient cependant pas fait de victimes. |
+| kind | line_position | secondary | 2026-10-03 | S0326 | Fin février 2013, ces soldats s’étaient finalement retirés de ce village de l’ouest ivoirien, à l’issue de discussions de « haut niveau » entre les deux gouvernements qui avaient récusé « tout conflit frontalier » ou « différend territorial » entre la Guinée et la Côte d’Ivoire, bien que le litige remonte à l’époque de l’accession à l’indépendance des deux pays. |
+| origin | The dispute dates back to the two countries' independence; Guinean soldiers who had occupied the village withdrew at the end of February 2013 after talks between the two governments. | secondary | 2026-10-03 | S0326 | Fin février 2013, ces soldats s’étaient finalement retirés de ce village de l’ouest ivoirien, à l’issue de discussions de « haut niveau » entre les deux gouvernements qui avaient récusé « tout conflit frontalier » ou « différend territorial » entre la Guinée et la Côte d’Ivoire, bien que le litige remonte à l’époque de l’accession à l’indépendance des deux pays. |
+| on_the_ground | The village lies in western Côte d'Ivoire near Sipilou, about fifteen kilometres from Guinea; in December 2016 it was attacked by soldiers accompanied by civilians, according to a security source quoted by AFP. | secondary | 2026-10-03 | S0326 | Le village de Kpéaba, proche de Sipilou à l’ouest du pays, à une quinzaine de kilomètres de la Guinée, a été « attaqué par des militaires accompagnés de civils », a affirmé une source sécuritaire à l’AFP. |
+| inhabited | yes | secondary | 2026-10-03 | S0326 | Dans la nuit de mercredi à jeudi, un civil a été tué et plusieurs autres blessés dans le village de Kpéaba. |
 
 Sources:
+
+- S0326: https://www.jeuneafrique.com/387125/politique/cote-divoire-civil-tue-militaires-guineens-a-kpeaba-louest-pays/

@@ -4,6 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Spain (holds sovereignty); Morocco (calls for its transfer) | secondary | 2026-10-03 | S0048 | The Moroccan government has repeatedly called for Spain to transfer the sovereignty of Ceuta, Melilla and the plazas de soberanía to Morocco, with Spain's refusal to do so serving as a major source of tension in Morocco–Spain relations . |
+| kind | paper_claim | secondary | 2026-10-03 | S0048 | When Spain recognized the independence of Spanish Morocco in 1956, Ceuta and the other plazas de soberanía remained under Spanish rule. Spain considered them integral parts of the Spanish state, but the Moroccan state has disputed this claim. |
+| origin | Portugal ceded Ceuta to Spain by the Treaty of Lisbon on 1 January 1668. | secondary | 2026-10-03 | S0048 | On 1 January 1668, King Afonso VI of Portugal recognised the formal allegiance of Ceuta to Spain and ceded Ceuta to King Carlos II of Spain by the Treaty of Lisbon . |
+| on_the_ground | A Spanish autonomous city inside the Schengen area, with border checks between Ceuta and European Spain. | secondary | 2026-10-03 | S0048 | Ceuta is one of the special territories of members of the European Economic Area : it is part of the Schengen area , but with specific provisions such as border checks between Ceuta and European Spain. |
+| inhabited | yes | secondary | 2026-10-03 | S0048 | In 2024, its population was 83,299. |
+| traveller_access | open | secondary | 2026-10-03 | S0048 | A single road border checkpoint, near Fnideq , allows for cars and pedestrians to travel between Morocco and Spain. |
+| area_km2 | 18.5 | secondary | 2026-10-03 | S0048 | Area • Total 18.5 km 2 (7.1 sq mi) |
 | ne_name | Ceuta | machine | 2026-10-03 | NE |  |
 | ne_type | Geo subunit | machine | 2026-10-03 | NE |  |
 | ne_area_km2 | 33 | machine | 2026-10-03 | NE |  |
@@ -16,4 +23,5 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0048: https://en.wikipedia.org/w/index.php?title=Ceuta&oldid=1376504463
 - WD: https://www.wikidata.org/

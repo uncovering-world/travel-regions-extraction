@@ -4,5 +4,10 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Croatia (controls); Bosnia and Herzegovina (claims) | secondary | 2026-10-03 | S0039 | A river island between the two towns is under Croatian control, but is claimed by Bosnia and Herzegovina. |
+| kind | line_position | secondary | 2026-10-03 | S0039 | The border on the Una River between Hrvatska Kostajnica on the northern, Croatian side of the river, and Kostajnica on the southern, Bosnian side, is also being discussed. |
+| on_the_ground | A shared border crossing point, built and working since 2003, is used without hindrance by either party. | secondary | 2026-10-03 | S0039 | A shared border crossing point has been built and has been functioning since 2003, and is used without hindrance by either party. |
 
 Sources:
+
+- S0039: https://en.wikipedia.org/w/index.php?title=Bosnia_and_Herzegovina%E2%80%93Croatia_border&oldid=1371402789

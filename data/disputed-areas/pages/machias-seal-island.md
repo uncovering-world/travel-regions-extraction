@@ -4,5 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Canada (administers; staffs the lighthouse); United States (claims sovereignty) | secondary | 2026-10-03 | S0146 | However, the United States also claims sovereignty of the island, despite never having physical presence on it. The Canadian Coast Guard continues to staff the lighthouse on the island. |
+| kind | paper_claim | secondary | 2026-10-03 | S0146 | The U.S. base their claim of the island from an acquisition by the early treaties with Great Britain. Canada bases his ownership primarily from continuous occupation, but also from a different interpretation of the treaties. |
+| origin | The dispute began in August 1971, when the US State Department protested Canada's extension of jurisdiction around the island; the US had not complained of Canada's administration before. | secondary | 2026-10-03 | S0146 | The dispute begins in August 1971, when the U.S. State Department officially protests Canada’s recent extension of high seas jurisdiction around Machias Seal Island. The U.S. government never complained Canada's administration of the island before that date. |
+| on_the_ground | Fisheries and Oceans Canada is the land administrator of the island, a Canadian migratory bird sanctuary; a visit at any time of year needs its permission. | primary | 2026-10-03 | S0296 | Fisheries and Oceans Canada is the land administrator at Machias Seal Island MBS and permission to visit the MBS at any time of the year, must be sought from the administrator. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0146 | Two lightkeepers are permanently stationed at the island's lone residence, rotating 4-week shifts by helicopter from Saint John . |
+| traveller_access | restricted | primary | 2026-10-03 | S0296 | Fisheries and Oceans Canada is the land administrator at Machias Seal Island MBS and permission to visit the MBS at any time of the year, must be sought from the administrator. |
+| area_km2 | 0.08 | secondary | 2026-10-03 | S0146 | Area 8 ha (20 acres) |
 
 Sources:
+
+- S0146: https://en.wikipedia.org/w/index.php?title=Machias_Seal_Island&oldid=1376459184
+- S0296: https://www.canada.ca/en/environment-climate-change/services/migratory-bird-sanctuaries/locations/machias-seal-island.html

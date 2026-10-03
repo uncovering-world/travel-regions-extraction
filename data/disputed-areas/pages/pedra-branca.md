@@ -4,5 +4,16 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Singapore (sovereign over Pedra Branca/Pulau Batu Puteh); Malaysia (sovereign over Middle Rocks); South Ledge belongs to the State in whose territorial waters it is located (findings of the ICJ) | primary | 2026-10-03 | S0324 | In that Judgment, the Court had found that (1) sovereignty over Pedra Branca/Pulau Batu Puteh belonged to Singapore, (2) sovereignty over Middle Rocks belonged to Malaysia, and (3) sovereignty over South Ledge belonged to the State in the territorial waters of which it was located. |
+| kind | resolved_recently | primary | 2026-10-03 | S0324 | On 29 May 2018, the Court made an Order recording the discontinuance, by agreement of the Parties, of the proceedings instituted on 2 February 2017 by Malaysia against Singapore, and directed that the case be removed from the List. |
+| origin | Settled when Malaysia and Singapore agreed, by letters of 28 and 29 May 2018, to discontinue Malaysia's case for revision of the ICJ judgment. | primary | 2026-10-03 | S0324 | In a letter dated 28 May 2018, the Co-Agent of Malaysia notified the Court that the Parties had agreed to discontinue the proceedings in the case. A copy of that letter was communicated to the Agent of Singapore who, by a letter dated 29 May 2018, confirmed his Government’s agreement to the discontinuance of the proceedings. |
+| on_the_ground | Singapore administers Pedra Branca, as it and its predecessor the United Kingdom have since Horsburgh Lighthouse was built in 1850-1851. | secondary | 2026-10-03 | S0179 | Singapore has been administering Pedra Branca since Horsburgh Lighthouse was built on the island by its predecessor, the United Kingdom, between 1850 and 1851. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0157 | The base is equipped with a state-of-the-art remote surveillance system, solid waste system and climate station system, and is manned around the clock by a staff of three officers and 14 personnel. |
+| traveller_access | restricted | secondary | 2026-10-03 | S0178 | Consequently, a permit from the Maritime and Port Authority of Singapore is required for access to the island, |
 
 Sources:
+
+- S0157: https://en.wikipedia.org/w/index.php?title=Middle_Rocks&oldid=1364051362
+- S0178: https://en.wikipedia.org/w/index.php?title=Pedra_Branca%2C_Singapore&oldid=1367346961
+- S0179: https://en.wikipedia.org/w/index.php?title=Pedra_Branca_dispute&oldid=1365057458
+- S0324: https://www.icj-cij.org/case/167

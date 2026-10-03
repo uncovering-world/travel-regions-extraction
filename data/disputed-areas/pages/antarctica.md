@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Argentina, Australia, Chile, France, New Zealand, Norway, United Kingdom (territorial claims) | secondary | 2026-10-03 | S0232 | Seven sovereign states – Argentina , Australia , Chile , France , New Zealand , Norway , and the United Kingdom – have made eight territorial claims in Antarctica . |
+| kind | own_regime | secondary | 2026-10-03 | S0017 | Antarctica is governed by 29 countries , all of which are parties of the 1959 Antarctic Treaty System . According to the terms of the treaty, military activity, mining, nuclear explosions , and nuclear waste disposal are all prohibited in Antarctica. |
+| origin | The Antarctic Treaty was opened for signature on 1 December 1959 and entered into force on 23 June 1961. | secondary | 2026-10-03 | S0016 | The main treaty was opened for signature on 1 December 1959, and officially entered into force on 23 June 1961. |
+| on_the_ground | Tourism, fishing and research are the main activities; about 5,000 people live at research stations in summer and about 1,000 in winter. | secondary | 2026-10-03 | S0017 | Tourism , fishing and research are the main human activities in and around Antarctica. During the summer months, about 5,000 people reside at research stations , a figure that drops to around 1,000 in the winter. |
 
 Sources:
+
+- S0016: https://en.wikipedia.org/w/index.php?title=Antarctic_Treaty_System&oldid=1374990623
+- S0017: https://en.wikipedia.org/w/index.php?title=Antarctica&oldid=1377429588
+- S0232: https://en.wikipedia.org/w/index.php?title=Territorial_claims_in_Antarctica&oldid=1376298570

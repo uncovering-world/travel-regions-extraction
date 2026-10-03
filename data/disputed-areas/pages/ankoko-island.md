@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Venezuela (administers the whole island, claims it); Guyana (claims its side, protests the occupation) | secondary | 2026-10-03 | S0015 | Venezuela, which claims Ankoko Island as its own in the Guyana–Venezuela territorial dispute , established a military base on the island in 1966, which Guyana claims as an intrusion and aggression on its sovereign territory. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0015 | In 1966, five months after Guyana gained independence, the Venezuelan armed forces crossed the boundary on Ankoko Island and has occupied the Guyanese side of the island ever since, in violation of the peace treaty set forth by the Geneva Agreement . |
+| origin | Venezuelan troops occupied the island in October 1966, five months after Guyana's independence. | secondary | 2026-10-03 | S0015 | Five months after Guyana's independence from the United Kingdom , Venezuelan troops began their occupation of Ankoko Island in October 1966. |
+| on_the_ground | Under Venezuelan administration, with a Venezuelan airport and military base. | secondary | 2026-10-03 | S0015 | The island remains under Venezuelan administration, where a Venezuelan airport and a military base operate. |
 
 Sources:
+
+- S0015: https://en.wikipedia.org/w/index.php?title=Ankoko_Island&oldid=1360726272

@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | India (received 51 Bangladeshi enclaves in 2015); Bangladesh (received 111 Indian enclaves in 2015) | secondary | 2026-10-03 | S0029 | Under this agreement, which was ratified on 6 June 2015, India received 51 Bangladeshi enclaves (covering 7,110 acres (2,880 ha)) in the Indian mainland, while Bangladesh received 111 Indian enclaves (covering 17,160 acres (6,940 ha)) in the Bangladeshi mainland. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0029 | The enclaves were exchanged at midnight on 31 July 2015 and the transfer of enclave residents was completed on 30 November 2015. |
+| origin | Settled under the 1974 Land Boundary Agreement, adopted in a revised version on 7 May 2015 when the Parliament of India passed the 100th constitutional amendment. | secondary | 2026-10-03 | S0029 | The Prime Ministers of India and Bangladesh signed the Land Boundary Agreement in 1974 to exchange enclaves and simplify their international border . A revised version of the agreement was adopted by the two countries on 7 May 2015, when the Parliament of India passed the 100th Amendment to the Constitution of India |
+| on_the_ground | Since the exchange the only remaining enclave is Dahagram–Angarpota, an exclave of Bangladesh. | secondary | 2026-10-03 | S0029 | Since the exchange of territory took place, the only remaining enclave is Dahagram–Angarpota , an exclave of Bangladesh. |
+| inhabited | yes | secondary | 2026-10-03 | S0029 | Nearly 14,000 people living in the former Bangladeshi enclaves became Indian citizens, while about 36,000 people living in the former Indian enclaves became Bangladeshi citizens |
+| area_km2 | 98.2 | secondary | 2026-10-03 | S0029 | Under this agreement, which was ratified on 6 June 2015, India received 51 Bangladeshi enclaves (covering 7,110 acres (2,880 ha)) in the Indian mainland, while Bangladesh received 111 Indian enclaves (covering 17,160 acres (6,940 ha)) in the Bangladeshi mainland. |
 
 Sources:
+
+- S0029: https://en.wikipedia.org/w/index.php?title=Bangladesh%E2%80%93India_enclaves&oldid=1376307970

@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Republic of China (Taiwan) (officially claims sovereignty over all of China; does not recognise territorial settlements made by the PRC); People's Republic of China (likewise claims all of China) | secondary | 2026-10-03 | S0142 | Officially, both the ROC and the PRC claim sovereignty over all of China (including Taiwan), and regard the other government as being in rebellion. Therefore, the ROC does not recognize any territorial dispute settlement entered into by the PRC. |
+| kind | paper_claim | secondary | 2026-10-03 | S0142 | The Republic of China briefly recognized Mongolia's independence between 1945 and 1952, and from 2002 onwards; however, under the Constitution of the Republic of China , the ROC claim on Mongolia cannot be withdrawn without recourse to a referendum. |
+| origin | After the Communist victory in the Chinese Civil War in 1949 the PRC took control of mainland China and the Kuomintang (ROC) government retreated to Taiwan. | secondary | 2026-10-03 | S0231 | Following the Communist Party 's victory in the Chinese Civil War in 1949, the newly inaugurated People's Republic of China solidified its control of mainland China , while the Kuomintang government retreated to Taiwan and selected Taipei to serve as the provisional capital of the Republic of China. |
+| on_the_ground | The ROC's de facto territory is limited to the Taiwan Area; the PRC controls mainland China, Hong Kong and Macau. | secondary | 2026-10-03 | S0142 | Since the end of the Chinese Civil War , the de facto territories of the Republic of China (Taiwan) are limited to the Taiwan Area . Meanwhile, the People's Republic of China (China) controls mainland China , Hong Kong and Macau . |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0231: https://en.wikipedia.org/w/index.php?title=Taiwan_Area&oldid=1371261522

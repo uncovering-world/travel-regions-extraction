@@ -4,6 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Russia (controls; annexed 2014); Ukraine (claims; recognised as Ukrainian by most countries) | secondary | 2026-10-03 | S0062 | In 2014, the peninsula was occupied by Russian forces and annexed by Russia , but most countries recognise Crimea as Ukrainian territory. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0062 | The region, internationally recognised as part of Ukraine, has been under Russian occupation since 2014 . |
+| origin | Occupied by Russian forces and annexed by Russia in 2014. | secondary | 2026-10-03 | S0062 | In 2014, the peninsula was occupied by Russian forces and annexed by Russia , but most countries recognise Crimea as Ukrainian territory. |
+| on_the_ground | Under Russian occupation since 2014. | secondary | 2026-10-03 | S0062 | The region, internationally recognised as part of Ukraine, has been under Russian occupation since 2014 . |
+| inhabited | yes | secondary | 2026-10-03 | S0062 | The population is 2.4 million, and the largest city is Sevastopol . |
+| area_km2 | 27000 | secondary | 2026-10-03 | S0062 | Area 27,000 km 2 (10,000 sq mi) |
 | ne_name | Crimea | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. by Russia; Claimed by Ukraine | machine | 2026-10-03 | NE |  |
@@ -13,3 +19,4 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0062: https://en.wikipedia.org/w/index.php?title=Crimea&oldid=1372738636

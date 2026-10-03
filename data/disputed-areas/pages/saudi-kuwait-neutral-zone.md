@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Kuwait (held the 1965 separation line to be the de jure border; Qaruh and Umm al Maradim lie north of it); Saudi Arabia (recognised the line only as de facto) | secondary | 2026-10-03 | S0142 | In 1965, a separation line was drawn halfway through the neutral zone; Qaruh and Umm al Maradim are north of the line. Kuwait interpreted as the de jure border but Saudi Arabia recognized it only as de facto , leaving the sovereignty of the northern half of the "neutral zone" in question. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0142 | Finally, in 2019, Kuwait and Saudi Arabia signed a memorandum of understanding in which Saudi Arabia recognized the separation line as a permanent international border. |
+| origin | Settled in December 2019, when Saudi Arabia and Kuwait signed an agreement to demarcate land in the neutral zone and to restart oil production in the shared fields, suspended since 2014. | secondary | 2026-10-03 | S0286 | in December 2019, Saudi Arabia and Kuwait signed an agreement to demarcate land in a neutral zone and to restart oil production in shared fields, which had been suspended since 2014 because of disagreements |
+| on_the_ground | The zone is partitioned between the two states, but oil is still pumped under joint agreements. | secondary | 2026-10-03 | S0201 | Despite the zone being partitioned half a century ago, oil pumping is still done by agreements. |
+| area_km2 | 5770 | secondary | 2026-10-03 | S0201 | was an area of 5,770 km 2 (2,230 sq mi) between the borders of Saudi Arabia and Kuwait that was left undefined when the border was established by the Uqair Convention of 2 December 1922. |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0201: https://en.wikipedia.org/w/index.php?title=Saudi_Arabian%E2%80%93Kuwaiti_neutral_zone&oldid=1377042215
+- S0286: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/middle-east/sa.json

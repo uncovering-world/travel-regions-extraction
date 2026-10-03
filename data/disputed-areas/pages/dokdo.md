@@ -4,6 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | South Korea (administers, exercises sovereignty); Japan (claims) | secondary | 2026-10-03 | S0138 | South Korea exercises sovereignty over the islets, while Japan claims sovereignty over them. |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0138 | The Liancourt Rocks lie in rich fishing grounds that may contain large deposits of natural gas . |
+| on_the_ground | South Korean staff and police live on the islets: three office staff, two lighthouse managers and twenty police personnel as of March 2026. | secondary | 2026-10-03 | S0138 | As of March 2026, there are three office staff, two lighthouse managers, and twenty police personnel living on the islets. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0138 | In October 2018, Kim Sung-do died, followed by Kim Shin-yeol in March 2026, meaning there are currently no resident civilians. |
+| traveller_access | restricted | secondary | 2026-10-03 | S0138 | Since the South Korean coast guard was sent to the islets, civilian travel has been subject to South Korean government approval; they have stated that the reason for this is that the islet group is designated as a nature reserve. |
+| area_km2 | 0.19 | secondary | 2026-10-03 | S0138 | The Liancourt Rocks comprise two main islets and 89 smaller rocks; the total surface area of the islets is 19 hectares (47 acres) and the highest elevation of 168.5 metres (553 ft) is on the West Islet. |
 | ne_name | Dokdo | machine | 2026-10-03 | NE |  |
 | ne_type | Geo subunit | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. by South Korea; Claimed by Japan | machine | 2026-10-03 | NE |  |
@@ -16,4 +22,5 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0138: https://en.wikipedia.org/w/index.php?title=Liancourt_Rocks&oldid=1374983972
 - WD: https://www.wikidata.org/

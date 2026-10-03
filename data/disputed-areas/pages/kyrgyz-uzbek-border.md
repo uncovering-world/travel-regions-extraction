@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Kyrgyzstan; Uzbekistan (each claimed ownership of the Kempir-Abad / Andijan reservoir) | secondary | 2026-10-03 | S0014 | Following the dissolution of the USSR , the reservoir became a source of dispute between Kyrgyzstan and Uzbekistan , with each country claiming ownership. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0014 | In 2022, the two countries signed a border demarcation deal, according to which Kyrgyzstan reportedly ceded control of the reservoir in exchange for agricultural land elsewhere in Uzbekistan. |
+| origin | Settled by the border demarcation deal of October 2022, under which Kyrgyzstan reportedly relinquished its claim on the Andijan (Kempir-Abad) Reservoir in exchange for 19,000 hectares of agricultural land elsewhere in Uzbekistan. | secondary | 2026-10-03 | S0014 | In October 2022, Kyrgyzstan and Uzbekistan reached a border demarcation deal. It was reported that as part of the deal Kyrgyzstan had relinquished its claim on the Andijan Reservoir in exchange for 19,000 hectares of agricultural land elsewhere in Uzbekistan. |
+| on_the_ground | The Barak enclave was absorbed by Uzbekistan in April 2024, when the land swap became permanent. | secondary | 2026-10-03 | S0031 | The land swap became permanent in April 2024, when the Barak enclave was absorbed by Uzbekistan. |
 
 Sources:
+
+- S0014: https://en.wikipedia.org/w/index.php?title=Andijan_Reservoir&oldid=1365860420
+- S0031: https://en.wikipedia.org/w/index.php?title=Barak%2C_Uzbekistan&oldid=1377753203

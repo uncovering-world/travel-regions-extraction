@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Azerbaijan (controls since 24 May 2024; de jure); Armenia (controlled from the 1990s until 2024) | secondary | 2026-10-03 | S0018 | In addition, since the 1990s, Armenia controlled another 4 villages within the de-jure borders of Azerbaijan: Aşağı Əskipara , Bağanis Ayrum , Qızılhacılı , and Xeyrimli , which were returned to Azerbaijan on 24 May 2024 in accordance with the border delimitation agreement. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0018 | In addition, since the 1990s, Armenia controlled another 4 villages within the de-jure borders of Azerbaijan: Aşağı Əskipara , Bağanis Ayrum , Qızılhacılı , and Xeyrimli , which were returned to Azerbaijan on 24 May 2024 in accordance with the border delimitation agreement. |
+| origin | Taken over by Armenia in the 1990s; by an agreement of 19 April 2024 Armenia handed the four villages over to Azerbaijan. | secondary | 2026-10-03 | S0018 | In April 2024, Armenia and Azerbaijan began demarcating their common border based on Soviet-era maps, as a first step towards a potential peace agreement. On April 19, the two countries reached an agreement whereby Armenia handed over four abandoned villages along the border with Tavush Province to Azerbaijan: Bağanis Ayrum , Aşağı Əskipara , Xeyrimli , and Qızılhacılı , all formerly part of the Azerbaijani Soviet Socialist Republic 's Qazax District and taken over by Armenia in the 1990s. |
+| inhabited | no | secondary | 2026-10-03 | S0018 | On April 19, the two countries reached an agreement whereby Armenia handed over four abandoned villages along the border with Tavush Province to Azerbaijan: Bağanis Ayrum , Aşağı Əskipara , Xeyrimli , and Qızılhacılı , all formerly part of the Azerbaijani Soviet Socialist Republic 's Qazax District and taken over by Armenia in the 1990s. |
 
 Sources:
+
+- S0018: https://en.wikipedia.org/w/index.php?title=Armenia%E2%80%93Azerbaijan_border&oldid=1368043117

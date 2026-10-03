@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Bahrain (Qit'at Jaradah, by the ICJ decision of 16 March 2001); Qatar (Fasht Dibal, by the same decision) | secondary | 2026-10-03 | S0024 | Negotiations persisted, however, and the disputes were resolved by the ICJ on 16 March 2001, giving Bahrain the Hawar Islands (excluding the Janan Island), Qit'at Jaradah, and Fasht Al Azm, with Qatar receiving Zubarah, Fasht Dibal, and the Janan Island . |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0187 | It was one of several maritime features contributing to a long running dispute between Bahrain and Qatar. |
+| origin | The disputes were resolved by the International Court of Justice on 16 March 2001: Qit'at Jaradah to Bahrain, Fasht Dibal to Qatar. | secondary | 2026-10-03 | S0024 | Negotiations persisted, however, and the disputes were resolved by the ICJ on 16 March 2001, giving Bahrain the Hawar Islands (excluding the Janan Island), Qit'at Jaradah, and Fasht Al Azm, with Qatar receiving Zubarah, Fasht Dibal, and the Janan Island . |
+| inhabited | no | secondary | 2026-10-03 | S0187 | The feature is uninhabited and without vegetation. |
 
 Sources:
+
+- S0024: https://en.wikipedia.org/w/index.php?title=Bahrain%E2%80%93Qatar_relations&oldid=1361965226
+- S0187: https://en.wikipedia.org/w/index.php?title=Qit%27at_Jaradah&oldid=1364193792

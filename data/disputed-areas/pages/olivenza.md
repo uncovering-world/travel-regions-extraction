@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Spain (administers); Portugal (claims the return of the territory) | secondary | 2026-10-03 | S0173 | Spain has since administered the territory (now split into two municipalities, Olivenza and Táliga ), whereas Portugal invokes the self-revocation of the Treaty of Badajoz, plus the Congress of Vienna of 1815, to claim the return of the territory. |
+| kind | paper_claim | secondary | 2026-10-03 | S0283 | Portugal-Spain : Portugal does not recognize Spanish sovereignty over the territory of Olivenza based on a difference of interpretation of the 1815 Congress of Vienna and the 1801 Treaty of Badajoz |
+| origin | Under Portuguese sovereignty from 1297 until 1801, when Spain occupied it during the War of the Oranges and it was ceded under the Treaty of Badajoz. | secondary | 2026-10-03 | S0173 | The town of Olivença was under Portuguese sovereignty from 1297 ( Treaty of Alcañices ) to 1801, when it was occupied by Spain during the War of the Oranges and ceded that year under the Treaty of Badajoz . |
+| on_the_ground | Administered as a municipality of the province of Badajoz, in the autonomous community of Extremadura. | secondary | 2026-10-03 | S0173 | It is a municipality belonging to the province of Badajoz , and to the wider autonomous community of Extremadura . |
+| inhabited | yes | secondary | 2026-10-03 | S0173 | Total 11,742  • Density 27.30/km 2 (70.71/sq mi) |
 
 Sources:
+
+- S0173: https://en.wikipedia.org/w/index.php?title=Olivenza&oldid=1378074506
+- S0283: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/europe/po.json

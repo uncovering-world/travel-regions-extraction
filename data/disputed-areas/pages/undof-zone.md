@@ -4,5 +4,16 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Syria; Israel; United Nations (UNDOF maintains the ceasefire between Israeli and Syrian forces and supervises the disengagement agreement) | primary | 2026-10-03 | S0260 | Since then, UNDOF has remained in the area to maintain the ceasefire between the Israeli and Syrian forces and to supervise the implementation of the disengagement agreement. |
+| kind | own_regime | primary | 2026-10-03 | S0259 | The area of separation is a demilitarised zone and measures approximately 80 km long, varying in width from 10 km in the centre to less than one km in the extreme south, with hilly terrain dominated in the north by Mount Hermon. |
+| origin | UNDOF was established on 31 May 1974 by Security Council resolution 350, after Israeli and Syrian forces agreed to disengage in the Golan. | primary | 2026-10-03 | S0260 | The United Nations Disengagement Observer Force (UNDOF) was established on 31 May 1974 by Security Council resolution 350 (1974) , following the agreed disengagement of the Israeli and Syrian forces in the Golan. |
+| on_the_ground | After the fall of the Assad government on 8 December 2024 Israel invaded the demilitarised buffer zone and has continued to occupy it. | secondary | 2026-10-03 | S0108 | Following the fall of the Assad regime on 8 December 2024, Israel invaded the demilitarized buffer zone in southwestern Syria (adjacent to the Israeli-occupied Golan Heights ) and has continued to occupy it. |
+| inhabited | yes | primary | 2026-10-03 | S0259 | The area is inhabited and has historically been policed by the Syrian authorities. |
+| area_km2 | 235 | secondary | 2026-10-03 | S0247 | The UNDOF Zone is about 80 km long, and between 0.5 and 10 km wide, forming an area of 235 km 2 . |
 
 Sources:
+
+- S0108: https://en.wikipedia.org/w/index.php?title=Israeli_invasion_of_Syria_%282024%E2%80%93present%29&oldid=1375316976
+- S0247: https://en.wikipedia.org/w/index.php?title=United_Nations_Disengagement_Observer_Force&oldid=1362632309
+- S0259: https://news.un.org/en/story/2025/01/1159451
+- S0260: https://peacekeeping.un.org/en/mission/undof

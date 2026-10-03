@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Pakistan (administers); India (claims) | secondary | 2026-10-03 | S0142 | Administered by Pakistan and claimed by India. Part of the Kashmir conflict . |
+| kind | paper_claim | secondary | 2026-10-03 | S0022 | is a region administered by Pakistan as a nominally self-governing entity and constituting the western portion of the larger Kashmir region, which has been the subject of a dispute between India and Pakistan since 1947 . |
+| origin | Part of the Kashmir region disputed between India and Pakistan since 1947. | secondary | 2026-10-03 | S0022 | is a region administered by Pakistan as a nominally self-governing entity and constituting the western portion of the larger Kashmir region, which has been the subject of a dispute between India and Pakistan since 1947 . |
+| on_the_ground | The Line of Control separates it from Indian-administered Jammu and Kashmir and serves as the de facto border. | secondary | 2026-10-03 | S0022 | On its eastern side, Azad Kashmir is separated from the Indian-administered territory of Jammu and Kashmir by the Line of Control (LoC) , which serves as the de facto border between the Indian and Pakistani-controlled parts of Kashmir. |
+| inhabited | yes | secondary | 2026-10-03 | S0022 | Geographically, it covers a total area of 13,297 km 2 (5,134 sq mi) and has a total population of over 4.33 million as per the 2023 national census . |
+| area_km2 | 13297 | secondary | 2026-10-03 | S0022 | Geographically, it covers a total area of 13,297 km 2 (5,134 sq mi) and has a total population of over 4.33 million as per the 2023 national census . |
 
 Sources:
+
+- S0022: https://en.wikipedia.org/w/index.php?title=Azad_Kashmir&oldid=1376871634
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

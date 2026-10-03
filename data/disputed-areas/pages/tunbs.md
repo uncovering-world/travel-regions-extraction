@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Iran (administers as part of Hormozgan province); United Arab Emirates (claims, for the Emirate of Ras al-Khaimah) | secondary | 2026-10-03 | S0090 | The islands are administered by Iran as part of its Hormozgan province , however their sovereignty is disputed by the United Arab Emirates , which claims them as part of the Emirate of Ras al-Khaimah . |
+| kind | paper_claim | secondary | 2026-10-03 | S0090 | Tehran says the islands always belonged to it as it had never renounced possession of the islands, and that they are an integral part of Iranian territory. |
+| origin | On 30 November 1971 Iran seized control of the Tunb Islands (and Abu Musa) by force, against the resistance of a small Arab police force stationed there. | secondary | 2026-10-03 | S0090 | On 30 November 1971, Iran forcibly seized control of the Tunb Islands and Abu Musa , against the resistance of the tiny Arab police force stationed there. |
+| on_the_ground | Under Iranian control and government; Iran has naval military bases on the islands to control the Strait of Hormuz. | secondary | 2026-10-03 | S0090 | These two islands are among the territories under the control and government of Iran. The Iranian government has established naval military bases on these islands to control the Strait of Hormuz. |
+| area_km2 | 12.3 | secondary | 2026-10-03 | S0090 | Area 10.3 km 2 (4.0 sq mi) (Greater) 2 km 2 (0.77 mi 2 ) (Lesser) |
 
 Sources:
+
+- S0090: https://en.wikipedia.org/w/index.php?title=Greater_and_Lesser_Tunbs&oldid=1378056461

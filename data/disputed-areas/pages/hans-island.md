@@ -4,6 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Canada; Denmark (for Greenland) - claimed by both until 14 June 2022, now split between them | secondary | 2026-10-03 | S0094 | It was claimed by both Canada and Denmark until 14 June 2022, when both countries agreed to split the disputed island roughly in half. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0094 | It was claimed by both Canada and Denmark until 14 June 2022, when both countries agreed to split the disputed island roughly in half. |
+| origin | Settled on 14 June 2022 by an agreement dividing the island nearly in half along a natural fault line. | secondary | 2026-10-03 | S0094 | On 14 June 2022, Canadian Foreign Affairs Minister Mélanie Joly , Danish foreign affairs minister Jeppe Kofod , and prime minister of Greenland Múte Bourup Egede signed an agreement to divide the island nearly in half along a natural fault line. |
+| on_the_ground | A 1,280 m shared border crosses the island. | secondary | 2026-10-03 | S0094 | A 1,280 m (4,200 ft) shared border traverses the island. |
+| inhabited | no | secondary | 2026-10-03 | S0094 | The island itself is barren and uninhabited with an area of 130 ha (320 acres) |
+| area_km2 | 1.3 | secondary | 2026-10-03 | S0094 | The island itself is barren and uninhabited with an area of 130 ha (320 acres) |
 | ne_name | Greenland | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. by Denmark; Claimed by Canada | machine | 2026-10-03 | NE |  |
@@ -13,3 +19,4 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0094: https://en.wikipedia.org/w/index.php?title=Hans_Island&oldid=1375816329

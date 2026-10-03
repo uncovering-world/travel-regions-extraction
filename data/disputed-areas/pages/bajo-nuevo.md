@@ -4,6 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Colombia (administers); United States (claims); Jamaica (named as party to the dispute) | secondary | 2026-10-03 | S0027 | The reef is subject to a sovereignty dispute involving Colombia , Jamaica , and the United States . |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0027 | is an uninhabited reef with some grass-covered islets in the western Caribbean Sea . |
+| origin | On 19 November 2012 the International Court of Justice ruled, against Nicaragua's claims, that Colombia has sovereignty over Bajo Nuevo and Serranilla Banks. | secondary | 2026-10-03 | S0027 | On 19 November 2012, regarding Nicaraguan claims to the islands, the International Court of Justice (ICJ) ruled that Colombia had sovereignty over both Bajo Nuevo and Serranilla Banks. |
+| on_the_ground | The only installation is a light beacon on Low Cay, maintained by the Colombian National Navy. | secondary | 2026-10-03 | S0027 | It is currently maintained by the Colombian National Navy and overseen by the state's Maritime Authority. |
+| inhabited | no | secondary | 2026-10-03 | S0027 | is an uninhabited reef with some grass-covered islets in the western Caribbean Sea . |
 | ne_name | Bajo Nuevo Bank | machine | 2026-10-03 | NE |  |
 | ne_type | Indeterminate | machine | 2026-10-03 | NE |  |
 | ne_note | Claimed by Colombia, Jamaica, Nicaragua and the United States | machine | 2026-10-03 | NE |  |
@@ -13,3 +18,4 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0027: https://en.wikipedia.org/w/index.php?title=Bajo_Nuevo_Bank&oldid=1373603743

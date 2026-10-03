@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Croatia (does not claim it; asserts it is part of Serbia); Serbia (does not claim it) | secondary | 2026-10-03 | S0139 | Green areas to the west of the river are claimed by neither (Croatia asserts that the green parts are part of Serbia, but Serbia does not claim them). |
+| kind | unclaimed | secondary | 2026-10-03 | S0063 | In 2015, Czech politician Vít Jedlička proclaimed the micronation Liberland on Gornja Siga, a pocket of land left unclaimed by both Croatia and Serbia. |
+| on_the_ground | Administered by Croatia since the Croatian War of Independence. | secondary | 2026-10-03 | S0139 | It has been administered by Croatia since the Croatian War of Independence . |
+| inhabited | no | secondary | 2026-10-03 | S0139 | an uninhabited stretch of floodplain on the Croatian bank of the Danube |
+| traveller_access | closed | secondary | 2026-10-03 | S0139 | Croatia has frequently blocked off access to Gornja Siga since 2015. A number of people, including Jedlička, have been arrested for trying to enter the claimed land. |
+| area_km2 | 7 | secondary | 2026-10-03 | S0139 | The parcel of land in question is 7 km 2 (2.7 sq mi) in area, roughly the same size as Gibraltar . |
 
 Sources:
+
+- S0063: https://en.wikipedia.org/w/index.php?title=Croatia%E2%80%93Serbia_border_dispute&oldid=1363988244
+- S0139: https://en.wikipedia.org/w/index.php?title=Liberland&oldid=1367654310

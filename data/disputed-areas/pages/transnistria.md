@@ -4,5 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Transnistria (declared independence from Moldova in 1990; recognised only by South Ossetia and Abkhazia); Moldova (all UN member states consider Transnistria part of it) | secondary | 2026-10-03 | S0240 | All UN member states consider Transnistria a part of the Republic of Moldova. Only the partially recognised or unrecognised states of South Ossetia and Abkhazia have recognised Transnistria as a sovereign entity after it declared independence from Moldova in 1990. |
+| kind | de_facto_state | secondary | 2026-10-03 | S0240 | Although the ceasefire has held, the territory's political status remains unresolved: Transnistria is an unrecognized but de facto independent semi-presidential republic |
+| origin | The Pridnestrovian Moldavian SSR was set up in 1990 during the dissolution of the Soviet Union; a war with Moldova began in March 1992 and ended with a ceasefire in July 1992. | secondary | 2026-10-03 | S0240 | In 1990, during the dissolution of the Soviet Union , the Pridnestrovian Moldavian Soviet Socialist Republic was established in hopes that it would remain within the Soviet Union should Moldova seek unification with Romania or independence, the latter occurring in August 1991. Shortly afterwards, a military conflict between the two parties started in March 1992 and concluded with a ceasefire in July that year. |
+| on_the_ground | There is no official border, but the de facto Transnistrian leadership runs control points between Moldova and Transnistria. | primary | 2026-10-03 | S0308 | There is no official border between Moldova and Transnistria. However, there are border control points established by the de facto Transnistria leadership between Moldova and Transnistria. |
+| inhabited | yes | secondary | 2026-10-03 | S0240 | According to the 2015 census, the population of the region was 475,373, a 14.5% decrease from the figure recorded in the 2004 census. |
+| traveller_access | open | primary | 2026-10-03 | S0308 | When you enter Transnistria, you need to fill in 2 copies of a migration card for the de facto authorities – keep one copy to show them when you leave. |
+| area_km2 | 4163 | secondary | 2026-10-03 | S0240 | Total 4,163 km 2 (1,607 sq mi) |
 
 Sources:
+
+- S0240: https://en.wikipedia.org/w/index.php?title=Transnistria&oldid=1375814450
+- S0308: https://www.gov.uk/foreign-travel-advice/moldova/entry-requirements

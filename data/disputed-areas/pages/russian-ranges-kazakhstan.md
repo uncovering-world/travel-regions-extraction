@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Kazakhstan (sovereign); Russia (leases part of the Sary-Shagan test site under a 1996 agreement) | secondary | 2026-10-03 | S0199 | After the proclamation in 1991 of the independence of Kazakhstan, its sovereignty extends to the test site. In 1996, an agreement was signed between the Government of the Russian Federation and the Government of the Republic of Kazakhstan on the lease of the Sary-Shagan testing ground, |
+| kind | lease_or_base | secondary | 2026-10-03 | S0199 | under which Russia leased part of the test site area. |
+| origin | Kazakhstan's sovereignty extended to the Soviet test site with independence in 1991; in 1996 the two governments signed an agreement on the lease of the Sary-Shagan testing ground. | secondary | 2026-10-03 | S0199 | After the proclamation in 1991 of the independence of Kazakhstan, its sovereignty extends to the test site. In 1996, an agreement was signed between the Government of the Russian Federation and the Government of the Republic of Kazakhstan on the lease of the Sary-Shagan testing ground, |
+| on_the_ground | Russia operates the Sary Shagan anti-ballistic missile testing range and the Kambala air base. | secondary | 2026-10-03 | S0141 | The Sary Shagan anti-ballistic missile testing range and the Kambala air base are also operated by Russia. |
 
 Sources:
+
+- S0141: https://en.wikipedia.org/w/index.php?title=List_of_Russian_military_bases_abroad&oldid=1361564029
+- S0199: https://en.wikipedia.org/w/index.php?title=Sary_Shagan&oldid=1364987719

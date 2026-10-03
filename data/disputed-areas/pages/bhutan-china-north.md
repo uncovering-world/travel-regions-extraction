@@ -4,5 +4,10 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Bhutan; China (disputed areas, named in China's 1996 exchange offer) | secondary | 2026-10-03 | S0036 | In 1996, China offered to exchange Pasamlung and Jakarlung for Sinchulumpa, Dramana and Shakhatoe, a smaller tract of disputed area. |
+| kind | no_agreed_boundary | secondary | 2026-10-03 | S0036 | Bhutan's border with Tibet has never been officially recognised and demarcated. |
+| origin | In 1996 China offered to exchange Pasamlung and Jakarlung for Sinchulumpa, Dramana and Shakhatoe. | secondary | 2026-10-03 | S0036 | In 1996, China offered to exchange Pasamlung and Jakarlung for Sinchulumpa, Dramana and Shakhatoe, a smaller tract of disputed area. |
 
 Sources:
+
+- S0036: https://en.wikipedia.org/w/index.php?title=Bhutan%E2%80%93China_border&oldid=1370428766

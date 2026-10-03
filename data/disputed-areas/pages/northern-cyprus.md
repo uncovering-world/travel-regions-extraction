@@ -4,6 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Northern Cyprus (de facto state with limited recognition); Cyprus (the area is internationally recognised as its territory, occupied by Turkey) | secondary | 2026-10-03 | S0171 | De facto state with limited recognition , internationally recognised as territory of Cyprus occupied by Turkey |
+| kind | de_facto_state | secondary | 2026-10-03 | S0171 | is a de facto state comprising the northern third of the island of Cyprus . |
+| origin | Turkey invaded in 1974 and captured the northern third of the island; the north unilaterally declared independence in 1983. | secondary | 2026-10-03 | S0171 | A coup d'état in 1974 , performed as part of the Greek military junta 's attempt to annex the island, prompted Turkey to invade Cyprus and capture the northern third of the island. This resulted in the eviction of much of the north's Greek Cypriot population and the flight of Turkish Cypriots from the south; the Turkish-occupied north unilaterally declared independence in 1983. |
+| on_the_ground | A UN-controlled buffer zone separates it from the rest of the island and runs through Nicosia. | secondary | 2026-10-03 | S0171 | A buffer zone controlled by the UN forms a barrier between both sides of the island and runs through Nicosia , the island's largest city and the capital of both sides. |
+| inhabited | yes | secondary | 2026-10-03 | S0171 | Population • 2021 estimate 382,836 |
+| traveller_access | open | primary | 2026-10-03 | S0303 | You can use any crossing point to move between the north and south of the island. |
+| area_km2 | 3355 | secondary | 2026-10-03 | S0171 | Northern Cyprus has an area of 3,355 square kilometres (1,295 mi 2 ), which amounts to around a third of the island. |
 | ne_name | N. Cyprus | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Self admin.; Claimed by Cyprus | machine | 2026-10-03 | NE |  |
@@ -13,3 +20,5 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0171: https://en.wikipedia.org/w/index.php?title=Northern_Cyprus&oldid=1373911852
+- S0303: https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements

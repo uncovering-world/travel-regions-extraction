@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Armenia (de facto control, Ararat Province); Azerbaijan (de jure, Sadarak District) | secondary | 2026-10-03 | S0116 | Country ( de jure ) Azerbaijan  • District Sadarak Country ( de facto ) Armenia  • Province Ararat |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0116 | is a village that is de jure an enclave and exclave of Azerbaijan , de facto under the control of Armenia , administered within the Ararat Municipality of the Ararat Province |
+| origin | Armenian forces captured the village on 19 January 1990, during the First Nagorno-Karabakh War. | secondary | 2026-10-03 | S0116 | The village was captured by Armenian forces on 19 January 1990, during the First Nagorno-Karabakh War |
+| on_the_ground | Armenia has controlled Karki since May 1992 and governs it as part of its Ararat Province. | secondary | 2026-10-03 | S0116 | Since May 1992, following the First Nagorno-Karabakh War, Karki has been controlled by Armenia, which governs the 8.23 km 2 (3.18 sq mi) territory as part of its Ararat Province |
+| inhabited | yes | secondary | 2026-10-03 | S0116 | Today the village is mostly inhabited by Armenians, both locals and refugees from Azerbaijan. |
+| area_km2 | 8.23 | secondary | 2026-10-03 | S0116 | Since May 1992, following the First Nagorno-Karabakh War, Karki has been controlled by Armenia, which governs the 8.23 km 2 (3.18 sq mi) territory as part of its Ararat Province |
 
 Sources:
+
+- S0116: https://en.wikipedia.org/w/index.php?title=Karki%2C_Azerbaijan&oldid=1376395384

@@ -4,5 +4,10 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Liberia; Guinea | secondary | 2026-10-03 | S0142 | In March 2026, tensions rose along the Guinea–Liberia border after reports that Guinean soldiers crossed into Liberian territory near Sorlumba in Foya District , Lofa County . |
+| kind | line_position | secondary | 2026-10-03 | S0142 | Local officials stated that Guinean troops halted road construction work near the Makona River , seized equipment being used in the area, and removed a Liberian flag from the disputed location. |
+| origin | In March 2026 Guinean soldiers were reported to have crossed into Liberian territory near Sorlumba in Foya District. | secondary | 2026-10-03 | S0142 | In March 2026, tensions rose along the Guinea–Liberia border after reports that Guinean soldiers crossed into Liberian territory near Sorlumba in Foya District , Lofa County . |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

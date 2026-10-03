@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Israel (occupies the entire village since 2006); Lebanon (the Blue Line puts part of the village in Lebanon); the rest lies in the Israeli-occupied Golan Heights | secondary | 2026-10-03 | S0085 | The Blue Line divides Ghajar between Lebanon and the Golan Heights, although Israel has occupied the entire village since 2006. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0085 | The Blue Line divides Ghajar between Lebanon and the Golan Heights, although Israel has occupied the entire village since 2006. |
+| origin | The Blue Line divides the village; Israel has occupied all of it since 2006. | secondary | 2026-10-03 | S0085 | The Blue Line divides Ghajar between Lebanon and the Golan Heights, although Israel has occupied the entire village since 2006. |
+| on_the_ground | A fence separates the whole village from Lebanon; the checkpoint at the village entrance was removed in September 2022. | secondary | 2026-10-03 | S0085 | The checkpoint at the entrance to the village was removed in September 2022 after the Town Council constructed a border fence separating the entire village from Lebanon. |
+| inhabited | yes | secondary | 2026-10-03 | S0085 | The name of the village means "gypsy" in Arabic, and as of 2024, it had a population of 2,738. |
+| traveller_access | open | secondary | 2026-10-03 | S0085 | In September 2022, the IDF lifted restrictions and Ghajar was opened to visitors from outside the village. |
+| area_km2 | 2.46 | secondary | 2026-10-03 | S0085 | Total 246 ha (610 acres) |
 
 Sources:
+
+- S0085: https://en.wikipedia.org/w/index.php?title=Ghajar&oldid=1375893992

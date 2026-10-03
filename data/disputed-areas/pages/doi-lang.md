@@ -4,5 +4,8 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| on_the_ground | Lies within Thailand's Doi Pha Hom Pok National Park along the border with Myanmar; known as a birdwatching site. | secondary | 2026-10-03 | S0071 | The area of Doi Lang, located within the park along the border with Myanmar, is considered one of Thailand's premier birding sites. |
 
 Sources:
+
+- S0071: https://en.wikipedia.org/w/index.php?title=Doi_Pha_Hom_Pok_National_Park&oldid=1369062370

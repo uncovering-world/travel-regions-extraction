@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Venezuela (claims the island generates an exclusive economic zone); Caribbean states and the United Kingdom (dispute that) | secondary | 2026-10-03 | S0142 | Caribbean states and the United Kingdom disagree with Venezuela's claim that Aves Island, a large sandbar with some vegetation, sustains human habitation or economic life, the criteria under the UN Convention on the Law of the Sea, which would permit Venezuela to extend its EEZ over a large portion of the eastern Caribbean Sea. |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0103 | Depending on one's interpretation of the United Nations Convention on the Law of the Sea , it could be legally classified as a " rock ", which would only give Venezuela a twelve nautical mile economic zone. However, Venezuela claims it is a normal island , which grants it a 200 nmi (370 km) exclusive economic zone . |
+| origin | In 1865 Isabella II of Spain, as agreed arbiter between the Netherlands and Venezuela, ruled in favour of Venezuela. | secondary | 2026-10-03 | S0142 | The Queen of Spain was accepted by both parties, and in 1865 Isabella II ruled on the issue, deciding in favor of the Venezuelans. |
+| on_the_ground | Venezuelan scientific naval base 'Simón Bolívar', set up in 1978 on a platform on stilts. | secondary | 2026-10-03 | S0103 | On June 2, 1978, ships of the Venezuelan Navy were sent to set up a scientific naval base named Simón Bolívar on the lee (west) side near the southern tip of the island, constructed as a platform built on stilts partially in the water, which was permanently inhabited by a group of scientists and military personnel. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0103 | On June 2, 1978, ships of the Venezuelan Navy were sent to set up a scientific naval base named Simón Bolívar on the lee (west) side near the southern tip of the island, constructed as a platform built on stilts partially in the water, which was permanently inhabited by a group of scientists and military personnel. |
+| area_km2 | 0.0336 | secondary | 2026-10-03 | S0103 | Its area is estimated at 3.36 ha 8.3 acres although some sources mention figures ranging from 0.65 ha to 4.5 ha (1.6 acres to 11.12 acres), varying according to erosion. |
 
 Sources:
+
+- S0103: https://en.wikipedia.org/w/index.php?title=Isla_de_Aves&oldid=1364037728
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

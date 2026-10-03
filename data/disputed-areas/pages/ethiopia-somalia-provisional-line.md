@@ -4,5 +4,10 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Ethiopia; Somalia | secondary | 2026-10-03 | S0078 | The Ethiopia – Somalia border stretches 1,500 kilometers. |
+| kind | no_agreed_boundary | secondary | 2026-10-03 | S0078 | During World War II , Britain gained control of the Ogaden and Haud territories and returned them to Ethiopia in 1954, but not delimited beyond the provisional line (sometimes labeled on maps as the Provisional Administrative Line ). |
+| origin | Britain returned the Ogaden and Haud to Ethiopia in 1954 without delimiting the border beyond a provisional line. | secondary | 2026-10-03 | S0078 | During World War II , Britain gained control of the Ogaden and Haud territories and returned them to Ethiopia in 1954, but not delimited beyond the provisional line (sometimes labeled on maps as the Provisional Administrative Line ). |
 
 Sources:
+
+- S0078: https://en.wikipedia.org/w/index.php?title=Ethiopia%E2%80%93Somalia_border&oldid=1367346036

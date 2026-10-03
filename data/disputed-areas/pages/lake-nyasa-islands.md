@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Malawi; Tanzania (claims that the border runs through the middle of the lake) | secondary | 2026-10-03 | S0132 | The partition of the lake's surface area between Malawi and Tanzania is under dispute. Tanzania claims that the international border runs through the middle of the lake. |
+| kind | line_position | secondary | 2026-10-03 | S0133 | The Lake Malawi (Lake Nyasa) territorial dispute is a long-running diplomatic and legal disagreement between the Republic of Malawi and the United Republic of Tanzania over the location of the international boundary in the lake and ownership/sovereign rights to its waters and resources. |
+| origin | Under the 1890 Anglo-German arrangements and related colonial maps the boundary was commonly shown along the Tanzanian shoreline, placing the lake within what became Malawi. | secondary | 2026-10-03 | S0133 | Under the 1890 Anglo-German (Heligoland–Zanzibar) arrangements and related colonial maps, the boundary between what became Nyasaland ( Malawi ) and German East Africa (later Tanganyika / Tanzania ) was commonly represented along the Tanzanian (then German/British) shoreline, effectively placing the lake within the protectorate that became Malawi. |
+| on_the_ground | Malawi currently administers the disputed waters. | secondary | 2026-10-03 | S0132 | Malawi currently administers these waters. Both sides cite the Heligoland Treaty of 1890 between the United Kingdom and Germany concerning the border. |
 
 Sources:
+
+- S0132: https://en.wikipedia.org/w/index.php?title=Lake_Malawi&oldid=1374621786
+- S0133: https://en.wikipedia.org/w/index.php?title=Lake_Malawi_%28Lake_Nyasa%29_territorial_dispute&oldid=1361782623

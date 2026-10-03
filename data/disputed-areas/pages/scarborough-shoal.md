@@ -4,6 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | People's Republic of China (de facto control since 2012); Philippines (claims); Republic of China/Taiwan (claims) | secondary | 2026-10-03 | S0202 | The atoll is a disputed territory claimed by the People's Republic of China , the Republic of China (Taiwan), and the Republic of the Philippines . Since the 2012 standoff, the feature has been under de facto Chinese control, with a continuous China Coast Guard presence regulating access at the lagoon entrance; no permanent structures have been built on the feature. |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0202 | The shoal lies within 370 kilometres (200 nmi) of Luzon and is described by the Philippines as within its EEZ, a characterization rejected by China, which asserts sovereignty over the feature and adjacent waters. |
+| origin | The 2012 standoff between China and the Philippines left China restricting access to the atoll. | secondary | 2026-10-03 | S0202 | The 2012 Scarborough Shoal standoff between China and the Philippines led to a situation where access to the atoll was restricted by the People's Republic of China. |
+| on_the_ground | Since 2023 there have been floating barriers and repeated water-cannon confrontations; in September 2025 China announced the Huangyan Island National Nature Reserve. | secondary | 2026-10-03 | S0202 | Since 2023 the shoal has seen floating-barrier episodes and repeated water-cannon confrontations; in September 2025 China announced the Huangyan Island National Nature Reserve , prompting Philippine protests. |
+| inhabited | no | secondary | 2026-10-03 | S0202 | Since the 2012 standoff, the feature has been under de facto Chinese control, with a continuous China Coast Guard presence regulating access at the lagoon entrance; no permanent structures have been built on the feature. |
+| traveller_access | restricted | secondary | 2026-10-03 | S0202 | The 2012 Scarborough Shoal standoff between China and the Philippines led to a situation where access to the atoll was restricted by the People's Republic of China. |
 | ne_name | Scarborough Reef | machine | 2026-10-03 | NE |  |
 | ne_type | Indeterminate | machine | 2026-10-03 | NE |  |
 | ne_area_km2 | 0 | machine | 2026-10-03 | NE |  |
@@ -14,4 +20,5 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0202: https://en.wikipedia.org/w/index.php?title=Scarborough_Shoal&oldid=1376547245
 - WD: https://www.wikidata.org/

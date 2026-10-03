@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Russia (holds the former island); South Korea (refused to acknowledge the 1990 Soviet-North Korean border treaty and demanded the territory's return) | secondary | 2026-10-03 | S0166 | In 1990, Soviet Union and North Korea signed a border treaty which made the border run through the center of the river leaving the territory of the former island on the Russian side. South Korea refused to acknowledge the treaty and demanded that Russia return the territory to Korea. |
+| kind | paper_claim | secondary | 2026-10-03 | S0142 | In 1990, the former Soviet Union and the Democratic People's Republic of Korea (North Korea) signed a border treaty which made the border run through the center of the Tumen river, leaving Noktundo as a former island in Russia. South Korea refused to acknowledge the treaty. |
+| origin | Under Korean control until 1860, when Russia made the Qing dynasty cede Outer Manchuria together with Noktundo in the Convention of Peking. | secondary | 2026-10-03 | S0166 | The island was under Korean control until 1860 when Russia forced the Qing dynasty to cede Outer Manchuria along with Noktundo in the Convention of Peking without any Korean participation. |
+| on_the_ground | The former island has joined the north shore of the river. | secondary | 2026-10-03 | S0166 | Due to changes in the canal and sand sediment, the island was eventually adjoined to the north shore, which was part of the Qing dynasty . |
+| area_km2 | 32 | secondary | 2026-10-03 | S0166 | The area of the island was 32 square kilometres (12 sq mi). |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0166: https://en.wikipedia.org/w/index.php?title=Noktundo&oldid=1335070465

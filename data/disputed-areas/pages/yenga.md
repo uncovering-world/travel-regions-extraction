@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Sierra Leone (administered Yenga before its civil war); Guinea (its soldiers remained in Yenga after the war) | secondary | 2026-10-03 | S0253 | After the rebels were quashed, the Guinean soldiers remained in Yenga. Prior to the civil war Yenga was administered by the Kailahun District of Sierra Leone. |
+| kind | line_position | secondary | 2026-10-03 | S0266 | Sierra Leone considers Guinea's definition of the flood plain limits to define the left bank boundary of the Makona and Moa Rivers excessive and protests Guinea's continued occupation of these lands, including the hamlet of Yenga, occupied since 1998 |
+| origin | Guinean forces came to Yenga in the mid-1990s to help Sierra Leone's army against rebels and stayed, even after a 2005 agreement acknowledging that Yenga belongs to Sierra Leone. | secondary | 2026-10-03 | S0270 | Guinea's forces came to Yenga in the mid-1990s to help the Sierra Leonean military to suppress rebels and to secure their common border but remained there even after both countries signed a 2005 agreement acknowledging that Yenga belonged to Sierra Leone |
+| on_the_ground | In early 2021 Sierra Leone's president told ECOWAS that the issue remained unresolved and that Guinea continued to encroach on Sierra Leone's borders. | secondary | 2026-10-03 | S0253 | However, in early 2021, President Julius Maada Bio reported to the 58th Ecowas summit that "The issue remains unresolved and our Guinean counterparts have continued to encroach on Sierra Leone's land and sea borders". |
+| inhabited | yes | secondary | 2026-10-03 | S0253 | The large majority of the inhabitants of Yenga are members of the Kissi ethnic group. |
 
 Sources:
+
+- S0253: https://en.wikipedia.org/w/index.php?title=Yenga&oldid=1329880742
+- S0266: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/gv.json
+- S0270: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/sl.json

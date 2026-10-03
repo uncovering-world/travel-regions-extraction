@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | France (controls, as part of the French Southern and Antarctic Lands); Comoros (claims); Madagascar (claims) | secondary | 2026-10-03 | S0088 | They are controlled by France as part of the Scattered Islands in the Indian Ocean in the French Southern and Antarctic Lands , a French overseas territory , but are also claimed by Comoros , Madagascar and formerly by Seychelles . |
+| kind | paper_claim | secondary | 2026-10-03 | S0088 | They are controlled by France as part of the Scattered Islands in the Indian Ocean in the French Southern and Antarctic Lands , a French overseas territory , but are also claimed by Comoros , Madagascar and formerly by Seychelles . |
+| origin | Became a French possession in 1892, when a formal claim was made. | secondary | 2026-10-03 | S0088 | The archipelago became a French possession in 1892 when Captain Richard of the Primauget made a formal claim. |
+| on_the_ground | Nature reserves with a meteorological station garrisoned by the French Foreign Legion. | secondary | 2026-10-03 | S0088 | The islands are today nature reserves with a meteorological station garrisoned by the French Foreign Legion . |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0088 | The islands are today nature reserves with a meteorological station garrisoned by the French Foreign Legion . |
+| area_km2 | 5 | secondary | 2026-10-03 | S0088 | are a group of islands and rocks totaling 5 square kilometres (1.9 sq mi). |
 
 Sources:
+
+- S0088: https://en.wikipedia.org/w/index.php?title=Glorioso_Islands&oldid=1364029243

@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Democratic Republic of the Congo; Uganda (ownership of Rukwanzi Island disputed between them) | secondary | 2026-10-03 | S0189 | Rukwanzi is the subject of an ownership dispute between the Democratic Republic of the Congo and Uganda , which are situated on opposite sides of the lake. |
+| kind | own_regime | secondary | 2026-10-03 | S0327 | UGANDA and the DR Congo have demilitarised the contested Rukwanzi Island in southern Lake Albert. |
+| origin | Came to a head in 2007: Congo detained four Ugandan soldiers in late July and the two armies skirmished near the island on 3 August 2007. | secondary | 2026-10-03 | S0189 | In late July 2007, Congo apprehended four Ugandan soldiers it said had crossed the dividing line in the lake, and on August 3, 2007, the countries' militaries engaged in a skirmish near the island, with one Briton and one Congolese killed. |
+| on_the_ground | As reported on 17 December 2007: demilitarised and co-administered, with a Congolese administrator and 10 police officers and a Ugandan co-administrator and 30 police officers on the island. | secondary | 2026-10-03 | S0327 | The Congolese foreign affairs minister, Mbusa Nyamwisi, reported that they had an administrator and 10 Police officers on the island, while Sam Kutesa, the Ugandan foreign minister, announced that it had placed a co-administrator and 30 Police officers, as agreed in the agreement. |
+| inhabited | yes | secondary | 2026-10-03 | S0189 | It is home to approximately 1000 fishermen. |
 
 Sources:
+
+- S0189: https://en.wikipedia.org/w/index.php?title=Rukwanzi_Island&oldid=1328348387
+- S0327: https://www.newvision.co.ug/news/1213216/uganda-drc-reach-truce-rukwanzi

@@ -4,5 +4,9 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Argentina (claims); Chile (claims); United Kingdom (claims) | secondary | 2026-10-03 | S0232 | There are overlaps among the territories claimed by Argentina, Chile, and the United Kingdom. |
+| kind | own_regime | secondary | 2026-10-03 | S0232 | The treaty entered into force in 1961 and sets aside Antarctica as a scientific preserve, established freedom of scientific investigation, and banned military activity on that continent . |
 
 Sources:
+
+- S0232: https://en.wikipedia.org/w/index.php?title=Territorial_claims_in_Antarctica&oldid=1376298570

@@ -4,6 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Somaliland (de facto independent; recognised by Israel since 26 December 2025); Somalia (claims it as an integral part of its territory) | secondary | 2026-10-03 | S0142 | Somalia claims Somaliland as an integral part of its territory, considering it to be one of its federal member states, despite Somaliland being de facto independent. On 26 December 2025, Israel became the first country to recognise Somaliland. |
+| kind | de_facto_state | secondary | 2026-10-03 | S0212 | Since 1991, the territory has been governed by democratically elected governments that seek international recognition as the government of the Republic of Somaliland. |
+| origin | The local administration declared the north-western Somali territories independent at a conference in Burao between 27 April and 15 May 1991. | secondary | 2026-10-03 | S0212 | Under the leadership of Abdirahman Ahmed Ali Tuur , the local administration declared the northwestern Somali territories independent at a conference held in Burao between 27 April 1991 and 15 May 1991. |
+| on_the_ground | After the Las Anod conflict that began in 2022, Somaliland lost control of a significant part of its eastern territory to the SSC-Khatumo administration. | secondary | 2026-10-03 | S0212 | Following the Las Anod conflict that emerged in 2022, Somaliland lost control of a significant portion of its eastern territory to pro-unionist forces who established the SSC-Khatumo administration. |
+| inhabited | yes | secondary | 2026-10-03 | S0212 | The Somaliland government estimates that there are 6,200,000 residents as of 2024, |
+| traveller_access | open | primary | 2026-10-03 | S0312 | You will need to purchase a single-entry visa upon arrival at Hargeisa International Airport, which will be valid for one month. |
+| area_km2 | 176120 | secondary | 2026-10-03 | S0212 | In terms of landmass, Somaliland has an area of 176,120 km 2 (68,000 sq mi). |
 | ne_name | Somaliland | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Self admin.; Claimed by Somalia | machine | 2026-10-03 | NE |  |
@@ -13,3 +20,6 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0212: https://en.wikipedia.org/w/index.php?title=Somaliland&oldid=1378120011
+- S0312: https://www.gov.uk/foreign-travel-advice/somalia/entry-requirements

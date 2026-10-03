@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Saudi Arabia; United Arab Emirates (both signed the 1974 Treaty of Jeddah; the UAE says the dispute is not settled because the treaty text differs from the oral agreement) | secondary | 2026-10-03 | S0200 | The governments of Saudi Arabia and the United Arab Emirates signed the Treaty of Jeddah in Jeddah , Saudi Arabia, on 21 August 1974 between Faisal of Saudi Arabia and Sheikh Zayed bin Sultan Al Nahyan apparently ending a long-running boundary dispute, but according to the UAE the dispute has not been settled due to discrepancies between the oral agreement before the treaty's signing and the final text of the treaty itself. |
+| kind | paper_claim | secondary | 2026-10-03 | S0200 | The UAE continued to use the older version of the map which did not conform to the Treaty of Jeddah, showing Khor al-Udaid and the Zararah oilfield as UAE territory as late as 2009. |
+| origin | On 21 August 1974 Sheikh Zayed and King Faisal agreed on the demarcation of the frontier between Abu Dhabi and Saudi Arabia (Treaty of Jeddah). | secondary | 2026-10-03 | S0200 | On 21 August 1974 an agreement was settled between Sheikh Zayed and King Faisal on the demarcation of the frontiers between Emirate of Abu Dhabi and Saudi Arabia. |
+| on_the_ground | Saudi Arabia controls the disputed Shaybah oilfield. | secondary | 2026-10-03 | S0286 | Saudi Arabia and UAE have disputed the Shaybah oilfield, which Saudi Arabia controls |
 
 Sources:
+
+- S0200: https://en.wikipedia.org/w/index.php?title=Saudi_Arabia%E2%80%93United_Arab_Emirates_border&oldid=1354814812
+- S0286: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/middle-east/sa.json

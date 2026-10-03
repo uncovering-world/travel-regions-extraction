@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Croatia (holds the peninsula under the 2002 temporary agreement); Montenegro (dormant dispute, revived by a Montenegrin official in October 2020) | secondary | 2026-10-03 | S0282 | the two countries in 2002 reached a temporary agreement designating the Prevlaka Peninsula as part of Croatia, in October 2020, a Montenegrin official resurrected the dormant dispute over the Prevlaka Peninsula by stating that Montenegro had a good chance of winning it through international arbitration |
+| kind | own_regime | secondary | 2026-10-03 | S0186 | An agreement was signed by both sides five days before the departure of the UNMOP that demilitarized Prevlaka, though implementation still has a temporary character. |
+| origin | After the breakup of Yugoslavia the two sides agreed to demilitarise the peninsula; UN Security Council Resolution 779 of 6 October 1992 gave UN forces the task of implementing that agreement. | secondary | 2026-10-03 | S0186 | The two sides agreed on the demilitarization of the peninsula and the United Nations Security Council Resolution 779 of October 6, 1992 extended the mandate of UNPROFOR to the implementation of this agreement, together with the European Community Monitoring Mission . |
+| on_the_ground | Under the 2002 temporary solution Croatia holds the whole land mass of the peninsula and about 500 m of the sea belt at the entrance to Boka Kotorska; the bay on the Herceg Novi side is 'no man's waters'. | secondary | 2026-10-03 | S0186 | In 2002, the two states agreed on a temporary solution stipulating that Croatia would receive the entire land mass of the Prevlaka peninsula including some 500 metres (1,600 ft) of the sea belt entrance into Boka Kotorska while the sea bay on the side of Prevlaka facing Herceg Novi was declared no man's waters. |
+| inhabited | no | secondary | 2026-10-03 | S0186 | The narrow, uninhabited peninsula is 2.6 kilometres (1.6 mi) long and only 150–500 metres (500–1,600 ft) wide, covering an area of 93.33 hectares (230.6 acres) (just under 1 square kilometre or 0.4 square miles). |
+| area_km2 | 0.9333 | secondary | 2026-10-03 | S0186 | The narrow, uninhabited peninsula is 2.6 kilometres (1.6 mi) long and only 150–500 metres (500–1,600 ft) wide, covering an area of 93.33 hectares (230.6 acres) (just under 1 square kilometre or 0.4 square miles). |
 
 Sources:
+
+- S0186: https://en.wikipedia.org/w/index.php?title=Prevlaka&oldid=1323871816
+- S0282: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/europe/mj.json

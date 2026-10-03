@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | DR Congo (claims the peak); Uganda (rejects the claim and considers the peak a boundary divide) | secondary | 2026-10-03 | S0272 | Uganda-Democratic Republic of Congo(DROC):  Uganda rejects the DROC claim to Margherita Peak in the Rwenzori mountains and considers it a boundary divide |
+| kind | line_position | secondary | 2026-10-03 | S0142 | Uganda rejects the DROC claim to Margherita Peak in the Rwenzori mountains and considers it a boundary divide. |
+| on_the_ground | The Rwenzori range is covered jointly by Rwenzori Mountains National Park on the Ugandan side and Virunga National Park on the Congolese side. | secondary | 2026-10-03 | S0192 | Most of the range is now a World Heritage Site and is covered jointly by Rwenzori Mountains National Park in southwestern Uganda and the Virunga National Park in the eastern Congo. |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0192: https://en.wikipedia.org/w/index.php?title=Rwenzori_Mountains&oldid=1373860309
+- S0272: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/ug.json

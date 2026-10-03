@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Azerbaijan (controls); Armenia (de jure) | secondary | 2026-10-03 | S0020 | It is a 40 square kilometres (15 sq mi) exclave of Armenia , and is surrounded by the territory of Azerbaijan , whose forces have captured and occupied it since the First Nagorno-Karabakh War in 1992. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0020 | It is a 40 square kilometres (15 sq mi) exclave of Armenia , and is surrounded by the territory of Azerbaijan , whose forces have captured and occupied it since the First Nagorno-Karabakh War in 1992. |
+| origin | Azerbaijani forces took the village on 4 August 1992, during the First Nagorno-Karabakh War, and expelled its Armenian inhabitants. | secondary | 2026-10-03 | S0020 | However, on August 4, 1992, Azerbaijani forces completely devastated the village and stripped it of its Armenian inhabitants, effectively occupying the village. |
+| on_the_ground | Held by Azerbaijan as part of its Gadabay District; the Armenian population was expelled. | secondary | 2026-10-03 | S0020 | Today, the village is largely abandoned as the Azerbaijani army expelled its Armenian population after it captured the territory, and is now occupied by Azerbaijan as part of its Gadabay District . |
+| inhabited | yes | secondary | 2026-10-03 | S0020 | Although Artsvashen still has empty houses belonging to Armenians, the village has now been settled by Azerbaijanis and the local Armenian church has been converted to a mosque . |
+| area_km2 | 40 | secondary | 2026-10-03 | S0020 | It is a 40 square kilometres (15 sq mi) exclave of Armenia |
 
 Sources:
+
+- S0020: https://en.wikipedia.org/w/index.php?title=Artsvashen&oldid=1377070396

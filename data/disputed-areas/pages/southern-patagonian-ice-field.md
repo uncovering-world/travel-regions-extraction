@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Argentina; Chile | secondary | 2026-10-03 | S0220 | The Southern Patagonian ice field dispute is a border dispute between Argentina and Chile over the delineation of the boundary line between the two countries on the Southern Patagonian Ice Field |
+| kind | no_agreed_boundary | secondary | 2026-10-03 | S0219 | Section A of the agreement (between Cerro Murallón and Daudet) and a small part of B (from Fitz Roy to a point defined to the west) was drawn; however, they also agreed that section B (from Fitz Roy to Murallón) would wait until completion of a detailed 1:50,000 scale map of the area with further negotiations. |
+| origin | The 1998 agreement signed by both countries left the border in this sector pending definition. | secondary | 2026-10-03 | S0220 | the Argentine–Chilean border in this sector is still pending definition according to the 1998 agreement signed by both countries. |
+| on_the_ground | A rectangular sector from a few kilometres north of Fitz Roy to Mount Murallón contains an area without boundary demarcation. | secondary | 2026-10-03 | S0220 | This sector corresponds to a rectangular territory that goes from a few kilometers north of the summit of Fitz Roy to Mount Murallón, in which there is an area without boundary demarcation. |
 
 Sources:
+
+- S0219: https://en.wikipedia.org/w/index.php?title=Southern_Patagonian_Ice_Field&oldid=1368890663
+- S0220: https://en.wikipedia.org/w/index.php?title=Southern_Patagonian_Ice_Field_dispute&oldid=1372159547

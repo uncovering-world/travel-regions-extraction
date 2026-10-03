@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Kyrgyzstan; Tajikistan | secondary | 2026-10-03 | S0129 | On 21 February 2025, the head of the Kyrgyzstan SCNS Kamchybek Tashiev and the head of Tajikistan SCNS Saimumin Yatimov signed an agreement on the delimitation of the state borders , resolving a decades-old dispute. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0242 | A significant breakthrough occurred in March 2025 when the president of Tajikistan, Emomali Rahmon , and president of Kyrgyzstan, Sadyr Japarov , met in Kyrgyzstan. On March 13, 2025, they signed a historic agreement on the delimitation of their shared state border. |
+| origin | Settled by the border agreement of March 2025, reached after years of negotiations with compromises on territorial boundaries, water resources and infrastructure projects. | secondary | 2026-10-03 | S0129 | In March 2025, the Kyrgyzstan-Tajikistan border agreement was declared a success after years of negotiations, with both sides reaching compromises on territorial boundaries, water resources, and infrastructure projects. |
+| on_the_ground | As part of the settlement the Tort-Kocho road, with a 15 m security zone, was declared a neutral zone or condominium. | secondary | 2026-10-03 | S0128 | As part of the settlement, the Tort-Kocho road, along with a 15 m (49 ft) "security zone" were declared a neutral zone or a condominium |
+| inhabited | yes | secondary | 2026-10-03 | S0128 | This conflict then escalated into a three-day battle in April–May 2021 , which killed 55 people and forced over 33,000–58,000 Kyrgyz civilians to evacuate from the Batken Region |
 
 Sources:
+
+- S0128: https://en.wikipedia.org/w/index.php?title=Kyrgyzstan%E2%80%93Tajikistan_border&oldid=1362471070
+- S0129: https://en.wikipedia.org/w/index.php?title=Kyrgyzstan%E2%80%93Tajikistan_relations&oldid=1360675197
+- S0242: https://en.wikipedia.org/w/index.php?title=Treaty_of_Khujand&oldid=1364135126

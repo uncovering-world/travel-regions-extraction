@@ -4,6 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | none (Egypt and Sudan each assert a boundary that leaves Bir Tawil to the other) | secondary | 2026-10-03 | S0037 | Egypt asserts the political boundary, and Sudan asserts the administrative boundary, with the result that the Halaib Triangle is claimed by both and Bir Tawil by neither. |
+| kind | unclaimed | secondary | 2026-10-03 | S0037 | area of land along the border between Egypt and Sudan which is claimed by neither country. |
+| origin | Arises from the discrepancy between the 1899 political boundary and the 1902 administrative boundary between Egypt and Sudan. | secondary | 2026-10-03 | S0037 | Its unclaimed status results from a discrepancy between the straight political boundary between Egypt and Sudan established in 1899 and the irregular administrative boundary established in 1902. |
+| inhabited | no | secondary | 2026-10-03 | S0037 | As a result, both states claim Hala'ib and neither claims the much less valuable Bir Tawil area, which is only a tenth the size, and has no permanent settlements or access to the sea. |
+| area_km2 | 2060 | secondary | 2026-10-03 | S0037 | Bir Tawil is 2,060 km 2 (795.4 sq mi) in size. |
 | ne_name | Bir Tawil | machine | 2026-10-03 | NE |  |
 | ne_type | Indeterminate | machine | 2026-10-03 | NE |  |
 | ne_note | Between Egypt and Sudan | machine | 2026-10-03 | NE |  |
@@ -16,4 +21,5 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0037: https://en.wikipedia.org/w/index.php?title=Bir_Tawil&oldid=1377306827
 - WD: https://www.wikidata.org/

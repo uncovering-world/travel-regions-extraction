@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | France (claims both summits entirely); Italy (claims the border follows the watershed, splitting both summits) | secondary | 2026-10-03 | S0161 | Italian officials claim the border follows the watershed, splitting both summits between Italy and France. In contrast, French officials claim the border avoids the two summits, placing them entirely with France. |
+| kind | line_position | secondary | 2026-10-03 | S0161 | However, its precise location near the summits of Mont Blanc and nearby Dôme du Goûter is disputed. |
+| origin | Italy says France moved the border in 1865, when a French army cartographer's survey put the summit in French territory, away from the watershed line. | secondary | 2026-10-03 | S0161 | Italy claims that the border was moved by France in 1865, when surveys carried out by a cartographer of the French army, Captain J. J. Mieulet, incorporated the summit into French territory, making the state border deviate from the watershed line, and giving rise to the differences with the maps published in Italy in the same period. |
+| on_the_ground | At the Col du Géant the dispute was revived in 2015, when the municipality of Chamonix banned access to the Géant glacier from the Torino refuge. | secondary | 2026-10-03 | S0056 | This dispute was revived in 2015, following a ban on access to the Giant glacier from the Torino refuge, by the municipality of Chamonix. |
+| area_km2 | 0.75 | secondary | 2026-10-03 | S0161 | The size of these two (distinct) disputed areas is approximately 65 hectares (160 acres) on Mont Blanc and ten hectares (25 acres) on Dôme du Goûter. |
 
 Sources:
+
+- S0056: https://en.wikipedia.org/w/index.php?title=Col_du_G%C3%A9ant&oldid=1362443713
+- S0161: https://en.wikipedia.org/w/index.php?title=Mont_Blanc&oldid=1377958826

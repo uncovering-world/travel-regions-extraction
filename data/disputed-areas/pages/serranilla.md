@@ -4,6 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Colombia (holds the bank); Jamaica and United States (the other parties to the sovereignty dispute); Honduras (previous claim resolved in Colombia's favour by a maritime boundary treaty) | secondary | 2026-10-03 | S0206 | The reef is subject to a sovereignty dispute involving Colombia , Jamaica , and the United States . A previous claim by Honduras was resolved in favor of Colombia when the two countries approved a treaty establishing their maritime boundaries. |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0206 | In November 1993, the two states agreed upon a maritime delimitation treaty establishing a " Joint Regime Area " to cooperatively manage and exploit living and non-living resources in designated waters between the two banks. |
+| origin | On 19 November 2012 the ICJ upheld Colombia's sovereignty over the bank against Nicaragua's claim; the judgment does not address the US claim. | secondary | 2026-10-03 | S0206 | On 19 November 2012, in regards to Nicaraguan claims to the islands, the International Court of Justice (ICJ) upheld Colombia's sovereignty over the bank. However, the judgment does not analyze or mention the U.S. claim over the reef. |
+| on_the_ground | Beacon Cay, the largest islet, carries small military facilities with a rotating garrison of Colombian naval personnel. | secondary | 2026-10-03 | S0206 | Beacon Cay is the largest islet in the Bank. It is overbuilt with small military facilities, which house a small rotating garrison of Colombian naval personnel. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0206 | Beacon Cay is the largest islet in the Bank. It is overbuilt with small military facilities, which house a small rotating garrison of Colombian naval personnel. |
 | ne_name | Serranilla Bank | machine | 2026-10-03 | NE |  |
 | ne_type | Indeterminate | machine | 2026-10-03 | NE |  |
 | ne_note | Claimed by Colombia, Honduras, Nicaragua, and the United States | machine | 2026-10-03 | NE |  |
@@ -13,3 +18,4 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0206: https://en.wikipedia.org/w/index.php?title=Serranilla_Bank&oldid=1376907119

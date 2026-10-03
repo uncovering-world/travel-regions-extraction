@@ -4,5 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Spain (governs 1 February - 31 July); France (governs 1 August - 31 January) - alternating periods of six months | secondary | 2026-10-03 | S0182 | for alternating periods of six months, it is officially under the governance of the naval commander of Hondarribia , Spain (1 February – 31 July) and of a French viceroy (1 August – 31 January). |
+| kind | own_regime | secondary | 2026-10-03 | S0182 | According to the terms of the Treaty of the Pyrenees , the island would remain a condominium . |
+| origin | The Treaty of the Pyrenees was signed on the island, the climax of 24 conferences between Luis Méndez de Haro (Spain) and Cardinal Mazarin (France) in 1659. | secondary | 2026-10-03 | S0182 | The most important historical event to have taken place on the island was the signing of the Treaty of the Pyrenees . This was the climax to a series of 24 conferences held between Luis Méndez de Haro , a grandee of Spain , and Cardinal Mazarin , Chief Minister of France , in 1659 following the end of the Thirty Years' War . |
+| on_the_ground | In practice administered in turn by the mayors of Irun (Spain) and Hendaye (France). | secondary | 2026-10-03 | S0182 | In practice, it is administered in turn by the mayors of Irun (in Gipuzkoa , Spain) and Hendaye (in the Pyrénées-Atlantiques , France). |
+| inhabited | no | secondary | 2026-10-03 | S0182 | It is uninhabited, and access is forbidden, |
+| traveller_access | closed | secondary | 2026-10-03 | S0257 | Son accès est interdit au public. |
+| area_km2 | 0.00682 | secondary | 2026-10-03 | S0257 | L'île des Faisans mesure environ 210 m de long sur 40 m dans sa plus grande largeur pour une superficie de 6 820 m 2 . |
 
 Sources:
+
+- S0182: https://en.wikipedia.org/w/index.php?title=Pheasant_Island&oldid=1376915911
+- S0257: https://fr.wikipedia.org/w/index.php?title=%C3%8Ele_des_Faisans&oldid=239825963

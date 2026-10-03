@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Turkey (annexed 1939); Syria (claimed until 2024) | secondary | 2026-10-03 | S0142 | Annexed by Turkey in 1939, claimed by Syria until the fall of the Ba'athist regime in 2024, as implied by the current logos of the Syrian Ministry of Information and the General Security Service . |
+| kind | resolved_recently | secondary | 2026-10-03 | S0142 | Annexed by Turkey in 1939, claimed by Syria until the fall of the Ba'athist regime in 2024, as implied by the current logos of the Syrian Ministry of Information and the General Security Service . |
+| origin | Annexed by Turkey in 1939; the Syrian claim is listed as ended with the fall of the Ba'athist government in 2024, as implied by new Syrian official logos. | secondary | 2026-10-03 | S0142 | Annexed by Turkey in 1939, claimed by Syria until the fall of the Ba'athist regime in 2024, as implied by the current logos of the Syrian Ministry of Information and the General Security Service . |
+| on_the_ground | A province and metropolitan municipality of Turkey. | secondary | 2026-10-03 | S0095 | is the southernmost province and metropolitan municipality of Turkey . |
+| inhabited | yes | secondary | 2026-10-03 | S0095 | Its area is 5,524 km 2 (2,133 sq mi), and its population is 1,686,043 (2022). |
+| area_km2 | 5524 | secondary | 2026-10-03 | S0095 | Its area is 5,524 km 2 (2,133 sq mi), and its population is 1,686,043 (2022). |
 
 Sources:
+
+- S0095: https://en.wikipedia.org/w/index.php?title=Hatay_Province&oldid=1377904979
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

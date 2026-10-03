@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Egypt (claims under the original 1899 border along the 22nd parallel); Sudan (claims under the amended border of 1902) | secondary | 2026-10-03 | S0249 | Egypt claims the more favorable original border of 1899 along the 22nd degree north of latitude and therefore claims both the Halaib Triangle and the Wadi Halfa Salient, but not the Bir Tawil area. Since Sudan claims the amended border of 1902, it also claims the Halaib Triangle and the Wadi Halfa Salient, while no country claims the Bir Tawil area, making it de facto a terra nullius . |
+| kind | paper_claim | secondary | 2026-10-03 | S0249 | The area is controlled by Egypt. The area (along with the Halaib Triangle and Bir Tawil ) is created by two different definitions of the Egypt–Sudan border : the "political boundary" set in 1899, and the "administrative boundary" set in 1902. |
+| origin | In 1902 a new administrative border was established, deviating north of the 22nd parallel along the Nile and placing this area under Sudanese administration. | secondary | 2026-10-03 | S0249 | Therefore, in 1902 a new administrative border was established, deviating north of the 22nd degree north latitude along the Nile River, thereby placing this area under Sudanese administration. |
+| on_the_ground | Administered by Egypt; only about 30 to 40 km2 of land remains in the salient, mostly on the eastern bank, desolate and rocky. | secondary | 2026-10-03 | S0249 | A land area of only about 30 to 40 km 2 (12 to 15 sq mi) remains in the salient, most of it on the eastern banks, a desolate rocky area nearly devoid of vegetation. It is administered by Egypt. |
+| inhabited | no | secondary | 2026-10-03 | S0249 | the small area of the Wadi Halfa Salient remained out of the headlines because most of the area is now flooded by Lake Nasser and the Nubian people who lived in the area have since been resettled elsewhere. |
+| area_km2 | 210 | secondary | 2026-10-03 | S0249 | The Wadi Halfa Salient is roughly 9 kilometres (5.6 mi) wide and stretches finger-shaped on both sides of the original course of the Nile 25 kilometres (16 mi) to the north into Egyptian territory, with a total area of 210 km 2 (81 sq mi). |
 
 Sources:
+
+- S0249: https://en.wikipedia.org/w/index.php?title=Wadi_Halfa_Salient&oldid=1375488077

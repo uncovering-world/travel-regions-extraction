@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | China; Bhutan (relinquished its claim in the 1980s) | secondary | 2026-10-03 | S0036 | In the 1980s, Bhutan relinquished its claim to a 154 square miles (400 km 2 ) area called Kula Khari on its northern border with China. |
+| kind | no_agreed_boundary | secondary | 2026-10-03 | S0036 | Bhutan's border with Tibet has never been officially recognised and demarcated. |
+| origin | Bhutan relinquished its claim in the 1980s, attributing it to a cartographic error. | secondary | 2026-10-03 | S0125 | The claim was relinquished in the 1980s, with Bhutan attributing it to a cartographic error. |
+| on_the_ground | The current borderline runs through Gangkar Puensum. | secondary | 2026-10-03 | S0125 | The current borderline runs through the higher Gangkar Puensum |
+| area_km2 | 400 | secondary | 2026-10-03 | S0036 | In the 1980s, Bhutan relinquished its claim to a 154 square miles (400 km 2 ) area called Kula Khari on its northern border with China. |
 
 Sources:
+
+- S0036: https://en.wikipedia.org/w/index.php?title=Bhutan%E2%80%93China_border&oldid=1370428766
+- S0125: https://en.wikipedia.org/w/index.php?title=Kula_Kangri&oldid=1362779658

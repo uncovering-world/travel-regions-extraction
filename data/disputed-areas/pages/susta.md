@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Nepal (administers); India (claims) | secondary | 2026-10-03 | S0224 | It is administered by Nepal as part of Susta Rural Municipality , under West Nawalparasi District in Lumbini Province . It is claimed by India as part of West Champaran district of Bihar . |
+| kind | line_position | secondary | 2026-10-03 | S0224 | Nepal maintains the Gandak's course in 1816 to be taken as the fixed international boundary but India claims that land on the eastern side of the river is its own territory. |
+| origin | The 1816 Sugauli Treaty made the Gandak river the boundary, the east bank Indian and the west bank Nepali; Susta village then lay west of the river. | secondary | 2026-10-03 | S0224 | According to the Sugauli Treaty signed between the British East India Company and Nepal in 1816, the Gandak river is the international boundary and eastern part of the river belongs to India and western part of the river belongs to Nepal. At the time the treaty was signed Susta village was situated west of the river. |
+| on_the_ground | The Gandak has changed course over the years, so that Susta now lies on the eastern, Indian side of the river. | secondary | 2026-10-03 | S0224 | But, over the years, the Gandak river changed its course and Susta moved to the east side of the river, that is now on the Indian side of the river. |
+| area_km2 | 50 | secondary | 2026-10-03 | S0224 | Total 50 km 2 (19 sq mi) |
 
 Sources:
+
+- S0224: https://en.wikipedia.org/w/index.php?title=Susta_territory&oldid=1364130990

@@ -4,6 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Israel (controls Area C, 60% of the territory, and shares Area B); Palestine (the Palestinian National Authority holds Area A and shares Area B) | secondary | 2026-10-03 | S0251 | The mid-1990s Oslo Accords split the West Bank into three regional levels of Palestinian sovereignty, via the Palestinian National Authority (PNA): Area A (PNA), Area B (PNA and Israel), and Area C (Israel, comprising 60% of the West Bank). |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0251 | Citing the 1980 law in which Israel claimed Jerusalem as its capital, the 1994 Israel–Jordan peace treaty , and the Oslo Accords, a 2004 advisory ruling by the International Court of Justice (ICJ) concluded that the West Bank, including East Jerusalem, remains Israeli-occupied territory . |
+| origin | Israel captured the West Bank and East Jerusalem in the Six-Day War of June 1967. | secondary | 2026-10-03 | S0251 | In June 1967, the West Bank and East Jerusalem were captured by Israel as a result of the Six-Day War . |
+| on_the_ground | No one can travel into or out of the West Bank without passing at least one Israeli military checkpoint, with a passport and immigration slip. | primary | 2026-10-03 | S0311 | You cannot travel into or out of the West Bank without passing through at least one Israeli military checkpoint. You need a passport and immigration slip to go through these checkpoints. |
+| inhabited | yes | secondary | 2026-10-03 | S0251 | It has an estimated population of 2,747,943 Palestinians and over 670,000 Israeli settlers, of which approximately 220,000 live in East Jerusalem. |
+| traveller_access | open | primary | 2026-10-03 | S0311 | The cities of Bethlehem, Ramallah and Jericho see large numbers of tourists including on organised tours, although tourist numbers have reduced since 7 October 2023. |
+| area_km2 | 5640 | secondary | 2026-10-03 | S0251 | The West Bank has a land area of about 5,640 square kilometres (2,180 square miles). |
 | ne_name | West Bank | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_area_km2 | 4752 | machine | 2026-10-03 | NE |  |
@@ -12,3 +19,5 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0251: https://en.wikipedia.org/w/index.php?title=West_Bank&oldid=1377934540
+- S0311: https://www.gov.uk/foreign-travel-advice/palestine/regional-risks

@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Russia (administers); Japan (claims the four southernmost islands) | secondary | 2026-10-03 | S0126 | The islands have been under Russian administration since their 1945 invasion by the Soviet Union near the end of World War II . Japan claims the four southernmost islands, including two of the three largest ( Iturup and Kunashir ), as part of its territory, as well as Shikotan and the unpopulated Habomai islets, which has led to the ongoing Kuril Islands dispute |
+| kind | paper_claim | secondary | 2026-10-03 | S0127 | The disputed islands are under Russian administration as the South Kuril District and part of the Kuril District of the Sakhalin Oblast ( Сахалинская область , Sakhalinskaya oblast ). They are claimed by Japan, which refers to them as its Northern Territories or Southern Chishima, and considers them part of the Nemuro Subprefecture of Hokkaido Prefecture. |
+| origin | The modern dispute arose in the aftermath of World War II, from disagreements about the Yalta agreement (1945), the Potsdam Declaration (1945) and the Treaty of San Francisco (1951). | secondary | 2026-10-03 | S0127 | The modern Kuril Islands dispute arose in the aftermath of World War II and results from the ambiguities in and disagreements about the meaning of the Yalta agreement (February 1945), the Potsdam Declaration (July 1945), and the Treaty of San Francisco (September 1951). |
+| on_the_ground | Some villages are permanently occupied by Russian soldiers; others are inhabited by civilians, mostly fishermen, fish-factory workers, dockers and public-service workers. | secondary | 2026-10-03 | S0126 | Some of the villages are permanently occupied by Russian soldiers. Others are inhabited by civilians, who are mostly fishermen, workers in fish factories, dockers, and social sphere workers (police, medics, teachers, etc.). |
+| inhabited | yes | secondary | 2026-10-03 | S0126 | 19,400 people inhabited the Kuril Islands, of which 16,700 lived on the four disputed southern islands |
 
 Sources:
+
+- S0126: https://en.wikipedia.org/w/index.php?title=Kuril_Islands&oldid=1377462429
+- S0127: https://en.wikipedia.org/w/index.php?title=Kuril_Islands_dispute&oldid=1377188026

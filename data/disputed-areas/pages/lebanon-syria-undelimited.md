@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Lebanon; Syria (no treaty describes the boundary; several sections are in dispute) | secondary | 2026-10-03 | S0285 | Lebanon-Syria : lacking a treaty or other documentation describing the boundary, portions of the Lebanon-Syria boundary are unclear with several sections in dispute |
+| kind | no_agreed_boundary | secondary | 2026-10-03 | S0136 | Relations between the two new states were often tense, and a precise border has never been fixed officially with any precision, in spite of Lebanese demands to this effect and some preliminary conducted in the 1950–1960s. |
+| origin | France split its mandate in 1920 into several entities, one of them an expanded Mount Lebanon called Greater Lebanon. | secondary | 2026-10-03 | S0136 | In 1920 France split its mandate into several political entities, one of which was an expanded Mount Lebanon Mutasarrifate referred to as ' Greater Lebanon ', set up chiefly so as to provide a national polity for the generally pro-French Maronite Christians . |
+| on_the_ground | In early 2025 there were clashes along the border, particularly in the Baalbek-Hermel region, between Syrian security forces and Lebanese armed factions. | secondary | 2026-10-03 | S0137 | In early 2025, tensions escalated along the Lebanese-Syrian border, particularly in the Baalbek-Hermel region, due to clashes between Syrian security forces and Lebanese armed factions. |
 
 Sources:
+
+- S0136: https://en.wikipedia.org/w/index.php?title=Lebanon%E2%80%93Syria_border&oldid=1346024521
+- S0137: https://en.wikipedia.org/w/index.php?title=Lebanon%E2%80%93Syria_relations&oldid=1373736531
+- S0285: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/middle-east/le.json

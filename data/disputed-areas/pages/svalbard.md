@@ -4,5 +4,16 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Norway (sovereign under the 1920 Svalbard Treaty); the other signatory states (non-discriminatory rights to fishing, hunting and mineral resources) | secondary | 2026-10-03 | S0227 | On 9 February 1920, following the Paris Peace Conference , the Svalbard Treaty was signed, granting full sovereignty to Norway. However, all signatory countries were granted non-discriminatory rights to fishing, hunting, and mineral resources. |
+| kind | own_regime | secondary | 2026-10-03 | S0227 | This means that it is administered directly by the Norwegian government through an appointed governor , and is a special jurisdiction subject to the Svalbard Treaty that is outside of the Schengen Area , the Nordic Passport Union , and the European Economic Area . |
+| origin | The Svalbard Treaty of 1920 recognised Norwegian sovereignty, and the Svalbard Act of 1925 made the archipelago part of the Kingdom of Norway; the treaty made it a free economic zone and restricts military use. | secondary | 2026-10-03 | S0227 | The Svalbard Treaty of 1920 recognizes Norwegian sovereignty, and the Norwegian Svalbard Act of 1925 made Svalbard a full part of the Kingdom of Norway. The Svalbard Treaty established Svalbard as a free economic zone and restricts the military use of the archipelago. |
+| on_the_ground | Run by the Governor of Svalbard, the Norwegian government's highest-ranking representative on the archipelago, who is both chief of police and county governor. | primary | 2026-10-03 | S0330 | The Governor of Svalbard is the Norwegian government’s highest-ranking representative on the archipelago. The Governor acts as both the chief of police and county governor. |
+| inhabited | yes | secondary | 2026-10-03 | S0227 | In 2016, Svalbard had a population of 2,667, of which 423 were Russian and Ukrainian, 10 Polish, and 322 other non-Norwegians living in Norwegian settlements. |
+| traveller_access | open | primary | 2026-10-03 | S0329 | Foreigners do not need a visa or work and residence permits from the Norwegian authorities to travel to Svalbard. |
+| area_km2 | 61022 | secondary | 2026-10-03 | S0227 | The land area is 61,022 km 2 (23,561 sq mi), |
 
 Sources:
+
+- S0227: https://en.wikipedia.org/w/index.php?title=Svalbard&oldid=1377685477
+- S0329: https://www.sysselmesteren.no/en/entry-and-residence/
+- S0330: https://www.sysselmesteren.no/en/the-governor-of-svalbard/

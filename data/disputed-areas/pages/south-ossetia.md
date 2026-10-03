@@ -4,5 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | South Ossetia (declared independence unilaterally; described by the United Kingdom as Russian-occupied); Georgia (claims the right to exercise sovereignty) | primary | 2026-10-03 | S0305 | The Georgia and UK governments do not recognise the unilateral declarations of independence by the Russian occupied regions of South Ossetia and Abkhazia. Following international law, the Georgian government claims the right to exercise sovereignty in these territories. |
+| kind | de_facto_state | secondary | 2026-10-03 | S0216 | and originally the Republic of South Ossetia , is a partially recognised state in the South Caucasus . |
+| origin | The South Ossetian Autonomous Oblast, established by the Soviet authorities in 1922, declared independence from the Georgian SSR in September 1990. | secondary | 2026-10-03 | S0216 | The South Ossetian Autonomous Oblast, established by Soviet authorities in Moscow in 1922, declared independence from the Georgian Soviet Socialist Republic in September 1990. |
+| on_the_ground | Since the war of August 2008 Ossetian and Russian forces have had full de facto control of the former autonomous oblast; Georgia and most other states regard it as under Russian military occupation. | secondary | 2026-10-03 | S0216 | The latter conflict led to the full-scale Russo-Georgian War of August 2008, during which Ossetian and Russian forces gained full de facto control of the territory of the former South Ossetian Autonomous Oblast. Georgia and most other states consider South Ossetia to be under Russian military occupation . |
+| inhabited | yes | secondary | 2026-10-03 | S0216 | It has an officially stated population of just over 56,500 people (2022), who live in an area of 3,900 square kilometres (1,500 sq mi), with 33,000 living in the capital city, Tskhinvali . |
+| traveller_access | restricted | secondary | 2026-10-03 | S0216 | Furthermore, the South Ossetian authorities only allow entry of foreigners "through the territory of the Russian Federation". |
+| area_km2 | 3900 | secondary | 2026-10-03 | S0216 | South Ossetia covers an area of about 3,900 km 2 (1,506 sq mi), |
 
 Sources:
+
+- S0216: https://en.wikipedia.org/w/index.php?title=South_Ossetia&oldid=1377727279
+- S0305: https://www.gov.uk/foreign-travel-advice/georgia/regional-risks

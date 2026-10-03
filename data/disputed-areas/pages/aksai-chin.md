@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | China (administers); India (claims) | secondary | 2026-10-03 | S0011 | China administers it as part of He'an County and Hekang County of Hotan Prefecture , Xinjiang , and Rutog County of Ngari Prefecture , Tibet . India claims the territory, considering it part of Leh district in the union territory of Ladakh . |
+| kind | paper_claim | secondary | 2026-10-03 | S0011 | China administers it as part of He'an County and Hekang County of Hotan Prefecture , Xinjiang , and Rutog County of Ngari Prefecture , Tibet . India claims the territory, considering it part of Leh district in the union territory of Ladakh . |
+| origin | Subject of a border dispute between China and India since 1959. | secondary | 2026-10-03 | S0011 | Aksai Chin is a region administered by China and constituting the easternmost portion of the larger Kashmir region that has been the subject of a border dispute between China and India since 1959. |
+| on_the_ground | China built National Highway 219 through the region in the 1950s, linking Xinjiang and western Tibet. | secondary | 2026-10-03 | S0011 | During the 1950s, the People's Republic of China built a 1,200 km (750 mi) China National Highway 219 connecting Xinjiang and western Tibet , of which 179 km (112 mi) ran south of the Johnson Line through the Aksai Chin region claimed by India. |
+| inhabited | yes | secondary | 2026-10-03 | S0011 | The Aksai region is a sparsely populated region with few settlements |
+| area_km2 | 38000 | secondary | 2026-10-03 | S0011 | Area • Total 38,000 km 2 (15,000 sq mi) |
 
 Sources:
+
+- S0011: https://en.wikipedia.org/w/index.php?title=Aksai_Chin&oldid=1374582776

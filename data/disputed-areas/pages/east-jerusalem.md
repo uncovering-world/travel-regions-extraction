@@ -4,6 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Israel (occupies); Palestine (considered its capital and part of the Palestinian territories by the United Nations) | secondary | 2026-10-03 | S0076 | It is considered to be the capital and part of the Palestinian territories according to international law by the United Nations and other intergovernmental organizations, and under illegal occupation by Israel. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0076 | In the 1967 Arab–Israeli War , Israel captured and occupied East Jerusalem, then unilaterally annexed it in 1980. |
+| origin | Israel captured and occupied East Jerusalem in 1967 and unilaterally annexed it in 1980. | secondary | 2026-10-03 | S0076 | In the 1967 Arab–Israeli War , Israel captured and occupied East Jerusalem, then unilaterally annexed it in 1980. |
+| on_the_ground | Under Israeli control since 1967, together with the rest of the city. | secondary | 2026-10-03 | S0076 | Israel occupied East Jerusalem during the 1967 Six-Day War ; since then, the entire city has been under Israeli control. |
+| inhabited | yes | secondary | 2026-10-03 | S0076 | In 2020, East Jerusalem had a population of 595,000 inhabitants, of whom 361,700 (61%) were Palestinian Arabs and 234,000 (39%) were Jewish settlers . |
+| area_km2 | 70 | secondary | 2026-10-03 | S0076 | On 27 June 1967, Israel expanded the municipal boundaries of West Jerusalem so as to include approximately 70 km 2 (27.0 sq mi) of West Bank territory today referred to as East Jerusalem |
 | ne_name | East Jerusalem | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. By Israel; Claimed by Palestine | machine | 2026-10-03 | NE |  |
@@ -13,3 +19,4 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0076: https://en.wikipedia.org/w/index.php?title=East_Jerusalem&oldid=1371355543

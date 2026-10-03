@@ -4,5 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United Kingdom (rules; British rule reasserted in 1833); Argentina (claims) | secondary | 2026-10-03 | S0079 | Britain reasserted its rule in 1833 , but Argentina maintains its claim to the islands. |
+| kind | paper_claim | secondary | 2026-10-03 | S0079 | The territory's sovereignty status is part of an ongoing dispute between Argentina and the UK . |
+| origin | Britain reasserted its rule in 1833; Argentina maintains its claim. | secondary | 2026-10-03 | S0079 | Britain reasserted its rule in 1833 , but Argentina maintains its claim to the islands. |
+| on_the_ground | A British Overseas Territory with internal self-governance; the United Kingdom is responsible for defence and foreign affairs. | secondary | 2026-10-03 | S0079 | As a British Overseas Territory , the Falklands have internal self-governance , while the United Kingdom takes responsibility for their defence and foreign affairs. |
+| inhabited | yes | secondary | 2026-10-03 | S0079 | The 2021 census recorded a population of 3,662 inhabitants, around 30% of which are temporary residents, on short-term work visas or working at the RAF Mount Pleasant military base. |
+| traveller_access | open | primary | 2026-10-03 | S0304 | You can visit the Falkland Islands without a visa. Visitors are granted permission to stay for one month upon arrival. |
+| area_km2 | 12173 | secondary | 2026-10-03 | S0079 | Total 12,173 km 2 (4,700 sq mi) |
 
 Sources:
+
+- S0079: https://en.wikipedia.org/w/index.php?title=Falkland_Islands&oldid=1375355019
+- S0304: https://www.gov.uk/foreign-travel-advice/falkland-islands/entry-requirements

@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Iran (administers); United Arab Emirates (claims, as successor to Sharjah) | secondary | 2026-10-03 | S0008 | The sovereignty of Abu Musa is disputed between Iran, which administers the island, and the UAE, which has claimed the island since the formation of the federation in 1971 as the successor to Sharjah's prior administration. |
+| kind | paper_claim | secondary | 2026-10-03 | S0008 | The island is under the administration of Iran , as part of Abumusa County , Hormozgan province. It is, however, claimed by the United Arab Emirates as part of its Sharjah emirate . |
+| origin | Iran moved troops onto the island on 30 November 1971, a day before the United Kingdom left the region. | secondary | 2026-10-03 | S0008 | On 30 November 1971, a day before the UK officially left the region, Iran moved troops onto the island who were officially welcomed by the Sheikh of Sharjah's brother, Sheikh Saqer . |
+| on_the_ground | Administered by Iran as part of Abumusa County, Hormozgan province. | secondary | 2026-10-03 | S0008 | The island is under the administration of Iran , as part of Abumusa County , Hormozgan province. |
+| inhabited | yes | secondary | 2026-10-03 | S0008 | In 2012, the island had about 2,131 inhabitants, making it Iran's smallest county . |
+| area_km2 | 12.8 | secondary | 2026-10-03 | S0008 | is a 12.8-square-kilometre (4.9 sq mi) island in the eastern Persian Gulf , near the entrance to the Strait of Hormuz . |
 
 Sources:
+
+- S0008: https://en.wikipedia.org/w/index.php?title=Abu_Musa&oldid=1377605503

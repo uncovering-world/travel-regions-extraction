@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Sudan; South Sudan (both claim) | secondary | 2026-10-03 | S0142 | Both Sudan and South Sudan have claimed the area after the civil war that led to South Sudan's independence. |
+| kind | line_position | secondary | 2026-10-03 | S0271 | the South Sudan-Sudan boundary represents 1 January 1956 alignment, final alignment pending negotiations and demarcation |
+| origin | The claims date from South Sudan's independence; the two states established relations on 9 July 2011. | secondary | 2026-10-03 | S0217 | The two countries officially established relations on 9 July 2011, following South Sudan's independence. |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0217: https://en.wikipedia.org/w/index.php?title=South_Sudan%E2%80%93Sudan_relations&oldid=1377684449
+- S0271: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/su.json

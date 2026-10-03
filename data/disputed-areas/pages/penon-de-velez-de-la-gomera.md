@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Spain (holds it as a plaza de soberanía); Morocco (claims) | secondary | 2026-10-03 | S0177 | Morocco asserts a claim to the peninsula as part of its territory, alongside other Spanish plazas de soberanía in North Africa. |
+| kind | paper_claim | secondary | 2026-10-03 | S0284 | Morocco protests Spain's control over the coastal enclaves of Ceuta, Melilla, and the islands of Penon de Velez de la Gomera, Penon de Alhucemas, and Islas Chafarinas, and surrounding waters |
+| origin | In 1564 the Sa'di sultan Abdallah al-Ghalib had the peñón evacuated and handed it over to the Spaniards. | secondary | 2026-10-03 | S0177 | The Sa'di sultan Abdallah al-Ghalib was alarmed by this activity, fearing that the Ottomans might use the town of Badis as a base from which to undertake the conquest of Morocco. In 1564, he forced the Moroccans to evacuate the town and the peñón , which he handed over to the Spaniards. |
+| on_the_ground | Administered directly from Madrid. | secondary | 2026-10-03 | S0177 | Peñón de Vélez de la Gomera is administered directly from Madrid. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0177 | and has a population consisting only of a small number of Spanish military personnel. |
+| area_km2 | 0.019 | secondary | 2026-10-03 | S0177 | With a length of 400 m (1,300 ft) northwest-southeast and a width of up to 100 m (330 ft), Peñón de Vélez de la Gomera covers about 1.9 ha (4¾ acres). |
 
 Sources:
+
+- S0177: https://en.wikipedia.org/w/index.php?title=Pe%C3%B1%C3%B3n_de_V%C3%A9lez_de_la_Gomera&oldid=1369397937
+- S0284: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/europe/sp.json

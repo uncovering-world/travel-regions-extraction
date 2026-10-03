@@ -4,6 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | China (controls); Taiwan (claims); Vietnam (claims) | secondary | 2026-10-03 | S0176 | It is under the control of the People's Republic of China , but its sovereignty in whole or in part is disputed by Taiwan and Vietnam . |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0176 | The archipelago is surrounded by productive fishing grounds and a seabed potentially containing unexplored oil and gas reserves. |
+| origin | After the Battle of the Paracel Islands in January 1974, China expelled the Vietnamese from the Crescent Group and took full control of the Paracels. | secondary | 2026-10-03 | S0176 | After the Battle of the Paracel Islands in January 1974, the People's Republic of China expelled the Vietnamese from the Crescent Group and took full control of the Paracels. |
+| on_the_ground | Administered by China through Sansha, Hainan Province, established in July 2012. | secondary | 2026-10-03 | S0176 | In July 2012, China (PRC) established Sansha , Hainan Province, as administering the area. |
+| inhabited | yes | secondary | 2026-10-03 | S0176 | Demographics Population Over 1,000 (2014) |
+| traveller_access | restricted | secondary | 2026-10-03 | S0176 | Chinese tourists can take a 20-hour ferry to the Islands, paying up to US$2,000 for a 5-day cruise, and wait for their applications to be accepted. |
+| area_km2 | 7.75 | secondary | 2026-10-03 | S0176 | They are distributed over a maritime area of around 15,000 square kilometers (5,800 sq mi), with a land area of approximately 7.75 square kilometers (2.99 sq mi). |
 | ne_name | Paracel Is. | machine | 2026-10-03 | NE |  |
 | ne_type | Geo unit | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. by China; Claimed by Vietnam and Taiwan | machine | 2026-10-03 | NE |  |
@@ -13,3 +20,4 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0176: https://en.wikipedia.org/w/index.php?title=Paracel_Islands&oldid=1375059707

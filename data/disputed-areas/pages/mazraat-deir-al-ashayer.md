@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Lebanon (administers and controls); Syria (claims) | secondary | 2026-10-03 | S0142 | Mazraat Deir al-Ashayer is administered and controlled by Lebanon's Zahlé District , Beqaa Governorate , but claimed by Syria's Al-Zabadani District , Rif Dimashq Governorate . |
+| kind | no_agreed_boundary | secondary | 2026-10-03 | S0066 | There is no fully formalized border demarcation between the two countries in this region, leading to overlapping claims and ambiguity regarding exact administrative boundaries. |
+| on_the_ground | The Lebanese Army exercises authority over the Lebanese side. | secondary | 2026-10-03 | S0066 | The ambiguous border status has historically influenced administrative oversight and security arrangements in the area, with the Lebanese Army currently exercising authority over the Lebanese side. |
+| inhabited | yes | secondary | 2026-10-03 | S0066 | The village is home to approximately 1,100 Lebanese citizens. |
 
 Sources:
+
+- S0066: https://en.wikipedia.org/w/index.php?title=Deir_al-Ashayer&oldid=1373426686
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | North Eastern State of Somalia, formerly SSC-Khatumo (holds most of the area it claims); Somaliland (claims); Puntland (claims) | secondary | 2026-10-03 | S0168 | The territory claimed by SSC-Khatumo has long been disputed between the self-declared Republic of Somaliland and the Puntland . |
+| kind | paper_claim | secondary | 2026-10-03 | S0168 | It was bordered to the west by the self-declared Republic of Somaliland , which claims the territory also claimed by SSC-Khaatumo. |
+| origin | In the Las Anod conflict that erupted in early 2023, SSC-Khatumo forces took over most of the area they claim, with a front line about 170 km from Las Anod. | secondary | 2026-10-03 | S0168 | Several months into the Las Anod conflict that erupted in early 2023, SSC-Khatumo forces effectively took over those regions, securing most of their claimed area and establishing a new front line about 170km from Las Anod between the villages of Oog and Guumays in western Sool. |
+| on_the_ground | Run as a federal member state of Somalia (the North Eastern State) with its capital in Las Anod. | secondary | 2026-10-03 | S0168 | is a federal member state in northern Somalia with its capital in Las Anod . |
+| inhabited | yes | secondary | 2026-10-03 | S0168 | To the east, it borders Puntland , a fellow federal member, which does not recognize the existence of SSC-Khaatumo as it considers all Dhulbahante -inhabited areas to be an integral part of its territory. |
+| area_km2 | 24642 | secondary | 2026-10-03 | S0168 | Total 24,642 km 2 (9,514 sq mi) |
 
 Sources:
+
+- S0168: https://en.wikipedia.org/w/index.php?title=North_East_State_of_Somalia&oldid=1371566819

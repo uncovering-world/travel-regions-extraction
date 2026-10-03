@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Moldova (controls); Transnistria (PMR; claims) | secondary | 2026-10-03 | S0240 | Fifteen villages from the 11 communes of Dubăsari District, including Cocieri and Doroțcaia that geographically are located on the east bank of the Dniester (in Transnistria region), have been under the control of the central government of Moldova after the involvement of local inhabitants on the side of Moldovan forces during the War of Transnistria. These villages, along with Varnița and Copanca , near Bender and Tiraspol, are claimed by the PMR. |
+| kind | paper_claim | secondary | 2026-10-03 | S0241 | The breakaway PMR authorities also claim the communes of Varnița , in the Anenii Noi District , a northern suburb of Bender, and Copanca , in the Căușeni District, south of Chițcani, but these villages remain under Moldovan control. |
+| origin | Six communes on the left bank remained under the control of the Moldovan government after the Transnistria War of 1992. | secondary | 2026-10-03 | S0240 | Six communes on the left bank ( Cocieri , Molovata Nouă , Corjova , Pîrîta , Coșnița , and Doroțcaia ) remained under the control of the Moldovan government after the Transnistria War of 1992, as part of the Dubăsari District . |
+| on_the_ground | Run by Moldova, but inside the security zone, where the security situation is subject to the rulings of the Joint Control Commission. | secondary | 2026-10-03 | S0240 | The localities controlled by Moldova on the eastern bank, the village of Roghi , and the city of Dubăsari (situated on the eastern bank and controlled by the PMR) form a security zone along with the six villages and one city controlled by the PMR on the western bank, as well as two ( Varnița and Copanca ) on the same west bank under Moldovan control. The security situation inside it is subject to the Joint Control Commission rulings. |
+| inhabited | yes | secondary | 2026-10-03 | S0055 | According to the 2014 Moldovan Census , the commune had a population of 3,885, mostly residing in Cocieri. |
 
 Sources:
+
+- S0055: https://en.wikipedia.org/w/index.php?title=Cocieri&oldid=1346199744
+- S0240: https://en.wikipedia.org/w/index.php?title=Transnistria&oldid=1375814450
+- S0241: https://en.wikipedia.org/w/index.php?title=Transnistria_conflict&oldid=1372669210

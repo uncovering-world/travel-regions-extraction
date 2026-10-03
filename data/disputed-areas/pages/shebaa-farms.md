@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Israel (occupies); Lebanon (claims); Syria (agrees with the Lebanese position) | secondary | 2026-10-03 | S0207 | is a strip of land on the Lebanese–Syrian border that is currently occupied by Israel. Lebanon claims the Shebaa Farms as its own territory, and Syria agrees with this position. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0207 | Israel claims it is part of the Golan Heights , Syrian territory that it has occupied since 1967 and effectively annexed in 1981. |
+| origin | Occupied by Israel in the 1967 Six-Day War. | secondary | 2026-10-03 | S0207 | Shebaa Farms were then occupied by Israel in the 1967 Six-Day War . |
+| on_the_ground | Israel treats it as part of the Golan Heights and holds it under military occupation. | secondary | 2026-10-03 | S0207 | Israel considers it part of the Golan Heights and continues to hold it, along with the Golan, under military occupation . |
+| area_km2 | 22 | secondary | 2026-10-03 | S0207 | Shebaa Farms is an area about 9 km (5.6 mi) long, and 2.5 km (1.6 mi) wide; about 22 km 2 (8.5 sq mi); 5,400 acres). |
 
 Sources:
+
+- S0207: https://en.wikipedia.org/w/index.php?title=Shebaa_Farms&oldid=1369913026

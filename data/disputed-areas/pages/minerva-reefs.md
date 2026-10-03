@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Tonga (claims since 1972); Fiji (does not recognise the claim) | secondary | 2026-10-03 | S0274 | Tonga-Fiji : Fiji does not recognize Tonga’s 1972 claim to the Minerva Reefs and their surrounding waters |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0159 | In 2005, Fiji declared that it did not recognize any maritime water claims by Tonga to the Minerva Reefs under the UNCLOS agreements . |
+| origin | The flag of Tonga was raised on North Minerva on 19 June 1972 and on South Minerva on 21 June 1972. | secondary | 2026-10-03 | S0159 | Arriving on 18 June 1972, the Flag of Tonga was raised on the following day on North Minerva and on South Minerva on 21 June 1972. |
+| on_the_ground | The atolls hold remnants of shipwrecks and platforms and functioning navigation beacons. | secondary | 2026-10-03 | S0159 | Remnants of shipwrecks and platforms remain on the atolls, plus functioning navigation beacons. |
 
 Sources:
+
+- S0159: https://en.wikipedia.org/w/index.php?title=Minerva_Reefs&oldid=1374680577
+- S0274: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/australia-oceania/tn.json

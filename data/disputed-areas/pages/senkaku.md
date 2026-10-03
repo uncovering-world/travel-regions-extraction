@@ -4,5 +4,17 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Japan (administers); China (claims); Taiwan (claims) | secondary | 2026-10-03 | S0277 | the Japanese-administered Senkaku Islands (Diaoyu Tai) are also claimed by China and Taiwan |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0205 | The islands are positioned close to key shipping lanes and rich fishing grounds , and there may be oil reserves in the area. |
+| origin | Japan incorporated the islands into Okinawa Prefecture in January 1895, during the First Sino-Japanese War. | secondary | 2026-10-03 | S0204 | The Japanese central government incorporated the islands into Okinawa Prefecture in January 1895 while still fighting China in the First Sino-Japanese War . |
+| on_the_ground | Japan holds the islands; its government states that they are 'under the valid control of Japan'. | primary | 2026-10-03 | S0297 | The Senkaku Islands are indisputably an inherent part of the territory of Japan in light of historical facts and based upon international law. Indeed, the Senkaku islands are under the valid control of Japan. |
+| inhabited | no | secondary | 2026-10-03 | S0204 | are a group of uninhabited islands in the East China Sea , administered by Japan. |
+| traveller_access | closed | secondary | 2026-10-03 | S0204 | As a result of the dispute, public access to the uninhabited islands is restricted; Japan’s central government has denied landing requests even from local authorities. |
+| area_km2 | 7 | secondary | 2026-10-03 | S0204 | Area 7 km 2 (2.7 sq mi) |
 
 Sources:
+
+- S0204: https://en.wikipedia.org/w/index.php?title=Senkaku_Islands&oldid=1377739145
+- S0205: https://en.wikipedia.org/w/index.php?title=Senkaku_Islands_dispute&oldid=1375863449
+- S0277: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/east-n-southeast-asia/ja.json
+- S0297: https://www.cas.go.jp/jp/ryodo_eg/senkaku/senkaku.html

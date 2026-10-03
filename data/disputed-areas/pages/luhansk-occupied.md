@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Russia (occupies almost all of the oblast; declared its annexation in September 2022); Ukraine (the oblast is its territory; the annexation is internationally unrecognised) | secondary | 2026-10-03 | S0144 | Since the 2022 Russian invasion of Ukraine , the oblast has come almost entirely under Russian occupation and has been the scene of heavy fighting , which continues in some places. In late September 2022, Russia declared the annexation of the entire oblast, along with three others , though the annexation remains internationally unrecognized. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0145 | is a disputed republic of Russia with a capital in Luhansk , established on an illegally annexed part of Luhansk Oblast in eastern Ukraine . |
+| origin | The Luhansk People's Republic was created in 2014, when Russian-backed paramilitaries took control of settlements in the province. | secondary | 2026-10-03 | S0145 | The LPR was created in 2014 when Russian-backed paramilitaries took control of settlements in the province. |
+| on_the_ground | Russian-backed officials claimed in July 2025 that Russian forces had captured the last Ukrainian-held areas, bringing the entire region under their control. | secondary | 2026-10-03 | S0144 | Russian-backed officials claimed in July 2025 that Russian forces had captured the last Ukrainian-held areas in Luhansk Oblast, bringing the entire region under their control. |
+| inhabited | yes | secondary | 2026-10-03 | S0145 | In December 2017, approximately 1.4 million lived in the LPR's territory, with 435,000 in the city of Luhansk. |
 
 Sources:
+
+- S0144: https://en.wikipedia.org/w/index.php?title=Luhansk_Oblast&oldid=1373631385
+- S0145: https://en.wikipedia.org/w/index.php?title=Luhansk_People%27s_Republic&oldid=1373617923

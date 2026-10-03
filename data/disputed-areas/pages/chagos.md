@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United Kingdom (party to the sovereignty dispute); Mauritius (claims the archipelago) | secondary | 2026-10-03 | S0050 | Mauritius engaged in a sovereignty dispute with the UK, claiming the Chagos Archipelago as part of Mauritius. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0050 | The International Court of Justice (ICJ) in 2019 and the International Tribunal for the Law of the Sea (in 2021) both stated that the UK had an obligation to return the islands to Mauritius. |
+| origin | In 1965 the United Kingdom separated the archipelago from Mauritius to form the British Indian Ocean Territory, so that the United States could build a base on Diego Garcia. | secondary | 2026-10-03 | S0050 | In 1965, the United Kingdom split its administration of the Chagos Archipelago away from Mauritius and into the British Indian Ocean Territory (BIOT), to allow the United States to build Naval Support Facility Diego Garcia , which operates under a special agreement allowing significant US military presence. |
+| on_the_ground | The agreement to transfer the islands to Mauritius, with Diego Garcia leased back to the UK, was signed on 22 May 2025; its ratification is on hold. | secondary | 2026-10-03 | S0050 | The transfer agreement was signed on 22 May 2025, with the provision that the island of Diego Garcia would be leased back to the UK for at least 99 years. The UK government expected the treaty to be ratified sometime in 2025, but the legislation is indefinitely on hold due to both US opposition, as well as domestic political opposition in the UK. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0050 | The only permanent inhabitants are employees of the military, including civilian contracted personnel, on Diego Garcia. |
+| area_km2 | 56.13 | secondary | 2026-10-03 | S0050 | Area 56.13 km 2 (21.67 sq mi) |
 
 Sources:
+
+- S0050: https://en.wikipedia.org/w/index.php?title=Chagos_Archipelago&oldid=1376421739

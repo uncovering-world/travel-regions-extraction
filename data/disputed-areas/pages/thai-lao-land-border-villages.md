@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Laos (holds that Ban Romklao is in Botene District, Sainyabuli Province); Thailand (holds that it is in Chat Trakan District, Phitsanulok Province) | secondary | 2026-10-03 | S0233 | The government of the Lao People's Democratic Republic protested strongly, insisting the village was part of Botene District of Sainyabuli Province . Thailand replied that the village belonged to Chat Trakan District ( amphoe ) of Phitsanulok Province. |
+| kind | line_position | secondary | 2026-10-03 | S0233 | As the agreed-upon river Hoeng separated into two tributaries, both parties claimed different ones as the border, which, alongside logging disputes, gave rise to this conflict. |
+| origin | The map made by French surveyors in 1907 left unclear who owned Ban Romklao and three small border villages on the edge of Uttaradit Province. | secondary | 2026-10-03 | S0233 | It involved a dispute over the map made by French surveyors in 1907 to mark the borders between Siam and French Indochina in the southern Luang Prabang Range . Ownership of the village of Ban Romklao on the border of Phitsanulok Province and three small border villages on the edge of Uttaradit Province was left unclear. |
+| on_the_ground | A Thai-Lao Joint Boundary Commission, set up in 1996, is to clarify the boundary and settle ownership of the disputed villages. | secondary | 2026-10-03 | S0233 | The Thai-Lao Joint Boundary Commission (JBC) was established in 1996 to clarify the 1,810-kilometre boundary and settle ownership of the disputed villages. |
 
 Sources:
+
+- S0233: https://en.wikipedia.org/w/index.php?title=Thai%E2%80%93Laotian_Border_War&oldid=1378012937

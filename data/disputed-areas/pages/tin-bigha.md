@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | India (sovereign; lessor); Bangladesh (lessee, for access to its Dahagram–Angarpota enclave) | secondary | 2026-10-03 | S0236 | is a road or strip of land belonging to India on the West Bengal – Bangladesh border which, in September 2011, was leased to Bangladesh so the country could access its Dahagram–Angarpota enclave from the mainland. |
+| kind | lease_or_base | secondary | 2026-10-03 | S0236 | India will lease in perpetuity to Bangladesh an area of 178 by 85 metres (584 ft × 279 ft) near 'Tin Bigha' to connect Dahagram with Panbari Mouza (P.S. Patgram) of Bangladesh." |
+| origin | The Land Boundary Agreement of 16 May 1974 provided that India would lease a strip of land in perpetuity to Bangladesh to give access to Dahagram and Angorpota. | secondary | 2026-10-03 | S0236 | As part of the package a strip of land would be leased in perpetuity by India to Bangladesh, giving access to Dahagram and Angorpota to enable Bangladesh to exercise sovereignty on these two enclaves. This was accepted by Bangladesh as part of a carefully constructed Land Boundary Agreement signed by Prime Minister Indira Gandhi and Prime Minister Sheikh Mujibur Rahman on 16 May 1974. |
+| on_the_ground | Under a treaty signed on 6 September 2011 the corridor is open 24 hours a day for Bangladeshis of the enclave to reach the mainland. | secondary | 2026-10-03 | S0236 | Following a treaty signed by the Prime Ministers of India and Bangladesh on 6 September 2011 in Dhaka , it was agreed that the corridor would be open for 24 hours for Bangladeshis in the enclave to access the mainland. |
+| area_km2 | 0.01513 | secondary | 2026-10-03 | S0236 | India will lease in perpetuity to Bangladesh an area of 178 by 85 metres (584 ft × 279 ft) |
 
 Sources:
+
+- S0236: https://en.wikipedia.org/w/index.php?title=Tin_Bigha_Corridor&oldid=1376968919

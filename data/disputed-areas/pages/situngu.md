@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Botswana (holds the island; it was ceded to Botswana by the 2018 border treaty); Namibia (former claimant) | secondary | 2026-10-03 | S0211 | On 5 February 2018 a border treaty was signed between Botswana and Namibia which saw the island being ceded to Botswana. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0142 | On 5 February 2018 a border treaty was signed between Botswana and Namibia which saw the island ceded to Botswana. |
+| origin | Settled by the Botswana-Namibia border treaty signed on 5 February 2018, under which the island was ceded to Botswana. | secondary | 2026-10-03 | S0211 | On 5 February 2018 a border treaty was signed between Botswana and Namibia which saw the island being ceded to Botswana. |
+| on_the_ground | A river island in the Chobe River, in Botswana next to the Namibian border. | secondary | 2026-10-03 | S0211 | is a fluvial island in the Chobe River , in Botswana adjacent to the border with Namibia . |
+| inhabited | no | secondary | 2026-10-03 | S0211 | Administration Botswana Demographics Population Unpopulated |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0211: https://en.wikipedia.org/w/index.php?title=Situngu&oldid=1364200334

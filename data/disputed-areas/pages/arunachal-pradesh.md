@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | India (administers as a state); China (claims nearly four-fifths as Southern Tibet) | secondary | 2026-10-03 | S0021 | Nearly four-fifths of Arunachal Pradesh is claimed [ a ] by China as Southern Tibet as part of the Tibet Autonomous Region; China occupied some regions of Arunachal Pradesh in 1962 but later withdrew its forces. |
+| kind | paper_claim | secondary | 2026-10-03 | S0021 | Nearly four-fifths of Arunachal Pradesh is claimed [ a ] by China as Southern Tibet as part of the Tibet Autonomous Region; China occupied some regions of Arunachal Pradesh in 1962 but later withdrew its forces. |
+| inhabited | yes | secondary | 2026-10-03 | S0021 | Population (2011) • Total 1,383,727 |
+| traveller_access | restricted | secondary | 2026-10-03 | S0021 | Under the Foreigners (Protected Areas) Order 1958 (India) , Inner Line Permits (ILPs) are required to enter Arunachal Pradesh through any of its checkgates on the border with Assam . |
+| area_km2 | 83743 | secondary | 2026-10-03 | S0021 | Area • Total 83,743 km 2 (32,333 sq mi) |
 
 Sources:
+
+- S0021: https://en.wikipedia.org/w/index.php?title=Arunachal_Pradesh&oldid=1377980254

@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Northern Cyprus (de facto state on one side of the village); United Kingdom (Sovereign Base Area of Dhekelia on the other); Cyprus (the village is Cypriot) | secondary | 2026-10-03 | S0223 | is a small Cypriot village located at the border of the de facto Turkish Republic of Northern Cyprus (TRNC) with the British Sovereign Base Area (SBA) of Dhekelia . |
+| kind | line_position | secondary | 2026-10-03 | S0223 | According to Turkish Cypriot media, the Turkish military established a control point within Northern Cyprus, and hence did not advance. |
+| origin | On 30 June 2000, according to Greek Cypriot media, the Turkish military advanced into the no man's land between Northern Cyprus and the British Sovereign Base Area at Strovilia and took control of it. | secondary | 2026-10-03 | S0223 | On 30 June 2000, according to Greek Cypriot media, the Turkish military advanced into the no man's land area in Strovila between Northern Cyprus and UK's SBA and took control of it since there was no official buffer zone between Northern Cyprus and UK's SBA. |
+| on_the_ground | Northern Cyprus controls and administers the border checkpoint near Strovilia. | secondary | 2026-10-03 | S0142 | Northern Cyprus controls and administers the border checkpoint near Strovilia . |
+| inhabited | yes | secondary | 2026-10-03 | S0223 | The Commission reaffirmed that Greek Cypriot residents of Strovilia can pass through SBA-RoC uninhibitedly. |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0223: https://en.wikipedia.org/w/index.php?title=Strovilia&oldid=1377120423

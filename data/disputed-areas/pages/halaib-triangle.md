@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Egypt (full de facto control; claims); Sudan (claims) | secondary | 2026-10-03 | S0142 | Previously under joint administration; Egypt now maintains full de facto control of the Hala'ib Triangle. The boundaries claimed by Egypt and Sudan both include the Hala'ib Triangle. |
+| kind | paper_claim | secondary | 2026-10-03 | S0093 | In 1994, the Egyptian military moved to take control of the area as a part of Red Sea Governorate , and Egypt has been actively investing in it since then. |
+| origin | With the independence of Sudan in 1956 both Egypt and Sudan claimed sovereignty over the area. | secondary | 2026-10-03 | S0093 | With the independence of Sudan in 1956, both Egypt and Sudan claimed sovereignty over the area. |
+| on_the_ground | Under Egyptian control as part of Red Sea Governorate since 1994, with Egyptian investment. | secondary | 2026-10-03 | S0093 | In 1994, the Egyptian military moved to take control of the area as a part of Red Sea Governorate , and Egypt has been actively investing in it since then. |
+| inhabited | yes | secondary | 2026-10-03 | S0093 | In 2021, the population of the Halaib triangle stood at 27,000. |
+| area_km2 | 20580 | secondary | 2026-10-03 | S0093 | The Halaib Triangle is an area of land measuring 20,580 square kilometres (7,950 mi 2 ) located on the Northeast African coast of the Red Sea . |
 
 Sources:
+
+- S0093: https://en.wikipedia.org/w/index.php?title=Halaib_Triangle&oldid=1377784992
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

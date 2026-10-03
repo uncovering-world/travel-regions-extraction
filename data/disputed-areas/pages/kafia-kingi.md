@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Sudan (de facto control); South Sudan (de jure) | secondary | 2026-10-03 | S0114 | Country ( de jure ) South Sudan Country ( de facto ) Sudan |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0114 | The area was due to be given to South Sudan under the terms of the 2005 Comprehensive Peace Agreement which required use of the Sudan "north–south line" as of 1 January 1956. |
+| origin | In 1960 the Kafia Kingi area was transferred north of the north-south line and added to Darfur. | secondary | 2026-10-03 | S0114 | It was not until 1960 that the Kafia Kingi area was transferred north of that line and added to Darfur |
+| on_the_ground | Sudan controls all or most of the area; South Sudanese forces have at times briefly controlled large portions. | secondary | 2026-10-03 | S0114 | Sudan controls all or most of this area today, though at times independent South Sudan forces have briefly controlled large portions. |
+| inhabited | yes | secondary | 2026-10-03 | S0114 | Population  • Estimate  (2010) 16,000 |
+| area_km2 | 12500 | secondary | 2026-10-03 | S0114 | Total 4,800 sq mi (12,500 km 2 ) |
 
 Sources:
+
+- S0114: https://en.wikipedia.org/w/index.php?title=Kafia_Kingi&oldid=1377801384

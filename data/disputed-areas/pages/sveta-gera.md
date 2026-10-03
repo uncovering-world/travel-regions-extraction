@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Slovenia; Croatia (the summit is the subject of a border dispute between them) | secondary | 2026-10-03 | S0228 | It is located along the border between southeastern Slovenia and Croatia , and the summit is subject to a border dispute between the two nations . |
+| kind | line_position | secondary | 2026-10-03 | S0064 | The Tribunal declared that in the Trdinov Vrh/Sveta Gera area, the border follows the cadastral limits. The barracks are on Croatian territory; however, the Tribunal "observes that it has no jurisdiction to address Croatia's request for a declaration as to the presence of Slovenian civilian and military personnel in that area". |
+| origin | The Yugoslav army left the summit barracks in early 1991; in June 1991 Slovenian soldiers moved in on the basis of an oral agreement between the presidents of Slovenia and Croatia. | secondary | 2026-10-03 | S0228 | The barracks were used by the Yugoslav People's Army (JNA) until early 1991 when its soldiers withdrew from the site following breakup of Yugoslavia . In June of the same year, Slovenian soldiers entered barracks on the basis of an oral agreement between Presidents of Slovenia and Croatia, Milan Kučan and Franjo Tuđman . |
+| on_the_ground | An old Yugoslav army barracks on the summit is used as an outpost by the Slovenian Army. | secondary | 2026-10-03 | S0064 | An old Yugoslav People's Army barracks building stands there that is used as an outpost by the Slovenian Army . |
 
 Sources:
+
+- S0064: https://en.wikipedia.org/w/index.php?title=Croatia%E2%80%93Slovenia_border_disputes&oldid=1377212104
+- S0228: https://en.wikipedia.org/w/index.php?title=Sveta_Gera&oldid=1327081003

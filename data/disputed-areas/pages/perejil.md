@@ -4,5 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Spain; Morocco (each claims the islet; its sovereignty is disputed between them) | secondary | 2026-10-03 | S0180 | The islet's sovereignty is disputed by Morocco and Spain . |
+| kind | own_regime | secondary | 2026-10-03 | S0181 | The United States mediated the situation, that eventually returned to the status quo ante bellum . All Spanish troops were withdrawn, and the island remains unoccupied but claimed by both sides. |
+| origin | Little known until 11 July 2002, when a group of Moroccan soldiers set up a base on the islet and set off the Perejil crisis. | secondary | 2026-10-03 | S0180 | Local Moroccan shepherds used it for grazing livestock, but the vast majority of Spaniards and Moroccans had not heard of the islet until 11 July 2002, when a group of Moroccan soldiers set up a base on the islet. |
+| on_the_ground | Unoccupied: neither Spain nor Morocco keeps anyone on the islet, and both claim it. | secondary | 2026-10-03 | S0284 | both countries claim Isla Perejil (Leila Island), which remains unoccupied but was the site of a military standoff in 2002 |
+| inhabited | no | secondary | 2026-10-03 | S0180 | also known as Parsley Island , is a small, uninhabited, rocky islet located approximately 250 metres (820 ft) off the coast of Morocco and about 6 km from the southern coast of Spain. |
+| area_km2 | 0.15 | secondary | 2026-10-03 | S0180 | The island is about 480 by 480 metres (1,575 by 1,575 feet) in size, with an area of 15 ha or 0.15 square kilometres (0.06 sq mi). |
 
 Sources:
+
+- S0180: https://en.wikipedia.org/w/index.php?title=Perejil_Island&oldid=1375861116
+- S0181: https://en.wikipedia.org/w/index.php?title=Perejil_Island_crisis&oldid=1376169814
+- S0284: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/europe/sp.json

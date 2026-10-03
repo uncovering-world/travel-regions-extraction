@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Guyana (controls, as part of six of its regions); Venezuela (claims; controls Ankoko Island) | secondary | 2026-10-03 | S0092 | The territory, excluding the Venezuelan-controlled Ankoko Island , is controlled by Guyana as part of six of its regions , [ note 1 ] based on the 1899 Paris Arbitral Award . It is also claimed by Venezuela as the Guayana Esequiba State. |
+| kind | paper_claim | secondary | 2026-10-03 | S0092 | The territory, excluding the Venezuelan-controlled Ankoko Island , is controlled by Guyana as part of six of its regions , [ note 1 ] based on the 1899 Paris Arbitral Award . It is also claimed by Venezuela as the Guayana Esequiba State. |
+| origin | Venezuela brought the dispute to the United Nations in 1962, which led to the Geneva Agreement of 17 February 1966. | secondary | 2026-10-03 | S0092 | In 1962, Venezuela brings the memorandum and territory dispute to the United Nations , which resulted in the Geneva Agreement , signed by Venezuela, the UK, and British Guiana on February 17, 1966. |
+| on_the_ground | Controlled by Guyana under the 1899 Paris Arbitral Award, except Ankoko Island, which Venezuela controls. | secondary | 2026-10-03 | S0092 | The territory, excluding the Venezuelan-controlled Ankoko Island , is controlled by Guyana as part of six of its regions , [ note 1 ] based on the 1899 Paris Arbitral Award . |
+| inhabited | yes | secondary | 2026-10-03 | S0092 | In 2023, the population of Essequibo was estimated to be around 125,000 inhabitants, 15.8% of the total population of Guyana. |
+| area_km2 | 159500 | secondary | 2026-10-03 | S0092 | a 159,500 km 2 (61,600 sq mi) area west of the Essequibo River |
 
 Sources:
+
+- S0092: https://en.wikipedia.org/w/index.php?title=Guyana%E2%80%93Venezuela_territorial_dispute&oldid=1375706008

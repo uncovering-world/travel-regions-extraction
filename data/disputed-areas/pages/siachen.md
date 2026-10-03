@@ -4,6 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | India (administers); Pakistan (claims) | secondary | 2026-10-03 | S0208 | Karakoram , Ladakh (administered by India , claimed by Pakistan ) |
+| kind | no_agreed_boundary | secondary | 2026-10-03 | S0209 | Following the UN-mediated ceasefire in 1949, the line between India and Pakistan was demarcated up to point NJ9842 at the foot of the Siachen Glacier. The largely inaccessible terrain beyond this point was not demarcated, |
+| origin | India captured the Siachen Glacier in 1984 (Operation Meghdoot). | secondary | 2026-10-03 | S0209 | The conflict was started in 1984 by India's successful capture of the Siachen Glacier as part of Operation Meghdoot , and continued with Operation Rajiv in 1987. |
+| on_the_ground | Both countries keep a permanent military presence in the region at over 6,000 m. | secondary | 2026-10-03 | S0208 | Both countries maintain a permanent military presence in the region at a height of over 6,000 m (20,000 ft). |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0208 | Aside from the Indian and Pakistani military presence, the glacier region is unpopulated. |
+| traveller_access | expedition_only | secondary | 2026-10-03 | S0208 | Since September 2007, India has opened up limited mountaineering and trekking expeditions to the area. |
+| area_km2 | 2500 | secondary | 2026-10-03 | S0209 | India gains control of 2,500 km 2 (970 sq mi) |
 | ne_name | Siachen Glacier | machine | 2026-10-03 | NE |  |
 | ne_type | Indeterminate | machine | 2026-10-03 | NE |  |
 | ne_note | Claimed by Pakistan and India | machine | 2026-10-03 | NE |  |
@@ -15,4 +22,6 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0208: https://en.wikipedia.org/w/index.php?title=Siachen_Glacier&oldid=1376903985
+- S0209: https://en.wikipedia.org/w/index.php?title=Siachen_conflict&oldid=1376680516
 - WD: https://www.wikidata.org/

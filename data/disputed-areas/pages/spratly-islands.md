@@ -4,6 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | China (PRC), Taiwan (ROC), Vietnam, the Philippines and Malaysia (each occupies features with military forces); Brunei (claims an exclusive economic zone in the south-east, including Louisa Reef) | secondary | 2026-10-03 | S0221 | Some of the islands have civilian settlements, but of the approximately 45 islands, cays, reefs and shoals that are occupied, all contain structures that are occupied by military forces from Malaysia, China (PRC) , Taiwan (ROC) , the Philippines, and Vietnam. Additionally, Brunei has claimed an exclusive economic zone in the southeastern part of the Spratly Islands, which includes the uninhabited Louisa Reef . |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0221 | The islands are largely uninhabited, but offer rich fishing grounds and may contain significant oil and natural gas reserves, and as such are important to the claimants in their attempts to establish international boundaries. |
+| origin | On its surrender in 1945 Japan handed the Spratlys (with the Paracels) to the Republic of China, which the Allied powers had assigned to receive Japanese surrenders in the area. | secondary | 2026-10-03 | S0222 | Upon its surrender in 1945 , Japan handed the Paracels and Spratlys to Republic of China as the Allied powers had assigned the Republic of China to receive Japanese surrenders in that area. |
+| on_the_ground | A diplomatic stalemate with military occupation of the disputed features: all claimants except Brunei occupy some of them. | secondary | 2026-10-03 | S0222 | The dispute is characterized by diplomatic stalemate and the employment of military pressure techniques (such as military occupation of disputed territory) in the advancement of national territorial claims. All except Brunei occupy some of the maritime features. |
+| inhabited | yes | secondary | 2026-10-03 | S0221 | Some of the islands have civilian settlements, but of the approximately 45 islands, cays, reefs and shoals that are occupied, all contain structures that are occupied by military forces from Malaysia, China (PRC) , Taiwan (ROC) , the Philippines, and Vietnam. |
+| area_km2 | 2 | secondary | 2026-10-03 | S0221 | the islands contain less than 200 ha (500 acres) of naturally occurring land area that is spread over hundreds of square km of the South China Sea. |
 | ne_name | Spratly Is. | machine | 2026-10-03 | NE |  |
 | ne_type | Indeterminate | machine | 2026-10-03 | NE |  |
 | ne_note | Claimed by China, Taiwan, Malaysia, the Philippines, and Brunei | machine | 2026-10-03 | NE |  |
@@ -15,4 +21,6 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0221: https://en.wikipedia.org/w/index.php?title=Spratly_Islands&oldid=1375573588
+- S0222: https://en.wikipedia.org/w/index.php?title=Spratly_Islands_dispute&oldid=1369621305
 - WD: https://www.wikidata.org/

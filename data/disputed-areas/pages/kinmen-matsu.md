@@ -4,5 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Republic of China (controls); People's Republic of China (claims) | secondary | 2026-10-03 | S0142 | The government of the People's Republic of China claims the entire island of Taiwan, as well as a number of minor islands, such as Penghu , Kinmen , and Matsu , that are controlled by the Republic of China. |
+| kind | de_facto_state | secondary | 2026-10-03 | S0118 | is a group of islands and a county of the Republic of China (Taiwan) , only 10 km (6 mi) east from the city of Xiamen in Fujian , located at the southeastern coast of the People's Republic of China , from which they are separated by Xiamen Bay |
+| origin | The Kuomintang retreated to Taiwan at the end of 1949 but retained the Matsu Islands and most of Kinmen County. | secondary | 2026-10-03 | S0152 | The KMT retreated from mainland China to Taiwan at the end of 1949, but retained some of the offshore parts of Lienchiang County (namely, the Matsu Islands), and also most of Kinmen County (Quemoy). |
+| on_the_ground | Kinmen's decades-long military administration has ended; travel restrictions between Kinmen and the main island of Taiwan were lifted in 1994. | secondary | 2026-10-03 | S0118 | Travel restrictions between Kinmen and the main island of Taiwan were lifted in 1994 following the end of decades-long military administration over Kinmen. |
+| inhabited | yes | secondary | 2026-10-03 | S0118 | Population   (March 2020)  • Total 127,723 |
+| traveller_access | open | secondary | 2026-10-03 | S0118 | The island was returned to the civilian government in the mid-1990s, after which travel to and from it was allowed. |
 
 Sources:
+
+- S0118: https://en.wikipedia.org/w/index.php?title=Kinmen&oldid=1374603563
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0152: https://en.wikipedia.org/w/index.php?title=Matsu_Islands&oldid=1374603666

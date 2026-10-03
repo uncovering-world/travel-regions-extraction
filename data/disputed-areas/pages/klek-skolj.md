@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Bosnia and Herzegovina; Croatia (the tip of Klek is disputed between them) | secondary | 2026-10-03 | S0119 | that lies directly across the eponymous village of Klek in Croatia , is disputed between Bosnia and Herzegovina and Croatia; they last negotiated its status in the 1999 Neum Agreement |
+| kind | line_position | secondary | 2026-10-03 | S0149 | The Neum Agreement on the temporary border was signed by Franjo Tuđman and Alija Izetbegović , and has not been ratified due to the emergence of the controversy surrounding the ownership of these two islands and the tip of the Klek peninsula |
+| origin | A 1999 border agreement between Presidents Tuđman and Izetbegović moved the border near Neum from the coast further into Mali Ston Bay, placing the two islets under Bosnia-Herzegovina sovereignty. | secondary | 2026-10-03 | S0039 | In 1999, a border agreement between former Croatian President Franjo Tuđman and President of Bosnia and Herzegovina Alija Izetbegović moved the Croatia – Bosnia and Herzegovina border near Neum from the very coast (during SFR Yugoslavia era and confirmed by the Badinter Arbitration Committee ) further into the sea waters of the Mali Ston Bay , placing two Croatian islands (Mali and Veliki Škoj , incidentally translated into English as Little and Big Island ) under Bosnia-Herzegovina sovereignty. |
+| on_the_ground | The 1999 treaty never entered into force; Croatia continues to administer areas that it assigns to Bosnia and Herzegovina. | secondary | 2026-10-03 | S0039 | The treaty was signed by the two former presidents, Alija Izetbegović and Franjo Tuđman , but it was never ratified by the respective parliaments, therefore it never entered into force. Croatia continues to administer areas that the deal assigns to Bosnia and Herzegovina. |
+| inhabited | no | secondary | 2026-10-03 | S0149 | is uninhabited islet in the Bay of Mali Ston , located in Bosnia and Herzegovina , and with the nearby islet of Veliki Školj makes the only two Bosnia and Herzegovina's islands in the Adriatic Sea |
 
 Sources:
+
+- S0039: https://en.wikipedia.org/w/index.php?title=Bosnia_and_Herzegovina%E2%80%93Croatia_border&oldid=1371402789
+- S0119: https://en.wikipedia.org/w/index.php?title=Klek_%28peninsula%29&oldid=1364041456
+- S0149: https://en.wikipedia.org/w/index.php?title=Mali_%C5%A0kolj&oldid=1364049353

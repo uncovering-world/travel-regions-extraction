@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Thailand; Malaysia | secondary | 2026-10-03 | S0148 | There are two stretches of the Malaysia–Thailand border which is subject to dispute. The first involves the land border in the Bukit Jeli (Jeli Hill) at the headwaters of the Golok River and the second involves the continental shelf boundary in the Gulf of Thailand. |
+| kind | line_position | secondary | 2026-10-03 | S0148 | The alignment of an 8.5 km stretch of the land border in the area known as Bukit Jeli (Jeli Hill) near the headwaters of the Golok River is currently being disputed by both countries. |
+| origin | The dispute arose in the 1990s when demarcation of the land border was almost complete. | secondary | 2026-10-03 | S0148 | The dispute arose in the 1990s when demarcation work for the land border almost reached completion. |
+| on_the_ground | Negotiations continue in the joint subcommittee on co-operation along the border. | secondary | 2026-10-03 | S0148 | Negotiations to resolve the dispute through the joint subcommittee on co-operation along the border is on-going. |
+| area_km2 | 0.42 | secondary | 2026-10-03 | S0148 | The resulting disputed territory has an area of 42 hectares. |
 
 Sources:
+
+- S0148: https://en.wikipedia.org/w/index.php?title=Malaysia%E2%80%93Thailand_border&oldid=1370664960

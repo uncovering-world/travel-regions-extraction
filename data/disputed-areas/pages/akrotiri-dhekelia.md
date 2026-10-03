@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United Kingdom (sovereign, administers); Cyprus (contests the extent of UK sovereignty) | secondary | 2026-10-03 | S0010 | The UK government does not recognise Cypriot claims that the UK's sovereignty in the areas is limited. |
+| kind | lease_or_base | secondary | 2026-10-03 | S0010 | The areas, which include British military bases and installations that were formerly part of the Crown colony of Cyprus , were retained by the British under the 1960 treaty of independence |
+| origin | Created in 1960 by the London and Zürich Agreements, when Cyprus became independent. | secondary | 2026-10-03 | S0010 | The Sovereign Base Areas were created in 1960 by the London and Zürich Agreements , when Cyprus achieved independence from the British Empire , as recorded by the United Nations in 1960 as treaty 5476. |
+| on_the_ground | Normally no passport check at the boundary between the base areas and the Republic of Cyprus. | secondary | 2026-10-03 | S0010 | There is normally no passport check at the border from Akrotiri or Dhekelia to Cyprus. |
+| inhabited | yes | secondary | 2026-10-03 | S0010 | Approximately 18,195 people live in the areas. |
+| traveller_access | open | secondary | 2026-10-03 | S0010 | There is normally no passport check at the border from Akrotiri or Dhekelia to Cyprus. Perhaps to help reduce any tensions in the area, outside of the bases much of the territory is indistinguishable from that controlled by Cyprus and casual visitors may not realise that they have crossed an international border. |
+| area_km2 | 254 | secondary | 2026-10-03 | S0010 | Akrotiri and Dhekelia cover 3% of the land area of Cyprus, a total of 254 km 2 |
 
 Sources:
+
+- S0010: https://en.wikipedia.org/w/index.php?title=Akrotiri_and_Dhekelia&oldid=1373603021

@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Burundi (Ngozi province); Rwanda (Butare province) - each side claims Sabanerwa | secondary | 2026-10-03 | S0262 | Burundi's Ngozi province and Rwanda's Butare province dispute the two-kilometer-square hilly farmed area of Sabanerwa in the Rukurazi Valley where the Akanyaru/Kanyaru River shifted its course southward after heavy rains in 1965 around Kibinga Hill in Rwanda's Butare Province |
+| kind | line_position | secondary | 2026-10-03 | S0295 | On the Burundian side, residents of Rukurazi valley, in Mwumba Commune in Ngozi, say although River Kanyaru initially flowed around Kibinga Hill in Rwanda's Butare Province in the 1960s, it changed course following heaving rains in 1965. Since then, they say, the river has flowed around Sabanerwa, making the disputed land their own. |
+| origin | In 1965 the Akanyaru River changed course after heavy rains. | secondary | 2026-10-03 | S0142 | In 1965, the Akanyaru River changed course due to heavy rains. |
+| on_the_ground | As reported in January 2006: Rwandan troops massed at the riverbank to stop Burundian farmers from cultivating the land. | secondary | 2026-10-03 | S0295 | Birutegusa said during the incident, Rwandan troops, accompanied by the governor of Rwanda's Butare province, massed at the riverbank to prevent Burundians from cultivating the land. |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0262: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/by.json
+- S0295: https://web.archive.org/web/20240217075910/https://www.thenewhumanitarian.org/report/57979/burundi-rwanda-tension-increases-ongoing-land-dispute

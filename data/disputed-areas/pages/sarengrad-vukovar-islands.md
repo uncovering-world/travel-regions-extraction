@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Serbia (has held both islands since the 1990s war); Croatia (claims; the islands were left out when the surrounding region was rejoined with Croatia in 1998) | secondary | 2026-10-03 | S0106 | After the Erdut Agreement in 1998, Eastern Slavonia, Baranja and Western Srem were rejoined with Croatia, but the island of Vukovar was left under Serbian military occupation, as was the Šarengrad island . |
+| kind | line_position | secondary | 2026-10-03 | S0063 | While Serbia claims that the thalweg of the Danube valley and the centreline of the river represent the international border between the two countries, Croatia disagrees, claiming that the international border lies along the boundaries of the cadastral municipalities located along the river—departing from the course at several points along a 140-kilometre (87 mi) section. |
+| origin | The Danube border dispute first arose in 1947 and was left unresolved while Yugoslavia existed. | secondary | 2026-10-03 | S0063 | The dispute first arose in 1947, but was left unresolved during the existence of the Socialist Federal Republic of Yugoslavia . |
+| on_the_ground | On Šarengrad Island Serbian police replaced the army in 2004; Croatian citizens reach it through the Bačka Palanka - Ilok border crossing. | secondary | 2026-10-03 | S0104 | In 2004 Serbia withdrew its army from the island, which has been replaced with Serbian police. Any citizen of Croatia can approach that island crossing the border Bačka Palanka - Ilok. |
+| traveller_access | open | secondary | 2026-10-03 | S0063 | The island is accessible to organised transport by boats sailing from Vukovar. No border controls were involved in the process. |
 
 Sources:
+
+- S0063: https://en.wikipedia.org/w/index.php?title=Croatia%E2%80%93Serbia_border_dispute&oldid=1363988244
+- S0104: https://en.wikipedia.org/w/index.php?title=Island_of_%C5%A0arengrad&oldid=1342950350
+- S0106: https://en.wikipedia.org/w/index.php?title=Island_of_Vukovar&oldid=1364037884

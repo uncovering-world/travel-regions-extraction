@@ -4,6 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Kosovo (independent; independence recognised by 110 UN member states); Serbia (claims) | secondary | 2026-10-03 | S0124 | Status Independent , claimed by Serbia , independence recognised by 110 UN member states |
+| kind | de_facto_state | secondary | 2026-10-03 | S0124 | Serbia does not officially recognise Kosovo as a sovereign state and continues to claim it as its constituent Autonomous Province of Kosovo and Metohija ; however, it accepts the governing authority of the Kosovo institutions as part of the 2013 Brussels Agreement |
+| origin | Kosovo unilaterally declared its independence from Serbia on 17 February 2008. | secondary | 2026-10-03 | S0124 | Kosovo unilaterally declared its independence from Serbia on 17 February 2008 |
+| on_the_ground | Kosovo's own institutions govern; Serbia accepts their governing authority under the 2013 Brussels Agreement while continuing to claim the territory. | secondary | 2026-10-03 | S0124 | Serbia does not officially recognise Kosovo as a sovereign state and continues to claim it as its constituent Autonomous Province of Kosovo and Metohija ; however, it accepts the governing authority of the Kosovo institutions as part of the 2013 Brussels Agreement |
+| inhabited | yes | secondary | 2026-10-03 | S0124 | It covers an area of 10,887 km 2 (4,203 sq mi) and has a population of nearly 1.6 million, of whom the vast majority (approximately 92%) are ethnic Albanians |
+| traveller_access | open | primary | 2026-10-03 | S0306 | You can visit Kosovo without a visa for up to 90 days, for business or tourism. |
+| area_km2 | 10887 | secondary | 2026-10-03 | S0124 | It covers an area of 10,887 km 2 (4,203 sq mi) and has a population of nearly 1.6 million, of whom the vast majority (approximately 92%) are ethnic Albanians |
 | ne_name | Kosovo | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_area_km2 | 7193 | machine | 2026-10-03 | NE |  |
@@ -12,3 +19,5 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0124: https://en.wikipedia.org/w/index.php?title=Kosovo&oldid=1376708508
+- S0306: https://www.gov.uk/foreign-travel-advice/kosovo/entry-requirements

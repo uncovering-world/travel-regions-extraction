@@ -4,6 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Spain (administers as an autonomous city); Morocco (claims) | secondary | 2026-10-03 | S0156 | Like the autonomous city of Ceuta and Spain's other territories along the northern African coast , Melilla is subject to an irredentist claim by Morocco. |
+| kind | paper_claim | secondary | 2026-10-03 | S0284 | Spain-Morocco : Morocco protests Spain's control over the coastal enclaves of Ceuta, Melilla, and the islands of Penon de Velez de la Gomera, Penon de Alhucemas, and Islas Chafarinas, and surrounding waters |
+| origin | Seized by Christians in 1497 and held at first as a condominium between the House of Medina Sidonia and the Crown of Castile. | secondary | 2026-10-03 | S0156 | Passed over among several powers during Antiquity and the middle ages, the place was forsaken amid strife between the Kingdoms of Fez and Tlemcen , and it was seized by Christians in 1497, constituting a condominium between the House of Medina Sidonia and the Crown of Castile until 1556. |
+| on_the_ground | A special territory of an EU member state: movements between Melilla and the rest of the EU are subject to specific rules under Spain's accession agreement to the Schengen Convention. | secondary | 2026-10-03 | S0156 | Melilla is one of the special territories of the member states of the European Union . Movements to and from the rest of the EU and Melilla are subject to specific rules, provided for in the Accession Agreement of Spain to the Schengen Convention . |
+| inhabited | yes | secondary | 2026-10-03 | S0156 | As of 2025, Melilla had a population of 87,067. |
+| traveller_access | open | secondary | 2026-10-03 | S0156 | The port of Melilla offers several daily connections to Almería and Málaga . Melilla Airport offers daily flights to Almería, Málaga and Madrid . |
+| area_km2 | 12.3 | secondary | 2026-10-03 | S0156 | It has an area of 12.3 km 2 (4.7 sq mi). |
 | ne_name | Melilla | machine | 2026-10-03 | NE |  |
 | ne_type | Geo subunit | machine | 2026-10-03 | NE |  |
 | ne_area_km2 | 14 | machine | 2026-10-03 | NE |  |
@@ -16,4 +23,6 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0156: https://en.wikipedia.org/w/index.php?title=Melilla&oldid=1378047241
+- S0284: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/europe/sp.json
 - WD: https://www.wikidata.org/

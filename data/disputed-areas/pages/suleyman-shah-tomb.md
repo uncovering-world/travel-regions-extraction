@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Turkey; Syria (holds that the first relocation ended any Turkish rights over the sovereignty of the site and that the 2015 relocation breaches the Treaty of Ankara) | secondary | 2026-10-03 | S0238 | The Syrian position is that the first relocation relinquished any Turkish rights over the sovereignty of the site, and the latest relocation of the tomb in February 2015 (to its third location) is a breach of the Treaty of Ankara. |
+| kind | lease_or_base | secondary | 2026-10-03 | S0238 | Under the Treaty of Lausanne (1923), breaking up the Ottoman Empire into Turkey , Syria, and other states, the tomb site remains the property of Turkey. |
+| origin | Article 9 of the 1921 Treaty of Ankara between France and Turkey left the tomb, with its appurtenances, as Turkish property, with the right to appoint guardians and fly the Turkish flag. | secondary | 2026-10-03 | S0238 | Article 9 of the Treaty of Ankara , signed by France and Turkey in 1921, states that the tomb of Suleyman Shah (at its first location) "shall remain, with its appurtenances, the property of Turkey, who may appoint guardians for it and may hoist the Turkish flag there". |
+| on_the_ground | The tomb is now located in Turkish-controlled territory 180 m inside Syria. | secondary | 2026-10-03 | S0238 | Since then, the tomb has been located in Turkish-controlled territory 180 m (590 ft) inside Syria, |
 
 Sources:
+
+- S0238: https://en.wikipedia.org/w/index.php?title=Tomb_of_Suleyman_Shah&oldid=1376972689

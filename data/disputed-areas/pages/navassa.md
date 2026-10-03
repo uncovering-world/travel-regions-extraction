@@ -4,5 +4,17 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United States (administers through the Fish and Wildlife Service); Haiti (claims) | secondary | 2026-10-03 | S0164 | Located east of Jamaica , south of Cuba , and 40 nautical miles (74 km; 46 mi) west of Jérémie on the Tiburon Peninsula of Haiti, it is subject to an ongoing territorial dispute between Haiti and the United States, the latter of which administers the island through the U.S. Fish and Wildlife Service . |
+| kind | paper_claim | secondary | 2026-10-03 | S0287 | US-Haiti : Haiti claims US-administered Navassa Island; the dispute dates to 1857, when the US claimed the Navassa Island under the 1856 Guano Act |
+| origin | Navassa became a US insular area in October 1857, when a company representative took possession of it for the United States under the Guano Act of 1856 (the US account). | primary | 2026-10-03 | S0298 | Navassa became a U.S. insular area in October 1857, when a representative of the Baltimore Fertilizer Company took possession of the island in the name of the United States pursuant to the Guano Act of August 18, 1856 (Title 48, U.S. Code, sections 1411-19). |
+| on_the_ground | Administered by the US Fish and Wildlife Service since 3 December 1999. | primary | 2026-10-03 | S0298 | As of December 3, 1999, the Office of Insular Affairs ceased to have any administrative responsibility for Navassa. A Secretary's order of that date transferred full administration of Navassa from the Office of Insular Affairs to the U.S. Fish and Wildlife Service. |
+| inhabited | no | secondary | 2026-10-03 | S0164 | Transient Haitian fishers and others camp on Navassa Island. Still, it is uninhabited. |
+| traveller_access | closed | primary | 2026-10-03 | S0300 | Navassa Island NWR is closed to the public. Access is extremely hazardous and there are no beaches on Navassa since island rises abruptly from the sea with cliffs reaching heights of 20 meters or more. |
+| area_km2 | 5.4 | secondary | 2026-10-03 | S0164 | Navassa Island is about 2.1 square miles (5.4 km 2 ) in area. |
 
 Sources:
+
+- S0164: https://en.wikipedia.org/w/index.php?title=Navassa_Island&oldid=1376617969
+- S0287: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/north-america/us.json
+- S0298: https://www.doi.gov/oia/islands/navassa
+- S0300: https://www.fws.gov/refuge/navassa-island/visit-us

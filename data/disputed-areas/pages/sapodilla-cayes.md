@@ -4,6 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Belize (administers; applicant in the pending ICJ case on sovereignty over the cayes); Honduras (claims; respondent); Guatemala (claims; admitted to the case as a non-party intervener in March 2026) | primary | 2026-10-03 | S0325 | Sovereignty over the Sapodilla Cayes/Cayos Zapotillos (Belize v. Honduras) - The Court grants Guatemala permission to intervene in the proceedings as a non-party |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0198 | They are administered by Belize , but Guatemala claims that the Belize–Guatemala maritime boundary is northwest of the cayes. |
+| origin | Honduras lays claim to the cayes in its 1982 constitution. | secondary | 2026-10-03 | S0198 | Honduras also lays a claim to the Sapodilla Cayes in its 1982 constitution. |
+| on_the_ground | A Belizean national marine reserve (established 1996), administered by the Fisheries Department of Belize. | secondary | 2026-10-03 | S0198 | Sapodilla Cayes Marine Reserve is a national protected marine reserve declared over the Sapodilla Cayes. It was established in 1996 and is administered by the Fisheries Department of Belize. |
+| inhabited | no | secondary | 2026-10-03 | S0198 | is an uninhabited atoll in the Gulf of Honduras , in the Toledo District of Belize . |
 | ne_name | Sapodilla Cayes | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. by Belize; Claimed by Honduras and Guatemala | machine | 2026-10-03 | NE |  |
@@ -13,3 +18,5 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0198: https://en.wikipedia.org/w/index.php?title=Sapodilla_Cayes&oldid=1364198189
+- S0325: https://www.icj-cij.org/case/185

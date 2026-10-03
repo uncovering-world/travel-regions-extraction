@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Brazil (administers; maintains effective sovereignty); Uruguay (claims) | secondary | 2026-10-03 | S0043 | The Brazilian Island has historically been claimed by both Brazil and Uruguay; however, Brazil maintains full and effective sovereignty over it. |
+| kind | line_position | secondary | 2026-10-03 | S0043 | Brazilian authorities assert that the island lies within the municipality of Barra do Quaraí, in the state of Rio Grande do Sul, while Uruguayan officials have historically included it as part of Bella Unión, in the Artigas Department. |
+| origin | Brazil grounds its title in the 1851 Treaty and in decades of peaceful occupation and administration. | secondary | 2026-10-03 | S0043 | Nonetheless, Brazil’s claim is grounded in the 1851 Treaty and supported by decades of peaceful occupation and administration. |
+| on_the_ground | Neither country actively enforces its claim on the island, for example by deploying military forces. | secondary | 2026-10-03 | S0043 | However, neither country has made efforts to actively enforce its claims over the island, such as deploying military forces. |
+| inhabited | no | secondary | 2026-10-03 | S0043 | Since then, the island has been uninhabited and unoccupied. |
+| area_km2 | 2.5 | secondary | 2026-10-03 | S0043 | Area 2.5 km 2 (0.97 sq mi) (approximate) |
 
 Sources:
+
+- S0043: https://en.wikipedia.org/w/index.php?title=Brazilian_Island&oldid=1363903573

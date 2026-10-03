@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Israel (occupies; expanded its occupation to 570-600 square kilometres in 2026); Lebanon | secondary | 2026-10-03 | S0109 | While Israel had already been occupying some pieces of Lebanese territory, [ a ] the Israeli Defense Forces expanded its military occupation within Lebanon to a total of 570–600 square kilometers (220–232 sq mi) by the 2026 Israel–Lebanon temporary ceasefire |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0109 | On 15 June 2026, Israeli Prime Minister Benjamin Netanyahu announced that Israeli forces will continue to occupy southern Lebanon, stating that, "We will stay in the Lebanon security buffer zone for as long as necessary. |
+| origin | Israel began a ground invasion of Lebanon on 16 March 2026, as part of the 2026 Lebanon war. | secondary | 2026-10-03 | S0109 | On 16 March 2026, Israel began a ground invasion in Lebanon , as part of the 2026 Lebanon war , Hezbollah–Israel conflict , and broader Middle Eastern crisis |
+| on_the_ground | Life under Israeli occupation is marked by arrests, searches, strict curfews and restricted freedom of movement. | secondary | 2026-10-03 | S0109 | Life under occupation has been characterized by arrests , searches , strict curfews and restricted freedom of movement |
+| inhabited | yes | secondary | 2026-10-03 | S0109 | Despite Israeli requests to evacuate most of the villages, towns and cities occupied by the Israeli Defense Forces, some citizens in areas which were non-Shia-majority were allowed to stay in their residences |
 
 Sources:
+
+- S0109: https://en.wikipedia.org/w/index.php?title=Israeli_occupation_of_Southern_Lebanon_%282026%29&oldid=1373416657

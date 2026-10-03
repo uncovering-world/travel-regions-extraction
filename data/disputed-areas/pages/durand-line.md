@@ -4,5 +4,10 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Pakistan (the line is internationally recognised as its western border); Afghanistan (largely does not recognise it) | secondary | 2026-10-03 | S0075 | The Durand Line is internationally recognized as the western border of Pakistan, although it remains largely unrecognised in Afghanistan. |
+| kind | paper_claim | secondary | 2026-10-03 | S0075 | However, a map in an article from the Pashtun-dominated Government of Afghanistan not only refuses to recognise the Durand Line as the international border between the two countries, it claims that the Pashtun territories of Pakistan rightly belong to Afghanistan. |
+| origin | The line, as modified and ratified by the Anglo-Afghan Treaty of 1919, was inherited by Pakistan in 1947. | secondary | 2026-10-03 | S0075 | The line, as modified and ratified by the Anglo-Afghan Treaty of 1919 , was inherited by Pakistan in 1947, following its independence. |
 
 Sources:
+
+- S0075: https://en.wikipedia.org/w/index.php?title=Durand_Line&oldid=1376779820

@@ -4,5 +4,16 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United Kingdom (administers as a British overseas territory); United States (joint UK-US military base); Mauritius (treaty to transfer sovereignty signed 22 May 2025) | secondary | 2026-10-03 | S0069 | It has been used as a joint UK–U.S. military base since the 1970s, following the expulsion of the Chagossians by the UK government. The Chagos Islands are a British overseas territory , though a treaty to transfer sovereignty from the UK to Mauritius was signed on 22 May 2025, with a provision that the military base at the island would remain under British control for at least 99 years. |
+| kind | lease_or_base | secondary | 2026-10-03 | S0069 | While the naval and airbase facilities on Diego Garcia are leased to the United States, in practice, it operates as a joint UK-US base, with the UK retaining full and continual access. |
+| origin | Part of Mauritius until 1965, when it became part of the newly formed British Indian Ocean Territory. | secondary | 2026-10-03 | S0069 | It remained part of Mauritius until 1965, when it became part of the newly formed British Indian Ocean Territory (BIOT). |
+| on_the_ground | Under British control: the 2025 treaty transferring sovereignty to Mauritius is not ratified, and ratification was suspended in 2026. | secondary | 2026-10-03 | S0044 | A treaty was signed on 22 May 2025 that would formally transfer sovereignty of the territory to Mauritius once ratified, with the Diego Garcia military base remaining under British control during a 99-year lease . Following backlash from United States President Donald Trump in 2026, ratification has been suspended. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0069 | Diego Garcia remained the only inhabited island of the BIOT, with a population of around 4,000 consisting predominantly of military personnel. |
+| traveller_access | restricted | primary | 2026-10-03 | S0302 | British Indian Ocean Territory is a British Overseas Territory. Access is restricted. |
+| area_km2 | 30 | secondary | 2026-10-03 | S0069 | Area 30 km 2 (12 sq mi) |
 
 Sources:
+
+- S0044: https://en.wikipedia.org/w/index.php?title=British_Indian_Ocean_Territory&oldid=1377561588
+- S0069: https://en.wikipedia.org/w/index.php?title=Diego_Garcia&oldid=1377646768
+- S0302: https://www.gov.uk/foreign-travel-advice/british-indian-ocean-territory

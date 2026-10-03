@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Sudan (claims; administers per the article lead); South Sudan (claims) | secondary | 2026-10-03 | S0096 | The entirety of Heglig is claimed by both Sudan and South Sudan, but administered by Sudan. |
+| kind | paper_claim | secondary | 2026-10-03 | S0096 | The entirety of Heglig is claimed by both Sudan and South Sudan, but administered by Sudan. |
+| origin | A 2009 Permanent Court of Arbitration decision placed Heglig outside Abyei without saying whether it belongs to Sudan or South Sudan. | secondary | 2026-10-03 | S0096 | In July 2009, the international organization, Permanent Court of Arbitration (PCA) redefined the boundaries of Abyei , a county that lies between South Sudan and Sudan . The decision placed the Heglig and Bamboo oilfields out of Abyei boundary but did not specify to be belong to the Sudan province of South Kordofan , nor to Upper Nile region, South Sudan and also the decision did not specify oil sharing. |
+| on_the_ground | The Rapid Support Forces seized control of the area on 8 December 2025 during the Sudanese civil war. | secondary | 2026-10-03 | S0096 | The Rapid Support Forces seized control over the area on 8 December 2025 during the ongoing Sudanese civil war . |
+| inhabited | yes | secondary | 2026-10-03 | S0096 | is a small town at the border between the South Kordofan state of Sudan and the Unity State in South Sudan . |
 
 Sources:
+
+- S0096: https://en.wikipedia.org/w/index.php?title=Heglig&oldid=1377788012

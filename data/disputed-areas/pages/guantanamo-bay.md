@@ -4,6 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United States (holds the base under lease); Cuba (the base is on Cuban soil; protests the US presence as illegal) | secondary | 2026-10-03 | S0091 | Since taking power in 1959 , the Cuban government has consistently protested against the U.S. presence on Cuban soil, arguing that the base was imposed on Cuba by force and is illegal under international law. |
+| kind | lease_or_base | secondary | 2026-10-03 | S0091 | Since 1974, the U.S. has paid the Cuban government an annual sum equivalent to $4,085 in 1934 dollars (approximately $98,314 in 2025) to lease the bay. |
+| origin | Leased under a 1903 agreement that has no fixed expiration date. | secondary | 2026-10-03 | S0091 | The 1903 lease agreement, which has no fixed expiration date, was executed in two parts. |
+| on_the_ground | De facto extraterritorial United States territory since 1903, run as a naval base. | secondary | 2026-10-03 | S0091 | It has been de facto extraterritoriality of the U.S. since 1903 as a coaling station and naval base . |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0091 | The military facility has a population of about 6,100, including military personnel, civilian employees, and family members. |
+| traveller_access | restricted | secondary | 2026-10-03 | S0091 | Access to the naval station is very limited and must be pre-approved through the appropriate local chain of command with the commander of the station as the final approval. |
+| area_km2 | 117 | secondary | 2026-10-03 | S0091 | is a United States military base located on 45 square miles (117 km 2 ) of land and water |
 | ne_name | USNB Guantanamo Bay | machine | 2026-10-03 | NE |  |
 | ne_type | Lease | machine | 2026-10-03 | NE |  |
 | ne_note | Leased to U.S.A. by Cuba; Claimed by Cuba | machine | 2026-10-03 | NE |  |
@@ -16,4 +23,5 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0091: https://en.wikipedia.org/w/index.php?title=Guantanamo_Bay_Naval_Base&oldid=1371623597
 - WD: https://www.wikidata.org/

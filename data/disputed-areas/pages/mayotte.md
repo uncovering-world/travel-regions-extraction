@@ -4,6 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | France (administers); Comoros (claims) | secondary | 2026-10-03 | S0154 | UN General Assembly resolutions , which are legally non-binding, have voted not to recognise France's continued rule of Mayotte, and the independent Comoros have never ceased to claim the island. |
+| kind | paper_claim | secondary | 2026-10-03 | S0264 | claims French-administered Mayotte and challenges France's and Madagascar's claims to Banc du Geyser |
+| origin | Mayotte was the only island of the archipelago to vote, in referendums in 1974 and 1976, to keep its link with France and forgo independence. | secondary | 2026-10-03 | S0154 | Mayotte was the only island in the archipelago that voted in referendums in 1974 and 1976 to retain its link with France and forgo independence (with 63.8% and 99.4% of votes respectively). |
+| on_the_ground | Run by France as an overseas department since 31 March 2011. | secondary | 2026-10-03 | S0154 | Mayotte became an overseas department of France ( département d'outre-mer , DOM) on 31 March 2011 following the result of the March 2009 Mahoran status referendum , which was overwhelmingly approved by around 95% of voters. |
+| inhabited | yes | secondary | 2026-10-03 | S0154 | Mayotte's land area is 374 square kilometres (144 sq mi) and, with its 320,901 people according to January 2024 official estimates, |
+| traveller_access | open | primary | 2026-10-03 | S0307 | You can visit Mayotte without a visa for up to 90 days for tourism or business. |
+| area_km2 | 374 | secondary | 2026-10-03 | S0154 | Mayotte's land area is 374 square kilometres (144 sq mi) and, with its 320,901 people according to January 2024 official estimates, |
 | ne_name | Mayotte | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. by France; Claimed by Comoros | machine | 2026-10-03 | NE |  |
@@ -13,3 +20,6 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0154: https://en.wikipedia.org/w/index.php?title=Mayotte&oldid=1378120481
+- S0264: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/cn.json
+- S0307: https://www.gov.uk/foreign-travel-advice/mayotte/entry-requirements

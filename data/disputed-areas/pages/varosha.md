@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Northern Cyprus (controls); Cyprus (de jure territory) | secondary | 2026-10-03 | S0248 | is the southern quarter of Famagusta , a de jure territory of Cyprus , currently under the control of Northern Cyprus . |
+| kind | own_regime | secondary | 2026-10-03 | S0248 | UN Security Council Resolution 550 states that it "considers attempts to settle any part of Varosha by people other than its inhabitants as inadmissible and calls for the transfer of this area to the administration of the United Nations". |
+| origin | Its Greek Cypriot inhabitants fled during the Turkish invasion of 1974, when Famagusta came under Turkish control; the quarter has been abandoned since. | secondary | 2026-10-03 | S0248 | Its Greek Cypriot inhabitants fled during the Turkish invasion of Cyprus in 1974 , when the city of Famagusta came under Turkish control, and it has remained abandoned ever since. |
+| on_the_ground | Parts of Varosha, from the Officers' Club of the Turkish and Turkish Cypriot army to the Golden Sands Hotel, were opened on 8 October 2020. | secondary | 2026-10-03 | S0248 | On 8 October 2020, parts of Varosha were opened from the Officers' Club of Turkish and Turkish Cypriot Army to the Golden Sands Hotel. |
+| traveller_access | open | secondary | 2026-10-03 | S0248 | By 1 January 2022, nearly 400,000 people had visited Varosha since its opening to civilians on 6 October 2020. |
+| area_km2 | 6.19 | secondary | 2026-10-03 | S0248 | The area of Varosha is 6.19 km 2 (2.39 sq mi). |
 
 Sources:
+
+- S0248: https://en.wikipedia.org/w/index.php?title=Varosha%2C_Famagusta&oldid=1377153382

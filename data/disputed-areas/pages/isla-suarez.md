@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Bolivia; Brazil (the island's sovereignty is contested between the two governments) | secondary | 2026-10-03 | S0102 | The island's sovereignty is the object of passive contention between the governments of Brazil and Bolivia, which administer it de jure |
+| kind | line_position | secondary | 2026-10-03 | S0142 | An island in the river Rio Mamoré that serves as a border between Bolivia and Brazil, alongside the other 80 islands that are not assigned to any country. |
+| origin | By the Roboré Agreement of 29 March 1958 Bolivia and Brazil agreed to resolve the dispute over the island's sovereignty in the future. | secondary | 2026-10-03 | S0102 | On March 29, 1958, an agreement was signed between the two countries called the Roboré Agreement, in which, in addition to resolving other disputed issues, it was agreed, in the future, to resolve the dispute over the sovereignty of Suárez Island. |
+| on_the_ground | As of 2009 the island remains supposedly under Bolivian administration, while Brazilian inhabitants of Guajará-Mirim use it for economic activity and hold most of its land. | secondary | 2026-10-03 | S0102 | In 2009, the island continues without a definitive solution regarding its territorial possession, and it remains supposedly under Bolivian administration, despite the fact that the island is a place of economic activity for the Brazilian inhabitants of Guajará-Mirim, who hold most of the island's territory. |
 
 Sources:
+
+- S0102: https://en.wikipedia.org/w/index.php?title=Isla_Su%C3%A1rez&oldid=1364582763
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

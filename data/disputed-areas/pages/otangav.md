@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Cambodia (claims the area as part of Stung Treng Province); Laos | secondary | 2026-10-03 | S0142 | O'Tangav area (claimed as part of Stung Treng Province ) |
+| kind | line_position | secondary | 2026-10-03 | S0046 | In 2017, Cambodian prime minister Hun Sen accused Laotian troops of violating the border. |
+| origin | In 1905 the southern Lao regions of Stung Treng and Ratanakiri were transferred to Cambodia on the basis of their historical affiliation to the Khmer kingdom. | secondary | 2026-10-03 | S0046 | In 1905 the southern Lao regions of Stung Treng and Ratanakiri were transferred to Cambodia based on their historical affiliation to the Khmer kingdom , with a small area going to Vietnam. |
 
 Sources:
+
+- S0046: https://en.wikipedia.org/w/index.php?title=Cambodia%E2%80%93Laos_border&oldid=1369028891
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

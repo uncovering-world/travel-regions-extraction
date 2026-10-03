@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Laos; Thailand | secondary | 2026-10-03 | S0279 | Laos-Thailand : talks continue as of 2018 on completion of demarcation with Thailand but disputes remain over islands in the Mekong River |
+| kind | line_position | secondary | 2026-10-03 | S0281 | Thailand-Laos : talks continue on completion of demarcation with Laos but disputes remain over several islands in the Mekong River |
+| origin | The 1926 Franco-Siamese Convention dealt with sovereignty over the shifting islets in the Mekong. | secondary | 2026-10-03 | S0134 | A minor treaty of 1926 Franco-Siamese Convention have finally settled the micro-sovereignty of the shifting islets within the Mekong River itself. |
 
 Sources:
+
+- S0134: https://en.wikipedia.org/w/index.php?title=Laos%E2%80%93Thailand_border&oldid=1376524512
+- S0279: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/east-n-southeast-asia/la.json
+- S0281: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/east-n-southeast-asia/th.json

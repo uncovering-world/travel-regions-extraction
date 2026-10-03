@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Malaysia (administers Sabah as one of its states); Philippines (retains a dormant claim to the eastern part) | secondary | 2026-10-03 | S0280 | Philippines retains a dormant claim to the eastern part of Malaysia's Sabah State in northern Borneo |
+| kind | paper_claim | secondary | 2026-10-03 | S0167 | The Philippines, presenting itself as the successor state of the Sultanate of Sulu , retains a "dormant claim" on Eastern Sabah on the basis that the territory was only leased to the British North Borneo Company in 1878, and the sovereignty of the sultanate (and subsequently the republic) over the territory was never relinquished. |
+| origin | The Philippine claim rests on the view that the territory was only leased to the British North Borneo Company in 1878 and that the sultanate's sovereignty was never relinquished. | secondary | 2026-10-03 | S0167 | The Philippines, presenting itself as the successor state of the Sultanate of Sulu , retains a "dormant claim" on Eastern Sabah on the basis that the territory was only leased to the British North Borneo Company in 1878, and the sovereignty of the sultanate (and subsequently the republic) over the territory was never relinquished. |
+| on_the_ground | Sabah has been part of the Malaysian federation since 1963; Malaysia holds that its residents exercised self-determination in joining. | secondary | 2026-10-03 | S0167 | and it deems that the residents of Sabah (including Eastern Sabah) exercised their right to self-determination when they joined to form the Malaysian federation in 1963. |
+| inhabited | yes | secondary | 2026-10-03 | S0167 | and it deems that the residents of Sabah (including Eastern Sabah) exercised their right to self-determination when they joined to form the Malaysian federation in 1963. |
 
 Sources:
+
+- S0167: https://en.wikipedia.org/w/index.php?title=North_Borneo_dispute&oldid=1371476391
+- S0280: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/east-n-southeast-asia/my.json

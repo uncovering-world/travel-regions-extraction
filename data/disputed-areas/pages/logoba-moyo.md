@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | South Sudan (Kajo-Keji county); Uganda (Moyo district) | secondary | 2026-10-03 | S0218 | A border dispute emerged in 2005 between communities in the Kajo-Keji county of South Sudan and the Ugandan district of Moyo . |
+| kind | line_position | secondary | 2026-10-03 | S0142 | A 1914 British colonial order defined the international border based on the tribal boundary between the Kuku of Kajokeji (South Sudan) and the Ma'di of Moyo (Uganda). However, the border was never formally demarcated. |
+| origin | A 1914 British colonial order defined the border along the tribal boundary between the Kuku of Kajokeji and the Ma'di of Moyo; it was never formally demarcated. | secondary | 2026-10-03 | S0142 | A 1914 British colonial order defined the international border based on the tribal boundary between the Kuku of Kajokeji (South Sudan) and the Ma'di of Moyo (Uganda). However, the border was never formally demarcated. |
+| on_the_ground | Tensions and incidents of violence along the border forced the suspension of a project to build a road and a communications tower in the area. | secondary | 2026-10-03 | S0218 | Tensions and incidents of violence along the border forced the suspension of a project to construct a road and a communications tower in the area. |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0218: https://en.wikipedia.org/w/index.php?title=South_Sudan%E2%80%93Uganda_relations&oldid=1356708851

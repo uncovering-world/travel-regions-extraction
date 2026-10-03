@@ -4,5 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Republic of China; People's Republic of China (claims Taiwan) | secondary | 2026-10-03 | S0230 | Taiwan is claimed by the PRC, which refuses to establish diplomatic relations with countries that recognize the ROC. |
+| kind | de_facto_state | secondary | 2026-10-03 | S0230 | Taiwan maintains official diplomatic relations with 11 out of 193 UN member states and the Holy See . Many others maintain unofficial diplomatic ties through representative offices and institutions that function as de facto embassies and consulates . |
+| origin | On 7 December 1949 Chiang Kai-shek evacuated his Nationalist government to Taiwan and made Taipei the temporary capital of the Republic of China. | secondary | 2026-10-03 | S0230 | On 7 December 1949, Chiang Kai-shek evacuated his Nationalist government to Taiwan and made Taipei the temporary capital of the ROC. |
+| on_the_ground | The Republic of China has kept control of Taiwan and Penghu (and of Kinmen, Matsu and two islands in the South China Sea) since losing mainland China in 1949. | secondary | 2026-10-03 | S0230 | After losing control of mainland China in 1949, the ROC retained control of Taiwan and Penghu ( Taiwan, ROC ), parts of Fujian ( Fujian, ROC )—specifically Kinmen, Wuqiu (now part of Kinmen) and the Matsu Islands and two major islands in the South China Sea . |
+| inhabited | yes | secondary | 2026-10-03 | S0230 | With around 23.9 million inhabitants, Taiwan is among the most densely populated countries . |
+| traveller_access | open | primary | 2026-10-03 | S0315 | You can visit Taiwan without a visa for up to 90 days. |
+| area_km2 | 36193 | secondary | 2026-10-03 | S0230 | in total covering 36,193 square kilometers (13,974 square miles). |
 
 Sources:
+
+- S0230: https://en.wikipedia.org/w/index.php?title=Taiwan&oldid=1378120980
+- S0315: https://www.gov.uk/foreign-travel-advice/taiwan/entry-requirements

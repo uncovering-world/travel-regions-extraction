@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Thailand; Cambodia (overlapping claims around the temples of Prasat Ta Muen Thom and Prasat Ta Krabey and other border areas) | secondary | 2026-10-03 | S0047 | During this round of conflict, disputes also arose over other overlapping border areas, including those around the ancient Khmer temples of Prasat Ta Muen Thom and Prasat Ta Krabey . |
+| kind | line_position | secondary | 2026-10-03 | S0047 | While the treaty defined the relevant segment of the boundary along the watershed line of the Dangrek Mountains , demarcation of the border by French surveyors produced maps that deviated from the line in the now-disputed areas, including around the Preah Vihear temple. |
+| origin | The dispute stems from the Franco-Siamese treaties of 1904 and 1907, which defined the boundary between Siam and French Indochina that Cambodia inherited. | secondary | 2026-10-03 | S0047 | The dispute mostly stems from the Franco-Siamese treaties of 1904 and 1907 , which defined the final boundary between Siam (as Thailand was then known) and French Indochina , the borders of which were inherited by Cambodia. |
+| on_the_ground | Prasat Ta Muen Thom and Chong Ahn Ma have remained under Thai control since July 2025. | secondary | 2026-10-03 | S0006 | Prasat Ta Muen Thom and Chong Ahn Ma remained under Thai control since July. |
+| traveller_access | closed | primary | 2026-10-03 | S0316 | Land borders and crossings between Thailand and Cambodia continue to be suspended. Some tourist destinations in border areas such as the Khao Phra Wihan/Preah Vihear temple, the Ta Kwai/Ta Krabey temple and the Ta Muen Thom/Tamone Thom temple are closed. |
 
 Sources:
+
+- S0006: https://en.wikipedia.org/w/index.php?title=2025_Cambodian%E2%80%93Thai_border_crisis&oldid=1377273427
+- S0047: https://en.wikipedia.org/w/index.php?title=Cambodian%E2%80%93Thai_border_dispute&oldid=1373024782
+- S0316: https://www.gov.uk/foreign-travel-advice/thailand/regional-risks

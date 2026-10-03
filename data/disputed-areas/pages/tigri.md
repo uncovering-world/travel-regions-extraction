@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Guyana (administers); Suriname (claims, as part of the Coeroeni Resort of its Sipaliwini District) | secondary | 2026-10-03 | S0235 | While Guyana exercises administrative control over the area, Suriname maintains a claim to the territory, considering it part of the Coeroeni Resort within its Sipaliwini District. |
+| kind | line_position | secondary | 2026-10-03 | S0235 | The dispute rests on the interpretation of the natural border, specifically whether the Kutari River or the New River is the source of the Corentyne River, despite both being tributaries . |
+| origin | In 1871 Charles Barrington Brown discovered the New River (Upper Corentyne), which he considered the source of the Corentyne River; the dispute dates from then. | secondary | 2026-10-03 | S0235 | In 1871, however, Charles Barrington Brown discovered the New River or Upper Corentyne, which he considered to be source of the Corentyne River . Thus the Tigri Area or New River Triangle dispute was born. |
+| on_the_ground | Guyana continues to occupy the New River Triangle. | secondary | 2026-10-03 | S0235 | Guyana has not held upon this agreement and continue to occupy the New River Triangle. |
+| inhabited | yes | secondary | 2026-10-03 | S0235 | The indigenous villages of Kasuela and Sakuru of the Tiriyó tribe are located inside the Tigri area. |
 
 Sources:
+
+- S0235: https://en.wikipedia.org/w/index.php?title=Tigri_Area&oldid=1368547574

@@ -4,6 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Israel (occupies since 1967); Syria (internationally recognised as Syrian territory) | secondary | 2026-10-03 | S0089 | Internationally recognized as Syrian territory , occupied by Israel since 1967 |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0089 | Apart from these two, no other UN member state has formally recognized Israeli sovereignty over the territory, and the international community largely considers it Syrian land under occupation. |
+| origin | Occupied in the 1967 Six-Day War and effectively annexed in 1981. | secondary | 2026-10-03 | S0089 | Two thirds of the area was depopulated following the 1967 Six-Day War and later effectively annexed in 1981. |
+| on_the_ground | Israel treats the part it occupies as a subdistrict of its Northern District. | secondary | 2026-10-03 | S0089 | Since the passing of the Golan Heights Law , Israel has treated the Israeli-occupied portion of the Golan Heights as a subdistrict of its Northern District . |
+| inhabited | yes | secondary | 2026-10-03 | S0089 | Total ~63,000 • Israeli settlers 31,000 |
+| area_km2 | 1800 | secondary | 2026-10-03 | S0089 | Total 1,800 km 2 (690 sq mi) |
 | ne_name | Golan Heights | machine | 2026-10-03 | NE |  |
 | ne_type | Indeterminate | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. By Israel; Claimed by Syria | machine | 2026-10-03 | NE |  |
@@ -16,4 +22,5 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0089: https://en.wikipedia.org/w/index.php?title=Golan_Heights&oldid=1378075391
 - WD: https://www.wikidata.org/

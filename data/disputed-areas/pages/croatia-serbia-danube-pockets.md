@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Serbia (controls); Croatia (claims) | secondary | 2026-10-03 | S0063 | Under Serbian control, claimed by Croatia |
+| kind | line_position | secondary | 2026-10-03 | S0063 | While Serbia claims that the thalweg of the Danube valley and the centreline of the river represent the international border between the two countries, Croatia disagrees, claiming that the international border lies along the boundaries of the cadastral municipalities located along the river—departing from the course at several points along a 140-kilometre (87 mi) section. |
+| origin | The dispute first arose in 1947 and was left unresolved in Yugoslavia. | secondary | 2026-10-03 | S0063 | The dispute first arose in 1947, but was left unresolved during the existence of the Socialist Federal Republic of Yugoslavia . |
+| on_the_ground | The dispute is unresolved; the line of control mostly corresponds to Serbia's claim. | secondary | 2026-10-03 | S0063 | The dispute remains unresolved, and the line of control mostly corresponds to Serbia's claim. |
+| area_km2 | 100 | secondary | 2026-10-03 | S0063 | Other sources specify somewhat different figures, indicating a Croatian claim over 100 square kilometres (39 square miles) on the eastern bank of the river, in Bačka , while saying that the cadastre-based boundary leaves 10 to 30 square kilometres (3.9 to 11.6 square miles) of territory on the western bank of the Danube, in Baranja to Serbia. |
 
 Sources:
+
+- S0063: https://en.wikipedia.org/w/index.php?title=Croatia%E2%80%93Serbia_border_dispute&oldid=1363988244

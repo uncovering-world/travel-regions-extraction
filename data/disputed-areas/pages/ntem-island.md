@@ -4,5 +4,10 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Cameroon; Equatorial Guinea | secondary | 2026-10-03 | S0263 | sovereignty dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River |
+| kind | line_position | secondary | 2026-10-03 | S0265 | a dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River and imprecisely defined maritime coordinates in the ICJ decision delayed final delimitation |
 
 Sources:
+
+- S0263: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/cm.json
+- S0265: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/ek.json

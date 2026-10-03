@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Russia (controls parts of the oblast; declared their annexation on 30 September 2022, widely regarded as illegal and unrecognised internationally); Ukraine (the oblast is Ukraine's) | secondary | 2026-10-03 | S0191 | The ongoing military occupation of Ukraine's Zaporizhzhia Oblast began after Russian forces launched an invasion of mainland Ukraine out of Crimea on 24 February 2022. Russian-controlled parts of the oblast were administered by a Russian military-civilian administration until 30 September 2022, when Russia declared their annexation (widely regarded as illegal and unrecognized internationally) to become a federal subject of Russia . |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0191 | Russia annexed Zaporizhzhia Oblast on 30 September 2022, including parts of the oblast that it did not control at the time. |
+| origin | The occupation began after Russian forces invaded mainland Ukraine out of Crimea on 24 February 2022. | secondary | 2026-10-03 | S0191 | The ongoing military occupation of Ukraine's Zaporizhzhia Oblast began after Russian forces launched an invasion of mainland Ukraine out of Crimea on 24 February 2022. |
+| on_the_ground | Melitopol is the Russian seat of administration, since Russia does not control the city of Zaporizhzhia. | secondary | 2026-10-03 | S0191 | Melitopol serves as the Russian seat of administration as Russia does not control Zaporizhzhia. |
+| inhabited | yes | secondary | 2026-10-03 | S0191 | In May, the Russian government began offering Russian passports to the region's inhabitants. |
 
 Sources:
+
+- S0191: https://en.wikipedia.org/w/index.php?title=Russian_occupation_of_Zaporizhzhia_Oblast&oldid=1377539994

@@ -4,5 +4,18 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | North Korea (administers); South Korea (claims: it administers only South Korea, but Article 3 of its constitution defines its territory as the Korean peninsula and its adjacent islands) | secondary | 2026-10-03 | S0142 | The Republic of Korea administers only South Korea, but Article 3 of the Constitution of South Korea reads: "The territory of the Republic of Korea shall consist of the Korean peninsula and its adjacent islands." |
+| kind | paper_claim | secondary | 2026-10-03 | S0061 | its territory consisting of "the Korean Peninsula and its adjacent islands," and that "The Republic of Korea shall seek unification and shall formulate and carry out a policy of peaceful unification based on the principles of freedom and democracy." |
+| origin | Two states were founded in the North and South of the peninsula in 1948; both claimed sovereignty over all of Korea in their constitutions. | secondary | 2026-10-03 | S0169 | The two sovereign countries were founded in the North and South of the peninsula in 1948, leading to the formal division. Despite the separation, both have claimed sovereignty over all of Korea in their constitutions and both have used the name "Korea" in English. |
+| on_the_ground | Administered by the Democratic People's Republic of Korea, which claims and administers only North Korea. | secondary | 2026-10-03 | S0142 | The Democratic People's Republic of Korea claims and administers only North Korea, as Article 2 of the Constitution of North Korea defines its territory as: "bordering the People's Republic of China and the Russian Federation to the north and the Republic of Korea to the south." |
+| inhabited | yes | secondary | 2026-10-03 | S0170 | Population • 2024 estimate 25,950,000 |
+| traveller_access | restricted | primary | 2026-10-03 | S0310 | Tourists can normally only travel to North Korea as part of an organised tour. Independent travellers will need a sponsor and permission from the Ministry for Foreign Affairs. |
+| area_km2 | 120540 | secondary | 2026-10-03 | S0170 | It covers an area of 120,540 square kilometers (46,541 sq mi). |
 
 Sources:
+
+- S0061: https://en.wikipedia.org/w/index.php?title=Constitution_of_South_Korea&oldid=1377619860
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0169: https://en.wikipedia.org/w/index.php?title=North_Korea%E2%80%93South_Korea_relations&oldid=1376291802
+- S0170: https://en.wikipedia.org/w/index.php?title=North_Korea&oldid=1377701204
+- S0310: https://www.gov.uk/foreign-travel-advice/north-korea/entry-requirements

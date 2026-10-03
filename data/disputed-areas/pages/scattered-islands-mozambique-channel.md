@@ -4,5 +4,17 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | France (administers); Madagascar (claims) | secondary | 2026-10-03 | S0268 | Madagascar-France : claims Bassas da India, Europa Island, Glorioso Islands, and Juan de Nova Island (all administered by France) |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0203 | The extent of the exclusive economic zones granted by the ownership of the islands grants them strategic importance. France bases small detachments of military personnel on the islands to assert its presence and sovereignty over them. |
+| origin | French possessions since 1897; Madagascar, independent since 1960, has claimed sovereignty since 1972. | secondary | 2026-10-03 | S0033 | In 1897, the shoal became a French possession, later being placed under the administration of a commissioner residing in Réunion in 1968. Madagascar became independent in 1960 and has claimed sovereignty over the shoal since 1972. |
+| on_the_ground | French detachments hold the islands: on Juan de Nova, one gendarme and 14 soldiers from La Réunion maintain French sovereignty (TAAF). | primary | 2026-10-03 | S0291 | Aujourd’hui, 1 gendarme et 14 militaires du 2 e Régiment Parachutiste d’Infanterie de Marine de La Réunion (2 e RPIMa) assurent la souveraineté française sur l’île. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0203 | None of the islands have ever had a permanent population, though the French armed forces maintain small troop contingents on some of the islands. |
+| traveller_access | restricted | primary | 2026-10-03 | S0290 | Le mouillage et l’accès aux îles Éparses est soumis à l’autorisation préalable du préfet, administrateur supérieur des TAAF et à un certain nombre de prescriptions encadrant les activités d’écotourisme. |
 
 Sources:
+
+- S0033: https://en.wikipedia.org/w/index.php?title=Bassas_da_India&oldid=1365532274
+- S0203: https://en.wikipedia.org/w/index.php?title=Scattered_Islands_in_the_Indian_Ocean&oldid=1374671878
+- S0268: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/ma.json
+- S0290: https://taaf.fr/acceder-aux-territoires/demandes-dactivites-et-dacces/acces-et-mouillage-dans-les-eparses/
+- S0291: https://taaf.fr/collectivites/presentation-des-territoires/les-iles-eparses/

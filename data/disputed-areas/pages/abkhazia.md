@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Abkhazia (self-governing, partially recognised state); Georgia (claims; recognised by most countries as part of Georgia) | secondary | 2026-10-03 | S0007 | officially the Republic of Abkhazia , [ c ] is a partially recognised state in the South Caucasus , which is internationally recognised by most countries as part of Georgia . |
+| kind | de_facto_state | secondary | 2026-10-03 | S0007 | Status De facto state with limited recognition |
+| origin | The 1992-1993 War in Abkhazia ended with Georgia losing control of most of Abkhazia and de facto Abkhazian independence. | secondary | 2026-10-03 | S0007 | Simmering ethnic tensions between the Abkhaz , the region's titular ethnicity , and Georgians , the largest single ethnic group at that time, culminated in the 1992–1993 War in Abkhazia , which resulted in Georgia's loss of control over most of Abkhazia followed by de facto Abkhazian independence and the ethnic cleansing of Georgians from Abkhazia . |
+| on_the_ground | Run as a presidential republic with its own People's Assembly. | secondary | 2026-10-03 | S0007 | Abkhazia is a presidential republic . Legislative powers are vested in the People's Assembly , which consists of 35 members elected from single-member districts . |
+| inhabited | yes | secondary | 2026-10-03 | S0007 | It covers 8,665 square kilometres (3,346 sq mi) and has a population of around 245,000. |
+| area_km2 | 8665 | secondary | 2026-10-03 | S0007 | It covers 8,665 square kilometres (3,346 sq mi) and has a population of around 245,000. |
 
 Sources:
+
+- S0007: https://en.wikipedia.org/w/index.php?title=Abkhazia&oldid=1377757725

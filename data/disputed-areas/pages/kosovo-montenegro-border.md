@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Kosovo; Montenegro | secondary | 2026-10-03 | S0123 | The Kosovo–Montenegro border demarcation was a diplomatic agreement between the Republic of Kosovo and Montenegro which was finalized in 2015 about the eventual borders between them. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0123 | The president of Kosovo Hashim Thaçi and Montenegro 's prime minister signed the agreement on February 17, 2018. It was ratified in the Kosovar parliament a month later. |
+| origin | Settled by the border demarcation agreement, ratified by both governments in 2015 and enforced in March 2018. | secondary | 2026-10-03 | S0123 | The agreement was ratified by both governments in 2015 and was enforced March 2018 |
+| on_the_ground | Čakor was handed over to Montenegro. | secondary | 2026-10-03 | S0123 | leading to Čakor being handed over to Montenegro. |
+| area_km2 | 80 | secondary | 2026-10-03 | S0123 | Around 8,000 hectares (20,000 acres) of land stretching 60 kilometres (37 mi) had remained disputed. |
 
 Sources:
+
+- S0123: https://en.wikipedia.org/w/index.php?title=Kosovo%E2%80%93Montenegro_border_demarcation&oldid=1354069372

@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | South Africa (administers, within KwaZulu-Natal and Mpumalanga); Eswatini (claims) | secondary | 2026-10-03 | S0142 | The area claimed by Eswatini is the former bantustan of KaNgwane , which now forms the northern parts of Jozini and uMhlabuyalingana local municipalities in KwaZulu-Natal , and the southern part of Nkomazi , the southeastern part of Umjindi and the far eastern part of Albert Luthuli local municipalities in Mpumalanga |
+| kind | paper_claim | secondary | 2026-10-03 | S0142 | Eswatini claims territories that it states were confiscated during colonial times. |
+| origin | A 1982 attempt to transfer parts of KaNgwane and of KwaZulu to Swaziland was never realised. | secondary | 2026-10-03 | S0113 | An attempt to transfer parts of the homeland, along with parts of the Zulu homeland KwaZulu , to the neighbouring country of Swaziland in 1982 was never realized. |
+| on_the_ground | KaNgwane was dissolved on 27 April 1994 and its territory became part of the South African province of Mpumalanga. | secondary | 2026-10-03 | S0113 | KaNgwane ceased to exist on 27 April 1994 when the Interim Constitution dissolved the homelands and created new provinces. Its territory became part of the province of Mpumalanga |
+| inhabited | yes | secondary | 2026-10-03 | S0101 | Ingwavuma is a town in the Umkhanyakude District Municipality of KwaZulu-Natal Province , South Africa |
 
 Sources:
+
+- S0101: https://en.wikipedia.org/w/index.php?title=Ingwavuma&oldid=1355396731
+- S0113: https://en.wikipedia.org/w/index.php?title=KaNgwane&oldid=1369741410
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

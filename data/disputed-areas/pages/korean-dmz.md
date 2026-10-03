@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | North Korea; South Korea; United Nations Command (party to the 1953 Armistice Agreement with North Korea and China) | secondary | 2026-10-03 | S0122 | It was established to serve as a demilitarized zone between the sovereign states of the Democratic People's Republic of Korea (North Korea) and the Republic of Korea (South Korea) under the provisions of the Korean Armistice Agreement in 1953, an agreement between North Korea, China , and the United Nations Command |
+| kind | own_regime | secondary | 2026-10-03 | S0122 | The armistice agreement explains exactly how many military personnel and what kind of weapons are allowed in the DMZ. Soldiers from both sides may patrol inside the DMZ, but they may not cross the MDL. |
+| origin | Created by the Armistice Agreement of 27 July 1953, under which each side moved its troops back 2,000 m from the front line. | secondary | 2026-10-03 | S0122 | In the Armistice Agreement of 27 July 1953, the DMZ was created as each side agreed to move their troops back 2,000 m (1.2 miles) from the front line, creating a buffer zone 4 km (2.5 mi) wide. |
+| on_the_ground | The zone itself is demilitarised, while its borders on both sides are among the most heavily militarised in the world. | secondary | 2026-10-03 | S0122 | Though the zone itself is demilitarized, the zone's borders on both sides are some of the most heavily militarized borders in the world. |
+| inhabited | yes | secondary | 2026-10-03 | S0122 | Daeseong-dong (also Tae Sung Dong, "Freedom Village") in South Korea, and Kijŏng-dong (also known as the "Peace Village"), in North Korea, are the only settlements allowed by the armistice committee to remain within the boundaries of the DMZ. |
+| traveller_access | restricted | secondary | 2026-10-03 | S0122 | Open to the public Access granted by North Korea or United Nations Command |
 
 Sources:
+
+- S0122: https://en.wikipedia.org/w/index.php?title=Korean_Demilitarized_Zone&oldid=1376742888

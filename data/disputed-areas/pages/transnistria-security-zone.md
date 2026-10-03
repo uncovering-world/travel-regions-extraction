@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Joint Control Commission (Moldova, Transnistria, Russia) | secondary | 2026-10-03 | S0111 | is a trilateral peacekeeping force and joint military command structure from Moldova , Transnistria (Pridnestrovian Moldavian Republic / PMR), and Russia that operates in a demilitarized zone on the border between the Republic of Moldova and Ukraine . |
+| kind | own_regime | secondary | 2026-10-03 | S0240 | The security situation inside it is subject to the Joint Control Commission rulings. |
+| origin | Set up by the cease-fire agreement of 21 July 1992 that ended the Transnistria War. | secondary | 2026-10-03 | S0111 | Following the Transnistria War , the Joint Control Commission was established on the initiative of Moldovan and Russian presidents Mircea Snegur and Boris Yeltsin by the signing of a cease-fire agreement on July 21, 1992. |
+| on_the_ground | The Joint Control Commission oversees the ceasefire and security arrangements; fighting has not resumed since 1992. | secondary | 2026-10-03 | S0111 | The Joint Control Commission is charged with ensuring observance of the ceasefire and security arrangements and has generally been successful, as the armed conflict has not at any time re-erupted since 1992. |
+| inhabited | yes | secondary | 2026-10-03 | S0240 | The localities controlled by Moldova on the eastern bank, the village of Roghi , and the city of Dubăsari (situated on the eastern bank and controlled by the PMR) form a security zone along with the six villages and one city controlled by the PMR on the western bank, as well as two ( Varnița and Copanca ) on the same west bank under Moldovan control. |
 
 Sources:
+
+- S0111: https://en.wikipedia.org/w/index.php?title=Joint_Control_Commission&oldid=1370369355
+- S0240: https://en.wikipedia.org/w/index.php?title=Transnistria&oldid=1375814450

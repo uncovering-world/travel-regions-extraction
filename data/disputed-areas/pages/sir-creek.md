@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | India; Pakistan (both claim the creek) | secondary | 2026-10-03 | S0210 | All of these creeks are within the undisputed territory of India, except the westernmost creek, Sir Creek, which is claimed by both India and Pakistan. |
+| kind | line_position | secondary | 2026-10-03 | S0210 | The Green Line is the boundary as claimed by Pakistan, the red line is the boundary as claimed by India. |
+| origin | A 1968 tribunal demarcated the wider Rann of Kutch boundary; in Sir Creek Pakistan claims the boundary runs along the eastern flank of the creek. | secondary | 2026-10-03 | S0210 | The resolution by the 1968 tribunal demarcated the boundaries between the two nations, and Pakistan claims that the creek was included as part of Sindh, thus setting the boundary as the eastern flank of the creek. |
+| on_the_ground | India's Border Security Force patrols the creek up to midstream with floating border posts and amphibious vehicles. | secondary | 2026-10-03 | S0210 | The Indian military Border Security Force (BSF) patrols Sir Creek up to midstream using floating border posts, amphibious vehicles, and foot travel by the Creek Crocodile Commandos. |
+| inhabited | no | secondary | 2026-10-03 | S0210 | is a 96 km (60 mi) tidal estuary in the uninhabited marshlands of the Indus River Delta on the border between India and Pakistan . |
 
 Sources:
+
+- S0210: https://en.wikipedia.org/w/index.php?title=Sir_Creek&oldid=1369309915

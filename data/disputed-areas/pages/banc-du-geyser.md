@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | France (controls; claims it within the EEZ of the Glorioso Islands); Comoros (claims); Madagascar (claims) | secondary | 2026-10-03 | S0028 | France and the Comoros claim the Banc du Geyser as part of their exclusive economic zone (EEZ). The reef is also claimed by Madagascar . |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0028 | France and the Comoros claim the Banc du Geyser as part of their exclusive economic zone (EEZ). The reef is also claimed by Madagascar . |
+| origin | Madagascar announced its annexation in 1976. | secondary | 2026-10-03 | S0028 | Madagascar announced its annexation in 1976, presumably because of the possibility of oil fields in the vicinity but the Banc du Geyser is controlled in fact by the French forces armées de la zone sud de l'océan Indien . |
+| on_the_ground | Controlled in fact by the French armed forces of the southern Indian Ocean zone. | secondary | 2026-10-03 | S0028 | Madagascar announced its annexation in 1976, presumably because of the possibility of oil fields in the vicinity but the Banc du Geyser is controlled in fact by the French forces armées de la zone sud de l'océan Indien . |
+| inhabited | no | secondary | 2026-10-03 | S0028 | Demographics Population 0 |
 
 Sources:
+
+- S0028: https://en.wikipedia.org/w/index.php?title=Banc_du_Geyser&oldid=1363901320

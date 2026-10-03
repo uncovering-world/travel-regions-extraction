@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Georgia (controls, as part of Kazbegi Municipality); South Ossetia (claims) | secondary | 2026-10-03 | S0142 | Ossetia claims two gorges and their connecting plateau, all controlled by Georgia as part of the Kazbegi Municipality , as "historically eastern Ossetian lands." South Ossetia claims to have attempted to press these claims during the Russo-Georgian War , but was deterred by Russia, with the issue flaring again in 2018 and 2019. |
+| kind | paper_claim | secondary | 2026-10-03 | S0142 | Ossetia claims two gorges and their connecting plateau, all controlled by Georgia as part of the Kazbegi Municipality , as "historically eastern Ossetian lands. |
+| origin | Since 2016 the South Ossetian government has claimed the Truso Gorge as "Eastern Ossetia". | secondary | 2026-10-03 | S0244 | Similar claims were made by Eduard Kokoity during the 2008 war, and since 2016 the South Ossetian government claimed it as "Eastern Ossetia. |
+| on_the_ground | Georgia treats the Truso Gorge as a border region with an interior checkpoint where everyone must show documentation. | secondary | 2026-10-03 | S0244 | When the remaining Ossetian population left during the 2008 war the Georgian government named the gorge a "border region" due to increased tensions with Russia, resettling most of the local Georgians out of the gorge, and requiring everyone, Georgians and Ossetians, to pass an interior checkpoint providing documentation. |
+| inhabited | yes | secondary | 2026-10-03 | S0244 | most of these villages are abandoned, with only 29 people living in the Gorge, and most of those are only seasonally. |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0244: https://en.wikipedia.org/w/index.php?title=Truso_Gorge&oldid=1374285124

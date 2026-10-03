@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Jordan (sovereign); Israel (recognises Jordanian sovereignty) | secondary | 2026-10-03 | S0107 | Israel recognises Jordan's sovereignty over the Naharayim/Baqura area (including Peace Island ) and the Tzofar / Al Ghamr area. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0105 | On 10 November 2019, Jordan reclaimed full control of the area, with King Abdullah II stating that Jordan was asserting "full sovereignty over every inch of those lands". |
+| origin | The 1994 Israel-Jordan peace treaty recognised Jordanian sovereignty with a 25-year renewable lease giving Israeli landowners entry; the lease ended in 2019. | secondary | 2026-10-03 | S0105 | The 1994 Israel–Jordan peace treaty recognized the area to be under Jordanian sovereignty but leased Israeli landowners freedom of entry. The 25-year renewable lease ended in 2019. |
+| on_the_ground | Baqoura (Island of Peace) has been under full Jordanian control since 10 November 2019. | secondary | 2026-10-03 | S0105 | On 10 November 2019, Jordan reclaimed full control of the area, with King Abdullah II stating that Jordan was asserting "full sovereignty over every inch of those lands". |
 
 Sources:
+
+- S0105: https://en.wikipedia.org/w/index.php?title=Island_of_Peace&oldid=1372469079
+- S0107: https://en.wikipedia.org/w/index.php?title=Israel%E2%80%93Jordan_peace_treaty&oldid=1359586354

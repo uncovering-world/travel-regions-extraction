@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Germany; Luxembourg (the rivers are a condominium of the two) | secondary | 2026-10-03 | S0058 | The Moselle and its tributaries, the Sauer and the Our , constitute a condominium between Germany and Luxembourg |
+| kind | own_regime | secondary | 2026-10-03 | S0003 | Das gemeinschaftliche deutsch-luxemburgische Hoheitsgebiet bilden die Flüsse Mosel , Sauer und Our an der Grenze zwischen Luxemburg und Deutschland (mit den Bundesländern Rheinland-Pfalz und Saarland ). |
+| origin | The condominium goes back to the Final Act of the Congress of Vienna of 9 June 1815. | secondary | 2026-10-03 | S0003 | Das Kondominium geht zurück auf die Wiener Kongressakte von 9. Juni 1815 mit ihrer Formulierung |
+| on_the_ground | Unlike the usual border along a river's thalweg, the territory belonging to one state alone begins at each bank. | secondary | 2026-10-03 | S0003 | Während die an schiffbaren Flüssen ausgerichteten Staatsgrenzen zumeist im Talweg der Flüsse verlaufen, beginnen in diesem Fall die nur einem Staatsgebiet zuordenbaren Hoheitsgebiete am jeweiligen Ufer. |
 
 Sources:
+
+- S0003: https://de.wikipedia.org/w/index.php?title=Gemeinschaftliches_deutsch-luxemburgisches_Hoheitsgebiet&oldid=268510923
+- S0058: https://en.wikipedia.org/w/index.php?title=Condominium_%28international_law%29&oldid=1375690106

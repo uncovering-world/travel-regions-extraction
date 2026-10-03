@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | China (claims the whole; holds its side of the Line of Actual Control); India (claims the whole; holds its side of the Line of Actual Control) | secondary | 2026-10-03 | S0067 | Both China and India claim the disputed region, with a Line of Actual Control between the two nations situated along the Charding Nullah. |
+| kind | line_position | secondary | 2026-10-03 | S0067 | After independence in 1947, India claimed the southern watershed of the river (roughly 3 miles southeast of Demchok) as its boundary, which has been contested by the People's Republic of China whose claims coincide with the British maps. |
+| origin | After the war of 1962 the Demchok region remained divided between the two countries across a Line of Actual Control. | secondary | 2026-10-03 | S0067 | The two countries fought a brief war in 1962 , after which the Demchok region has remained divided between the two nations across a Line of Actual Control . |
+| on_the_ground | Indian and Chinese track roads run up the valley on the two sides of the Charding Nullah; occasional stand-offs between the two forces are reported. | secondary | 2026-10-03 | S0067 | Both the Indians and the Chinese have track roads going up the valley on the two sides of the Charding Nullah, reaching up to the Charding–Nilung Nullah Junction (CNNJ). Occasional stand-offs between the two forces at CNNJ are reported in the newspapers. |
+| inhabited | yes | secondary | 2026-10-03 | S0067 | Administrative record books show that it has a population of 150 people living in 24 houses, all having solar-powered lights. |
+| area_km2 | 1900 | secondary | 2026-10-03 | S0067 | Chinese sources describe the disputed territory as having a total area of 1,900 square kilometres (730 sq mi) with India controlling 450 square kilometres (170 sq mi) of its southwest corner, west of Dêmqog and the Indus River. |
 
 Sources:
+
+- S0067: https://en.wikipedia.org/w/index.php?title=Demchok_sector&oldid=1376754714

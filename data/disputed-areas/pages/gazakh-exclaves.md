@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Armenia (controls); Azerbaijan (de jure; exclave villages of Azerbaijan) | secondary | 2026-10-03 | S0018 | Additionally, in the northern stretch of the boundary area there are one Armenian ( Artsvashen ) and four Azerbaijani ( Karki , Yukhari Askipara , Barxudarlı and Sofulu ) exclave villages which are now controlled by their 'host' nation. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0254 | It is surrounded by Armenia 's Tavush Province and has been occupied by Armenia since 1992, when it was captured and destroyed by Armenian troops in the First Nagorno-Karabakh War . |
+| origin | Captured by Armenian forces in 1992 during the First Nagorno-Karabakh War (quoted for Yukhari Askipara). | secondary | 2026-10-03 | S0254 | It is surrounded by Armenia 's Tavush Province and has been occupied by Armenia since 1992, when it was captured and destroyed by Armenian troops in the First Nagorno-Karabakh War . |
+| on_the_ground | Under Armenian control and administered as part of Tavush Province (quoted for the Barkhudarly exclave). | secondary | 2026-10-03 | S0032 | The exclave has been under the control of Armenia ever since and is administered as part of the surrounding Tavush Province . |
+| inhabited | no | secondary | 2026-10-03 | S0032 | is an abandoned Azerbaijani village in the Qazakh District of Azerbaijan , under the de facto control of Armenia . |
 
 Sources:
+
+- S0018: https://en.wikipedia.org/w/index.php?title=Armenia%E2%80%93Azerbaijan_border&oldid=1368043117
+- S0032: https://en.wikipedia.org/w/index.php?title=Barxudarl%C4%B1&oldid=1377753638
+- S0254: https://en.wikipedia.org/w/index.php?title=Yukhari_Askipara&oldid=1331743565

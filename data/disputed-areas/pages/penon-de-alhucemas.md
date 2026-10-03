@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Spain (administers); Morocco (claims) | secondary | 2026-10-03 | S0013 | The islands are part of Spain 's Plazas de soberanía and is under Spanish administration, however they are also claimed by Morocco as part of its territory alongside other Spanish territories in Northern Africa . |
+| kind | paper_claim | secondary | 2026-10-03 | S0013 | Morocco has contested Spanish sovereignty over the islets since Morocco received its independence in 1956. |
+| origin | Spain sent a garrison to Peñón de Alhucemas in 1673 and has occupied it permanently since. | secondary | 2026-10-03 | S0013 | In 1673, Spain sent a garrison to the island of Peñón de Alhucemas, and has permanently occupied it since then. |
+| on_the_ground | Guarded by a military garrison and administered directly by the Spanish central government (statement about all the plazas de soberanía). | secondary | 2026-10-03 | S0183 | They are guarded by military garrisons and administered directly by the Spanish central government . |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0013 | In 2012 the Spanish military garrison in the fort on Peñón de Alhucemas comprised an infantry section of 25–30 men from the 32nd Mixed Artillery Regiment, plus personnel from the marine services with an inflatable boat for reaching supply vessels. |
+| area_km2 | 0.046 | secondary | 2026-10-03 | S0013 | The aggregate land area of the group of three islands is 4.6 ha or 0.046 square kilometres (0.018 sq mi). |
 
 Sources:
+
+- S0013: https://en.wikipedia.org/w/index.php?title=Alhucemas_Islands&oldid=1374964253
+- S0183: https://en.wikipedia.org/w/index.php?title=Plazas_de_soberan%C3%ADa&oldid=1377858155

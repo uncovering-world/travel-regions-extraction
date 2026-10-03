@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Mauritania (de facto control); Morocco (claims); Sahrawi Republic (claims) | secondary | 2026-10-03 | S0130 | Claimed by Morocco Sahrawi Republic Controlled by Mauritania (de facto) |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0130 | Non-self-governing territory Western Sahara Administering power Spain ( de jure ) [ a ] Claimed by Morocco Sahrawi Republic Controlled by Mauritania (de facto) |
+| origin | Territory in dispute since the Madrid Tripartite Agreement of 1975. | secondary | 2026-10-03 | S0130 | Since the Alegal Madrid Tripartite Agreement of 1975 , it remains territory in dispute |
+| on_the_ground | The town lies about 65 km south of the Moroccan Wall at Guerguerat and is technically abandoned. | secondary | 2026-10-03 | S0130 | La Güera is situated about 65 kilometres (40 mi) south of the Moroccan Wall at Guerguerat and is technically abandoned. |
+| area_km2 | 87.8 | secondary | 2026-10-03 | S0130 | Area  • Total 87.8 km 2 (33.9 sq mi) |
 
 Sources:
+
+- S0130: https://en.wikipedia.org/w/index.php?title=La_G%C3%BCera&oldid=1377759755

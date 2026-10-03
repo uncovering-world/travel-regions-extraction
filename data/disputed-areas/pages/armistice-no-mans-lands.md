@@ -4,5 +4,10 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Israel (administers, claims); Palestine (claims) - stated for Latrun | secondary | 2026-10-03 | S0135 | Administered by Israel Claimed by Israel and Palestine |
+| origin | Under the 1949 Armistice Agreements the Latrun salient stayed under Jordanian control, surrounded by a perimeter of no man's land. | secondary | 2026-10-03 | S0135 | In the 1949 Armistice Agreements , the fort remained a salient under Jordanian control , which was in turn surrounded by a perimeter of no man's land . |
+| on_the_ground | Latrun was captured by Israel in the 1967 war and has been under Israeli control since. | secondary | 2026-10-03 | S0135 | In the 1967 war it was captured by Israel and had been under Israeli control since then. |
 
 Sources:
+
+- S0135: https://en.wikipedia.org/w/index.php?title=Latrun&oldid=1376600230

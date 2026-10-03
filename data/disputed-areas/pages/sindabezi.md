@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Zambia (held that the border follows the deepest channel); Zimbabwe (held that it follows the mid-line of the river, which would put the island in Zimbabwe) | secondary | 2026-10-03 | S0331 | Zambian authorities claimed the border ran along the deepest channel, while Zimbabwean authorities claimed it ran down the mid-line of the river (and that Sindabezi Island therefore lay in Zimbabwean territory). |
+| kind | line_position | secondary | 2026-10-03 | S0331 | The use of the Sindabezi island triggered a dispute over the line of the international border, with the island located less than 50 metres from the Zimbabwean bank. |
+| origin | The Tongabezi lodge on the north bank opened a camp on the island in 1994; its use of the island set off the border dispute. | secondary | 2026-10-03 | S0331 | The first of many upstream riverside lodges, Tongabezi, opened on the north bank in 1990 with very humble beginnings, evolving into a lodge of the highest standards. In 1994 the lodge opened Sindabezi, an exclusive river island camp located on a nearby island as well as securing the exclusive right to operate tourist boat trips to Livingstone Island. |
+| on_the_ground | A tourist island with a lodge camp; according to the source it was eventually confirmed that the border runs along the deep-water channel (the Zambian position). | secondary | 2026-10-03 | S0331 | It was eventually confirmed that the line of the border ran along the deep-water channel. |
 
 Sources:
+
+- S0331: https://www.tothevictoriafalls.com/vfpages/tourism/boomtown.html

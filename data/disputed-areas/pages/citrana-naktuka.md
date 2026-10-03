@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Timor-Leste; Indonesia | secondary | 2026-10-03 | S0100 | The remaining 4% covering the Noel Besi-Citrana, Bidjael Sunan-Oben, and Dilumil-Memo areas had formerly not been agreed upon due to differences in border interpretation between the two countries. |
+| kind | line_position | secondary | 2026-10-03 | S0142 | However, Indonesia claims the current path of the river which is more towards the east, while Timor-Leste adheres to the historical path (currently a small stream) to the west. |
+| origin | Both claims rest on a 1904 treaty signed in The Hague that refers to the mouth of the Noel Besi river. | secondary | 2026-10-03 | S0142 | The claims of both countries refer to a 1904 Treaty signed in The Hague that refers to the mouth of the Noel Besi river. |
+| on_the_ground | The planned border treaty was not signed during Xanana Gusmão's visit to Jakarta, following criticism. | secondary | 2026-10-03 | S0100 | The signing of the border treaty did not take place during Xanana Gusmão's visit to Jakarta following criticism. |
+| inhabited | yes | secondary | 2026-10-03 | S0100 | On 1 February, Xanana Gusmão visited the village of Naktuka. |
 
 Sources:
+
+- S0100: https://en.wikipedia.org/w/index.php?title=Indonesia%E2%80%93Timor-Leste_border&oldid=1371481744
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Israel (occupies); Syria (demands withdrawal) | secondary | 2026-10-03 | S0108 | On 25 February, Syria condemned Israel's occupation of Syrian lands at its national dialogue and demanded Israel's withdrawal. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0108 | United Nations: Secretary-General Antonio Guterres 's spokesman Stephane Dujarric said that Israel expanding its occupation was a violation of the 1974 agreement. |
+| origin | After the fall of the Assad government on 8 December 2024 Israel invaded the demilitarised buffer zone in south-western Syria and has continued to occupy it. | secondary | 2026-10-03 | S0108 | Following the fall of the Assad regime on 8 December 2024, Israel invaded the demilitarized buffer zone in southwestern Syria (adjacent to the Israeli-occupied Golan Heights ) and has continued to occupy it. |
+| on_the_ground | A new line of Israeli positions has formed to the north, with a checkpoint north-west of Hadar. | secondary | 2026-10-03 | S0108 | Following the invasion and expanded Israeli occupation, a new line demarcating Israeli positions formed to the north. One checkpoint is north-west of Hadar, Syria |
 
 Sources:
+
+- S0108: https://en.wikipedia.org/w/index.php?title=Israeli_invasion_of_Syria_%282024%E2%80%93present%29&oldid=1375316976

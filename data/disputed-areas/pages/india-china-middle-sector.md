@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | India (holds); China (claims) | secondary | 2026-10-03 | S0165 | This disputed area, entirely held by India, is also claimed by China as part of Zanda County of Ngari Prefecture of Tibet |
+| kind | line_position | secondary | 2026-10-03 | S0140 | Red dots represent sensitive and disputed locations, and locations of differing perceptions , on the LAC — such as Depsang , area of Kongka Pass , north of Kugrang River , north and south Pangong Tso , Spanggur Gap , opposite Dumchele , Demchok sector , Kaurik , Tashigang , Barahoti |
+| origin | China's first claim to a location in Indian territory was to Barahoti, in 1954. | secondary | 2026-10-03 | S0030 | Barahoti was the first location in Indian territory claimed by China in 1954. |
+| on_the_ground | At Barahoti the border is undemarcated and the plain is a demilitarised zone patrolled by Indo-Tibetan Border Police who carry no firearms. | secondary | 2026-10-03 | S0030 | The border continue to be undemarcated in the area and the plains remain a demilitarised zone patrolled by Indo-Tibetan Border Police who do not carry firearms. |
 
 Sources:
+
+- S0030: https://en.wikipedia.org/w/index.php?title=Barahoti&oldid=1369191725
+- S0140: https://en.wikipedia.org/w/index.php?title=Line_of_Actual_Control&oldid=1368593278
+- S0165: https://en.wikipedia.org/w/index.php?title=Nelang&oldid=1376924731

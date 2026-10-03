@@ -4,5 +4,10 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Republic of the Congo; Democratic Republic of the Congo | secondary | 2026-10-03 | S0068 | Much of this segment of the border is poorly defined, and has been the subject of territorial disputes. |
+| kind | no_agreed_boundary | secondary | 2026-10-03 | S0142 | Most of the boundary in the Congo River remains undefined. |
 
 Sources:
+
+- S0068: https://en.wikipedia.org/w/index.php?title=Democratic_Republic_of_the_Congo%E2%80%93Republic_of_the_Congo_border&oldid=1340119434
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

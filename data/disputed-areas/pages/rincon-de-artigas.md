@@ -4,5 +4,16 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Brazil (administers); Uruguay (claims) | secondary | 2026-10-03 | S0042 | There are two disputed areas on the border between Brazil and Uruguay, which are the Brazilian Island and the Corner of Artigas (interfluve between the Quaraí River and the Arroyo Invernada). The two areas are administered by Brazil, yet are claimed for decades by Uruguay. |
+| kind | line_position | secondary | 2026-10-03 | S0151 | The disputed area is called Rincón de Artigas ( Portuguese : Rincão de Artigas ), and the dispute arises from the fact that the treaty that delimited the Brazil-Uruguay border in 1851 determined that the border in that area would be a creek called Arroyo de la Invernada ( Portuguese : Arroio da Invernada ), but the two countries disagree on which actual stream is the so-named one. |
+| origin | Uruguay holds that an error in the 1856 demarcation put the territory in Brazilian possession in 1861, and has asked Brazil since 1934 to review the demarcation there. | secondary | 2026-10-03 | S0255 | La República Oriental del Uruguay considera que por un error en la demarcación del límite entre ambos países en 1856 ese territorio pasó a posesión brasileña en 1861, por lo que desde 1934 ha solicitado al Brasil la revisión de la demarcación fronteriza allí. |
+| on_the_ground | Effectively under Brazilian control; the de facto border next to the Uruguayan village of Masoller is largely unmarked and unimpeded. | secondary | 2026-10-03 | S0151 | So far, Rincão de Artigas is effectively under Brazilian control. The village of Masoller itself is in undisputed Uruguayan territory, just a few hundred metres from the largely unmarked and unimpeded de facto international border. |
+| inhabited | yes | secondary | 2026-10-03 | S0255 | La situación se mantuvo incambiada hasta que se verificó que en la zona reclamada por Uruguay se había establecido una villa, con la autorización de las autoridades brasileñas, denominada “Thomas Albornoz” o "Manuel Filho". |
+| traveller_access | open | secondary | 2026-10-03 | S0151 | The village of Masoller itself is in undisputed Uruguayan territory, just a few hundred metres from the largely unmarked and unimpeded de facto international border. |
+| area_km2 | 237 | secondary | 2026-10-03 | S0255 | El Rincón de Artigas (en portugués , Rincão de Artigas ) es un territorio de 237 km² ubicado al norte de Uruguay y al sur del Brasil , dentro del municipio de Santana do Livramento en el estado de Río Grande del Sur . |
 
 Sources:
+
+- S0042: https://en.wikipedia.org/w/index.php?title=Brazil%E2%80%93Uruguay_border&oldid=1353550835
+- S0151: https://en.wikipedia.org/w/index.php?title=Masoller&oldid=1351101341
+- S0255: https://es.wikipedia.org/w/index.php?title=Rinc%C3%B3n_de_Artigas&oldid=174488956

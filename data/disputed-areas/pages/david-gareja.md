@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Georgia; Azerbaijan (the complex lies partly on the territory of Azerbaijan; border dispute between the two) | secondary | 2026-10-03 | S0065 | Because the complex is partially located on the territory of Azerbaijan, it has become subject to a border dispute between Georgia and Azerbaijan, with ongoing talks since 1991. |
+| kind | line_position | secondary | 2026-10-03 | S0065 | The delimitation and demarcation process between Azerbaijan and Georgia affects the David Gareji Monastery Complex. As the complex lies along the borders, it causes a debate between the two nations. |
+| origin | A border dispute between Georgia and Azerbaijan with talks ongoing since 1991. | secondary | 2026-10-03 | S0065 | Because the complex is partially located on the territory of Azerbaijan, it has become subject to a border dispute between Georgia and Azerbaijan, with ongoing talks since 1991. |
+| on_the_ground | The part of the complex located in Azerbaijan has had the status of the State Historical and Cultural Reserve "Keshikcidag" since 2007. | secondary | 2026-10-03 | S0065 | The part of David Gareji monastery complex that is located in Azerbaijan has a historical and cultural reserve status according to the presidential order No.2563 dated December 19, 2007, and named as State Historical and Cultural Reserve "Keshikcidag". |
 
 Sources:
+
+- S0065: https://en.wikipedia.org/w/index.php?title=David_Gareji_monastery_complex&oldid=1367241031

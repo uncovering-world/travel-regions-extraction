@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Bhutan (administers; rejects the claim); China (stated in June 2020 that the area is disputed) | secondary | 2026-10-03 | S0195 | The area including Sakteng Wildlife Sanctuary made news in June 2020 when the Chinese government reaffirmed that it is a territory disputed between China and Bhutan. Bhutan rejected the assertion, and denied that China had ever laid claim to the area in the past. |
+| kind | paper_claim | secondary | 2026-10-03 | S0036 | In the virtual meeting of the Global Environment Facility (GEF), China objected to a grant for the Sakteng Wildlife Sanctuary in eastern Bhutan's Trashigang District claiming that the area was disputed. |
+| origin | On 2 June 2020 China raised the claim for the first time; it had never come up in the boundary talks. | secondary | 2026-10-03 | S0036 | On 2 June 2020, China raised a new dispute over territory that has never come up in boundary talks earlier. |
+| on_the_ground | One of Bhutan's protected areas, on Bhutan's tentative list for UNESCO. | secondary | 2026-10-03 | S0195 | It is one of the country's protected areas and is listed as a tentative site in Bhutan's Tentative List for UNESCO inclusion. |
+| area_km2 | 742.46 | secondary | 2026-10-03 | S0195 | Area 742.46 km 2 (286.67 sq mi) |
 
 Sources:
+
+- S0036: https://en.wikipedia.org/w/index.php?title=Bhutan%E2%80%93China_border&oldid=1370428766
+- S0195: https://en.wikipedia.org/w/index.php?title=Sakteng_Wildlife_Sanctuary&oldid=1362903313

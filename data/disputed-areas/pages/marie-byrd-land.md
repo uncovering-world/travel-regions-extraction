@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | none (the portion east of 150°W has not been claimed by any sovereign state) | secondary | 2026-10-03 | S0150 | Because of its remoteness, even by Antarctic standards, most of Marie Byrd Land (the portion east of 150°W) has not been claimed by any sovereign state . |
+| kind | unclaimed | secondary | 2026-10-03 | S0150 | Marie Byrd Land ( MBL ) is an unclaimed region of Antarctica . |
+| origin | In 1939 the US president instructed an expedition to take steps to claim territory, but no claim appears to have been formalised before the Antarctic Treaty System was set up in 1959. | secondary | 2026-10-03 | S0150 | In 1939, United States President Franklin D. Roosevelt instructed members of the United States Antarctic Service Expedition to take steps to claim some of Antarctica as United States territory. Although this appears to have been done by members of this and subsequent expeditions, these do not appear to have been formalized prior to 1959, when the Antarctic Treaty System was set up. |
+| on_the_ground | The US year-round Byrd Station was abandoned in 1972; after years as a temporary summer camp it was reopened by the United States Antarctic Program in 2009-2010. | secondary | 2026-10-03 | S0150 | The year-round station was abandoned in 1972, and after operating for years as a temporary summer encampment, Byrd Surface Camp, Byrd Station was reopened by the United States Antarctic Program (USAP) in 2009–2010 to support operations in northern West Antarctica. |
+| area_km2 | 1610000 | secondary | 2026-10-03 | S0150 | With an area of 1,610,000 km 2 (620,000 sq mi), it is the largest unclaimed territory on Earth. |
 
 Sources:
+
+- S0150: https://en.wikipedia.org/w/index.php?title=Marie_Byrd_Land&oldid=1376503268

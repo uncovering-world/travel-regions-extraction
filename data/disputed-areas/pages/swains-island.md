@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United States (administers as part of American Samoa since 1925); Tokelau (claims) | secondary | 2026-10-03 | S0229 | Administered as part of American Samoa since 1925, the island is subject to an ongoing territorial dispute between Tokelau and the United States . |
+| kind | paper_claim | secondary | 2026-10-03 | S0142 | Tokelau's claim is unsupported by New Zealand, of which Tokelau is a dependency. New Zealand recognises US sovereignty over Swains Island. |
+| origin | New Zealand confirmed US sovereignty in the Treaty of Tokehega of 25 March 1981; the draft constitution put to Tokelau's 2006 self-determination referendum nevertheless claimed the island. | secondary | 2026-10-03 | S0229 | On 25 March 1981, New Zealand , of which Tokelau is a dependency , confirmed U.S. sovereignty over Swains Island in the Treaty of Tokehega , under which the United States surrendered territorial claims to the other islands of Tokelau. In the draft constitution that was the subject of the 2006 Tokelau self-determination referendum , however, Swains Island was claimed as part of Tokelau . |
+| on_the_ground | Privately owned by the Jennings family and, since the 1925 annexation, under the jurisdiction of the governors of American Samoa. | secondary | 2026-10-03 | S0229 | After 1925 and the acknowledged annexation of the island by the United States, while retaining proprietary ownership of the island, the Jennings family and others on the island became subject to the asserted jurisdiction of the governors of the U.S. territory of American Samoa and through them to portions of US law. |
+| inhabited | no | secondary | 2026-10-03 | S0229 | The 2020 census recorded no residents there. |
+| area_km2 | 2.43 | secondary | 2026-10-03 | S0229 | The land area is 2.43 km 2 (0.94 sq mi), |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0229: https://en.wikipedia.org/w/index.php?title=Swains_Island&oldid=1376801278

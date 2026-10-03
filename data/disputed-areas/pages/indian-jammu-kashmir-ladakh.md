@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | India (administers); Pakistan (claims the entire Kashmir region, excluding Aksai Chin and the Trans-Karakoram Tract) | secondary | 2026-10-03 | S0117 | Though these regions are in practice administered by their respective claimants, neither India nor Pakistan has formally recognised the accession of the areas claimed by the other. India claims those areas, including the area "ceded" to China by Pakistan in the Trans-Karakoram Tract in 1963, are a part of its territory, while Pakistan claims the entire region, excluding Aksai Chin and Trans-Karakoram Tract. |
+| kind | paper_claim | secondary | 2026-10-03 | S0117 | Though these regions are in practice administered by their respective claimants, neither India nor Pakistan has formally recognised the accession of the areas claimed by the other. |
+| origin | The former princely state of Jammu and Kashmir became a disputed territory at the Partition of India in 1947. | secondary | 2026-10-03 | S0117 | lasted until the Partition of India in 1947, when the former princely state of the British Indian Empire became a disputed territory , now administered by three countries: China , India , and Pakistan |
+| on_the_ground | India administers the area as two union territories, Ladakh and the residuary Jammu and Kashmir, formed from the former state by the Jammu and Kashmir Reorganisation Act of 2019. | secondary | 2026-10-03 | S0110 | In 2019, the Jammu and Kashmir Reorganisation Act was passed, reconstituting the former state of Jammu and Kashmir into two union territories: Ladakh in the east and the residuary Jammu and Kashmir in the west. |
+| inhabited | yes | secondary | 2026-10-03 | S0110 | As per the 2011 census, Jammu and Kashmir has a total population of 12,267,013. |
 
 Sources:
+
+- S0110: https://en.wikipedia.org/w/index.php?title=Jammu_and_Kashmir_%28union_territory%29&oldid=1377770016
+- S0117: https://en.wikipedia.org/w/index.php?title=Kashmir&oldid=1376892293

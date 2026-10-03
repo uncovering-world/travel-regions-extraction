@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United Kingdom (claims Rockall); Ireland (has never claimed sovereignty; maintains that the UK claims are invalid) | secondary | 2026-10-03 | S0188 | While never claiming sovereignty of Rockall, Ireland maintains that UK claims to Rockall are invalid. |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0188 | Possession of Rockall was for many decades deemed imperative to claims to the vast surrounding fisheries and oil-rich Atlantic seabed. |
+| origin | The United Kingdom claimed Rockall in 1955 and incorporated it into Scotland in 1972. | secondary | 2026-10-03 | S0188 | Driven by Cold War national security concerns, the United Kingdom claimed Rockall in 1955 and incorporated it as part of Scotland in 1972. |
+| on_the_ground | Nobody is stationed there; surveyors, scientists, adventurers, radio amateurs and activists have landed on or briefly occupied the islet. | secondary | 2026-10-03 | S0188 | Marine surveyors, scientists, adventurers, amateur radio operators, and environmental activists have variously landed on or briefly occupied the islet. |
+| inhabited | no | secondary | 2026-10-03 | S0188 | is a 17.15-metre-high (56 ft 3 in), uninhabitable granite islet in the North Atlantic Ocean . |
+| traveller_access | expedition_only | secondary | 2026-10-03 | S0188 | The website for The Rockall Club as at July 2025 states, "Total authenticated Rockall landings to date: 146 individuals". |
+| area_km2 | 0.0007843 | secondary | 2026-10-03 | S0188 | Area 784.3 m 2 (8,442 sq ft) |
 
 Sources:
+
+- S0188: https://en.wikipedia.org/w/index.php?title=Rockall&oldid=1375999982

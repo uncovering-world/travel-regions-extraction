@@ -4,5 +4,16 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United States (administers as an unorganized, unincorporated territory); Marshall Islands (claims) | secondary | 2026-10-03 | S0250 | Wake Island is claimed by the Marshall Islands but is administered by the United States as an unorganized and unincorporated territory and is part of the United States Minor Outlying Islands . |
+| kind | paper_claim | secondary | 2026-10-03 | S0275 | in May 2016, the Marshall Islands filed a declaration of authority with the UN over Wake Island, which is currently a US territory, reaffirming that it considers Wake Island part of its territory |
+| origin | In 1973 the island was claimed by what would become the Republic of the Marshall Islands, on the basis of oral legends. | secondary | 2026-10-03 | S0250 | In 1973, Wake Island was claimed by what would become the Republic of the Marshall Islands, based on oral legends . |
+| on_the_ground | Administered by the US Department of the Interior and managed by the US Air Force; about 300 people, mainly military personnel and contractors, are on the island at any time. | secondary | 2026-10-03 | S0250 | The island is administered by the Department of the Interior and managed by the United States Air Force. While there are no permanent residents, approximately 300 people are on the island at any given time, primarily military personnel and contractors. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0250 | While there are no permanent residents, approximately 300 people are on the island at any given time, primarily military personnel and contractors. |
+| traveller_access | restricted | primary | 2026-10-03 | S0299 | Access to Wake Atoll is strictly regulated, and an unauthorized visit without proper permission is firmly prohibited. |
+| area_km2 | 7.38 | secondary | 2026-10-03 | S0250 | Land 2.85 sq mi (7.38 km 2 ) |
 
 Sources:
+
+- S0250: https://en.wikipedia.org/w/index.php?title=Wake_Island&oldid=1376582549
+- S0275: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/australia-oceania/wq.json
+- S0299: https://www.doi.gov/oia/islands/wakeatoll

@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Equatorial Guinea (the territory belongs to it, per the International Court of Justice in 2025); Gabon (disputed control for decades) | secondary | 2026-10-03 | S0155 | Control of the island and the larger archipelago had been disputed between Equatorial Guinea and Gabon for decades, until the International Court of Justice ruled in 2025 the territory belonged to Equatorial Guinea. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0083 | The Court ruled almost unanimously in favour of Equatorial Guinea and granted it sovereignty over three disputed islands in Corisco Bay. |
+| origin | Settled by the International Court of Justice's ruling of 19 May 2025 that Equatorial Guinea has the archipelago under the 1900 Treaty of Paris. | secondary | 2026-10-03 | S0155 | On 19 May 2025, the ICJ made their final ruling asserting Equatorial Guinea had control of the archipelago containing the island, according to the 1900 Treaty of Paris. |
+| on_the_ground | Gabon had a small military presence on the island, which the 2025 ruling said it was to remove. | secondary | 2026-10-03 | S0155 | The ruling further stated Gabon was to remove the small military presence they had on the island. |
+| inhabited | yes | secondary | 2026-10-03 | S0155 | It is 30 ha (74 acres) in area, and only sparsely populated with fishermen. |
+| area_km2 | 0.3 | secondary | 2026-10-03 | S0155 | It is 30 ha (74 acres) in area, and only sparsely populated with fishermen. |
 
 Sources:
+
+- S0083: https://en.wikipedia.org/w/index.php?title=Gabon_v._Equatorial_Guinea&oldid=1355987082
+- S0155: https://en.wikipedia.org/w/index.php?title=Mbanie_Island&oldid=1366282424

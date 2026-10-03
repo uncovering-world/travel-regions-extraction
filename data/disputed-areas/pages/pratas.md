@@ -4,5 +4,16 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Republic of China (Taiwan) (administers, under Kaohsiung City); People's Republic of China (claims, as part of Guangdong Province) | secondary | 2026-10-03 | S0184 | The People's Republic of China claims the Pratas Islands ( 东沙群岛 ) as part of Chengqu , Shanwei (Swabue), Guangdong Province . |
+| kind | de_facto_state | secondary | 2026-10-03 | S0142 | The government of the People's Republic of China claims the entire island of Taiwan, as well as a number of minor islands, such as Penghu , Kinmen , and Matsu , that are controlled by the Republic of China. |
+| origin | The navy of the Republic of China took over and garrisoned the island on 12 September 1946. | secondary | 2026-10-03 | S0184 | On September 12, 1946, the navy of the Republic of China took over and garrisoned Pratas Island. |
+| on_the_ground | Administered by the Kaohsiung City Government under Cijin District; no long-term inhabitants. | secondary | 2026-10-03 | S0184 | Although there are no long-term inhabitants on the island, Pratas is administered by the Kaohsiung City Government under Cijin District . |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0184 | about five hundred Taiwanese marines were stationed on Pratas Island. |
+| traveller_access | closed | secondary | 2026-10-03 | S0074 | The park is not open to tourism due to environmental restoration, safety, and ecological studies currently in progress. |
+| area_km2 | 1.74 | secondary | 2026-10-03 | S0184 | Area 174 ha (430 acres) (land), 64 ha (158.15 acres) (lagoon) |
 
 Sources:
+
+- S0074: https://en.wikipedia.org/w/index.php?title=Dongsha_Atoll_National_Park&oldid=1362722461
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0184: https://en.wikipedia.org/w/index.php?title=Pratas_Island&oldid=1374230712

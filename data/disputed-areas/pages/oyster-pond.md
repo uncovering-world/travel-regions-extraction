@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Netherlands (claimed the whole pond); France (claimed half, on the basis of equidistance between the coasts) | primary | 2026-10-03 | S0328 | Un différend territorial concernant l'étang aux Huîtres, revendiqué dans son entièreté par les Pays-Bas et pour moitié par la France, sur la base de l'équidistance entre les côtes, a retardé l'aboutissement d'un accord entre les deux pays sur la délimitation de la frontière. |
+| kind | resolved_recently | primary | 2026-10-03 | S0328 | L'accord conclu avec le Royaume des Pays-Bas, le 26 mai 2023, portant délimitation de leur frontière commune à Saint-Martin est composé d'un préambule, de sept titres et de dix-sept articles. |
+| origin | Settled by a 2023 agreement defining the border; France's National Assembly approved its ratification on 16 July 2026, and the Netherlands had still to ratify before it enters into force. | secondary | 2026-10-03 | S0194 | On 16 July 2026, the French National Assembly approved legislation authorizing the ratification of the 2023 agreement defining the border between France's Saint-Martin and Sint Maarten of the Kingdom of the Netherlands. The move formally advanced the settlement of a centuries-old border ambiguity, with the Netherlands still required to complete its own ratification process before the agreement enters into force. |
+| on_the_ground | The border between the French and Dutch sides is completely open and can be crossed freely. | secondary | 2026-10-03 | S0194 | The border is completely open and can be crossed freely. |
+| traveller_access | open | secondary | 2026-10-03 | S0194 | The border is completely open and can be crossed freely. |
 
 Sources:
+
+- S0194: https://en.wikipedia.org/w/index.php?title=Saint_Martin%E2%80%93Sint_Maarten_border&oldid=1366586506
+- S0328: https://www.senat.fr/leg/exposes-des-motifs/pjl25-437-expose.html

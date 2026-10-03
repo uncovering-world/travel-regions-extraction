@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | China; North Korea | secondary | 2026-10-03 | S0278 | North Korea and China dispute the sovereignty of certain islands in Yalu and Tumen Rivers |
+| kind | line_position | secondary | 2026-10-03 | S0276 | certain islands in the Yalu and Tumen Rivers are in dispute with North Korea |
+| origin | In 1962 North Korea and China secretly signed a border treaty fixing the boundary line along the Yalu and Tumen rivers. | secondary | 2026-10-03 | S0054 | In 1962, North Korea and China signed a border treaty in secret which fixed the boundary line along the Yalu and Tumen rivers, with the middle overland section running across Mount Paektu and through Heaven Lake . |
+| on_the_ground | The 1964 protocol allocated the river islets: 264 to North Korea and 187 to China. | secondary | 2026-10-03 | S0054 | A subsequent protocol in 1964 allocated the numerous riverine islets, granting 264 to North Korea and 187 to China. |
 
 Sources:
+
+- S0054: https://en.wikipedia.org/w/index.php?title=China%E2%80%93North_Korea_border&oldid=1377227999
+- S0276: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/east-n-southeast-asia/ch.json
+- S0278: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/east-n-southeast-asia/kn.json

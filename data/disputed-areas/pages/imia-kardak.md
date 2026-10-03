@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Greece (claims); Turkey (claims) | secondary | 2026-10-03 | S0098 | Imia was the object of a military crisis and subsequent dispute over sovereignty between Greece and Turkey in 1996. |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0098 | The Imia dispute is part of the larger Aegean dispute , which also comprises disputes over the continental shelf , the territorial waters, the air space , the Flight Information Regions (FIR) and the demilitarization of the Aegean islands. |
+| origin | The dispute arose on 26 December 1995, when a Turkish cargo ship ran aground on the east islet and had to be salvaged. | secondary | 2026-10-03 | S0098 | The dispute over Imia arose when, on 26 December 1995, the Turkish cargo ship Figen Akat accidentally ran aground on the east islet and had to be salvaged |
+| on_the_ground | Both sides agreed, through the United States, to return to the status quo ante: differing views on sovereignty and no military forces on the islets. | secondary | 2026-10-03 | S0098 | Agreement was given by both sides to the United States to return to the "status quo ante"—i.e., differing views on sovereignty and no military forces on the islets. |
+| inhabited | no | secondary | 2026-10-03 | S0098 | is a pair of small uninhabited islets in the Aegean Sea , situated between the Greek island chain of the Dodecanese and the southwestern mainland coast of Turkey |
+| area_km2 | 0.04 | secondary | 2026-10-03 | S0098 | Their total surface area is 10 acres (4.0 ha). |
 
 Sources:
+
+- S0098: https://en.wikipedia.org/w/index.php?title=Imia&oldid=1370623392

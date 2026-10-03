@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Niger; Libya (claims about 25,000 sq km in the Tummo region; the dispute is currently dormant) | secondary | 2026-10-03 | S0269 | Niger-Libya : Libya claims about 25,000 sq km in a currently dormant dispute in the Tummo region |
+| kind | paper_claim | secondary | 2026-10-03 | S0080 | Libya has in the past claimed a strip along their border of about 19,400 km 2 in northern Niger. |
+| area_km2 | 25000 | secondary | 2026-10-03 | S0269 | Niger-Libya : Libya claims about 25,000 sq km in a currently dormant dispute in the Tummo region |
 
 Sources:
+
+- S0080: https://en.wikipedia.org/w/index.php?title=Foreign_relations_of_Niger&oldid=1377029633
+- S0269: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/ng.json

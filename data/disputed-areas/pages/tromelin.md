@@ -4,5 +4,14 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | France (administers as part of the French Southern and Antarctic Lands); Mauritius (claims) | secondary | 2026-10-03 | S0243 | Tromelin is administered as part of the French Southern and Antarctic Lands , a French Overseas Territory , but Mauritius claims sovereignty over the island despite its absence in the listing of the 8th article of the 1814 Treaty of Paris . |
+| kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0243 | Tromelin has an Exclusive Economic Zone (EEZ) of 280,000 km 2 (108,109 sq mi), contiguous with that of Réunion . |
+| origin | Mauritius holds that the island was ceded to the United Kingdom by the 1814 Treaty of Paris and so should not be administered by France as a dependency of Réunion. | secondary | 2026-10-03 | S0243 | The Mauritian claim to sovereignty is based on the fact that the island must have been ceded to United Kingdom by the treaty of Paris in 1814 and should not continue to be administered by France as a dependency of Réunion . |
+| on_the_ground | France operates the island's weather station with staff of the French Southern and Antarctic Lands, rotated every three months from Réunion. | secondary | 2026-10-03 | S0243 | The island's autonomous weather station , which warns of cyclones , is still operated by France and is supported by personnel from the French Southern and Antarctic Lands (TAAF). Staff are rotated every three months through resupply missions mounted from Réunion. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0256 | La station a été automatisée en 2011 et n'accueille plus depuis qu'une équipe de 4 personnes des Terres australes et antarctiques françaises (TAAF) qui assure une présence française permanente sur l'île pour des programmes d'étude et de conservation de l'environnement |
+| area_km2 | 0.8 | secondary | 2026-10-03 | S0243 | Tromelin is about 1,700 m (1.1 mi) long and 700 m (0.43 mi) wide, with an area of 80 hectares (200 acres), |
 
 Sources:
+
+- S0243: https://en.wikipedia.org/w/index.php?title=Tromelin_Island&oldid=1368670292
+- S0256: https://fr.wikipedia.org/w/index.php?title=%C3%8Ele_Tromelin&oldid=239793425

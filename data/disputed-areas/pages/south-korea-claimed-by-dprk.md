@@ -4,5 +4,17 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | South Korea; North Korea (recognised the Republic of Korea and dropped its claim to the south of the peninsula in 2026) | secondary | 2026-10-03 | S0142 | North Korea recognized the Republic of Korea and dropped its claim to the southern Korean peninsula in 2026. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0060 | Article 2 states that the DPRK's territory "includes the territory bordering the People's Republic of China and the Russian Federation to the north, and the Republic of Korea to the south, as well as the territorial seas and airspace established thereon." |
+| origin | The dispute began with the division of Korea at the end of World War II; it was settled in 2026, when North Korea recognised the Republic of Korea and dropped its claim to the southern part of the peninsula. | secondary | 2026-10-03 | S0142 | The dispute began with the Division of Korea at the end of World War II. North Korea recognized the Republic of Korea and dropped its claim to the southern Korean peninsula in 2026. |
+| on_the_ground | The Republic of Korea administers South Korea; its own constitution (Article 3) still defines its territory as the whole Korean peninsula. | secondary | 2026-10-03 | S0142 | The Republic of Korea administers only South Korea, but Article 3 of the Constitution of South Korea reads: "The territory of the Republic of Korea shall consist of the Korean peninsula and its adjacent islands." |
+| inhabited | yes | secondary | 2026-10-03 | S0215 | It has a population of about 52 million, of which half live in the Seoul metropolitan area , the ninth most populous metropolitan area in the world , with other major cities being Busan , Daegu , and Incheon . |
+| traveller_access | open | primary | 2026-10-03 | S0314 | You can enter South Korea for up to 90 days for short-term business or tourism. |
+| area_km2 | 100472.4 | secondary | 2026-10-03 | S0215 | Its total area is 100,472.4 square kilometers (38,792.61 sq mi). |
 
 Sources:
+
+- S0060: https://en.wikipedia.org/w/index.php?title=Constitution_of_North_Korea&oldid=1376488036
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0215: https://en.wikipedia.org/w/index.php?title=South_Korea&oldid=1375886915
+- S0314: https://www.gov.uk/foreign-travel-advice/south-korea/entry-requirements

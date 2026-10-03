@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Benin (counts the zone in the commune of Matéri); Burkina Faso (counts it in the department of Pama) | secondary | 2026-10-03 | S0120 | For Benin, the zone is part of the commune of Matéri in the department of Atakora ; for Burkina Faso, the zone is part of the department of Pama in the province of Kompienga |
+| kind | own_regime | secondary | 2026-10-03 | S0120 | In 2009, the area was given a special status as a neutral zone until a decision could be made by the International Court of Justice |
+| origin | By the colonial definition of the border the area would be part of Burkina Faso, but a document signed by a colonial administrator in 1938 placed it within present-day Benin. | secondary | 2026-10-03 | S0120 | According to this definition, the area would be a part of Burkina Faso. However, a document signed by a colonial administrator in 1938 placed the area within the boundary of present-day Benin. |
+| on_the_ground | Both Burkinabe and Beninese forces have left the area to avoid a diplomatic incident, leaving a lack of security. | secondary | 2026-10-03 | S0120 | Due to the delicate legal situation of the area, there is a lack of security as both Burkinabe and Benin forces have deserted the area in order to avoid a diplomatic incident. |
+| inhabited | yes | secondary | 2026-10-03 | S0120 | Population  • Total ~5,000 |
+| area_km2 | 68 | secondary | 2026-10-03 | S0120 | The 68 km 2 area of land is near the tripoint border with Togo and has been the subject of a dispute between the two countries for years. |
 
 Sources:
+
+- S0120: https://en.wikipedia.org/w/index.php?title=Koalou&oldid=1376423622

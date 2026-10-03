@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Moldova (the road section lies within its territory); Ukraine (owns and controls the road section) | secondary | 2026-10-03 | S0175 | However, on November 22, 2012, the Moldovan ambassador to Ukraine announced that Moldova had transferred the section of the road by Palanca and that it had become property of Ukraine within the territory of Moldova, which would be controlled by Ukraine. |
+| kind | lease_or_base | secondary | 2026-10-03 | S0175 | Under a 2001 treaty, Moldova committed to transfer control and sovereignty of the 7.7 km ( 4 + 3 ⁄ 4 miles) stretch of road between Maiaky and Udobne |
+| origin | Under a 2001 treaty Moldova committed to transfer control and sovereignty of the 7.7 km stretch of road between Maiaky and Udobne. | secondary | 2026-10-03 | S0175 | Under a 2001 treaty, Moldova committed to transfer control and sovereignty of the 7.7 km ( 4 + 3 ⁄ 4 miles) stretch of road between Maiaky and Udobne |
+| on_the_ground | The road section is property of Ukraine within Moldovan territory and is controlled by Ukraine (announced on 22 November 2012). | secondary | 2026-10-03 | S0175 | However, on November 22, 2012, the Moldovan ambassador to Ukraine announced that Moldova had transferred the section of the road by Palanca and that it had become property of Ukraine within the territory of Moldova, which would be controlled by Ukraine. |
 
 Sources:
+
+- S0175: https://en.wikipedia.org/w/index.php?title=Palanca%2C_%C8%98tefan_Vod%C4%83&oldid=1377918185

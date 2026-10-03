@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Saudi Arabia (temporarily transferred the administration to Egypt in 1950); Egypt (administered the islands) | secondary | 2026-10-03 | S0237 | The island's administration was temporarily transferred by King Abdulaziz to Egypt in 1950 due to concerns of Israeli expansion while Saudi Arabia lacked a naval capability to protect the island. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0196 | On 14 June 2017, Egypt's House Committee on Defence and National Security unanimously approved the transfer of Tiran and Sanafir islands to Saudi Arabia, and the plan was passed by the Egyptian Parliament later the same day. |
+| origin | Settled on 24 June 2017, when President el-Sisi of Egypt, overriding a court ruling, ratified the agreement ceding sovereignty over Tiran and Sanafir to Saudi Arabia. | secondary | 2026-10-03 | S0237 | Finally, on Saturday 24 June 2017, President Abdel Fattah el-Sisi of Egypt ignored the court ruling and ratified the agreement that cedes sovereignty over the two Red Sea islands, Tiran and Sanafir, to Saudi Arabia. |
+| on_the_ground | The United States announced that the MFO peacekeepers would be withdrawn from the islands by the end of the year, as Saudi Arabia is not a party to the Egypt-Israel treaty and MFO arrangement. | secondary | 2026-10-03 | S0237 | Shortly afterwards the United States announced that MFO forces would be withdrawn from the islands by the end of the year, as Saudi Arabia had not been a party to the treaty and MFO arrangement between Egypt and Israel. |
+| inhabited | no | secondary | 2026-10-03 | S0237 | Demographics Population 0 (2026) |
 
 Sources:
+
+- S0196: https://en.wikipedia.org/w/index.php?title=Sanafir_Island&oldid=1374513168
+- S0237: https://en.wikipedia.org/w/index.php?title=Tiran_Island&oldid=1376194810

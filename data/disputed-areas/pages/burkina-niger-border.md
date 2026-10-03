@@ -4,5 +4,11 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Burkina Faso; Niger | secondary | 2026-10-03 | S0142 | The International Court of Justice redefined the border between Burkina Faso and Niger in 2013. In 2015 the ruling was implemented by exchanging 18 towns between the two countries. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0142 | The International Court of Justice redefined the border between Burkina Faso and Niger in 2013. In 2015 the ruling was implemented by exchanging 18 towns between the two countries. |
+| origin | The two states submitted the dispute to the International Court of Justice in 2010; it ruled in 2013, recommending small territorial exchanges that both governments accepted. | secondary | 2026-10-03 | S0045 | A full border demarcation remained incomplete until the late 1980s, however disputes about the interpretation of colonial-era boundary treaties prompted the two states to submit the dispute to the International Court of Justice in 2010. The ICJ subsequently ruled on the dispute in 2013, recommending some small territorial exchanges, which were accepted by both governments. |
 
 Sources:
+
+- S0045: https://en.wikipedia.org/w/index.php?title=Burkina_Faso%E2%80%93Niger_border&oldid=1354813884
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Bhutan (claims); China (claims) | secondary | 2026-10-03 | S0072 | Since the 1960s, China and Bhutan have disputed sovereignty over the Doklam area. |
+| kind | no_agreed_boundary | secondary | 2026-10-03 | S0036 | Bhutan's border with Tibet has never been officially recognised and demarcated. |
+| origin | China and Bhutan have disputed sovereignty over Doklam since the 1960s; border talks have not resolved it. | secondary | 2026-10-03 | S0072 | Since the 1960s, China and Bhutan have disputed sovereignty over the Doklam area. The dispute has not been resolved despite several rounds of border negotiations between Bhutan and China. |
+| on_the_ground | China has built a road over the disputed Doklam plateau up to the Doka La pass. | secondary | 2026-10-03 | S0072 | Chinese built a road up the Sinchela pass (in undisputed territory) and then over the plateau (in disputed territory), leading up to the Doka La pass, until reaching within 68 metres to the Indian border post on the Sikkim border. |
+| area_km2 | 269 | secondary | 2026-10-03 | S0072 | In 1996, the Chinese negotiators offered a "package deal" to Bhutan, offering to give up claims on 495 km 2 (191 sq mi) in the "central region" in exchange for 269 km 2 (104 sq mi) in the "northwest", i.e., adjacent to the Chumbi valley, including Doklam, Sinchulumpa , Dramana and Shakhatoe . |
 
 Sources:
+
+- S0036: https://en.wikipedia.org/w/index.php?title=Bhutan%E2%80%93China_border&oldid=1370428766
+- S0072: https://en.wikipedia.org/w/index.php?title=Doklam&oldid=1376427375

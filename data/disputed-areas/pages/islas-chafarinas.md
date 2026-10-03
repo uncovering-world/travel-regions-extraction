@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Spain (administers); Morocco (claims) | secondary | 2026-10-03 | S0049 | The islands are administered by Spain but also claimed by Morocco as part of its territory alongside other Spanish territories in North Africa. |
+| kind | paper_claim | secondary | 2026-10-03 | S0049 | The Chafarinas Islands are one of the Spanish territories in North Africa off the Moroccan coast known as plazas de soberanía . The islands are administered by Spain but also claimed by Morocco as part of its territory alongside other Spanish territories in North Africa. |
+| origin | Under Spanish control since 1847. | secondary | 2026-10-03 | S0049 | Under Spanish control since 1847, there is a 30-man |
+| on_the_ground | Spain keeps a 30-man military garrison on Isla Isabel II, the only stable population of the archipelago. | secondary | 2026-10-03 | S0049 | military garrison on Isla Isabel II, the only stable population on the small archipelago, down from 426 people in 1900 and 736 people in 1910. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0049 | They are uninhabited except for a garrison of the Spanish Army |
+| area_km2 | 0.525 | secondary | 2026-10-03 | S0049 | are a group of three Spanish small islets located in the Alboran Sea off the coast of Africa with an aggregate area of 0.525 square kilometres (0.203 sq mi) |
 
 Sources:
+
+- S0049: https://en.wikipedia.org/w/index.php?title=Chafarinas_Islands&oldid=1368247201

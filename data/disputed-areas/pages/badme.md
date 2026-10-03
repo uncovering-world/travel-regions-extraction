@@ -4,5 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Eritrea (to receive the town); Ethiopia (announced in June 2018 that it would withdraw and cede it) | secondary | 2026-10-03 | S0023 | In June 2018, following a meeting of the executive council of the Ethiopian People's Revolutionary Democratic Front (EPRDF), the ruling party in Ethiopia, the government of Ethiopia announced plans to withdraw from Badme and cede it to Eritrea. |
+| kind | resolved_recently | secondary | 2026-10-03 | S0142 | Basis of the Eritrean-Ethiopian War which began in 1998. The territory was handed over to Eritrea following a joint statement at the Eritrea–Ethiopia summit in 2018 . |
+| origin | In 2002 the boundary commission placed Badme inside Eritrean territory. | secondary | 2026-10-03 | S0023 | In 2002, the commission ruled on where the boundary ran, placing Badme inside Eritrean territory. |
+| inhabited | yes | secondary | 2026-10-03 | S0023 | Population (2005) • Total 1,563 |
 
 Sources:
+
+- S0023: https://en.wikipedia.org/w/index.php?title=Badme&oldid=1374960944
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742

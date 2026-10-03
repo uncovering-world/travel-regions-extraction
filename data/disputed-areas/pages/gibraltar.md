@@ -4,6 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | United Kingdom; Spain (asserts a claim to the territory) | secondary | 2026-10-03 | S0086 | The sovereignty of Gibraltar is a point of contention in Anglo-Spanish relations as Spain asserts a claim to the territory . |
+| kind | paper_claim | secondary | 2026-10-03 | S0086 | The sovereignty of Gibraltar is a point of contention in Anglo-Spanish relations as Spain asserts a claim to the territory . |
+| origin | Captured from Spain in 1704 and ceded to Great Britain in perpetuity under the Treaty of Utrecht in 1713. | secondary | 2026-10-03 | S0086 | In 1704, Anglo-Dutch forces captured Gibraltar from Spain during the War of the Spanish Succession , and it was ceded to Great Britain in perpetuity under the Treaty of Utrecht in 1713. |
+| on_the_ground | A treaty signed on 14 July 2026 removes routine border controls at the Gibraltar-Spain frontier and brings Gibraltar into the Schengen Area and the EU Customs Union. | secondary | 2026-10-03 | S0086 | The agreement was later formalised on 14 July 2026, when the UK, Spain, Gibraltar and the European Union signed a treaty in Brussels removing routine border controls at the Gibraltar–Spain frontier and enabling Gibraltar's participation in the Schengen Area and the European Union Customs Union. |
+| inhabited | yes | secondary | 2026-10-03 | S0086 | Gibraltar is home to around 38,000 people, primarily Gibraltarians . |
+| area_km2 | 6.8 | secondary | 2026-10-03 | S0086 | It has an area of 6.8 km 2 (2.6 sq mi) and is bordered to the north by Spain ( Campo de Gibraltar ). |
 | ne_name | Gibraltar | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. By U.K.; Claimed by Spain | machine | 2026-10-03 | NE |  |
@@ -13,3 +19,4 @@
 Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
+- S0086: https://en.wikipedia.org/w/index.php?title=Gibraltar&oldid=1374725178

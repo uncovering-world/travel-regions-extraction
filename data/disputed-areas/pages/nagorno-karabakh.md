@@ -4,5 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Azerbaijan (captured all of Nagorno-Karabakh in a 2023 offensive); Artsakh (dissolved) | secondary | 2026-10-03 | S0142 | Azerbaijan captured the surrounding territories and the city of Shusha during the Second Nagorno-Karabakh War in 2020, then finally all of Nagorno-Karabakh proper during a 2023 offensive . The dispute ended after the dissolution of Artsakh |
+| kind | resolved_recently | secondary | 2026-10-03 | S0142 | Azerbaijan captured the surrounding territories and the city of Shusha during the Second Nagorno-Karabakh War in 2020, then finally all of Nagorno-Karabakh proper during a 2023 offensive . The dispute ended after the dissolution of Artsakh |
+| origin | Azerbaijan launched a large-scale military offensive in Nagorno-Karabakh on 19 September 2023, after a blockade lasting several months. | secondary | 2026-10-03 | S0162 | On 19 September 2023, after a blockade lasting several months, Azerbaijan launched a fresh large-scale military offensive in Nagorno-Karabakh. |
+| on_the_ground | Azerbaijani security forces entered the former Artsakh capital Stepanakert, which Azerbaijan calls Khankendi. | secondary | 2026-10-03 | S0162 | the entry of Azerbaijani security forces into the former Artsakh capital of Stepanakert , known as Khankendi by Azerbaijan. |
+| traveller_access | restricted | primary | 2026-10-03 | S0301 | Anyone who has previously visited certain areas in south-western Azerbaijan, including the town of Khankendi, without the permission of the Azerbaijani authorities could be denied entry to Azerbaijan. |
+| area_km2 | 4400 | secondary | 2026-10-03 | S0162 | The region is usually equated with the administrative borders of the former Nagorno-Karabakh Autonomous Oblast (NKAO), comprising 4,400 km 2 (1,700 sq mi) |
 
 Sources:
+
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
+- S0162: https://en.wikipedia.org/w/index.php?title=Nagorno-Karabakh&oldid=1376328209
+- S0301: https://www.gov.uk/foreign-travel-advice/azerbaijan/entry-requirements

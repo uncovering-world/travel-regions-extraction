@@ -4,5 +4,13 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Belize (administers); Guatemala (claims the territory between the Sibun and Sarstoon rivers, and formally all of Belize) | secondary | 2026-10-03 | S0142 | The Guatemalan Ministry of Foreign Affairs has issued a statement in which Guatemala specifically claims territory between the Sibun and Sarstoon rivers, which makes up around half of Belizean-administered territory. |
+| kind | paper_claim | secondary | 2026-10-03 | S0142 | Guatemala formally claims all of Belize ; an International Court of Justice decision over the matter is pending. |
+| origin | The 1859 Wyke-Aycinena Treaty had Guatemala recognise British sovereignty and formed the present boundary lines of Belize. | secondary | 2026-10-03 | S0034 | Guatemala and Britain negotiated the Wyke-Aycinena Treaty in 1859 regarding the disputed area. The treaty stated that Guatemala would recognise British sovereignty over the region and formed the modern-day boundary lines of Belize. |
+| on_the_ground | Both countries keep troops at the border, with a one-kilometre 'adjacency zone' on either side of the 1859 treaty line. | secondary | 2026-10-03 | S0034 | Guatemala and Belize both stationed troops at the border, with a one-kilometre "adjacency zone" drawn on either side of the 1859 treaty borders. |
+| area_km2 | 12272 | secondary | 2026-10-03 | S0034 | This claim amounts to 12,272 km 2 (4,738 sq mi) of territory, or roughly 53% of Belizean territory. |
 
 Sources:
+
+- S0034: https://en.wikipedia.org/w/index.php?title=Belizean%E2%80%93Guatemalan_territorial_dispute&oldid=1377740667
+- S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
