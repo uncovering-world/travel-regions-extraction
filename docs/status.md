@@ -55,4 +55,4 @@ Concluded on 2026-10-03 unless marked.
 
 ## Next step
 
-The Stage 1 list is built: 315 regions, 302 with nothing open, 92 special places, one fact missing; entry rules are now found by a scripted discovery (`data/entry-rules/`), repeated yearly. Next: outlines for places the substrate cannot represent (Q013), the binding to substrate units, and the release package for TYR.
+The Stage 1 list is built: 319 regions, 306 with nothing open, 88 special places, two facts missing; entry rules are now found by a scripted discovery (`data/entry-rules/`), repeated yearly. Next: outlines for places the substrate cannot represent (Q013), the binding to substrate units, and the release package for TYR.

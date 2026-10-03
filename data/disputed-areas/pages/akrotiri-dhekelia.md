@@ -11,7 +11,10 @@
 | inhabited | yes | secondary | 2026-10-03 | S0010 | Approximately 18,195 people live in the areas. |
 | traveller_access | open | secondary | 2026-10-03 | S0010 | There is normally no passport check at the border from Akrotiri or Dhekelia to Cyprus. Perhaps to help reduce any tensions in the area, outside of the bases much of the territory is indistinguishable from that controlled by Cyprus and casual visitors may not realise that they have crossed an international border. |
 | area_km2 | 254 | secondary | 2026-10-03 | S0010 | Akrotiri and Dhekelia cover 3% of the land area of Cyprus, a total of 254 km 2 |
+| holder | United Kingdom (SBA Administration; SBA Police police the whole SBAs incl. garrisons). No controls on the land boundary with the Republic of Cyprus; UK checks persons only at the SBAs' external borders (sea boundaries, airports, seaports) | primary | 2026-10-04 | S0369 | The SBA Police provide a civil policing service across the Sovereign Base Areas including inside the military garrisons and the RAF station. |
+| holder_since | 1960-08-16 (SBA Police established at midnight on 15 August 1960 under the Treaty of Establishment) | primary | 2026-10-04 | S0369 | The Sovereign Base Areas Police Service was established at midnight on the 15th of August 1960 and was constituted in accordance with the 1960 Treaty of Establishment and Sovereign Base Areas Ordinance. |
 
 Sources:
 
 - S0010: https://en.wikipedia.org/w/index.php?title=Akrotiri_and_Dhekelia&oldid=1373603021
+- S0369: https://www.sbaadministration.org/index.php/sba-police-service

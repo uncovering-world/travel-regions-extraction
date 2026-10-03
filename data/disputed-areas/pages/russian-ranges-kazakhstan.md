@@ -9,6 +9,8 @@
 | origin | Kazakhstan's sovereignty extended to the Soviet test site with independence in 1991; in 1996 the two governments signed an agreement on the lease of the Sary-Shagan testing ground. | secondary | 2026-10-03 | S0199 | After the proclamation in 1991 of the independence of Kazakhstan, its sovereignty extends to the test site. In 1996, an agreement was signed between the Government of the Russian Federation and the Government of the Republic of Kazakhstan on the lease of the Sary-Shagan testing ground, |
 | on_the_ground | Russia operates the Sary Shagan anti-ballistic missile testing range and the Kambala air base. | secondary | 2026-10-03 | S0141 | The Sary Shagan anti-ballistic missile testing range and the Kambala air base are also operated by Russia. |
 | traveller_access | closed | primary | 2026-10-04 | S0355 | Пребывание граждан третьих стран на Полигоне согласовывается Сторонами отдельно. |
+| holder | Split: Russia (lessee) on the Sary-Shagan range and leased objects in Priozersk — regime measures organised and enforced by the range command under Russian Armed Forces rules; presence of third-country nationals agreed by both parties; Priozersk itself is a Kazakh city of oblast subordination | primary | 2026-10-04 | S0355 | Режимные мероприятия на Полигоне и указанных объектах г. Приозерска организуются и осуществляются командованием Полигона в порядке, установленном в Вооруженных Силах Российской Федерации. |
+| holder_since | at least 1995-01-20 (agreement on use and lease of Sary-Shagan concluded in Moscow); earlier continuous holding not sourced | primary | 2026-10-04 | S0355 | (Заключено в г. Москве 20.01.1995) |
 
 Sources:
 

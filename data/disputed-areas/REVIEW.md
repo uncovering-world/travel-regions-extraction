@@ -160,3 +160,7 @@ Weak rows as reported by the collector, not checked again: `moselle-condominium`
 - `moldauhafen`: access recorded as `closed` from a passage describing a fenced, gated lot; a 2017 blog says otherwise.
 - `armistice-no-mans-lands`: `inhabited` = yes rests on Neve Shalom in the Latrun strip only.
 - Not found: access to the current site of the Tomb of Suleyman Shah.
+
+## 11. Holders of leased areas (added 2026-10-04)
+
+Collected for D057 (a lease is a region when its holder is not the lessor). On re-check two passages were not found and were dropped: `tiwinza` / `holder` and `tin-bigha` / `holder_since`; three sources could not be read and stay unchecked (`palanca-road` and `tin-bigha` holders, `kinmen-matsu` holder). As reported by the collector: control is split at `guantanamo-bay` (the United States inside the base, Cuba on the land approaches) and at `russian-ranges-kazakhstan` (the Russian range command sets the regime, both states approve foreigners); `moldauhafen` rests on a Czech ministry answer quoted in an interview; every `suleyman-shah-tomb` row is Wikipedia; treaty texts read from unofficial mirrors are recorded as secondary.

@@ -39,6 +39,7 @@ def main() -> None:
     areas = read(REPO / "data" / "disputed-areas" / "registry.csv")
     links = {r["area_id"]: r for r in read(ROOT / "inputs" / "links.csv")}
     not_witness = {r["id"] for r in read(ROOT / "inputs" / "not_a_witness.csv")}
+    lease_roles = {r["area_id"]: r for r in read(ROOT / "inputs" / "lease_holders.csv")}
     held: dict[str, dict] = {}
     for r in read(REPO / "data" / "disputed-areas" / "facts.csv"):
         if r["field"] in ("holder", "holder_since", "stated_outline"):
@@ -155,12 +156,17 @@ def main() -> None:
                 place("residents unknown: treated as a special place until sourced")
                 gap("whether civilians live there", "region or special place")
         elif kind == "lease_or_base":
-            # R053: a region only where entry follows rules of its own, i.e. a recorded entry rule that is a witness;
-            # a closed or fenced site is not an entry rule (a closed military site is an object inside its region)
-            if rule and entry_rule(census[rule])[0]:
-                region("leased area with its own entry rule", "the lessor", "; ".join(entry_rule(census[rule])[1]))
+            # R053 as amended by D057: a region when its holder (R048) is a state other than the lessor
+            role = lease_roles.get(a["area_id"], {}).get("holder_role", "")
+            if role == "lessee":
+                region("leased area held by the lessee", "the lessor; held by " + held.get(a["area_id"], {}).get("holder", "?")[:60])
+            elif link.get("registry_cell"):
+                region("registry: points of view differ", "per the registry")
+            elif role:
+                place(f"leased; held by the {role}")
             else:
-                place("leased; no entry rule of its own recorded" + (f" (access: {a['traveller_access']})" if a["traveller_access"] else ""))
+                place("leased; holder not recorded")
+                gap("who holds the area", "region or special place")
         elif kind in BY_CONTROL:
             h = held.get(a["area_id"], {})
             if "holder" in h and "holder_since" in h:

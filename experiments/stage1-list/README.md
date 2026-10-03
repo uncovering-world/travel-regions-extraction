@@ -125,6 +125,12 @@ Correction the same day: two register areas inside Antarctica (the overlapping P
 
 The list build had treated a leased area as a region whenever access to it was restricted or closed. R053 asks for an entry rule of its own, and a closed or fenced site is not one (a closed military site is an object inside its region, R056). The owner spotted the result in the Port of Hamburg's Czech lots. Now a lease is a region only with a recorded entry rule that is a witness: Baikonur. Moldauhafen, the Russian ranges in Kazakhstan, Tiwinza, Diego Garcia and Guantanamo Bay are special places; for Guantanamo no entry rule is recorded yet. After the correction: 315 regions, 302 with nothing open, 92 special places, one missing fact.
 
+## Leases under D057, 2026-10-04
+
+The owner replaced R053's test: a lease is a region when its holder is a state other than the lessor (D057). Holders of the eleven leases were collected with sources and are in the register; `inputs/lease_holders.csv` reads each as lessor, lessee, split or shared, with the register's holder as basis. Regions now: Baikonur, Guantanamo Bay (the United States inside the base), the Palanca road section (Ukraine) and the Tomb of Suleyman Shah (Turkish troops); Akrotiri and Dhekelia stay regions through the registry. Special places: Moldauhafen, Saimaa Canal, Diego Garcia (inside its ISO entry) — held by the lessor; Tin Bigha (shared); the Russian ranges (split); Tiwinza (holder dropped on re-check).
+
+Result: 319 regions, 306 with nothing open; 88 special places; 2 missing facts.
+
 ## Status
 
-Concluded 2026-10-04 (six runs and two corrections).
+Concluded 2026-10-04 (six runs, two corrections, D057).

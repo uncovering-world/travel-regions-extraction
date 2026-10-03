@@ -10,7 +10,9 @@
 | on_the_ground | Under a treaty signed on 6 September 2011 the corridor is open 24 hours a day for Bangladeshis of the enclave to reach the mainland. | secondary | 2026-10-03 | S0236 | Following a treaty signed by the Prime Ministers of India and Bangladesh on 6 September 2011 in Dhaka , it was agreed that the corridor would be open for 24 hours for Bangladeshis in the enclave to access the mainland. |
 | traveller_access | open | secondary | 2026-10-03 | S0236 | it was agreed that the corridor would be open for 24 hours for Bangladeshis in the enclave to access the mainland. |
 | area_km2 | 0.01513 | secondary | 2026-10-03 | S0236 | India will lease in perpetuity to Bangladesh an area of 178 by 85 metres (584 ft × 279 ft) |
+| holder | Shared: sovereignty and residual jurisdiction stay with India (lessor); citizens of both India and Bangladesh (incl. police and military) have free and unfettered movement without passports; each state's law-enforcement agency deals with its own nationals. Who admits/refuses third-country nationals not stated | secondary | 2026-10-04 | S0366 | Clause 2: Sovereignty over the leased area shall continue to vest in India. |
 
 Sources:
 
 - S0236: https://en.wikipedia.org/w/index.php?title=Tin_Bigha_Corridor&oldid=1376968919
+- S0366: https://www.casemine.com/judgement/in/5609ac5ae4b014971140e9b8

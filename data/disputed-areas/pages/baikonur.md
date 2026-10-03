@@ -10,8 +10,11 @@
 | on_the_ground | For the duration of the lease the city has a status equivalent to a Russian city of federal significance. | secondary | 2026-10-03 | S0025 | Under the bilateral agreement between Russia and Kazakhstan, Baikonur is granted an unofficial status equivalent to a Russian city of federal significance for the duration of the lease of the Baikonur complex (currently through 2050). |
 | inhabited | yes | secondary | 2026-10-03 | S0025 | Population (2020) • Total 39,341 |
 | traveller_access | restricted | secondary | 2026-10-03 | S0025 | Foreign visitors and tourists can visit the cosmodrome and city but need to obtain a specific permit from Roscosmos . |
+| holder | Russia (lessee): the lessee establishes and ensures law and order, security, the special regime and the guarding of the Baikonur complex; Kazakhstan keeps a presidential special representative who monitors respect of its jurisdiction | secondary | 2026-10-04 | S0371 | 6.13. Правопорядок, безопасность, особый режим и охрану комплекса "Байконур" устанавливает и обеспечивает Арендатор. |
+| holder_since | 1991 (Russia has retained control of the cosmodrome since 1991; lease signed 10 December 1994) | secondary | 2026-10-04 | S0026 | Russia, as the official successor state to the Soviet Union , has retained control over the facility since 1991; |
 
 Sources:
 
 - S0025: https://en.wikipedia.org/w/index.php?title=Baikonur&oldid=1374970628
 - S0026: https://en.wikipedia.org/w/index.php?title=Baikonur_Cosmodrome&oldid=1377848069
+- S0371: https://zakonbase.ru/content/base/11534

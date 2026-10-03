@@ -8,6 +8,8 @@
 | kind | lease_or_base | secondary | 2026-10-03 | S0238 | Under the Treaty of Lausanne (1923), breaking up the Ottoman Empire into Turkey , Syria, and other states, the tomb site remains the property of Turkey. |
 | origin | Article 9 of the 1921 Treaty of Ankara between France and Turkey left the tomb, with its appurtenances, as Turkish property, with the right to appoint guardians and fly the Turkish flag. | secondary | 2026-10-03 | S0238 | Article 9 of the Treaty of Ankara , signed by France and Turkey in 1921, states that the tomb of Suleyman Shah (at its first location) "shall remain, with its appurtenances, the property of Turkey, who may appoint guardians for it and may hoist the Turkish flag there". |
 | on_the_ground | The tomb is now located in Turkish-controlled territory 180 m inside Syria. | secondary | 2026-10-03 | S0238 | Since then, the tomb has been located in Turkish-controlled territory 180 m (590 ft) inside Syria, |
+| holder | Turkey (Turkish Armed Forces guard the site, located in Turkish-controlled territory about 180 m inside Syria). The surrounding Syrian village was PYD/YPG-controlled in 2015; who controls the surroundings now not established | secondary | 2026-10-04 | S0238 | Since then, the tomb has been located in Turkish-controlled territory 180 m (590 ft) inside Syria, |
+| holder_since | 2015-02-22 (relocation to the Ashme site in Operation Shah Euphrates, 21–22 February 2015; tr.wikipedia dates the transfer of the remains to March 2015) | secondary | 2026-10-04 | S0238 | Those remains were moved to a site in Syria closer to the border in an area under Turkish military control, after which the rest of the old mausoleum was demolished. |
 
 Sources:
 

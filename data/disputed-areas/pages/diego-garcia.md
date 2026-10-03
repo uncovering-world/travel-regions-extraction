@@ -11,9 +11,12 @@
 | inhabited | garrison_only | secondary | 2026-10-03 | S0069 | Diego Garcia remained the only inhabited island of the BIOT, with a population of around 4,000 consisting predominantly of military personnel. |
 | traveller_access | restricted | primary | 2026-10-03 | S0302 | British Indian Ocean Territory is a British Overseas Territory. Access is restricted. |
 | area_km2 | 30 | secondary | 2026-10-03 | S0069 | Area 30 km 2 (12 sq mi) |
+| holder | United Kingdom (lessor; BIOT Administration issues entry permits; access to Diego Garcia only for those connected to the military facility or the Administration). The US (lessee of the base facilities) does not issue entry | primary | 2026-10-04 | S0365 | Access to Diego Garcia is only permitted to those with connections either to the military facility or to the Territory’s Administration . |
+| holder_since | 1814 (ceded to the UK by the Treaty of Paris; BIOT formed 1965) | secondary | 2026-10-04 | S0069 | Diego Garcia became a colony of the UK after the Napoleonic Wars as part of the Treaty of Paris (1814) , and from 1814 to 1965 it was administered from Mauritius; |
 
 Sources:
 
 - S0044: https://en.wikipedia.org/w/index.php?title=British_Indian_Ocean_Territory&oldid=1377561588
 - S0069: https://en.wikipedia.org/w/index.php?title=Diego_Garcia&oldid=1377646768
 - S0302: https://www.gov.uk/foreign-travel-advice/british-indian-ocean-territory
+- S0365: https://www.biot.gov.io/visiting/

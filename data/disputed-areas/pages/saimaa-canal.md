@@ -9,9 +9,11 @@
 | origin | Finland obtained a 50-year lease on the Soviet part of the canal in 1963. | secondary | 2026-10-03 | S0193 | Finland obtained a 50-year lease on the Soviet part of the canal and Maly Vysotsky Island (Ravansaari) in 1963. |
 | on_the_ground | Russian border authorities carry out entry and exit checks at Pälli Lock; Finnish authorities inspect at the Nuijamaa Customs Pier. | primary | 2026-10-03 | S0294 | The entry and exit checks carried out by Russian border authorities on the Saimaa Canal take place at Pälli Lock. A similar entry inspection by Finnish authorities is carried out at the Nuijamaa Customs Pier. |
 | traveller_access | open | secondary | 2026-10-03 | S0193 | Regulations pertaining to maritime rules and employment of canal staff fall under Finnish jurisdiction; in all other cases Russian laws apply. Passports are required at the international boundaries, but Russian visas are not required for just passing through the canal. |
+| holder | Russia (lessor): Russian law applies and Russian authorities act in the leased area (exceptions for Finnish law in listed civil matters and navigation); Russia may suspend access of persons to the leased area; landing passengers need Russian passport/visa clearance; Russian border check at Pälli lock (outside the leased area). Finland runs canal operation | secondary | 2026-10-04 | S0367 | Artiklan 1 kappaleen mukaan vuokra-alueella on voimassa Venäjän federaation lainsäädäntö ja alueella toimivat Venäjän viranomaiset. |
 
 Sources:
 
 - S0193: https://en.wikipedia.org/w/index.php?title=Saimaa_Canal&oldid=1375164321
 - S0293: https://vayla.fi/en/transport-network/waterways/canals-and-bridges/the-saimaa-canal
 - S0294: https://vayla.fi/en/transport-network/waterways/canals-and-bridges/the-saimaa-canal/navigation-in-the-saimaa-canal-and-lake-saimaa
+- S0367: https://www.edilex.fi/he/20100215

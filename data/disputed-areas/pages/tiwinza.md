@@ -10,6 +10,7 @@
 | on_the_ground | The planned commemorative use has been held up by slow demining; the area remains covered in mines and booby traps. | secondary | 2026-10-03 | S0041 | This purpose, however, has been interrupted by the slow process of demining the area, which remains covered in mines and other boobytraps. |
 | traveller_access | closed | secondary | 2026-10-04 | S0358 | al que los ecuatorianos nunca pudieron llegar |
 | area_km2 | 1 | secondary | 2026-10-03 | S0077 | an area of one square kilometer in the place of the fiercest struggle, Tiwinza, on the Peruvian side of the border, would be granted to Ecuador as a non-sovereign private property. |
+| holder_since | 1995-02-12 (per es.wikipedia the Ecuadorian camp Peru calls 'Falso Tiwintza' was taken by the Peruvian Army; not cross-checked with an Ecuadorian source) | secondary | 2026-10-04 | S0362 | El campamento militar ecuatoriano conocido por las autoridades peruanas como "Falso Tiwintza" fue tomado por el Ejército del Perú el 12 de febrero de 1995. |
 
 Sources:
 
@@ -17,3 +18,4 @@ Sources:
 - S0077: https://en.wikipedia.org/w/index.php?title=Ecuadorian%E2%80%93Peruvian_territorial_dispute&oldid=1374831282
 - S0288: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/south-america/pe.json
 - S0358: https://www.primicias.ec/noticias/politica/guerra-ecuador-peru-paz-frontera-tiwintza/
+- S0362: https://es.wikipedia.org/w/index.php?title=Tiwinza_%28Per%C3%BA%29&oldid=169256370

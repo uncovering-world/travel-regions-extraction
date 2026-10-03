@@ -10,9 +10,11 @@
 | on_the_ground | The site was used by the Czechoslovak Elbe shipping company (ČSPL) until 2002; use declined after its insolvency, and the lease runs until 2028. | secondary | 2026-10-03 | S0004 | Das im damaligen Freihafen gelegene Gelände wurde bis 2002 von der Tschechoslowakischen Elbe-Schiffahrtsgesellschaft (ČSPL) genutzt. Nach der Insolvenz der ČSPL ging die Nutzung zurück, der Pachtvertrag gilt noch bis 2028. |
 | traveller_access | closed | primary | 2026-10-04 | S0359 | V současné době je tato plocha rozměrů přibližně 120 x 20 m, s oplocením a samostatným vjezdem z veřejné komunikace uzavíraným vraty a závorou pronajata k parkování nákladních vozidel. |
 | area_km2 | 0.0285 | secondary | 2026-10-03 | S0160 | The area comprises about 28,500 square metres (306,771 sq ft). |
+| holder | Germany (lessor): the Czech port territory is not extraterritorial and is under full German jurisdiction; the Czech Republic (lessee) controls only the gate of its fenced plot as property holder (sub-let as a truck park) | secondary | 2026-10-04 | S0364 | České přístavní území není exteritoriálním územím a je v plné jurisdikci Spolkové republiky Německo, samozřejmě při splnění podmínek daných nájemní smlouvou. |
 
 Sources:
 
 - S0004: https://de.wikipedia.org/w/index.php?title=Moldauhafen&oldid=269028853
 - S0160: https://en.wikipedia.org/w/index.php?title=Moldauhafen&oldid=1277770678
 - S0359: https://www.rvc.gov.cz/pristavy-a-sluzby/pristavni-uzemi-cr-v-hamburku
+- S0364: https://www.armadninoviny.cz/ministerstvo-dopravy-budoucnost-ceskeho-pristavu-v-hamburku.html
