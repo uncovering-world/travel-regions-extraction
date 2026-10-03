@@ -3,7 +3,6 @@ place/abyei,Abyei Area,own_regime,residents unknown: treated as a special place 
 place/akrotiri-dhekelia,Akrotiri and Dhekelia Sovereign Base Areas,lease_or_base,leased; no entry rule of its own recorded
 place/antarctic-peninsula-overlap,Overlapping Antarctic claims 25°W-80°W,own_regime,residents unknown: treated as a special place until sourced
 place/aves-island,Aves Island (Bird Island),islets_for_maritime_zone,no resident civilians
-place/baikonur,Baikonur Cosmodrome and city,lease_or_base,leased; its recorded entry rule does not qualify
 place/bajo-nuevo,Bajo Nuevo Bank,islets_for_maritime_zone,no resident civilians
 place/banc-du-geyser,Banc du Geyser,islets_for_maritime_zone,no resident civilians
 place/bhutan-china-north,"Jakarlung, Pasamlung and Beyul Khenpajong",no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it

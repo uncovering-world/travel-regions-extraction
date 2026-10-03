@@ -248,28 +248,28 @@ YT,Mayotte,ISO 3166-1 entry,YT,registry,
 ZA,South Africa,ISO 3166-1 entry,ZA,registry,
 ZM,Zambia,ISO 3166-1 entry,ZM,registry,
 ZW,Zimbabwe,ISO 3166-1 entry,ZW,registry,
-area/abkhazia,Abkhazia,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/abkhazia,Abkhazia,registry: points of view differ,"held by Abkhaz authorities, with Russian forces; Georgia's government has held no part since 12 August 2008, when it left the upper Kodori gorge since 1993 for most of Abkhazia (end of the 1992-1993 war)",secondary,quiet years not counted: no UCDP conflict tied to the area
 area/arunachal-pradesh,Arunachal Pradesh,residents; points of view differ,holder,secondary,who holds it
+area/baikonur,Baikonur Cosmodrome and city,leased area with its own entry rule,the lessor,secondary,
 area/bir-tawil,Bir Tawil,unclaimed land,none,secondary,
-area/crimea,Crimea and Sevastopol,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/crimea,Crimea and Sevastopol,registry: points of view differ,held by Russia since 2014,secondary,quiet years not counted: no UCDP conflict tied to the area
 area/cyprus-buffer-zone,UN Buffer Zone in Cyprus,residents; no single holder,none,secondary,
-area/east-jerusalem,East Jerusalem,registry: points of view differ,by the settling rule,secondary,who holds it and since when
-area/golan-heights,Golan Heights,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/east-jerusalem,East Jerusalem,registry: points of view differ,held by Israel since 1967,secondary,quiet years not counted: no UCDP conflict tied to the area
+area/golan-heights,Golan Heights,registry: points of view differ,"held by Israel (the territory it holds was under military administration until 1981, when Israeli law was applied to it) since 1967",secondary,quiet years not counted: no UCDP conflict tied to the area
 area/gornja-siga,Gornja Siga and other west-bank pockets,unclaimed land,none,secondary,
 area/indian-jammu-kashmir-ladakh,Jammu and Kashmir and Ladakh (Indian-administered),residents; points of view differ,holder,secondary,who holds it
 area/koalou,Koalou (Kourou) neutral zone,residents; no single holder,none,secondary,
 area/korean-dmz,Korean Demilitarized Zone,residents; no single holder,none,secondary,
-area/kosovo,Kosovo,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/kosovo,Kosovo,registry: points of view differ,held by Kosovo (its authorities set and enforce the entry rules) since 1999-06-10 (UN administration after the Kumanovo Agreement of 9 June 1999; Kosovo declared independence on 17 February 2008),secondary,quiet years not counted: no UCDP conflict tied to the area
 area/kuril-islands,"Southern Kuril Islands (Iturup, Kunashir, Shikotan, Habomai)",residents; points of view differ,holder,secondary,who holds it
 area/marie-byrd-land,Marie Byrd Land (90°W-150°W),unclaimed land,none,secondary,
-area/northern-cyprus,Turkish Republic of Northern Cyprus,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/northern-cyprus,Turkish Republic of Northern Cyprus,registry: points of view differ,held by Turkish Republic of Northern Cyprus since 1974,secondary,quiet years not counted: no UCDP conflict tied to the area
 area/olivenza,Olivenza and Táliga,residents; points of view differ,holder,secondary,who holds it
 area/paracel-islands,Paracel Islands,residents; islet group,holder,secondary,who holds it
 area/rukwanzi-semliki,Rukwanzi Island (Lake Albert) and Semliki River valley,residents; no single holder,none,secondary,
-area/somaliland,Somaliland,registry: points of view differ,by the settling rule,secondary,who holds it and since when
-area/south-ossetia,South Ossetia,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/somaliland,Somaliland,registry: points of view differ,"held by Somaliland, except a significant eastern part lost to the SSC-Khatumo administration after the Las Anod conflict since 1991",secondary,quiet years not counted: no UCDP conflict tied to the area
+area/south-ossetia,South Ossetia,registry: points of view differ,held by South Ossetian and Russian forces since 2008-08 (full control of the former autonomous oblast; the last Georgian-administered municipalities were captured in 2008),secondary,quiet years not counted: no UCDP conflict tied to the area
 area/spratly-islands,Spratly Islands,residents; islet group,holder,secondary,who holds it
-area/transnistria,Transnistria (including Bender),entry rule,by the settling rule,secondary,who holds it and since when
 area/transnistria-security-zone,Dniester Security Zone,residents; no single holder,none,secondary,
 area/undof-zone,UNDOF area of separation,residents; no single holder,none,secondary,
 area/western-sahara-moroccan-controlled,Western Sahara west of the berm,registry: points of view differ,by the settling rule,secondary,who holds it and since when
@@ -280,44 +280,37 @@ IN/India#1159320859,India,registry: points of view differ,by the settling rule,r
 PK/Pakistan#1159321155,Pakistan,registry: points of view differ,by the settling rule,registry,not tied to a register area: its kind and residents are unknown
 UA/Ukraine#1763286545,Ukraine,registry: points of view differ,by the settling rule,registry,not tied to a register area: its kind and residents are unknown
 UA/Ukraine#1763286547,Ukraine,registry: points of view differ,by the settling rule,registry,not tied to a register area: its kind and residents are unknown
-rule/az-nakhchivan,Nakhchivan Autonomous Republic,entry rule: visa_exemption,AZ,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
-rule/bd-chittagong-hill-tracts,"Chittagong Hill Tracts (Rangamati, Khagrachhari, Bandarban districts)",entry rule: permit_whole_territory,BD,cited_secondary,not confirmed in force; start date of the rule; whether the unit is a top-level unit of its country
-rule/cl-rapa-nui,Rapa Nui (Easter Island),entry rule: stay_limit,CL,cited_secondary,whether the rule is written for this place or is a line in a list
-rule/cn-tibet,Tibet Autonomous Region,entry rule: permit_whole_territory,CN,cited_secondary,start date of the rule; whether the unit is a top-level unit of its country
-rule/co-san-andres,"Archipelago of San Andrés, Providencia and Santa Catalina",entry rule: stay_limit,CO,cited_secondary,whether the unit is a top-level unit of its country
-rule/ec-galapagos,Galápagos Province,entry rule: stay_limit,EC,cited_secondary,start date of the rule; whether the unit is a top-level unit of its country
-rule/es-ceuta,Ceuta,entry rule: visa_exemption,ES,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
-rule/es-melilla,Melilla,entry rule: visa_exemption,ES,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
-rule/fr-clipperton,Clipperton Island,entry rule: permit_whole_territory,FR,cited_secondary,whether the rule is written for this place or is a line in a list
-rule/gr-mount-athos,Mount Athos,entry rule: permit_whole_territory,GR,cited_secondary,start date of the rule; whether the unit is a top-level unit of its country
-rule/in-lakshadweep,Lakshadweep,entry rule: permit_whole_territory,IN,conflicted,no cited source for the rule; whether the unit is a top-level unit of its country
-rule/in-manipur,Manipur,entry rule: permit_whole_territory,IN,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
-rule/in-minicoy-maldivians,Minicoy (Lakshadweep),entry rule: visa_exemption,IN,unconfirmed,no cited source for the rule; not confirmed in force; start date of the rule; whether the rule is written for this place or is a line in a list
-rule/in-mizoram,Mizoram,entry rule: permit_whole_territory,IN,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
-rule/in-nagaland,Nagaland,entry rule: permit_whole_territory,IN,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
-rule/in-sikkim,Sikkim,entry rule: permit_whole_territory,IN,cited_secondary,whether the unit is a top-level unit of its country
-rule/iq-kurdistan,Kurdistan Region of Iraq,entry rule: own_visa_system,IQ,cited_secondary,not confirmed in force; start date of the rule; whether the unit is a top-level unit of its country
-rule/ir-kish,Kish Island Free Zone,entry rule: visa_exemption,IR,cited_secondary,not confirmed in force; start date of the rule; whether the rule is written for this place or is a line in a list
-rule/ir-qeshm,Qeshm Island Free Zone,entry rule: visa_exemption,IR,cited_secondary,not confirmed in force; start date of the rule; whether the rule is written for this place or is a line in a list
-rule/kp-rason,Rason Special Economic Zone,entry rule: visa_exemption,KP,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
-rule/kr-jeju,Jeju Province,entry rule: visa_exemption,KR,cited_secondary,start date of the rule; whether the unit is a top-level unit of its country
-rule/mm-wa-state,Wa State,entry rule: own_visa_system,MM,unconfirmed,no cited source for the rule; not confirmed in force
-rule/mx-southern-border-tvr,Mexico southern border states (Regional Visitor Card),entry rule: visa_exemption,MX,confirmed_primary,whether the unit is a top-level unit of its country
-rule/my-labuan,Labuan,entry rule: separate_immigration_control,MY,unconfirmed,no cited source for the rule; not confirmed in force; start date of the rule; whether the unit is a top-level unit of its country
-rule/my-sabah,Sabah,entry rule: separate_immigration_control,MY,cited_secondary,whether the unit is a top-level unit of its country
-rule/my-sarawak,Sarawak,entry rule: separate_immigration_control,MY,cited_secondary,whether the unit is a top-level unit of its country
-rule/ru-chukotka,Chukotka Autonomous Okrug,entry rule: permit_whole_territory,RU,confirmed_primary,whether the unit is a top-level unit of its country
-rule/ru-chukotka-alaska-natives,Chukotka (Alaska Native visa-free travel),entry rule: visa_exemption,RU,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
-rule/ru-former-regional-evisas,"Russia former regional e-visas (Far East, Kaliningrad, St Petersburg/Leningrad Oblast)",entry rule: visa_requirement,RU,unconfirmed,no cited source for the rule; not confirmed in force; whether the unit is a top-level unit of its country
-rule/sh-ascension,Ascension Island,entry rule: own_visa_system,SH,confirmed_primary,whether the rule is written for this place or is a line in a list
-rule/sh-saint-helena,Saint Helena,entry rule: own_visa_system,SH,cited_secondary,start date of the rule; whether the rule is written for this place or is a line in a list
-rule/sh-tristan-da-cunha,Tristan da Cunha,entry rule: permit_whole_territory,SH,confirmed_primary,start date of the rule; whether the rule is written for this place or is a line in a list
-rule/sj-jan-mayen,Jan Mayen,entry rule: permit_whole_territory,SJ,unconfirmed,no cited source for the rule; start date of the rule; whether the rule is written for this place or is a line in a list
-rule/sy-aanes,North and East Syria (AANES/Rojava),entry rule: own_visa_system,SY,cited_secondary,not confirmed in force
-rule/tj-gbao,Gorno-Badakhshan Autonomous Oblast (GBAO),entry rule: permit_whole_territory,TJ,cited_secondary,start date of the rule; whether the unit is a top-level unit of its country
-rule/tw-kinmen,Kinmen County,entry rule: visa_exemption,TW,cited_secondary,whether the unit is a top-level unit of its country
-rule/tw-matsu,Lienchiang County (Matsu),entry rule: visa_exemption,TW,cited_secondary,whether the unit is a top-level unit of its country
-rule/tw-penghu,Penghu County,entry rule: visa_exemption,TW,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
-rule/tz-zanzibar,Zanzibar,entry rule: separate_immigration_control,TZ,cited_secondary,whether the unit is a top-level unit of its country
-rule/vn-phu-quoc,Phu Quoc Island,entry rule: visa_exemption,VN,cited_secondary,start date of the rule; whether the rule is written for this place or is a line in a list
-rule/ye-socotra,Socotra Archipelago,entry rule: own_visa_system,YE,cited_secondary,whether the unit is a top-level unit of its country
+rule/az-nakhchivan,Nakhchivan Autonomous Republic,entry rule: visa_exemption,AZ,cited_secondary,not confirmed in force
+rule/cl-rapa-nui,Rapa Nui (Easter Island),entry rule: stay_limit,CL,cited_secondary,
+rule/cn-hainan,Hainan Province,entry rule: visa_exemption,CN,cited_secondary,whether the unit is a top-level unit of its country
+rule/cn-tibet,Tibet Autonomous Region,entry rule: permit_whole_territory,CN,cited_secondary,start date of the rule
+rule/co-san-andres,"Archipelago of San Andrés, Providencia and Santa Catalina",entry rule: stay_limit,CO,cited_secondary,
+rule/ec-galapagos,Galápagos Province,entry rule: stay_limit,EC,cited_secondary,start date of the rule
+rule/es-ceuta,Ceuta,entry rule: visa_exemption,ES,cited_secondary,
+rule/es-melilla,Melilla,entry rule: visa_exemption,ES,cited_secondary,
+rule/fr-clipperton,Clipperton Island,entry rule: permit_whole_territory,FR,cited_secondary,
+rule/gr-mount-athos,Mount Athos,entry rule: permit_whole_territory,GR,cited_secondary,start date of the rule
+rule/in-lakshadweep,Lakshadweep,entry rule: permit_whole_territory,IN,conflicted,
+rule/in-manipur,Manipur,entry rule: permit_whole_territory,IN,cited_secondary,
+rule/in-minicoy-maldivians,Minicoy (Lakshadweep),entry rule: visa_exemption,IN,unconfirmed,start date of the rule
+rule/in-mizoram,Mizoram,entry rule: permit_whole_territory,IN,cited_secondary,
+rule/in-nagaland,Nagaland,entry rule: permit_whole_territory,IN,cited_secondary,
+rule/in-sikkim,Sikkim,entry rule: permit_whole_territory,IN,cited_secondary,
+rule/iq-kurdistan,Kurdistan Region of Iraq,entry rule: own_visa_system,IQ,cited_secondary,start date of the rule
+rule/kr-jeju,Jeju Province,entry rule: visa_exemption,KR,cited_secondary,start date of the rule
+rule/mx-southern-border-tvr,Mexico southern border states (Regional Visitor Card),entry rule: visa_exemption,MX,confirmed_primary,level of the unit or whether it is detached; not confirmed in force
+rule/my-labuan,Labuan,entry rule: separate_immigration_control,MY,unconfirmed,not confirmed in force; start date of the rule
+rule/my-sabah,Sabah,entry rule: separate_immigration_control,MY,cited_secondary,
+rule/my-sarawak,Sarawak,entry rule: separate_immigration_control,MY,cited_secondary,
+rule/ru-chukotka,Chukotka Autonomous Okrug,entry rule: permit_whole_territory,RU,confirmed_primary,
+rule/ru-chukotka-alaska-natives,Chukotka (Alaska Native visa-free travel),entry rule: visa_exemption,RU,cited_secondary,
+rule/sh-ascension,Ascension Island,entry rule: own_visa_system,SH,confirmed_primary,
+rule/sh-saint-helena,Saint Helena,entry rule: own_visa_system,SH,cited_secondary,start date of the rule
+rule/sh-tristan-da-cunha,Tristan da Cunha,entry rule: permit_whole_territory,SH,confirmed_primary,start date of the rule
+rule/sj-jan-mayen,Jan Mayen,entry rule: permit_whole_territory,SJ,unconfirmed,
+rule/tj-gbao,Gorno-Badakhshan Autonomous Oblast (GBAO),entry rule: permit_whole_territory,TJ,cited_secondary,start date of the rule
+rule/tw-kinmen,Kinmen County,entry rule: visa_exemption,TW,cited_secondary,
+rule/tw-penghu,Penghu County,entry rule: visa_exemption,TW,cited_secondary,
+rule/tz-zanzibar,Zanzibar,entry rule: separate_immigration_control,TZ,cited_secondary,
+rule/vn-phu-quoc,Phu Quoc Island,entry rule: visa_exemption,VN,cited_secondary,start date of the rule
+rule/ye-socotra,Socotra Archipelago,entry rule: own_visa_system,YE,cited_secondary,

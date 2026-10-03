@@ -60,6 +60,28 @@ A draft list, not a canon.
 3. *Accepted constraints.* D004 and D005 hold through ISO entries, D006 through the registry cell for Crimea, D007 through the ISO entry for Western Sahara and the registry cell for the part Morocco administers.
 4. *The two lists do not line up yet.* Only 34 of 210 register areas are tied to anything, and 7 of 29 registry cells have no register area. They have to be reconciled before a release.
 
+## Second run, 2026-10-03: with the facts the first run asked for
+
+Two collections were added the same day, each fact with a quoted passage: who holds 29 contested areas and since when (now in the register, passages re-opened and found), and what the texts of 43 entry rules say (`inputs/entry_rule_facts.csv`; the collectors' own check found every passage, they were **not re-opened here**).
+
+| | First run | Second run |
+|---|---|---|
+| Regions | 322 | 315 |
+| — from an entry rule | 42 | 34 |
+| Regions with nothing open | 258 | 279 |
+| Special places | 95 | 94 |
+| Missing facts | 193 | 127 |
+
+- Entry rules that no longer make a region: places that are neither a top-level unit nor a detached place with a rule of its own (Kish, Qeshm, Matsu, the Chittagong Hill Tracts), and rules found not in force (Rason, north-east Syria, Russia's former regional e-visas).
+- Five contested areas are recorded with a moving line (the four occupied Ukrainian oblasts and Israeli-held southern Syria): no region, a flag on the regions they touch.
+- Still open: ties from paper claims to the registry (38); the UCDP conflict for each contested area, without which quiet years cannot be counted (27); start dates of entry rules (11); entry rules of leased areas (10); residents (9); registry cells with no register area (7).
+
+Points the rules do not settle and that go back to the owner:
+
+- Rules for residents of a neighbouring area only (the Chukotka–Alaska arrangement, the Ceuta and Melilla exemption for two Moroccan provinces) pass the test as written, although they are not rules for a visitor in general.
+- The Chukotka permit is reported to cover designated districts, not the whole okrug, while the unit is top-level.
+- Socotra's rule is reported to work through organised tours only; Zanzibar's own immigration check was not found in a source, only its insurance.
+
 ## Status
 
-Concluded 2026-10-03.
+Concluded 2026-10-03 (two runs).

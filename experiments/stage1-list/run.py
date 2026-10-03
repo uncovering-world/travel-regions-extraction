@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Stage 1 as a list under the rules decided on 2026-10-03: regions, special places, markers and missing facts. Issue #22.
 
-Inputs: the first world draft's registry cells and census of entry rules, the register of disputed areas, and
-inputs/links.csv, which ties register areas to ISO entries, registry cells and census rows.
+Inputs: the first world draft's registry cells and census of entry rules, the register of disputed areas,
+inputs/links.csv, which ties register areas to ISO entries, registry cells and census rows, and
+inputs/entry_rule_facts.csv, what the texts of 43 entry rules say (collected 2026-10-03, with quoted passages).
 Run from the repository root: python3 experiments/stage1-list/run.py
 """
 from __future__ import annotations
@@ -21,6 +22,7 @@ BY_RESIDENTS = {"islets_for_maritime_zone", "own_regime"}     # region if civili
 BY_CONTROL = {"de_facto_state", "occupied_or_annexed"}        # settling rule decides whose; other rules decide separateness
 NOT_A_WITNESS = {"none", "customs_or_tax_only", "transit_only"}
 CITED = {"confirmed_primary", "cited_secondary"}
+GROUP_ONLY = re.compile(r"in approved tour groups|^tour groups", re.I)   # a rule for organised groups only is not a witness
 RELEASE_YEAR = 2025                                           # a rule must hold at the ends of 2024 and 2025
 
 
@@ -34,6 +36,13 @@ def main() -> None:
     census = {r["id"]: r for r in read(DRAFT / "inputs" / "crw_scopes.csv")}
     areas = read(REPO / "data" / "disputed-areas" / "registry.csv")
     links = {r["area_id"]: r for r in read(ROOT / "inputs" / "links.csv")}
+    held: dict[str, dict] = {}
+    for r in read(REPO / "data" / "disputed-areas" / "facts.csv"):
+        if r["field"] in ("holder", "holder_since", "stated_outline"):
+            held.setdefault(r["area_id"], {})[r["field"]] = r["value"]
+    rule_facts: dict[str, dict] = {}
+    for r in read(ROOT / "inputs" / "entry_rule_facts.csv"):
+        rule_facts.setdefault(r["id"], {}).setdefault(r["field"], r["value"])
     known = {a["area_id"] for a in areas}
     registry = {c["cell"]: c for c in cells if c["kind"] == "registry_extra"}
     for link in links.values():
@@ -50,7 +59,27 @@ def main() -> None:
     def entry_rule(row: dict) -> tuple[bool, list[str]]:
         """Whether a census row can separate under the decided rules, and what is still missing to say so."""
         missing = []
-        if row["regime_kind"] in NOT_A_WITNESS or "group" in row["affected_classes"].lower():
+        known = rule_facts.get(row["id"])
+        if known is not None:                                  # checked against the text of the rule
+            if row["regime_kind"] in NOT_A_WITNESS or GROUP_ONLY.search(row["affected_classes"]):
+                return False, []
+            if known.get("in_force") == "no":
+                return False, []
+            top = known.get("unit_level") == "top_level"
+            own_detached = known.get("detached") in ("island", "exclave") and known.get("own_rule") == "own"
+            if "unit_level" not in known or ("detached" not in known and not top):
+                missing.append("level of the unit or whether it is detached")
+            elif not (top or own_detached):
+                return False, []
+            if "in_force" not in known:
+                missing.append("not confirmed in force")
+            years = re.findall(r"(1[5-9]\d\d|20[0-2]\d)", known.get("start_date", "") or row["since"])
+            if not years:
+                missing.append("start date of the rule")
+            elif min(map(int, years)) > RELEASE_YEAR - 1:
+                return False, []
+            return True, missing
+        if row["regime_kind"] in NOT_A_WITNESS or GROUP_ONLY.search(row["affected_classes"]):
             return False, []
         if row["whole_named_unit"] != "yes" or row["unit_kind"] in ("zone_or_band", "site_list", "class_of_parcels"):
             return False, []
@@ -124,9 +153,18 @@ def main() -> None:
                 place("leased; no entry rule of its own recorded")
                 gap("whether entry follows its own rules", "region or special place")
         elif kind in BY_CONTROL:
-            gap("who holds the area and since when; any act ending the contest; the UCDP conflict about it", "the country it is listed under")
-            if cell or (rule and entry_rule(census[rule])[0]):
-                region("registry: points of view differ" if cell else "entry rule", "by the settling rule", "who holds it and since when")
+            h = held.get(a["area_id"], {})
+            if "holder" in h and "holder_since" in h:
+                whose, pending = f"held by {h['holder']} since {h['holder_since']}", "quiet years not counted: no UCDP conflict tied to the area"
+                gap("the UCDP conflict about the area", "whether the holder is accepted or the area is still unsettled")
+            else:
+                whose, pending = "by the settling rule", "who holds it and since when"
+                gap("who holds the area and since when", "the country it is listed under")
+            moving = h.get("stated_outline", "").startswith("none")
+            if (cell or (rule and entry_rule(census[rule])[0])) and not moving:
+                region("registry: points of view differ" if cell else "entry rule", whose, pending)
+            elif moving:
+                markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "the line is moving: a flag on the regions it touches; " + whose})
             else:
                 markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "held by another party; no stated outline or entry rule recorded, so a flag on the regions it touches"})
                 gap("a registry cell, an entry rule, or confirmation that the line is still moving", "region or flag")
