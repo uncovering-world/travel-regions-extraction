@@ -57,6 +57,10 @@ So Wikivoyage as a Stage 2 list source needs at least one more resolver before i
 
 It supports no rule. It does show that "list first, geometry from stated composition, nothing drawn" is achievable today for countries such as Thailand, Algeria, Iran, Nigeria and Malaysia, which makes them good first countries for a Stage 2 prototype.
 
+## Second resolver (added 2026-10-03, before running it)
+
+Question: where the country page draws a region from a single Wikidata id (the region's own item), does that item list official units through "contains the administrative territorial entity" (P150)? What would change our mind: if adding this resolver lifts most of the under-50% countries above 90%, Wikidata composition closes the gap; if it changes little, composition is simply not recorded for those countries and only maps or text remain.
+
 ## Status
 
-Concluded 2026-10-03.
+Second run planned 2026-10-03.
