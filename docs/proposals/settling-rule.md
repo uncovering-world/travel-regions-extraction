@@ -95,7 +95,7 @@ Not counted as undone: entities that became states and one island that sank.
 
 **Recommendation: T = 3.** Two is defensible (it is the literature's convention and the owner's first suggestion) at the price of the two reversals above. Five and ten are not supported over three.
 
-**Decided by the owner on 2026-10-03: T = 3.** To be recorded in the spec with the rest of the rule once its open points are settled.
+**Decided by the owner on 2026-10-03: T = 3; no original holder; only an explicit act ends a contest at once.** To be recorded in the spec with the rest of the rule once its open points are settled.
 
 ## How it would have run
 
@@ -137,7 +137,7 @@ The back-test does not model the requirement of a standing civil arrangement, wh
 To be put to the owner one at a time:
 
 1. ~~The value of T.~~ Decided: three years.
-2. Path 4: which acts count as the other side having stopped contesting. Proposed: only an explicit act — agreement, accepted ruling, renunciation of the claim, or the party ceasing to exist; a claim kept on paper by a party that can no longer act waits for the clock.
+2. ~~Path 4: which acts count as the other side having stopped contesting.~~ Decided: only an explicit act — agreement, accepted ruling, renunciation of the claim, or the party ceasing to exist. A claim kept on paper by a party that can no longer act waits for the clock, because "cannot act" would be a judgement of ours and an act has a date and a document.
 3. Whether the status can create a region. Proposed: no. A region exists through the reference registry (a supported point of view separates the area; decided 2026-10-03) or through CR-W (R044): where another party controls civilian access, the entry decision for the area differs from the rest of the region, which is what CR-W separates once a witness is cited and its gates pass. The status then decides only to whom such a region is attributed, and with which neighbour land that is not a region goes.
 4. What counts as evidence of a standing civil arrangement.
 5. The release interval; one release per year is assumed here.
