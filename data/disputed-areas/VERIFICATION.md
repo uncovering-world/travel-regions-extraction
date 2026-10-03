@@ -8,4 +8,3 @@ Manual facts: 0. Passage found in its source: 0. Passage not found: 0. Source co
 
 
 ## Source could not be read (check by hand)
-

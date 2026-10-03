@@ -76,7 +76,7 @@ def main() -> int:
     lines += [f"- {f['area_id']} / {f['field']} ({f['source_ids']})" for f in missing]
     lines += ["", "## Source could not be read (check by hand)", ""]
     lines += [f"- {f['area_id']} / {f['field']} ({f['source_ids']})" for f in unchecked]
-    (ROOT / "VERIFICATION.md").write_text("\n".join(lines) + "\n")
+    (ROOT / "VERIFICATION.md").write_text("\n".join(lines).rstrip("\n") + "\n")
     print(f"{found} found, {len(missing)} not found, {len(unchecked)} unchecked")
     return 1 if missing else 0
 

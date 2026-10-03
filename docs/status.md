@@ -15,10 +15,12 @@ Decisions are taken one at a time in conversation with the owner; this list is t
 - A region never crosses a country boundary under any supported perspective: Stage 1 refines ISO 3166-1 and the Natural Earth national points of view (#19).
 - Antarctica: one cell in Stage 1; Stage 2 divides it by how and from where travellers reach it, also taking into account how people who work there see it; claims stay an overlay.
 - Rejected for small disputed areas: tying them to the substrate (the substrate is not an authority) and a bare area threshold.
+- Disputes about where a border line runs (`line_position` in the register) are not cells: the area belongs to the region of whoever administers it, and the dispute is a tickable special place on top of the map.
+- A [register of disputed and special-status areas](../data/disputed-areas/README.md) holds the facts that such rules read; no fact is entered from memory, each carries its source and quoted passage. Its facts are being re-entered from sources.
 
 **Open, in the order they will be asked:**
 
-1. Small disputed areas (#19): which become cells. Leaning to "distinct places yes, border strips no"; the owner asked for a fact sheet on each area first — in preparation.
+1. Disputed and special-status areas (#19), one kind at a time: areas with no agreed boundary; islets disputed for the sea around them; then the remaining kinds (own regime, lease or base, de facto state, occupied, paper claim).
 2. Two consequences of the registry rule to confirm: it sits in Stage 1 (Stage 2 cannot cross it either); new ISO or Natural Earth editions change cells only at a release, by decision.
 3. Consumer contract (#27): confirm the remaining requirements — delivery through TYR's file import, not tied to one substrate, stability between releases.
 4. CR-W amendments (#17), one by one: transit is not a witness; a rule's scope must be a whole named unit; whole-territory permits separate; organised-group classes; one rule spanning several units.
