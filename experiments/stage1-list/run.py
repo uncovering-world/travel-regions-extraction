@@ -11,6 +11,7 @@ from __future__ import annotations
 import csv
 import json
 import re
+import sys
 from collections import Counter
 from pathlib import Path
 
@@ -23,7 +24,8 @@ BY_CONTROL = {"de_facto_state", "occupied_or_annexed"}        # settling rule de
 NOT_A_WITNESS = {"none", "customs_or_tax_only", "transit_only"}
 CITED = {"confirmed_primary", "cited_secondary"}
 GROUP_ONLY = re.compile(r"in approved tour groups|^tour groups", re.I)   # a rule for organised groups only is not a witness
-RELEASE_YEAR = 2025                                           # a rule must hold at the ends of 2024 and 2025
+RELEASE_YEAR = 2025
+WAIT = 3                                                      # quiet years before a new holder is accepted                                           # a rule must hold at the ends of 2024 and 2025
 
 
 def read(path: Path) -> list[dict]:
@@ -46,9 +48,16 @@ def main() -> None:
         rule_facts.setdefault(r["id"], {}).setdefault(r["field"], r["value"])
     known = {a["area_id"] for a in areas}
     registry = {c["cell"]: c for c in cells if c["kind"] == "registry_extra"}
+    small = {r["name"] for r in read(DRAFT / "outputs" / "skipped.csv") if r["reason"] == "below_resolution"}
+    sys.path.insert(0, str(REPO / "experiments" / "settling-rule"))
+    import run as settling                                    # the pinned UCDP data and the clock
+    fight_years, _, _ = settling.load_fighting()
+    conflicts = {r["area_id"]: [i for i in r["ucdp_conflict_ids"].split(";") if i]
+                 for r in read(REPO / "data" / "disputed-areas" / "ucdp-links.csv")}
     for link in links.values():
         assert link["area_id"] in known, link["area_id"]
         assert not link["registry_cell"] or link["registry_cell"] in registry, link["registry_cell"]
+        assert not link["small_feature"] or link["small_feature"] in small, link["small_feature"]
         assert not link["census_id"] or link["census_id"] in census, link["census_id"]
 
     regions, places, markers, gaps = [], [], [], []
@@ -105,7 +114,7 @@ def main() -> None:
     for a in areas:
         link = links.get(a["area_id"], {})
         kind, lives = a["kind"], a["inhabited"]
-        cell, rule = link.get("registry_cell", ""), link.get("census_id", "")
+        cell, rule = link.get("registry_cell", "") or link.get("small_feature", ""), link.get("census_id", "")
         used_cells.add(cell)
         used_census.add(rule)
 
@@ -137,8 +146,7 @@ def main() -> None:
             markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "dispute resolved; outcome taken over"})
         elif kind in BY_RESIDENTS or kind == "paper_claim":
             if kind == "paper_claim" and not cell:
-                markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "claimed on paper; no supported point of view found for it"})
-                gap("link to a registry cell, or confirmation that no supported point of view shows the claim", "region or marker")
+                markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"})
             elif lives == "yes":
                 region("residents; " + ("points of view differ" if kind == "paper_claim" else "no single holder" if kind == "own_regime" else "islet group"),
                        "none" if kind == "own_regime" else "holder", "" if kind == "own_regime" else "who holds it")
@@ -158,8 +166,17 @@ def main() -> None:
         elif kind in BY_CONTROL:
             h = held.get(a["area_id"], {})
             if "holder" in h and "holder_since" in h:
-                whose, pending = f"held by {h['holder']} since {h['holder_since']}", "quiet years not counted: no UCDP conflict tied to the area"
-                gap("the UCDP conflict about the area", "whether the holder is accepted or the area is still unsettled")
+                since = re.search(r"(1[5-9]\d\d|20[0-2]\d)", h["holder_since"])
+                if a["area_id"] in conflicts and since:
+                    fighting = set().union(*(fight_years[i] for i in conflicts[a["area_id"]])) if conflicts[a["area_id"]] else set()
+                    accepted, _ = settling.simulate(int(since.group(1)), None, fighting, WAIT, RELEASE_YEAR)
+                    active = RELEASE_YEAR in fighting
+                    whose = (f"{h['holder']} (accepted {accepted})" if accepted else f"unsettled: held by {h['holder']} since {since.group(1)}")
+                    whose += "; active conflict" if active else ""
+                    pending = ""
+                else:
+                    whose, pending = f"held by {h['holder']} since {h['holder_since']}", "quiet years not counted"
+                    gap("the UCDP conflict about the area, or a year in holder_since", "whether the holder is accepted or the area is still unsettled")
             else:
                 whose, pending = "by the settling rule", "who holds it and since when"
                 gap("who holds the area and since when", "the country it is listed under")

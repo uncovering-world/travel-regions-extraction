@@ -1,0 +1,30 @@
+area_id,ucdp_conflict_ids,basis
+abkhazia,392,UCDP territory 'Abkhazia'
+south-ossetia,393,UCDP territory 'South Ossetia'
+transnistria,394,UCDP territory 'Dniestr'
+northern-cyprus,323,UCDP territory 'Northern Cyprus'
+kokkina,323,UCDP territory 'Northern Cyprus'
+crimea,13243,UCDP territory 'Crimea' (Russia against Ukraine)
+donetsk-occupied,13246;13306;13243,UCDP territories 'Donetsk' and 'Novorossiya'; from 2022 the conflict between Russia and Ukraine
+luhansk-occupied,13247;13306;13243,UCDP territories 'Lugansk' and 'Novorossiya'; from 2022 the conflict between Russia and Ukraine
+kherson-occupied,13243,the conflict between Russia and Ukraine; UCDP names its territory 'Crimea'
+zaporizhzhia-occupied,13243,the conflict between Russia and Ukraine; UCDP names its territory 'Crimea'
+golan-heights,302,UCDP territory 'Golan Heights'
+israeli-held-southern-syria,302,UCDP territory 'Golan Heights' (Israel against Syria)
+east-jerusalem,301;234,UCDP territories 'West Bank' and 'Palestine'
+ghajar,302;426,the village lies between the Golan Heights and Lebanon; UCDP territories 'Golan Heights' and 'Southern Lebanon'
+shebaa-farms,426,UCDP territory 'Southern Lebanon'
+israeli-posts-south-lebanon,426,UCDP territory 'Southern Lebanon'
+western-sahara-moroccan-controlled,331;428,UCDP territory 'Sahrawi Arab Democratic Republic (Western Sahara)'
+la-guera,331;428,UCDP territory 'Sahrawi Arab Democratic Republic (Western Sahara)'
+somaliland,14074,UCDP territory 'Somaliland'
+kosovo,412,UCDP territory 'Kosovo'
+kinmen-matsu,232,UCDP territory 'Taiwan strait'
+pratas,232,UCDP territory 'Taiwan strait'
+artsvashen,388,UCDP codes the fighting between Armenian and Azerbaijani forces under 'Artsakh (Nagorno-Karabakh)'
+karki,388,as for artsvashen
+gazakh-exclaves,388,as for artsvashen
+azerbaijani-held-armenian-border-areas,388,as for artsvashen
+kafia-kingi,11348,UCDP 'Common border' between Sudan and South Sudan
+chagos,,no UCDP conflict over this territory
+ankoko-island,,no UCDP conflict over this territory

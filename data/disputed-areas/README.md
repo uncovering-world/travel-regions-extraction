@@ -15,6 +15,7 @@ Facts about land areas whose attribution to a country is contested, undefined or
 | `discovery-map.csv` | hand | For every candidate found by `discover.py`: the area(s) it corresponds to, or `ignore` with a reason |
 | `candidates.csv`, `DISCOVERY.md` | `discover.py` only | Candidates from Wikipedia's list of territorial disputes and Natural Earth (both pinned), and the list of those not yet accounted for |
 | `seed/` | — | The census the register was first filled from (2026-10-03) and the script that imported it |
+| `ucdp-links.csv` | hand | For contested areas: the conflicts in the UCDP/PRIO Armed Conflict Dataset that are about the area, with the basis of the tie. The settling rule counts quiet years from them. A tie is a judgement by territory name, not a sourced fact |
 | `REVIEW.md` | hand | Open review points: doubtful kinds, areas to split, merge or drop, sources overtaken by events. Not facts |
 
 Fields and allowed values are defined at the top of `build.py`. The `kind` of an area is one of: `own_regime`, `lease_or_base`, `de_facto_state`, `occupied_or_annexed`, `paper_claim`, `islets_for_maritime_zone`, `line_position`, `no_agreed_boundary`, `unclaimed`, `resolved_recently`; their meaning is in [UPDATING.md](UPDATING.md).

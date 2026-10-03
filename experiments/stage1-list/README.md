@@ -83,6 +83,15 @@ Points raised by the texts and settled by the owner the same day:
 - Not an open point: the federal list names the whole Chukotka okrug, so its permit covers a whole top-level unit.
 - Still unsourced: Zanzibar's own immigration check (only its insurance was found).
 
+## Third run, 2026-10-03: quiet years and small map features
+
+- `data/disputed-areas/ucdp-links.csv` ties 29 contested areas to UCDP conflicts by territory name; with the holder's start year the settling rule's clock (three quiet years) now runs, using the code of the [settling-rule back-test](../settling-rule/README.md). Examples: Northern Cyprus accepted 1977, Crimea 2017 (active conflict), Kosovo 2002, South Ossetia 2011.
+- `inputs/links.csv` now also ties register areas to the twenty Natural Earth features under 100 km² that the first draft set aside, so the residents test applies to them. A paper claim that corresponds to no feature of the pinned edition is a marker; that reading rests on matching names, not on a source.
+
+Result: 316 regions (285 with nothing open), 95 special places, 60 missing facts. Left: areas held by another party with neither a registry cell nor an entry rule (14); start dates of entry rules (11); residents (10); entry rules of leased areas (10); five registry cells with no register area (two in eastern Ukraine, one in Bhutan, two small ones in India).
+
+Weak points of this run: the ties to conflicts and to map features are judgements by name; several `holder_since` values hold no single year or a contested one (see the register's review list), and the clock is only as good as they are.
+
 ## Status
 
-Concluded 2026-10-03 (two runs).
+Concluded 2026-10-03 (three runs).

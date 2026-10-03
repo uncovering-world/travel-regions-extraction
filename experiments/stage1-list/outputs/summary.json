@@ -1,34 +1,32 @@
 {
-  "regions": 312,
+  "regions": 316,
   "regions_by_basis": {
     "ISO 3166-1 entry": 249,
     "entry rule": 31,
-    "registry": 16,
-    "residents": 12,
+    "residents": 17,
+    "registry": 15,
     "unclaimed land": 3,
     "leased area with its own entry rule": 1
   },
-  "regions_with_nothing_open": 276,
-  "regions_with_an_open_point": 36,
-  "special_places": 94,
+  "regions_with_nothing_open": 285,
+  "regions_with_an_open_point": 31,
+  "special_places": 95,
   "special_places_by_kind": {
     "line_position": 47,
     "islets_for_maritime_zone": 16,
     "no_agreed_boundary": 11,
     "lease_or_base": 10,
     "own_regime": 9,
-    "paper_claim": 1
+    "paper_claim": 2
   },
-  "markers": 152,
-  "gaps": 127,
+  "markers": 145,
+  "gaps": 60,
   "gaps_by_missing_fact": {
-    "link to a registry cell, or confirmation that no supported point of view shows the claim": 38,
-    "the UCDP conflict about the area": 27,
-    "a registry cell, an entry rule, or confirmation that the line is still moving": 15,
+    "a registry cell, an entry rule, or confirmation that the line is still moving": 14,
     "start date of the rule": 11,
+    "whether civilians live there": 10,
     "whether entry follows its own rules": 10,
-    "whether civilians live there": 9,
-    "the register area this registry cell corresponds to": 7,
+    "the register area this registry cell corresponds to": 5,
     "kind": 3,
     "not confirmed in force": 3,
     "who holds the area and since when": 1,
@@ -37,7 +35,7 @@
     "level of the unit or whether it is detached": 1
   },
   "register_areas": 210,
-  "register_areas_linked": 34,
+  "register_areas_linked": 54,
   "registry_cells": 29,
-  "registry_cells_not_tied_to_an_area": 7
+  "registry_cells_not_tied_to_an_area": 5
 }
