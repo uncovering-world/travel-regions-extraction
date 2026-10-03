@@ -1,6 +1,6 @@
 # Canonical Travel Regions — open questions of the model
 
-Version: 0.4.0-draft. Date: 2026-10-03. Changes in 0.4.0-draft: Q006 closed; Q001–Q005 and Q007–Q012 annotated or narrowed by the owner's decisions of 2026-10-03 (D038–D053); Q013–Q019 added.
+Version: 0.4.0-draft. Date: 2026-10-03. Changes in 0.4.0-draft: Q006 closed; Q001–Q005 and Q007–Q012 annotated or narrowed by the owner's decisions of 2026-10-03 (D038–D053); Q013–Q019 added; Q017 closed and Q016 narrowed by D054–D055.
 
 The order reflects the potential scale of change to the world map: from a change in the definition of almost all regions to changes in individual classes and in history. These are model questions. "Which document is required now?" and "Where does the line run on date t?" are data tasks, not separate items of this list.
 
@@ -174,17 +174,13 @@ The scope test of R056 needs: a source for a country's top-level units that is n
 
 **Impact: special places in buffer zones, divided islet groups and undecidable control.** R048, R051, R052; D043, D045, D046.
 
-Three cases have no decided outcome: (a) an islet group held in parts by several parties with no line between the parts — it has no single country in the canon's attribution; (b) a zone of kind `own_regime` that is not a region (no residents or no stated outline) — which region takes its land, given that the zone is never split between the neighbours; (c) an area where the holder test of R048 cannot tell the parties apart. For (c) the owner agreed in principle on 2026-10-03 to a fallback — the party providing civil administration to residents, otherwise nobody — but that fallback was not adopted with the settling rule.
+Two cases have no decided outcome: (a) an islet group held in parts by several parties with no line between the parts — it has no single country in the canon's attribution; (b) a zone of kind `own_regime` that is not a region (no residents or no stated outline) — which region takes its land, given that the zone is never split between the neighbours; (c) — an area where the holder test of R048 cannot tell the parties apart — was closed by D055 (civil administration, otherwise no holder).
 
 **Closure criterion:** a rule for each case that keeps R003/R004 and draws no line the parties do not state (R047).
 
 ## Q017 — Unclaimed land and areas with no agreed boundary
 
-**Impact: a handful of areas, each a known curiosity.** R046, R047; register kinds `unclaimed` and `no_agreed_boundary`.
-
-Agreed in principle on 2026-10-03, not adopted: unclaimed land (`unclaimed`) is a cell of its own with no country, its outline being what the neighbours' own claim lines leave out; areas where a boundary must exist but is not agreed (`no_agreed_boundary`) are not cells — the land goes with whoever holds it and the place is a special place. The agreement depended on the definition of "administers" and the outline principle; the outline principle (D042) and the holder test (D043) are now adopted, the holder fallback is not (Q016).
-
-**Closure criterion:** the owner confirms or changes the treatment, and it is recorded as an R item.
+**Closed on 2026-10-03 by D054 (R058).** The owner confirmed the treatment agreed in principle once the outline principle (D042) and the holder test (D043) were adopted.
 
 ## Q018 — How are special places carried and attributed?
 

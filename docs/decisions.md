@@ -514,3 +514,21 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: a state that recovers its own territory waits as long as a conqueror unless the other side stops contesting by an act.
 - Status: rejected.
 - Basis: owner decision, 2026-10-03; [settling-rule proposal](proposals/settling-rule.md).
+
+### D054 — Unclaimed land and boundaries that are not agreed
+
+- Decision: land that no state claims (register kind `unclaimed`) is a region of its own attributed to no country; its outline is what the neighbours' own claim lines leave out. An area where a boundary must exist but no line is agreed (`no_agreed_boundary`) is not a region: its land goes with its holder (R048) and the place is a special place (R046).
+- Rationale: unclaimed land is a distinct place nobody administers, and its extent follows from lines the parties state, so no outline is drawn here (R047). Where a boundary is merely undefined, the area will be somebody's once a line exists, and the parties state no outline for it.
+- Rules: R058.
+- Counterarguments: the outline of unclaimed land depends on two claim lines that can change; an undelimited stretch held by nobody in practice falls to the fallback of R048.
+- Status: accepted.
+- Basis: owner decision, 2026-10-03 (agreed in principle, confirmed once D042 and D043 were adopted); [status](status.md); [register kinds](../data/disputed-areas/UPDATING.md).
+
+### D055 — Holder when access control cannot tell the parties apart
+
+- Decision: where the test of R048 (whose officers can admit, refuse and remove a civilian) cannot tell the parties apart, the holder is the party that provides civil administration to the residents; if there is none, the area has no holder.
+- Rationale: completes the definition of "administers" agreed in principle together with the access-control test, once its stability guards (R049) were settled.
+- Rules: R048 (amended).
+- Counterarguments: civil administration can be split as well (a condominium); then the area has no holder and R052 applies if it qualifies.
+- Status: accepted.
+- Basis: owner decision, 2026-10-03 (agreed in principle, confirmed after R049 was adopted).

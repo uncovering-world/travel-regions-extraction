@@ -26,15 +26,13 @@ Decisions are taken one at a time in conversation with the owner; this list is t
 
 **Not recorded as adopted** — agreed only in principle, or left open, on 2026-10-03; kept as open questions:
 
-- Unclaimed land (`unclaimed`) as a cell with no country, outlined by what the neighbours' claim lines leave out; areas with no agreed boundary (`no_agreed_boundary`) as special places with the land going to the holder — Q017.
-- The fallback in the definition of "administers" (civil administration to residents, otherwise nobody) where access control cannot tell the parties apart — Q016. The access-control test itself is adopted (R048).
 - An islet group held in parts by several parties with no line between them has no single country in the default view — to settle (Q016).
 - One rule over several top-level units: a known rough case of the scope test (D050); one region per unit or one for their union — Q015.
 
 **Open, in the order they will be asked:**
 
 1. Stability (#20), one parameter at a time. The waiting time and the acts that end a contest are decided (above). Holding an area in fact is enough for acceptance; there is no separate condition about civil administration (decided). The settling rule is recorded (D043, R049). **Next for stability: changes nobody contests** ([release stability](proposals/release-stability.md)), with evidence in the [regime-lifetimes experiment](../experiments/regime-lifetimes/README.md) — entry and exit, the yearly release and registry editions are decided and recorded (D049, D039); still open here: release mechanics (Q019).
-2. Disputed and special-status areas (#19), remaining kinds. Islets, paper claims, zones with no single holder, leases and resolved disputes are recorded (D044–D048); de facto states and occupied areas are covered by the settling rule (D043). Still open: unclaimed land and undelimited stretches (Q017) and areas with no single holder that are not regions (Q016). The register's [review list](../data/disputed-areas/REVIEW.md) feeds this: areas to split, merge or drop, and kinds that the sources do not support.
+2. Disputed and special-status areas (#19), remaining kinds. Islets, paper claims, zones with no single holder, leases and resolved disputes are recorded (D044–D048, D054); de facto states and occupied areas are covered by the settling rule (D043). Still open: unclaimed land and undelimited stretches (Q017) and areas with no single holder that are not regions (Q016). The register's [review list](../data/disputed-areas/REVIEW.md) feeds this: areas to split, merge or drop, and kinds that the sources do not support.
 3. **Next: where outlines come from** — a design for custom geometries (sources, pinning, versioning) for areas the substrate cannot represent; needs a check of which sources carry the outlines of the register's areas (only 23 of 210 are linked to Natural Earth and 10 to Wikidata so far). Design question recorded as Q013. The registry rule is recorded as sitting in Stage 1 (D038), as the decision's wording says; the owner had also asked to confirm this explicitly.
 4. Consumer contract (#27): confirm the remaining requirements — delivery through TYR's file import, not tied to one substrate, stability between releases.
 5. CR-W amendments (#17): recorded (D050, R056). Left as a known rough case: one rule over several top-level units (Q015).

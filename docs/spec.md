@@ -2,7 +2,7 @@
 
 Version: 0.4.0-draft. Date: 2026-10-03. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
 
-Changes in 0.4.0-draft: R045–R057 added from the owner's decisions of 2026-10-03 (D038–D053); R009, R014, R016, R026, R039 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
+Changes in 0.4.0-draft: R045–R058 added from the owner's decisions of 2026-10-03 (D038–D055); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
 
 ## Basis and limits of reliability
 
@@ -378,7 +378,7 @@ The registry and the register say which places are separate and whose they are; 
 
 ### R048 — The holder of an area [accepted; D043]
 
-`holder(area, t)` is the party whose officers can in practice admit a civilian to the area, refuse one and remove one at t. Rules a party issues for an area but cannot enforce there do not count. Where parts of an area are held by different parties, each part has its own holder. Holding in fact is enough, for inhabited and uninhabited areas alike; there is no separate condition about civil administration. The holder and the date from which it has held the area without interruption are register facts with a source and a quoted passage; attribution is computed from them. What applies when this test cannot tell the parties apart is Q016.
+`holder(area, t)` is the party whose officers can in practice admit a civilian to the area, refuse one and remove one at t. Rules a party issues for an area but cannot enforce there do not count. Where parts of an area are held by different parties, each part has its own holder. Holding in fact is enough, for inhabited and uninhabited areas alike; there is no separate condition about civil administration. The holder and the date from which it has held the area without interruption are register facts with a source and a quoted passage; attribution is computed from them. Where this test cannot tell the parties apart, the holder is the party that provides civil administration to the residents; if there is none, the area has no holder (amended by D055).
 
 ### R049 — Unsettled areas and the settling time [accepted; D043, D053]
 
@@ -492,3 +492,7 @@ This is a spot check of the basic distinctions, not a re-verification of all the
 - E02: [European Commission — Territorial Scope](https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en). EU/customs/VAT/excise are different scopes. Réunion is part of the EU customs territory, but not of the common VAT/excise territory. In the original paraphrases this must not be shortened to "Réunion is outside the EU customs territory".
 - E03: [UN — Western Sahara](https://www.un.org/dppa/decolonization/en/nsgt/western-sahara). Confirms UN Non-Self-Governing Territory status, but does not define the current operational geometry and does not prove a two-part division.
 - E04: [Antarctic Treaty Secretariat — Antarctic Treaty](https://www.ats.aq/e/antarctictreaty.html) and the [text of the treaty](https://documents.ats.aq/keydocs/vol_1/vol1_2_at_antarctic_treaty_e.pdf). Article IV preserves positions on claims; Article VI describes the area south of 60°S. The choice of one land cell is our modelling hypothesis, not a requirement of the treaty; on 2026-10-03 the owner adopted it for Stage 1 as an explicit convention (D040).
+
+### R058 — Unclaimed land and boundaries that are not agreed [accepted; D054]
+
+An area that no state claims is a region attributed to no country; its outline is the part that the neighbours' own claim lines leave out (R047). An area where a boundary must exist between states that each hold territory on their side, but no line is agreed or defined for that stretch, is not a region: its land goes with its holder (R048) and the area is a special place (R046).

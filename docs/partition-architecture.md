@@ -1,6 +1,6 @@
 # Partition architecture
 
-The normative requirements are in [spec.md](spec.md), especially R009, R039–R044 and R045–R057. This document is a short implementation-oriented map of those rules.
+The normative requirements are in [spec.md](spec.md), especially R009, R039–R044 and R045–R058. This document is a short implementation-oriented map of those rules.
 
 Canonical Travel Regions has one published output: an exhaustive, mutually exclusive, single-level partition. The project constructs that output in two internal stages.
 
@@ -16,7 +16,7 @@ The positive compatibility outcome is `hard_compatible`. It means both units hav
 
 Absence of a CR-W certificate is not compatibility. Production completeness covers all accepted hard decision dimensions at the same versioned traveller scope and time, excluding CR-J/identity. Q001 is narrowed, not all Stage 1 semantics complete. See the [adoption record](../experiments/q001/stage1-core-adoption.md).
 
-### Stage 1 as decided on 2026-10-03 (D038–D053)
+### Stage 1 as decided on 2026-10-03 (D038–D055)
 
 Stage 1 boundaries come from three sources, and a release is built from them under the product profile `S1-product-v1` (R057):
 
