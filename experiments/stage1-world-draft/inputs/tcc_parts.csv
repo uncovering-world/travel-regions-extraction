@@ -1,0 +1,97 @@
+name,iso,tcc_ground,draft_cell
+Austral Islands,PF,separated_land,
+Chatham Islands,NZ,separated_land,
+Easter Island,CL,separated_land,CL/cl-rapa-nui
+Galapagos Islands,EC,separated_land,EC/ec-galapagos
+Hawaiian Islands,US,separated_land,
+Juan Fernandez Islands (Robinson Crusoe Island),CL,separated_land,
+"Line/Phoenix Islands (Canton, Christmas, Enderbury, Fanning)",KI,separated_land,
+Lord Howe Island,AU,separated_land,
+Marquesas Islands,PF,separated_land,
+Midway Island,UM,separated_land,
+"Ogasawara (Bonin, Iwo Jima, Volcano Island)",JP,separated_land,
+"Papua New Guinea – Islands Region (Admiralty Islands, Bougainville, New Britain, New Ireland)",PG,separated_land,
+Ryukyu Islands (Okinawa),JP,separated_land,
+Tasmania,AU,separated_land,
+Wake Island,UM,separated_land,
+Alaska,US,separated_land,
+Prince Edward Island,CA,federation_member,
+Nueva Esparta (Margarita Island),VE,separated_land,
+Bonaire,BQ,separated_land,
+Nevis,KN,federation_member,
+Saba & Sint Eustatius,BQ,separated_land,
+St. Kitts,KN,federation_member,
+San Andres & Providencia,CO,separated_land,CO/co-san-andres
+Ascension,SH,separated_land,SH/sh-ascension
+Azores Islands,PT,separated_land,
+Canary Islands,ES,separated_land,
+Fernando de Noronha,BR,separated_land,
+Madeira,PT,separated_land,
+St. Helena,SH,separated_land,SH (remainder)
+Tristan da Cunha,SH,separated_land,SH/sh-tristan-da-cunha
+"Balearic Islands (Ibiza, Mallorca, Minorca)",ES,separated_land,
+Corsica,FR,separated_land,
+Crete,GR,separated_land,
+"Cyprus, British Sovereign Base Areas of Akrotiri & Dhekelia",,de_facto_or_disputed,registry: Dhekelia (Akrotiri is under the size floor)
+"Cyprus, Turkish Fed. State",CY,de_facto_or_disputed,registry: N. Cyprus
+England,GB,federation_member,
+"Greek Aegean Islands (Cyclades, Dodecanese,Northern Aegean Islands)",GR,separated_land,
+"Ionian Islands (Corfu, etc.)",GR,separated_land,
+"Ireland, Northern",GB,federation_member,
+Kaliningrad,RU,separated_land,
+Lampedusa,IT,separated_land,
+Sardinia,IT,separated_land,
+Scotland,GB,federation_member,
+Sicily,IT,separated_land,
+"Spitsbergen (Svalbard, Bear Island)",SJ,separated_land,
+Srpska,BA,federation_member,
+Transnistria (Pridnestrovie),MD,de_facto_or_disputed,MD/md-transnistria
+Turkey in Europe (Istanbul),TR,continental_division,
+Wales,GB,federation_member,
+Argentine Antarctica (Antarctic Peninsula),AQ,antarctic_claim,
+"Australian Antarctic Territory (Davis, Heard, Macquarie, Mawson)",AQ;HM;AU,antarctic_claim,
+"British Antarctic Territory (Antarctic Peninsula, Graham Land, South Orkney, South Shetland)",AQ,antarctic_claim,
+Chilean Antarctic Territory (Antarctic Peninsula),AQ,antarctic_claim,
+"French Antarctica (Adélie, Kerguelen)",AQ;TF,antarctic_claim,
+New Zealand Antarctica (Ross Dependency),AQ,antarctic_claim,
+"Norwegian Dependencies (Bouvet, Peter I Island, Queen Maud Land)",BV;AQ,antarctic_claim,
+Cabinda,AO,separated_land,
+Egypt in Africa,EG,continental_division,
+Equatorial Guinea (Bioko),GQ,separated_land,
+Equatorial Guinea (Rio Muni),GQ,continental_division,
+"Morocco, Spanish (Ceuta, Melilla)",ES,separated_land,
+Somalia (Italian Somaliland),SO,de_facto_or_disputed,SO (remainder)
+Somaliland (British),SO,de_facto_or_disputed,registry: Somaliland
+Zanzibar,TZ,separated_land,TZ/tz-zanzibar
+Abu Dhabi,AE,federation_member,
+Ajman,AE,federation_member,
+Dubai,AE,federation_member,
+Egypt in Asia (Sinai Peninsula),EG,continental_division,
+Fujairah,AE,federation_member,
+Ras Al Khaimah,AE,federation_member,
+Sharjah,AE,federation_member,
+Umm Al Qaiwain,AE,federation_member,
+Andaman-Nicobar Islands,IN,separated_land,
+Lakshadweep,IN,separated_land,
+Rodrigues Island,MU,separated_land,
+Socotra,YE,separated_land,YE/ye-socotra
+"Zil Elwannyen Sesel (Aldabra, Amirante Islands, Farquhar)",SC,separated_land,
+Abkhazia,GE,de_facto_or_disputed,registry: Georgia (Abkhazia)
+Hainan Island,CN,separated_land,CN/cn-hainan
+Indonesia (Java),ID,continental_division,
+Jeju Island (South Korea),KR,separated_land,KR/kr-jeju
+Kalimantan (Indonesian Borneo),ID,separated_land,
+Kashmir,IN,de_facto_or_disputed,registry: India/Pakistan Kashmir sectors
+"Lesser Sunda Islands (Bali, Timor, Indonesia)",ID,separated_land,
+Maluku Islands,ID,separated_land,
+Nakhchivan,AZ,separated_land,
+Papua (Irian Jaya),ID,separated_land,
+Russia in Asia (incl. Siberia),RU,continental_division,
+Sabah (North Borneo),MY,separated_land,MY/my-sabah
+Sarawak,MY,separated_land,MY/my-sarawak
+Sikkim,IN,separated_land,IN/in-sikkim
+South Ossetia,GE,de_facto_or_disputed,registry: Georgia (South Ossetia)
+"Sulawesi (Celebes, Indonesia)",ID,separated_land,
+Sumatra (Indonesia),ID,separated_land,
+Tibet,CN,de_facto_or_disputed,CN/cn-tibet
+"Turkey in Asia (Anatolia, Ankara, Izmir)",TR,continental_division,

@@ -5,41 +5,96 @@
       "AZ": 2,
       "BR": 2,
       "BT": 2,
-      "CN": 2,
+      "CL": 2,
+      "CN": 6,
+      "CO": 2,
+      "EC": 2,
       "ES": 2,
+      "FR": 2,
+      "GR": 2,
       "IL": 3,
-      "IN": 5,
+      "IN": 7,
       "KE": 2,
+      "KR": 2,
       "MA": 2,
+      "MD": 2,
+      "MX": 2,
+      "MY": 3,
       "PK": 2,
-      "RU": 3,
+      "RU": 4,
       "SD": 2,
-      "UA": 3
+      "SH": 3,
+      "SO": 2,
+      "TJ": 2,
+      "TW": 3,
+      "TZ": 2,
+      "UA": 3,
+      "VN": 2,
+      "YE": 2
     }
   },
   "crw": {
     "amended": {
-      "by_regime": {},
-      "cells": 0
+      "by_regime": {
+        "own_visa_system": 3,
+        "permit_whole_territory": 8,
+        "separate_immigration_control": 4,
+        "stay_limit": 3,
+        "visa_exemption": 8
+      },
+      "cells": 26
     },
     "amended_any_evidence": {
-      "by_regime": {},
-      "cells": 0
+      "by_regime": {
+        "own_visa_system": 3,
+        "permit_whole_territory": 10,
+        "separate_immigration_control": 4,
+        "stay_limit": 3,
+        "visa_exemption": 8
+      },
+      "cells": 28
     },
     "amended_confirmed_only": {
-      "by_regime": {},
-      "cells": 0
+      "by_regime": {
+        "own_visa_system": 1,
+        "permit_whole_territory": 2,
+        "visa_exemption": 1
+      },
+      "cells": 4
+    },
+    "amended_incl_unclear_status": {
+      "by_regime": {
+        "own_visa_system": 4,
+        "permit_whole_territory": 13,
+        "separate_immigration_control": 4,
+        "stay_limit": 3,
+        "visa_exemption": 18
+      },
+      "cells": 42
     },
     "amended_no_permits": {
-      "by_regime": {},
-      "cells": 0
+      "by_regime": {
+        "own_visa_system": 3,
+        "separate_immigration_control": 4,
+        "stay_limit": 3,
+        "visa_exemption": 8
+      },
+      "cells": 18
     },
     "raw": {
-      "by_regime": {},
-      "cells": 0
+      "by_regime": {
+        "own_visa_system": 4,
+        "permit_whole_territory": 25,
+        "separate_immigration_control": 4,
+        "stay_limit": 3,
+        "transit_only": 1,
+        "visa_exemption": 15,
+        "visa_requirement": 3
+      },
+      "cells": 55
     }
   },
-  "crw_share_of_baseline": 0.0,
+  "crw_share_of_baseline": 0.0855,
   "inputs": {
     "iso3166-1.csv": "40a46573ba3d50459162730ad61cf68ea3ce5e1be0cb6a0859f924033ca81d09",
     "ne_10m_admin_0_countries.geojson": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
@@ -65,11 +120,53 @@
       "whole_iso_entry": 5
     }
   },
+  "tcc": {
+    "by_ground": {
+      "antarctic_claim": {
+        "tcc": 7,
+        "with_a_draft_cell": 0
+      },
+      "continental_division": {
+        "tcc": 7,
+        "with_a_draft_cell": 0
+      },
+      "de_facto_or_disputed": {
+        "tcc": 9,
+        "with_a_draft_cell": 9
+      },
+      "federation_member": {
+        "tcc": 15,
+        "with_a_draft_cell": 0
+      },
+      "separated_land": {
+        "tcc": 58,
+        "with_a_draft_cell": 13
+      }
+    },
+    "draft_cells_inside_iso_entries": 45,
+    "draft_crw_cells_without_tcc_entry": [
+      "CN/cn-guilin-asean-groups",
+      "CN/cn-xishuangbanna-asean-groups",
+      "FR/fr-clipperton",
+      "GR/gr-mount-athos",
+      "IN/in-arunachal-pradesh",
+      "MX/mx-southern-border-tvr",
+      "RU/ru-chukotka",
+      "SO/so-puntland",
+      "TJ/tj-gbao",
+      "TW/tw-kinmen",
+      "TW/tw-matsu",
+      "VN/vn-phu-quoc"
+    ],
+    "parts_of_iso_entries": 96,
+    "with_a_draft_cell": 22
+  },
   "totals": {
-    "amended": 278,
-    "amended_any_evidence": 278,
-    "amended_confirmed_only": 278,
-    "amended_no_permits": 278,
-    "raw": 278
+    "amended": 304,
+    "amended_any_evidence": 306,
+    "amended_confirmed_only": 282,
+    "amended_incl_unclear_status": 320,
+    "amended_no_permits": 296,
+    "raw": 333
   }
 }

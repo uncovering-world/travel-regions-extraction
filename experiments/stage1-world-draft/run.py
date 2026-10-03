@@ -130,25 +130,27 @@ def registry_cells(iso: list[dict], countries: list[dict], disputed: list[dict],
     return cells, skipped
 
 
+CITED = {"confirmed_primary", "cited_secondary"}
 CRW_PROFILES = {
-    # name: (transit, anchored, permit_convention, evidence levels admitted)
-    "amended": (False, False, True, {"confirmed_primary", "cited_secondary"}),
-    "raw": (True, True, True, {"confirmed_primary", "cited_secondary"}),
-    "amended_no_permits": (False, False, False, {"confirmed_primary", "cited_secondary"}),
-    "amended_confirmed_only": (False, False, True, {"confirmed_primary"}),
-    "amended_any_evidence": (False, False, True, {"confirmed_primary", "cited_secondary", "unconfirmed", "conflicted"}),
+    # name: (transit, anchored, permit_convention, evidence levels admitted, in-force values admitted)
+    "amended": (False, False, True, CITED, {"yes"}),
+    "raw": (True, True, True, CITED, {"yes"}),
+    "amended_no_permits": (False, False, False, CITED, {"yes"}),
+    "amended_confirmed_only": (False, False, True, {"confirmed_primary"}, {"yes"}),
+    "amended_any_evidence": (False, False, True, CITED | {"unconfirmed", "conflicted"}, {"yes"}),
+    "amended_incl_unclear_status": (False, False, True, CITED, {"yes", "unclear"}),
 }
 ANCHORED_KINDS = {"zone_or_band", "site_list", "class_of_parcels"}
 NEVER = {"customs_or_tax_only", "none"}
 
 
 def crw_active(row: dict, profile: str) -> bool:
-    transit, anchored, permits, evidence = CRW_PROFILES[profile]
-    if row["in_force_2026"] != "yes" or row["regime_kind"] in NEVER or row["evidence"] not in evidence:
+    transit, anchored, permits, evidence, in_force = CRW_PROFILES[profile]
+    if row["in_force_2026"] not in in_force or row["regime_kind"] in NEVER or row["evidence"] not in evidence:
         return False
     if row["regime_kind"] == "transit_only" and not transit:
         return False
-    if row["unit_kind"] in ANCHORED_KINDS and not anchored:
+    if (row["unit_kind"] in ANCHORED_KINDS or row["whole_named_unit"] != "yes") and not anchored:
         return False
     if row["regime_kind"] == "permit_whole_territory" and not permits:
         return False
@@ -159,7 +161,8 @@ def crw_cells(rows: list[dict], profile: str, registry: list[dict]) -> list[dict
     """One cell per active scope that the registry does not already separate."""
     out = []
     for row in rows:
-        if row["covered_by_registry"] == "yes" or not crw_active(row, profile):
+        # "yes": the registry already separates it; "remainder": it is what is left of its ISO entry after other splits.
+        if row["covered_by_registry"] != "no" or not crw_active(row, profile):
             continue
         out.append({"cell": f"{row['iso_code']}/{row['id']}", "kind": "crw", "iso": row["iso_code"], "name": row["name"],
                     "members": row["rule_summary"], "signature": f"{row['regime_kind']} {row['unit_kind']} {row['evidence']}", "area_km2": ""})
@@ -192,6 +195,21 @@ def main() -> int:
                                       "cells_outside_any_iso_entry": per_iso.get("-", 0)}
     summary["crw_share_of_baseline"] = round(sum(c["kind"] == "crw" for c in baseline) / len(baseline), 4)
 
+    # Validation only: TCC entries that are parts of an ISO entry, against draft cells (hand-mapped in the input).
+    tcc = read_csv(INPUTS / "tcc_parts.csv")
+    by_ground: dict[str, list[int]] = defaultdict(lambda: [0, 0])
+    for row in tcc:
+        by_ground[row["tcc_ground"]][0] += 1
+        by_ground[row["tcc_ground"]][1] += bool(row["draft_cell"])
+    mapped = {row["draft_cell"] for row in tcc if row["draft_cell"]}
+    sub_iso = [c["cell"] for c in baseline if c["kind"] == "crw" or (c["kind"] == "registry_extra" and c["iso"] != "-")]
+    summary["tcc"] = {
+        "parts_of_iso_entries": len(tcc), "with_a_draft_cell": sum(bool(r["draft_cell"]) for r in tcc),
+        "by_ground": {k: {"tcc": v[0], "with_a_draft_cell": v[1]} for k, v in sorted(by_ground.items())},
+        "draft_crw_cells_without_tcc_entry": sorted(c["cell"] for c in baseline if c["kind"] == "crw" and c["cell"] not in mapped),
+        "draft_cells_inside_iso_entries": len(sub_iso),
+    }
+
     OUTPUTS.mkdir(exist_ok=True)
     (OUTPUTS / "summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
     with (OUTPUTS / "cells.csv").open("w", newline="") as handle:
@@ -202,7 +220,7 @@ def main() -> int:
         writer = csv.DictWriter(handle, fieldnames=["name", "iso", "area_km2", "reason"], lineterminator="\n")
         writer.writeheader()
         writer.writerows(sorted(skipped, key=lambda s: (s["reason"], s["iso"], s["name"])))
-    print(json.dumps({k: summary[k] for k in ("registry", "registry_baseline", "totals", "crw_share_of_baseline")}, indent=2))
+    print(json.dumps({k: summary[k] for k in ("registry", "registry_baseline", "crw", "totals", "crw_share_of_baseline", "tcc")}, indent=2))
     return 0
 
 
