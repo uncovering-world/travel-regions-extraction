@@ -24,6 +24,40 @@ Written before the first run.
 2. **Name matching is not enough** if more than about a tenth of the non-ISO regions match only by an ambiguous or approximate name; then bindings are a reviewed input, like the register's ties.
 3. **GADM's country attribution conflicts with the canon** wherever a region's `GID_0` is not its canon country; if this happens for more than the known disputed areas, the canon cannot inherit GADM's country tree and must carry its own.
 
+## Method
+
+```bash
+python3 experiments/gadm-binding/run.py   # reads ../track-your-regions/deployment/gadm_410.gpkg, or $GADM_GPKG
+```
+
+- **Data.** GADM 4.1 (`gadm_410.gpkg`, 2,759,749,632 bytes, sha256 in `outputs/summary.json`), the consumer's local copy; only attribute columns are read, nothing is copied.
+- **Binding.** ISO entries by ISO alpha-3 = `GID_0`. GADM's own pseudo-countries (`ZNC`, `XKO`, `Z01`…) by GADM's `NAME_0` (`inputs/gadm_codes.csv`). Other regions by an exact match of the folded place name against GADM names at levels 1–3, within the country where the region's census row gives one. Then a review of every non-ISO binding: `inputs/reviewed.csv` holds 23 decisions made by reading GADM's names (e.g. Hong Kong and Macau are first-level units of China in GADM; three exact-name matches were wrong: San Andrés matched municipalities of that name elsewhere, Azad Kashmir's pseudo-country also holds Gilgit-Baltistan, Kinmen without Matsu).
+- **Not done.** Outlines are not compared: a binding says the region is made of these GADM units by name, not that their outline is the region's stated line.
+
+## Result
+
+317 regions.
+
+| Kind of region | Regions | Bound to whole GADM units | Need a custom geometry |
+|---|---|---|---|
+| ISO 3166-1 entries | 249 | 249 (247 by code; Hong Kong and Macau are GADM units of China) | 0 |
+| Entry rules (incl. areas held by another party) | 32 | 31 | 1: Socotra |
+| Registry cells | 11 | 6 | 5: South Ossetia, Western Sahara west of the berm, East Jerusalem, Shebaa Farms, Somaliland (Natural Earth has its outline) |
+| Residents test | 21 | 11 | 10: the 1949 no-man's-lands, the Cyprus buffer zone, Ilemi, Koalou, the Korean DMZ, the southern Kurils, Rukwanzi–Semliki, the Dniester Security Zone, the UNDOF area, Varosha |
+| Leases held by the lessee | 2 | 0 | 2: Baikonur, Guantanamo Bay |
+| Unclaimed land | 2 | 0 | 2: Bir Tawil, Gornja Siga |
+| **Total** | **317** | **297** | **20** |
+
+Regions bound to whole GADM units but not as the country GADM attributes them to: Crimea and Sevastopol (GADM: Ukraine), Abkhazia (Georgia), Transnistria (Moldova), Golan (Israel), Abyei (Sudan), Kinmen and Matsu (Taiwan, `TWN.1_1`). Their GADM units sit inside another GADM country, so an ISO region's binding is "its `GID_0` minus the units bound to separated regions".
+
+GADM pseudo-countries no region claims: Kaurik, Lapthal, Sang (India–China middle sector, special places in the canon; their land goes to the holder), Shaksgam Valley, Pa-li-chia-ssu, and the Caspian Sea. Each has to be assigned to a region explicitly.
+
+## Conclusion
+
+1. *Largely met.* 297 of 317 regions (94%) bind to whole GADM units. The 20 that do not are small or contested places — exactly where custom geometries were expected (D042, D056): zones, leases, unclaimed pockets, South Ossetia, East Jerusalem, Western Sahara west of the berm, the southern Kurils, Socotra.
+2. *Met.* Name matching alone is not enough: of 30 non-ISO regions an automatic match bound, three were wrong. Bindings are a reviewed input.
+3. *Met, as expected.* GADM's country tree differs from the canon's for the contested areas it carries as units. The canon must carry its own attribution and express ISO regions as GADM countries minus the separated units, plus explicit assignments for GADM's leftover pseudo-countries.
+
 ## Status
 
-Planned (2026-10-04).
+Concluded 2026-10-04.

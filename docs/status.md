@@ -55,4 +55,4 @@ Concluded on 2026-10-03 unless marked.
 
 ## Next step
 
-The Stage 1 list is built: 317 regions, 304 with nothing open, 90 special places, two facts missing; entry rules are now found by a scripted discovery (`data/entry-rules/`), repeated yearly. Next: outlines for places the substrate cannot represent (Q013), the binding to substrate units, and the release package for TYR.
+The Stage 1 list (317 regions) is bound to GADM 4.1: 297 regions to whole GADM units, 20 need custom geometries (zones, leases, unclaimed pockets, South Ossetia, East Jerusalem, Western Sahara west of the berm, the southern Kurils, Socotra) — see the [binding experiment](../experiments/gadm-binding/README.md). Next: sources and procedure for those 20 custom geometries (stated lines from treaties, ceasefire documents, Natural Earth, OpenStreetMap, Commons maps), the explicit assignment of GADM's leftover pseudo-countries, and then the release package in TYR's import format.

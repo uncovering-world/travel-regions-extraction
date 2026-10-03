@@ -1,0 +1,318 @@
+region,name,basis,gadm_units,level,matched_by,note
+AD,Andorra,ISO 3166-1 entry,AND,GID_0,ISO alpha-3,
+AE,United Arab Emirates,ISO 3166-1 entry,ARE,GID_0,ISO alpha-3,
+AF,Afghanistan,ISO 3166-1 entry,AFG,GID_0,ISO alpha-3,
+AG,Antigua and Barbuda,ISO 3166-1 entry,ATG,GID_0,ISO alpha-3,
+AI,Anguilla,ISO 3166-1 entry,AIA,GID_0,ISO alpha-3,
+AL,Albania,ISO 3166-1 entry,ALB,GID_0,ISO alpha-3,
+AM,Armenia,ISO 3166-1 entry,ARM,GID_0,ISO alpha-3,
+AO,Angola,ISO 3166-1 entry,AGO,GID_0,ISO alpha-3,
+AQ,Antarctica,ISO 3166-1 entry,ATA,GID_0,ISO alpha-3,
+AR,Argentina,ISO 3166-1 entry,ARG,GID_0,ISO alpha-3,
+AS,American Samoa,ISO 3166-1 entry,ASM,GID_0,ISO alpha-3,
+AT,Austria,ISO 3166-1 entry,AUT,GID_0,ISO alpha-3,
+AU,Australia,ISO 3166-1 entry,AUS,GID_0,ISO alpha-3,
+AW,Aruba,ISO 3166-1 entry,ABW,GID_0,ISO alpha-3,
+AX,Åland Islands,ISO 3166-1 entry,ALA,GID_0,ISO alpha-3,
+AZ,Azerbaijan,ISO 3166-1 entry,AZE,GID_0,ISO alpha-3,
+BA,Bosnia and Herzegovina,ISO 3166-1 entry,BIH,GID_0,ISO alpha-3,
+BB,Barbados,ISO 3166-1 entry,BRB,GID_0,ISO alpha-3,
+BD,Bangladesh,ISO 3166-1 entry,BGD,GID_0,ISO alpha-3,
+BE,Belgium,ISO 3166-1 entry,BEL,GID_0,ISO alpha-3,
+BF,Burkina Faso,ISO 3166-1 entry,BFA,GID_0,ISO alpha-3,
+BG,Bulgaria,ISO 3166-1 entry,BGR,GID_0,ISO alpha-3,
+BH,Bahrain,ISO 3166-1 entry,BHR,GID_0,ISO alpha-3,
+BI,Burundi,ISO 3166-1 entry,BDI,GID_0,ISO alpha-3,
+BJ,Benin,ISO 3166-1 entry,BEN,GID_0,ISO alpha-3,
+BL,Saint Barthélemy,ISO 3166-1 entry,BLM,GID_0,ISO alpha-3,
+BM,Bermuda,ISO 3166-1 entry,BMU,GID_0,ISO alpha-3,
+BN,Brunei Darussalam,ISO 3166-1 entry,BRN,GID_0,ISO alpha-3,
+BO,"Bolivia, Plurinational State of",ISO 3166-1 entry,BOL,GID_0,ISO alpha-3,
+BQ,"Bonaire, Sint Eustatius and Saba",ISO 3166-1 entry,BES,GID_0,ISO alpha-3,
+BR,Brazil,ISO 3166-1 entry,BRA,GID_0,ISO alpha-3,
+BS,Bahamas,ISO 3166-1 entry,BHS,GID_0,ISO alpha-3,
+BT,Bhutan,ISO 3166-1 entry,BTN,GID_0,ISO alpha-3,
+BV,Bouvet Island,ISO 3166-1 entry,BVT,GID_0,ISO alpha-3,
+BW,Botswana,ISO 3166-1 entry,BWA,GID_0,ISO alpha-3,
+BY,Belarus,ISO 3166-1 entry,BLR,GID_0,ISO alpha-3,
+BZ,Belize,ISO 3166-1 entry,BLZ,GID_0,ISO alpha-3,
+CA,Canada,ISO 3166-1 entry,CAN,GID_0,ISO alpha-3,
+CC,Cocos (Keeling) Islands,ISO 3166-1 entry,CCK,GID_0,ISO alpha-3,
+CD,"Congo, The Democratic Republic of the",ISO 3166-1 entry,COD,GID_0,ISO alpha-3,
+CF,Central African Republic,ISO 3166-1 entry,CAF,GID_0,ISO alpha-3,
+CG,Congo,ISO 3166-1 entry,COG,GID_0,ISO alpha-3,
+CH,Switzerland,ISO 3166-1 entry,CHE,GID_0,ISO alpha-3,
+CI,Côte d'Ivoire,ISO 3166-1 entry,CIV,GID_0,ISO alpha-3,
+CK,Cook Islands,ISO 3166-1 entry,COK,GID_0,ISO alpha-3,
+CL,Chile,ISO 3166-1 entry,CHL,GID_0,ISO alpha-3,
+CM,Cameroon,ISO 3166-1 entry,CMR,GID_0,ISO alpha-3,
+CN,China,ISO 3166-1 entry,CHN,GID_0,ISO alpha-3,
+CO,Colombia,ISO 3166-1 entry,COL,GID_0,ISO alpha-3,
+CR,Costa Rica,ISO 3166-1 entry,CRI,GID_0,ISO alpha-3,
+CU,Cuba,ISO 3166-1 entry,CUB,GID_0,ISO alpha-3,
+CV,Cabo Verde,ISO 3166-1 entry,CPV,GID_0,ISO alpha-3,
+CW,Curaçao,ISO 3166-1 entry,CUW,GID_0,ISO alpha-3,
+CX,Christmas Island,ISO 3166-1 entry,CXR,GID_0,ISO alpha-3,
+CY,Cyprus,ISO 3166-1 entry,CYP,GID_0,ISO alpha-3,
+CZ,Czechia,ISO 3166-1 entry,CZE,GID_0,ISO alpha-3,
+DE,Germany,ISO 3166-1 entry,DEU,GID_0,ISO alpha-3,
+DJ,Djibouti,ISO 3166-1 entry,DJI,GID_0,ISO alpha-3,
+DK,Denmark,ISO 3166-1 entry,DNK,GID_0,ISO alpha-3,
+DM,Dominica,ISO 3166-1 entry,DMA,GID_0,ISO alpha-3,
+DO,Dominican Republic,ISO 3166-1 entry,DOM,GID_0,ISO alpha-3,
+DZ,Algeria,ISO 3166-1 entry,DZA,GID_0,ISO alpha-3,
+EC,Ecuador,ISO 3166-1 entry,ECU,GID_0,ISO alpha-3,
+EE,Estonia,ISO 3166-1 entry,EST,GID_0,ISO alpha-3,
+EG,Egypt,ISO 3166-1 entry,EGY,GID_0,ISO alpha-3,
+EH,Western Sahara,ISO 3166-1 entry,ESH,GID_0,ISO alpha-3,
+ER,Eritrea,ISO 3166-1 entry,ERI,GID_0,ISO alpha-3,
+ES,Spain,ISO 3166-1 entry,ESP,GID_0,ISO alpha-3,
+ET,Ethiopia,ISO 3166-1 entry,ETH,GID_0,ISO alpha-3,
+FI,Finland,ISO 3166-1 entry,FIN,GID_0,ISO alpha-3,
+FJ,Fiji,ISO 3166-1 entry,FJI,GID_0,ISO alpha-3,
+FK,Falkland Islands (Malvinas),ISO 3166-1 entry,FLK,GID_0,ISO alpha-3,
+FM,"Micronesia, Federated States of",ISO 3166-1 entry,FSM,GID_0,ISO alpha-3,
+FO,Faroe Islands,ISO 3166-1 entry,FRO,GID_0,ISO alpha-3,
+FR,France,ISO 3166-1 entry,FRA,GID_0,ISO alpha-3,
+GA,Gabon,ISO 3166-1 entry,GAB,GID_0,ISO alpha-3,
+GB,United Kingdom,ISO 3166-1 entry,GBR,GID_0,ISO alpha-3,
+GD,Grenada,ISO 3166-1 entry,GRD,GID_0,ISO alpha-3,
+GE,Georgia,ISO 3166-1 entry,GEO,GID_0,ISO alpha-3,
+GF,French Guiana,ISO 3166-1 entry,GUF,GID_0,ISO alpha-3,
+GG,Guernsey,ISO 3166-1 entry,GGY,GID_0,ISO alpha-3,
+GH,Ghana,ISO 3166-1 entry,GHA,GID_0,ISO alpha-3,
+GI,Gibraltar,ISO 3166-1 entry,GIB,GID_0,ISO alpha-3,
+GL,Greenland,ISO 3166-1 entry,GRL,GID_0,ISO alpha-3,
+GM,Gambia,ISO 3166-1 entry,GMB,GID_0,ISO alpha-3,
+GN,Guinea,ISO 3166-1 entry,GIN,GID_0,ISO alpha-3,
+GP,Guadeloupe,ISO 3166-1 entry,GLP,GID_0,ISO alpha-3,
+GQ,Equatorial Guinea,ISO 3166-1 entry,GNQ,GID_0,ISO alpha-3,
+GR,Greece,ISO 3166-1 entry,GRC,GID_0,ISO alpha-3,
+GS,South Georgia and the South Sandwich Islands,ISO 3166-1 entry,SGS,GID_0,ISO alpha-3,
+GT,Guatemala,ISO 3166-1 entry,GTM,GID_0,ISO alpha-3,
+GU,Guam,ISO 3166-1 entry,GUM,GID_0,ISO alpha-3,
+GW,Guinea-Bissau,ISO 3166-1 entry,GNB,GID_0,ISO alpha-3,
+GY,Guyana,ISO 3166-1 entry,GUY,GID_0,ISO alpha-3,
+HK,Hong Kong,ISO 3166-1 entry,CHN.HKG,GID_1,reviewed,GADM keeps Hong Kong as a first-level unit of China
+HM,Heard Island and McDonald Islands,ISO 3166-1 entry,HMD,GID_0,ISO alpha-3,
+HN,Honduras,ISO 3166-1 entry,HND,GID_0,ISO alpha-3,
+HR,Croatia,ISO 3166-1 entry,HRV,GID_0,ISO alpha-3,
+HT,Haiti,ISO 3166-1 entry,HTI,GID_0,ISO alpha-3,
+HU,Hungary,ISO 3166-1 entry,HUN,GID_0,ISO alpha-3,
+ID,Indonesia,ISO 3166-1 entry,IDN,GID_0,ISO alpha-3,
+IE,Ireland,ISO 3166-1 entry,IRL,GID_0,ISO alpha-3,
+IL,Israel,ISO 3166-1 entry,ISR,GID_0,ISO alpha-3,
+IM,Isle of Man,ISO 3166-1 entry,IMN,GID_0,ISO alpha-3,
+IN,India,ISO 3166-1 entry,IND,GID_0,ISO alpha-3,
+IO,British Indian Ocean Territory,ISO 3166-1 entry,IOT,GID_0,ISO alpha-3,
+IQ,Iraq,ISO 3166-1 entry,IRQ,GID_0,ISO alpha-3,
+IR,"Iran, Islamic Republic of",ISO 3166-1 entry,IRN,GID_0,ISO alpha-3,
+IS,Iceland,ISO 3166-1 entry,ISL,GID_0,ISO alpha-3,
+IT,Italy,ISO 3166-1 entry,ITA,GID_0,ISO alpha-3,
+JE,Jersey,ISO 3166-1 entry,JEY,GID_0,ISO alpha-3,
+JM,Jamaica,ISO 3166-1 entry,JAM,GID_0,ISO alpha-3,
+JO,Jordan,ISO 3166-1 entry,JOR,GID_0,ISO alpha-3,
+JP,Japan,ISO 3166-1 entry,JPN,GID_0,ISO alpha-3,
+KE,Kenya,ISO 3166-1 entry,KEN,GID_0,ISO alpha-3,
+KG,Kyrgyzstan,ISO 3166-1 entry,KGZ,GID_0,ISO alpha-3,
+KH,Cambodia,ISO 3166-1 entry,KHM,GID_0,ISO alpha-3,
+KI,Kiribati,ISO 3166-1 entry,KIR,GID_0,ISO alpha-3,
+KM,Comoros,ISO 3166-1 entry,COM,GID_0,ISO alpha-3,
+KN,Saint Kitts and Nevis,ISO 3166-1 entry,KNA,GID_0,ISO alpha-3,
+KP,"Korea, Democratic People's Republic of",ISO 3166-1 entry,PRK,GID_0,ISO alpha-3,
+KR,"Korea, Republic of",ISO 3166-1 entry,KOR,GID_0,ISO alpha-3,
+KW,Kuwait,ISO 3166-1 entry,KWT,GID_0,ISO alpha-3,
+KY,Cayman Islands,ISO 3166-1 entry,CYM,GID_0,ISO alpha-3,
+KZ,Kazakhstan,ISO 3166-1 entry,KAZ,GID_0,ISO alpha-3,
+LA,Lao People's Democratic Republic,ISO 3166-1 entry,LAO,GID_0,ISO alpha-3,
+LB,Lebanon,ISO 3166-1 entry,LBN,GID_0,ISO alpha-3,
+LC,Saint Lucia,ISO 3166-1 entry,LCA,GID_0,ISO alpha-3,
+LI,Liechtenstein,ISO 3166-1 entry,LIE,GID_0,ISO alpha-3,
+LK,Sri Lanka,ISO 3166-1 entry,LKA,GID_0,ISO alpha-3,
+LR,Liberia,ISO 3166-1 entry,LBR,GID_0,ISO alpha-3,
+LS,Lesotho,ISO 3166-1 entry,LSO,GID_0,ISO alpha-3,
+LT,Lithuania,ISO 3166-1 entry,LTU,GID_0,ISO alpha-3,
+LU,Luxembourg,ISO 3166-1 entry,LUX,GID_0,ISO alpha-3,
+LV,Latvia,ISO 3166-1 entry,LVA,GID_0,ISO alpha-3,
+LY,Libya,ISO 3166-1 entry,LBY,GID_0,ISO alpha-3,
+MA,Morocco,ISO 3166-1 entry,MAR,GID_0,ISO alpha-3,
+MC,Monaco,ISO 3166-1 entry,MCO,GID_0,ISO alpha-3,
+MD,"Moldova, Republic of",ISO 3166-1 entry,MDA,GID_0,ISO alpha-3,
+ME,Montenegro,ISO 3166-1 entry,MNE,GID_0,ISO alpha-3,
+MF,Saint Martin (French part),ISO 3166-1 entry,MAF,GID_0,ISO alpha-3,
+MG,Madagascar,ISO 3166-1 entry,MDG,GID_0,ISO alpha-3,
+MH,Marshall Islands,ISO 3166-1 entry,MHL,GID_0,ISO alpha-3,
+MK,North Macedonia,ISO 3166-1 entry,MKD,GID_0,ISO alpha-3,
+ML,Mali,ISO 3166-1 entry,MLI,GID_0,ISO alpha-3,
+MM,Myanmar,ISO 3166-1 entry,MMR,GID_0,ISO alpha-3,
+MN,Mongolia,ISO 3166-1 entry,MNG,GID_0,ISO alpha-3,
+MO,Macao,ISO 3166-1 entry,CHN.MAC,GID_1,reviewed,GADM keeps Macau as a first-level unit of China
+MP,Northern Mariana Islands,ISO 3166-1 entry,MNP,GID_0,ISO alpha-3,
+MQ,Martinique,ISO 3166-1 entry,MTQ,GID_0,ISO alpha-3,
+MR,Mauritania,ISO 3166-1 entry,MRT,GID_0,ISO alpha-3,
+MS,Montserrat,ISO 3166-1 entry,MSR,GID_0,ISO alpha-3,
+MT,Malta,ISO 3166-1 entry,MLT,GID_0,ISO alpha-3,
+MU,Mauritius,ISO 3166-1 entry,MUS,GID_0,ISO alpha-3,
+MV,Maldives,ISO 3166-1 entry,MDV,GID_0,ISO alpha-3,
+MW,Malawi,ISO 3166-1 entry,MWI,GID_0,ISO alpha-3,
+MX,Mexico,ISO 3166-1 entry,MEX,GID_0,ISO alpha-3,
+MY,Malaysia,ISO 3166-1 entry,MYS,GID_0,ISO alpha-3,
+MZ,Mozambique,ISO 3166-1 entry,MOZ,GID_0,ISO alpha-3,
+NA,Namibia,ISO 3166-1 entry,NAM,GID_0,ISO alpha-3,
+NC,New Caledonia,ISO 3166-1 entry,NCL,GID_0,ISO alpha-3,
+NE,Niger,ISO 3166-1 entry,NER,GID_0,ISO alpha-3,
+NF,Norfolk Island,ISO 3166-1 entry,NFK,GID_0,ISO alpha-3,
+NG,Nigeria,ISO 3166-1 entry,NGA,GID_0,ISO alpha-3,
+NI,Nicaragua,ISO 3166-1 entry,NIC,GID_0,ISO alpha-3,
+NL,Netherlands,ISO 3166-1 entry,NLD,GID_0,ISO alpha-3,
+NO,Norway,ISO 3166-1 entry,NOR,GID_0,ISO alpha-3,
+NP,Nepal,ISO 3166-1 entry,NPL,GID_0,ISO alpha-3,
+NR,Nauru,ISO 3166-1 entry,NRU,GID_0,ISO alpha-3,
+NU,Niue,ISO 3166-1 entry,NIU,GID_0,ISO alpha-3,
+NZ,New Zealand,ISO 3166-1 entry,NZL,GID_0,ISO alpha-3,
+OM,Oman,ISO 3166-1 entry,OMN,GID_0,ISO alpha-3,
+PA,Panama,ISO 3166-1 entry,PAN,GID_0,ISO alpha-3,
+PE,Peru,ISO 3166-1 entry,PER,GID_0,ISO alpha-3,
+PF,French Polynesia,ISO 3166-1 entry,PYF,GID_0,ISO alpha-3,
+PG,Papua New Guinea,ISO 3166-1 entry,PNG,GID_0,ISO alpha-3,
+PH,Philippines,ISO 3166-1 entry,PHL,GID_0,ISO alpha-3,
+PK,Pakistan,ISO 3166-1 entry,PAK,GID_0,ISO alpha-3,
+PL,Poland,ISO 3166-1 entry,POL,GID_0,ISO alpha-3,
+PM,Saint Pierre and Miquelon,ISO 3166-1 entry,SPM,GID_0,ISO alpha-3,
+PN,Pitcairn,ISO 3166-1 entry,PCN,GID_0,ISO alpha-3,
+PR,Puerto Rico,ISO 3166-1 entry,PRI,GID_0,ISO alpha-3,
+PS,"Palestine, State of",ISO 3166-1 entry,PSE,GID_0,ISO alpha-3,
+PT,Portugal,ISO 3166-1 entry,PRT,GID_0,ISO alpha-3,
+PW,Palau,ISO 3166-1 entry,PLW,GID_0,ISO alpha-3,
+PY,Paraguay,ISO 3166-1 entry,PRY,GID_0,ISO alpha-3,
+QA,Qatar,ISO 3166-1 entry,QAT,GID_0,ISO alpha-3,
+RE,Réunion,ISO 3166-1 entry,REU,GID_0,ISO alpha-3,
+RO,Romania,ISO 3166-1 entry,ROU,GID_0,ISO alpha-3,
+RS,Serbia,ISO 3166-1 entry,SRB,GID_0,ISO alpha-3,
+RU,Russian Federation,ISO 3166-1 entry,RUS,GID_0,ISO alpha-3,
+RW,Rwanda,ISO 3166-1 entry,RWA,GID_0,ISO alpha-3,
+SA,Saudi Arabia,ISO 3166-1 entry,SAU,GID_0,ISO alpha-3,
+SB,Solomon Islands,ISO 3166-1 entry,SLB,GID_0,ISO alpha-3,
+SC,Seychelles,ISO 3166-1 entry,SYC,GID_0,ISO alpha-3,
+SD,Sudan,ISO 3166-1 entry,SDN,GID_0,ISO alpha-3,
+SE,Sweden,ISO 3166-1 entry,SWE,GID_0,ISO alpha-3,
+SG,Singapore,ISO 3166-1 entry,SGP,GID_0,ISO alpha-3,
+SH,"Saint Helena, Ascension and Tristan da Cunha",ISO 3166-1 entry,SHN,GID_0,ISO alpha-3,
+SI,Slovenia,ISO 3166-1 entry,SVN,GID_0,ISO alpha-3,
+SJ,Svalbard and Jan Mayen,ISO 3166-1 entry,SJM,GID_0,ISO alpha-3,
+SK,Slovakia,ISO 3166-1 entry,SVK,GID_0,ISO alpha-3,
+SL,Sierra Leone,ISO 3166-1 entry,SLE,GID_0,ISO alpha-3,
+SM,San Marino,ISO 3166-1 entry,SMR,GID_0,ISO alpha-3,
+SN,Senegal,ISO 3166-1 entry,SEN,GID_0,ISO alpha-3,
+SO,Somalia,ISO 3166-1 entry,SOM,GID_0,ISO alpha-3,
+SR,Suriname,ISO 3166-1 entry,SUR,GID_0,ISO alpha-3,
+SS,South Sudan,ISO 3166-1 entry,SSD,GID_0,ISO alpha-3,
+ST,Sao Tome and Principe,ISO 3166-1 entry,STP,GID_0,ISO alpha-3,
+SV,El Salvador,ISO 3166-1 entry,SLV,GID_0,ISO alpha-3,
+SX,Sint Maarten (Dutch part),ISO 3166-1 entry,SXM,GID_0,ISO alpha-3,
+SY,Syrian Arab Republic,ISO 3166-1 entry,SYR,GID_0,ISO alpha-3,
+SZ,Eswatini,ISO 3166-1 entry,SWZ,GID_0,ISO alpha-3,
+TC,Turks and Caicos Islands,ISO 3166-1 entry,TCA,GID_0,ISO alpha-3,
+TD,Chad,ISO 3166-1 entry,TCD,GID_0,ISO alpha-3,
+TF,French Southern Territories,ISO 3166-1 entry,ATF,GID_0,ISO alpha-3,
+TG,Togo,ISO 3166-1 entry,TGO,GID_0,ISO alpha-3,
+TH,Thailand,ISO 3166-1 entry,THA,GID_0,ISO alpha-3,
+TJ,Tajikistan,ISO 3166-1 entry,TJK,GID_0,ISO alpha-3,
+TK,Tokelau,ISO 3166-1 entry,TKL,GID_0,ISO alpha-3,
+TL,Timor-Leste,ISO 3166-1 entry,TLS,GID_0,ISO alpha-3,
+TM,Turkmenistan,ISO 3166-1 entry,TKM,GID_0,ISO alpha-3,
+TN,Tunisia,ISO 3166-1 entry,TUN,GID_0,ISO alpha-3,
+TO,Tonga,ISO 3166-1 entry,TON,GID_0,ISO alpha-3,
+TR,Türkiye,ISO 3166-1 entry,TUR,GID_0,ISO alpha-3,
+TT,Trinidad and Tobago,ISO 3166-1 entry,TTO,GID_0,ISO alpha-3,
+TV,Tuvalu,ISO 3166-1 entry,TUV,GID_0,ISO alpha-3,
+TW,"Taiwan, Province of China",ISO 3166-1 entry,TWN,GID_0,ISO alpha-3,
+TZ,"Tanzania, United Republic of",ISO 3166-1 entry,TZA,GID_0,ISO alpha-3,
+UA,Ukraine,ISO 3166-1 entry,UKR,GID_0,ISO alpha-3,
+UG,Uganda,ISO 3166-1 entry,UGA,GID_0,ISO alpha-3,
+UM,United States Minor Outlying Islands,ISO 3166-1 entry,UMI,GID_0,ISO alpha-3,
+US,United States,ISO 3166-1 entry,USA,GID_0,ISO alpha-3,
+UY,Uruguay,ISO 3166-1 entry,URY,GID_0,ISO alpha-3,
+UZ,Uzbekistan,ISO 3166-1 entry,UZB,GID_0,ISO alpha-3,
+VA,Holy See (Vatican City State),ISO 3166-1 entry,VAT,GID_0,ISO alpha-3,
+VC,Saint Vincent and the Grenadines,ISO 3166-1 entry,VCT,GID_0,ISO alpha-3,
+VE,"Venezuela, Bolivarian Republic of",ISO 3166-1 entry,VEN,GID_0,ISO alpha-3,
+VG,"Virgin Islands, British",ISO 3166-1 entry,VGB,GID_0,ISO alpha-3,
+VI,"Virgin Islands, U.S.",ISO 3166-1 entry,VIR,GID_0,ISO alpha-3,
+VN,Viet Nam,ISO 3166-1 entry,VNM,GID_0,ISO alpha-3,
+VU,Vanuatu,ISO 3166-1 entry,VUT,GID_0,ISO alpha-3,
+WF,Wallis and Futuna,ISO 3166-1 entry,WLF,GID_0,ISO alpha-3,
+WS,Samoa,ISO 3166-1 entry,WSM,GID_0,ISO alpha-3,
+YE,Yemen,ISO 3166-1 entry,YEM,GID_0,ISO alpha-3,
+YT,Mayotte,ISO 3166-1 entry,MYT,GID_0,ISO alpha-3,
+ZA,South Africa,ISO 3166-1 entry,ZAF,GID_0,ISO alpha-3,
+ZM,Zambia,ISO 3166-1 entry,ZMB,GID_0,ISO alpha-3,
+ZW,Zimbabwe,ISO 3166-1 entry,ZWE,GID_0,ISO alpha-3,
+area/abkhazia,Abkhazia,registry,GEO.1_1,GID_1,exact name,"searched ['abkhazia']; country not known, all searched"
+area/abyei,Abyei Area,residents,SDN.17.1_1,GID_2,reviewed,GADM's unit named Abyei (in West Kurdufan); outline not compared with the Abyei Area
+area/akrotiri-dhekelia,Akrotiri and Dhekelia Sovereign Base Areas,registry,XAD,GID_0,GADM pseudo-country,GADM NAME_0 Akrotiri and Dhekelia
+area/aksai-chin,Aksai Chin,residents,Z03,GID_0,GADM pseudo-country,GADM NAME_0 Aksai Chin
+area/armistice-no-mans-lands,"1949 no-man's-lands (Latrun, Jerusalem) and Mount Scopus enclave",residents,,,,no GADM unit named ['1949 no man s lands']
+area/arunachal-pradesh,Arunachal Pradesh,residents,Z07,GID_0,GADM pseudo-country,GADM NAME_0 Arunachal Pradesh
+area/azad-kashmir,Azad Jammu and Kashmir,residents,Z06.1_1,GID_1,reviewed,GADM's pseudo-country Z06 also holds Gilgit-Baltistan (Z06.6_1); Azad Kashmir is Z06.1_1
+area/baikonur,Baikonur Cosmodrome and city,leased area held by the lessee,,,reviewed,no GADM unit named for Baikonur: custom geometry
+area/bir-tawil,Bir Tawil,unclaimed land,,,,no GADM unit named ['bir tawil']
+area/ceuta,Ceuta,residents,ESP.7.1_1,GID_2,exact name,"searched ['ceuta']; country not known, all searched"
+area/crimea,Crimea and Sevastopol,registry,UKR.4_1 UKR.20_1,GID_1,reviewed,GADM's units Crimea and Sevastopol' (attributed to Ukraine)
+area/cyprus-buffer-zone,UN Buffer Zone in Cyprus,residents,,,,no GADM unit named ['un buffer zone in cyprus']
+area/east-jerusalem,East Jerusalem,registry,,,reviewed,"GADM's Jerusalem units (ISR.6_1, PSE.2.5_1) are not East Jerusalem: custom geometry"
+area/gilgit-baltistan,Gilgit-Baltistan,residents,Z06.6_1,GID_1,exact name,"searched ['gilgit baltistan']; country not known, all searched"
+area/golan-heights,Golan Heights,registry,ISR.1_1,GID_1,reviewed,GADM's unit Golan is attributed to Israel; Syria's Quneitra (SYR.12_1) is a separate unit
+area/gornja-siga,Gornja Siga and other west-bank pockets,unclaimed land,,,,no GADM unit named ['gornja siga and other west bank pockets']
+area/guantanamo-bay,Guantanamo Bay Naval Base,leased area held by the lessee,,,reviewed,the base is not a GADM unit (it lies in Guantánamo province): custom geometry
+area/ilemi-triangle,Ilemi Triangle,residents,,,,no GADM unit named ['ilemi triangle']
+area/indian-jammu-kashmir-ladakh,Jammu and Kashmir and Ladakh (Indian-administered),residents,Z01,GID_0,GADM pseudo-country,GADM NAME_0 Jammu and Kashmir
+area/kinmen-matsu,"Kinmen, Matsu and Wuqiu",entry rule of the holder,TWN.1_1,GID_1,reviewed,"GADM's unit Fujian (of Taiwan), which holds Kinmen and the Matsu islands"
+area/koalou,Koalou (Kourou) neutral zone,residents,,,,no GADM unit named ['koalou']
+area/korean-dmz,Korean Demilitarized Zone,residents,,,,no GADM unit named ['korean demilitarized zone']
+area/kosovo,Kosovo,registry,XKO,GID_0,GADM pseudo-country,GADM NAME_0 Kosovo
+area/kuril-islands,"Southern Kuril Islands (Iturup, Kunashir, Shikotan, Habomai)",residents,,,reviewed,GADM has only Kuril'skiy rayon (RUS.61.9_1); the other southern islands are not a named unit: custom geometry
+area/melilla,Melilla,residents,ESP.7.2_1,GID_2,exact name,"searched ['melilla']; country not known, all searched"
+area/northern-cyprus,Turkish Republic of Northern Cyprus,registry,ZNC,GID_0,GADM pseudo-country,GADM NAME_0 Northern Cyprus
+area/olivenza,Olivenza and Táliga,residents,ESP.11.1.8.4_1 ESP.11.1.8.5_1,GID_4,reviewed,GADM's municipalities Olivenza and Táliga
+area/paracel-islands,Paracel Islands,residents,XPI,GID_0,GADM pseudo-country,GADM NAME_0 Paracel Islands
+area/rukwanzi-semliki,Rukwanzi Island (Lake Albert) and Semliki River valley,residents,,,,no GADM unit named ['rukwanzi']
+area/shebaa-farms,Shebaa Farms and Kfarchouba hills,registry,,,,no GADM unit named ['shebaa farms and kfarchouba hills']
+area/somaliland,Somaliland,registry,,,reviewed,"no GADM unit; the region is Natural Earth's feature, which does not follow GADM's regions"
+area/south-ossetia,South Ossetia,registry,,,reviewed,no GADM unit: custom geometry
+area/spratly-islands,Spratly Islands,residents,XSP,GID_0,GADM pseudo-country,GADM NAME_0 Spratly Islands
+area/transnistria,Transnistria (including Bender),entry rule of the holder,MDA.36_1,GID_1,exact name,"searched ['transnistria']; country not known, all searched"
+area/transnistria-security-zone,Dniester Security Zone,residents,,,,no GADM unit named ['dniester security zone']
+area/undof-zone,UNDOF area of separation,residents,,,,no GADM unit named ['undof area separation']
+area/varosha,Varosha (Maraş),residents,,,,no GADM unit named ['varosha']
+area/western-sahara-moroccan-controlled,Western Sahara west of the berm,registry,,,reviewed,GADM's units of Western Sahara are not cut at the berm: custom geometry
+rule/au-macquarie-island,Macquarie Island (Macquarie Island Nature Reserve),entry rule,AUS.9.22_1,GID_2,reviewed,GADM's unit Macquarie Island (Tasmania)
+rule/az-nakhchivan,Nakhchivan Autonomous Republic,entry rule,AZE.7_1,GID_1,exact name,searched ['nakhchivan']
+rule/cl-rapa-nui,Rapa Nui (Easter Island),entry rule,CHL.16.1_1,GID_2,reviewed,GADM's unit Isla de Pascua
+rule/cn-hainan,Hainan Province,entry rule,CHN.9_1,GID_1,exact name,searched ['hainan']
+rule/cn-tibet,Tibet Autonomous Region,entry rule,CHN.29_1,GID_1,exact name,searched ['tibet']
+rule/co-san-andres,"Archipelago of San Andrés, Providencia and Santa Catalina",entry rule,COL.27_1,GID_1,reviewed,GADM's department San Andrés y Providencia (an exact-name match had picked three municipalities named San Andrés elsewhere)
+rule/ec-galapagos,Galápagos Province,entry rule,ECU.9_1,GID_1,exact name,searched ['galapagos']
+rule/fr-clipperton,Clipperton Island,entry rule,XCL,GID_0,GADM pseudo-country,GADM NAME_0 Clipperton Island
+rule/gr-mount-athos,Mount Athos,entry rule,GRC.2_1,GID_1,reviewed,GADM's unit Athos
+rule/in-lakshadweep,Lakshadweep,entry rule,IND.18_1,GID_1,exact name,searched ['lakshadweep']
+rule/in-manipur,Manipur,entry rule,IND.21_1,GID_1,exact name,searched ['manipur']
+rule/in-minicoy-maldivians,Minicoy (Lakshadweep),entry rule,IND.18.1.4_1,GID_3,reviewed,GADM's unit Minicoy Island
+rule/in-mizoram,Mizoram,entry rule,IND.23_1,GID_1,exact name,searched ['mizoram']
+rule/in-nagaland,Nagaland,entry rule,IND.24_1,GID_1,exact name,searched ['nagaland']
+rule/in-sikkim,Sikkim,entry rule,IND.30_1,GID_1,exact name,searched ['sikkim']
+rule/iq-kurdistan,Kurdistan Region of Iraq,entry rule,IRQ.6_1 IRQ.7_1 IRQ.12_1,GID_1,reviewed,"GADM's governorates Arbil, As-Sulaymaniyah, Dihok; the region's extent is not checked against them"
+rule/kr-jeju,Jeju Province,entry rule,KOR.12_1,GID_1,exact name,searched ['jeju']
+rule/my-labuan,Labuan,entry rule,MYS.5_1,GID_1,exact name,searched ['labuan']
+rule/my-sabah,Sabah,entry rule,MYS.13_1,GID_1,exact name,searched ['sabah']
+rule/my-sarawak,Sarawak,entry rule,MYS.14_1,GID_1,exact name,searched ['sarawak']
+rule/ru-chukotka,Chukotka Autonomous Okrug,entry rule,RUS.12_1,GID_1,exact name,searched ['chukotka']
+rule/sh-ascension,Ascension Island,entry rule,SHN.1_1,GID_1,exact name,searched ['ascension']
+rule/sh-saint-helena,Saint Helena,entry rule,SHN.2_1,GID_1,exact name,searched ['saint helena']
+rule/sh-tristan-da-cunha,Tristan da Cunha,entry rule,SHN.3_1,GID_1,exact name,searched ['tristan da cunha']
+rule/sj-jan-mayen,Jan Mayen,entry rule,SJM.1_1,GID_1,exact name,searched ['jan mayen']
+rule/tj-gbao,Gorno-Badakhshan Autonomous Oblast (GBAO),entry rule,TJK.2_1,GID_1,exact name,searched ['gorno badakhshan']
+rule/tw-penghu,Penghu County,entry rule,TWN.7.10_1,GID_2,exact name,searched ['penghu']
+rule/tz-zanzibar,Zanzibar,entry rule,TZA.18_1 TZA.19_1 TZA.28_1 TZA.29_1 TZA.30_1,GID_1,reviewed,GADM's five regions of Unguja and Pemba
+rule/vn-phu-quoc,Phu Quoc Island,entry rule,VNM.33.11_1,GID_2,exact name,searched ['phu quoc']
+rule/ye-socotra,Socotra Archipelago,entry rule,,,reviewed,GADM has no unit named for Socotra: custom geometry

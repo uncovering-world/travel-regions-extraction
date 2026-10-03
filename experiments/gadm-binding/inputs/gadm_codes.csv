@@ -1,0 +1,10 @@
+region,gid_0,basis
+area/kosovo,XKO,GADM NAME_0 Kosovo
+area/northern-cyprus,ZNC,GADM NAME_0 Northern Cyprus
+area/akrotiri-dhekelia,XAD,GADM NAME_0 Akrotiri and Dhekelia
+area/paracel-islands,XPI,GADM NAME_0 Paracel Islands
+area/spratly-islands,XSP,GADM NAME_0 Spratly Islands
+area/indian-jammu-kashmir-ladakh,Z01,GADM NAME_0 Jammu and Kashmir (sovereign India, disputed by Pakistan)
+area/aksai-chin,Z03,GADM NAME_0 Aksai Chin
+area/arunachal-pradesh,Z07,GADM NAME_0 Arunachal Pradesh
+rule/fr-clipperton,XCL,GADM NAME_0 Clipperton Island

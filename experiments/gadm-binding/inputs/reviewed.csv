@@ -1,0 +1,24 @@
+region,gadm_units,level,note
+HK,CHN.HKG,GID_1,GADM keeps Hong Kong as a first-level unit of China
+MO,CHN.MAC,GID_1,GADM keeps Macau as a first-level unit of China
+area/abyei,SDN.17.1_1,GID_2,"GADM's unit named Abyei (in West Kurdufan); outline not compared with the Abyei Area"
+area/crimea,UKR.4_1 UKR.20_1,GID_1,GADM's units Crimea and Sevastopol' (attributed to Ukraine)
+area/golan-heights,ISR.1_1,GID_1,GADM's unit Golan is attributed to Israel; Syria's Quneitra (SYR.12_1) is a separate unit
+area/olivenza,ESP.11.1.8.4_1 ESP.11.1.8.5_1,GID_4,GADM's municipalities Olivenza and Táliga
+area/kuril-islands,,,"GADM has only Kuril'skiy rayon (RUS.61.9_1); the other southern islands are not a named unit: custom geometry"
+rule/au-macquarie-island,AUS.9.22_1,GID_2,GADM's unit Macquarie Island (Tasmania)
+rule/cl-rapa-nui,CHL.16.1_1,GID_2,GADM's unit Isla de Pascua
+rule/gr-mount-athos,GRC.2_1,GID_1,GADM's unit Athos
+rule/in-minicoy-maldivians,IND.18.1.4_1,GID_3,GADM's unit Minicoy Island
+rule/iq-kurdistan,IRQ.6_1 IRQ.7_1 IRQ.12_1,GID_1,"GADM's governorates Arbil, As-Sulaymaniyah, Dihok; the region's extent is not checked against them"
+rule/tz-zanzibar,TZA.18_1 TZA.19_1 TZA.28_1 TZA.29_1 TZA.30_1,GID_1,"GADM's five regions of Unguja and Pemba"
+rule/ye-socotra,,,GADM has no unit named for Socotra: custom geometry
+area/somaliland,,,"no GADM unit; the region is Natural Earth's feature, which does not follow GADM's regions"
+area/south-ossetia,,,no GADM unit: custom geometry
+area/western-sahara-moroccan-controlled,,,"GADM's units of Western Sahara are not cut at the berm: custom geometry"
+area/east-jerusalem,,,"GADM's Jerusalem units (ISR.6_1, PSE.2.5_1) are not East Jerusalem: custom geometry"
+area/baikonur,,,no GADM unit named for Baikonur: custom geometry
+area/guantanamo-bay,,,the base is not a GADM unit (it lies in Guantánamo province): custom geometry
+area/azad-kashmir,Z06.1_1,GID_1,GADM's pseudo-country Z06 also holds Gilgit-Baltistan (Z06.6_1); Azad Kashmir is Z06.1_1
+area/kinmen-matsu,TWN.1_1,GID_1,"GADM's unit Fujian (of Taiwan), which holds Kinmen and the Matsu islands"
+rule/co-san-andres,COL.27_1,GID_1,GADM's department San Andrés y Providencia (an exact-name match had picked three municipalities named San Andrés elsewhere)

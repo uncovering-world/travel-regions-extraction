@@ -1,0 +1,80 @@
+{
+  "gadm": {
+    "file": "gadm_410.gpkg",
+    "bytes": 2759749632,
+    "sha256": "5a85ef31541c85e12eed7eabfebe59c88c05881367101696d86abef56bfb4ec2",
+    "countries": 263
+  },
+  "regions": 317,
+  "matched_by": {
+    "ISO alpha-3": 247,
+    "exact name": 26,
+    "reviewed": 23,
+    "unbound": 12,
+    "GADM pseudo-country": 9
+  },
+  "by_basis": {
+    "ISO 3166-1 entry": {
+      "ISO alpha-3": 247,
+      "reviewed": 2
+    },
+    "entry rule": {
+      "exact name": 21,
+      "reviewed": 8,
+      "GADM pseudo-country": 1
+    },
+    "entry rule of the holder": {
+      "reviewed": 1,
+      "exact name": 1
+    },
+    "leased area held by the lessee": {
+      "reviewed": 2
+    },
+    "registry": {
+      "reviewed": 6,
+      "GADM pseudo-country": 3,
+      "exact name": 1,
+      "unbound": 1
+    },
+    "residents": {
+      "unbound": 9,
+      "GADM pseudo-country": 5,
+      "reviewed": 4,
+      "exact name": 3
+    },
+    "unclaimed land": {
+      "unbound": 2
+    }
+  },
+  "unbound": [
+    "area/armistice-no-mans-lands: no GADM unit named ['1949 no man s lands']",
+    "area/baikonur: no GADM unit named for Baikonur: custom geometry",
+    "area/bir-tawil: no GADM unit named ['bir tawil']",
+    "area/cyprus-buffer-zone: no GADM unit named ['un buffer zone in cyprus']",
+    "area/east-jerusalem: GADM's Jerusalem units (ISR.6_1, PSE.2.5_1) are not East Jerusalem: custom geometry",
+    "area/gornja-siga: no GADM unit named ['gornja siga and other west bank pockets']",
+    "area/guantanamo-bay: the base is not a GADM unit (it lies in Guantánamo province): custom geometry",
+    "area/ilemi-triangle: no GADM unit named ['ilemi triangle']",
+    "area/koalou: no GADM unit named ['koalou']",
+    "area/korean-dmz: no GADM unit named ['korean demilitarized zone']",
+    "area/kuril-islands: GADM has only Kuril'skiy rayon (RUS.61.9_1); the other southern islands are not a named unit: custom geometry",
+    "area/rukwanzi-semliki: no GADM unit named ['rukwanzi']",
+    "area/shebaa-farms: no GADM unit named ['shebaa farms and kfarchouba hills']",
+    "area/somaliland: no GADM unit; the region is Natural Earth's feature, which does not follow GADM's regions",
+    "area/south-ossetia: no GADM unit: custom geometry",
+    "area/transnistria-security-zone: no GADM unit named ['dniester security zone']",
+    "area/undof-zone: no GADM unit named ['undof area separation']",
+    "area/varosha: no GADM unit named ['varosha']",
+    "area/western-sahara-moroccan-controlled: GADM's units of Western Sahara are not cut at the berm: custom geometry",
+    "rule/ye-socotra: GADM has no unit named for Socotra: custom geometry"
+  ],
+  "several_units": [],
+  "gadm_countries_not_used": [
+    "XCA Caspian Sea",
+    "Z02 Shaksgam Valley",
+    "Z04 Kaurik",
+    "Z05 Lapthal",
+    "Z08 Pa-li-chia-ssu",
+    "Z09 Sang"
+  ]
+}
