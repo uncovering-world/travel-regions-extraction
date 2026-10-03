@@ -36,6 +36,7 @@ def main() -> None:
     census = {r["id"]: r for r in read(DRAFT / "inputs" / "crw_scopes.csv")}
     areas = read(REPO / "data" / "disputed-areas" / "registry.csv")
     links = {r["area_id"]: r for r in read(ROOT / "inputs" / "links.csv")}
+    not_witness = {r["id"] for r in read(ROOT / "inputs" / "not_a_witness.csv")}
     held: dict[str, dict] = {}
     for r in read(REPO / "data" / "disputed-areas" / "facts.csv"):
         if r["field"] in ("holder", "holder_since", "stated_outline"):
@@ -59,6 +60,8 @@ def main() -> None:
     def entry_rule(row: dict) -> tuple[bool, list[str]]:
         """Whether a census row can separate under the decided rules, and what is still missing to say so."""
         missing = []
+        if row["id"] in not_witness:
+            return False, []
         known = rule_facts.get(row["id"])
         if known is not None:                                  # checked against the text of the rule
             if row["regime_kind"] in NOT_A_WITNESS or GROUP_ONLY.search(row["affected_classes"]):

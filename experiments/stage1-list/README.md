@@ -76,11 +76,12 @@ Two collections were added the same day, each fact with a quoted passage: who ho
 - Five contested areas are recorded with a moving line (the four occupied Ukrainian oblasts and Israeli-held southern Syria): no region, a flag on the regions they touch.
 - Still open: ties from paper claims to the registry (38); the UCDP conflict for each contested area, without which quiet years cannot be counted (27); start dates of entry rules (11); entry rules of leased areas (10); residents (9); registry cells with no register area (7).
 
-Points the rules do not settle and that go back to the owner:
+Points raised by the texts and settled by the owner the same day:
 
-- Rules for residents of a neighbouring area only (the Chukotka–Alaska arrangement, the Ceuta and Melilla exemption for two Moroccan provinces) pass the test as written, although they are not rules for a visitor in general.
-- The Chukotka permit is reported to cover designated districts, not the whole okrug, while the unit is top-level.
-- Socotra's rule is reported to work through organised tours only; Zanzibar's own immigration check was not found in a source, only its insurance.
+- A rule only for residents of a neighbouring area is not a witness (`inputs/not_a_witness.csv`: the Chukotka–Alaska arrangement, the Ceuta and Melilla exemption). After this the run gives 312 regions, 31 of them from an entry rule.
+- A rule under which a place can be reached only through a tour operator is a witness: it closes the place to an independent visitor (Socotra, Baikonur). The Socotra passage is an operator's page and needs a better source.
+- Not an open point: the federal list names the whole Chukotka okrug, so its permit covers a whole top-level unit.
+- Still unsourced: Zanzibar's own immigration check (only its insurance was found).
 
 ## Status
 

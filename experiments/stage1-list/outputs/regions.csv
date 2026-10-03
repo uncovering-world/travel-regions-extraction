@@ -286,8 +286,6 @@ rule/cn-hainan,Hainan Province,entry rule: visa_exemption,CN,cited_secondary,whe
 rule/cn-tibet,Tibet Autonomous Region,entry rule: permit_whole_territory,CN,cited_secondary,start date of the rule
 rule/co-san-andres,"Archipelago of San Andrés, Providencia and Santa Catalina",entry rule: stay_limit,CO,cited_secondary,
 rule/ec-galapagos,Galápagos Province,entry rule: stay_limit,EC,cited_secondary,start date of the rule
-rule/es-ceuta,Ceuta,entry rule: visa_exemption,ES,cited_secondary,
-rule/es-melilla,Melilla,entry rule: visa_exemption,ES,cited_secondary,
 rule/fr-clipperton,Clipperton Island,entry rule: permit_whole_territory,FR,cited_secondary,
 rule/gr-mount-athos,Mount Athos,entry rule: permit_whole_territory,GR,cited_secondary,start date of the rule
 rule/in-lakshadweep,Lakshadweep,entry rule: permit_whole_territory,IN,conflicted,
@@ -303,7 +301,6 @@ rule/my-labuan,Labuan,entry rule: separate_immigration_control,MY,unconfirmed,no
 rule/my-sabah,Sabah,entry rule: separate_immigration_control,MY,cited_secondary,
 rule/my-sarawak,Sarawak,entry rule: separate_immigration_control,MY,cited_secondary,
 rule/ru-chukotka,Chukotka Autonomous Okrug,entry rule: permit_whole_territory,RU,confirmed_primary,
-rule/ru-chukotka-alaska-natives,Chukotka (Alaska Native visa-free travel),entry rule: visa_exemption,RU,cited_secondary,
 rule/sh-ascension,Ascension Island,entry rule: own_visa_system,SH,confirmed_primary,
 rule/sh-saint-helena,Saint Helena,entry rule: own_visa_system,SH,cited_secondary,start date of the rule
 rule/sh-tristan-da-cunha,Tristan da Cunha,entry rule: permit_whole_territory,SH,confirmed_primary,start date of the rule

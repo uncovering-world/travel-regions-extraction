@@ -1,0 +1,4 @@
+id,reason,basis
+ru-chukotka-alaska-natives,rule for residents of a neighbouring area only,"applies_to in entry_rule_facts.csv: U.S. citizens permanently resident in two Alaskan regions"
+es-ceuta,rule for residents of a neighbouring area only,"applies_to in entry_rule_facts.csv: local border traffic with the adjoining Moroccan provinces"
+es-melilla,rule for residents of a neighbouring area only,"applies_to in entry_rule_facts.csv: Moroccan nationals resident in Tetuán and Nador provinces"
