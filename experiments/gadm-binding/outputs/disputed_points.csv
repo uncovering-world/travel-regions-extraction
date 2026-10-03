@@ -1,0 +1,100 @@
+ne_id,ne_name,ne_note,label_x,label_y,register_area,canon,gadm_gid_0,gadm_unit
+1159320385,Artsakh,Self admin.; Claimed by Azer.,46.690788,39.889851,nagorno-karabakh,marker,AZE,AZE.10_1 / Yukhari-Karabakh / AZE.10.9_1 / Xocalı (Nagorno-Karabakh)
+1159320425,Bajo Nuevo Bank (Petrel Is.),"Claimed by Colombia, Jamaica, Nicaragua and the United States",-79.845836,15.791588,bajo-nuevo,special place,,no GADM polygon
+1159320433,Belize,,-88.598948,16.5722,,,BLZ,BLZ.6_1 / Toledo
+1159320435,Sapodilla Cayes,Admin. by Belize; Claimed by Honduras and Guatemala,-88.256588,16.106038,,,,no GADM polygon
+1159320443,Corner of Artigas,Admin. by Brazil; Claimed by Uruguay,-55.947906,-31.013936,rincon-de-artigas,special place,BRA,BRA.21_1 / Rio Grande do Sul / BRA.21.363_2 / Sant'Ana do Livramento
+1159320455,Bhutan (northwest valleys),Admin. by Bhutan; Claimed by China,90.191212,28.251658,bhutan-china-north,special place,CHN,CHN.29_1 / Xizang / CHN.29.6_1 / Shannan
+1159320457,Bhutan (Chumbi salient),Admin. by Bhutan; Claimed by China,89.075654,27.564391,,,BTN,BTN.5_1 / Haa / BTN.5.1_1 / Bji
+1159320477,Paracel Is.,Admin. by China; Claimed by Vietnam and Taiwan,111.201368,15.783461,paracel-islands,region,XPI,
+1159320485,Shaksam Valley,Admin. by China; Ceded to China by Pakistan; Claimed by India,76.294273,36.068574,shaksgam,special place,Z02,Z02.28_1 / Xinjiang Uygur / Z02.28.9_1 / Kashgar
+1159320487,Aksai Chin,Admin. by China; Claimed by India,79.172747,35.061522,,,Z03,Z03.28_1 / Xinjiang Uygur / Z03.28.10_1 / Khotan
+1159320511,Cyprus U.N. Buffer Zone,,33.288134,35.140713,cyprus-buffer-zone,region,CYP,CYP.4_1 / Nicosia
+1159320529,Guantanamo Bay USNB,Leased to U.S.A. by Cuba; Claimed by Cuba,-75.117277,19.918398,guantanamo-bay,region,CUB,CUB.6_1 / Guantánamo / CUB.6.2_1 / Caimanera
+1159320531,N. Cyprus,Self admin.; Claimed by Cyprus,33.692434,35.216071,northern-cyprus,region,ZNC,ZNC.1_1 / Gazimağusa
+1159320559,Hans Island,Admin. by Denmark; Claimed by Canada,-66.339189,80.826269,hans-island,marker,,no GADM polygon
+1159320577,Tiran and Sanafir Is.,Admin. by Egypt; Claimed by Saudi Arabia,34.551927,27.944352,tiran-sanafir,marker,SAU,SAU.13_1 / Tabuk / SAU.13.1_1 / Al Bad
+1159320583,Doumera Island,Admin. By Eritrea; Claimed by Djibouti,43.146234,12.715369,doumeira,special place,,no GADM polygon
+1159320597,Ceuta,,-5.348259,35.887415,,,ESP,ESP.7_1 / Ceuta y Melilla / ESP.7.1_1 / Ceuta
+1159320599,Melilla,,-2.946759,35.294723,,,ESP,ESP.7_1 / Ceuta y Melilla / ESP.7.2_1 / Melilla
+1159320601,Isla del Perejil,Admin. by Spain; Claimed by Morocco,-5.418658,35.913174,,,ESP,ESP.7_1 / Ceuta y Melilla / ESP.7.1_1 / Ceuta
+1159320603,Peñón de Vélez de la Gomera,Admin. by Spain; Claimed by Morocco,-4.299293,35.172155,,,ESP,ESP.7_1 / Ceuta y Melilla / ESP.7.1_1 / Ceuta
+1159320605,Penon de Alhucemas,Admin. by Spain; Claimed by Morocco,-3.902511,35.2153,,,,no GADM polygon
+1159320607,Islas Chafarinas,Admin. by Spain; Claimed by Morocco,-2.431428,35.182449,,,ESP,ESP.7_1 / Ceuta y Melilla / ESP.7.2_1 / Melilla
+1159320611,Olivenza,Admin. by Spain; Claimed by Portugal,-7.130647,38.678907,olivenza,region,ESP,ESP.11_1 / Extremadura / ESP.11.1_1 / Badajoz
+1159320659,Mayotte,Admin. by France; Claimed by Comoros,45.151319,-12.774755,,,MYT,MYT.17_1 / Tsingoni
+1159320665,Bassas da India,Admin. by France; Claimed by Madagascar,39.695105,-21.497628,,,,no GADM polygon
+1159320667,Europa Island,Admin. by France; Claimed by Madagascar,40.344447,-22.335347,,,,no GADM polygon
+1159320675,Glorioso Is.,Admin. by France; Claimed by Madagascar,47.297831,-11.562049,,,,no GADM polygon
+1159320677,Juan De Nova I.,Admin. by France; Claimed by Madagascar,42.743829,-17.065343,,,,no GADM polygon
+1159320679,Tromelin I.,Admin. by France; Claimed by Mauritius and the Seychelles,54.518685,-15.889521,,,ATF,ATF.2_1 / Îles Éparses
+1159320683,Lawa Headwaters,Admin. by France; Claimed by Suriname,-54.171127,2.568854,,,GUF,GUF.2_1 / Saint-Laurent-du-Maroni / GUF.2.5_1 / Maripasoula
+1159320687,Matthew and Hunter Is.,Admin. by New Caledonia for France; Claimed by Vanuatu,172.05683,-22.397411,,,,no GADM polygon
+1159320695,Mbane Island,Admin by Gabon; Claimed by Equatorial Guinea,9.379812,0.808621,,,,no GADM polygon
+1159320711,Falkland Is.,Admin. by U.K.; Claimed by Argentina,-58.738602,-51.608913,,,FLK,
+1159320719,Gibraltar,Admin. By U.K.; Claimed by Spain,-5.3467,36.129426,,,GIB,
+1159320723,Br. Indian Ocean Ter.,Admin. by U.K.; Claimed by Mauritius and Seychelles,71.348349,-6.190826,,,,no GADM polygon
+1159320763,Diego Garcia NSF,Leased to U.S.A by U.K.; Claimed by Mauritius and Seychelles,72.398825,-7.297663,,,IOT,
+1159320765,S. Georgia,Admin. by U.K.; Claimed by Argentina,-36.60667,-54.391667,,,SGS,
+1159320767,S. Sandwich Is.,Admin. by U.K.; Claimed by Argentina,-26.338432,-58.426048,,,SGS,
+1159320775,Rockall I.,"Admin by U.K.; Claimed by Ireland, Denmark, and Iceland",-13.689544,57.597032,,,,no GADM polygon
+1159320785,Abkhazia,Self admin.; Claimed by Georgia,41.279112,43.05785,abkhazia,region,GEO,GEO.1_1 / Abkhazia / GEO.1.4_1 / Gulripshi
+1159320787,South Ossetia,Self admin.; Claimed by Georgia,44.130783,42.390774,south-ossetia,region,GEO,GEO.11_1 / Shida Kartli / GEO.11.1_1 / Gori
+1159320819,Courantyne Headwaters,Admin. by Guyana; Claimed by Suriname,-57.437036,2.320037,,,GUY,GUY.4_1 / East Berbice-Corentyne / GUY.4.7_1 / East Bank Berbice
+1159320821,West of Essequibo River,Admin. by Guyana; Claimed by Venezuela,-58.942643,5.124317,,,GUY,GUY.8_1 / Potaro-Siparuni / GUY.8.8_1 / Rest of Region 8
+1159320835,Dragonja River,,13.611023,45.47075,dragonja,special place,,no GADM polygon
+1159320857,Arunachal Pradesh,Admin. by India; Claimed by China,94.366069,28.248603,arunachal-pradesh,region,Z07,Z07.3_1 / Arunachal Pradesh / Z07.3.16_1 / Upper Subansiri
+1159320859,Tirpani Valleys,Admin. by India; Claimed by China,79.108016,31.24983,india-china-middle-sector,special place,Z09,Z09.35_1 / Uttarakhand / Z09.35.13_1 / Uttarkashi
+1159320863,Bara Hotii Valleys,Admin. by India; Claimed by China,80.123118,30.718364,,,Z05,Z05.35_1 / Uttarakhand / Z05.35.9_1 / Pithoragarh
+1159320865,Demchok,Admin. by India; Claimed by China,79.350584,32.834109,demchok,special place,Z08,Z08.29_1 / Xizang / Z08.29.4_1 / Ngari
+1159320867,Samdu Valleys,Admin. by India; Claimed by China,78.563368,32.079598,,,IND,IND.13_1 / Himachal Pradesh / IND.13.7_1 / Lahul & Spiti
+1159320869,Jammu and Kashmir,Admin. by India; Claimed by Pakistan,77.286367,34.056196,indian-jammu-kashmir-ladakh,region,Z01,Z01.14_1 / Jammu and Kashmir / Z01.14.13_1 / Leh (Ladakh)
+1159320873,Near Om Parvat,Admin. by India; Claimed by Nepal,80.945546,30.212872,,,NPL,NPL.3_1 / Far-Western / NPL.3.1_1 / Mahakali
+1159320883,Abu Musa I.,Admin. by Iran; Claimed by UAE,55.033695,25.874059,,,IRN,IRN.11_1 / Hormozgan / IRN.11.1_1 / Abu Musa
+1159320901,Gaza,,34.281082,31.305615,,,PSE,PSE.1_1 / Gaza / PSE.1.5_1 / Rafah
+1159320903,West Bank,,35.283558,32.225357,,,PSE,PSE.2_1 / West Bank / PSE.2.6_1 / Nablus
+1159320905,Golan Heights,Admin. By Israel; Claimed by Syria,35.734303,32.992228,golan-heights,region,ISR,ISR.1_1 / Golan
+1159320907,Shebaa Farms,Admin. By Israel; Claimed by Lebanon,35.680613,33.293322,shebaa-farms,region,LBN,LBN.6_1 / Nabatiyeh / LBN.6.2_1 / Hasbaya
+1159320909,No Man's Land (Fort Latrun),Admin. By Israel; Claimed by Palestine,34.981674,31.853503,east-jerusalem,region,PSE,PSE.2_1 / West Bank / PSE.2.8_1 / Ramallah and Al-Bireh
+1159320911,No Man's Land (Jerusalem),Admin. By Israel; Claimed by Palestine,35.233905,31.753062,,,PSE,PSE.2_1 / West Bank / PSE.2.5_1 / Jerusalem
+1159320913,Israel,,34.844695,30.920628,,,ISR,ISR.2_1 / HaDarom
+1159320959,Pinnacle Is.,Admin. by Japan; Claimed by China and Taiwan,123.527155,25.766863,senkaku,special place,,no GADM polygon
+1159320963,Siachen Glacier,Claimed by Pakistan and India,77.129553,35.340606,siachen,special place,Z06,Z06.6_1 / Gilgit-Baltistan / Z06.6.1_1 / Northern Areas
+1159320965,Baykonur,Leased to Russia by Kazakhstan,63.383897,45.978332,,,KAZ,KAZ.11_1 / Qyzylorda / KAZ.11.2_1 / Karmakchinskiy
+1159320973,Ilemi Triangle,Admin. by Kenya; Claimed by South Sudan,35.180232,4.788407,ilemi-triangle,region,KEN,KEN.43_1 / Turkana / KEN.43.4_1 / Turkana North
+1159320989,Korean islands under UN jurisdiction,"Since 1953 islands south of maritime Northern Limit Line, patrolled by South Korea including Yeonpyeong, Baengnyeong, and Daecheong Is.",125.692213,37.667368,,,KOR,KOR.11_1 / Incheon / KOR.11.8_2 / Ongjin
+1159320991,Korean Demilitarized Zone (south),"Since 1953 a 2 km buffer south of the military demarcation line, patrolled by South Korea",127.517738,38.274654,,,KOR,KOR.6_1 / Gangwon-do / KOR.6.1_2 / Cheorwon
+1159320995,Dokdo,Admin. by South Korea; Claimed by Japan,131.861362,37.242796,dokdo,special place,,no GADM polygon
+1159321007,Kosovo,,20.860719,42.593587,kosovo,region,XKO,XKO.5_1 / Pristina / XKO.5.1_1 / Glogovac
+1159321037,W. Sahara,Admin. by Morocco; Claimed by Western Sahara,-13.677858,25.239498,western-sahara-moroccan-controlled,region,ESH,ESH.1_1 / Boujdour
+1159321047,Transnistria,Self admin.; Claimed by Moldova,29.252183,47.290691,,,MDA,MDA.36_1 / Transnistria
+1159321155,Gilgit-Baltistan,Admin. by Pakistan; Claimed by India,74.854045,35.9976,azad-kashmir,region,Z06,Z06.6_1 / Gilgit-Baltistan / Z06.6.1_1 / Northern Areas
+1159321157,Azad Kashmir,Admin. by Pakistan; Claimed by India,73.792156,33.848664,,,Z06,Z06.1_1 / Azad Kashmir / Z06.1.1_1 / Azad Kashmir
+1159321165,Spratly Is.,"Claimed by China, Taiwan, Malaysia, the Philippines, and Brunei",115.81956,10.72954,spratly-islands,region,,no GADM polygon
+1159321183,Korean Demilitarized Zone (north),"Since 1953 a 2 km buffer north of the military demarcation line, patrolled by North Korea",127.464589,38.324857,,,PRK,PRK.7_1 / Kangwŏn-do / PRK.7.7_1 / Kimhwa
+1159321213,Kuril Is.,Admin. by Russia; Claimed by Japan,44.686469,58.249357,kuril-islands,region,RUS,RUS.33_1 / Kostroma / RUS.33.14_1 / Manturovskiy rayon
+1159321217,Crimea,Admin. by Russia; Claimed by Ukraine,34.204665,45.298991,crimea,region,UKR,UKR.4_1 / Crimea / UKR.4.12_1 / Krasnohvardiis'kyi
+1159321223,W. Sahara,Self admin.; Claimed by Morocco,-12.630304,23.967592,,,ESH,ESH.4_1 / Oued el Dahab
+1159321227,Scarborough Reef,,117.753812,15.152039,scarborough-shoal,special place,,no GADM polygon
+1159321231,Abyei,Admin. by Sudan; Claimed by South Sudan,28.414264,9.744144,abyei,region,SDN,SDN.17_1 / West Kurdufan / SDN.17.1_1 / Abyei
+1159321237,Ilemi Triange,,35.680592,4.607691,,,KEN,KEN.43_1 / Turkana / KEN.43.4_1 / Turkana North
+1159321245,Serranilla Bank,"Claimed by Colombia, Honduras, Nicaragua, and the United States",-78.638239,15.864308,serranilla,special place,,no GADM polygon
+1159321259,Somaliland,Self admin.; Claimed by Somalia,46.731595,9.443889,somaliland,region,SOM,SOM.16_1 / Sool / SOM.16.1_1 / Caynabo
+1159321297,UNDOF Zone,UN Patrolled Zone in Syria,35.864592,33.145384,,,SYR,SYR.12_1 / Quneitra / SYR.12.1_1 / Quneitra
+1159321335,Taiwan,Self admin.; Claimed by China,120.868204,23.652408,,,TWN,TWN.7_1 / Taiwan / TWN.7.9_1 / Nantou
+1159321373,Navassa I.,Admin. by U.S.A.; Claimed by Haiti,-75.012107,18.40587,,,UMI,UMI.7_1 / Navassa
+1159321391,Wake Atoll,Admin. by U.S.A.; Claimed by Marshall Islands,166.644535,19.285663,,,,no GADM polygon
+1159321403,Swains Island,Admin. by American Samoa for U.S.A.; Claimed by Tokelau,-171.079888,-11.058187,,,ASM,ASM.3_1 / Unorganized / ASM.3.2_1 / Swains
+1159321413,Bird Island,Admin. by Venezuela; Claimed by multiple,-63.638077,15.698715,,,,no GADM polygon
+1729632181,Brazilian Island,Claimed by Brazil and Uruguay,-57.623042,-30.187555,,,URY,URY.1_2 / Artigas / URY.1.3_2 / Bella Unión
+1729635091,Bir Tawil,Between Egypt and Sudan,33.673428,21.860442,bir-tawil,region,EGY,EGY.2_1 / Al Bahr al Ahmar / EGY.2.4_1 / Ash-Shalatin
+1729635095,Halayib Triangle,Admin. by Egypt; Claimed by Sudan,35.487078,22.445613,,,SDN,SDN.11_1 / Red Sea / SDN.11.1_1 / Halayeb
+1729635103,﻿Šarengrad Island,,19.247613,45.259442,,,SRB,SRB.5_1 / Južno-Bački / SRB.5.2_1 / Bačka Palanka
+1729635105,﻿Vukovar Island,,19.030797,45.347797,,,HRV,HRV.19_1 / Vukovarsko-Srijemska / HRV.19.29_1 / Vukovar
+1729635141,Southern Patagonian Ice Field,Claimed by Chile and Argentina; under survey,-73.31378,-49.511034,southern-patagonian-ice-field,special place,CHL,CHL.11_1 / Magallanes y Antártica Chilena / CHL.11.4_1 / Última Esperanza
+1746265961,East Jerusalem,Admin. By Israel; Claimed by Palestine,35.2359,31.820328,,,PSE,PSE.2_1 / West Bank / PSE.2.5_1 / Jerusalem
+1746265963,Mount Scopus,Admin. By Israel; Claimed by Palestine,35.245447,31.79555,armistice-no-mans-lands,region,PSE,PSE.2_1 / West Bank / PSE.2.5_1 / Jerusalem
+1746598035,Junagadh and Manavadar,Admin. by India; Claimed by Pakistan,70.494988,21.033081,,,IND,IND.11_1 / Gujarat / IND.11.13_1 / Gir Somnath
+1763286545,Donetsk People's Republic,Self admin.; Claimed by Ukraine,38.141993,47.979975,donetsk-occupied,marker,UKR,UKR.6_1 / Donets'k / UKR.6.1_1 / Amvrosi‹vs'kyi
+1763286547,Luhansk People's Republic,Self admin.; Claimed by Ukraine,39.285978,48.259867,luhansk-occupied,marker,UKR,UKR.15_1 / Luhans'k / UKR.15.13_1 / Lutuhyns'kyi
+1763510959,North Borneo,,117.744073,5.255349,,,MYS,MYS.13_1 / Sabah / MYS.13.4_1 / Kinabatangan

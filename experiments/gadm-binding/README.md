@@ -58,6 +58,31 @@ GADM pseudo-countries no region claims: Kaurik, Lapthal, Sang (India–China mid
 2. *Met.* Name matching alone is not enough: of 30 non-ISO regions an automatic match bound, three were wrong. Bindings are a reviewed input.
 3. *Met, as expected.* GADM's country tree differs from the canon's for the contested areas it carries as units. The canon must carry its own attribution and express ISO regions as GADM countries minus the separated units, plus explicit assignments for GADM's leftover pseudo-countries.
 
+## Revision, 2026-10-04: where GADM puts the disputed places
+
+The owner recalled that GADM mishandles a glacier on the China–India–Pakistan border; the first run could not see it, because it read names only and Siachen is not a region of the canon but a special place whose land goes with its holder (R046, R058). `check_points.py` now tests, for each of the 99 features of Natural Earth's disputed-areas layer, which GADM unit contains the feature's label point (`LABEL_X`, `LABEL_Y`), with a pure-Python point-in-polygon test over the GeoPackage (`gadm_points.py`). Output: `outputs/disputed_points.csv`. One point per place: this shows where GADM puts the place, not whether its line follows the stated one.
+
+```bash
+python3 experiments/gadm-binding/check_points.py
+```
+
+**GADM puts the place with another country than the one that holds it** (by Natural Earth's note and the register):
+
+| Place | Held by | GADM puts it in |
+|---|---|---|
+| Siachen Glacier | India (register) | `Z06.6_1` Gilgit-Baltistan, Pakistan-administered |
+| Demchok | India (Natural Earth: "Admin. by India") | `Z08` (Xizang), a GADM unit of China |
+| Bhutan's north-western valleys | Bhutan (Natural Earth) | `CHN.29_1` Xizang, China |
+| Near Om Parvat (Kalapani) | India (Natural Earth) | `NPL.3_1`, Nepal |
+| Halayib Triangle | Egypt (Natural Earth) | `SDN.11_1` Red Sea, Sudan |
+| Bir Tawil | nobody (unclaimed) | `EGY.2_1` Al Bahr al Ahmar, Egypt |
+
+**GADM has no polygon at the place at all** (21 features): Bajo Nuevo, Sapodilla Cayes, Hans Island, Doumeira Island, Peñón de Alhucemas, Bassas da India, Europa, Glorioso, Juan de Nova, Matthew and Hunter, Mbanié, the British Indian Ocean Territory's label point, Rockall, the Dragonja mouth, the Senkaku/Pinnacle Islands, Dokdo, the Spratly Islands' label point, Wake, Bird Island, Scarborough Reef, Serranilla. A visit recorded on one of them falls into no GADM unit, so no region can count it unless the canon adds a geometry.
+
+**Other observations.** Shaksgam (`Z02`) and the Indian-held middle-sector pockets (`Z05`, `Z09`) are GADM pseudo-countries that must be assigned to their holders' regions. Natural Earth's label point for the Kuril Islands lies in Kostroma Oblast, a data error in that layer (like the Barbados attribution found earlier); its feature must not be located by its label point.
+
+**What this changes.** Binding by names is not enough even where every name matches: GADM's land assignment has to be checked against the canon's holder for every special place and marker, and land GADM does not cover has to be added. Both need geometry, not only attributes.
+
 ## Status
 
-Concluded 2026-10-04.
+Concluded 2026-10-04 (revised the same day).
