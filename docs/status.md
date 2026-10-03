@@ -24,8 +24,8 @@ Decisions are taken one at a time in conversation with the owner; this list is t
 
 **Open, in the order they will be asked:**
 
-1. Stability (#20), one parameter at a time. The waiting time and the acts that end a contest are decided (above). Holding an area in fact is enough for acceptance; there is no separate condition about civil administration (decided). The settling rule is complete except for the release interval. **Next question: changes nobody contests** ([release stability](proposals/release-stability.md)): how a changing regime such as a visa rule enters and leaves a release, the release interval, whether a boundary that lost its basis is removed or kept, and how new editions of ISO 3166-1 and Natural Earth are adopted.
-2. Disputed and special-status areas (#19), remaining kinds: islets disputed for the sea around them; then own regime, lease or base, de facto state, occupied, paper claim. The register's [review list](../data/disputed-areas/REVIEW.md) feeds this: areas to split, merge or drop, and kinds that the sources do not support.
+1. Stability (#20), one parameter at a time. The waiting time and the acts that end a contest are decided (above). Holding an area in fact is enough for acceptance; there is no separate condition about civil administration (decided). The settling rule is complete except for the release interval. **Next for stability: changes nobody contests** ([release stability](proposals/release-stability.md)), to be asked once the [regime-lifetimes experiment](../experiments/regime-lifetimes/README.md) has data (collection started 2026-10-03): how a changing regime such as a visa rule enters and leaves a release, the release interval, whether a boundary that lost its basis is removed or kept, and how new editions of ISO 3166-1 and Natural Earth are adopted.
+2. Disputed and special-status areas (#19), remaining kinds. **Current question: islets disputed for the sea around them** (18 areas) — proposed: special places like line disputes, the land going with whoever holds it. Then own regime, lease or base, paper claim, recently resolved; de facto states and occupied areas are covered by the settling rule. The register's [review list](../data/disputed-areas/REVIEW.md) feeds this: areas to split, merge or drop, and kinds that the sources do not support.
 3. Two consequences of the registry rule to confirm: it sits in Stage 1 (Stage 2 cannot cross it either); new ISO or Natural Earth editions change cells only at a release, by decision.
 4. Consumer contract (#27): confirm the remaining requirements — delivery through TYR's file import, not tied to one substrate, stability between releases.
 5. CR-W amendments (#17), one by one: transit is not a witness; a rule's scope must be a whole named unit; whole-territory permits separate; organised-group classes; one rule spanning several units.
@@ -36,12 +36,13 @@ Decisions are taken one at a time in conversation with the owner; this list is t
 
 ## Experiments
 
-All concluded on 2026-10-03; none active.
+Concluded on 2026-10-03 unless marked.
 
 - [World Stage 1 draft](../experiments/stage1-world-draft/README.md) (#22): 278 registry cells + 26 cited CR-W cells = 304. Count-only, secondary evidence.
 - [Stage 2 scale survey](../experiments/stage2-scale-survey/README.md) (#28): the reference scale needs grouping of first-level units in 142 of 183 countries.
 - [Wikivoyage composition check](../experiments/stage2-wikivoyage-composition/README.md) (#28): regions resolve to official units without drawing in about half of the test countries.
 - [Control duration](../experiments/control-duration/README.md) (#20): a third of occupations since 1946 ended within two years; fighting over territory resumes within ten years in a third of cases after two quiet years, a sixth after five.
+- [Regime lifetimes](../experiments/regime-lifetimes/README.md) (#20): **planned**; pre-registered, data being collected.
 - [Settling-rule back-test](../experiments/settling-rule/README.md) (#20): on 78 seizures by states and 40 breakaway entities, raising the wait from 2 to 3 years is the last step that removes reversals by force; the map at the end of 2024 is the same for 1 to 3 years.
 
 ## Next step
