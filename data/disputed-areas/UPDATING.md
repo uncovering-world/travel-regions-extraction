@@ -66,6 +66,15 @@ Government pages about access are usually not machine-readable and change withou
 
 `build.py` lists manual facts older than a year in `REPORT.md`. Re-read the source; if nothing changed, update only `read_date`.
 
+## Fields for contested control
+
+Four manual fields feed the [settling rule](../../docs/proposals/settling-rule.md); each needs a source and a passage like any manual fact.
+
+- `holder` — the party whose officers can in practice admit a civilian to the area, refuse one and remove one. Rules a party issues for the area but cannot enforce there do not count. Where parts are held by different parties, say so.
+- `holder_since` — the date from which that party has held it without interruption (year, or a full date if the source gives one).
+- `contest_ended_by` — an explicit act by which the other side stopped contesting: an agreement, an accepted ruling, a renunciation of the claim, or the party ceasing to exist, with its date. Leave it out if there is none; a claim that is merely dormant is not an act.
+- `stated_outline` — the line the parties themselves state as the limit of the area (a ceasefire or armistice line, a treaty line, an administrative border named in the claim), or `none: the line is moving` when the held part is bounded by a front.
+
 ## Importing facts collected in bulk
 
 Facts gathered many at a time (by research agents, for example) go into CSV files with the columns `area_id,field,value,source_url,quote,evidence`, one fact per row, and are added with

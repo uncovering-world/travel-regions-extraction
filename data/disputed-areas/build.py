@@ -28,6 +28,8 @@ FIELDS = {
     "inhabited": ["yes", "no", "garrison_only"],
     "traveller_access": ["open", "restricted", "closed", "expedition_only"],
     "area_km2": None,
+    # what the settling rule reads (docs/proposals/settling-rule.md)
+    "holder": None, "holder_since": None, "contest_ended_by": None, "stated_outline": None,
     # machine fields
     "ne_name": None, "ne_type": None, "ne_note": None, "ne_area_km2": None, "ne_attribution": None,
     "wd_label": None, "wd_area_km2": None, "wd_population": None, "wd_coordinates": None,
