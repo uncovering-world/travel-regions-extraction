@@ -1,0 +1,375 @@
+conflict_id,location,territory,type,start,end,active_years,ongoing,resumed_in,quiet_years,resumed
+201,Cambodia (Kampuchea),Cambodia,extrasystemic,1946,1953,8,0,,72,0
+204,Indonesia,Indonesia,extrasystemic,1946,1949,4,0,,76,0
+205,Iran,Kurdistan,intrastate,1946,1946,1,0,1966,19,1
+205,Iran,Kurdistan,intrastate,1966,1968,3,0,1979,10,1
+205,Iran,Kurdistan,intrastate,1979,1988,10,0,1990,1,1
+205,Iran,Kurdistan,intrastate,1990,1990,1,0,1993,2,1
+205,Iran,Kurdistan,intrastate,1993,1993,1,0,1996,2,1
+205,Iran,Kurdistan,intrastate,1996,1996,1,0,2016,19,1
+205,Iran,Kurdistan,intrastate,2016,2016,1,0,2018,1,1
+205,Iran,Kurdistan,intrastate,2018,2018,1,0,,7,0
+206,Iran,Azerbaijan,internationalized_intrastate,1946,1946,1,0,,79,0
+207,Israel,Israel,extrasystemic,1946,1946,1,0,,79,0
+208,Laos,Laos,extrasystemic,1946,1953,8,0,,72,0
+210,Russia (Soviet Union),Estonia,intrastate,1946,1948,3,0,,77,0
+211,Russia (Soviet Union),Latvia,intrastate,1946,1946,1,0,,79,0
+212,Russia (Soviet Union),Lithuania,intrastate,1946,1948,3,0,,77,0
+213,Russia (Soviet Union),Ukraine,intrastate,1946,1950,5,0,,75,0
+214,"France, Thailand",Northern Cambodia,interstate,1946,1946,1,0,,79,0
+215,"Albania, United Kingdom",Korfu Channel,interstate,1946,1946,1,0,,79,0
+216,Vietnam (North Vietnam),Vietnam,extrasystemic,1946,1954,9,0,,71,0
+217,China,Taiwan,intrastate,1947,1947,1,0,,78,0
+218,"India, Pakistan",Kashmir,interstate,1948,1948,1,0,1964,15,1
+218,"India, Pakistan",Kashmir,interstate,1964,1965,2,0,1971,5,1
+218,"India, Pakistan",Kashmir,interstate,1971,1971,1,0,1984,12,1
+218,"India, Pakistan",Kashmir,interstate,1984,1984,1,0,1987,2,1
+218,"India, Pakistan",Kashmir,interstate,1987,1987,1,0,1989,1,1
+218,"India, Pakistan",Kashmir,interstate,1989,1992,4,0,1994,1,1
+218,"India, Pakistan",Kashmir,interstate,1994,1994,1,0,1996,1,1
+218,"India, Pakistan",Kashmir,interstate,1996,2003,8,0,2013,9,1
+218,"India, Pakistan",Kashmir,interstate,2013,2020,8,0,2025,4,1
+218,"India, Pakistan",Kashmir,interstate,2025,2025,1,1,,0,0
+219,Madagascar (Malagasy),Malagasy,extrasystemic,1947,1947,1,0,,78,0
+221,Myanmar (Burma),Karen,intrastate,1949,1992,44,0,1994,1,1
+221,Myanmar (Burma),Karen,intrastate,1994,1995,2,0,1997,1,1
+221,Myanmar (Burma),Karen,intrastate,1997,1998,2,0,2000,1,1
+221,Myanmar (Burma),Karen,intrastate,2000,2011,12,0,2013,1,1
+221,Myanmar (Burma),Karen,intrastate,2013,2013,1,0,2021,7,1
+221,Myanmar (Burma),Karen,intrastate,2021,2025,5,1,,0,0
+223,Myanmar (Burma),Arakan,intrastate,1948,1961,14,0,1964,2,1
+223,Myanmar (Burma),Arakan,intrastate,1964,1978,15,0,1991,12,1
+223,Myanmar (Burma),Arakan,intrastate,1991,1991,1,0,1994,2,1
+223,Myanmar (Burma),Arakan,intrastate,1994,1994,1,0,2016,21,1
+223,Myanmar (Burma),Arakan,intrastate,2016,2020,5,0,2022,1,1
+223,Myanmar (Burma),Arakan,intrastate,2022,2025,4,1,,0,0
+224,Myanmar (Burma),Mon,intrastate,1949,1963,15,0,1990,26,1
+224,Myanmar (Burma),Mon,intrastate,1990,1990,1,0,1996,5,1
+224,Myanmar (Burma),Mon,intrastate,1996,1996,1,0,,29,0
+226,"Hyderabad, India",Hyderabad,interstate,1948,1948,1,0,,77,0
+228,"Egypt, Iraq, Israel, Jordan, Lebanon, Syria",Palestine,interstate,1948,1949,2,0,,76,0
+229,Malaysia,Malaya,extrasystemic,1948,1957,10,0,,68,0
+231,Myanmar (Burma),Kachin,intrastate,1949,1950,2,0,1961,10,1
+231,Myanmar (Burma),Kachin,intrastate,1961,1992,32,0,2011,18,1
+231,Myanmar (Burma),Kachin,intrastate,2011,2019,9,0,2021,1,1
+231,Myanmar (Burma),Kachin,intrastate,2021,2025,5,1,,0,0
+232,"China, Taiwan",Taiwan strait,interstate,1949,1950,2,0,1954,3,1
+232,"China, Taiwan",Taiwan strait,interstate,1954,1954,1,0,1958,3,1
+232,"China, Taiwan",Taiwan strait,interstate,1958,1958,1,0,,67,0
+234,Israel,Palestine,intrastate,1949,1996,48,0,2000,3,1
+234,Israel,Palestine,intrastate,2000,2012,13,0,2014,1,1
+234,Israel,Palestine,intrastate,2014,2014,1,0,2018,3,1
+234,Israel,Palestine,intrastate,2018,2019,2,0,2021,1,1
+234,Israel,Palestine,intrastate,2021,2025,5,1,,0,0
+235,"North Korea, South Korea",Korea,interstate,1949,1953,5,0,,72,0
+236,China,Tibet,intrastate,1950,1950,1,0,1956,5,1
+236,China,Tibet,intrastate,1956,1956,1,0,1959,2,1
+236,China,Tibet,intrastate,1959,1959,1,0,,66,0
+237,Indonesia,South Moluccas,intrastate,1950,1950,1,0,,75,0
+238,United States of America,Puerto Rico,extrasystemic,1950,1950,1,0,,75,0
+239,"Egypt, United Kingdom",Suez,interstate,1951,1952,2,0,,73,0
+241,Kenya,Kenya,extrasystemic,1952,1956,5,0,,69,0
+244,Morocco,Morocco,extrasystemic,1953,1956,4,0,,69,0
+245,Tunisia,Tunisia,extrasystemic,1953,1956,4,0,,69,0
+246,Algeria,Algeria,extrasystemic,1954,1962,9,0,,63,0
+248,Cyprus,Cyprus,extrasystemic,1955,1959,5,0,,66,0
+249,South Vietnam,South Vietnam,internationalized_intrastate,1955,1964,10,0,,61,0
+251,India,Nagaland,intrastate,1956,1959,4,0,1961,1,1
+251,India,Nagaland,intrastate,1961,1968,8,0,1992,23,1
+251,India,Nagaland,intrastate,1992,1997,6,0,2000,2,1
+251,India,Nagaland,intrastate,2000,2000,1,0,,25,0
+252,"Egypt, France, Israel, United Kingdom",Suez,interstate,1956,1956,1,0,,69,0
+253,Myanmar (Burma),Karenni,intrastate,1957,1957,1,0,1987,29,1
+253,Myanmar (Burma),Karenni,intrastate,1987,1987,1,0,1992,4,1
+253,Myanmar (Burma),Karenni,intrastate,1992,1992,1,0,1996,3,1
+253,Myanmar (Burma),Karenni,intrastate,1996,1996,1,0,2005,8,1
+253,Myanmar (Burma),Karenni,intrastate,2005,2005,1,0,2021,15,1
+253,Myanmar (Burma),Karenni,intrastate,2021,2025,5,1,,0,0
+254,Cameroon,Cameroon,extrasystemic,1957,1959,3,0,,66,0
+255,"Honduras, Nicaragua",Common Border,interstate,1957,1957,1,0,,68,0
+256,"Mauritania, Morocco",Morocco/Mauritania,extrasystemic,1957,1958,2,0,,67,0
+257,"Mauritania, Morocco",Morocco/Spanish territories,extrasystemic,1957,1958,2,0,,67,0
+258,Oman,Oman,internationalized_intrastate,1957,1957,1,0,,68,0
+263,Angola,Angola,extrasystemic,1961,1974,14,0,,51,0
+264,Myanmar (Burma),Shan,intrastate,1959,1970,12,0,1972,1,1
+264,Myanmar (Burma),Shan,intrastate,1972,1973,2,0,1976,2,1
+264,Myanmar (Burma),Shan,intrastate,1976,1988,13,0,1993,4,1
+264,Myanmar (Burma),Shan,intrastate,1993,2002,10,0,2005,2,1
+264,Myanmar (Burma),Shan,intrastate,2005,2011,7,0,2013,1,1
+264,Myanmar (Burma),Shan,intrastate,2013,2013,1,0,2015,1,1
+264,Myanmar (Burma),Shan,intrastate,2015,2015,1,0,,10,0
+265,DR Congo (Zaire),Katanga,internationalized_intrastate,1961,1962,2,0,2013,50,1
+265,DR Congo (Zaire),Katanga,internationalized_intrastate,2013,2014,2,0,2020,5,1
+265,DR Congo (Zaire),Katanga,internationalized_intrastate,2020,2020,1,0,,5,0
+266,DR Congo (Zaire),South Kasai,intrastate,1960,1962,3,0,,63,0
+268,"Ethiopia, Somalia",Ogaden,interstate,1964,1964,1,0,1977,12,1
+268,"Ethiopia, Somalia",Ogaden,interstate,1977,1978,2,0,1980,1,1
+268,"Ethiopia, Somalia",Ogaden,interstate,1980,1980,1,0,,45,0
+271,Iraq,Kurdistan,intrastate,1961,1970,10,0,1973,2,1
+271,Iraq,Kurdistan,intrastate,1973,1992,20,0,1995,2,1
+271,Iraq,Kurdistan,intrastate,1995,1996,2,0,,29,0
+272,"France, Tunisia",Bizerte,interstate,1961,1961,1,0,,64,0
+273,Brunei,North Borneo,extrasystemic,1962,1962,1,0,,63,0
+274,"China, India","Aksai Chin, Arunachal Pradesh",interstate,1962,1962,1,0,1967,4,1
+274,"China, India","Aksai Chin, Arunachal Pradesh",interstate,1967,1967,1,0,2020,52,1
+274,"China, India","Aksai Chin, Arunachal Pradesh",interstate,2020,2020,1,0,,5,0
+275,Ethiopia,Eritrea,intrastate,1964,1991,28,0,,34,0
+276,"Indonesia, Netherlands",West New Guinea,interstate,1962,1962,1,0,,63,0
+278,"Algeria, Morocco",Common Border,interstate,1963,1963,1,0,,62,0
+279,Guinea-Bissau,Guinea-Bissau,extrasystemic,1963,1973,11,0,,52,0
+280,Malaysia,North Borneo,internationalized_intrastate,1963,1966,4,0,,59,0
+281,"Indonesia, Malaysia",North Borneo,interstate,1963,1966,4,0,,59,0
+282,Sudan,Southern Sudan,intrastate,1963,1972,10,0,,53,0
+285,Mozambique,Mozambique,extrasystemic,1964,1974,11,0,,51,0
+286,South Yemen,Aden/South Yemen,extrasystemic,1964,1967,4,0,,58,0
+291,Indonesia,West Papua,intrastate,1965,1965,1,0,1967,1,1
+291,Indonesia,West Papua,intrastate,1967,1969,3,0,1976,6,1
+291,Indonesia,West Papua,intrastate,1976,1978,3,0,1981,2,1
+291,Indonesia,West Papua,intrastate,1981,1981,1,0,1984,2,1
+291,Indonesia,West Papua,intrastate,1984,1984,1,0,2018,33,1
+291,Indonesia,West Papua,intrastate,2018,2025,8,1,,0,0
+293,"South Vietnam, Vietnam (North Vietnam)",South Vietnam,interstate,1965,1975,11,0,,50,0
+294,"Cambodia (Kampuchea), Thailand",Common Border,interstate,1977,1978,2,0,2011,32,1
+294,"Cambodia (Kampuchea), Thailand",Common Border,interstate,2011,2011,1,0,2025,13,1
+294,"Cambodia (Kampuchea), Thailand",Common Border,interstate,2025,2025,1,1,,0,0
+296,India,Mizoram,intrastate,1966,1968,3,0,,57,0
+298,South Africa,Namibia,intrastate,1966,1989,24,0,,36,0
+301,"Israel, Jordan",West Bank,interstate,1967,1967,1,0,,58,0
+302,"Israel, Syria",Golan Heights,interstate,1967,1967,1,0,1973,5,1
+302,"Israel, Syria",Golan Heights,interstate,1973,1973,1,0,2025,51,1
+302,"Israel, Syria",Golan Heights,interstate,2025,2025,1,1,,0,0
+303,Nigeria,Biafra,intrastate,1967,1970,4,0,2021,50,1
+303,Nigeria,Biafra,intrastate,2021,2025,5,1,,0,0
+304,"China, Myanmar (Burma)",Common Border,interstate,1969,1969,1,0,,56,0
+305,"China, Russia (Soviet Union)",Ussuri river,interstate,1969,1969,1,0,,56,0
+306,"El Salvador, Honduras",Common Border,interstate,1969,1969,1,0,,56,0
+308,Philippines,Mindanao,intrastate,1970,1990,21,0,1993,2,1
+308,Philippines,Mindanao,intrastate,1993,2020,28,0,,5,0
+312,Pakistan,East Pakistan,intrastate,1971,1971,1,0,,54,0
+315,United Kingdom,Northern Ireland,intrastate,1971,1991,21,0,1998,6,1
+315,United Kingdom,Northern Ireland,intrastate,1998,1998,1,0,,27,0
+320,"South Yemen, Yemen (North Yemen)",Common border,interstate,1972,1972,1,0,1979,6,1
+320,"South Yemen, Yemen (North Yemen)",Common border,interstate,1979,1979,1,0,,46,0
+322,Bangladesh,Chittagong Hill Tracts,intrastate,1975,1991,17,0,,34,0
+323,"Cyprus, Turkey",Northern Cyprus,interstate,1974,1974,1,0,,51,0
+324,"Iran, Iraq",Various,interstate,1974,1974,1,0,1980,5,1
+324,"Iran, Iraq",Various,interstate,1980,1988,9,0,,37,0
+325,Pakistan,Balochistan,intrastate,1974,1977,4,0,2004,26,1
+325,Pakistan,Balochistan,intrastate,2004,2004,1,0,2006,1,1
+325,Pakistan,Balochistan,intrastate,2006,2009,4,0,2011,1,1
+325,Pakistan,Balochistan,intrastate,2011,2016,6,0,2019,2,1
+325,Pakistan,Balochistan,intrastate,2019,2025,7,1,,0,0
+328,"Cambodia (Kampuchea), Vietnam (North Vietnam)",Common Border,interstate,1975,1977,3,0,,48,0
+329,Ethiopia,Ogaden,intrastate,1964,1964,1,0,1976,11,1
+329,Ethiopia,Ogaden,intrastate,1976,1983,8,0,1993,9,1
+329,Ethiopia,Ogaden,intrastate,1993,1994,2,0,1996,1,1
+329,Ethiopia,Ogaden,intrastate,1996,1996,1,0,1998,1,1
+329,Ethiopia,Ogaden,intrastate,1998,2016,19,0,,9,0
+330,Indonesia,East Timor,intrastate,1975,1988,14,0,1992,3,1
+330,Indonesia,East Timor,intrastate,1992,1992,1,0,1997,4,1
+330,Indonesia,East Timor,intrastate,1997,1999,3,0,,26,0
+331,Morocco,Sahrawi Arab Democratic Republic (Western Sahara),intrastate,1975,1989,15,0,,36,0
+334,"China, Vietnam (North Vietnam)",Various,interstate,1974,1974,1,0,1978,3,1
+334,"China, Vietnam (North Vietnam)",Various,interstate,1978,1981,4,0,1983,1,1
+334,"China, Vietnam (North Vietnam)",Various,interstate,1983,1984,2,0,1986,1,1
+334,"China, Vietnam (North Vietnam)",Various,interstate,1986,1988,3,0,,37,0
+335,India,Tripura,intrastate,1979,1988,10,0,1992,3,1
+335,India,Tripura,intrastate,1992,1992,1,0,1997,4,1
+335,India,Tripura,intrastate,1997,1997,1,0,1999,1,1
+335,India,Tripura,intrastate,1999,2004,6,0,,21,0
+339,Iran,Arabistan,intrastate,1979,1980,2,0,,45,0
+342,Spain,Basque,intrastate,1978,1982,5,0,1985,2,1
+342,Spain,Basque,intrastate,1985,1987,3,0,1991,3,1
+342,Spain,Basque,intrastate,1991,1991,1,0,,34,0
+346,"Argentina, United Kingdom",Malvinas/Falkland Islands,interstate,1982,1982,1,0,,43,0
+347,India,Manipur,intrastate,1982,1988,7,0,1993,4,1
+347,India,Manipur,intrastate,1993,1996,4,0,1998,1,1
+347,India,Manipur,intrastate,1998,2000,3,0,2003,2,1
+347,India,Manipur,intrastate,2003,2009,7,0,,16,0
+349,"Chad, Nigeria",Lake Chad,interstate,1983,1983,1,0,,42,0
+351,India,Punjab/Khalistan,intrastate,1983,1993,11,0,,32,0
+352,Sri Lanka,Eelam,intrastate,1984,2001,18,0,2003,1,1
+352,Sri Lanka,Eelam,intrastate,2003,2003,1,0,2005,1,1
+352,Sri Lanka,Eelam,intrastate,2005,2009,5,0,,16,0
+354,Turkey,Kurdistan,intrastate,1984,2013,30,0,2015,1,1
+354,Turkey,Kurdistan,intrastate,2015,2025,11,1,,0,0
+355,"Burkina Faso, Mali",Agacher Strip,interstate,1985,1985,1,0,,40,0
+356,"Laos, Thailand",Common Border,interstate,1986,1988,3,0,,37,0
+361,"Chad, Libya",Aozou strip,interstate,1987,1987,1,0,,38,0
+363,Ethiopia,Afar,intrastate,1975,1976,2,0,1996,19,1
+363,Ethiopia,Afar,intrastate,1996,1996,1,0,,29,0
+364,India,Kashmir,intrastate,1990,2025,36,1,,0,0
+365,India,Assam,intrastate,1990,1990,1,0,1994,3,1
+365,India,Assam,intrastate,1994,2010,17,0,,15,0
+366,Indonesia,Aceh,intrastate,1990,1991,2,0,1999,7,1
+366,Indonesia,Aceh,intrastate,1999,2005,7,0,,20,0
+369,Papua New Guinea,Bougainville,intrastate,1990,1990,1,0,1992,1,1
+369,Papua New Guinea,Bougainville,intrastate,1992,1996,5,0,,29,0
+371,"Iraq, Kuwait",Kuwait,interstate,1990,1991,2,0,,34,0
+372,Mali,Azawad,internationalized_intrastate,1990,1991,2,0,1994,2,1
+372,Mali,Azawad,internationalized_intrastate,1994,1994,1,0,2007,12,1
+372,Mali,Azawad,internationalized_intrastate,2007,2009,3,0,2012,2,1
+372,Mali,Azawad,internationalized_intrastate,2012,2012,1,0,2014,1,1
+372,Mali,Azawad,internationalized_intrastate,2014,2015,2,0,,10,0
+373,Niger,Air and Azawad,intrastate,1994,1994,1,0,,31,0
+375,Senegal,Casamance,intrastate,1990,1990,1,0,1992,1,1
+375,Senegal,Casamance,intrastate,1992,1993,2,0,1995,1,1
+375,Senegal,Casamance,intrastate,1995,1995,1,0,1997,1,1
+375,Senegal,Casamance,intrastate,1997,1998,2,0,2000,1,1
+375,Senegal,Casamance,intrastate,2000,2000,1,0,2003,2,1
+375,Senegal,Casamance,intrastate,2003,2003,1,0,2011,7,1
+375,Senegal,Casamance,intrastate,2011,2011,1,0,,14,0
+376,Russia (Soviet Union),Nagorno-Karabakh,intrastate,1990,1991,2,0,,34,0
+377,Russia (Soviet Union),Azerbaijan,intrastate,1990,1990,1,0,,35,0
+384,Serbia (Yugoslavia),Slovenia,intrastate,1991,1991,1,0,,34,0
+385,Serbia (Yugoslavia),Croatia,intrastate,1991,1992,2,0,,33,0
+387,Angola,Cabinda,intrastate,1991,1992,2,0,1994,1,1
+387,Angola,Cabinda,intrastate,1994,1998,5,0,2002,3,1
+387,Angola,Cabinda,intrastate,2002,2004,3,0,2007,2,1
+387,Angola,Cabinda,intrastate,2007,2007,1,0,2009,1,1
+387,Angola,Cabinda,intrastate,2009,2009,1,0,2016,6,1
+387,Angola,Cabinda,intrastate,2016,2017,2,0,2019,1,1
+387,Angola,Cabinda,intrastate,2019,2020,2,0,2022,1,1
+387,Angola,Cabinda,intrastate,2022,2022,1,0,2024,1,1
+387,Angola,Cabinda,intrastate,2024,2025,2,1,,0,0
+388,Azerbaijan,Artsakh (Nagorno-Karabakh),internationalized_intrastate,1991,1994,4,0,1997,2,1
+388,Azerbaijan,Artsakh (Nagorno-Karabakh),internationalized_intrastate,1997,1998,2,0,2005,6,1
+388,Azerbaijan,Artsakh (Nagorno-Karabakh),internationalized_intrastate,2005,2005,1,0,2008,2,1
+388,Azerbaijan,Artsakh (Nagorno-Karabakh),internationalized_intrastate,2008,2008,1,0,2012,3,1
+388,Azerbaijan,Artsakh (Nagorno-Karabakh),internationalized_intrastate,2012,2012,1,0,2014,1,1
+388,Azerbaijan,Artsakh (Nagorno-Karabakh),internationalized_intrastate,2014,2017,4,0,2020,2,1
+388,Azerbaijan,Artsakh (Nagorno-Karabakh),internationalized_intrastate,2020,2023,4,0,,2,0
+389,Bosnia-Herzegovina,Serb,intrastate,1992,1995,4,0,,30,0
+390,Croatia,Serb,internationalized_intrastate,1992,1995,4,0,,30,0
+392,Georgia,Abkhazia,intrastate,1992,1993,2,0,,32,0
+393,Georgia,South Ossetia,internationalized_intrastate,1992,1992,1,0,2004,11,1
+393,Georgia,South Ossetia,internationalized_intrastate,2004,2004,1,0,2008,3,1
+393,Georgia,South Ossetia,internationalized_intrastate,2008,2008,1,0,,17,0
+394,Moldova,Dniestr,intrastate,1992,1992,1,0,,33,0
+397,Bosnia-Herzegovina,Bihaca Krajina,intrastate,1993,1995,3,0,,30,0
+398,Bosnia-Herzegovina,Croat,intrastate,1992,1994,3,0,,31,0
+401,Russia (Soviet Union),Chechnya,intrastate,1994,1996,3,0,1999,2,1
+401,Russia (Soviet Union),Chechnya,intrastate,1999,2007,9,0,,18,0
+402,Yemen (North Yemen),South Yemen,intrastate,1994,1994,1,0,2025,30,1
+402,Yemen (North Yemen),South Yemen,intrastate,2025,2025,1,1,,0,0
+403,"Ecuador, Peru",Cordillera del Condor,interstate,1995,1995,1,0,,30,0
+405,"Cameroon, Nigeria",Bakassi,interstate,1996,1996,1,0,,29,0
+406,Niger,Eastern Niger,intrastate,1995,1995,1,0,,30,0
+407,Comoros,Anjouan,intrastate,1997,1997,1,0,,28,0
+409,"Eritrea, Ethiopia",Common border,interstate,1998,2000,3,0,2016,15,1
+409,"Eritrea, Ethiopia",Common border,interstate,2016,2016,1,0,,9,0
+412,Serbia (Yugoslavia),Kosovo,internationalized_intrastate,1998,1999,2,0,,26,0
+413,Ethiopia,Oromiya,internationalized_intrastate,1977,1978,2,0,1980,1,1
+413,Ethiopia,Oromiya,internationalized_intrastate,1980,1981,2,0,1983,1,1
+413,Ethiopia,Oromiya,internationalized_intrastate,1983,1992,10,0,1994,1,1
+413,Ethiopia,Oromiya,internationalized_intrastate,1994,1995,2,0,1998,2,1
+413,Ethiopia,Oromiya,internationalized_intrastate,1998,2013,16,0,2015,1,1
+413,Ethiopia,Oromiya,internationalized_intrastate,2015,2016,2,0,2019,2,1
+413,Ethiopia,Oromiya,internationalized_intrastate,2019,2025,7,1,,0,0
+414,Russia (Soviet Union),Dagestan,intrastate,1999,1999,1,0,,26,0
+421,India,Bodoland,intrastate,1989,1990,2,0,1994,3,1
+421,India,Bodoland,intrastate,1994,1994,1,0,1996,1,1
+421,India,Bodoland,intrastate,1996,1999,4,0,2001,1,1
+421,India,Bodoland,intrastate,2001,2004,4,0,2009,4,1
+421,India,Bodoland,intrastate,2009,2010,2,0,2013,2,1
+421,India,Bodoland,intrastate,2013,2014,2,0,,11,0
+422,Myanmar (Burma),Wa,intrastate,1997,1997,1,0,,28,0
+423,Thailand,Patani,intrastate,2003,2025,23,1,,0,0
+424,Nigeria,Northern Nigeria,intrastate,2004,2004,1,0,,21,0
+425,Nigeria,Niger Delta,intrastate,2004,2004,1,0,,21,0
+426,Israel,Southern Lebanon,intrastate,1990,2000,11,0,2006,5,1
+426,Israel,Southern Lebanon,intrastate,2006,2006,1,0,2023,16,1
+426,Israel,Southern Lebanon,intrastate,2023,2025,3,1,,0,0
+427,"Tanzania, Uganda",Kagera Salient,interstate,1978,1978,1,0,,47,0
+428,Mauritania,Sahrawi Arab Democratic Republic (Western Sahara),intrastate,1975,1978,4,0,,47,0
+429,DR Congo (Zaire),Kongo Kingdom,internationalized_intrastate,2007,2008,2,0,2017,8,1
+429,DR Congo (Zaire),Kongo Kingdom,internationalized_intrastate,2017,2017,1,0,2020,2,1
+429,DR Congo (Zaire),Kongo Kingdom,internationalized_intrastate,2020,2020,1,0,,5,0
+432,Russia (Soviet Union),Caucasus Emirate,intrastate,2007,2015,9,0,,10,0
+434,India,Islamic State,intrastate,2008,2008,1,0,,17,0
+435,"Djibouti, Eritrea",Common border,interstate,2008,2008,1,0,,17,0
+436,Ethiopia,"Arssi, Bale & Sidamo",internationalized_intrastate,1977,1980,4,0,,45,0
+437,Ethiopia,Sidamaland,intrastate,1981,1981,1,0,1983,1,1
+437,Ethiopia,Sidamaland,intrastate,1983,1983,1,0,,42,0
+439,Myanmar (Burma),Kokang,intrastate,2009,2009,1,0,2014,4,1
+439,Myanmar (Burma),Kokang,intrastate,2014,2015,2,0,2017,1,1
+439,Myanmar (Burma),Kokang,intrastate,2017,2017,1,0,2021,3,1
+439,Myanmar (Burma),Kokang,intrastate,2021,2021,1,0,2023,1,1
+439,Myanmar (Burma),Kokang,intrastate,2023,2024,2,0,,1,0
+440,Myanmar (Burma),Lahu,intrastate,1973,1982,10,0,,43,0
+11342,India,Garoland,intrastate,2012,2012,1,0,2014,1,1
+11342,India,Garoland,intrastate,2014,2014,1,0,,11,0
+11343,"Egypt, Israel",Suez/Sinai,interstate,1967,1967,1,0,1969,1,1
+11343,"Egypt, Israel",Suez/Sinai,interstate,1969,1970,2,0,1973,2,1
+11343,"Egypt, Israel",Suez/Sinai,interstate,1973,1973,1,0,,52,0
+11344,Sudan,Abyei,intrastate,2011,2011,1,0,,14,0
+11348,"South Sudan, Sudan",Common border,interstate,2012,2012,1,0,,13,0
+11349,China,"East Turkestan
+",intrastate,2008,2008,1,0,,17,0
+11447,Ethiopia,Hararghe,intrastate,1991,1991,1,0,,34,0
+11475,Myanmar (Burma),Nagaland,intrastate,1991,1991,1,0,1995,3,1
+11475,Myanmar (Burma),Nagaland,intrastate,1995,1995,1,0,2000,4,1
+11475,Myanmar (Burma),Nagaland,intrastate,2000,2001,2,0,2005,3,1
+11475,Myanmar (Burma),Nagaland,intrastate,2005,2007,3,0,,18,0
+11487,Malaysia,Sabah,intrastate,2013,2013,1,0,,12,0
+11639,"Afghanistan, Pakistan",Durand line,interstate,2024,2025,2,1,,0,0
+13042,Syria,Rojava Kurdistan,intrastate,2012,2015,4,0,,10,0
+13243,"Russia (Soviet Union), Ukraine",Crimea,interstate,2022,2025,4,1,,0,0
+13246,Ukraine,Donetsk,internationalized_intrastate,2014,2014,1,0,,11,0
+13247,Ukraine,Lugansk,internationalized_intrastate,2014,2014,1,0,,11,0
+13306,Ukraine,Novorossiya,internationalized_intrastate,2014,2022,9,0,,3,0
+13324,"Kyrgyzstan, Tajikistan",Common Border,interstate,2021,2022,2,0,,3,0
+13588,Russia (Soviet Union),Islamic State,intrastate,2015,2020,6,0,2024,3,1
+13588,Russia (Soviet Union),Islamic State,intrastate,2024,2024,1,0,,1,0
+13604,Syria,Islamic State,internationalized_intrastate,2013,2025,13,1,,0,0
+13611,Mali,Macina Empire,intrastate,2015,2015,1,0,,10,0
+13637,Afghanistan,Islamic State,intrastate,2015,2025,11,1,,0,0
+13638,Cameroon,Islamic State,internationalized_intrastate,2015,2016,2,0,2019,2,1
+13638,Cameroon,Islamic State,internationalized_intrastate,2019,2019,1,0,2021,1,1
+13638,Cameroon,Islamic State,internationalized_intrastate,2021,2021,1,0,2023,1,1
+13638,Cameroon,Islamic State,internationalized_intrastate,2023,2023,1,0,2025,1,1
+13638,Cameroon,Islamic State,internationalized_intrastate,2025,2025,1,1,,0,0
+13639,Niger,Islamic State,internationalized_intrastate,2015,2025,11,1,,0,0
+13640,Chad,Islamic State,intrastate,2015,2015,1,0,2017,1,1
+13640,Chad,Islamic State,intrastate,2017,2022,6,0,,3,0
+13641,Nigeria,Islamic State,internationalized_intrastate,2015,2025,11,1,,0,0
+13645,Yemen (North Yemen),Islamic State,intrastate,2015,2015,1,0,2017,1,1
+13645,Yemen (North Yemen),Islamic State,intrastate,2017,2017,1,0,2020,2,1
+13645,Yemen (North Yemen),Islamic State,intrastate,2020,2020,1,0,,5,0
+13646,Kenya,Northeastern Province and Coast,intrastate,2015,2025,11,1,,0,0
+13648,Egypt,Islamic State,intrastate,2015,2022,8,0,,3,0
+13653,India,Western South East Asia,intrastate,2015,2018,4,0,2025,6,1
+13653,India,Western South East Asia,intrastate,2025,2025,1,1,,0,0
+13674,Bangladesh,Islamic State,intrastate,2016,2017,2,0,,8,0
+13675,Lebanon,Islamic State,intrastate,2014,2015,2,0,2017,1,1
+13675,Lebanon,Islamic State,intrastate,2017,2017,1,0,,8,0
+13694,Libya,Islamic State,internationalized_intrastate,2015,2019,5,0,,6,0
+13721,Algeria,Islamic State,intrastate,2015,2015,1,0,,10,0
+13809,Syria,Rojava Kurdistan,internationalized_intrastate,2016,2016,1,0,2018,1,1
+13809,Syria,Rojava Kurdistan,internationalized_intrastate,2018,2018,1,0,2023,4,1
+13809,Syria,Rojava Kurdistan,internationalized_intrastate,2023,2025,3,1,,0,0
+13840,Burkina Faso,Islamic State,internationalized_intrastate,2019,2025,7,1,,0,0
+13886,Jordan,Islamic State,intrastate,2016,2016,1,0,,9,0
+13902,Turkey,Islamic State,intrastate,2015,2017,3,0,,8,0
+13936,Pakistan,Islamic State,intrastate,2016,2019,4,0,2021,1,1
+13936,Pakistan,Islamic State,intrastate,2021,2023,3,0,2025,1,1
+13936,Pakistan,Islamic State,intrastate,2025,2025,1,1,,0,0
+14074,Somalia,Somaliland,intrastate,2018,2018,1,0,,7,0
+14113,Mali,Islamic State,internationalized_intrastate,2017,2025,9,1,,0,0
+14129,Cameroon,Ambazonia,intrastate,2017,2025,9,1,,0,0
+14197,Somalia,Islamic State,internationalized_intrastate,2019,2021,3,0,2025,3,1
+14197,Somalia,Islamic State,internationalized_intrastate,2025,2025,1,1,,0,0
+14268,Iran,Islamic State,intrastate,2017,2017,1,0,,8,0
+14275,Philippines,Islamic State,intrastate,2016,2024,9,0,,1,0
+14333,Tunisia,Islamic State,intrastate,2016,2016,1,0,,9,0
+14692,DR Congo (Zaire),Islamic State,internationalized_intrastate,2017,2025,9,1,,0,0
+14845,Mozambique,Islamic State,internationalized_intrastate,2019,2025,7,1,,0,0
+14935,Ethiopia,Amhara,intrastate,2019,2019,1,0,,6,0
+15183,Tanzania,Islamic State,intrastate,2020,2020,1,0,,5,0
+15283,Central African Republic,Logone,internationalized_intrastate,2015,2015,1,0,2023,7,1
+15283,Central African Republic,Logone,internationalized_intrastate,2023,2023,1,0,,2,0
+15438,Uganda,Islamic State,intrastate,2022,2022,1,0,,3,0
+16038,Mali,Azawad,internationalized_intrastate,2023,2025,3,1,,0,0
+16069,Ethiopia,Amhara,intrastate,2023,2025,3,1,,0,0
+16099,"United Kingdom, United States of America, Yemen (North Yemen)","Red Sea, Bab al Mandab and Gulf of Aden",interstate,2024,2025,2,1,,0,0
+16292,Tajikistan,Islamic State,intrastate,2018,2019,2,0,,6,0

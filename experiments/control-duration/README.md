@@ -90,6 +90,52 @@ What would change our mind:
 
 Also reported, as context: how long episodes of fighting over territory last.
 
+### Method (second question)
+
+`run_conflicts.py` (Python ≥ 3.11, standard library), from the repository root:
+
+```bash
+python3 experiments/control-duration/run_conflicts.py
+```
+
+- **Source.** UCDP/PRIO Armed Conflict Dataset version 26.1 (conflict-years 1946–2025), downloaded from <https://ucdp.uu.se/downloads/> on 2026-10-03 into `cache/`; URL and checksum are in the script. Licence CC BY 4.0. Cite: Davies, Pettersson and Öberg (2026), "Organized violence 1989–2025, and violent political protests", *Journal of Peace Research*, doi:10.1093/jopres/xjag046; Gleditsch, Wallensteen, Eriksson, Sollenberg and Strand (2002), "Armed Conflict 1946–2001: A New Dataset", *Journal of Peace Research* 39(5).
+- **Selection.** Conflicts whose incompatibility is over territory (alone or together with government): 199 conflicts, 1,586 conflict-years. A conflict is active in a year when it caused at least 25 battle-related deaths. One side is always a government; conflicts between non-state groups are not in this dataset.
+- **Episodes.** A run of consecutive active years of one conflict is an episode; the years between two episodes are quiet years. Episodes still active in 2025 are left out of the recurrence figures; for the others, quiet time is counted to the next episode or to 2025. Shares are product-limit estimates in whole years.
+
+### Result (second question)
+
+335 episodes of fighting over territory have ended; 174 of them were followed by a new episode of the same conflict.
+
+**How long the fighting lasts.** Half of the ended episodes lasted a single year, 64% at most two, 81% at most five.
+
+**How often it resumes after Q quiet years:**
+
+| Quiet years Q | Resumes within the next 5 years | … within the next 10 years | Interstate only, next 10 | Within states only, next 10 |
+|---|---|---|---|---|
+| 1 | 40% | 45% | 29% | 53% |
+| 2 | 28% | 33% | 21% | 41% |
+| 3 | 20% | 26% | 22% | 32% |
+| 5 | 11% | 16% | 16% | 19% |
+| 10 | 6% | 12% | 12% | 15% |
+
+Two thirds of all resumptions come after one to three quiet years (113 of 174); three quarters within five.
+
+Per-episode data are in `outputs/conflict_episodes.csv`, the figures in `outputs/conflicts_summary.json`.
+
+### Conclusion (second question)
+
+Outcome 2 of "what would change our mind": after two quiet years a third of territorial conflicts still resume within ten years — above the fifth set beforehand — and after five quiet years a sixth do. The risk falls steadily with quiet time and never reaches zero.
+
+The two sources measure different things and agree closely: an occupation that has lasted two years ends within the next ten in about 30% of cases, and one that has lasted five in about 17%; a territorial conflict quiet for two years resumes within ten in 33%, and one quiet for five in 16%.
+
+For the canon this supports:
+
+- reviewing an unsettled area after **five** years if the aim is that roughly five in six accepted changes hold for the following decade; after **two** years roughly two in three do, after three about three in four;
+- tying the review to **quiet** as well as to elapsed time: the dataset gives, for each territorial conflict and year, whether it was active, so "no active conflict over the area in the last T years" can be computed, not judged;
+- using the same dataset as an alarm: an area linked to a conflict that becomes active has its control facts re-checked at the next release.
+
+Limits: a conflict in this dataset is defined by the territory in dispute and the government involved, not by a map outline; resumption of fighting does not always mean a change of control; the year is the unit.
+
 ## Status
 
-First question concluded 2026-10-03; second question planned.
+Concluded 2026-10-03 (both questions).
