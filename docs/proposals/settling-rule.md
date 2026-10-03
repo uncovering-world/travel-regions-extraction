@@ -90,6 +90,8 @@ Not counted as undone: entities that became states and one island that sank.
 
 **Recommendation: T = 3.** Two is defensible (it is the literature's convention and the owner's first suggestion) at the price of the two reversals above. Five and ten are not supported over three.
 
+**Decided by the owner on 2026-10-03: T = 3.** To be recorded in the spec with the rest of the rule once its open points are settled.
+
 ## How it would have run
 
 Year in which the canon accepts the new holder, by T; "—" means never. From `outputs/showcase.csv` of the back-test.
@@ -129,9 +131,9 @@ The back-test does not model the requirement of a standing civil arrangement, wh
 
 To be put to the owner one at a time:
 
-1. The value of T.
-2. Whether an unsettled area whose outline the parties state is a region of its own from the first release, or only once accepted.
-3. Path 6: whether the original holder's return is taken over at once, as proposed, or waits like any other change.
+1. ~~The value of T.~~ Decided: three years.
+2. Path 6: whether the original holder's return is taken over at once, as proposed, or waits like any other change.
+3. Whether the status can create a region. Proposed: no. A region exists through the reference registry (a supported point of view separates the area; decided 2026-10-03) or through CR-W (R044): where another party controls civilian access, the entry decision for the area differs from the rest of the region, which is what CR-W separates once a witness is cited and its gates pass. The status then decides only to whom such a region is attributed, and with which neighbour land that is not a region goes.
 4. What counts as evidence of a standing civil arrangement.
 5. The release interval; one release per year is assumed here.
 
