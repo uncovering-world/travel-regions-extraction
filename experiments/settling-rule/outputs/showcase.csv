@@ -1,0 +1,131 @@
+label,source,key,taken,ended,how,T,accepted,track
+Kuwait,mc,145,1990,1991,force,1,,fx
+Kuwait,mc,145,1990,1991,force,2,,fx
+Kuwait,mc,145,1990,1991,force,3,,fx
+Kuwait,mc,145,1990,1991,force,5,,fx
+Kuwait,mc,145,1990,1991,force,10,,fx
+Falkland Islands,mc,126,1982,1982,force,1,,b
+Falkland Islands,mc,126,1982,1982,force,2,,b
+Falkland Islands,mc,126,1982,1982,force,3,,b
+Falkland Islands,mc,126,1982,1982,force,5,,b
+Falkland Islands,mc,126,1982,1982,force,10,,b
+Hanish Islands,mc,152,1995,1998,agreed,1,1996,wAAx
+Hanish Islands,mc,152,1995,1998,agreed,2,1997,wwAx
+Hanish Islands,mc,152,1995,1998,agreed,3,,wwwx
+Hanish Islands,mc,152,1995,1998,agreed,5,,wwwx
+Hanish Islands,mc,152,1995,1998,agreed,10,,wwwx
+Sinai and Gaza,mc,87,1967,1982,agreed,1,1968,fAFFAAFAAAAAAAAx
+Sinai and Gaza,mc,87,1967,1982,agreed,2,1972,fwffwAFAAAAAAAAx
+Sinai and Gaza,mc,87,1967,1982,agreed,3,1976,fwffwwfwwAAAAAAx
+Sinai and Gaza,mc,87,1967,1982,agreed,5,1978,fwffwwfwwwwAAAAx
+Sinai and Gaza,mc,87,1967,1982,agreed,10,,fwffwwfwwwwwwwwx
+East Timor,mc,112,1975,1999,agreed,1,1989,ffffffffffffffAAAFAAAAFFx
+East Timor,mc,112,1975,1999,agreed,2,1990,ffffffffffffffwAAFAAAAFFx
+East Timor,mc,112,1975,1999,agreed,3,1991,ffffffffffffffwwAFAAAAFFx
+East Timor,mc,112,1975,1999,agreed,5,,ffffffffffffffwwwfwwwwffx
+East Timor,mc,112,1975,1999,agreed,10,,ffffffffffffffwwwfwwwwffx
+Bakassi,mc,147,1993,2008,agreed,1,1994,wAAFAAAAAAAAAAAx
+Bakassi,mc,147,1993,2008,agreed,2,1995,wwAFAAAAAAAAAAAx
+Bakassi,mc,147,1993,2008,agreed,3,1999,wwwfwwAAAAAAAAAx
+Bakassi,mc,147,1993,2008,agreed,5,2001,wwwfwwwwAAAAAAAx
+Bakassi,mc,147,1993,2008,agreed,10,2006,wwwfwwwwwwwwwAAx
+Goa,mc,77,1961,,,1,1962,wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Goa,mc,77,1961,,,2,1963,wwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Goa,mc,77,1961,,,3,1964,wwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Goa,mc,77,1961,,,5,1966,wwwwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Goa,mc,77,1961,,,10,1971,wwwwwwwwwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Golan Heights,mc,88,1967,,,1,1968,fAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Golan Heights,mc,88,1967,,,2,1969,fwAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Golan Heights,mc,88,1967,,,3,1970,fwwAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Golan Heights,mc,88,1967,,,5,1972,fwwwwAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Golan Heights,mc,88,1967,,,10,1983,fwwwwwfwwwwwwwwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Northern Cyprus,mc,107,1974,,,1,1975,fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Northern Cyprus,mc,107,1974,,,2,1976,fwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Northern Cyprus,mc,107,1974,,,3,1977,fwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Northern Cyprus,mc,107,1974,,,5,1979,fwwwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Northern Cyprus,mc,107,1974,,,10,1984,fwwwwwwwwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Western Sahara,mc,111,1975,,,1,1990,fffffffffffffffAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Western Sahara,mc,111,1975,,,2,1991,fffffffffffffffwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Western Sahara,mc,111,1975,,,3,1992,fffffffffffffffwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Western Sahara,mc,111,1975,,,5,1994,fffffffffffffffwwwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Western Sahara,mc,111,1975,,,10,1999,fffffffffffffffwwwwwwwwwAAAAAAAAAAAAAAAAAAAAAAAAAA
+Siachen,mc,131,1984,,,1,1985,fAAFAFFFFAFAFFFFFFFFAAAAAAAAAFFFFFFFFAAAA
+Siachen,mc,131,1984,,,2,1986,fwAFAFFFFAFAFFFFFFFFAAAAAAAAAFFFFFFFFAAAA
+Siachen,mc,131,1984,,,3,2006,fwwfwffffwfwffffffffwwAAAAAAAFFFFFFFFAAAA
+Siachen,mc,131,1984,,,5,2008,fwwfwffffwfwffffffffwwwwAAAAAFFFFFFFFAAAA
+Siachen,mc,131,1984,,,10,,fwwfwffffwfwffffffffwwwwwwwwwffffffffwwww
+Hala'ib Triangle,mc,151,1995,,,1,1996,wAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Hala'ib Triangle,mc,151,1995,,,2,1997,wwAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Hala'ib Triangle,mc,151,1995,,,3,1998,wwwAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Hala'ib Triangle,mc,151,1995,,,5,2000,wwwwwAAAAAAAAAAAAAAAAAAAAAAAAA
+Hala'ib Triangle,mc,151,1995,,,10,2005,wwwwwwwwwwAAAAAAAAAAAAAAAAAAAA
+Crimea,mc,164,2014,,,1,2015,wAAAAAAAFFF
+Crimea,mc,164,2014,,,2,2016,wwAAAAAAFFF
+Crimea,mc,164,2014,,,3,2017,wwwAAAAAFFF
+Crimea,mc,164,2014,,,5,2019,wwwwwAAAFFF
+Crimea,mc,164,2014,,,10,,wwwwwwwwfff
+Doumeira,mc,167,2017,,,1,2018,wAAAAAAA
+Doumeira,mc,167,2017,,,2,2019,wwAAAAAA
+Doumeira,mc,167,2017,,,3,2020,wwwAAAAA
+Doumeira,mc,167,2017,,,5,2022,wwwwwAAA
+Doumeira,mc,167,2017,,,10,,wwwwwwww
+Ladakh (part),mc,169,2020,,,1,2021,fAAAA
+Ladakh (part),mc,169,2020,,,2,2022,fwAAA
+Ladakh (part),mc,169,2020,,,3,2023,fwwAA
+Ladakh (part),mc,169,2020,,,5,,fwwww
+Ladakh (part),mc,169,2020,,,10,,fwwww
+al-Fashaga,mc,172,2020,,,1,2021,wAAAA
+al-Fashaga,mc,172,2020,,,2,2022,wwAAA
+al-Fashaga,mc,172,2020,,,3,2023,wwwAA
+al-Fashaga,mc,172,2020,,,5,,wwwww
+al-Fashaga,mc,172,2020,,,10,,wwwww
+Chechnya,florea,Chechnya,1991,1999,force,1,1992,wAAFFFAAx
+Chechnya,florea,Chechnya,1991,1999,force,2,1993,wwAFFFAAx
+Chechnya,florea,Chechnya,1991,1999,force,3,,wwwfffwwx
+Chechnya,florea,Chechnya,1991,1999,force,5,,wwwfffwwx
+Chechnya,florea,Chechnya,1991,1999,force,10,,wwwfffwwx
+Tamil Eelam,florea,Tamil Eelam,1984,2009,force,1,2002,ffffffffffffffffffAFAFFFFx
+Tamil Eelam,florea,Tamil Eelam,1984,2009,force,2,,ffffffffffffffffffwfwffffx
+Tamil Eelam,florea,Tamil Eelam,1984,2009,force,3,,ffffffffffffffffffwfwffffx
+Tamil Eelam,florea,Tamil Eelam,1984,2009,force,5,,ffffffffffffffffffwfwffffx
+Tamil Eelam,florea,Tamil Eelam,1984,2009,force,10,,ffffffffffffffffffwfwffffx
+Krajina,florea,Krajina,1991,1995,force,1,,wfffx
+Krajina,florea,Krajina,1991,1995,force,2,,wfffx
+Krajina,florea,Krajina,1991,1995,force,3,,wfffx
+Krajina,florea,Krajina,1991,1995,force,5,,wfffx
+Krajina,florea,Krajina,1991,1995,force,10,,wfffx
+Gagauzia,florea,Gagauzia,1991,1995,agreed,1,1992,wAAAx
+Gagauzia,florea,Gagauzia,1991,1995,agreed,2,1993,wwAAx
+Gagauzia,florea,Gagauzia,1991,1995,agreed,3,1994,wwwAx
+Gagauzia,florea,Gagauzia,1991,1995,agreed,5,,wwwwx
+Gagauzia,florea,Gagauzia,1991,1995,agreed,10,,wwwwx
+Anjouan,florea,Anjouan,1997,2008,force,1,1998,fAAAAAAAAAAx
+Anjouan,florea,Anjouan,1997,2008,force,2,1999,fwAAAAAAAAAx
+Anjouan,florea,Anjouan,1997,2008,force,3,2000,fwwAAAAAAAAx
+Anjouan,florea,Anjouan,1997,2008,force,5,2002,fwwwwAAAAAAx
+Anjouan,florea,Anjouan,1997,2008,force,10,2007,fwwwwwwwwwAx
+Transnistria,florea,Transnistria,1991,,,1,1993,wfAAAAAAAAAAAAAAAAAAAAAAAA
+Transnistria,florea,Transnistria,1991,,,2,1994,wfwAAAAAAAAAAAAAAAAAAAAAAA
+Transnistria,florea,Transnistria,1991,,,3,1995,wfwwAAAAAAAAAAAAAAAAAAAAAA
+Transnistria,florea,Transnistria,1991,,,5,1997,wfwwwwAAAAAAAAAAAAAAAAAAAA
+Transnistria,florea,Transnistria,1991,,,10,2002,wfwwwwwwwwwAAAAAAAAAAAAAAA
+Abkhazia,florea,Abkhazia,1991,,,1,1994,wffAAAAAAAAAAAAAAAAAAAAAAA
+Abkhazia,florea,Abkhazia,1991,,,2,1995,wffwAAAAAAAAAAAAAAAAAAAAAA
+Abkhazia,florea,Abkhazia,1991,,,3,1996,wffwwAAAAAAAAAAAAAAAAAAAAA
+Abkhazia,florea,Abkhazia,1991,,,5,1998,wffwwwwAAAAAAAAAAAAAAAAAAA
+Abkhazia,florea,Abkhazia,1991,,,10,2003,wffwwwwwwwwwAAAAAAAAAAAAAA
+Nagorno-Karabakh,florea,Nagorno-Karabakh,1991,,,1,1995,ffffAAFFAAAAAAFAAFAAAFAFFF
+Nagorno-Karabakh,florea,Nagorno-Karabakh,1991,,,2,1996,ffffwAFFAAAAAAFAAFAAAFAFFF
+Nagorno-Karabakh,florea,Nagorno-Karabakh,1991,,,3,2001,ffffwwffwwAAAAFAAFAAAFAFFF
+Nagorno-Karabakh,florea,Nagorno-Karabakh,1991,,,5,2003,ffffwwffwwwwAAFAAFAAAFAFFF
+Nagorno-Karabakh,florea,Nagorno-Karabakh,1991,,,10,,ffffwwffwwwwwwfwwfwwwfwfff
+Somaliland,florea,Somaliland,1991,,,1,1992,wAAAAAAAAAAAAAAAAAAAAAAAAA
+Somaliland,florea,Somaliland,1991,,,2,1993,wwAAAAAAAAAAAAAAAAAAAAAAAA
+Somaliland,florea,Somaliland,1991,,,3,1994,wwwAAAAAAAAAAAAAAAAAAAAAAA
+Somaliland,florea,Somaliland,1991,,,5,1996,wwwwwAAAAAAAAAAAAAAAAAAAAA
+Somaliland,florea,Somaliland,1991,,,10,2001,wwwwwwwwwwAAAAAAAAAAAAAAAA
+Donetsk,florea,Donetsk,2014,,,1,,fff
+Donetsk,florea,Donetsk,2014,,,2,,fff
+Donetsk,florea,Donetsk,2014,,,3,,fff
+Donetsk,florea,Donetsk,2014,,,5,,fff
+Donetsk,florea,Donetsk,2014,,,10,,fff

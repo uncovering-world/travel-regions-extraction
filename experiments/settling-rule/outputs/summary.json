@@ -1,0 +1,912 @@
+{
+  "sources": {
+    "modern_conquest": {
+      "url": "https://dan-altman.weebly.com/uploads/3/2/3/1/32312379/taking_territory_replication_files.zip",
+      "sha256": "a36eae84414798de56dcfe17ab38f54d203d6df6065c5fa37f4a7c2f08ba44d3"
+    },
+    "ucdp_acd": {
+      "url": "https://ucdp.uu.se/downloads/ucdpprio/ucdp-prio-acd-261-csv.zip",
+      "sha256": "5f951743222964674a446e32a5a871077b29bd13349588d85fc59953d89c878a"
+    },
+    "florea2020": {
+      "url": "https://eprints.gla.ac.uk/211623/1/211623.pdf",
+      "sha256": "aea5e4de6efbd3a76ef8ddf9afc4000bd71dc9d8a7956059bbbad7b8da300754"
+    }
+  },
+  "seizures_by_states": {
+    "cases": 78,
+    "period": "1946-2024",
+    "still_held": 34,
+    "ended_years_after_seizure": {
+      "0": 26,
+      "1": 7,
+      "2": 2,
+      "3": 2,
+      "6": 1,
+      "9": 2,
+      "15": 2,
+      "24": 1,
+      "29": 1
+    },
+    "linked_to_conflict_data": 49,
+    "quiet": {
+      "1": {
+        "accepted": 45,
+        "never_accepted_lost_first": 33,
+        "undone": 11,
+        "undone_agreed": 7,
+        "undone_force": 3,
+        "undone_other": 1,
+        "undone_within_10_years": 8,
+        "unsettled_year_ends": 82,
+        "undone_cases": [
+          "Buraimi (SAU from UKG, 1952) (accepted 1953, ended 1955, force)",
+          "Preah Vihear (THI from CAM, 1953) (accepted 1954, ended 1962, agreed)",
+          "Sinai; Gaza (ISR from EGY, 1967) (accepted 1968, ended 1982, agreed)",
+          "East Timor (INS from ETM, 1975) (accepted 1989, ended 1999, agreed)",
+          "Thule Island (ARG from UKG, 1976) (accepted 1977, ended 1982, force)",
+          "New Moore (South Talpatti; Purbasha) Island (IND from BNG, 1981) (accepted 1982, ended 2010, other)",
+          "Sumdorong Chu (IND from CHN, 1984) (accepted 1985, ended 1986, force)",
+          "Sumdorong Chu (CHN from IND, 1986) (accepted 1987, ended 1995, agreed)",
+          "Bakassi; Diamant; Jabane (NIG from CAO, 1993) (accepted 1994, ended 2008, agreed)",
+          "Hanish Islands (p) (ERI from YEM, 1995) (accepted 1996, ended 1998, agreed)",
+          "Ras Doumeira (p) (ERI from DJI, 2008) (accepted 2009, ended 2010, agreed)"
+        ]
+      },
+      "2": {
+        "accepted": 42,
+        "never_accepted_lost_first": 35,
+        "still_unsettled": 1,
+        "undone": 9,
+        "undone_agreed": 6,
+        "undone_force": 2,
+        "undone_other": 1,
+        "undone_within_10_years": 7,
+        "unsettled_year_ends": 130,
+        "undone_cases": [
+          "Buraimi (SAU from UKG, 1952) (accepted 1954, ended 1955, force)",
+          "Preah Vihear (THI from CAM, 1953) (accepted 1955, ended 1962, agreed)",
+          "Sinai; Gaza (ISR from EGY, 1967) (accepted 1972, ended 1982, agreed)",
+          "East Timor (INS from ETM, 1975) (accepted 1990, ended 1999, agreed)",
+          "Thule Island (ARG from UKG, 1976) (accepted 1978, ended 1982, force)",
+          "New Moore (South Talpatti; Purbasha) Island (IND from BNG, 1981) (accepted 1983, ended 2010, other)",
+          "Sumdorong Chu (CHN from IND, 1986) (accepted 1988, ended 1995, agreed)",
+          "Bakassi; Diamant; Jabane (NIG from CAO, 1993) (accepted 1995, ended 2008, agreed)",
+          "Hanish Islands (p) (ERI from YEM, 1995) (accepted 1997, ended 1998, agreed)"
+        ]
+      },
+      "3": {
+        "accepted": 39,
+        "never_accepted_lost_first": 37,
+        "still_unsettled": 2,
+        "undone": 7,
+        "undone_agreed": 5,
+        "undone_force": 1,
+        "undone_other": 1,
+        "undone_within_10_years": 6,
+        "unsettled_year_ends": 197,
+        "undone_cases": [
+          "Preah Vihear (THI from CAM, 1953) (accepted 1956, ended 1962, agreed)",
+          "Sinai; Gaza (ISR from EGY, 1967) (accepted 1976, ended 1982, agreed)",
+          "East Timor (INS from ETM, 1975) (accepted 1991, ended 1999, agreed)",
+          "Thule Island (ARG from UKG, 1976) (accepted 1979, ended 1982, force)",
+          "New Moore (South Talpatti; Purbasha) Island (IND from BNG, 1981) (accepted 1984, ended 2010, other)",
+          "Sumdorong Chu (CHN from IND, 1986) (accepted 1989, ended 1995, agreed)",
+          "Bakassi; Diamant; Jabane (NIG from CAO, 1993) (accepted 1999, ended 2008, agreed)"
+        ]
+      },
+      "5": {
+        "accepted": 35,
+        "never_accepted_lost_first": 38,
+        "still_unsettled": 5,
+        "undone": 6,
+        "undone_agreed": 4,
+        "undone_force": 1,
+        "undone_other": 1,
+        "undone_within_10_years": 5,
+        "unsettled_year_ends": 286,
+        "undone_cases": [
+          "Preah Vihear (THI from CAM, 1953) (accepted 1958, ended 1962, agreed)",
+          "Sinai; Gaza (ISR from EGY, 1967) (accepted 1978, ended 1982, agreed)",
+          "Thule Island (ARG from UKG, 1976) (accepted 1981, ended 1982, force)",
+          "New Moore (South Talpatti; Purbasha) Island (IND from BNG, 1981) (accepted 1986, ended 2010, other)",
+          "Sumdorong Chu (CHN from IND, 1986) (accepted 1991, ended 1995, agreed)",
+          "Bakassi; Diamant; Jabane (NIG from CAO, 1993) (accepted 2001, ended 2008, agreed)"
+        ]
+      },
+      "10": {
+        "accepted": 26,
+        "never_accepted_lost_first": 42,
+        "still_unsettled": 10,
+        "undone": 2,
+        "undone_agreed": 1,
+        "undone_other": 1,
+        "undone_within_10_years": 1,
+        "unsettled_year_ends": 486,
+        "undone_cases": [
+          "New Moore (South Talpatti; Purbasha) Island (IND from BNG, 1981) (accepted 1991, ended 2010, other)",
+          "Bakassi; Diamant; Jabane (NIG from CAO, 1993) (accepted 2006, ended 2008, agreed)"
+        ]
+      }
+    },
+    "plain": {
+      "1": {
+        "accepted": 45,
+        "never_accepted_lost_first": 33,
+        "undone": 11,
+        "undone_agreed": 7,
+        "undone_force": 3,
+        "undone_other": 1,
+        "undone_within_10_years": 7,
+        "unsettled_year_ends": 52,
+        "undone_cases": [
+          "Buraimi (SAU from UKG, 1952) (accepted 1953, ended 1955, force)",
+          "Preah Vihear (THI from CAM, 1953) (accepted 1954, ended 1962, agreed)",
+          "Sinai; Gaza (ISR from EGY, 1967) (accepted 1968, ended 1982, agreed)",
+          "East Timor (INS from ETM, 1975) (accepted 1976, ended 1999, agreed)",
+          "Thule Island (ARG from UKG, 1976) (accepted 1977, ended 1982, force)",
+          "New Moore (South Talpatti; Purbasha) Island (IND from BNG, 1981) (accepted 1982, ended 2010, other)",
+          "Sumdorong Chu (IND from CHN, 1984) (accepted 1985, ended 1986, force)",
+          "Sumdorong Chu (CHN from IND, 1986) (accepted 1987, ended 1995, agreed)",
+          "Bakassi; Diamant; Jabane (NIG from CAO, 1993) (accepted 1994, ended 2008, agreed)",
+          "Hanish Islands (p) (ERI from YEM, 1995) (accepted 1996, ended 1998, agreed)",
+          "Ras Doumeira (p) (ERI from DJI, 2008) (accepted 2009, ended 2010, agreed)"
+        ]
+      },
+      "2": {
+        "accepted": 42,
+        "never_accepted_lost_first": 35,
+        "still_unsettled": 1,
+        "undone": 9,
+        "undone_agreed": 6,
+        "undone_force": 2,
+        "undone_other": 1,
+        "undone_within_10_years": 5,
+        "unsettled_year_ends": 97,
+        "undone_cases": [
+          "Buraimi (SAU from UKG, 1952) (accepted 1954, ended 1955, force)",
+          "Preah Vihear (THI from CAM, 1953) (accepted 1955, ended 1962, agreed)",
+          "Sinai; Gaza (ISR from EGY, 1967) (accepted 1969, ended 1982, agreed)",
+          "East Timor (INS from ETM, 1975) (accepted 1977, ended 1999, agreed)",
+          "Thule Island (ARG from UKG, 1976) (accepted 1978, ended 1982, force)",
+          "New Moore (South Talpatti; Purbasha) Island (IND from BNG, 1981) (accepted 1983, ended 2010, other)",
+          "Sumdorong Chu (CHN from IND, 1986) (accepted 1988, ended 1995, agreed)",
+          "Bakassi; Diamant; Jabane (NIG from CAO, 1993) (accepted 1995, ended 2008, agreed)",
+          "Hanish Islands (p) (ERI from YEM, 1995) (accepted 1997, ended 1998, agreed)"
+        ]
+      },
+      "3": {
+        "accepted": 39,
+        "never_accepted_lost_first": 37,
+        "still_unsettled": 2,
+        "undone": 7,
+        "undone_agreed": 5,
+        "undone_force": 1,
+        "undone_other": 1,
+        "undone_within_10_years": 3,
+        "unsettled_year_ends": 139,
+        "undone_cases": [
+          "Preah Vihear (THI from CAM, 1953) (accepted 1956, ended 1962, agreed)",
+          "Sinai; Gaza (ISR from EGY, 1967) (accepted 1970, ended 1982, agreed)",
+          "East Timor (INS from ETM, 1975) (accepted 1978, ended 1999, agreed)",
+          "Thule Island (ARG from UKG, 1976) (accepted 1979, ended 1982, force)",
+          "New Moore (South Talpatti; Purbasha) Island (IND from BNG, 1981) (accepted 1984, ended 2010, other)",
+          "Sumdorong Chu (CHN from IND, 1986) (accepted 1989, ended 1995, agreed)",
+          "Bakassi; Diamant; Jabane (NIG from CAO, 1993) (accepted 1996, ended 2008, agreed)"
+        ]
+      },
+      "5": {
+        "accepted": 36,
+        "never_accepted_lost_first": 37,
+        "still_unsettled": 5,
+        "undone": 7,
+        "undone_agreed": 5,
+        "undone_force": 1,
+        "undone_other": 1,
+        "undone_within_10_years": 5,
+        "unsettled_year_ends": 217,
+        "undone_cases": [
+          "Preah Vihear (THI from CAM, 1953) (accepted 1958, ended 1962, agreed)",
+          "Sinai; Gaza (ISR from EGY, 1967) (accepted 1972, ended 1982, agreed)",
+          "East Timor (INS from ETM, 1975) (accepted 1980, ended 1999, agreed)",
+          "Thule Island (ARG from UKG, 1976) (accepted 1981, ended 1982, force)",
+          "New Moore (South Talpatti; Purbasha) Island (IND from BNG, 1981) (accepted 1986, ended 2010, other)",
+          "Sumdorong Chu (CHN from IND, 1986) (accepted 1991, ended 1995, agreed)",
+          "Bakassi; Diamant; Jabane (NIG from CAO, 1993) (accepted 1998, ended 2008, agreed)"
+        ]
+      },
+      "10": {
+        "accepted": 30,
+        "never_accepted_lost_first": 40,
+        "still_unsettled": 8,
+        "undone": 4,
+        "undone_agreed": 3,
+        "undone_other": 1,
+        "undone_within_10_years": 2,
+        "unsettled_year_ends": 388,
+        "undone_cases": [
+          "Sinai; Gaza (ISR from EGY, 1967) (accepted 1977, ended 1982, agreed)",
+          "East Timor (INS from ETM, 1975) (accepted 1985, ended 1999, agreed)",
+          "New Moore (South Talpatti; Purbasha) Island (IND from BNG, 1981) (accepted 1991, ended 2010, other)",
+          "Bakassi; Diamant; Jabane (NIG from CAO, 1993) (accepted 2003, ended 2008, agreed)"
+        ]
+      }
+    },
+    "clocks_differ": {
+      "1": [
+        "East Timor (INS from ETM, 1975)",
+        "Ladakh, Arunachal Pradesh borders (p) (CHN from IND, 1961)",
+        "Rom Klao (THI from LAO, 1987)",
+        "South Vietnam (DRV from RVN, 1974)",
+        "Western Sahara (MOR from SPN, 1975)"
+      ],
+      "2": [
+        "East Timor (INS from ETM, 1975)",
+        "Ladakh, Arunachal Pradesh borders (p) (CHN from IND, 1961)",
+        "Rom Klao (THI from LAO, 1987)",
+        "Sinai; Gaza (ISR from EGY, 1967)",
+        "South Vietnam (DRV from RVN, 1974)",
+        "Western Sahara (MOR from SPN, 1975)"
+      ],
+      "3": [
+        "Bakassi; Diamant; Jabane (NIG from CAO, 1993)",
+        "East Timor (INS from ETM, 1975)",
+        "Ladakh, Arunachal Pradesh borders (p) (CHN from IND, 1961)",
+        "Rom Klao (THI from LAO, 1987)",
+        "Siachen (IND from PAK, 1984)",
+        "Sinai; Gaza (ISR from EGY, 1967)",
+        "South Vietnam (DRV from RVN, 1974)",
+        "Western Sahara (MOR from SPN, 1975)"
+      ],
+      "5": [
+        "Bakassi; Diamant; Jabane (NIG from CAO, 1993)",
+        "East Timor (INS from ETM, 1975)",
+        "Ladakh, Arunachal Pradesh borders (p) (CHN from IND, 1961)",
+        "Rom Klao (THI from LAO, 1987)",
+        "Siachen (IND from PAK, 1984)",
+        "Sinai; Gaza (ISR from EGY, 1967)",
+        "South Vietnam (DRV from RVN, 1974)",
+        "Western Sahara (MOR from SPN, 1975)"
+      ],
+      "10": [
+        "Bakassi; Diamant; Jabane (NIG from CAO, 1993)",
+        "Crimea (RUS from UKR, 2014)",
+        "East Timor (INS from ETM, 1975)",
+        "Islands in Lake Chad (NIG from CAO, 1987)",
+        "Kamaran; Dhala (YEM from YPR, 1972)",
+        "Ladakh, Arunachal Pradesh borders (p) (CHN from IND, 1961)",
+        "Rann of Kutch (p) (PAK from IND, 1965)",
+        "Rom Klao (THI from LAO, 1987)",
+        "Siachen (IND from PAK, 1984)",
+        "Sinai; Gaza (ISR from EGY, 1967)",
+        "South Vietnam (DRV from RVN, 1974)",
+        "Western Sahara (MOR from SPN, 1975)"
+      ]
+    },
+    "decided_differently": {
+      "1->2": [
+        "Sumdorong Chu (IND from CHN, 1984): accepted 1985 at T=1, not at T=2; ended 1986, force",
+        "Ras Doumeira (p) (ERI from DJI, 2008): accepted 2009 at T=1, not at T=2; ended 2010, agreed",
+        "Nagorno-Karabakh (p) (AZE from ARM, 2023): accepted 2024 at T=1, not at T=2; still held in 2024"
+      ],
+      "2->3": [
+        "Buraimi (SAU from UKG, 1952): accepted 1954 at T=2, not at T=3; ended 1955, force",
+        "Hanish Islands (p) (ERI from YEM, 1995): accepted 1997 at T=2, not at T=3; ended 1998, agreed",
+        "Farukh (AZE from ARM, 2022): accepted 2024 at T=2, not at T=3; still held in 2024"
+      ],
+      "3->5": [
+        "East Timor (INS from ETM, 1975): accepted 1991 at T=3, not at T=5; ended 1999, agreed",
+        "Ladakh (p) (CHN from IND, 2020): accepted 2023 at T=3, not at T=5; still held in 2024",
+        "Nagorno-Karabakh (p); adjacent areas (AZE from ARM, 2020): accepted 2023 at T=3, not at T=5; still held in 2024",
+        "al-Fashaga (SUD from ETH, 2020): accepted 2023 at T=3, not at T=5; still held in 2024"
+      ],
+      "5->10": [
+        "Preah Vihear (THI from CAM, 1953): accepted 1958 at T=5, not at T=10; ended 1962, agreed",
+        "Sinai; Gaza (ISR from EGY, 1967): accepted 1978 at T=5, not at T=10; ended 1982, agreed",
+        "Thule Island (ARG from UKG, 1976): accepted 1981 at T=5, not at T=10; ended 1982, force",
+        "Siachen (IND from PAK, 1984): accepted 2008 at T=5, not at T=10; still held in 2024",
+        "Sumdorong Chu (CHN from IND, 1986): accepted 1991 at T=5, not at T=10; ended 1995, agreed",
+        "Crimea (RUS from UKR, 2014): accepted 2019 at T=5, not at T=10; still held in 2024",
+        "Beyul Khenpajong; Menchuma Valley (CHN from BHU, 2015): accepted 2020 at T=5, not at T=10; still held in 2024",
+        "Areas around Talish; Lalatapa (AZE from ARM, 2016): accepted 2021 at T=5, not at T=10; still held in 2024",
+        "Ras Doumeira (p) and Doumeira Island (ERI from DJI, 2017): accepted 2022 at T=5, not at T=10; still held in 2024"
+      ]
+    }
+  },
+  "breakaway_entities": {
+    "cases": 40,
+    "period": "1945-2016",
+    "linked_to_conflict_data": 35,
+    "quiet": {
+      "1": {
+        "accepted": 32,
+        "never_accepted_lost_first": 4,
+        "still_unsettled": 4,
+        "undone": 12,
+        "undone_agreed": 5,
+        "undone_force": 3,
+        "undone_statehood": 4,
+        "undone_within_10_years": 7,
+        "unsettled_year_ends": 241,
+        "undone_cases": [
+          "Chechnya (1991) (accepted 1992, ended 1999, force)",
+          "Anjouan (1997) (accepted 1998, ended 2008, force)",
+          "Tamil Eelam (1984) (accepted 2002, ended 2009, force)",
+          "Rwenzururu Kingdom (1963) (accepted 1964, ended 1982, agreed)",
+          "Gagauzia (1991) (accepted 1992, ended 1995, agreed)",
+          "Bougainville (1975) (accepted 1976, ended 1997, agreed)",
+          "Eastern Slavonia (1995) (accepted 1996, ended 1998, agreed)",
+          "Ajaria (1991) (accepted 1992, ended 2004, agreed)",
+          "Eritrea (1964) (accepted 1992, ended 1993, statehood)",
+          "East Timor (1975) (accepted 1989, ended 2002, statehood)",
+          "Kosovo (1998) (accepted 2000, ended 2008, statehood)",
+          "South Sudan (1956) (accepted 1957, ended 2011, statehood)"
+        ]
+      },
+      "2": {
+        "accepted": 29,
+        "never_accepted_lost_first": 6,
+        "still_unsettled": 5,
+        "undone": 10,
+        "undone_agreed": 5,
+        "undone_force": 2,
+        "undone_statehood": 3,
+        "undone_within_10_years": 5,
+        "unsettled_year_ends": 305,
+        "undone_cases": [
+          "Chechnya (1991) (accepted 1993, ended 1999, force)",
+          "Anjouan (1997) (accepted 1999, ended 2008, force)",
+          "Rwenzururu Kingdom (1963) (accepted 1965, ended 1982, agreed)",
+          "Gagauzia (1991) (accepted 1993, ended 1995, agreed)",
+          "Bougainville (1975) (accepted 1977, ended 1997, agreed)",
+          "Eastern Slavonia (1995) (accepted 1997, ended 1998, agreed)",
+          "Ajaria (1991) (accepted 1993, ended 2004, agreed)",
+          "East Timor (1975) (accepted 1990, ended 2002, statehood)",
+          "Kosovo (1998) (accepted 2001, ended 2008, statehood)",
+          "South Sudan (1956) (accepted 1958, ended 2011, statehood)"
+        ]
+      },
+      "3": {
+        "accepted": 25,
+        "never_accepted_lost_first": 8,
+        "still_unsettled": 7,
+        "undone": 8,
+        "undone_agreed": 4,
+        "undone_force": 1,
+        "undone_statehood": 3,
+        "undone_within_10_years": 4,
+        "unsettled_year_ends": 371,
+        "undone_cases": [
+          "Anjouan (1997) (accepted 2000, ended 2008, force)",
+          "Rwenzururu Kingdom (1963) (accepted 1966, ended 1982, agreed)",
+          "Gagauzia (1991) (accepted 1994, ended 1995, agreed)",
+          "Bougainville (1975) (accepted 1978, ended 1997, agreed)",
+          "Ajaria (1991) (accepted 1994, ended 2004, agreed)",
+          "East Timor (1975) (accepted 1991, ended 2002, statehood)",
+          "Kosovo (1998) (accepted 2002, ended 2008, statehood)",
+          "South Sudan (1956) (accepted 1959, ended 2011, statehood)"
+        ]
+      },
+      "5": {
+        "accepted": 20,
+        "never_accepted_lost_first": 10,
+        "still_unsettled": 10,
+        "undone": 6,
+        "undone_agreed": 3,
+        "undone_force": 1,
+        "undone_statehood": 2,
+        "undone_within_10_years": 3,
+        "unsettled_year_ends": 444,
+        "undone_cases": [
+          "Anjouan (1997) (accepted 2002, ended 2008, force)",
+          "Rwenzururu Kingdom (1963) (accepted 1968, ended 1982, agreed)",
+          "Bougainville (1975) (accepted 1980, ended 1997, agreed)",
+          "Ajaria (1991) (accepted 1996, ended 2004, agreed)",
+          "Kosovo (1998) (accepted 2004, ended 2008, statehood)",
+          "South Sudan (1956) (accepted 1961, ended 2011, statehood)"
+        ]
+      },
+      "10": {
+        "accepted": 17,
+        "never_accepted_lost_first": 11,
+        "still_unsettled": 12,
+        "undone": 5,
+        "undone_agreed": 3,
+        "undone_force": 1,
+        "undone_statehood": 1,
+        "undone_within_10_years": 3,
+        "unsettled_year_ends": 593,
+        "undone_cases": [
+          "Anjouan (1997) (accepted 2007, ended 2008, force)",
+          "Rwenzururu Kingdom (1963) (accepted 1973, ended 1982, agreed)",
+          "Bougainville (1975) (accepted 1985, ended 1997, agreed)",
+          "Ajaria (1991) (accepted 2001, ended 2004, agreed)",
+          "South Sudan (1956) (accepted 1982, ended 2011, statehood)"
+        ]
+      }
+    },
+    "plain": {
+      "1": {
+        "accepted": 40,
+        "undone": 16,
+        "undone_agreed": 6,
+        "undone_force": 6,
+        "undone_statehood": 4,
+        "undone_within_10_years": 9,
+        "unsettled_year_ends": 40,
+        "undone_cases": [
+          "Katanga (1960) (accepted 1961, ended 1963, force)",
+          "Biafra (1967) (accepted 1968, ended 1970, force)",
+          "Krajina (1991) (accepted 1992, ended 1995, force)",
+          "Chechnya (1991) (accepted 1992, ended 1999, force)",
+          "Anjouan (1997) (accepted 1998, ended 2008, force)",
+          "Tamil Eelam (1984) (accepted 1985, ended 2009, force)",
+          "Rwenzururu Kingdom (1963) (accepted 1964, ended 1982, agreed)",
+          "Gagauzia (1991) (accepted 1992, ended 1995, agreed)",
+          "Bougainville (1975) (accepted 1976, ended 1997, agreed)",
+          "Eastern Slavonia (1995) (accepted 1996, ended 1998, agreed)",
+          "Ajaria (1991) (accepted 1992, ended 2004, agreed)",
+          "Aceh (2001) (accepted 2002, ended 2005, agreed)",
+          "Eritrea (1964) (accepted 1965, ended 1993, statehood)",
+          "East Timor (1975) (accepted 1976, ended 2002, statehood)",
+          "Kosovo (1998) (accepted 1999, ended 2008, statehood)",
+          "South Sudan (1956) (accepted 1957, ended 2011, statehood)"
+        ]
+      },
+      "2": {
+        "accepted": 40,
+        "undone": 16,
+        "undone_agreed": 6,
+        "undone_force": 6,
+        "undone_statehood": 4,
+        "undone_within_10_years": 9,
+        "unsettled_year_ends": 80,
+        "undone_cases": [
+          "Katanga (1960) (accepted 1962, ended 1963, force)",
+          "Biafra (1967) (accepted 1969, ended 1970, force)",
+          "Krajina (1991) (accepted 1993, ended 1995, force)",
+          "Chechnya (1991) (accepted 1993, ended 1999, force)",
+          "Anjouan (1997) (accepted 1999, ended 2008, force)",
+          "Tamil Eelam (1984) (accepted 1986, ended 2009, force)",
+          "Rwenzururu Kingdom (1963) (accepted 1965, ended 1982, agreed)",
+          "Gagauzia (1991) (accepted 1993, ended 1995, agreed)",
+          "Bougainville (1975) (accepted 1977, ended 1997, agreed)",
+          "Eastern Slavonia (1995) (accepted 1997, ended 1998, agreed)",
+          "Ajaria (1991) (accepted 1993, ended 2004, agreed)",
+          "Aceh (2001) (accepted 2003, ended 2005, agreed)",
+          "Eritrea (1964) (accepted 1966, ended 1993, statehood)",
+          "East Timor (1975) (accepted 1977, ended 2002, statehood)",
+          "Kosovo (1998) (accepted 2000, ended 2008, statehood)",
+          "South Sudan (1956) (accepted 1958, ended 2011, statehood)"
+        ]
+      },
+      "3": {
+        "accepted": 35,
+        "never_accepted_lost_first": 3,
+        "still_unsettled": 2,
+        "undone": 13,
+        "undone_agreed": 5,
+        "undone_force": 4,
+        "undone_statehood": 4,
+        "undone_within_10_years": 7,
+        "unsettled_year_ends": 120,
+        "undone_cases": [
+          "Krajina (1991) (accepted 1994, ended 1995, force)",
+          "Chechnya (1991) (accepted 1994, ended 1999, force)",
+          "Anjouan (1997) (accepted 2000, ended 2008, force)",
+          "Tamil Eelam (1984) (accepted 1987, ended 2009, force)",
+          "Rwenzururu Kingdom (1963) (accepted 1966, ended 1982, agreed)",
+          "Gagauzia (1991) (accepted 1994, ended 1995, agreed)",
+          "Bougainville (1975) (accepted 1978, ended 1997, agreed)",
+          "Ajaria (1991) (accepted 1994, ended 2004, agreed)",
+          "Aceh (2001) (accepted 2004, ended 2005, agreed)",
+          "Eritrea (1964) (accepted 1967, ended 1993, statehood)",
+          "East Timor (1975) (accepted 1978, ended 2002, statehood)",
+          "Kosovo (1998) (accepted 2001, ended 2008, statehood)",
+          "South Sudan (1956) (accepted 1959, ended 2011, statehood)"
+        ]
+      },
+      "5": {
+        "accepted": 28,
+        "never_accepted_lost_first": 6,
+        "still_unsettled": 6,
+        "undone": 10,
+        "undone_agreed": 3,
+        "undone_force": 3,
+        "undone_statehood": 4,
+        "undone_within_10_years": 4,
+        "unsettled_year_ends": 185,
+        "undone_cases": [
+          "Chechnya (1991) (accepted 1996, ended 1999, force)",
+          "Anjouan (1997) (accepted 2002, ended 2008, force)",
+          "Tamil Eelam (1984) (accepted 1989, ended 2009, force)",
+          "Rwenzururu Kingdom (1963) (accepted 1968, ended 1982, agreed)",
+          "Bougainville (1975) (accepted 1980, ended 1997, agreed)",
+          "Ajaria (1991) (accepted 1996, ended 2004, agreed)",
+          "Eritrea (1964) (accepted 1969, ended 1993, statehood)",
+          "East Timor (1975) (accepted 1980, ended 2002, statehood)",
+          "Kosovo (1998) (accepted 2003, ended 2008, statehood)",
+          "South Sudan (1956) (accepted 1961, ended 2011, statehood)"
+        ]
+      },
+      "10": {
+        "accepted": 25,
+        "never_accepted_lost_first": 8,
+        "still_unsettled": 7,
+        "undone": 8,
+        "undone_agreed": 3,
+        "undone_force": 2,
+        "undone_statehood": 3,
+        "undone_within_10_years": 3,
+        "unsettled_year_ends": 323,
+        "undone_cases": [
+          "Anjouan (1997) (accepted 2007, ended 2008, force)",
+          "Tamil Eelam (1984) (accepted 1994, ended 2009, force)",
+          "Rwenzururu Kingdom (1963) (accepted 1973, ended 1982, agreed)",
+          "Bougainville (1975) (accepted 1985, ended 1997, agreed)",
+          "Ajaria (1991) (accepted 2001, ended 2004, agreed)",
+          "Eritrea (1964) (accepted 1974, ended 1993, statehood)",
+          "East Timor (1975) (accepted 1985, ended 2002, statehood)",
+          "South Sudan (1956) (accepted 1966, ended 2011, statehood)"
+        ]
+      }
+    },
+    "clocks_differ": {
+      "1": [
+        "Abkhazia (1991)",
+        "Aceh (2001)",
+        "Biafra (1967)",
+        "Donetsk (2014)",
+        "East Timor (1975)",
+        "Eritrea (1964)",
+        "Gaza (2007)",
+        "Islamic State, ISIS (2013)",
+        "Kachin State (1961)",
+        "Karen State (1949)",
+        "Katanga (1960)",
+        "Kosovo (1998)",
+        "Krajina (1991)",
+        "Kurdistan (1991)",
+        "Luhansk (2014)",
+        "Mindanao (1973)",
+        "Nagorno-Karabakh (1991)",
+        "Palestine (1995)",
+        "Republika Srpska (1992)",
+        "Rojava (2013)",
+        "South Ossetia (1991)",
+        "Tamil Eelam (1984)",
+        "Transnistria (1991)",
+        "Western Sahara (1974)"
+      ],
+      "2": [
+        "Abkhazia (1991)",
+        "Aceh (2001)",
+        "Azawad (2012)",
+        "Biafra (1967)",
+        "Donetsk (2014)",
+        "East Timor (1975)",
+        "Eritrea (1964)",
+        "Gaza (2007)",
+        "Islamic State, ISIS (2013)",
+        "Kachin State (1961)",
+        "Karen State (1949)",
+        "Katanga (1960)",
+        "Kosovo (1998)",
+        "Krajina (1991)",
+        "Kurdistan (1991)",
+        "Luhansk (2014)",
+        "Mindanao (1973)",
+        "Nagorno-Karabakh (1991)",
+        "Palestine (1995)",
+        "Republika Srpska (1992)",
+        "Rojava (2013)",
+        "South Ossetia (1991)",
+        "Tamil Eelam (1984)",
+        "Transnistria (1991)",
+        "Western Sahara (1974)"
+      ],
+      "3": [
+        "Abkhazia (1991)",
+        "Aceh (2001)",
+        "Azawad (2012)",
+        "Chechnya (1991)",
+        "East Timor (1975)",
+        "Eritrea (1964)",
+        "Gaza (2007)",
+        "Islamic State, ISIS (2013)",
+        "Kachin State (1961)",
+        "Karen State (1949)",
+        "Kosovo (1998)",
+        "Krajina (1991)",
+        "Kurdistan (1991)",
+        "Mindanao (1973)",
+        "Nagorno-Karabakh (1991)",
+        "Palestine (1995)",
+        "Republika Srpska (1992)",
+        "Rojava (2013)",
+        "South Ossetia (1991)",
+        "Tamil Eelam (1984)",
+        "Transnistria (1991)",
+        "Western Sahara (1974)"
+      ],
+      "5": [
+        "Abkhazia (1991)",
+        "Chechnya (1991)",
+        "East Timor (1975)",
+        "Eritrea (1964)",
+        "Gaza (2007)",
+        "Kachin State (1961)",
+        "Karen State (1949)",
+        "Kosovo (1998)",
+        "Kurdistan (1991)",
+        "Mindanao (1973)",
+        "Nagorno-Karabakh (1991)",
+        "Palestine (1995)",
+        "Republika Srpska (1992)",
+        "South Ossetia (1991)",
+        "Tamil Eelam (1984)",
+        "Transnistria (1991)",
+        "Western Sahara (1974)"
+      ],
+      "10": [
+        "Abkhazia (1991)",
+        "Casamance (1982)",
+        "East Timor (1975)",
+        "Eritrea (1964)",
+        "Kachin State (1961)",
+        "Karen State (1949)",
+        "Kurdistan (1991)",
+        "Mindanao (1973)",
+        "Nagorno-Karabakh (1991)",
+        "Palestine (1995)",
+        "Republika Srpska (1992)",
+        "South Ossetia (1991)",
+        "South Sudan (1956)",
+        "Tamil Eelam (1984)",
+        "Transnistria (1991)",
+        "Western Sahara (1974)"
+      ]
+    },
+    "decided_differently": {
+      "1->2": [
+        "Tamil Eelam (1984): accepted 2002 at T=1, not at T=2; ended 2009, force",
+        "Azawad (2012): accepted 2013 at T=1, not at T=2; still held in 2016",
+        "Eritrea (1964): accepted 1992 at T=1, not at T=2; ended 1993, statehood"
+      ],
+      "2->3": [
+        "Chechnya (1991): accepted 1993 at T=2, not at T=3; ended 1999, force",
+        "Eastern Slavonia (1995): accepted 1997 at T=2, not at T=3; ended 1998, agreed",
+        "Mindanao (1973): accepted 1992 at T=2, not at T=3; still held in 2016",
+        "Gaza (2007): accepted 2016 at T=2, not at T=3; still held in 2016"
+      ],
+      "3->5": [
+        "Gagauzia (1991): accepted 1994 at T=3, not at T=5; ended 1995, agreed",
+        "Karen State (1949): accepted 2016 at T=3, not at T=5; still held in 2016",
+        "Palestine (1995): accepted 1999 at T=3, not at T=5; still held in 2016",
+        "Cyrenaica/East Libya (2012): accepted 2015 at T=3, not at T=5; still held in 2016",
+        "East Timor (1975): accepted 1991 at T=3, not at T=5; ended 2002, statehood"
+      ],
+      "5->10": [
+        "Casamance (1982): accepted 1987 at T=5, not at T=10; still held in 2016",
+        "Nagorno-Karabakh (1991): accepted 2003 at T=5, not at T=10; still held in 2016",
+        "Kosovo (1998): accepted 2004 at T=5, not at T=10; ended 2008, statehood"
+      ]
+    }
+  },
+  "held_at_end_of_data_not_accepted_under_some_T": [
+    {
+      "case": "Siachen (IND from PAK, 1984)",
+      "accepted_in": {
+        "1": 1985,
+        "2": 1986,
+        "3": 2006,
+        "5": 2008,
+        "10": null
+      },
+      "fighting_years": [
+        1984,
+        1987,
+        1989,
+        1990,
+        1991,
+        1992,
+        1994,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2025
+      ]
+    },
+    {
+      "case": "Crimea (RUS from UKR, 2014)",
+      "accepted_in": {
+        "1": 2015,
+        "2": 2016,
+        "3": 2017,
+        "5": 2019,
+        "10": null
+      },
+      "fighting_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "case": "Beyul Khenpajong; Menchuma Valley (CHN from BHU, 2015)",
+      "accepted_in": {
+        "1": 2016,
+        "2": 2017,
+        "3": 2018,
+        "5": 2020,
+        "10": null
+      },
+      "fighting_years": []
+    },
+    {
+      "case": "Areas around Talish; Lalatapa (AZE from ARM, 2016)",
+      "accepted_in": {
+        "1": 2017,
+        "2": 2018,
+        "3": 2019,
+        "5": 2021,
+        "10": null
+      },
+      "fighting_years": []
+    },
+    {
+      "case": "Ras Doumeira (p) and Doumeira Island (ERI from DJI, 2017)",
+      "accepted_in": {
+        "1": 2018,
+        "2": 2019,
+        "3": 2020,
+        "5": 2022,
+        "10": null
+      },
+      "fighting_years": []
+    },
+    {
+      "case": "Ladakh (p) (CHN from IND, 2020)",
+      "accepted_in": {
+        "1": 2021,
+        "2": 2022,
+        "3": 2023,
+        "5": null,
+        "10": null
+      },
+      "fighting_years": [
+        2020
+      ]
+    },
+    {
+      "case": "Nagorno-Karabakh (p); adjacent areas (AZE from ARM, 2020)",
+      "accepted_in": {
+        "1": 2021,
+        "2": 2022,
+        "3": 2023,
+        "5": null,
+        "10": null
+      },
+      "fighting_years": []
+    },
+    {
+      "case": "al-Fashaga (SUD from ETH, 2020)",
+      "accepted_in": {
+        "1": 2021,
+        "2": 2022,
+        "3": 2023,
+        "5": null,
+        "10": null
+      },
+      "fighting_years": []
+    },
+    {
+      "case": "Farukh (AZE from ARM, 2022)",
+      "accepted_in": {
+        "1": 2023,
+        "2": 2024,
+        "3": null,
+        "5": null,
+        "10": null
+      },
+      "fighting_years": []
+    },
+    {
+      "case": "Nagorno-Karabakh (p) (AZE from ARM, 2023)",
+      "accepted_in": {
+        "1": 2024,
+        "2": null,
+        "3": null,
+        "5": null,
+        "10": null
+      },
+      "fighting_years": []
+    }
+  ],
+  "linked_conflicts": {
+    "218": "Kashmir (India, Pakistan)",
+    "221": "Karen (Myanmar (Burma))",
+    "226": "Hyderabad (Hyderabad, India)",
+    "228": "Palestine (Egypt, Iraq, Israel, Jordan, Lebanon, Syria)",
+    "231": "Kachin (Myanmar (Burma))",
+    "232": "Taiwan strait (China, Taiwan)",
+    "234": "Palestine (Israel)",
+    "235": "Korea (North Korea, South Korea)",
+    "252": "Suez (Egypt, France, Israel, United Kingdom)",
+    "255": "Common Border (Honduras, Nicaragua)",
+    "265": "Katanga (DR Congo (Zaire))",
+    "268": "Ogaden (Ethiopia, Somalia)",
+    "271": "Kurdistan (Iraq)",
+    "274": "Aksai Chin, Arunachal Pradesh (China, India)",
+    "275": "Eritrea (Ethiopia)",
+    "278": "Common Border (Algeria, Morocco)",
+    "282": "Southern Sudan (Sudan)",
+    "293": "South Vietnam (South Vietnam, Vietnam (North Vietnam))",
+    "294": "Common Border (Cambodia (Kampuchea), Thailand)",
+    "301": "West Bank (Israel, Jordan)",
+    "302": "Golan Heights (Israel, Syria)",
+    "303": "Biafra (Nigeria)",
+    "305": "Ussuri river (China, Russia (Soviet Union))",
+    "306": "Common Border (El Salvador, Honduras)",
+    "308": "Mindanao (Philippines)",
+    "320": "Common border (South Yemen, Yemen (North Yemen))",
+    "323": "Northern Cyprus (Cyprus, Turkey)",
+    "324": "Various (Iran, Iraq)",
+    "328": "Common Border (Cambodia (Kampuchea), Vietnam (North Vietnam))",
+    "330": "East Timor (Indonesia)",
+    "331": "Sahrawi Arab Democratic Republic (Western Sahara) (Morocco)",
+    "334": "Various (China, Vietnam (North Vietnam))",
+    "346": "Malvinas/Falkland Islands (Argentina, United Kingdom)",
+    "349": "Lake Chad (Chad, Nigeria)",
+    "352": "Eelam (Sri Lanka)",
+    "355": "Agacher Strip (Burkina Faso, Mali)",
+    "356": "Common Border (Laos, Thailand)",
+    "361": "Aozou strip (Chad, Libya)",
+    "366": "Aceh (Indonesia)",
+    "369": "Bougainville (Papua New Guinea)",
+    "371": "Kuwait (Iraq, Kuwait)",
+    "372": "Azawad (Mali)",
+    "375": "Casamance (Senegal)",
+    "376": "Nagorno-Karabakh (Russia (Soviet Union))",
+    "387": "Cabinda (Angola)",
+    "388": "Artsakh (Nagorno-Karabakh) (Azerbaijan)",
+    "389": "Serb (Bosnia-Herzegovina)",
+    "390": "Serb (Croatia)",
+    "392": "Abkhazia (Georgia)",
+    "393": "South Ossetia (Georgia)",
+    "394": "Dniestr (Moldova)",
+    "401": "Chechnya (Russia (Soviet Union))",
+    "403": "Cordillera del Condor (Ecuador, Peru)",
+    "405": "Bakassi (Cameroon, Nigeria)",
+    "407": "Anjouan (Comoros)",
+    "409": "Common border (Eritrea, Ethiopia)",
+    "412": "Kosovo (Serbia (Yugoslavia))",
+    "427": "Kagera Salient (Tanzania, Uganda)",
+    "428": "Sahrawi Arab Democratic Republic (Western Sahara) (Mauritania)",
+    "435": "Common border (Djibouti, Eritrea)",
+    "11343": "Suez/Sinai (Egypt, Israel)",
+    "13042": "Rojava Kurdistan (Syria)",
+    "13243": "Crimea (Russia (Soviet Union), Ukraine)",
+    "13246": "Donetsk (Ukraine)",
+    "13247": "Lugansk (Ukraine)",
+    "13306": "Novorossiya (Ukraine)",
+    "13604": "Islamic State (Syria)",
+    "13809": "Rojava Kurdistan (Syria)",
+    "14074": "Somaliland (Somalia)",
+    "16038": "Azawad (Mali)"
+  }
+}

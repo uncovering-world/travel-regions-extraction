@@ -1,0 +1,38 @@
+source,key,ucdp_conflict_ids,basis
+mc,111,331;428,UCDP codes the fighting over Western Sahara as Morocco and Mauritania against POLISARIO; no conflict between the two states of the conquest row
+mc,112,330,UCDP codes the fighting over East Timor as Indonesia against Fretilin; no conflict between the two states of the conquest row
+florea,Katanga,265,territory name
+florea,Biafra,303,territory name
+florea,Krajina,390,territory 'Serb' in Croatia
+florea,Chechnya,401,territory name
+florea,Anjouan,407,territory name
+florea,Tamil Eelam,352,territory 'Eelam'
+florea,Bougainville,369,territory name
+florea,Eastern Slavonia,390,territory 'Serb' in Croatia
+florea,Aceh,366,territory name
+florea,Karen State,221,territory 'Karen'
+florea,Kachin State,231,territory 'Kachin'
+florea,Taiwan,232,territory 'Taiwan strait'
+florea,Mindanao,308,territory name
+florea,TRNC,323,territory 'Northern Cyprus'
+florea,Western Sahara,331;428,territory 'Sahrawi Arab Democratic Republic (Western Sahara)'
+florea,Cabinda,387,territory name
+florea,Casamance,375,territory name
+florea,Abkhazia,392,territory name
+florea,Kurdistan,271,territory 'Kurdistan' in Iraq
+florea,Nagorno-Karabakh,376;388,territories 'Nagorno-Karabakh' and 'Artsakh (Nagorno-Karabakh)'
+florea,Somaliland,14074,territory name
+florea,South Ossetia,393,territory name
+florea,Transnistria,394,territory 'Dniestr'
+florea,Republika Srpska,389,territory 'Serb' in Bosnia-Herzegovina
+florea,Palestine,234,territory name
+florea,Gaza,234,territory 'Palestine'
+florea,Azawad,372;16038,territory name
+florea,"Islamic State, ISIS",13604,territory 'Islamic State' in Syria
+florea,Rojava,13042;13809,territory 'Rojava Kurdistan'
+florea,Donetsk,13246;13306;13243,territories 'Donetsk' and 'Novorossiya'; from 2022 the interstate conflict between Russia and Ukraine
+florea,Luhansk,13247;13306;13243,territories 'Lugansk' and 'Novorossiya'; from 2022 the interstate conflict between Russia and Ukraine
+florea,Eritrea,275,territory name
+florea,East Timor,330,territory name
+florea,Kosovo,412,territory name
+florea,South Sudan,282,territory 'Southern Sudan'

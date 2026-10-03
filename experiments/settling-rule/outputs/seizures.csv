@@ -1,0 +1,79 @@
+acnum,year,holder,from,territory,ended,how,ucdp_conflicts,accepted_T1,accepted_T2,accepted_T3,accepted_T5,accepted_T10,plain_T1,plain_T2,plain_T3,plain_T5,plain_T10
+61,1950,PRK,ROK,South Korea,1950,force,235,,,,,,,,,,
+63,1952,BUL,GRC,Alpha and Gamma Islands,1952,pressure,,,,,,,,,,,
+64,1952,SAU,UKG,Buraimi,1955,force,,1953,1954,,,,1953,1954,,,
+65,1953,THI,CAM,Preah Vihear,1962,agreed,294,1954,1955,1956,1958,,1954,1955,1956,1958,
+66,1954,IND,POR,"Dadra, Nagar Haveli",,,,1955,1956,1957,1959,1964,1955,1956,1957,1959,1964
+67,1954,ROK,JPN,Dokdo (Takeshima) Islands,,,,1955,1956,1957,1959,1964,1955,1956,1957,1959,1964
+69,1956,ISR,EGY,Sinai; Gaza,1956,pressure,228;252;11343,,,,,,,,,,
+70,1957,NIC,HON,Mocoron,1957,force,255,,,,,,,,,,
+72,1957,MOR,SPN,Ifni (p); Cape Juby,,,,1958,1959,1960,1962,1967,1958,1959,1960,1962,1967
+73,1958,EGY,SUD,Hala’ib Triangle,1958,agreed,,,,,,,,,,,
+75,1959,IND,CHN,"Ladakh, Arunachal Pradesh borders (p)",1959,force,274,,,,,,,,,,
+77,1961,IND,POR,Goa,,,,1962,1963,1964,1966,1971,1962,1963,1964,1966,1971
+78,1961,CHN,IND,"Ladakh, Arunachal Pradesh borders (p)",,,274,1963,1964,1965,1972,1977,1962,1963,1964,1966,1971
+80,1963,MOR,ALG,Colomb-Bechar; Tindouf,1963,force,278,,,,,,,,,,
+82,1965,PAK,IND,Rann of Kutch (p),,,218,1966,1967,1968,1970,1981,1966,1967,1968,1970,1975
+84,1965,PAK,IND,Akhnur,1965,force,218,,,,,,,,,,
+86,1966,VEN,GUY,Ankoko Island,,,,1967,1968,1969,1971,1976,1967,1968,1969,1971,1976
+87,1967,ISR,EGY,Sinai; Gaza,1982,agreed,228;252;11343,1968,1972,1976,1978,,1968,1969,1970,1972,1977
+90,1968,PHI,CHN,Spratly Islands (p),,,,1969,1970,1971,1973,1978,1969,1970,1971,1973,1978
+91,1969,ARG,URU,Timoteo Dominguez (Punta Bauza),,,,1970,1971,1972,1974,1979,1970,1971,1972,1974,1979
+92,1969,CHN,RUS,Damansky (Zhenbao) Island,1969,force,305,,,,,,,,,,
+94,1969,SAL,HON,Gulf of Fonseca islands; six border pockets,1969,pressure,306,,,,,,,,,,
+95,1969,YPR,SAU,Al-Wadiah,1969,force,,,,,,,,,,,
+97,1971,IRN,UKG,Abu Musa; G. and L. Tunbs,,,,1972,1973,1974,1976,1981,1972,1973,1974,1976,1981
+98,1972,YEM,YPR,Kamaran; Dhala,,,320,1973,1974,1975,1977,1989,1973,1974,1975,1977,1982
+100,1973,IRQ,KUW,Al-Samita,1973,agreed,371,,,,,,,,,,
+101,1973,EGY,ISR,Sinai (p),1973,force,228;252;11343,,,,,,,,,,
+102,1973,SYR,ISR,Golan Heights (p),1973,force,228;302,,,,,,,,,,
+105,1974,CHN,RVN,Paracel Islands (p),,,,1975,1976,1977,1979,1984,1975,1976,1977,1979,1984
+107,1974,TUR,CYP,Northern Cyprus,,,323,1975,1976,1977,1979,1984,1975,1976,1977,1979,1984
+108,1974,DRV,RVN,South Vietnam,,,293,1976,1977,1978,1980,1985,1975,1976,1977,1979,1984
+109,1975,CAM,DRV,Phu Quoc; Tho Chu,1975,force,,,,,,,,,,,
+111,1975,MOR,SPN,Western Sahara,,,331;428,1990,1991,1992,1994,1999,1976,1977,1978,1980,1985
+112,1975,INS,ETM,East Timor,1999,agreed,330,1989,1990,1991,,,1976,1977,1978,1980,1985
+113,1976,ARG,UKG,Thule Island,1982,force,346,1977,1978,1979,1981,,1977,1978,1979,1981,
+114,1977,CAM,DRV,"Tay Ninh, Ha Tien, adjacent areas",1978,force,328,,,,,,,,,,
+115,1977,SOM,ETH,Ogaden,1978,force,268,,,,,,,,,,
+117,1978,UGA,TAZ,Kagera Salient,1978,force,427,,,,,,,,,,
+120,1979,YPR,YEM,Qataba; Harib; al-Baydha,1979,agreed,320,,,,,,,,,,
+121,1980,IRQ,IRN,Khuzestan,1981,force,324,,,,,,,,,,
+122,1981,ECU,PER,Cordillera del Condor (p),1981,force,403,,,,,,,,,,
+124,1981,IND,BNG,New Moore (South Talpatti; Purbasha) Island,2010,other,226,1982,1983,1984,1986,1991,1982,1983,1984,1986,1991
+126,1982,ARG,UKG,Falkland (Malvinas) Islands,1982,force,346,,,,,,,,,,
+128,1983,NIG,CHA,Islands in Lake Chad,,,349,1984,1985,1986,1988,1993,1984,1985,1986,1988,1993
+130,1983,MAL,CHN,Spratly Islands (p),,,,1984,1985,1986,1988,1993,1984,1985,1986,1988,1993
+131,1984,IND,PAK,Siachen,,,218,1985,1986,2006,2008,,1985,1986,1987,1989,1994
+132,1984,THI,LAO,Three-Village Border Region,1984,agreed,356,,,,,,,,,,
+133,1984,IND,CHN,Sumdorong Chu,1986,force,274,1985,,,,,1985,,,,
+134,1985,MAI,BFO,Agacher Strip,1985,agreed,355,,,,,,,,,,
+135,1986,QAT,BAH,Fasht al-Dibal,1986,agreed,,,,,,,,,,,
+136,1986,CHN,IND,Sumdorong Chu,1995,agreed,274,1987,1988,1989,1991,,1987,1988,1989,1991,
+137,1987,NIG,CAO,Islands in Lake Chad,,,405,1988,1989,1990,1992,2006,1988,1989,1990,1992,1997
+138,1987,THI,LAO,Rom Klao,,,356,1989,1990,1991,1993,1998,1988,1989,1990,1992,1997
+142,1988,CHN,DRV,Spratly Islands (p),,,334,1989,1990,1991,1993,1998,1989,1990,1991,1993,1998
+144,1990,PER,ECU,Cordillera del Condor (Pachacutec),1991,agreed,403,,,,,,,,,,
+145,1990,IRQ,KUW,Kuwait,1991,force,371,,,,,,,,,,
+146,1991,BOT,NAM,Kasikili/Sududo Island,,,,1992,1993,1994,1996,2001,1992,1993,1994,1996,2001
+147,1993,NIG,CAO,Bakassi; Diamant; Jabane,2008,agreed,405,1994,1995,1999,2001,2006,1994,1995,1996,1998,2003
+148,1994,CHN,PHI,Spratly Islands (p),,,,1995,1996,1997,1999,2004,1995,1996,1997,1999,2004
+149,1995,ECU,PER,Cenepa (p),1995,force,403,,,,,,,,,,
+151,1995,EGY,SUD,Hala’ib Triangle,,,,1996,1997,1998,2000,2005,1996,1997,1998,2000,2005
+152,1995,ERI,YEM,Hanish Islands (p),1998,agreed,,1996,1997,,,,1996,1997,,,
+153,1995,DRV,CAM,"Small Areas in Svay Rieng, Kompong Cham, Prey Veng Provinces",,,328,1996,1997,1998,2000,2005,1996,1997,1998,2000,2005
+154,1996,GRC,TUR,Imia (Kardak),1996,agreed,,,,,,,,,,,
+156,1998,ERI,ETH,Badme,1999,force,409,,,,,,,,,,
+158,1999,PAK,IND,Kargil,1999,force,218,,,,,,,,,,
+160,2002,MOR,SPN,Parsley (Perejil) Island,2002,force,,,,,,,,,,,
+162,2008,ERI,DJI,Ras Doumeira (p),2010,agreed,435,2009,,,,,2009,,,,
+163,2010,NIC,COS,Calero Island (p),2011,other,,,,,,,,,,,
+164,2014,RUS,UKR,Crimea,,,13243,2015,2016,2017,2019,,2015,2016,2017,2019,2024
+165,2015,CHN,BHU,Beyul Khenpajong; Menchuma Valley,,,,2016,2017,2018,2020,,2016,2017,2018,2020,
+166,2016,AZE,ARM,Areas around Talish; Lalatapa,,,,2017,2018,2019,2021,,2017,2018,2019,2021,
+167,2017,ERI,DJI,Ras Doumeira (p) and Doumeira Island,,,435,2018,2019,2020,2022,,2018,2019,2020,2022,
+169,2020,CHN,IND,Ladakh (p),,,274,2021,2022,2023,,,2021,2022,2023,,
+171,2020,AZE,ARM,Nagorno-Karabakh (p); adjacent areas,,,,2021,2022,2023,,,2021,2022,2023,,
+172,2020,SUD,ETH,al-Fashaga,,,,2021,2022,2023,,,2021,2022,2023,,
+174,2022,AZE,ARM,Farukh,,,,2023,2024,,,,2023,2024,,,
+175,2023,AZE,ARM,Nagorno-Karabakh (p),,,,2024,,,,,2024,,,,

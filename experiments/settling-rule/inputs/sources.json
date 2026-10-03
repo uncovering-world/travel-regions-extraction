@@ -1,0 +1,31 @@
+{
+  "modern_conquest": {
+    "title": "Modern Conquest dataset v3.0, in the replication files of Dan Altman, Taking Territory: The Persistence of Conquest Since 1945",
+    "publisher": "Dan Altman (author's website)",
+    "url": "https://dan-altman.weebly.com/uploads/3/2/3/1/32312379/taking_territory_replication_files.zip",
+    "member": "Taking Territory Replication Files/Modern Conquest v3.0.xlsx",
+    "sha256": "a36eae84414798de56dcfe17ab38f54d203d6df6065c5fa37f4a7c2f08ba44d3",
+    "version": "3.0, codebook last revised 12 May 2025",
+    "coverage": "conquest attempts by states, 1918-2024, year precision",
+    "read": "2026-10-03"
+  },
+  "ucdp_acd": {
+    "title": "UCDP/PRIO Armed Conflict Dataset v26.1",
+    "publisher": "Uppsala Conflict Data Program, Uppsala University",
+    "url": "https://ucdp.uu.se/downloads/ucdpprio/ucdp-prio-acd-261-csv.zip",
+    "sha256": "5f951743222964674a446e32a5a871077b29bd13349588d85fc59953d89c878a",
+    "version": "26.1",
+    "coverage": "conflict-years with at least 25 battle-related deaths, 1946-2025",
+    "licence": "CC BY 4.0",
+    "read": "2026-10-03"
+  },
+  "florea2020": {
+    "title": "Adrian Florea, 'Rebel governance in de facto states', European Journal of International Relations 26(4):1004-1031, Table 2 (p. 1016)",
+    "publisher": "University of Glasgow Enlighten (accepted version)",
+    "url": "https://eprints.gla.ac.uk/211623/1/211623.pdf",
+    "sha256": "aea5e4de6efbd3a76ef8ddf9afc4000bd71dc9d8a7956059bbbad7b8da300754",
+    "coverage": "40 de facto states, 1945-2016; every entity existed for at least 24 months",
+    "transcribed_to": "inputs/defacto_states.csv",
+    "read": "2026-10-03"
+  }
+}
