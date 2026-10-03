@@ -1,0 +1,5047 @@
+code,type,parent
+AD-02,Parish,
+AD-03,Parish,
+AD-04,Parish,
+AD-05,Parish,
+AD-06,Parish,
+AD-07,Parish,
+AD-08,Parish,
+AE-AJ,Emirate,
+AE-AZ,Emirate,
+AE-DU,Emirate,
+AE-FU,Emirate,
+AE-RK,Emirate,
+AE-SH,Emirate,
+AE-UQ,Emirate,
+AF-BAL,Province,
+AF-BAM,Province,
+AF-BDG,Province,
+AF-BDS,Province,
+AF-BGL,Province,
+AF-DAY,Province,
+AF-FRA,Province,
+AF-FYB,Province,
+AF-GHA,Province,
+AF-GHO,Province,
+AF-HEL,Province,
+AF-HER,Province,
+AF-JOW,Province,
+AF-KAB,Province,
+AF-KAN,Province,
+AF-KAP,Province,
+AF-KDZ,Province,
+AF-KHO,Province,
+AF-KNR,Province,
+AF-LAG,Province,
+AF-LOG,Province,
+AF-NAN,Province,
+AF-NIM,Province,
+AF-NUR,Province,
+AF-PAN,Province,
+AF-PAR,Province,
+AF-PIA,Province,
+AF-PKA,Province,
+AF-SAM,Province,
+AF-SAR,Province,
+AF-TAK,Province,
+AF-URU,Province,
+AF-WAR,Province,
+AF-ZAB,Province,
+AG-03,Parish,
+AG-04,Parish,
+AG-05,Parish,
+AG-06,Parish,
+AG-07,Parish,
+AG-08,Parish,
+AG-10,Dependency,
+AG-11,Dependency,
+AL-01,County,
+AL-02,County,
+AL-03,County,
+AL-04,County,
+AL-05,County,
+AL-06,County,
+AL-07,County,
+AL-08,County,
+AL-09,County,
+AL-10,County,
+AL-11,County,
+AL-12,County,
+AM-AG,Region,
+AM-AR,Region,
+AM-AV,Region,
+AM-ER,City,
+AM-GR,Region,
+AM-KT,Region,
+AM-LO,Region,
+AM-SH,Region,
+AM-SU,Region,
+AM-TV,Region,
+AM-VD,Region,
+AO-BGO,Province,
+AO-BGU,Province,
+AO-BIE,Province,
+AO-CAB,Province,
+AO-CCU,Province,
+AO-CNN,Province,
+AO-CNO,Province,
+AO-CUS,Province,
+AO-HUA,Province,
+AO-HUI,Province,
+AO-LNO,Province,
+AO-LSU,Province,
+AO-LUA,Province,
+AO-MAL,Province,
+AO-MOX,Province,
+AO-NAM,Province,
+AO-UIG,Province,
+AO-ZAI,Province,
+AR-A,Province,
+AR-B,Province,
+AR-C,City,
+AR-D,Province,
+AR-E,Province,
+AR-F,Province,
+AR-G,Province,
+AR-H,Province,
+AR-J,Province,
+AR-K,Province,
+AR-L,Province,
+AR-M,Province,
+AR-N,Province,
+AR-P,Province,
+AR-Q,Province,
+AR-R,Province,
+AR-S,Province,
+AR-T,Province,
+AR-U,Province,
+AR-V,Province,
+AR-W,Province,
+AR-X,Province,
+AR-Y,Province,
+AR-Z,Province,
+AT-1,State,
+AT-2,State,
+AT-3,State,
+AT-4,State,
+AT-5,State,
+AT-6,State,
+AT-7,State,
+AT-8,State,
+AT-9,State,
+AU-ACT,Territory,
+AU-NSW,State,
+AU-NT,Territory,
+AU-QLD,State,
+AU-SA,State,
+AU-TAS,State,
+AU-VIC,State,
+AU-WA,State,
+AZ-ABS,Rayon,
+AZ-AGA,Rayon,
+AZ-AGC,Rayon,
+AZ-AGM,Rayon,
+AZ-AGS,Rayon,
+AZ-AGU,Rayon,
+AZ-AST,Rayon,
+AZ-BA,Municipality,
+AZ-BAB,Rayon,AZ-NX
+AZ-BAL,Rayon,
+AZ-BAR,Rayon,
+AZ-BEY,Rayon,
+AZ-BIL,Rayon,
+AZ-CAB,Rayon,
+AZ-CAL,Rayon,
+AZ-CUL,Rayon,AZ-NX
+AZ-DAS,Rayon,
+AZ-FUZ,Rayon,
+AZ-GA,Municipality,
+AZ-GAD,Rayon,
+AZ-GOR,Rayon,
+AZ-GOY,Rayon,
+AZ-GYG,Rayon,
+AZ-HAC,Rayon,
+AZ-IMI,Rayon,
+AZ-ISM,Rayon,
+AZ-KAL,Rayon,
+AZ-KAN,Rayon,AZ-NX
+AZ-KUR,Rayon,
+AZ-LA,Municipality,
+AZ-LAC,Rayon,
+AZ-LAN,Rayon,
+AZ-LER,Rayon,
+AZ-MAS,Rayon,
+AZ-MI,Municipality,
+AZ-NA,Municipality,
+AZ-NEF,Rayon,
+AZ-NV,Municipality,AZ-NX
+AZ-NX,Autonomous republic,
+AZ-OGU,Rayon,
+AZ-ORD,Rayon,AZ-NX
+AZ-QAB,Rayon,
+AZ-QAX,Rayon,
+AZ-QAZ,Rayon,
+AZ-QBA,Rayon,
+AZ-QBI,Rayon,
+AZ-QOB,Rayon,
+AZ-QUS,Rayon,
+AZ-SA,Municipality,
+AZ-SAB,Rayon,
+AZ-SAD,Rayon,AZ-NX
+AZ-SAH,Rayon,AZ-NX
+AZ-SAK,Rayon,
+AZ-SAL,Rayon,
+AZ-SAR,Rayon,AZ-NX
+AZ-SAT,Rayon,
+AZ-SBN,Rayon,
+AZ-SIY,Rayon,
+AZ-SKR,Rayon,
+AZ-SM,Municipality,
+AZ-SMI,Rayon,
+AZ-SMX,Rayon,
+AZ-SR,Municipality,
+AZ-SUS,Rayon,
+AZ-TAR,Rayon,
+AZ-TOV,Rayon,
+AZ-UCA,Rayon,
+AZ-XA,Municipality,
+AZ-XAC,Rayon,
+AZ-XCI,Rayon,
+AZ-XIZ,Rayon,
+AZ-XVD,Rayon,
+AZ-YAR,Rayon,
+AZ-YE,Municipality,
+AZ-YEV,Rayon,
+AZ-ZAN,Rayon,
+AZ-ZAQ,Rayon,
+AZ-ZAR,Rayon,
+BA-BIH,Entity,
+BA-BRC,District with special status,
+BA-SRP,Entity,
+BB-01,Parish,
+BB-02,Parish,
+BB-03,Parish,
+BB-04,Parish,
+BB-05,Parish,
+BB-06,Parish,
+BB-07,Parish,
+BB-08,Parish,
+BB-09,Parish,
+BB-10,Parish,
+BB-11,Parish,
+BD-01,District,BD-B
+BD-02,District,BD-A
+BD-03,District,BD-E
+BD-04,District,BD-B
+BD-05,District,BD-D
+BD-06,District,BD-A
+BD-07,District,BD-A
+BD-08,District,BD-B
+BD-09,District,BD-B
+BD-10,District,BD-B
+BD-11,District,BD-B
+BD-12,District,BD-D
+BD-13,District,BD-C
+BD-14,District,BD-F
+BD-15,District,BD-C
+BD-16,District,BD-B
+BD-17,District,BD-C
+BD-18,District,BD-C
+BD-19,District,BD-F
+BD-20,District,BD-G
+BD-21,District,BD-H
+BD-22,District,BD-D
+BD-23,District,BD-D
+BD-24,District,BD-E
+BD-25,District,BD-A
+BD-26,District,BD-C
+BD-27,District,BD-D
+BD-28,District,BD-F
+BD-29,District,BD-B
+BD-30,District,BD-D
+BD-31,District,BD-B
+BD-32,District,BD-F
+BD-33,District,BD-C
+BD-34,District,BD-H
+BD-35,District,BD-C
+BD-36,District,BD-C
+BD-37,District,BD-D
+BD-38,District,BD-G
+BD-39,District,BD-D
+BD-40,District,BD-C
+BD-41,District,BD-H
+BD-42,District,BD-C
+BD-43,District,BD-D
+BD-44,District,BD-E
+BD-45,District,BD-E
+BD-46,District,BD-F
+BD-47,District,BD-B
+BD-48,District,BD-E
+BD-49,District,BD-E
+BD-50,District,BD-A
+BD-51,District,BD-A
+BD-52,District,BD-F
+BD-53,District,BD-C
+BD-54,District,BD-E
+BD-55,District,BD-F
+BD-56,District,BD-B
+BD-57,District,BD-H
+BD-58,District,BD-D
+BD-59,District,BD-E
+BD-60,District,BD-G
+BD-61,District,BD-G
+BD-62,District,BD-C
+BD-63,District,BD-C
+BD-64,District,BD-F
+BD-A,Division,
+BD-B,Division,
+BD-C,Division,
+BD-D,Division,
+BD-E,Division,
+BD-F,Division,
+BD-G,Division,
+BD-H,Division,
+BE-BRU,Region,
+BE-VAN,Province,BE-VLG
+BE-VBR,Province,BE-VLG
+BE-VLG,Region,
+BE-VLI,Province,BE-VLG
+BE-VOV,Province,BE-VLG
+BE-VWV,Province,BE-VLG
+BE-WAL,Region,
+BE-WBR,Province,BE-WAL
+BE-WHT,Province,BE-WAL
+BE-WLG,Province,BE-WAL
+BE-WLX,Province,BE-WAL
+BE-WNA,Province,BE-WAL
+BF-01,Region,
+BF-02,Region,
+BF-03,Region,
+BF-04,Region,
+BF-05,Region,
+BF-06,Region,
+BF-07,Region,
+BF-08,Region,
+BF-09,Region,
+BF-10,Region,
+BF-11,Region,
+BF-12,Region,
+BF-13,Region,
+BF-BAL,Province,BF-01
+BF-BAM,Province,BF-05
+BF-BAN,Province,BF-01
+BF-BAZ,Province,BF-07
+BF-BGR,Province,BF-13
+BF-BLG,Province,BF-04
+BF-BLK,Province,BF-06
+BF-COM,Province,BF-02
+BF-GAN,Province,BF-11
+BF-GNA,Province,BF-08
+BF-GOU,Province,BF-08
+BF-HOU,Province,BF-09
+BF-IOB,Province,BF-13
+BF-KAD,Province,BF-03
+BF-KEN,Province,BF-09
+BF-KMD,Province,BF-08
+BF-KMP,Province,BF-08
+BF-KOP,Province,BF-04
+BF-KOS,Province,BF-01
+BF-KOT,Province,BF-04
+BF-KOW,Province,BF-11
+BF-LER,Province,BF-02
+BF-LOR,Province,BF-10
+BF-MOU,Province,BF-01
+BF-NAM,Province,BF-05
+BF-NAO,Province,BF-07
+BF-NAY,Province,BF-01
+BF-NOU,Province,BF-13
+BF-OUB,Province,BF-11
+BF-OUD,Province,BF-12
+BF-PAS,Province,BF-10
+BF-PON,Province,BF-13
+BF-SEN,Province,BF-12
+BF-SIS,Province,BF-06
+BF-SMT,Province,BF-05
+BF-SNG,Province,BF-06
+BF-SOM,Province,BF-12
+BF-SOR,Province,BF-01
+BF-TAP,Province,BF-08
+BF-TUI,Province,BF-09
+BF-YAG,Province,BF-12
+BF-YAT,Province,BF-10
+BF-ZIR,Province,BF-06
+BF-ZON,Province,BF-10
+BF-ZOU,Province,BF-07
+BG-01,District,
+BG-02,District,
+BG-03,District,
+BG-04,District,
+BG-05,District,
+BG-06,District,
+BG-07,District,
+BG-08,District,
+BG-09,District,
+BG-10,District,
+BG-11,District,
+BG-12,District,
+BG-13,District,
+BG-14,District,
+BG-15,District,
+BG-16,District,
+BG-17,District,
+BG-18,District,
+BG-19,District,
+BG-20,District,
+BG-21,District,
+BG-22,District,
+BG-23,District,
+BG-24,District,
+BG-25,District,
+BG-26,District,
+BG-27,District,
+BG-28,District,
+BH-13,Governorate,
+BH-14,Governorate,
+BH-15,Governorate,
+BH-17,Governorate,
+BI-BB,Province,
+BI-BL,Province,
+BI-BM,Province,
+BI-BR,Province,
+BI-CA,Province,
+BI-CI,Province,
+BI-GI,Province,
+BI-KI,Province,
+BI-KR,Province,
+BI-KY,Province,
+BI-MA,Province,
+BI-MU,Province,
+BI-MW,Province,
+BI-MY,Province,
+BI-NG,Province,
+BI-RM,Province,
+BI-RT,Province,
+BI-RY,Province,
+BJ-AK,Department,
+BJ-AL,Department,
+BJ-AQ,Department,
+BJ-BO,Department,
+BJ-CO,Department,
+BJ-DO,Department,
+BJ-KO,Department,
+BJ-LI,Department,
+BJ-MO,Department,
+BJ-OU,Department,
+BJ-PL,Department,
+BJ-ZO,Department,
+BN-BE,District,
+BN-BM,District,
+BN-TE,District,
+BN-TU,District,
+BO-B,Department,
+BO-C,Department,
+BO-H,Department,
+BO-L,Department,
+BO-N,Department,
+BO-O,Department,
+BO-P,Department,
+BO-S,Department,
+BO-T,Department,
+BQ-BO,Special municipality,
+BQ-SA,Special municipality,
+BQ-SE,Special municipality,
+BR-AC,State,
+BR-AL,State,
+BR-AM,State,
+BR-AP,State,
+BR-BA,State,
+BR-CE,State,
+BR-DF,Federal district,
+BR-ES,State,
+BR-GO,State,
+BR-MA,State,
+BR-MG,State,
+BR-MS,State,
+BR-MT,State,
+BR-PA,State,
+BR-PB,State,
+BR-PE,State,
+BR-PI,State,
+BR-PR,State,
+BR-RJ,State,
+BR-RN,State,
+BR-RO,State,
+BR-RR,State,
+BR-RS,State,
+BR-SC,State,
+BR-SE,State,
+BR-SP,State,
+BR-TO,State,
+BS-AK,District,
+BS-BI,District,
+BS-BP,District,
+BS-BY,District,
+BS-CE,District,
+BS-CI,District,
+BS-CK,District,
+BS-CO,District,
+BS-CS,District,
+BS-EG,District,
+BS-EX,District,
+BS-FP,District,
+BS-GC,District,
+BS-HI,District,
+BS-HT,District,
+BS-IN,District,
+BS-LI,District,
+BS-MC,District,
+BS-MG,District,
+BS-MI,District,
+BS-NE,District,
+BS-NO,District,
+BS-NP,Island,
+BS-NS,District,
+BS-RC,District,
+BS-RI,District,
+BS-SA,District,
+BS-SE,District,
+BS-SO,District,
+BS-SS,District,
+BS-SW,District,
+BS-WG,District,
+BT-11,District,
+BT-12,District,
+BT-13,District,
+BT-14,District,
+BT-15,District,
+BT-21,District,
+BT-22,District,
+BT-23,District,
+BT-24,District,
+BT-31,District,
+BT-32,District,
+BT-33,District,
+BT-34,District,
+BT-41,District,
+BT-42,District,
+BT-43,District,
+BT-44,District,
+BT-45,District,
+BT-GA,District,
+BT-TY,District,
+BW-CE,District,
+BW-CH,District,
+BW-FR,City,
+BW-GA,City,
+BW-GH,District,
+BW-JW,Town,
+BW-KG,District,
+BW-KL,District,
+BW-KW,District,
+BW-LO,Town,
+BW-NE,District,
+BW-NW,District,
+BW-SE,District,
+BW-SO,District,
+BW-SP,Town,
+BW-ST,Town,
+BY-BR,Oblast,
+BY-HM,City,
+BY-HO,Oblast,
+BY-HR,Oblast,
+BY-MA,Oblast,
+BY-MI,Oblast,
+BY-VI,Oblast,
+BZ-BZ,District,
+BZ-CY,District,
+BZ-CZL,District,
+BZ-OW,District,
+BZ-SC,District,
+BZ-TOL,District,
+CA-AB,Province,
+CA-BC,Province,
+CA-MB,Province,
+CA-NB,Province,
+CA-NL,Province,
+CA-NS,Province,
+CA-NT,Territory,
+CA-NU,Territory,
+CA-ON,Province,
+CA-PE,Province,
+CA-QC,Province,
+CA-SK,Province,
+CA-YT,Territory,
+CD-BC,Province,
+CD-BU,Province,
+CD-EQ,Province,
+CD-HK,Province,
+CD-HL,Province,
+CD-HU,Province,
+CD-IT,Province,
+CD-KC,Province,
+CD-KE,Province,
+CD-KG,Province,
+CD-KL,Province,
+CD-KN,City,
+CD-KS,Province,
+CD-LO,Province,
+CD-LU,Province,
+CD-MA,Province,
+CD-MN,Province,
+CD-MO,Province,
+CD-NK,Province,
+CD-NU,Province,
+CD-SA,Province,
+CD-SK,Province,
+CD-SU,Province,
+CD-TA,Province,
+CD-TO,Province,
+CD-TU,Province,
+CF-AC,Prefecture,
+CF-BB,Prefecture,
+CF-BGF,Commune,
+CF-BK,Prefecture,
+CF-HK,Prefecture,
+CF-HM,Prefecture,
+CF-HS,Prefecture,
+CF-KB,Economic prefecture,
+CF-KG,Prefecture,
+CF-LB,Prefecture,
+CF-MB,Prefecture,
+CF-MP,Prefecture,
+CF-NM,Prefecture,
+CF-OP,Prefecture,
+CF-SE,Economic prefecture,
+CF-UK,Prefecture,
+CF-VK,Prefecture,
+CG-11,Department,
+CG-12,Department,
+CG-13,Department,
+CG-14,Department,
+CG-15,Department,
+CG-16,Department,
+CG-2,Department,
+CG-5,Department,
+CG-7,Department,
+CG-8,Department,
+CG-9,Department,
+CG-BZV,Department,
+CH-AG,Canton,
+CH-AI,Canton,
+CH-AR,Canton,
+CH-BE,Canton,
+CH-BL,Canton,
+CH-BS,Canton,
+CH-FR,Canton,
+CH-GE,Canton,
+CH-GL,Canton,
+CH-GR,Canton,
+CH-JU,Canton,
+CH-LU,Canton,
+CH-NE,Canton,
+CH-NW,Canton,
+CH-OW,Canton,
+CH-SG,Canton,
+CH-SH,Canton,
+CH-SO,Canton,
+CH-SZ,Canton,
+CH-TG,Canton,
+CH-TI,Canton,
+CH-UR,Canton,
+CH-VD,Canton,
+CH-VS,Canton,
+CH-ZG,Canton,
+CH-ZH,Canton,
+CI-AB,Autonomous district,
+CI-BS,District,
+CI-CM,District,
+CI-DN,District,
+CI-GD,District,
+CI-LC,District,
+CI-LG,District,
+CI-MG,District,
+CI-SM,District,
+CI-SV,District,
+CI-VB,District,
+CI-WR,District,
+CI-YM,Autonomous district,
+CI-ZZ,District,
+CL-AI,Region,
+CL-AN,Region,
+CL-AP,Region,
+CL-AR,Region,
+CL-AT,Region,
+CL-BI,Region,
+CL-CO,Region,
+CL-LI,Region,
+CL-LL,Region,
+CL-LR,Region,
+CL-MA,Region,
+CL-ML,Region,
+CL-NB,Region,
+CL-RM,Region,
+CL-TA,Region,
+CL-VS,Region,
+CM-AD,Region,
+CM-CE,Region,
+CM-EN,Region,
+CM-ES,Region,
+CM-LT,Region,
+CM-NO,Region,
+CM-NW,Region,
+CM-OU,Region,
+CM-SU,Region,
+CM-SW,Region,
+CN-AH,Province,
+CN-BJ,Municipality,
+CN-CQ,Municipality,
+CN-FJ,Province,
+CN-GD,Province,
+CN-GS,Province,
+CN-GX,Autonomous region,
+CN-GZ,Province,
+CN-HA,Province,
+CN-HB,Province,
+CN-HE,Province,
+CN-HI,Province,
+CN-HK,Special administrative region,
+CN-HL,Province,
+CN-HN,Province,
+CN-JL,Province,
+CN-JS,Province,
+CN-JX,Province,
+CN-LN,Province,
+CN-MO,Special administrative region,
+CN-NM,Autonomous region,
+CN-NX,Autonomous region,
+CN-QH,Province,
+CN-SC,Province,
+CN-SD,Province,
+CN-SH,Municipality,
+CN-SN,Province,
+CN-SX,Province,
+CN-TJ,Municipality,
+CN-TW,Province,
+CN-XJ,Autonomous region,
+CN-XZ,Autonomous region,
+CN-YN,Province,
+CN-ZJ,Province,
+CO-AMA,Department,
+CO-ANT,Department,
+CO-ARA,Department,
+CO-ATL,Department,
+CO-BOL,Department,
+CO-BOY,Department,
+CO-CAL,Department,
+CO-CAQ,Department,
+CO-CAS,Department,
+CO-CAU,Department,
+CO-CES,Department,
+CO-CHO,Department,
+CO-COR,Department,
+CO-CUN,Department,
+CO-DC,Capital district,
+CO-GUA,Department,
+CO-GUV,Department,
+CO-HUI,Department,
+CO-LAG,Department,
+CO-MAG,Department,
+CO-MET,Department,
+CO-NAR,Department,
+CO-NSA,Department,
+CO-PUT,Department,
+CO-QUI,Department,
+CO-RIS,Department,
+CO-SAN,Department,
+CO-SAP,Department,
+CO-SUC,Department,
+CO-TOL,Department,
+CO-VAC,Department,
+CO-VAU,Department,
+CO-VID,Department,
+CR-A,Province,
+CR-C,Province,
+CR-G,Province,
+CR-H,Province,
+CR-L,Province,
+CR-P,Province,
+CR-SJ,Province,
+CU-01,Province,
+CU-03,Province,
+CU-04,Province,
+CU-05,Province,
+CU-06,Province,
+CU-07,Province,
+CU-08,Province,
+CU-09,Province,
+CU-10,Province,
+CU-11,Province,
+CU-12,Province,
+CU-13,Province,
+CU-14,Province,
+CU-15,Province,
+CU-16,Province,
+CU-99,Special municipality,
+CV-B,Geographical region,
+CV-BR,Municipality,CV-S
+CV-BV,Municipality,CV-B
+CV-CA,Municipality,CV-S
+CV-CF,Municipality,CV-S
+CV-CR,Municipality,CV-S
+CV-MA,Municipality,CV-S
+CV-MO,Municipality,CV-S
+CV-PA,Municipality,CV-B
+CV-PN,Municipality,CV-B
+CV-PR,Municipality,CV-S
+CV-RB,Municipality,CV-B
+CV-RG,Municipality,CV-B
+CV-RS,Municipality,CV-S
+CV-S,Geographical region,
+CV-SD,Municipality,CV-S
+CV-SF,Municipality,CV-S
+CV-SL,Municipality,CV-B
+CV-SM,Municipality,CV-S
+CV-SO,Municipality,CV-S
+CV-SS,Municipality,CV-S
+CV-SV,Municipality,CV-B
+CV-TA,Municipality,CV-S
+CV-TS,Municipality,CV-B
+CY-01,District,
+CY-02,District,
+CY-03,District,
+CY-04,District,
+CY-05,District,
+CY-06,District,
+CZ-10,Capital city,
+CZ-20,Region,
+CZ-201,District,CZ-20
+CZ-202,District,CZ-20
+CZ-203,District,CZ-20
+CZ-204,District,CZ-20
+CZ-205,District,CZ-20
+CZ-206,District,CZ-20
+CZ-207,District,CZ-20
+CZ-208,District,CZ-20
+CZ-209,District,CZ-20
+CZ-20A,District,CZ-20
+CZ-20B,District,CZ-20
+CZ-20C,District,CZ-20
+CZ-31,Region,
+CZ-311,District,CZ-31
+CZ-312,District,CZ-31
+CZ-313,District,CZ-31
+CZ-314,District,CZ-31
+CZ-315,District,CZ-31
+CZ-316,District,CZ-31
+CZ-317,District,CZ-31
+CZ-32,Region,
+CZ-321,District,CZ-32
+CZ-322,District,CZ-32
+CZ-323,District,CZ-32
+CZ-324,District,CZ-32
+CZ-325,District,CZ-32
+CZ-326,District,CZ-32
+CZ-327,District,CZ-32
+CZ-41,Region,
+CZ-411,District,CZ-41
+CZ-412,District,CZ-41
+CZ-413,District,CZ-41
+CZ-42,Region,
+CZ-421,District,CZ-42
+CZ-422,District,CZ-42
+CZ-423,District,CZ-42
+CZ-424,District,CZ-42
+CZ-425,District,CZ-42
+CZ-426,District,CZ-42
+CZ-427,District,CZ-42
+CZ-51,Region,
+CZ-511,District,CZ-51
+CZ-512,District,CZ-51
+CZ-513,District,CZ-51
+CZ-514,District,CZ-51
+CZ-52,Region,
+CZ-521,District,CZ-52
+CZ-522,District,CZ-52
+CZ-523,District,CZ-52
+CZ-524,District,CZ-52
+CZ-525,District,CZ-52
+CZ-53,Region,
+CZ-531,District,CZ-53
+CZ-532,District,CZ-53
+CZ-533,District,CZ-53
+CZ-534,District,CZ-53
+CZ-63,Region,
+CZ-631,District,CZ-63
+CZ-632,District,CZ-63
+CZ-633,District,CZ-63
+CZ-634,District,CZ-63
+CZ-635,District,CZ-63
+CZ-64,Region,
+CZ-641,District,CZ-64
+CZ-642,District,CZ-64
+CZ-643,District,CZ-64
+CZ-644,District,CZ-64
+CZ-645,District,CZ-64
+CZ-646,District,CZ-64
+CZ-647,District,CZ-64
+CZ-71,Region,
+CZ-711,District,CZ-71
+CZ-712,District,CZ-71
+CZ-713,District,CZ-71
+CZ-714,District,CZ-71
+CZ-715,District,CZ-71
+CZ-72,Region,
+CZ-721,District,CZ-72
+CZ-722,District,CZ-72
+CZ-723,District,CZ-72
+CZ-724,District,CZ-72
+CZ-80,Region,
+CZ-801,District,CZ-80
+CZ-802,District,CZ-80
+CZ-803,District,CZ-80
+CZ-804,District,CZ-80
+CZ-805,District,CZ-80
+CZ-806,District,CZ-80
+DE-BB,Land,
+DE-BE,Land,
+DE-BW,Land,
+DE-BY,Land,
+DE-HB,Land,
+DE-HE,Land,
+DE-HH,Land,
+DE-MV,Land,
+DE-NI,Land,
+DE-NW,Land,
+DE-RP,Land,
+DE-SH,Land,
+DE-SL,Land,
+DE-SN,Land,
+DE-ST,Land,
+DE-TH,Land,
+DJ-AR,Region,
+DJ-AS,Region,
+DJ-DI,Region,
+DJ-DJ,City,
+DJ-OB,Region,
+DJ-TA,Region,
+DK-81,Region,
+DK-82,Region,
+DK-83,Region,
+DK-84,Region,
+DK-85,Region,
+DM-02,Parish,
+DM-03,Parish,
+DM-04,Parish,
+DM-05,Parish,
+DM-06,Parish,
+DM-07,Parish,
+DM-08,Parish,
+DM-09,Parish,
+DM-10,Parish,
+DM-11,Parish,
+DO-01,District,DO-40
+DO-02,Province,DO-41
+DO-03,Province,DO-38
+DO-04,Province,DO-38
+DO-05,Province,DO-34
+DO-06,Province,DO-33
+DO-07,Province,DO-37
+DO-08,Province,DO-42
+DO-09,Province,DO-35
+DO-10,Province,DO-38
+DO-11,Province,DO-42
+DO-12,Province,DO-42
+DO-13,Province,DO-36
+DO-14,Province,DO-33
+DO-15,Province,DO-34
+DO-16,Province,DO-38
+DO-17,Province,DO-41
+DO-18,Province,DO-35
+DO-19,Province,DO-33
+DO-20,Province,DO-33
+DO-21,Province,DO-41
+DO-22,Province,DO-37
+DO-23,Province,DO-39
+DO-24,Province,DO-36
+DO-25,Province,DO-35
+DO-26,Province,DO-34
+DO-27,Province,DO-34
+DO-28,Province,DO-36
+DO-29,Province,DO-39
+DO-30,Province,DO-39
+DO-31,Province,DO-41
+DO-32,Province,DO-40
+DO-33,Region,
+DO-34,Region,
+DO-35,Region,
+DO-36,Region,
+DO-37,Region,
+DO-38,Region,
+DO-39,Region,
+DO-40,Region,
+DO-41,Region,
+DO-42,Region,
+DZ-01,Province,
+DZ-02,Province,
+DZ-03,Province,
+DZ-04,Province,
+DZ-05,Province,
+DZ-06,Province,
+DZ-07,Province,
+DZ-08,Province,
+DZ-09,Province,
+DZ-10,Province,
+DZ-11,Province,
+DZ-12,Province,
+DZ-13,Province,
+DZ-14,Province,
+DZ-15,Province,
+DZ-16,Province,
+DZ-17,Province,
+DZ-18,Province,
+DZ-19,Province,
+DZ-20,Province,
+DZ-21,Province,
+DZ-22,Province,
+DZ-23,Province,
+DZ-24,Province,
+DZ-25,Province,
+DZ-26,Province,
+DZ-27,Province,
+DZ-28,Province,
+DZ-29,Province,
+DZ-30,Province,
+DZ-31,Province,
+DZ-32,Province,
+DZ-33,Province,
+DZ-34,Province,
+DZ-35,Province,
+DZ-36,Province,
+DZ-37,Province,
+DZ-38,Province,
+DZ-39,Province,
+DZ-40,Province,
+DZ-41,Province,
+DZ-42,Province,
+DZ-43,Province,
+DZ-44,Province,
+DZ-45,Province,
+DZ-46,Province,
+DZ-47,Province,
+DZ-48,Province,
+DZ-49,Province,
+DZ-50,Province,
+DZ-51,Province,
+DZ-52,Province,
+DZ-53,Province,
+DZ-54,Province,
+DZ-55,Province,
+DZ-56,Province,
+DZ-57,Province,
+DZ-58,Province,
+EC-A,Province,
+EC-B,Province,
+EC-C,Province,
+EC-D,Province,
+EC-E,Province,
+EC-F,Province,
+EC-G,Province,
+EC-H,Province,
+EC-I,Province,
+EC-L,Province,
+EC-M,Province,
+EC-N,Province,
+EC-O,Province,
+EC-P,Province,
+EC-R,Province,
+EC-S,Province,
+EC-SD,Province,
+EC-SE,Province,
+EC-T,Province,
+EC-U,Province,
+EC-W,Province,
+EC-X,Province,
+EC-Y,Province,
+EC-Z,Province,
+EE-130,Rural municipality,EE-45
+EE-141,Rural municipality,EE-37
+EE-142,Rural municipality,EE-87
+EE-171,Rural municipality,EE-79
+EE-184,Urban municipality,EE-56
+EE-191,Rural municipality,EE-60
+EE-198,Rural municipality,EE-37
+EE-205,Rural municipality,EE-39
+EE-214,Rural municipality,EE-68
+EE-245,Rural municipality,EE-37
+EE-247,Rural municipality,EE-50
+EE-251,Rural municipality,EE-45
+EE-255,Rural municipality,EE-52
+EE-272,Rural municipality,EE-60
+EE-283,Rural municipality,EE-79
+EE-284,Rural municipality,EE-64
+EE-291,Rural municipality,EE-79
+EE-293,Rural municipality,EE-71
+EE-296,Urban municipality,EE-37
+EE-303,Rural municipality,EE-68
+EE-305,Rural municipality,EE-37
+EE-317,Rural municipality,EE-71
+EE-321,Urban municipality,EE-45
+EE-338,Rural municipality,EE-37
+EE-353,Rural municipality,EE-37
+EE-37,County,
+EE-39,County,
+EE-424,Urban municipality,EE-37
+EE-430,Rural municipality,EE-68
+EE-431,Rural municipality,EE-37
+EE-432,Rural municipality,EE-79
+EE-441,Rural municipality,EE-56
+EE-442,Rural municipality,EE-45
+EE-446,Urban municipality,EE-37
+EE-45,County,
+EE-478,Rural municipality,EE-74
+EE-480,Rural municipality,EE-84
+EE-486,Rural municipality,EE-50
+EE-50,County,
+EE-503,Rural municipality,EE-71
+EE-511,Urban municipality,EE-45
+EE-514,Urban municipality,EE-45
+EE-52,County,
+EE-528,Rural municipality,EE-79
+EE-557,Rural municipality,EE-81
+EE-56,County,
+EE-567,Urban municipality,EE-52
+EE-586,Rural municipality,EE-79
+EE-60,County,
+EE-615,Rural municipality,EE-84
+EE-618,Rural municipality,EE-50
+EE-622,Rural municipality,EE-64
+EE-624,Urban municipality,EE-68
+EE-638,Rural municipality,EE-68
+EE-64,County,
+EE-651,Rural municipality,EE-37
+EE-653,Rural municipality,EE-37
+EE-661,Rural municipality,EE-60
+EE-663,Urban municipality,EE-60
+EE-668,Rural municipality,EE-71
+EE-68,County,
+EE-689,Rural municipality,EE-74
+EE-698,Rural municipality,EE-87
+EE-708,Rural municipality,EE-64
+EE-71,County,
+EE-712,Rural municipality,EE-68
+EE-714,Rural municipality,EE-74
+EE-719,Rural municipality,EE-37
+EE-726,Rural municipality,EE-37
+EE-732,Rural municipality,EE-87
+EE-735,Urban municipality,EE-45
+EE-74,County,
+EE-784,Urban municipality,EE-37
+EE-79,County,
+EE-792,Rural municipality,EE-60
+EE-793,Urban municipality,EE-79
+EE-796,Rural municipality,EE-79
+EE-803,Rural municipality,EE-45
+EE-809,Rural municipality,EE-68
+EE-81,County,
+EE-824,Rural municipality,EE-81
+EE-834,Rural municipality,EE-52
+EE-84,County,
+EE-855,Rural municipality,EE-81
+EE-87,County,
+EE-890,Rural municipality,EE-37
+EE-897,Urban municipality,EE-84
+EE-899,Rural municipality,EE-84
+EE-901,Rural municipality,EE-60
+EE-903,Rural municipality,EE-60
+EE-907,Rural municipality,EE-56
+EE-917,Rural municipality,EE-87
+EE-919,Urban municipality,EE-87
+EE-928,Rural municipality,EE-60
+EG-ALX,Governorate,
+EG-ASN,Governorate,
+EG-AST,Governorate,
+EG-BA,Governorate,
+EG-BH,Governorate,
+EG-BNS,Governorate,
+EG-C,Governorate,
+EG-DK,Governorate,
+EG-DT,Governorate,
+EG-FYM,Governorate,
+EG-GH,Governorate,
+EG-GZ,Governorate,
+EG-IS,Governorate,
+EG-JS,Governorate,
+EG-KB,Governorate,
+EG-KFS,Governorate,
+EG-KN,Governorate,
+EG-LX,Governorate,
+EG-MN,Governorate,
+EG-MNF,Governorate,
+EG-MT,Governorate,
+EG-PTS,Governorate,
+EG-SHG,Governorate,
+EG-SHR,Governorate,
+EG-SIN,Governorate,
+EG-SUZ,Governorate,
+EG-WAD,Governorate,
+ER-AN,Region,
+ER-DK,Region,
+ER-DU,Region,
+ER-GB,Region,
+ER-MA,Region,
+ER-SK,Region,
+ES-A,Province,ES-VC
+ES-AB,Province,ES-CM
+ES-AL,Province,ES-AN
+ES-AN,Autonomous community,
+ES-AR,Autonomous community,
+ES-AS,Autonomous community,
+ES-AV,Province,ES-CL
+ES-B,Province,ES-CT
+ES-BA,Province,ES-EX
+ES-BI,Province,ES-PV
+ES-BU,Province,ES-CL
+ES-C,Province,ES-GA
+ES-CA,Province,ES-AN
+ES-CB,Autonomous community,
+ES-CC,Province,ES-EX
+ES-CE,Autonomous city in north africa,
+ES-CL,Autonomous community,
+ES-CM,Autonomous community,
+ES-CN,Autonomous community,
+ES-CO,Province,ES-AN
+ES-CR,Province,ES-CM
+ES-CS,Province,ES-VC
+ES-CT,Autonomous community,
+ES-CU,Province,ES-CM
+ES-EX,Autonomous community,
+ES-GA,Autonomous community,
+ES-GC,Province,ES-CN
+ES-GI,Province,ES-CT
+ES-GR,Province,ES-AN
+ES-GU,Province,ES-CM
+ES-H,Province,ES-AN
+ES-HU,Province,ES-AR
+ES-IB,Autonomous community,
+ES-J,Province,ES-AN
+ES-L,Province,ES-CT
+ES-LE,Province,ES-CL
+ES-LO,Province,ES-RI
+ES-LU,Province,ES-GA
+ES-M,Province,ES-MD
+ES-MA,Province,ES-AN
+ES-MC,Autonomous community,
+ES-MD,Autonomous community,
+ES-ML,Autonomous city in north africa,
+ES-MU,Province,ES-MC
+ES-NA,Province,ES-NC
+ES-NC,Autonomous community,
+ES-O,Province,ES-AS
+ES-OR,Province,ES-GA
+ES-P,Province,ES-CL
+ES-PM,Province,ES-IB
+ES-PO,Province,ES-GA
+ES-PV,Autonomous community,
+ES-RI,Autonomous community,
+ES-S,Province,ES-CB
+ES-SA,Province,ES-CL
+ES-SE,Province,ES-AN
+ES-SG,Province,ES-CL
+ES-SO,Province,ES-CL
+ES-SS,Province,ES-PV
+ES-T,Province,ES-CT
+ES-TE,Province,ES-AR
+ES-TF,Province,ES-CN
+ES-TO,Province,ES-CM
+ES-V,Province,ES-VC
+ES-VA,Province,ES-CL
+ES-VC,Autonomous community,
+ES-VI,Province,ES-PV
+ES-Z,Province,ES-AR
+ES-ZA,Province,ES-CL
+ET-AA,Administration,
+ET-AF,Regional state,
+ET-AM,Regional state,
+ET-BE,Regional state,
+ET-DD,Administration,
+ET-GA,Regional state,
+ET-HA,Regional state,
+ET-OR,Regional state,
+ET-SI,Regional state,
+ET-SN,Regional state,
+ET-SO,Regional state,
+ET-SW,Regional state,
+ET-TI,Regional state,
+FI-01,Region,
+FI-02,Region,
+FI-03,Region,
+FI-04,Region,
+FI-05,Region,
+FI-06,Region,
+FI-07,Region,
+FI-08,Region,
+FI-09,Region,
+FI-10,Region,
+FI-11,Region,
+FI-12,Region,
+FI-13,Region,
+FI-14,Region,
+FI-15,Region,
+FI-16,Region,
+FI-17,Region,
+FI-18,Region,
+FI-19,Region,
+FJ-01,Province,FJ-W
+FJ-02,Province,FJ-N
+FJ-03,Province,FJ-N
+FJ-04,Province,FJ-E
+FJ-05,Province,FJ-E
+FJ-06,Province,FJ-E
+FJ-07,Province,FJ-N
+FJ-08,Province,FJ-W
+FJ-09,Province,FJ-C
+FJ-10,Province,FJ-C
+FJ-11,Province,FJ-W
+FJ-12,Province,FJ-C
+FJ-13,Province,FJ-C
+FJ-14,Province,FJ-C
+FJ-C,Division,
+FJ-E,Division,
+FJ-N,Division,
+FJ-R,Dependency,
+FJ-W,Division,
+FM-KSA,State,
+FM-PNI,State,
+FM-TRK,State,
+FM-YAP,State,
+FR-01,Metropolitan department,FR-ARA
+FR-02,Metropolitan department,FR-HDF
+FR-03,Metropolitan department,FR-ARA
+FR-04,Metropolitan department,FR-PAC
+FR-05,Metropolitan department,FR-PAC
+FR-06,Metropolitan department,FR-PAC
+FR-07,Metropolitan department,FR-ARA
+FR-08,Metropolitan department,FR-GES
+FR-09,Metropolitan department,FR-OCC
+FR-10,Metropolitan department,FR-GES
+FR-11,Metropolitan department,FR-OCC
+FR-12,Metropolitan department,FR-OCC
+FR-13,Metropolitan department,FR-PAC
+FR-14,Metropolitan department,FR-NOR
+FR-15,Metropolitan department,FR-ARA
+FR-16,Metropolitan department,FR-NAQ
+FR-17,Metropolitan department,FR-NAQ
+FR-18,Metropolitan department,FR-CVL
+FR-19,Metropolitan department,FR-NAQ
+FR-20R,Metropolitan collectivity with special status,
+FR-21,Metropolitan department,FR-BFC
+FR-22,Metropolitan department,FR-BRE
+FR-23,Metropolitan department,FR-NAQ
+FR-24,Metropolitan department,FR-NAQ
+FR-25,Metropolitan department,FR-BFC
+FR-26,Metropolitan department,FR-ARA
+FR-27,Metropolitan department,FR-NOR
+FR-28,Metropolitan department,FR-CVL
+FR-29,Metropolitan department,FR-BRE
+FR-2A,Metropolitan department,FR-20R
+FR-2B,Metropolitan department,FR-20R
+FR-30,Metropolitan department,FR-OCC
+FR-31,Metropolitan department,FR-OCC
+FR-32,Metropolitan department,FR-OCC
+FR-33,Metropolitan department,FR-NAQ
+FR-34,Metropolitan department,FR-OCC
+FR-35,Metropolitan department,FR-BRE
+FR-36,Metropolitan department,FR-CVL
+FR-37,Metropolitan department,FR-CVL
+FR-38,Metropolitan department,FR-ARA
+FR-39,Metropolitan department,FR-BFC
+FR-40,Metropolitan department,FR-NAQ
+FR-41,Metropolitan department,FR-CVL
+FR-42,Metropolitan department,FR-ARA
+FR-43,Metropolitan department,FR-ARA
+FR-44,Metropolitan department,FR-PDL
+FR-45,Metropolitan department,FR-CVL
+FR-46,Metropolitan department,FR-OCC
+FR-47,Metropolitan department,FR-NAQ
+FR-48,Metropolitan department,FR-OCC
+FR-49,Metropolitan department,FR-PDL
+FR-50,Metropolitan department,FR-NOR
+FR-51,Metropolitan department,FR-GES
+FR-52,Metropolitan department,FR-GES
+FR-53,Metropolitan department,FR-PDL
+FR-54,Metropolitan department,FR-GES
+FR-55,Metropolitan department,FR-GES
+FR-56,Metropolitan department,FR-BRE
+FR-57,Metropolitan department,FR-GES
+FR-58,Metropolitan department,FR-BFC
+FR-59,Metropolitan department,FR-HDF
+FR-60,Metropolitan department,FR-HDF
+FR-61,Metropolitan department,FR-NOR
+FR-62,Metropolitan department,FR-HDF
+FR-63,Metropolitan department,FR-ARA
+FR-64,Metropolitan department,FR-NAQ
+FR-65,Metropolitan department,FR-OCC
+FR-66,Metropolitan department,FR-OCC
+FR-67,Metropolitan department,FR-6AE
+FR-68,Metropolitan department,FR-6AE
+FR-69,Metropolitan department,FR-ARA
+FR-69M,Metropolitan collectivity with special status,FR-ARA
+FR-6AE,European collectivity,FR-GES
+FR-70,Metropolitan department,FR-BFC
+FR-71,Metropolitan department,FR-BFC
+FR-72,Metropolitan department,FR-PDL
+FR-73,Metropolitan department,FR-ARA
+FR-74,Metropolitan department,FR-ARA
+FR-75C,Metropolitan collectivity with special status,FR-IDF
+FR-76,Metropolitan department,FR-NOR
+FR-77,Metropolitan department,FR-IDF
+FR-78,Metropolitan department,FR-IDF
+FR-79,Metropolitan department,FR-NAQ
+FR-80,Metropolitan department,FR-HDF
+FR-81,Metropolitan department,FR-OCC
+FR-82,Metropolitan department,FR-OCC
+FR-83,Metropolitan department,FR-PAC
+FR-84,Metropolitan department,FR-PAC
+FR-85,Metropolitan department,FR-PDL
+FR-86,Metropolitan department,FR-NAQ
+FR-87,Metropolitan department,FR-NAQ
+FR-88,Metropolitan department,FR-GES
+FR-89,Metropolitan department,FR-BFC
+FR-90,Metropolitan department,FR-BFC
+FR-91,Metropolitan department,FR-IDF
+FR-92,Metropolitan department,FR-IDF
+FR-93,Metropolitan department,FR-IDF
+FR-94,Metropolitan department,FR-IDF
+FR-95,Metropolitan department,FR-IDF
+FR-971,Overseas departmental collectivity,
+FR-972,Overseas unique territorial collectivity,
+FR-973,Overseas unique territorial collectivity,
+FR-974,Overseas departmental collectivity,
+FR-976,Overseas departmental collectivity,
+FR-ARA,Metropolitan region,
+FR-BFC,Metropolitan region,
+FR-BL,Overseas collectivity,
+FR-BRE,Metropolitan region,
+FR-CP,Dependency,
+FR-CVL,Metropolitan region,
+FR-GES,Metropolitan region,
+FR-HDF,Metropolitan region,
+FR-IDF,Metropolitan region,
+FR-MF,Overseas collectivity,
+FR-NAQ,Metropolitan region,
+FR-NC,Overseas collectivity with special status,
+FR-NOR,Metropolitan region,
+FR-OCC,Metropolitan region,
+FR-PAC,Metropolitan region,
+FR-PDL,Metropolitan region,
+FR-PF,Overseas collectivity,
+FR-PM,Overseas collectivity,
+FR-TF,Overseas territory,
+FR-WF,Overseas collectivity,
+GA-1,Province,
+GA-2,Province,
+GA-3,Province,
+GA-4,Province,
+GA-5,Province,
+GA-6,Province,
+GA-7,Province,
+GA-8,Province,
+GA-9,Province,
+GB-ABC,District,GB-NIR
+GB-ABD,Council area,GB-SCT
+GB-ABE,Council area,GB-SCT
+GB-AGB,Council area,GB-SCT
+GB-AGY,Unitary authority,GB-WLS
+GB-AND,District,GB-NIR
+GB-ANN,District,GB-NIR
+GB-ANS,Council area,GB-SCT
+GB-BAS,Unitary authority,GB-ENG
+GB-BBD,Unitary authority,GB-ENG
+GB-BCP,Unitary authority,GB-ENG
+GB-BDF,Unitary authority,GB-ENG
+GB-BDG,London borough,GB-ENG
+GB-BEN,London borough,GB-ENG
+GB-BEX,London borough,GB-ENG
+GB-BFS,District,GB-NIR
+GB-BGE,Unitary authority,GB-WLS
+GB-BGW,Unitary authority,GB-WLS
+GB-BIR,Metropolitan district,GB-ENG
+GB-BKM,Unitary authority,GB-ENG
+GB-BNE,London borough,GB-ENG
+GB-BNH,Unitary authority,GB-ENG
+GB-BNS,Metropolitan district,GB-ENG
+GB-BOL,Metropolitan district,GB-ENG
+GB-BPL,Unitary authority,GB-ENG
+GB-BRC,Unitary authority,GB-ENG
+GB-BRD,Metropolitan district,GB-ENG
+GB-BRY,London borough,GB-ENG
+GB-BST,Unitary authority,GB-ENG
+GB-BUR,Metropolitan district,GB-ENG
+GB-CAM,Two-tier county,GB-ENG
+GB-CAY,Unitary authority,GB-WLS
+GB-CBF,Unitary authority,GB-ENG
+GB-CCG,District,GB-NIR
+GB-CGN,Unitary authority,GB-WLS
+GB-CHE,Unitary authority,GB-ENG
+GB-CHW,Unitary authority,GB-ENG
+GB-CLD,Metropolitan district,GB-ENG
+GB-CLK,Council area,GB-SCT
+GB-CMA,Two-tier county,GB-ENG
+GB-CMD,London borough,GB-ENG
+GB-CMN,Unitary authority,GB-WLS
+GB-CON,Unitary authority,GB-ENG
+GB-COV,Metropolitan district,GB-ENG
+GB-CRF,Unitary authority,GB-WLS
+GB-CRY,London borough,GB-ENG
+GB-CWY,Unitary authority,GB-WLS
+GB-DAL,Unitary authority,GB-ENG
+GB-DBY,Two-tier county,GB-ENG
+GB-DEN,Unitary authority,GB-WLS
+GB-DER,Unitary authority,GB-ENG
+GB-DEV,Two-tier county,GB-ENG
+GB-DGY,Council area,GB-SCT
+GB-DNC,Metropolitan district,GB-ENG
+GB-DND,Council area,GB-SCT
+GB-DOR,Two-tier county,GB-ENG
+GB-DRS,District,GB-NIR
+GB-DUD,Metropolitan district,GB-ENG
+GB-DUR,Unitary authority,GB-ENG
+GB-EAL,London borough,GB-ENG
+GB-EAY,Council area,GB-SCT
+GB-EDH,Council area,GB-SCT
+GB-EDU,Council area,GB-SCT
+GB-ELN,Council area,GB-SCT
+GB-ELS,Council area,GB-SCT
+GB-ENF,London borough,GB-ENG
+GB-ENG,Country,
+GB-ERW,Council area,GB-SCT
+GB-ERY,Unitary authority,GB-ENG
+GB-ESS,Two-tier county,GB-ENG
+GB-ESX,Two-tier county,GB-ENG
+GB-FAL,Council area,GB-SCT
+GB-FIF,Council area,GB-SCT
+GB-FLN,Unitary authority,GB-WLS
+GB-FMO,District,GB-NIR
+GB-GAT,Metropolitan district,GB-ENG
+GB-GLG,Council area,GB-SCT
+GB-GLS,Two-tier county,GB-ENG
+GB-GRE,London borough,GB-ENG
+GB-GWN,Unitary authority,GB-WLS
+GB-HAL,Unitary authority,GB-ENG
+GB-HAM,Two-tier county,GB-ENG
+GB-HAV,London borough,GB-ENG
+GB-HCK,London borough,GB-ENG
+GB-HEF,Unitary authority,GB-ENG
+GB-HIL,London borough,GB-ENG
+GB-HLD,Council area,GB-SCT
+GB-HMF,London borough,GB-ENG
+GB-HNS,London borough,GB-ENG
+GB-HPL,Unitary authority,GB-ENG
+GB-HRT,Two-tier county,GB-ENG
+GB-HRW,London borough,GB-ENG
+GB-HRY,London borough,GB-ENG
+GB-IOS,Unitary authority,GB-ENG
+GB-IOW,Unitary authority,GB-ENG
+GB-ISL,London borough,GB-ENG
+GB-IVC,Council area,GB-SCT
+GB-KEC,London borough,GB-ENG
+GB-KEN,Two-tier county,GB-ENG
+GB-KHL,Unitary authority,GB-ENG
+GB-KIR,Metropolitan district,GB-ENG
+GB-KTT,London borough,GB-ENG
+GB-KWL,Metropolitan district,GB-ENG
+GB-LAN,Two-tier county,GB-ENG
+GB-LBC,District,GB-NIR
+GB-LBH,London borough,GB-ENG
+GB-LCE,Unitary authority,GB-ENG
+GB-LDS,Metropolitan district,GB-ENG
+GB-LEC,Two-tier county,GB-ENG
+GB-LEW,London borough,GB-ENG
+GB-LIN,Two-tier county,GB-ENG
+GB-LIV,Metropolitan district,GB-ENG
+GB-LND,City corporation,GB-ENG
+GB-LUT,Unitary authority,GB-ENG
+GB-MAN,Metropolitan district,GB-ENG
+GB-MDB,Unitary authority,GB-ENG
+GB-MDW,Unitary authority,GB-ENG
+GB-MEA,District,GB-NIR
+GB-MIK,Unitary authority,GB-ENG
+GB-MLN,Council area,GB-SCT
+GB-MON,Unitary authority,GB-WLS
+GB-MRT,London borough,GB-ENG
+GB-MRY,Council area,GB-SCT
+GB-MTY,Unitary authority,GB-WLS
+GB-MUL,District,GB-NIR
+GB-NAY,Council area,GB-SCT
+GB-NBL,Unitary authority,GB-ENG
+GB-NEL,Unitary authority,GB-ENG
+GB-NET,Metropolitan district,GB-ENG
+GB-NFK,Two-tier county,GB-ENG
+GB-NGM,Unitary authority,GB-ENG
+GB-NIR,Province,
+GB-NLK,Council area,GB-SCT
+GB-NLN,Unitary authority,GB-ENG
+GB-NMD,District,GB-NIR
+GB-NNH,Unitary authority,GB-ENG
+GB-NSM,Unitary authority,GB-ENG
+GB-NTL,Unitary authority,GB-WLS
+GB-NTT,Two-tier county,GB-ENG
+GB-NTY,Metropolitan district,GB-ENG
+GB-NWM,London borough,GB-ENG
+GB-NWP,Unitary authority,GB-WLS
+GB-NYK,Two-tier county,GB-ENG
+GB-OLD,Metropolitan district,GB-ENG
+GB-ORK,Council area,GB-SCT
+GB-OXF,Two-tier county,GB-ENG
+GB-PEM,Unitary authority,GB-WLS
+GB-PKN,Council area,GB-SCT
+GB-PLY,Unitary authority,GB-ENG
+GB-POR,Unitary authority,GB-ENG
+GB-POW,Unitary authority,GB-WLS
+GB-PTE,Unitary authority,GB-ENG
+GB-RCC,Unitary authority,GB-ENG
+GB-RCH,Metropolitan district,GB-ENG
+GB-RCT,Unitary authority,GB-WLS
+GB-RDB,London borough,GB-ENG
+GB-RDG,Unitary authority,GB-ENG
+GB-RFW,Council area,GB-SCT
+GB-RIC,London borough,GB-ENG
+GB-ROT,Metropolitan district,GB-ENG
+GB-RUT,Unitary authority,GB-ENG
+GB-SAW,Metropolitan district,GB-ENG
+GB-SAY,Council area,GB-SCT
+GB-SCB,Council area,GB-SCT
+GB-SCT,Country,
+GB-SFK,Two-tier county,GB-ENG
+GB-SFT,Metropolitan district,GB-ENG
+GB-SGC,Unitary authority,GB-ENG
+GB-SHF,Metropolitan district,GB-ENG
+GB-SHN,Metropolitan district,GB-ENG
+GB-SHR,Unitary authority,GB-ENG
+GB-SKP,Metropolitan district,GB-ENG
+GB-SLF,Metropolitan district,GB-ENG
+GB-SLG,Unitary authority,GB-ENG
+GB-SLK,Council area,GB-SCT
+GB-SND,Metropolitan district,GB-ENG
+GB-SOL,Metropolitan district,GB-ENG
+GB-SOM,Two-tier county,GB-ENG
+GB-SOS,Unitary authority,GB-ENG
+GB-SRY,Two-tier county,GB-ENG
+GB-STE,Unitary authority,GB-ENG
+GB-STG,Council area,GB-SCT
+GB-STH,Unitary authority,GB-ENG
+GB-STN,London borough,GB-ENG
+GB-STS,Two-tier county,GB-ENG
+GB-STT,Unitary authority,GB-ENG
+GB-STY,Metropolitan district,GB-ENG
+GB-SWA,Unitary authority,GB-WLS
+GB-SWD,Unitary authority,GB-ENG
+GB-SWK,London borough,GB-ENG
+GB-TAM,Metropolitan district,GB-ENG
+GB-TFW,Unitary authority,GB-ENG
+GB-THR,Unitary authority,GB-ENG
+GB-TOB,Unitary authority,GB-ENG
+GB-TOF,Unitary authority,GB-WLS
+GB-TRF,Metropolitan district,GB-ENG
+GB-TWH,London borough,GB-ENG
+GB-VGL,Unitary authority,GB-WLS
+GB-WAR,Two-tier county,GB-ENG
+GB-WBK,Unitary authority,GB-ENG
+GB-WDU,Council area,GB-SCT
+GB-WFT,London borough,GB-ENG
+GB-WGN,Metropolitan district,GB-ENG
+GB-WIL,Unitary authority,GB-ENG
+GB-WKF,Metropolitan district,GB-ENG
+GB-WLL,Metropolitan district,GB-ENG
+GB-WLN,Council area,GB-SCT
+GB-WLS,Country,
+GB-WLV,Metropolitan district,GB-ENG
+GB-WND,London borough,GB-ENG
+GB-WNH,Unitary authority,GB-ENG
+GB-WNM,Unitary authority,GB-ENG
+GB-WOK,Unitary authority,GB-ENG
+GB-WOR,Two-tier county,GB-ENG
+GB-WRL,Metropolitan district,GB-ENG
+GB-WRT,Unitary authority,GB-ENG
+GB-WRX,Unitary authority,GB-WLS
+GB-WSM,London borough,GB-ENG
+GB-WSX,Two-tier county,GB-ENG
+GB-YOR,Unitary authority,GB-ENG
+GB-ZET,Council area,GB-SCT
+GD-01,Parish,
+GD-02,Parish,
+GD-03,Parish,
+GD-04,Parish,
+GD-05,Parish,
+GD-06,Parish,
+GD-10,Dependency,
+GE-AB,Autonomous republic,
+GE-AJ,Autonomous republic,
+GE-GU,Region,
+GE-IM,Region,
+GE-KA,Region,
+GE-KK,Region,
+GE-MM,Region,
+GE-RL,Region,
+GE-SJ,Region,
+GE-SK,Region,
+GE-SZ,Region,
+GE-TB,City,
+GH-AA,Region,
+GH-AF,Region,
+GH-AH,Region,
+GH-BE,Region,
+GH-BO,Region,
+GH-CP,Region,
+GH-EP,Region,
+GH-NE,Region,
+GH-NP,Region,
+GH-OT,Region,
+GH-SV,Region,
+GH-TV,Region,
+GH-UE,Region,
+GH-UW,Region,
+GH-WN,Region,
+GH-WP,Region,
+GL-AV,Municipality,
+GL-KU,Municipality,
+GL-QE,Municipality,
+GL-QT,Municipality,
+GL-SM,Municipality,
+GM-B,City,
+GM-L,Division,
+GM-M,Division,
+GM-N,Division,
+GM-U,Division,
+GM-W,Division,
+GN-B,Administrative region,
+GN-BE,Prefecture,GN-N
+GN-BF,Prefecture,GN-B
+GN-BK,Prefecture,GN-B
+GN-C,Governorate,
+GN-CO,Prefecture,GN-D
+GN-D,Administrative region,
+GN-DB,Prefecture,GN-F
+GN-DI,Prefecture,GN-F
+GN-DL,Prefecture,GN-M
+GN-DU,Prefecture,GN-D
+GN-F,Administrative region,
+GN-FA,Prefecture,GN-F
+GN-FO,Prefecture,GN-D
+GN-FR,Prefecture,GN-B
+GN-GA,Prefecture,GN-B
+GN-GU,Prefecture,GN-N
+GN-K,Administrative region,
+GN-KA,Prefecture,GN-K
+GN-KB,Prefecture,GN-L
+GN-KD,Prefecture,GN-D
+GN-KE,Prefecture,GN-K
+GN-KN,Prefecture,GN-B
+GN-KO,Prefecture,GN-K
+GN-KS,Prefecture,GN-F
+GN-L,Administrative region,
+GN-LA,Prefecture,GN-L
+GN-LE,Prefecture,GN-L
+GN-LO,Prefecture,GN-N
+GN-M,Administrative region,
+GN-MC,Prefecture,GN-N
+GN-MD,Prefecture,GN-K
+GN-ML,Prefecture,GN-L
+GN-MM,Prefecture,GN-M
+GN-N,Administrative region,
+GN-NZ,Prefecture,GN-N
+GN-PI,Prefecture,GN-M
+GN-SI,Prefecture,GN-K
+GN-TE,Prefecture,GN-D
+GN-TO,Prefecture,GN-L
+GN-YO,Prefecture,GN-N
+GQ-AN,Province,GQ-I
+GQ-BN,Province,GQ-I
+GQ-BS,Province,GQ-I
+GQ-C,Region,
+GQ-CS,Province,GQ-C
+GQ-DJ,Province,GQ-C
+GQ-I,Region,
+GQ-KN,Province,GQ-C
+GQ-LI,Province,GQ-C
+GQ-WN,Province,GQ-C
+GR-69,Self-governed part,
+GR-A,Administrative region,
+GR-B,Administrative region,
+GR-C,Administrative region,
+GR-D,Administrative region,
+GR-E,Administrative region,
+GR-F,Administrative region,
+GR-G,Administrative region,
+GR-H,Administrative region,
+GR-I,Administrative region,
+GR-J,Administrative region,
+GR-K,Administrative region,
+GR-L,Administrative region,
+GR-M,Administrative region,
+GT-01,Department,
+GT-02,Department,
+GT-03,Department,
+GT-04,Department,
+GT-05,Department,
+GT-06,Department,
+GT-07,Department,
+GT-08,Department,
+GT-09,Department,
+GT-10,Department,
+GT-11,Department,
+GT-12,Department,
+GT-13,Department,
+GT-14,Department,
+GT-15,Department,
+GT-16,Department,
+GT-17,Department,
+GT-18,Department,
+GT-19,Department,
+GT-20,Department,
+GT-21,Department,
+GT-22,Department,
+GW-BA,Region,GW-L
+GW-BL,Region,GW-S
+GW-BM,Region,GW-N
+GW-BS,Autonomous sector,
+GW-CA,Region,GW-N
+GW-GA,Region,GW-L
+GW-L,Province,
+GW-N,Province,
+GW-OI,Region,GW-N
+GW-QU,Region,GW-S
+GW-S,Province,
+GW-TO,Region,GW-S
+GY-BA,Region,
+GY-CU,Region,
+GY-DE,Region,
+GY-EB,Region,
+GY-ES,Region,
+GY-MA,Region,
+GY-PM,Region,
+GY-PT,Region,
+GY-UD,Region,
+GY-UT,Region,
+HN-AT,Department,
+HN-CH,Department,
+HN-CL,Department,
+HN-CM,Department,
+HN-CP,Department,
+HN-CR,Department,
+HN-EP,Department,
+HN-FM,Department,
+HN-GD,Department,
+HN-IB,Department,
+HN-IN,Department,
+HN-LE,Department,
+HN-LP,Department,
+HN-OC,Department,
+HN-OL,Department,
+HN-SB,Department,
+HN-VA,Department,
+HN-YO,Department,
+HR-01,County,
+HR-02,County,
+HR-03,County,
+HR-04,County,
+HR-05,County,
+HR-06,County,
+HR-07,County,
+HR-08,County,
+HR-09,County,
+HR-10,County,
+HR-11,County,
+HR-12,County,
+HR-13,County,
+HR-14,County,
+HR-15,County,
+HR-16,County,
+HR-17,County,
+HR-18,County,
+HR-19,County,
+HR-20,County,
+HR-21,City,
+HT-AR,Department,
+HT-CE,Department,
+HT-GA,Department,
+HT-ND,Department,
+HT-NE,Department,
+HT-NI,Department,
+HT-NO,Department,
+HT-OU,Department,
+HT-SD,Department,
+HT-SE,Department,
+HU-BA,County,
+HU-BC,City with county rights,
+HU-BE,County,
+HU-BK,County,
+HU-BU,Capital city,
+HU-BZ,County,
+HU-CS,County,
+HU-DE,City with county rights,
+HU-DU,City with county rights,
+HU-EG,City with county rights,
+HU-ER,City with county rights,
+HU-FE,County,
+HU-GS,County,
+HU-GY,City with county rights,
+HU-HB,County,
+HU-HE,County,
+HU-HV,City with county rights,
+HU-JN,County,
+HU-KE,County,
+HU-KM,City with county rights,
+HU-KV,City with county rights,
+HU-MI,City with county rights,
+HU-NK,City with county rights,
+HU-NO,County,
+HU-NY,City with county rights,
+HU-PE,County,
+HU-PS,City with county rights,
+HU-SD,City with county rights,
+HU-SF,City with county rights,
+HU-SH,City with county rights,
+HU-SK,City with county rights,
+HU-SN,City with county rights,
+HU-SO,County,
+HU-SS,City with county rights,
+HU-ST,City with county rights,
+HU-SZ,County,
+HU-TB,City with county rights,
+HU-TO,County,
+HU-VA,County,
+HU-VE,County,
+HU-VM,City with county rights,
+HU-ZA,County,
+HU-ZE,City with county rights,
+ID-AC,Province,ID-SM
+ID-BA,Province,ID-NU
+ID-BB,Province,ID-SM
+ID-BE,Province,ID-SM
+ID-BT,Province,ID-JW
+ID-GO,Province,ID-SL
+ID-JA,Province,ID-SM
+ID-JB,Province,ID-JW
+ID-JI,Province,ID-JW
+ID-JK,Capital district,ID-JW
+ID-JT,Province,ID-JW
+ID-JW,Geographical unit,
+ID-KA,Geographical unit,
+ID-KB,Province,ID-KA
+ID-KI,Province,ID-KA
+ID-KR,Province,ID-SM
+ID-KS,Province,ID-KA
+ID-KT,Province,ID-KA
+ID-KU,Province,ID-KA
+ID-LA,Province,ID-SM
+ID-MA,Province,ID-ML
+ID-ML,Geographical unit,
+ID-MU,Province,ID-ML
+ID-NB,Province,ID-NU
+ID-NT,Province,ID-NU
+ID-NU,Geographical unit,
+ID-PA,Province,ID-PP
+ID-PB,Province,ID-PP
+ID-PD,Province,ID-PP
+ID-PE,Province,ID-PP
+ID-PP,Geographical unit,
+ID-PS,Province,ID-PP
+ID-PT,Province,ID-PP
+ID-RI,Province,ID-SM
+ID-SA,Province,ID-SL
+ID-SB,Province,ID-SM
+ID-SG,Province,ID-SL
+ID-SL,Geographical unit,
+ID-SM,Geographical unit,
+ID-SN,Province,ID-SL
+ID-SR,Province,ID-SL
+ID-SS,Province,ID-SM
+ID-ST,Province,ID-SL
+ID-SU,Province,ID-SM
+ID-YO,Special region,ID-JW
+IE-C,Province,
+IE-CE,County,IE-M
+IE-CN,County,IE-U
+IE-CO,County,IE-M
+IE-CW,County,IE-L
+IE-D,County,IE-L
+IE-DL,County,IE-U
+IE-G,County,IE-C
+IE-KE,County,IE-L
+IE-KK,County,IE-L
+IE-KY,County,IE-M
+IE-L,Province,
+IE-LD,County,IE-L
+IE-LH,County,IE-L
+IE-LK,County,IE-M
+IE-LM,County,IE-C
+IE-LS,County,IE-L
+IE-M,Province,
+IE-MH,County,IE-L
+IE-MN,County,IE-U
+IE-MO,County,IE-C
+IE-OY,County,IE-L
+IE-RN,County,IE-C
+IE-SO,County,IE-C
+IE-TA,County,IE-M
+IE-U,Province,
+IE-WD,County,IE-M
+IE-WH,County,IE-L
+IE-WW,County,IE-L
+IE-WX,County,IE-L
+IL-D,District,
+IL-HA,District,
+IL-JM,District,
+IL-M,District,
+IL-TA,District,
+IL-Z,District,
+IN-AN,Union territory,
+IN-AP,State,
+IN-AR,State,
+IN-AS,State,
+IN-BR,State,
+IN-CG,State,
+IN-CH,Union territory,
+IN-DH,Union territory,
+IN-DL,Union territory,
+IN-GA,State,
+IN-GJ,State,
+IN-HP,State,
+IN-HR,State,
+IN-JH,State,
+IN-JK,Union territory,
+IN-KA,State,
+IN-KL,State,
+IN-LA,Union territory,
+IN-LD,Union territory,
+IN-MH,State,
+IN-ML,State,
+IN-MN,State,
+IN-MP,State,
+IN-MZ,State,
+IN-NL,State,
+IN-OD,State,
+IN-PB,State,
+IN-PY,Union territory,
+IN-RJ,State,
+IN-SK,State,
+IN-TN,State,
+IN-TR,State,
+IN-TS,State,
+IN-UK,State,
+IN-UP,State,
+IN-WB,State,
+IQ-AN,Governorate,
+IQ-AR,Governorate,IQ-KR
+IQ-BA,Governorate,
+IQ-BB,Governorate,
+IQ-BG,Governorate,
+IQ-DA,Governorate,IQ-KR
+IQ-DI,Governorate,
+IQ-DQ,Governorate,
+IQ-KA,Governorate,
+IQ-KI,Governorate,
+IQ-KR,Region,
+IQ-MA,Governorate,
+IQ-MU,Governorate,
+IQ-NA,Governorate,
+IQ-NI,Governorate,
+IQ-QA,Governorate,
+IQ-SD,Governorate,
+IQ-SU,Governorate,IQ-KR
+IQ-WA,Governorate,
+IR-00,Province,
+IR-01,Province,
+IR-02,Province,
+IR-03,Province,
+IR-04,Province,
+IR-05,Province,
+IR-06,Province,
+IR-07,Province,
+IR-08,Province,
+IR-09,Province,
+IR-10,Province,
+IR-11,Province,
+IR-12,Province,
+IR-13,Province,
+IR-14,Province,
+IR-15,Province,
+IR-16,Province,
+IR-17,Province,
+IR-18,Province,
+IR-19,Province,
+IR-20,Province,
+IR-21,Province,
+IR-22,Province,
+IR-23,Province,
+IR-24,Province,
+IR-25,Province,
+IR-26,Province,
+IR-27,Province,
+IR-28,Province,
+IR-29,Province,
+IR-30,Province,
+IS-1,Region,
+IS-2,Region,
+IS-3,Region,
+IS-4,Region,
+IS-5,Region,
+IS-6,Region,
+IS-7,Region,
+IS-8,Region,
+IS-AKN,Municipality,IS-3
+IS-AKU,Municipality,IS-6
+IS-ARN,Municipality,IS-4
+IS-ASA,Municipality,IS-8
+IS-BLA,Municipality,IS-8
+IS-BOG,Municipality,IS-3
+IS-BOL,Municipality,IS-4
+IS-DAB,Municipality,IS-3
+IS-DAV,Municipality,IS-6
+IS-EOM,Municipality,IS-3
+IS-EYF,Municipality,IS-6
+IS-FJD,Municipality,IS-7
+IS-FJL,Municipality,IS-6
+IS-FLA,Municipality,IS-8
+IS-FLR,Municipality,IS-7
+IS-GAR,Municipality,IS-1
+IS-GOG,Municipality,IS-8
+IS-GRN,Municipality,IS-2
+IS-GRU,Municipality,IS-3
+IS-GRY,Municipality,IS-6
+IS-HAF,Municipality,IS-1
+IS-HRG,Municipality,IS-6
+IS-HRU,Municipality,IS-8
+IS-HUG,Municipality,IS-5
+IS-HUV,Municipality,IS-5
+IS-HVA,Municipality,IS-3
+IS-HVE,Municipality,IS-8
+IS-ISA,Municipality,IS-4
+IS-KAL,Municipality,IS-4
+IS-KJO,Municipality,IS-1
+IS-KOP,Municipality,IS-1
+IS-LAN,Municipality,IS-6
+IS-MOS,Municipality,IS-1
+IS-MUL,Municipality,IS-7
+IS-MYR,Municipality,IS-8
+IS-NOR,Municipality,IS-6
+IS-RGE,Municipality,IS-8
+IS-RGY,Municipality,IS-8
+IS-RHH,Municipality,IS-4
+IS-RKN,Municipality,IS-2
+IS-RKV,Municipality,IS-1
+IS-SBT,Municipality,IS-6
+IS-SDN,Municipality,IS-2
+IS-SDV,Municipality,IS-4
+IS-SEL,Municipality,IS-1
+IS-SFA,Municipality,IS-8
+IS-SHF,Municipality,IS-7
+IS-SKF,Municipality,IS-8
+IS-SKG,Municipality,IS-5
+IS-SKO,Municipality,IS-3
+IS-SKR,Municipality,IS-5
+IS-SNF,Municipality,IS-3
+IS-SOG,Municipality,IS-8
+IS-SOL,Municipality,IS-8
+IS-SSS,Municipality,IS-5
+IS-STR,Municipality,IS-4
+IS-STY,Municipality,IS-3
+IS-SVG,Municipality,IS-2
+IS-TAL,Municipality,IS-4
+IS-THG,Municipality,IS-6
+IS-TJO,Municipality,IS-6
+IS-VEM,Municipality,IS-8
+IS-VER,Municipality,IS-4
+IS-VOP,Municipality,IS-7
+IT-21,Region,
+IT-23,Autonomous region,
+IT-25,Region,
+IT-32,Autonomous region,
+IT-34,Region,
+IT-36,Autonomous region,
+IT-42,Region,
+IT-45,Region,
+IT-52,Region,
+IT-55,Region,
+IT-57,Region,
+IT-62,Region,
+IT-65,Region,
+IT-67,Region,
+IT-72,Region,
+IT-75,Region,
+IT-77,Region,
+IT-78,Region,
+IT-82,Autonomous region,
+IT-88,Autonomous region,
+IT-AG,Free municipal consortium,IT-82
+IT-AL,Province,IT-21
+IT-AN,Province,IT-57
+IT-AP,Province,IT-57
+IT-AQ,Province,IT-65
+IT-AR,Province,IT-52
+IT-AT,Province,IT-21
+IT-AV,Province,IT-72
+IT-BA,Metropolitan city,IT-75
+IT-BG,Province,IT-25
+IT-BI,Province,IT-21
+IT-BL,Province,IT-34
+IT-BN,Province,IT-72
+IT-BO,Metropolitan city,IT-45
+IT-BR,Province,IT-75
+IT-BS,Province,IT-25
+IT-BT,Province,IT-75
+IT-BZ,Autonomous province,IT-32
+IT-CA,Metropolitan city,IT-88
+IT-CB,Province,IT-67
+IT-CE,Province,IT-72
+IT-CH,Province,IT-65
+IT-CL,Free municipal consortium,IT-82
+IT-CN,Province,IT-21
+IT-CO,Province,IT-25
+IT-CR,Province,IT-25
+IT-CS,Province,IT-78
+IT-CT,Metropolitan city,IT-82
+IT-CZ,Province,IT-78
+IT-EN,Free municipal consortium,IT-82
+IT-FC,Province,IT-45
+IT-FE,Province,IT-45
+IT-FG,Province,IT-75
+IT-FI,Metropolitan city,IT-52
+IT-FM,Province,IT-57
+IT-FR,Province,IT-62
+IT-GE,Metropolitan city,IT-42
+IT-GO,Decentralized regional entity,IT-36
+IT-GR,Province,IT-52
+IT-IM,Province,IT-42
+IT-IS,Province,IT-67
+IT-KR,Province,IT-78
+IT-LC,Province,IT-25
+IT-LE,Province,IT-75
+IT-LI,Province,IT-52
+IT-LO,Province,IT-25
+IT-LT,Province,IT-62
+IT-LU,Province,IT-52
+IT-MB,Province,IT-25
+IT-MC,Province,IT-57
+IT-ME,Metropolitan city,IT-82
+IT-MI,Metropolitan city,IT-25
+IT-MN,Province,IT-25
+IT-MO,Province,IT-45
+IT-MS,Province,IT-52
+IT-MT,Province,IT-77
+IT-NA,Metropolitan city,IT-72
+IT-NO,Province,IT-21
+IT-NU,Province,IT-88
+IT-OR,Province,IT-88
+IT-PA,Metropolitan city,IT-82
+IT-PC,Province,IT-45
+IT-PD,Province,IT-34
+IT-PE,Province,IT-65
+IT-PG,Province,IT-55
+IT-PI,Province,IT-52
+IT-PN,Decentralized regional entity,IT-36
+IT-PO,Province,IT-52
+IT-PR,Province,IT-45
+IT-PT,Province,IT-52
+IT-PU,Province,IT-57
+IT-PV,Province,IT-25
+IT-PZ,Province,IT-77
+IT-RA,Province,IT-45
+IT-RC,Metropolitan city,IT-78
+IT-RE,Province,IT-45
+IT-RG,Free municipal consortium,IT-82
+IT-RI,Province,IT-62
+IT-RM,Metropolitan city,IT-62
+IT-RN,Province,IT-45
+IT-RO,Province,IT-34
+IT-SA,Province,IT-72
+IT-SI,Province,IT-52
+IT-SO,Province,IT-25
+IT-SP,Province,IT-42
+IT-SR,Free municipal consortium,IT-82
+IT-SS,Province,IT-88
+IT-SU,Province,IT-88
+IT-SV,Province,IT-42
+IT-TA,Province,IT-75
+IT-TE,Province,IT-65
+IT-TN,Autonomous province,IT-32
+IT-TO,Metropolitan city,IT-21
+IT-TP,Free municipal consortium,IT-82
+IT-TR,Province,IT-55
+IT-TS,Decentralized regional entity,IT-36
+IT-TV,Province,IT-34
+IT-UD,Decentralized regional entity,IT-36
+IT-VA,Province,IT-25
+IT-VB,Province,IT-21
+IT-VC,Province,IT-21
+IT-VE,Metropolitan city,IT-34
+IT-VI,Province,IT-34
+IT-VR,Province,IT-34
+IT-VT,Province,IT-62
+IT-VV,Province,IT-78
+JM-01,Parish,
+JM-02,Parish,
+JM-03,Parish,
+JM-04,Parish,
+JM-05,Parish,
+JM-06,Parish,
+JM-07,Parish,
+JM-08,Parish,
+JM-09,Parish,
+JM-10,Parish,
+JM-11,Parish,
+JM-12,Parish,
+JM-13,Parish,
+JM-14,Parish,
+JO-AJ,Governorate,
+JO-AM,Governorate,
+JO-AQ,Governorate,
+JO-AT,Governorate,
+JO-AZ,Governorate,
+JO-BA,Governorate,
+JO-IR,Governorate,
+JO-JA,Governorate,
+JO-KA,Governorate,
+JO-MA,Governorate,
+JO-MD,Governorate,
+JO-MN,Governorate,
+JP-01,Prefecture,
+JP-02,Prefecture,
+JP-03,Prefecture,
+JP-04,Prefecture,
+JP-05,Prefecture,
+JP-06,Prefecture,
+JP-07,Prefecture,
+JP-08,Prefecture,
+JP-09,Prefecture,
+JP-10,Prefecture,
+JP-11,Prefecture,
+JP-12,Prefecture,
+JP-13,Prefecture,
+JP-14,Prefecture,
+JP-15,Prefecture,
+JP-16,Prefecture,
+JP-17,Prefecture,
+JP-18,Prefecture,
+JP-19,Prefecture,
+JP-20,Prefecture,
+JP-21,Prefecture,
+JP-22,Prefecture,
+JP-23,Prefecture,
+JP-24,Prefecture,
+JP-25,Prefecture,
+JP-26,Prefecture,
+JP-27,Prefecture,
+JP-28,Prefecture,
+JP-29,Prefecture,
+JP-30,Prefecture,
+JP-31,Prefecture,
+JP-32,Prefecture,
+JP-33,Prefecture,
+JP-34,Prefecture,
+JP-35,Prefecture,
+JP-36,Prefecture,
+JP-37,Prefecture,
+JP-38,Prefecture,
+JP-39,Prefecture,
+JP-40,Prefecture,
+JP-41,Prefecture,
+JP-42,Prefecture,
+JP-43,Prefecture,
+JP-44,Prefecture,
+JP-45,Prefecture,
+JP-46,Prefecture,
+JP-47,Prefecture,
+KE-01,County,
+KE-02,County,
+KE-03,County,
+KE-04,County,
+KE-05,County,
+KE-06,County,
+KE-07,County,
+KE-08,County,
+KE-09,County,
+KE-10,County,
+KE-11,County,
+KE-12,County,
+KE-13,County,
+KE-14,County,
+KE-15,County,
+KE-16,County,
+KE-17,County,
+KE-18,County,
+KE-19,County,
+KE-20,County,
+KE-21,County,
+KE-22,County,
+KE-23,County,
+KE-24,County,
+KE-25,County,
+KE-26,County,
+KE-27,County,
+KE-28,County,
+KE-29,County,
+KE-30,County,
+KE-31,County,
+KE-32,County,
+KE-33,County,
+KE-34,County,
+KE-35,County,
+KE-36,County,
+KE-37,County,
+KE-38,County,
+KE-39,County,
+KE-40,County,
+KE-41,County,
+KE-42,County,
+KE-43,County,
+KE-44,County,
+KE-45,County,
+KE-46,County,
+KE-47,County,
+KG-B,Region,
+KG-C,Region,
+KG-GB,City,
+KG-GO,City,
+KG-J,Region,
+KG-N,Region,
+KG-O,Region,
+KG-T,Region,
+KG-Y,Region,
+KH-1,Province,
+KH-10,Province,
+KH-11,Province,
+KH-12,Autonomous municipality,
+KH-13,Province,
+KH-14,Province,
+KH-15,Province,
+KH-16,Province,
+KH-17,Province,
+KH-18,Province,
+KH-19,Province,
+KH-2,Province,
+KH-20,Province,
+KH-21,Province,
+KH-22,Province,
+KH-23,Province,
+KH-24,Province,
+KH-25,Province,
+KH-3,Province,
+KH-4,Province,
+KH-5,Province,
+KH-6,Province,
+KH-7,Province,
+KH-8,Province,
+KH-9,Province,
+KI-G,Group of islands (20 inhabited islands),
+KI-L,Group of islands (20 inhabited islands),
+KI-P,Group of islands (20 inhabited islands),
+KM-A,Island,
+KM-G,Island,
+KM-M,Island,
+KN-01,Parish,KN-K
+KN-02,Parish,KN-K
+KN-03,Parish,KN-K
+KN-04,Parish,KN-N
+KN-05,Parish,KN-N
+KN-06,Parish,KN-K
+KN-07,Parish,KN-N
+KN-08,Parish,KN-K
+KN-09,Parish,KN-K
+KN-10,Parish,KN-N
+KN-11,Parish,KN-K
+KN-12,Parish,KN-N
+KN-13,Parish,KN-K
+KN-15,Parish,KN-K
+KN-K,State,
+KN-N,State,
+KP-01,Capital city,
+KP-02,Province,
+KP-03,Province,
+KP-04,Province,
+KP-05,Province,
+KP-06,Province,
+KP-07,Province,
+KP-08,Province,
+KP-09,Province,
+KP-10,Province,
+KP-13,Special city,
+KP-14,Metropolitan city,
+KP-15,Metropolitan city,
+KR-11,Special city,
+KR-26,Metropolitan city,
+KR-27,Metropolitan city,
+KR-28,Metropolitan city,
+KR-29,Metropolitan city,
+KR-30,Metropolitan city,
+KR-31,Metropolitan city,
+KR-41,Province,
+KR-42,Special self-governing province,
+KR-43,Province,
+KR-44,Province,
+KR-45,Province,
+KR-46,Province,
+KR-47,Province,
+KR-48,Province,
+KR-49,Special self-governing province,
+KR-50,Special self-governing city,
+KW-AH,Governorate,
+KW-FA,Governorate,
+KW-HA,Governorate,
+KW-JA,Governorate,
+KW-KU,Governorate,
+KW-MU,Governorate,
+KZ-10,Region,
+KZ-11,Region,
+KZ-15,Region,
+KZ-19,Region,
+KZ-23,Region,
+KZ-27,Region,
+KZ-31,Region,
+KZ-33,Region,
+KZ-35,Region,
+KZ-39,Region,
+KZ-43,Region,
+KZ-47,Region,
+KZ-55,Region,
+KZ-59,Region,
+KZ-61,Region,
+KZ-62,Region,
+KZ-63,Region,
+KZ-71,City,
+KZ-75,City,
+KZ-79,City,
+LA-AT,Province,
+LA-BK,Province,
+LA-BL,Province,
+LA-CH,Province,
+LA-HO,Province,
+LA-KH,Province,
+LA-LM,Province,
+LA-LP,Province,
+LA-OU,Province,
+LA-PH,Province,
+LA-SL,Province,
+LA-SV,Province,
+LA-VI,Province,
+LA-VT,Prefecture,
+LA-XA,Province,
+LA-XE,Province,
+LA-XI,Province,
+LA-XS,Province,
+LB-AK,Governorate,
+LB-AS,Governorate,
+LB-BA,Governorate,
+LB-BH,Governorate,
+LB-BI,Governorate,
+LB-JA,Governorate,
+LB-JL,Governorate,
+LB-NA,Governorate,
+LC-01,District,
+LC-02,District,
+LC-03,District,
+LC-05,District,
+LC-06,District,
+LC-07,District,
+LC-08,District,
+LC-10,District,
+LC-11,District,
+LC-12,District,
+LI-01,Commune,
+LI-02,Commune,
+LI-03,Commune,
+LI-04,Commune,
+LI-05,Commune,
+LI-06,Commune,
+LI-07,Commune,
+LI-08,Commune,
+LI-09,Commune,
+LI-10,Commune,
+LI-11,Commune,
+LK-1,Province,
+LK-11,District,LK-1
+LK-12,District,LK-1
+LK-13,District,LK-1
+LK-2,Province,
+LK-21,District,LK-2
+LK-22,District,LK-2
+LK-23,District,LK-2
+LK-3,Province,
+LK-31,District,LK-3
+LK-32,District,LK-3
+LK-33,District,LK-3
+LK-4,Province,
+LK-41,District,LK-4
+LK-42,District,LK-4
+LK-43,District,LK-4
+LK-44,District,LK-4
+LK-45,District,LK-4
+LK-5,Province,
+LK-51,District,LK-5
+LK-52,District,LK-5
+LK-53,District,LK-5
+LK-6,Province,
+LK-61,District,LK-6
+LK-62,District,LK-6
+LK-7,Province,
+LK-71,District,LK-7
+LK-72,District,LK-7
+LK-8,Province,
+LK-81,District,LK-8
+LK-82,District,LK-8
+LK-9,Province,
+LK-91,District,LK-9
+LK-92,District,LK-9
+LR-BG,County,
+LR-BM,County,
+LR-CM,County,
+LR-GB,County,
+LR-GG,County,
+LR-GK,County,
+LR-GP,County,
+LR-LO,County,
+LR-MG,County,
+LR-MO,County,
+LR-MY,County,
+LR-NI,County,
+LR-RG,County,
+LR-RI,County,
+LR-SI,County,
+LS-A,District,
+LS-B,District,
+LS-C,District,
+LS-D,District,
+LS-E,District,
+LS-F,District,
+LS-G,District,
+LS-H,District,
+LS-J,District,
+LS-K,District,
+LT-01,District municipality,LT-SA
+LT-02,City municipality,LT-AL
+LT-03,District municipality,LT-AL
+LT-04,District municipality,LT-UT
+LT-05,Municipality,LT-KU
+LT-06,District municipality,LT-PN
+LT-07,Municipality,LT-AL
+LT-08,Municipality,LT-VL
+LT-09,District municipality,LT-UT
+LT-10,District municipality,LT-KU
+LT-11,District municipality,LT-SA
+LT-12,District municipality,LT-TA
+LT-13,District municipality,LT-KU
+LT-14,Municipality,LT-MR
+LT-15,City municipality,LT-KU
+LT-16,District municipality,LT-KU
+LT-17,Municipality,LT-MR
+LT-18,District municipality,LT-KU
+LT-19,District municipality,LT-SA
+LT-20,City municipality,LT-KL
+LT-21,District municipality,LT-KL
+LT-22,District municipality,LT-KL
+LT-23,District municipality,LT-PN
+LT-24,District municipality,LT-AL
+LT-25,District municipality,LT-MR
+LT-26,District municipality,LT-TE
+LT-27,District municipality,LT-UT
+LT-28,Municipality,LT-KL
+LT-29,Municipality,LT-TA
+LT-30,District municipality,LT-SA
+LT-31,City municipality,LT-KL
+LT-32,City municipality,LT-PN
+LT-33,District municipality,LT-PN
+LT-34,District municipality,LT-PN
+LT-35,District municipality,LT-TE
+LT-36,District municipality,LT-KU
+LT-37,District municipality,LT-SA
+LT-38,District municipality,LT-KU
+LT-39,Municipality,LT-TE
+LT-40,District municipality,LT-PN
+LT-41,District municipality,LT-MR
+LT-42,District municipality,LT-VL
+LT-43,City municipality,LT-SA
+LT-44,District municipality,LT-SA
+LT-45,District municipality,LT-TA
+LT-46,District municipality,LT-KL
+LT-47,District municipality,LT-VL
+LT-48,District municipality,LT-KL
+LT-49,District municipality,LT-VL
+LT-50,District municipality,LT-TA
+LT-51,District municipality,LT-TE
+LT-52,District municipality,LT-VL
+LT-53,District municipality,LT-VL
+LT-54,District municipality,LT-UT
+LT-55,District municipality,LT-AL
+LT-56,District municipality,LT-MR
+LT-57,City municipality,LT-VL
+LT-58,District municipality,LT-VL
+LT-59,Municipality,LT-UT
+LT-60,District municipality,LT-UT
+LT-AL,County,
+LT-KL,County,
+LT-KU,County,
+LT-MR,County,
+LT-PN,County,
+LT-SA,County,
+LT-TA,County,
+LT-TE,County,
+LT-UT,County,
+LT-VL,County,
+LU-CA,Canton,
+LU-CL,Canton,
+LU-DI,Canton,
+LU-EC,Canton,
+LU-ES,Canton,
+LU-GR,Canton,
+LU-LU,Canton,
+LU-ME,Canton,
+LU-RD,Canton,
+LU-RM,Canton,
+LU-VD,Canton,
+LU-WI,Canton,
+LV-002,Municipality,
+LV-007,Municipality,
+LV-011,Municipality,
+LV-015,Municipality,
+LV-016,Municipality,
+LV-022,Municipality,
+LV-026,Municipality,
+LV-033,Municipality,
+LV-041,Municipality,
+LV-042,Municipality,
+LV-047,Municipality,
+LV-050,Municipality,
+LV-052,Municipality,
+LV-054,Municipality,
+LV-056,Municipality,
+LV-058,Municipality,
+LV-059,Municipality,
+LV-062,Municipality,
+LV-067,Municipality,
+LV-068,Municipality,
+LV-073,Municipality,
+LV-077,Municipality,
+LV-080,Municipality,
+LV-087,Municipality,
+LV-088,Municipality,
+LV-089,Municipality,
+LV-091,Municipality,
+LV-094,Municipality,
+LV-097,Municipality,
+LV-099,Municipality,
+LV-101,Municipality,
+LV-102,Municipality,
+LV-106,Municipality,
+LV-111,Municipality,
+LV-112,Municipality,
+LV-113,Municipality,
+LV-DGV,State city,
+LV-JEL,State city,
+LV-JUR,State city,
+LV-LPX,State city,
+LV-REZ,State city,
+LV-RIX,State city,
+LV-VEN,State city,
+LY-BA,Popularate,
+LY-BU,Popularate,
+LY-DR,Popularate,
+LY-GT,Popularate,
+LY-JA,Popularate,
+LY-JG,Popularate,
+LY-JI,Popularate,
+LY-JU,Popularate,
+LY-KF,Popularate,
+LY-MB,Popularate,
+LY-MI,Popularate,
+LY-MJ,Popularate,
+LY-MQ,Popularate,
+LY-NL,Popularate,
+LY-NQ,Popularate,
+LY-SB,Popularate,
+LY-SR,Popularate,
+LY-TB,Popularate,
+LY-WA,Popularate,
+LY-WD,Popularate,
+LY-WS,Popularate,
+LY-ZA,Popularate,
+MA-01,Region,
+MA-02,Region,
+MA-03,Region,
+MA-04,Region,
+MA-05,Region,
+MA-06,Region,
+MA-07,Region,
+MA-08,Region,
+MA-09,Region,
+MA-10,Region,
+MA-11,Region,
+MA-12,Region,
+MA-AGD,Prefecture,MA-09
+MA-AOU,Province,MA-12
+MA-ASZ,Province,MA-10
+MA-AZI,Province,MA-05
+MA-BEM,Province,MA-05
+MA-BER,Province,MA-02
+MA-BES,Province,MA-06
+MA-BOD,Province,MA-11
+MA-BOM,Province,MA-03
+MA-BRR,Province,MA-06
+MA-CAS,Prefecture,MA-06
+MA-CHE,Province,MA-01
+MA-CHI,Province,MA-07
+MA-CHT,Province,MA-06
+MA-DRI,Province,MA-02
+MA-ERR,Province,MA-08
+MA-ESI,Province,MA-07
+MA-ESM,Province,MA-11
+MA-FAH,Province,MA-01
+MA-FES,Prefecture,MA-03
+MA-FIG,Province,MA-02
+MA-FQH,Province,MA-05
+MA-GUE,Province,MA-10
+MA-GUF,Province,MA-02
+MA-HAJ,Province,MA-03
+MA-HAO,Province,MA-07
+MA-HOC,Province,MA-01
+MA-IFR,Province,MA-03
+MA-INE,Prefecture,MA-09
+MA-JDI,Province,MA-06
+MA-JRA,Province,MA-02
+MA-KEN,Province,MA-04
+MA-KES,Province,MA-07
+MA-KHE,Province,MA-04
+MA-KHN,Province,MA-05
+MA-KHO,Province,MA-05
+MA-LAA,Province,MA-11
+MA-LAR,Province,MA-01
+MA-MAR,Prefecture,MA-07
+MA-MDF,Prefecture,MA-01
+MA-MED,Province,MA-06
+MA-MEK,Prefecture,MA-03
+MA-MID,Province,MA-08
+MA-MOH,Prefecture,MA-06
+MA-MOU,Province,MA-03
+MA-NAD,Province,MA-02
+MA-NOU,Province,MA-04
+MA-OUA,Province,MA-08
+MA-OUD,Province,MA-12
+MA-OUJ,Prefecture,MA-02
+MA-OUZ,Province,MA-01
+MA-RAB,Prefecture,MA-04
+MA-REH,Province,MA-07
+MA-SAF,Province,MA-07
+MA-SAL,Prefecture,MA-04
+MA-SEF,Province,MA-03
+MA-SET,Province,MA-06
+MA-SIB,Province,MA-06
+MA-SIF,Province,MA-10
+MA-SIK,Province,MA-04
+MA-SIL,Province,MA-04
+MA-SKH,Prefecture,MA-04
+MA-TAF,Province,MA-11
+MA-TAI,Province,MA-02
+MA-TAO,Province,MA-03
+MA-TAR,Province,MA-09
+MA-TAT,Province,MA-09
+MA-TAZ,Province,MA-03
+MA-TET,Province,MA-01
+MA-TIN,Province,MA-08
+MA-TIZ,Province,MA-09
+MA-TNG,Prefecture,MA-01
+MA-TNT,Province,MA-10
+MA-YUS,Province,MA-07
+MA-ZAG,Province,MA-08
+MC-CL,Quarter,
+MC-CO,Quarter,
+MC-FO,Quarter,
+MC-GA,Quarter,
+MC-JE,Quarter,
+MC-LA,Quarter,
+MC-MA,Quarter,
+MC-MC,Quarter,
+MC-MG,Quarter,
+MC-MO,Quarter,
+MC-MU,Quarter,
+MC-PH,Quarter,
+MC-SD,Quarter,
+MC-SO,Quarter,
+MC-SP,Quarter,
+MC-SR,Quarter,
+MC-VR,Quarter,
+MD-AN,District,
+MD-BA,City,
+MD-BD,City,
+MD-BR,District,
+MD-BS,District,
+MD-CA,District,
+MD-CL,District,
+MD-CM,District,
+MD-CR,District,
+MD-CS,District,
+MD-CT,District,
+MD-CU,City,
+MD-DO,District,
+MD-DR,District,
+MD-DU,District,
+MD-ED,District,
+MD-FA,District,
+MD-FL,District,
+MD-GA,Autonomous territorial unit,
+MD-GL,District,
+MD-HI,District,
+MD-IA,District,
+MD-LE,District,
+MD-NI,District,
+MD-OC,District,
+MD-OR,District,
+MD-RE,District,
+MD-RI,District,
+MD-SD,District,
+MD-SI,District,
+MD-SN,Territorial unit,
+MD-SO,District,
+MD-ST,District,
+MD-SV,District,
+MD-TA,District,
+MD-TE,District,
+MD-UN,District,
+ME-01,Municipality,
+ME-02,Municipality,
+ME-03,Municipality,
+ME-04,Municipality,
+ME-05,Municipality,
+ME-06,Municipality,
+ME-07,Municipality,
+ME-08,Municipality,
+ME-09,Municipality,
+ME-10,Municipality,
+ME-11,Municipality,
+ME-12,Municipality,
+ME-13,Municipality,
+ME-14,Municipality,
+ME-15,Municipality,
+ME-16,Municipality,
+ME-17,Municipality,
+ME-18,Municipality,
+ME-19,Municipality,
+ME-20,Municipality,
+ME-21,Municipality,
+ME-22,Municipality,
+ME-23,Municipality,
+ME-24,Municipality,
+ME-25,Municipality,
+MG-A,Province,
+MG-D,Province,
+MG-F,Province,
+MG-M,Province,
+MG-T,Province,
+MG-U,Province,
+MH-ALK,Municipality,MH-T
+MH-ALL,Municipality,MH-L
+MH-ARN,Municipality,MH-T
+MH-AUR,Municipality,MH-T
+MH-EBO,Municipality,MH-L
+MH-ENI,Municipality,MH-L
+MH-JAB,Municipality,MH-L
+MH-JAL,Municipality,MH-L
+MH-KIL,Municipality,MH-L
+MH-KWA,Municipality,MH-L
+MH-L,Chain (of islands),
+MH-LAE,Municipality,MH-L
+MH-LIB,Municipality,MH-L
+MH-LIK,Municipality,MH-T
+MH-MAJ,Municipality,MH-T
+MH-MAL,Municipality,MH-T
+MH-MEJ,Municipality,MH-T
+MH-MIL,Municipality,MH-T
+MH-NMK,Municipality,MH-L
+MH-NMU,Municipality,MH-L
+MH-RON,Municipality,MH-L
+MH-T,Chain (of islands),
+MH-UJA,Municipality,MH-L
+MH-UTI,Municipality,MH-T
+MH-WTH,Municipality,MH-L
+MH-WTJ,Municipality,MH-T
+MK-101,Municipality,
+MK-102,Municipality,
+MK-103,Municipality,
+MK-104,Municipality,
+MK-105,Municipality,
+MK-106,Municipality,
+MK-107,Municipality,
+MK-108,Municipality,
+MK-109,Municipality,
+MK-201,Municipality,
+MK-202,Municipality,
+MK-203,Municipality,
+MK-204,Municipality,
+MK-205,Municipality,
+MK-206,Municipality,
+MK-207,Municipality,
+MK-208,Municipality,
+MK-209,Municipality,
+MK-210,Municipality,
+MK-211,Municipality,
+MK-301,Municipality,
+MK-303,Municipality,
+MK-304,Municipality,
+MK-307,Municipality,
+MK-308,Municipality,
+MK-310,Municipality,
+MK-311,Municipality,
+MK-312,Municipality,
+MK-313,Municipality,
+MK-401,Municipality,
+MK-402,Municipality,
+MK-403,Municipality,
+MK-404,Municipality,
+MK-405,Municipality,
+MK-406,Municipality,
+MK-407,Municipality,
+MK-408,Municipality,
+MK-409,Municipality,
+MK-410,Municipality,
+MK-501,Municipality,
+MK-502,Municipality,
+MK-503,Municipality,
+MK-504,Municipality,
+MK-505,Municipality,
+MK-506,Municipality,
+MK-507,Municipality,
+MK-508,Municipality,
+MK-509,Municipality,
+MK-601,Municipality,
+MK-602,Municipality,
+MK-603,Municipality,
+MK-604,Municipality,
+MK-605,Municipality,
+MK-606,Municipality,
+MK-607,Municipality,
+MK-608,Municipality,
+MK-609,Municipality,
+MK-701,Municipality,
+MK-702,Municipality,
+MK-703,Municipality,
+MK-704,Municipality,
+MK-705,Municipality,
+MK-706,Municipality,
+MK-801,Municipality,
+MK-802,Municipality,
+MK-803,Municipality,
+MK-804,Municipality,
+MK-805,Municipality,
+MK-806,Municipality,
+MK-807,Municipality,
+MK-808,Municipality,
+MK-809,Municipality,
+MK-810,Municipality,
+MK-811,Municipality,
+MK-812,Municipality,
+MK-813,Municipality,
+MK-814,Municipality,
+MK-815,Municipality,
+MK-816,Municipality,
+MK-817,Municipality,
+ML-1,Region,
+ML-10,Region,
+ML-2,Region,
+ML-3,Region,
+ML-4,Region,
+ML-5,Region,
+ML-6,Region,
+ML-7,Region,
+ML-8,Region,
+ML-9,Region,
+ML-BKO,District,
+MM-01,Region,
+MM-02,Region,
+MM-03,Region,
+MM-04,Region,
+MM-05,Region,
+MM-06,Region,
+MM-07,Region,
+MM-11,State,
+MM-12,State,
+MM-13,State,
+MM-14,State,
+MM-15,State,
+MM-16,State,
+MM-17,State,
+MM-18,Union territory,
+MN-035,Province,
+MN-037,Province,
+MN-039,Province,
+MN-041,Province,
+MN-043,Province,
+MN-046,Province,
+MN-047,Province,
+MN-049,Province,
+MN-051,Province,
+MN-053,Province,
+MN-055,Province,
+MN-057,Province,
+MN-059,Province,
+MN-061,Province,
+MN-063,Province,
+MN-064,Province,
+MN-065,Province,
+MN-067,Province,
+MN-069,Province,
+MN-071,Province,
+MN-073,Province,
+MN-1,Capital city,
+MR-01,Region,
+MR-02,Region,
+MR-03,Region,
+MR-04,Region,
+MR-05,Region,
+MR-06,Region,
+MR-07,Region,
+MR-08,Region,
+MR-09,Region,
+MR-10,Region,
+MR-11,Region,
+MR-12,Region,
+MR-13,Region,
+MR-14,Region,
+MR-15,Region,
+MT-01,Local council,
+MT-02,Local council,
+MT-03,Local council,
+MT-04,Local council,
+MT-05,Local council,
+MT-06,Local council,
+MT-07,Local council,
+MT-08,Local council,
+MT-09,Local council,
+MT-10,Local council,
+MT-11,Local council,
+MT-12,Local council,
+MT-13,Local council,
+MT-14,Local council,
+MT-15,Local council,
+MT-16,Local council,
+MT-17,Local council,
+MT-18,Local council,
+MT-19,Local council,
+MT-20,Local council,
+MT-21,Local council,
+MT-22,Local council,
+MT-23,Local council,
+MT-24,Local council,
+MT-25,Local council,
+MT-26,Local council,
+MT-27,Local council,
+MT-28,Local council,
+MT-29,Local council,
+MT-30,Local council,
+MT-31,Local council,
+MT-32,Local council,
+MT-33,Local council,
+MT-34,Local council,
+MT-35,Local council,
+MT-36,Local council,
+MT-37,Local council,
+MT-38,Local council,
+MT-39,Local council,
+MT-40,Local council,
+MT-41,Local council,
+MT-42,Local council,
+MT-43,Local council,
+MT-44,Local council,
+MT-45,Local council,
+MT-46,Local council,
+MT-47,Local council,
+MT-48,Local council,
+MT-49,Local council,
+MT-50,Local council,
+MT-51,Local council,
+MT-52,Local council,
+MT-53,Local council,
+MT-54,Local council,
+MT-55,Local council,
+MT-56,Local council,
+MT-57,Local council,
+MT-58,Local council,
+MT-59,Local council,
+MT-60,Local council,
+MT-61,Local council,
+MT-62,Local council,
+MT-63,Local council,
+MT-64,Local council,
+MT-65,Local council,
+MT-66,Local council,
+MT-67,Local council,
+MT-68,Local council,
+MU-AG,Dependency,
+MU-BL,District,
+MU-CC,Dependency,
+MU-FL,District,
+MU-GP,District,
+MU-MO,District,
+MU-PA,District,
+MU-PL,District,
+MU-PW,District,
+MU-RO,Dependency,
+MU-RR,District,
+MU-SA,District,
+MV-00,Administrative atoll,
+MV-01,City,
+MV-02,Administrative atoll,
+MV-03,Administrative atoll,
+MV-04,Administrative atoll,
+MV-05,Administrative atoll,
+MV-07,Administrative atoll,
+MV-08,Administrative atoll,
+MV-12,Administrative atoll,
+MV-13,Administrative atoll,
+MV-14,Administrative atoll,
+MV-17,Administrative atoll,
+MV-20,Administrative atoll,
+MV-23,Administrative atoll,
+MV-24,Administrative atoll,
+MV-25,Administrative atoll,
+MV-26,Administrative atoll,
+MV-27,Administrative atoll,
+MV-28,Administrative atoll,
+MV-29,Administrative atoll,
+MV-MLE,City,
+MW-BA,District,MW-S
+MW-BL,District,MW-S
+MW-C,Region,
+MW-CK,District,MW-S
+MW-CR,District,MW-S
+MW-CT,District,MW-N
+MW-DE,District,MW-C
+MW-DO,District,MW-C
+MW-KR,District,MW-N
+MW-KS,District,MW-C
+MW-LI,District,MW-C
+MW-LK,District,MW-N
+MW-MC,District,MW-C
+MW-MG,District,MW-S
+MW-MH,District,MW-S
+MW-MU,District,MW-S
+MW-MW,District,MW-S
+MW-MZ,District,MW-N
+MW-N,Region,
+MW-NB,District,MW-N
+MW-NE,District,MW-S
+MW-NI,District,MW-C
+MW-NK,District,MW-C
+MW-NS,District,MW-S
+MW-NU,District,MW-C
+MW-PH,District,MW-S
+MW-RU,District,MW-N
+MW-S,Region,
+MW-SA,District,MW-C
+MW-TH,District,MW-S
+MW-ZO,District,MW-S
+MX-AGU,State,
+MX-BCN,State,
+MX-BCS,State,
+MX-CAM,State,
+MX-CHH,State,
+MX-CHP,State,
+MX-CMX,Federal entity,
+MX-COA,State,
+MX-COL,State,
+MX-DUR,State,
+MX-GRO,State,
+MX-GUA,State,
+MX-HID,State,
+MX-JAL,State,
+MX-MEX,State,
+MX-MIC,State,
+MX-MOR,State,
+MX-NAY,State,
+MX-NLE,State,
+MX-OAX,State,
+MX-PUE,State,
+MX-QUE,State,
+MX-ROO,State,
+MX-SIN,State,
+MX-SLP,State,
+MX-SON,State,
+MX-TAB,State,
+MX-TAM,State,
+MX-TLA,State,
+MX-VER,State,
+MX-YUC,State,
+MX-ZAC,State,
+MY-01,State,
+MY-02,State,
+MY-03,State,
+MY-04,State,
+MY-05,State,
+MY-06,State,
+MY-07,State,
+MY-08,State,
+MY-09,State,
+MY-10,State,
+MY-11,State,
+MY-12,State,
+MY-13,State,
+MY-14,Federal territory,
+MY-15,Federal territory,
+MY-16,Federal territory,
+MZ-A,Province,
+MZ-B,Province,
+MZ-G,Province,
+MZ-I,Province,
+MZ-L,Province,
+MZ-MPM,City,
+MZ-N,Province,
+MZ-P,Province,
+MZ-Q,Province,
+MZ-S,Province,
+MZ-T,Province,
+NA-CA,Region,
+NA-ER,Region,
+NA-HA,Region,
+NA-KA,Region,
+NA-KE,Region,
+NA-KH,Region,
+NA-KU,Region,
+NA-KW,Region,
+NA-OD,Region,
+NA-OH,Region,
+NA-ON,Region,
+NA-OS,Region,
+NA-OT,Region,
+NA-OW,Region,
+NE-1,Region,
+NE-2,Region,
+NE-3,Region,
+NE-4,Region,
+NE-5,Region,
+NE-6,Region,
+NE-7,Region,
+NE-8,Urban community,
+NG-AB,State,
+NG-AD,State,
+NG-AK,State,
+NG-AN,State,
+NG-BA,State,
+NG-BE,State,
+NG-BO,State,
+NG-BY,State,
+NG-CR,State,
+NG-DE,State,
+NG-EB,State,
+NG-ED,State,
+NG-EK,State,
+NG-EN,State,
+NG-FC,Capital territory,
+NG-GO,State,
+NG-IM,State,
+NG-JI,State,
+NG-KD,State,
+NG-KE,State,
+NG-KN,State,
+NG-KO,State,
+NG-KT,State,
+NG-KW,State,
+NG-LA,State,
+NG-NA,State,
+NG-NI,State,
+NG-OG,State,
+NG-ON,State,
+NG-OS,State,
+NG-OY,State,
+NG-PL,State,
+NG-RI,State,
+NG-SO,State,
+NG-TA,State,
+NG-YO,State,
+NG-ZA,State,
+NI-AN,Autonomous region,
+NI-AS,Autonomous region,
+NI-BO,Department,
+NI-CA,Department,
+NI-CI,Department,
+NI-CO,Department,
+NI-ES,Department,
+NI-GR,Department,
+NI-JI,Department,
+NI-LE,Department,
+NI-MD,Department,
+NI-MN,Department,
+NI-MS,Department,
+NI-MT,Department,
+NI-NS,Department,
+NI-RI,Department,
+NI-SJ,Department,
+NL-AW,Country,
+NL-BQ1,Special municipality,
+NL-BQ2,Special municipality,
+NL-BQ3,Special municipality,
+NL-CW,Country,
+NL-DR,Province,
+NL-FL,Province,
+NL-FR,Province,
+NL-GE,Province,
+NL-GR,Province,
+NL-LI,Province,
+NL-NB,Province,
+NL-NH,Province,
+NL-OV,Province,
+NL-SX,Country,
+NL-UT,Province,
+NL-ZE,Province,
+NL-ZH,Province,
+NO-03,County,
+NO-11,County,
+NO-15,County,
+NO-18,County,
+NO-21,Arctic region,
+NO-22,Arctic region,
+NO-30,County,
+NO-34,County,
+NO-38,County,
+NO-42,County,
+NO-46,County,
+NO-50,County,
+NO-54,County,
+NP-P1,Province,
+NP-P2,Province,
+NP-P3,Province,
+NP-P4,Province,
+NP-P5,Province,
+NP-P6,Province,
+NP-P7,Province,
+NR-01,District,
+NR-02,District,
+NR-03,District,
+NR-04,District,
+NR-05,District,
+NR-06,District,
+NR-07,District,
+NR-08,District,
+NR-09,District,
+NR-10,District,
+NR-11,District,
+NR-12,District,
+NR-13,District,
+NR-14,District,
+NZ-AUK,Region,
+NZ-BOP,Region,
+NZ-CAN,Region,
+NZ-CIT,Special island authority,
+NZ-GIS,Region,
+NZ-HKB,Region,
+NZ-MBH,Region,
+NZ-MWT,Region,
+NZ-NSN,Region,
+NZ-NTL,Region,
+NZ-OTA,Region,
+NZ-STL,Region,
+NZ-TAS,Region,
+NZ-TKI,Region,
+NZ-WGN,Region,
+NZ-WKO,Region,
+NZ-WTC,Region,
+OM-BJ,Governorate,
+OM-BS,Governorate,
+OM-BU,Governorate,
+OM-DA,Governorate,
+OM-MA,Governorate,
+OM-MU,Governorate,
+OM-SJ,Governorate,
+OM-SS,Governorate,
+OM-WU,Governorate,
+OM-ZA,Governorate,
+OM-ZU,Governorate,
+PA-1,Province,
+PA-10,Province,
+PA-2,Province,
+PA-3,Province,
+PA-4,Province,
+PA-5,Province,
+PA-6,Province,
+PA-7,Province,
+PA-8,Province,
+PA-9,Province,
+PA-EM,Indigenous region,
+PA-KY,Indigenous region,
+PA-NB,Indigenous region,
+PA-NT,Indigenous region,
+PE-AMA,Region,
+PE-ANC,Region,
+PE-APU,Region,
+PE-ARE,Region,
+PE-AYA,Region,
+PE-CAJ,Region,
+PE-CAL,Region,
+PE-CUS,Region,
+PE-HUC,Region,
+PE-HUV,Region,
+PE-ICA,Region,
+PE-JUN,Region,
+PE-LAL,Region,
+PE-LAM,Region,
+PE-LIM,Region,
+PE-LMA,Municipality,
+PE-LOR,Region,
+PE-MDD,Region,
+PE-MOQ,Region,
+PE-PAS,Region,
+PE-PIU,Region,
+PE-PUN,Region,
+PE-SAM,Region,
+PE-TAC,Region,
+PE-TUM,Region,
+PE-UCA,Region,
+PG-CPK,Province,
+PG-CPM,Province,
+PG-EBR,Province,
+PG-EHG,Province,
+PG-EPW,Province,
+PG-ESW,Province,
+PG-GPK,Province,
+PG-HLA,Province,
+PG-JWK,Province,
+PG-MBA,Province,
+PG-MPL,Province,
+PG-MPM,Province,
+PG-MRL,Province,
+PG-NCD,District,
+PG-NIK,Province,
+PG-NPP,Province,
+PG-NSB,Autonomous region,
+PG-SAN,Province,
+PG-SHM,Province,
+PG-WBK,Province,
+PG-WHM,Province,
+PG-WPD,Province,
+PH-00,Region,
+PH-01,Region,
+PH-02,Region,
+PH-03,Region,
+PH-05,Region,
+PH-06,Region,
+PH-07,Region,
+PH-08,Region,
+PH-09,Region,
+PH-10,Region,
+PH-11,Region,
+PH-12,Region,
+PH-13,Region,
+PH-14,Region,
+PH-15,Region,
+PH-40,Region,
+PH-41,Region,
+PH-ABR,Province,PH-15
+PH-AGN,Province,PH-13
+PH-AGS,Province,PH-13
+PH-AKL,Province,PH-06
+PH-ALB,Province,PH-05
+PH-ANT,Province,PH-06
+PH-APA,Province,PH-15
+PH-AUR,Province,PH-03
+PH-BAN,Province,PH-03
+PH-BAS,Province,PH-09
+PH-BEN,Province,PH-15
+PH-BIL,Province,PH-08
+PH-BOH,Province,PH-07
+PH-BTG,Province,PH-40
+PH-BTN,Province,PH-02
+PH-BUK,Province,PH-10
+PH-BUL,Province,PH-03
+PH-CAG,Province,PH-02
+PH-CAM,Province,PH-10
+PH-CAN,Province,PH-05
+PH-CAP,Province,PH-06
+PH-CAS,Province,PH-05
+PH-CAT,Province,PH-05
+PH-CAV,Province,PH-40
+PH-CEB,Province,PH-07
+PH-COM,Province,PH-11
+PH-DAO,Province,PH-11
+PH-DAS,Province,PH-11
+PH-DAV,Province,PH-11
+PH-DIN,Province,PH-13
+PH-DVO,Province,PH-11
+PH-EAS,Province,PH-08
+PH-GUI,Province,PH-06
+PH-IFU,Province,PH-15
+PH-ILI,Province,PH-06
+PH-ILN,Province,PH-01
+PH-ILS,Province,PH-01
+PH-ISA,Province,PH-02
+PH-KAL,Province,PH-15
+PH-LAG,Province,PH-40
+PH-LAN,Province,PH-12
+PH-LAS,Province,PH-14
+PH-LEY,Province,PH-08
+PH-LUN,Province,PH-01
+PH-MAD,Province,PH-41
+PH-MAS,Province,PH-05
+PH-MDC,Province,PH-41
+PH-MDR,Province,PH-41
+PH-MGN,Province,PH-14
+PH-MGS,Province,PH-14
+PH-MOU,Province,PH-15
+PH-MSC,Province,PH-10
+PH-MSR,Province,PH-10
+PH-NCO,Province,PH-12
+PH-NEC,Province,PH-06
+PH-NER,Province,PH-07
+PH-NSA,Province,PH-08
+PH-NUE,Province,PH-03
+PH-NUV,Province,PH-02
+PH-PAM,Province,PH-03
+PH-PAN,Province,PH-01
+PH-PLW,Province,PH-41
+PH-QUE,Province,PH-40
+PH-QUI,Province,PH-02
+PH-RIZ,Province,PH-40
+PH-ROM,Province,PH-41
+PH-SAR,Province,PH-11
+PH-SCO,Province,PH-11
+PH-SIG,Province,PH-07
+PH-SLE,Province,PH-08
+PH-SLU,Province,PH-14
+PH-SOR,Province,PH-05
+PH-SUK,Province,PH-12
+PH-SUN,Province,PH-13
+PH-SUR,Province,PH-13
+PH-TAR,Province,PH-03
+PH-TAW,Province,PH-14
+PH-WSA,Province,PH-08
+PH-ZAN,Province,PH-09
+PH-ZAS,Province,PH-09
+PH-ZMB,Province,PH-03
+PH-ZSI,Province,PH-09
+PK-BA,Province,
+PK-GB,Pakistan administered area,
+PK-IS,Federal capital territory,
+PK-JK,Pakistan administered area,
+PK-KP,Province,
+PK-PB,Province,
+PK-SD,Province,
+PL-02,Voivodship,
+PL-04,Voivodship,
+PL-06,Voivodship,
+PL-08,Voivodship,
+PL-10,Voivodship,
+PL-12,Voivodship,
+PL-14,Voivodship,
+PL-16,Voivodship,
+PL-18,Voivodship,
+PL-20,Voivodship,
+PL-22,Voivodship,
+PL-24,Voivodship,
+PL-26,Voivodship,
+PL-28,Voivodship,
+PL-30,Voivodship,
+PL-32,Voivodship,
+PS-BTH,Governorate,
+PS-DEB,Governorate,
+PS-GZA,Governorate,
+PS-HBN,Governorate,
+PS-JEM,Governorate,
+PS-JEN,Governorate,
+PS-JRH,Governorate,
+PS-KYS,Governorate,
+PS-NBS,Governorate,
+PS-NGZ,Governorate,
+PS-QQA,Governorate,
+PS-RBH,Governorate,
+PS-RFH,Governorate,
+PS-SLT,Governorate,
+PS-TBS,Governorate,
+PS-TKM,Governorate,
+PT-01,District,
+PT-02,District,
+PT-03,District,
+PT-04,District,
+PT-05,District,
+PT-06,District,
+PT-07,District,
+PT-08,District,
+PT-09,District,
+PT-10,District,
+PT-11,District,
+PT-12,District,
+PT-13,District,
+PT-14,District,
+PT-15,District,
+PT-16,District,
+PT-17,District,
+PT-18,District,
+PT-20,Autonomous region,
+PT-30,Autonomous region,
+PW-002,State,
+PW-004,State,
+PW-010,State,
+PW-050,State,
+PW-100,State,
+PW-150,State,
+PW-212,State,
+PW-214,State,
+PW-218,State,
+PW-222,State,
+PW-224,State,
+PW-226,State,
+PW-227,State,
+PW-228,State,
+PW-350,State,
+PW-370,State,
+PY-1,Department,
+PY-10,Department,
+PY-11,Department,
+PY-12,Department,
+PY-13,Department,
+PY-14,Department,
+PY-15,Department,
+PY-16,Department,
+PY-19,Department,
+PY-2,Department,
+PY-3,Department,
+PY-4,Department,
+PY-5,Department,
+PY-6,Department,
+PY-7,Department,
+PY-8,Department,
+PY-9,Department,
+PY-ASU,Capital,
+QA-DA,Municipality,
+QA-KH,Municipality,
+QA-MS,Municipality,
+QA-RA,Municipality,
+QA-SH,Municipality,
+QA-US,Municipality,
+QA-WA,Municipality,
+QA-ZA,Municipality,
+RO-AB,Department,
+RO-AG,Department,
+RO-AR,Department,
+RO-B,Municipality,
+RO-BC,Department,
+RO-BH,Department,
+RO-BN,Department,
+RO-BR,Department,
+RO-BT,Department,
+RO-BV,Department,
+RO-BZ,Department,
+RO-CJ,Department,
+RO-CL,Department,
+RO-CS,Department,
+RO-CT,Department,
+RO-CV,Department,
+RO-DB,Department,
+RO-DJ,Department,
+RO-GJ,Department,
+RO-GL,Department,
+RO-GR,Department,
+RO-HD,Department,
+RO-HR,Department,
+RO-IF,Department,
+RO-IL,Department,
+RO-IS,Department,
+RO-MH,Department,
+RO-MM,Department,
+RO-MS,Department,
+RO-NT,Department,
+RO-OT,Department,
+RO-PH,Department,
+RO-SB,Department,
+RO-SJ,Department,
+RO-SM,Department,
+RO-SV,Department,
+RO-TL,Department,
+RO-TM,Department,
+RO-TR,Department,
+RO-VL,Department,
+RO-VN,Department,
+RO-VS,Department,
+RS-00,City,
+RS-01,District,RS-VO
+RS-02,District,RS-VO
+RS-03,District,RS-VO
+RS-04,District,RS-VO
+RS-05,District,RS-VO
+RS-06,District,RS-VO
+RS-07,District,RS-VO
+RS-08,District,
+RS-09,District,
+RS-10,District,
+RS-11,District,
+RS-12,District,
+RS-13,District,
+RS-14,District,
+RS-15,District,
+RS-16,District,
+RS-17,District,
+RS-18,District,
+RS-19,District,
+RS-20,District,
+RS-21,District,
+RS-22,District,
+RS-23,District,
+RS-24,District,
+RS-25,District,RS-KM
+RS-26,District,RS-KM
+RS-27,District,RS-KM
+RS-28,District,RS-KM
+RS-29,District,RS-KM
+RS-KM,Autonomous province,
+RS-VO,Autonomous province,
+RU-AD,Republic,
+RU-AL,Republic,
+RU-ALT,Administrative territory,
+RU-AMU,Administrative region,
+RU-ARK,Administrative region,
+RU-AST,Administrative region,
+RU-BA,Republic,
+RU-BEL,Administrative region,
+RU-BRY,Administrative region,
+RU-BU,Republic,
+RU-CE,Republic,
+RU-CHE,Administrative region,
+RU-CHU,Autonomous district,
+RU-CU,Republic,
+RU-DA,Republic,
+RU-IN,Republic,
+RU-IRK,Administrative region,
+RU-IVA,Administrative region,
+RU-KAM,Administrative territory,
+RU-KB,Republic,
+RU-KC,Republic,
+RU-KDA,Administrative territory,
+RU-KEM,Administrative region,
+RU-KGD,Administrative region,
+RU-KGN,Administrative region,
+RU-KHA,Administrative territory,
+RU-KHM,Autonomous district,
+RU-KIR,Administrative region,
+RU-KK,Republic,
+RU-KL,Republic,
+RU-KLU,Administrative region,
+RU-KO,Republic,
+RU-KOS,Administrative region,
+RU-KR,Republic,
+RU-KRS,Administrative region,
+RU-KYA,Administrative territory,
+RU-LEN,Administrative region,
+RU-LIP,Administrative region,
+RU-MAG,Administrative region,
+RU-ME,Republic,
+RU-MO,Republic,
+RU-MOS,Administrative region,
+RU-MOW,Autonomous city,
+RU-MUR,Administrative region,
+RU-NEN,Autonomous district,
+RU-NGR,Administrative region,
+RU-NIZ,Administrative region,
+RU-NVS,Administrative region,
+RU-OMS,Administrative region,
+RU-ORE,Administrative region,
+RU-ORL,Administrative region,
+RU-PER,Administrative territory,
+RU-PNZ,Administrative region,
+RU-PRI,Administrative territory,
+RU-PSK,Administrative region,
+RU-ROS,Administrative region,
+RU-RYA,Administrative region,
+RU-SA,Republic,
+RU-SAK,Administrative region,
+RU-SAM,Administrative region,
+RU-SAR,Administrative region,
+RU-SE,Republic,
+RU-SMO,Administrative region,
+RU-SPE,Autonomous city,
+RU-STA,Administrative territory,
+RU-SVE,Administrative region,
+RU-TA,Republic,
+RU-TAM,Administrative region,
+RU-TOM,Administrative region,
+RU-TUL,Administrative region,
+RU-TVE,Administrative region,
+RU-TY,Republic,
+RU-TYU,Administrative region,
+RU-UD,Republic,
+RU-ULY,Administrative region,
+RU-VGG,Administrative region,
+RU-VLA,Administrative region,
+RU-VLG,Administrative region,
+RU-VOR,Administrative region,
+RU-YAN,Autonomous district,
+RU-YAR,Administrative region,
+RU-YEV,Autonomous region,
+RU-ZAB,Administrative territory,
+RW-01,City,
+RW-02,Province,
+RW-03,Province,
+RW-04,Province,
+RW-05,Province,
+SA-01,Region,
+SA-02,Region,
+SA-03,Region,
+SA-04,Region,
+SA-05,Region,
+SA-06,Region,
+SA-07,Region,
+SA-08,Region,
+SA-09,Region,
+SA-10,Region,
+SA-11,Region,
+SA-12,Region,
+SA-14,Region,
+SB-CE,Province,
+SB-CH,Province,
+SB-CT,Capital territory,
+SB-GU,Province,
+SB-IS,Province,
+SB-MK,Province,
+SB-ML,Province,
+SB-RB,Province,
+SB-TE,Province,
+SB-WE,Province,
+SC-01,District,
+SC-02,District,
+SC-03,District,
+SC-04,District,
+SC-05,District,
+SC-06,District,
+SC-07,District,
+SC-08,District,
+SC-09,District,
+SC-10,District,
+SC-11,District,
+SC-12,District,
+SC-13,District,
+SC-14,District,
+SC-15,District,
+SC-16,District,
+SC-17,District,
+SC-18,District,
+SC-19,District,
+SC-20,District,
+SC-21,District,
+SC-22,District,
+SC-23,District,
+SC-24,District,
+SC-25,District,
+SC-26,District,
+SC-27,District,
+SD-DC,State,
+SD-DE,State,
+SD-DN,State,
+SD-DS,State,
+SD-DW,State,
+SD-GD,State,
+SD-GK,State,
+SD-GZ,State,
+SD-KA,State,
+SD-KH,State,
+SD-KN,State,
+SD-KS,State,
+SD-NB,State,
+SD-NO,State,
+SD-NR,State,
+SD-NW,State,
+SD-RS,State,
+SD-SI,State,
+SE-AB,County,
+SE-AC,County,
+SE-BD,County,
+SE-C,County,
+SE-D,County,
+SE-E,County,
+SE-F,County,
+SE-G,County,
+SE-H,County,
+SE-I,County,
+SE-K,County,
+SE-M,County,
+SE-N,County,
+SE-O,County,
+SE-S,County,
+SE-T,County,
+SE-U,County,
+SE-W,County,
+SE-X,County,
+SE-Y,County,
+SE-Z,County,
+SG-01,District,
+SG-02,District,
+SG-03,District,
+SG-04,District,
+SG-05,District,
+SH-AC,Geographical entity,
+SH-HL,Geographical entity,
+SH-TA,Geographical entity,
+SI-001,Municipality,
+SI-002,Municipality,
+SI-003,Municipality,
+SI-004,Municipality,
+SI-005,Municipality,
+SI-006,Municipality,
+SI-007,Municipality,
+SI-008,Municipality,
+SI-009,Municipality,
+SI-010,Municipality,
+SI-011,Urban municipality,
+SI-012,Municipality,
+SI-013,Municipality,
+SI-014,Municipality,
+SI-015,Municipality,
+SI-016,Municipality,
+SI-017,Municipality,
+SI-018,Municipality,
+SI-019,Municipality,
+SI-020,Municipality,
+SI-021,Municipality,
+SI-022,Municipality,
+SI-023,Municipality,
+SI-024,Municipality,
+SI-025,Municipality,
+SI-026,Municipality,
+SI-027,Municipality,
+SI-028,Municipality,
+SI-029,Municipality,
+SI-030,Municipality,
+SI-031,Municipality,
+SI-032,Municipality,
+SI-033,Municipality,
+SI-034,Municipality,
+SI-035,Municipality,
+SI-036,Municipality,
+SI-037,Municipality,
+SI-038,Municipality,
+SI-039,Municipality,
+SI-040,Municipality,
+SI-041,Municipality,
+SI-042,Municipality,
+SI-043,Municipality,
+SI-044,Municipality,
+SI-045,Municipality,
+SI-046,Municipality,
+SI-047,Municipality,
+SI-048,Municipality,
+SI-049,Municipality,
+SI-050,Urban municipality,
+SI-051,Municipality,
+SI-052,Urban municipality,
+SI-053,Municipality,
+SI-054,Urban municipality,
+SI-055,Municipality,
+SI-056,Municipality,
+SI-057,Municipality,
+SI-058,Municipality,
+SI-059,Municipality,
+SI-060,Municipality,
+SI-061,Urban municipality,
+SI-062,Municipality,
+SI-063,Municipality,
+SI-064,Municipality,
+SI-065,Municipality,
+SI-066,Municipality,
+SI-067,Municipality,
+SI-068,Municipality,
+SI-069,Municipality,
+SI-070,Urban municipality,
+SI-071,Municipality,
+SI-072,Municipality,
+SI-073,Municipality,
+SI-074,Municipality,
+SI-075,Municipality,
+SI-076,Municipality,
+SI-077,Municipality,
+SI-078,Municipality,
+SI-079,Municipality,
+SI-080,Urban municipality,
+SI-081,Municipality,
+SI-082,Municipality,
+SI-083,Municipality,
+SI-084,Urban municipality,
+SI-085,Urban municipality,
+SI-086,Municipality,
+SI-087,Municipality,
+SI-088,Municipality,
+SI-089,Municipality,
+SI-090,Municipality,
+SI-091,Municipality,
+SI-092,Municipality,
+SI-093,Municipality,
+SI-094,Municipality,
+SI-095,Municipality,
+SI-096,Urban municipality,
+SI-097,Municipality,
+SI-098,Municipality,
+SI-099,Municipality,
+SI-100,Municipality,
+SI-101,Municipality,
+SI-102,Municipality,
+SI-103,Municipality,
+SI-104,Municipality,
+SI-105,Municipality,
+SI-106,Municipality,
+SI-107,Municipality,
+SI-108,Municipality,
+SI-109,Municipality,
+SI-110,Municipality,
+SI-111,Municipality,
+SI-112,Urban municipality,
+SI-113,Municipality,
+SI-114,Municipality,
+SI-115,Municipality,
+SI-116,Municipality,
+SI-117,Municipality,
+SI-118,Municipality,
+SI-119,Municipality,
+SI-120,Municipality,
+SI-121,Municipality,
+SI-122,Municipality,
+SI-123,Municipality,
+SI-124,Municipality,
+SI-125,Municipality,
+SI-126,Municipality,
+SI-127,Municipality,
+SI-128,Municipality,
+SI-129,Municipality,
+SI-130,Municipality,
+SI-131,Municipality,
+SI-132,Municipality,
+SI-133,Urban municipality,
+SI-134,Municipality,
+SI-135,Municipality,
+SI-136,Municipality,
+SI-137,Municipality,
+SI-138,Municipality,
+SI-139,Municipality,
+SI-140,Municipality,
+SI-141,Municipality,
+SI-142,Municipality,
+SI-143,Municipality,
+SI-144,Municipality,
+SI-146,Municipality,
+SI-147,Municipality,
+SI-148,Municipality,
+SI-149,Municipality,
+SI-150,Municipality,
+SI-151,Municipality,
+SI-152,Municipality,
+SI-153,Municipality,
+SI-154,Municipality,
+SI-155,Municipality,
+SI-156,Municipality,
+SI-157,Municipality,
+SI-158,Municipality,
+SI-159,Municipality,
+SI-160,Municipality,
+SI-161,Municipality,
+SI-162,Municipality,
+SI-163,Municipality,
+SI-164,Municipality,
+SI-165,Municipality,
+SI-166,Municipality,
+SI-167,Municipality,
+SI-168,Municipality,
+SI-169,Municipality,
+SI-170,Municipality,
+SI-171,Municipality,
+SI-172,Municipality,
+SI-173,Municipality,
+SI-174,Municipality,
+SI-175,Municipality,
+SI-176,Municipality,
+SI-177,Municipality,
+SI-178,Municipality,
+SI-179,Municipality,
+SI-180,Municipality,
+SI-181,Municipality,
+SI-182,Municipality,
+SI-183,Municipality,
+SI-184,Municipality,
+SI-185,Municipality,
+SI-186,Municipality,
+SI-187,Municipality,
+SI-188,Municipality,
+SI-189,Municipality,
+SI-190,Municipality,
+SI-191,Municipality,
+SI-192,Municipality,
+SI-193,Municipality,
+SI-194,Municipality,
+SI-195,Municipality,
+SI-196,Municipality,
+SI-197,Municipality,
+SI-198,Municipality,
+SI-199,Municipality,
+SI-200,Municipality,
+SI-201,Municipality,
+SI-202,Municipality,
+SI-203,Municipality,
+SI-204,Municipality,
+SI-205,Municipality,
+SI-206,Municipality,
+SI-207,Municipality,
+SI-208,Municipality,
+SI-209,Municipality,
+SI-210,Municipality,
+SI-211,Municipality,
+SI-212,Municipality,
+SI-213,Municipality,
+SK-BC,Region,
+SK-BL,Region,
+SK-KI,Region,
+SK-NI,Region,
+SK-PV,Region,
+SK-TA,Region,
+SK-TC,Region,
+SK-ZI,Region,
+SL-E,Province,
+SL-N,Province,
+SL-NW,Province,
+SL-S,Province,
+SL-W,Area,
+SM-01,Municipality,
+SM-02,Municipality,
+SM-03,Municipality,
+SM-04,Municipality,
+SM-05,Municipality,
+SM-06,Municipality,
+SM-07,Municipality,
+SM-08,Municipality,
+SM-09,Municipality,
+SN-DB,Region,
+SN-DK,Region,
+SN-FK,Region,
+SN-KA,Region,
+SN-KD,Region,
+SN-KE,Region,
+SN-KL,Region,
+SN-LG,Region,
+SN-MT,Region,
+SN-SE,Region,
+SN-SL,Region,
+SN-TC,Region,
+SN-TH,Region,
+SN-ZG,Region,
+SO-AW,Region,
+SO-BK,Region,
+SO-BN,Region,
+SO-BR,Region,
+SO-BY,Region,
+SO-GA,Region,
+SO-GE,Region,
+SO-HI,Region,
+SO-JD,Region,
+SO-JH,Region,
+SO-MU,Region,
+SO-NU,Region,
+SO-SA,Region,
+SO-SD,Region,
+SO-SH,Region,
+SO-SO,Region,
+SO-TO,Region,
+SO-WO,Region,
+SR-BR,District,
+SR-CM,District,
+SR-CR,District,
+SR-MA,District,
+SR-NI,District,
+SR-PM,District,
+SR-PR,District,
+SR-SA,District,
+SR-SI,District,
+SR-WA,District,
+SS-BN,State,
+SS-BW,State,
+SS-EC,State,
+SS-EE,State,
+SS-EW,State,
+SS-JG,State,
+SS-LK,State,
+SS-NU,State,
+SS-UY,State,
+SS-WR,State,
+ST-01,District,
+ST-02,District,
+ST-03,District,
+ST-04,District,
+ST-05,District,
+ST-06,District,
+ST-P,Autonomous region,
+SV-AH,Department,
+SV-CA,Department,
+SV-CH,Department,
+SV-CU,Department,
+SV-LI,Department,
+SV-MO,Department,
+SV-PA,Department,
+SV-SA,Department,
+SV-SM,Department,
+SV-SO,Department,
+SV-SS,Department,
+SV-SV,Department,
+SV-UN,Department,
+SV-US,Department,
+SY-DI,Province,
+SY-DR,Province,
+SY-DY,Province,
+SY-HA,Province,
+SY-HI,Province,
+SY-HL,Province,
+SY-HM,Province,
+SY-ID,Province,
+SY-LA,Province,
+SY-QU,Province,
+SY-RA,Province,
+SY-RD,Province,
+SY-SU,Province,
+SY-TA,Province,
+SZ-HH,Region,
+SZ-LU,Region,
+SZ-MA,Region,
+SZ-SH,Region,
+TD-BA,Province,
+TD-BG,Province,
+TD-BO,Province,
+TD-CB,Province,
+TD-EE,Province,
+TD-EO,Province,
+TD-GR,Province,
+TD-HL,Province,
+TD-KA,Province,
+TD-LC,Province,
+TD-LO,Province,
+TD-LR,Province,
+TD-MA,Province,
+TD-MC,Province,
+TD-ME,Province,
+TD-MO,Province,
+TD-ND,Province,
+TD-OD,Province,
+TD-SA,Province,
+TD-SI,Province,
+TD-TA,Province,
+TD-TI,Province,
+TD-WF,Province,
+TG-C,Region,
+TG-K,Region,
+TG-M,Region,
+TG-P,Region,
+TG-S,Region,
+TH-10,Metropolitan administration,
+TH-11,Province,
+TH-12,Province,
+TH-13,Province,
+TH-14,Province,
+TH-15,Province,
+TH-16,Province,
+TH-17,Province,
+TH-18,Province,
+TH-19,Province,
+TH-20,Province,
+TH-21,Province,
+TH-22,Province,
+TH-23,Province,
+TH-24,Province,
+TH-25,Province,
+TH-26,Province,
+TH-27,Province,
+TH-30,Province,
+TH-31,Province,
+TH-32,Province,
+TH-33,Province,
+TH-34,Province,
+TH-35,Province,
+TH-36,Province,
+TH-37,Province,
+TH-38,Province,
+TH-39,Province,
+TH-40,Province,
+TH-41,Province,
+TH-42,Province,
+TH-43,Province,
+TH-44,Province,
+TH-45,Province,
+TH-46,Province,
+TH-47,Province,
+TH-48,Province,
+TH-49,Province,
+TH-50,Province,
+TH-51,Province,
+TH-52,Province,
+TH-53,Province,
+TH-54,Province,
+TH-55,Province,
+TH-56,Province,
+TH-57,Province,
+TH-58,Province,
+TH-60,Province,
+TH-61,Province,
+TH-62,Province,
+TH-63,Province,
+TH-64,Province,
+TH-65,Province,
+TH-66,Province,
+TH-67,Province,
+TH-70,Province,
+TH-71,Province,
+TH-72,Province,
+TH-73,Province,
+TH-74,Province,
+TH-75,Province,
+TH-76,Province,
+TH-77,Province,
+TH-80,Province,
+TH-81,Province,
+TH-82,Province,
+TH-83,Province,
+TH-84,Province,
+TH-85,Province,
+TH-86,Province,
+TH-90,Province,
+TH-91,Province,
+TH-92,Province,
+TH-93,Province,
+TH-94,Province,
+TH-95,Province,
+TH-96,Province,
+TH-S,Special administrative city,
+TJ-DU,Capital territory,
+TJ-GB,Autonomous region,
+TJ-KT,Region,
+TJ-RA,Districts under republic administration,
+TJ-SU,Region,
+TL-AL,Municipality,
+TL-AN,Municipality,
+TL-BA,Municipality,
+TL-BO,Municipality,
+TL-CO,Municipality,
+TL-DI,Municipality,
+TL-ER,Municipality,
+TL-LA,Municipality,
+TL-LI,Municipality,
+TL-MF,Municipality,
+TL-MT,Municipality,
+TL-OE,Special administrative region,
+TL-VI,Municipality,
+TM-A,Region,
+TM-B,Region,
+TM-D,Region,
+TM-L,Region,
+TM-M,Region,
+TM-S,City,
+TN-11,Governorate,
+TN-12,Governorate,
+TN-13,Governorate,
+TN-14,Governorate,
+TN-21,Governorate,
+TN-22,Governorate,
+TN-23,Governorate,
+TN-31,Governorate,
+TN-32,Governorate,
+TN-33,Governorate,
+TN-34,Governorate,
+TN-41,Governorate,
+TN-42,Governorate,
+TN-43,Governorate,
+TN-51,Governorate,
+TN-52,Governorate,
+TN-53,Governorate,
+TN-61,Governorate,
+TN-71,Governorate,
+TN-72,Governorate,
+TN-73,Governorate,
+TN-81,Governorate,
+TN-82,Governorate,
+TN-83,Governorate,
+TO-01,Division,
+TO-02,Division,
+TO-03,Division,
+TO-04,Division,
+TO-05,Division,
+TR-01,Province,
+TR-02,Province,
+TR-03,Province,
+TR-04,Province,
+TR-05,Province,
+TR-06,Province,
+TR-07,Province,
+TR-08,Province,
+TR-09,Province,
+TR-10,Province,
+TR-11,Province,
+TR-12,Province,
+TR-13,Province,
+TR-14,Province,
+TR-15,Province,
+TR-16,Province,
+TR-17,Province,
+TR-18,Province,
+TR-19,Province,
+TR-20,Province,
+TR-21,Province,
+TR-22,Province,
+TR-23,Province,
+TR-24,Province,
+TR-25,Province,
+TR-26,Province,
+TR-27,Province,
+TR-28,Province,
+TR-29,Province,
+TR-30,Province,
+TR-31,Province,
+TR-32,Province,
+TR-33,Province,
+TR-34,Province,
+TR-35,Province,
+TR-36,Province,
+TR-37,Province,
+TR-38,Province,
+TR-39,Province,
+TR-40,Province,
+TR-41,Province,
+TR-42,Province,
+TR-43,Province,
+TR-44,Province,
+TR-45,Province,
+TR-46,Province,
+TR-47,Province,
+TR-48,Province,
+TR-49,Province,
+TR-50,Province,
+TR-51,Province,
+TR-52,Province,
+TR-53,Province,
+TR-54,Province,
+TR-55,Province,
+TR-56,Province,
+TR-57,Province,
+TR-58,Province,
+TR-59,Province,
+TR-60,Province,
+TR-61,Province,
+TR-62,Province,
+TR-63,Province,
+TR-64,Province,
+TR-65,Province,
+TR-66,Province,
+TR-67,Province,
+TR-68,Province,
+TR-69,Province,
+TR-70,Province,
+TR-71,Province,
+TR-72,Province,
+TR-73,Province,
+TR-74,Province,
+TR-75,Province,
+TR-76,Province,
+TR-77,Province,
+TR-78,Province,
+TR-79,Province,
+TR-80,Province,
+TR-81,Province,
+TT-ARI,Borough,
+TT-CHA,Borough,
+TT-CTT,Region,
+TT-DMN,Region,
+TT-MRC,Region,
+TT-PED,Region,
+TT-POS,City,
+TT-PRT,Region,
+TT-PTF,Borough,
+TT-SFO,City,
+TT-SGE,Region,
+TT-SIP,Region,
+TT-SJL,Region,
+TT-TOB,Ward,
+TT-TUP,Region,
+TV-FUN,Town council,
+TV-NIT,Island council,
+TV-NKF,Island council,
+TV-NKL,Island council,
+TV-NMA,Island council,
+TV-NMG,Island council,
+TV-NUI,Island council,
+TV-VAI,Island council,
+TW-CHA,County,
+TW-CYI,City,
+TW-CYQ,County,
+TW-HSQ,County,
+TW-HSZ,City,
+TW-HUA,County,
+TW-ILA,County,
+TW-KEE,City,
+TW-KHH,Special municipality,
+TW-KIN,County,
+TW-LIE,County,
+TW-MIA,County,
+TW-NAN,County,
+TW-NWT,Special municipality,
+TW-PEN,County,
+TW-PIF,County,
+TW-TAO,Special municipality,
+TW-TNN,Special municipality,
+TW-TPE,Special municipality,
+TW-TTT,County,
+TW-TXG,Special municipality,
+TW-YUN,County,
+TZ-01,Region,
+TZ-02,Region,
+TZ-03,Region,
+TZ-04,Region,
+TZ-05,Region,
+TZ-06,Region,
+TZ-07,Region,
+TZ-08,Region,
+TZ-09,Region,
+TZ-10,Region,
+TZ-11,Region,
+TZ-12,Region,
+TZ-13,Region,
+TZ-14,Region,
+TZ-15,Region,
+TZ-16,Region,
+TZ-17,Region,
+TZ-18,Region,
+TZ-19,Region,
+TZ-20,Region,
+TZ-21,Region,
+TZ-22,Region,
+TZ-23,Region,
+TZ-24,Region,
+TZ-25,Region,
+TZ-26,Region,
+TZ-27,Region,
+TZ-28,Region,
+TZ-29,Region,
+TZ-30,Region,
+TZ-31,Region,
+UA-05,Region,
+UA-07,Region,
+UA-09,Region,
+UA-12,Region,
+UA-14,Region,
+UA-18,Region,
+UA-21,Region,
+UA-23,Region,
+UA-26,Region,
+UA-30,City,
+UA-32,Region,
+UA-35,Region,
+UA-40,City,
+UA-43,Republic,
+UA-46,Region,
+UA-48,Region,
+UA-51,Region,
+UA-53,Region,
+UA-56,Region,
+UA-59,Region,
+UA-61,Region,
+UA-63,Region,
+UA-65,Region,
+UA-68,Region,
+UA-71,Region,
+UA-74,Region,
+UA-77,Region,
+UG-101,District,UG-C
+UG-102,City,UG-C
+UG-103,District,UG-C
+UG-104,District,UG-C
+UG-105,District,UG-C
+UG-106,District,UG-C
+UG-107,District,UG-C
+UG-108,District,UG-C
+UG-109,District,UG-C
+UG-110,District,UG-C
+UG-111,District,UG-C
+UG-112,District,UG-C
+UG-113,District,UG-C
+UG-114,District,UG-C
+UG-115,District,UG-C
+UG-116,District,UG-C
+UG-117,District,UG-C
+UG-118,District,UG-C
+UG-119,District,UG-C
+UG-120,District,UG-C
+UG-121,District,UG-C
+UG-122,District,UG-C
+UG-123,District,UG-C
+UG-124,District,UG-C
+UG-125,District,UG-C
+UG-126,District,UG-C
+UG-201,District,UG-E
+UG-202,District,UG-E
+UG-203,District,UG-E
+UG-204,District,UG-E
+UG-205,District,UG-E
+UG-206,District,UG-E
+UG-207,District,UG-E
+UG-208,District,UG-E
+UG-209,District,UG-E
+UG-210,District,UG-E
+UG-211,District,UG-E
+UG-212,District,UG-E
+UG-213,District,UG-E
+UG-214,District,UG-E
+UG-215,District,UG-E
+UG-216,District,UG-E
+UG-217,District,UG-E
+UG-218,District,UG-E
+UG-219,District,UG-E
+UG-220,District,UG-E
+UG-221,District,UG-E
+UG-222,District,UG-E
+UG-223,District,UG-E
+UG-224,District,UG-E
+UG-225,District,UG-E
+UG-226,District,UG-E
+UG-227,District,UG-E
+UG-228,District,UG-E
+UG-229,District,UG-E
+UG-230,District,UG-E
+UG-231,District,UG-E
+UG-232,District,UG-E
+UG-233,District,UG-E
+UG-234,District,UG-E
+UG-235,District,UG-E
+UG-236,District,UG-E
+UG-237,District,UG-E
+UG-301,District,UG-N
+UG-302,District,UG-N
+UG-303,District,UG-N
+UG-304,District,UG-N
+UG-305,District,UG-N
+UG-306,District,UG-N
+UG-307,District,UG-N
+UG-308,District,UG-N
+UG-309,District,UG-N
+UG-310,District,UG-N
+UG-311,District,UG-N
+UG-312,District,UG-N
+UG-313,District,UG-N
+UG-314,District,UG-N
+UG-315,District,UG-N
+UG-316,District,UG-N
+UG-317,District,UG-N
+UG-318,District,UG-N
+UG-319,District,UG-N
+UG-320,District,UG-N
+UG-321,District,UG-N
+UG-322,District,UG-N
+UG-323,District,UG-N
+UG-324,District,UG-N
+UG-325,District,UG-N
+UG-326,District,UG-N
+UG-327,District,UG-N
+UG-328,District,UG-N
+UG-329,District,UG-N
+UG-330,District,UG-N
+UG-331,District,UG-N
+UG-332,District,UG-N
+UG-333,District,UG-N
+UG-334,District,UG-N
+UG-335,District,UG-N
+UG-336,District,UG-N
+UG-337,District,UG-N
+UG-401,District,UG-W
+UG-402,District,UG-W
+UG-403,District,UG-W
+UG-404,District,UG-W
+UG-405,District,UG-W
+UG-406,District,UG-W
+UG-407,District,UG-W
+UG-408,District,UG-W
+UG-409,District,UG-W
+UG-410,District,UG-W
+UG-411,District,UG-W
+UG-412,District,UG-W
+UG-413,District,UG-W
+UG-414,District,UG-W
+UG-415,District,UG-W
+UG-416,District,UG-W
+UG-417,District,UG-W
+UG-418,District,UG-W
+UG-419,District,UG-W
+UG-420,District,UG-W
+UG-421,District,UG-W
+UG-422,District,UG-W
+UG-423,District,UG-W
+UG-424,District,UG-W
+UG-425,District,UG-W
+UG-426,District,UG-W
+UG-427,District,UG-W
+UG-428,District,UG-W
+UG-429,District,UG-W
+UG-430,District,UG-W
+UG-431,District,UG-W
+UG-432,District,UG-W
+UG-433,District,UG-W
+UG-434,District,UG-W
+UG-435,District,UG-W
+UG-C,Geographical region,
+UG-E,Geographical region,
+UG-N,Geographical region,
+UG-W,Geographical region,
+UM-67,"Islands, groups of islands",
+UM-71,"Islands, groups of islands",
+UM-76,"Islands, groups of islands",
+UM-79,"Islands, groups of islands",
+UM-81,"Islands, groups of islands",
+UM-84,"Islands, groups of islands",
+UM-86,"Islands, groups of islands",
+UM-89,"Islands, groups of islands",
+UM-95,"Islands, groups of islands",
+US-AK,State,
+US-AL,State,
+US-AR,State,
+US-AS,Outlying area,
+US-AZ,State,
+US-CA,State,
+US-CO,State,
+US-CT,State,
+US-DC,District,
+US-DE,State,
+US-FL,State,
+US-GA,State,
+US-GU,Outlying area,
+US-HI,State,
+US-IA,State,
+US-ID,State,
+US-IL,State,
+US-IN,State,
+US-KS,State,
+US-KY,State,
+US-LA,State,
+US-MA,State,
+US-MD,State,
+US-ME,State,
+US-MI,State,
+US-MN,State,
+US-MO,State,
+US-MP,Outlying area,
+US-MS,State,
+US-MT,State,
+US-NC,State,
+US-ND,State,
+US-NE,State,
+US-NH,State,
+US-NJ,State,
+US-NM,State,
+US-NV,State,
+US-NY,State,
+US-OH,State,
+US-OK,State,
+US-OR,State,
+US-PA,State,
+US-PR,Outlying area,
+US-RI,State,
+US-SC,State,
+US-SD,State,
+US-TN,State,
+US-TX,State,
+US-UM,Outlying area,
+US-UT,State,
+US-VA,State,
+US-VI,Outlying area,
+US-VT,State,
+US-WA,State,
+US-WI,State,
+US-WV,State,
+US-WY,State,
+UY-AR,Department,
+UY-CA,Department,
+UY-CL,Department,
+UY-CO,Department,
+UY-DU,Department,
+UY-FD,Department,
+UY-FS,Department,
+UY-LA,Department,
+UY-MA,Department,
+UY-MO,Department,
+UY-PA,Department,
+UY-RN,Department,
+UY-RO,Department,
+UY-RV,Department,
+UY-SA,Department,
+UY-SJ,Department,
+UY-SO,Department,
+UY-TA,Department,
+UY-TT,Department,
+UZ-AN,Region,
+UZ-BU,Region,
+UZ-FA,Region,
+UZ-JI,Region,
+UZ-NG,Region,
+UZ-NW,Region,
+UZ-QA,Region,
+UZ-QR,Republic,
+UZ-SA,Region,
+UZ-SI,Region,
+UZ-SU,Region,
+UZ-TK,City,
+UZ-TO,Region,
+UZ-XO,Region,
+VC-01,Parish,
+VC-02,Parish,
+VC-03,Parish,
+VC-04,Parish,
+VC-05,Parish,
+VC-06,Parish,
+VE-A,Capital district,
+VE-B,State,
+VE-C,State,
+VE-D,State,
+VE-E,State,
+VE-F,State,
+VE-G,State,
+VE-H,State,
+VE-I,State,
+VE-J,State,
+VE-K,State,
+VE-L,State,
+VE-M,State,
+VE-N,State,
+VE-O,State,
+VE-P,State,
+VE-R,State,
+VE-S,State,
+VE-T,State,
+VE-U,State,
+VE-V,State,
+VE-W,Federal dependency,
+VE-X,State,
+VE-Y,State,
+VE-Z,State,
+VN-01,Province,
+VN-02,Province,
+VN-03,Province,
+VN-04,Province,
+VN-05,Province,
+VN-06,Province,
+VN-07,Province,
+VN-09,Province,
+VN-13,Province,
+VN-14,Province,
+VN-18,Province,
+VN-20,Province,
+VN-21,Province,
+VN-22,Province,
+VN-23,Province,
+VN-24,Province,
+VN-25,Province,
+VN-26,Province,
+VN-27,Province,
+VN-28,Province,
+VN-29,Province,
+VN-30,Province,
+VN-31,Province,
+VN-32,Province,
+VN-33,Province,
+VN-34,Province,
+VN-35,Province,
+VN-36,Province,
+VN-37,Province,
+VN-39,Province,
+VN-40,Province,
+VN-41,Province,
+VN-43,Province,
+VN-44,Province,
+VN-45,Province,
+VN-46,Province,
+VN-47,Province,
+VN-49,Province,
+VN-50,Province,
+VN-51,Province,
+VN-52,Province,
+VN-53,Province,
+VN-54,Province,
+VN-55,Province,
+VN-56,Province,
+VN-57,Province,
+VN-58,Province,
+VN-59,Province,
+VN-61,Province,
+VN-63,Province,
+VN-66,Province,
+VN-67,Province,
+VN-68,Province,
+VN-69,Province,
+VN-70,Province,
+VN-71,Province,
+VN-72,Province,
+VN-73,Province,
+VN-CT,Municipality,
+VN-DN,Municipality,
+VN-HN,Municipality,
+VN-HP,Municipality,
+VN-SG,Municipality,
+VU-MAP,Province,
+VU-PAM,Province,
+VU-SAM,Province,
+VU-SEE,Province,
+VU-TAE,Province,
+VU-TOB,Province,
+WF-AL,Administrative precinct,
+WF-SG,Administrative precinct,
+WF-UV,Administrative precinct,
+WS-AA,District,
+WS-AL,District,
+WS-AT,District,
+WS-FA,District,
+WS-GE,District,
+WS-GI,District,
+WS-PA,District,
+WS-SA,District,
+WS-TU,District,
+WS-VF,District,
+WS-VS,District,
+YE-AB,Governorate,
+YE-AD,Governorate,
+YE-AM,Governorate,
+YE-BA,Governorate,
+YE-DA,Governorate,
+YE-DH,Governorate,
+YE-HD,Governorate,
+YE-HJ,Governorate,
+YE-HU,Governorate,
+YE-IB,Governorate,
+YE-JA,Governorate,
+YE-LA,Governorate,
+YE-MA,Governorate,
+YE-MR,Governorate,
+YE-MW,Governorate,
+YE-RA,Governorate,
+YE-SA,Municipality,
+YE-SD,Governorate,
+YE-SH,Governorate,
+YE-SN,Governorate,
+YE-SU,Governorate,
+YE-TA,Governorate,
+ZA-EC,Province,
+ZA-FS,Province,
+ZA-GP,Province,
+ZA-KZN,Province,
+ZA-LP,Province,
+ZA-MP,Province,
+ZA-NC,Province,
+ZA-NW,Province,
+ZA-WC,Province,
+ZM-01,Province,
+ZM-02,Province,
+ZM-03,Province,
+ZM-04,Province,
+ZM-05,Province,
+ZM-06,Province,
+ZM-07,Province,
+ZM-08,Province,
+ZM-09,Province,
+ZM-10,Province,
+ZW-BU,Province,
+ZW-HA,Province,
+ZW-MA,Province,
+ZW-MC,Province,
+ZW-ME,Province,
+ZW-MI,Province,
+ZW-MN,Province,
+ZW-MS,Province,
+ZW-MV,Province,
+ZW-MW,Province,

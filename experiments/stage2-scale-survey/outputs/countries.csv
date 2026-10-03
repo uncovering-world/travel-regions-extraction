@@ -1,0 +1,205 @@
+iso,country,reference,top_tier,all_tiers,relation
+RU,Russia,90,83,83,matches_top_tier
+US,United States,77,57,57,matches_top_tier
+CN,China,75,34,34,descends_below
+IN,India,48,36,36,matches_top_tier
+BR,Brazil,37,27,27,matches_top_tier
+GB,United Kingdom,34,4,221,between_tiers
+FR,France,32,26,124,matches_top_tier
+CA,Canada,27,13,13,descends_below
+AR,Argentina,25,24,24,matches_top_tier
+AU,Australia,25,8,8,descends_below
+MX,Mexico,25,32,32,matches_top_tier
+ID,Indonesia,23,7,45,between_tiers
+ES,Spain,22,19,69,matches_top_tier
+IT,Italy,21,20,126,matches_top_tier
+DE,Germany,20,16,16,matches_top_tier
+JP,Japan,17,47,47,groups_top_tier
+IR,Iran,14,31,31,groups_top_tier
+KZ,Kazakhstan,14,20,20,matches_top_tier
+TR,Turkey,14,81,81,groups_top_tier
+CD,"Congo, Democratic Republic",13,26,26,groups_top_tier
+ET,Ethiopia,11,13,13,matches_top_tier
+NG,Nigeria,11,37,37,groups_top_tier
+NL,Netherlands,11,18,18,groups_top_tier
+PK,Pakistan,11,7,7,descends_below
+CO,Colombia,10,33,33,groups_top_tier
+GR,Greece,10,14,14,matches_top_tier
+PE,Peru,10,26,26,groups_top_tier
+PH,Philippines,10,17,99,groups_top_tier
+SA,Saudi Arabia,10,13,13,matches_top_tier
+TH,Thailand,10,78,78,groups_top_tier
+DZ,Algeria,9,58,58,groups_top_tier
+EG,Egypt,9,27,27,groups_top_tier
+VN,Vietnam,9,63,63,groups_top_tier
+ZA,South Africa,9,9,9,matches_top_tier
+MY,Malaysia,8,16,16,groups_top_tier
+PG,Papua New Guinea,8,22,22,groups_top_tier
+TZ,Tanzania,8,31,31,groups_top_tier
+UA,Ukraine,8,27,27,groups_top_tier
+AE,United Arab Emirates,7,7,7,matches_top_tier
+AO,Angola,7,18,18,groups_top_tier
+BO,Bolivia,7,9,9,matches_top_tier
+CH,Switzerland,7,26,26,groups_top_tier
+CL,Chile,7,16,16,groups_top_tier
+KE,Kenya,7,47,47,groups_top_tier
+KR,"Korea, South",7,17,17,groups_top_tier
+MM,Myanmar (Burma),7,15,15,groups_top_tier
+NO,Norway,7,13,13,groups_top_tier
+PL,Poland,7,16,16,groups_top_tier
+PT,Portugal,7,20,20,groups_top_tier
+SD,Sudan,7,18,18,groups_top_tier
+SE,Sweden,7,21,21,groups_top_tier
+VE,Venezuela,7,25,25,groups_top_tier
+BD,Bangladesh,6,8,72,matches_top_tier
+FI,Finland,6,19,19,groups_top_tier
+MA,Morocco,6,12,87,groups_top_tier
+NZ,New Zealand,6,17,17,groups_top_tier
+RO,Romania,6,42,42,groups_top_tier
+AF,Afghanistan,5,34,34,groups_top_tier
+AT,Austria,5,9,9,groups_top_tier
+CM,Cameroon,5,10,10,groups_top_tier
+CZ,Czechia,5,14,90,groups_top_tier
+DK,Denmark,5,5,5,matches_top_tier
+EC,Ecuador,5,24,24,groups_top_tier
+HR,Croatia,5,21,21,groups_top_tier
+IQ,Iraq,5,16,19,groups_top_tier
+LY,Libya,5,22,22,groups_top_tier
+MG,Madagascar,5,6,6,matches_top_tier
+ML,Mali,5,11,11,groups_top_tier
+MN,Mongolia,5,22,22,groups_top_tier
+MZ,Mozambique,5,11,11,groups_top_tier
+NA,Namibia,5,14,14,groups_top_tier
+PF,French Polynesia,5,0,0,no_official_units
+TD,Chad,5,23,23,groups_top_tier
+UZ,Uzbekistan,5,14,14,groups_top_tier
+YE,Yemen,5,22,22,groups_top_tier
+ZM,Zambia,5,10,10,groups_top_tier
+AQ,Antarctica,4,0,0,no_official_units
+AZ,Azerbaijan,4,70,78,groups_top_tier
+BA,Bosnia and Herzegovina,4,3,3,matches_top_tier
+BG,Bulgaria,4,28,28,groups_top_tier
+CI,Côte d'Ivoire,4,14,14,groups_top_tier
+CR,Costa Rica,4,7,7,groups_top_tier
+CU,Cuba,4,16,16,groups_top_tier
+FM,Micronesia,4,4,4,matches_top_tier
+GH,Ghana,4,16,16,groups_top_tier
+GT,Guatemala,4,22,22,groups_top_tier
+HU,Hungary,4,43,43,groups_top_tier
+KH,Cambodia,4,25,25,groups_top_tier
+LK,Sri Lanka,4,9,34,groups_top_tier
+MR,Mauritania,4,15,15,groups_top_tier
+NE,Niger,4,8,8,groups_top_tier
+NP,Nepal,4,7,7,groups_top_tier
+OM,Oman,4,11,11,groups_top_tier
+PA,Panama,4,14,14,groups_top_tier
+SN,Senegal,4,14,14,groups_top_tier
+SY,Syria,4,14,14,groups_top_tier
+TN,Tunisia,4,24,24,groups_top_tier
+TW,Taiwan,4,22,22,groups_top_tier
+UG,Uganda,4,4,139,matches_top_tier
+AL,Albania,3,12,12,groups_top_tier
+AM,Armenia,3,11,11,groups_top_tier
+BE,Belgium,3,3,13,matches_top_tier
+BF,Burkina Faso,3,13,58,groups_top_tier
+BJ,Benin,3,12,12,groups_top_tier
+BW,Botswana,3,16,16,groups_top_tier
+BY,Belarus,3,7,7,groups_top_tier
+CF,Central African Republic,3,17,17,groups_top_tier
+CG,"Congo, Republic",3,12,12,groups_top_tier
+CY,Cyprus,3,6,6,groups_top_tier
+DO,Dominican Republic,3,10,42,groups_top_tier
+EE,Estonia,3,15,94,groups_top_tier
+FJ,Fiji,3,5,19,groups_top_tier
+GA,Gabon,3,9,9,groups_top_tier
+GE,Georgia,3,12,12,groups_top_tier
+GL,Greenland,3,5,5,groups_top_tier
+GN,Guinea,3,8,41,groups_top_tier
+GY,Guyana,3,10,10,groups_top_tier
+HN,Honduras,3,18,18,groups_top_tier
+IE,Ireland,3,4,30,matches_top_tier
+IL,Israel,3,6,6,groups_top_tier
+IS,Iceland,3,8,72,groups_top_tier
+JO,Jordan,3,12,12,groups_top_tier
+KG,Kyrgyzstan,3,9,9,groups_top_tier
+KP,"Korea, North",3,13,13,groups_top_tier
+LA,Laos,3,18,18,groups_top_tier
+LT,Lithuania,3,10,70,groups_top_tier
+LV,Latvia,3,43,43,groups_top_tier
+MW,Malawi,3,3,31,matches_top_tier
+NI,Nicaragua,3,17,17,groups_top_tier
+PY,Paraguay,3,18,18,groups_top_tier
+RS,Serbia,3,20,32,groups_top_tier
+SB,Solomon Islands,3,10,10,groups_top_tier
+SK,Slovakia,3,8,8,groups_top_tier
+SO,Somalia,3,18,18,groups_top_tier
+SR,Suriname,3,10,10,groups_top_tier
+SS,South Sudan,3,10,10,groups_top_tier
+TJ,Tajikistan,3,5,5,groups_top_tier
+TM,Turkmenistan,3,6,6,groups_top_tier
+UY,Uruguay,3,19,19,groups_top_tier
+ZW,Zimbabwe,3,10,10,groups_top_tier
+AG,Antigua and Barbuda,2,8,8,groups_top_tier
+BI,Burundi,2,18,18,groups_top_tier
+BN,Brunei,2,4,4,groups_top_tier
+BS,Bahamas,2,32,32,groups_top_tier
+BT,Bhutan,2,20,20,groups_top_tier
+BZ,Belize,2,6,6,groups_top_tier
+CV,Cabo Verde,2,2,24,matches_top_tier
+DJ,Djibouti,2,6,6,groups_top_tier
+EH,Western Sahara,2,0,0,no_official_units
+ER,Eritrea,2,6,6,groups_top_tier
+GD,Grenada,2,7,7,groups_top_tier
+GF,French Guiana,2,0,0,no_official_units
+GM,Gambia,2,6,6,groups_top_tier
+GQ,Equatorial Guinea,2,2,10,matches_top_tier
+GW,Guinea-Bissau,2,4,12,groups_top_tier
+HT,Haiti,2,10,10,groups_top_tier
+JM,Jamaica,2,14,14,groups_top_tier
+KI,Kiribati,2,3,3,matches_top_tier
+KM,Comoros,2,3,3,matches_top_tier
+KN,Saint Kitts and Nevis,2,2,16,matches_top_tier
+LB,Lebanon,2,8,8,groups_top_tier
+LR,Liberia,2,15,15,groups_top_tier
+LS,Lesotho,2,10,10,groups_top_tier
+MD,Moldova,2,37,37,groups_top_tier
+ME,Montenegro,2,25,25,groups_top_tier
+MK,North Macedonia,2,80,80,groups_top_tier
+MU,Mauritius,2,12,12,groups_top_tier
+MV,Maldives,2,21,21,groups_top_tier
+PS,Palestine,2,16,16,groups_top_tier
+QA,Qatar,2,8,8,groups_top_tier
+RW,Rwanda,2,5,5,groups_top_tier
+SC,Seychelles,2,27,27,groups_top_tier
+SI,Slovenia,2,212,212,groups_top_tier
+SL,Sierra Leone,2,5,5,groups_top_tier
+ST,São Tomé and Príncipe,2,7,7,groups_top_tier
+SV,El Salvador,2,14,14,groups_top_tier
+TG,Togo,2,5,5,groups_top_tier
+TL,Timor Leste,2,13,13,groups_top_tier
+TO,Tonga,2,5,5,groups_top_tier
+TT,Trinidad and Tobago,2,15,15,groups_top_tier
+VC,Saint Vincent and the Grenadines,2,6,6,groups_top_tier
+VU,Vanuatu,2,6,6,groups_top_tier
+WS,Samoa,2,11,11,groups_top_tier
+AD,Andorra,1,7,7,single_region
+BB,Barbados,1,11,11,single_region
+BH,Bahrain,1,4,4,single_region
+CK,Cook Islands,1,0,0,single_region
+DM,Dominica,1,10,10,single_region
+KW,Kuwait,1,6,6,single_region
+LC,Saint Lucia,1,10,10,single_region
+LI,Liechtenstein,1,11,11,single_region
+LU,Luxembourg,1,12,12,single_region
+MC,Monaco,1,17,17,single_region
+MH,Marshall Islands,1,2,26,single_region
+MT,Malta,1,68,68,single_region
+NR,Nauru,1,14,14,single_region
+NU,Niue,1,0,0,single_region
+PW,Palau,1,16,16,single_region
+SG,Singapore,1,5,5,single_region
+SM,San Marino,1,9,9,single_region
+SZ,Eswatini,1,4,4,single_region
+TF,French Southern and Antarctic Lands,1,0,0,single_region
+TV,Tuvalu,1,8,8,single_region
+VA,Vatican,1,0,0,single_region

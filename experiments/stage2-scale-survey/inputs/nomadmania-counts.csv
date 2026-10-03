@@ -1,0 +1,214 @@
+country,iso,n_regions
+Abkhazia,,1
+Afghanistan,AF,5
+Albania,AL,3
+Algeria,DZ,9
+Andorra,AD,1
+Angola,AO,7
+Antarctica,AQ,4
+Antigua and Barbuda,AG,2
+Argentina,AR,25
+Armenia,AM,3
+Australia,AU,25
+Austria,AT,5
+Azerbaijan,AZ,4
+Bahamas,BS,2
+Bahrain,BH,1
+Bangladesh,BD,6
+Barbados,BB,1
+Belarus,BY,3
+Belgium,BE,3
+Belize,BZ,2
+Benin,BJ,3
+Bhutan,BT,2
+Bolivia,BO,7
+Bosnia and Herzegovina,BA,4
+Botswana,BW,3
+Brazil,BR,37
+Brunei,BN,2
+Bulgaria,BG,4
+Burkina Faso,BF,3
+Burundi,BI,2
+Cabo Verde,CV,2
+Cambodia,KH,4
+Cameroon,CM,5
+Canada,CA,27
+Central African Republic,CF,3
+Chad,TD,5
+Chile,CL,7
+China,CN,75
+Colombia,CO,10
+Comoros,KM,2
+"Congo, Democratic Republic",CD,13
+"Congo, Republic",CG,3
+Cook Islands,CK,1
+Costa Rica,CR,4
+Croatia,HR,5
+Cuba,CU,4
+Cyprus,CY,3
+Czechia,CZ,5
+Côte d'Ivoire,CI,4
+Denmark,DK,5
+Disputed (Israel/Syria),,1
+Djibouti,DJ,2
+Dominica,DM,1
+Dominican Republic,DO,3
+Ecuador,EC,5
+Egypt,EG,9
+El Salvador,SV,2
+Equatorial Guinea,GQ,2
+Eritrea,ER,2
+Estonia,EE,3
+Eswatini,SZ,1
+Ethiopia,ET,11
+Fiji,FJ,3
+Finland,FI,6
+France,FR,32
+French Guiana,GF,2
+French Polynesia,PF,5
+French Southern and Antarctic Lands,TF,1
+Gabon,GA,3
+Gambia,GM,2
+Georgia,GE,3
+Germany,DE,20
+Ghana,GH,4
+Greece,GR,10
+Greenland,GL,3
+Grenada,GD,2
+Guatemala,GT,4
+Guinea,GN,3
+Guinea-Bissau,GW,2
+Guyana,GY,3
+Haiti,HT,2
+Honduras,HN,3
+Hungary,HU,4
+Iceland,IS,3
+India,IN,48
+Indonesia,ID,23
+Iran,IR,14
+Iraq,IQ,5
+Ireland,IE,3
+Israel,IL,3
+Italy,IT,21
+Jamaica,JM,2
+Japan,JP,17
+Jordan,JO,3
+Kazakhstan,KZ,14
+Kenya,KE,7
+Kiribati,KI,2
+"Korea, North",KP,3
+"Korea, South",KR,7
+Kosovo,,2
+Kuwait,KW,1
+Kyrgyzstan,KG,3
+Laos,LA,3
+Latvia,LV,3
+Lebanon,LB,2
+Lesotho,LS,2
+Liberia,LR,2
+Libya,LY,5
+Liechtenstein,LI,1
+Lithuania,LT,3
+Luxembourg,LU,1
+Madagascar,MG,5
+Malawi,MW,3
+Malaysia,MY,8
+Maldives,MV,2
+Mali,ML,5
+Malta,MT,1
+Marshall Islands,MH,1
+Mauritania,MR,4
+Mauritius,MU,2
+Mexico,MX,25
+Micronesia,FM,4
+Moldova,MD,2
+Monaco,MC,1
+Mongolia,MN,5
+Montenegro,ME,2
+Morocco,MA,6
+Mozambique,MZ,5
+Myanmar (Burma),MM,7
+Namibia,NA,5
+Nauru,NR,1
+Nepal,NP,4
+Netherlands,NL,11
+New Zealand,NZ,6
+Nicaragua,NI,3
+Niger,NE,4
+Nigeria,NG,11
+Niue,NU,1
+North Macedonia,MK,2
+North Pole,,1
+Norway,NO,7
+Oman,OM,4
+Pakistan,PK,11
+Palau,PW,1
+Palestine,PS,2
+Panama,PA,4
+Papua New Guinea,PG,8
+Paraguay,PY,3
+Peru,PE,10
+Philippines,PH,10
+Poland,PL,7
+Portugal,PT,7
+Qatar,QA,2
+Romania,RO,6
+Russia,RU,90
+Rwanda,RW,2
+Saint Kitts and Nevis,KN,2
+Saint Lucia,LC,1
+Saint Vincent and the Grenadines,VC,2
+Samoa,WS,2
+San Marino,SM,1
+Saudi Arabia,SA,10
+Senegal,SN,4
+Serbia,RS,3
+Seychelles,SC,2
+Sierra Leone,SL,2
+Singapore,SG,1
+Slovakia,SK,3
+Slovenia,SI,2
+Solomon Islands,SB,3
+Somalia,SO,3
+Somaliland,,2
+South Africa,ZA,9
+South Ossetia,,1
+South Pole,,1
+South Sudan,SS,3
+Spain,ES,22
+Sri Lanka,LK,4
+Sudan,SD,7
+Suriname,SR,3
+Sweden,SE,7
+Switzerland,CH,7
+Syria,SY,4
+São Tomé and Príncipe,ST,2
+Taiwan,TW,4
+Tajikistan,TJ,3
+Tanzania,TZ,8
+Thailand,TH,10
+Timor Leste,TL,2
+Togo,TG,2
+Tonga,TO,2
+Transnistria,,1
+Trinidad and Tobago,TT,2
+Tunisia,TN,4
+Turkey,TR,14
+Turkmenistan,TM,3
+Tuvalu,TV,1
+Uganda,UG,4
+Ukraine,UA,8
+Ukraine (occupied),,1
+United Arab Emirates,AE,7
+United Kingdom,GB,34
+United States,US,77
+Uruguay,UY,3
+Uzbekistan,UZ,5
+Vanuatu,VU,2
+Vatican,VA,1
+Venezuela,VE,7
+Vietnam,VN,9
+Western Sahara,EH,2
+Yemen,YE,5
+Zambia,ZM,5
+Zimbabwe,ZW,3
