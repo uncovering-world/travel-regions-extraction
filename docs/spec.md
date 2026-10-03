@@ -2,7 +2,7 @@
 
 Version: 0.4.0-draft. Date: 2026-10-03. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
 
-Changes in 0.4.0-draft: R045–R058 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D059); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
+Changes in 0.4.0-draft: R045–R059 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D060); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
 
 ## Basis and limits of reliability
 
@@ -496,3 +496,7 @@ This is a spot check of the basic distinctions, not a re-verification of all the
 ### R058 — Unclaimed land and boundaries that are not agreed [accepted; D054]
 
 An area that no state claims is a region attributed to no country; its outline is the part that the neighbours' own claim lines leave out (R047). An area where a boundary must exist between states that each hold territory on their side, but no line is agreed or defined for that stretch, is not a region: its land goes with its holder (R048) and the area is a special place (R046).
+
+### R059 — Release package [accepted; D060]
+
+A release consists of: TYR's world-view import tree (`canon.json`: country, then region, with names and Wikidata ids); `regions.csv` (one row per region: identifier, name, Wikidata id, basis, country under each declared perspective); `membership.csv` (one row per region and substrate unit: region, substrate and version, unit identifier); `geometry/` (the canon's own geometries, R047, with source and licence); and `manifest.json` (release identifier, cutoff date, rule and registry versions, input hashes, correspondence to the previous release). Files are sorted and deterministic.

@@ -568,3 +568,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: near the edge of a small place a visit point can fall on the wrong side until a detailed source replaces Natural Earth there.
 - Status: accepted.
 - Basis: owner decision, 2026-10-04; [custom-geometry survey](../experiments/custom-geometry-sources/README.md); [GADM binding](../experiments/gadm-binding/README.md); Q013.
+
+### D060 — Release format: TYR's import tree plus sidecar files
+
+- Decision: a release is TYR's existing world-view import tree (country, then region; names, Wikidata ids) with sidecar files beside it: a table of regions, a membership table from regions to substrate units, the canon's own geometries, and a manifest with versions and input hashes, as in the [output-format proposal](proposals/output-format.md). What TYR's importer lacks (binding by unit identifiers, own geometry, a stable region identifier, the country of a region) is written up as proposals for TYR issues; they are raised in the TYR repository, not from here.
+- Rationale: the tree loads in TYR today; the sidecars keep everything the canon knows, so nothing depends on name matching once the importer can read them.
+- Rules: R059.
+- Counterarguments: until TYR reads the sidecars, an import binds by names and needs manual review.
+- Status: accepted.
+- Basis: owner decision, 2026-10-04; [output-format proposal](proposals/output-format.md); consumer contract C5.

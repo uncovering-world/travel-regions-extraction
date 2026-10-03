@@ -1,6 +1,6 @@
 # Output format for Track Your Regions — proposal
 
-**Status: proposal, not adopted.** It implements requirement C5 of the [consumer contract](consumer-contract.md) and feeds issue [#22](https://github.com/uncovering-world/travel-regions-extraction/issues/22). Read against TYR's `docs/tech/world-view-import-format.md` and `docs/tech/world-views.md` at commit f0acfc077 (2026-10-03).
+**Status: adopted as D060 (R059) on 2026-10-04.** It implements requirement C5 of the [consumer contract](consumer-contract.md) and feeds issue [#22](https://github.com/uncovering-world/travel-regions-extraction/issues/22). Read against TYR's `docs/tech/world-view-import-format.md` and `docs/tech/world-views.md` at commit f0acfc077 (2026-10-03).
 
 ## What TYR's file import does today
 
