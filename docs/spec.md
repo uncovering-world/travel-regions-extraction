@@ -2,7 +2,7 @@
 
 Version: 0.4.0-draft. Date: 2026-10-03. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
 
-Changes in 0.4.0-draft: R045–R058 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D058); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
+Changes in 0.4.0-draft: R045–R058 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D059); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
 
 ## Basis and limits of reliability
 
@@ -374,7 +374,7 @@ Which places become special places or markers is stated by R049–R056: border-l
 
 The outline of a cell created for an area of the register, or for an area held by a party other than the one the surrounding region is attributed to, is never drawn by this project. It is a line the parties themselves state: a claim line, a ceasefire or armistice line, a treaty or lease line, or a coastline. A front line is never an outline. Where no such line exists, there is no cell: the place is a special place (R046), or, for an area whose control changed by force, the flag of R049 applies.
 
-The registry and the register say which places are separate and whose they are; they are not the only source of outlines. The substrate is extensible: where it has no unit that fits the stated line, a custom geometry is added from a cited source of that line. Outlines may be taken from Natural Earth, GADM or OpenStreetMap, or digitised from a cited document; the licences of these datasets apply as they do to Track Your Regions, of which the canon is part (amended by D056). How geometries are pinned and versioned is Q013.
+The registry and the register say which places are separate and whose they are; they are not the only source of outlines. The substrate is extensible: where it has no unit that fits the stated line, a custom geometry is added from a cited source of that line. Outlines may be taken from Natural Earth, GADM or OpenStreetMap, or digitised from a cited document; the licences of these datasets apply as they do to Track Your Regions, of which the canon is part (amended by D056). Where the substrate cannot represent a place as the canon needs, the canon's geometry is Natural Earth's polygon, else OpenStreetMap or a Commons map, else an outline digitised from a cited document; a more detailed source replaces Natural Earth place by place after review, at a release (amended by D059). How geometries are pinned and versioned is Q013.
 
 ### R048 — The holder of an area [accepted; D043]
 

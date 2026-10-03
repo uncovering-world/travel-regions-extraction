@@ -152,7 +152,7 @@ Note, 2026-10-03 (D040): the Antarctic Stage 1 cell is divided in Stage 2 by how
 
 R047 says where an outline comes from — a line the parties state — and that the substrate is extended with a custom geometry where it has no fitting unit. It does not say which sources carry such lines, how a geometry is digitised from them and pinned, how its version relates to the release and to the substrate's version, or how a cell is bound to substrate units when it does exist. As of 2026-10-03 only 23 of the register's 210 areas are linked to Natural Earth and 10 to Wikidata.
 
-Narrowed on 2026-10-04 by D056: the sources are Natural Earth, GADM, OpenStreetMap and custom geometries from cited documents; left open is how a geometry is pinned and versioned and how a region is bound to substrate units.
+Narrowed on 2026-10-04 by D056: the sources are Natural Earth, GADM, OpenStreetMap and custom geometries from cited documents; left open is how a geometry is pinned and versioned and how a region is bound to substrate units. Narrowed again by D059: custom geometries come from Natural Earth first, then OpenStreetMap or Commons maps, then digitised documents; regions bind to GADM 4.1 units as in the [GADM binding](../experiments/gadm-binding/README.md).
 
 **Closure criterion:** a design that, for each cell, names its geometry source and version, reproduces the geometry from a pinned input, and reports a cell whose substrate has no fitting unit instead of approximating it silently (consumer contract C6).
 

@@ -559,3 +559,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: an uninhabited site that travellers do visit in its own right is a curiosity, not a region; the result depends on the register's `inhabited` facts, which are missing for many small sites (missing means special place).
 - Status: accepted.
 - Basis: owner decision, 2026-10-04; [Stage 1 as a list](../experiments/stage1-list/README.md).
+
+### D059 — Custom geometries: Natural Earth first, more detailed sources place by place
+
+- Decision: where the substrate cannot represent a place as the canon needs (no unit, land given to another country than its holder, no polygon at all), the canon's own geometry is the polygon of Natural Earth v5.1.2's disputed-areas layer, the edition the registry uses. OpenStreetMap or a Commons map is used where Natural Earth has nothing, and an outline is digitised from a cited document where no source has one. A more detailed source replaces Natural Earth for a place one at a time, after a check that it follows the line the parties state, and at a release.
+- Rationale: the [custom-geometry survey](../experiments/custom-geometry-sources/README.md) found a Natural Earth polygon for 41 of 47 such places; Natural Earth is pinned, public domain and consistent with the registry. Its 1:10 million scale matters only where travellers come close to a small place's edge.
+- Rules: R047 (amended).
+- Counterarguments: near the edge of a small place a visit point can fall on the wrong side until a detailed source replaces Natural Earth there.
+- Status: accepted.
+- Basis: owner decision, 2026-10-04; [custom-geometry survey](../experiments/custom-geometry-sources/README.md); [GADM binding](../experiments/gadm-binding/README.md); Q013.
