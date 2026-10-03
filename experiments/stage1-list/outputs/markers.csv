@@ -81,6 +81,7 @@ west-bank,West Bank,part of the ISO entry PS
 western-sahara-moroccan-controlled,Western Sahara west of the berm,part of the ISO entry EH
 zaporizhzhia-occupied,Russian-occupied Zaporizhzhia Oblast,"the line is moving: a flag on the regions it touches; unsettled: held by Russia in the occupied part (Melitopol, Berdiansk, Enerhodar); Ukraine holds the city of Zaporizhzhia since 2022; active conflict"
 au-aboriginal-land-permits,"Australia Aboriginal land permits (NT land trusts, APY Lands SA, WA reserves) (class)","entry rule that does not make a region: permit_whole_territory, class_of_parcels"
+au-ashmore-cartier,Ashmore and Cartier Islands (Ashmore Reef Marine Park Sanctuary Zone; Cartier Island),"entry rule that does not make a region: permit_whole_territory, zone_or_band"
 au-torres-strait-protected-zone,Torres Strait Protected Zone,"entry rule that does not make a region: visa_exemption, zone_or_band"
 az-karabakh-east-zangezur,"Azerbaijan 'liberated territories' (Shusha, Lachin, Aghdam, Fuzuli, Khojaly, Khankendi)","entry rule that does not make a region: permit_whole_territory, site_list"
 bd-chittagong-hill-tracts,"Chittagong Hill Tracts (Rangamati, Khagrachhari, Bandarban districts)","entry rule that does not make a region: permit_whole_territory, admin_unit"
@@ -111,6 +112,7 @@ id-papua-surat-jalan,Indonesian Papua interior (Surat Keterangan Jalan),"entry r
 in-andaman-nicobar,Andaman and Nicobar Islands,"entry rule that does not make a region: permit_whole_territory, admin_unit"
 in-ladakh-pap-areas,"Ladakh protected areas (Nubra, Pangong, Tso Moriri, Dah-Hanu etc.)","entry rule that does not make a region: permit_whole_territory, zone_or_band"
 in-pap-partial-states,"India: protected areas in parts of Himachal Pradesh, Uttarakhand, Rajasthan, Jammu and Kashmir","entry rule that does not make a region: permit_whole_territory, zone_or_band"
+in-punjab-kerala-scheme-exclusion,Punjab and Kerala (excluded from India's Visa-on-Arrival for Pakistani seniors),"entry rule that does not make a region: visa_exemption, admin_unit"
 ir-kish,Kish Island Free Zone,"entry rule that does not make a region: visa_exemption, island"
 ir-other-free-zones,"Iran mainland free zones (Chabahar, Aras, Anzali, Arvand, Maku)","entry rule that does not make a region: visa_exemption, site_list"
 ir-qeshm,Qeshm Island Free Zone,"entry rule that does not make a region: visa_exemption, island"
@@ -123,6 +125,7 @@ kr-yangyang-groups,Gangwon Province + Seoul metropolitan area (Yangyang airport 
 la-golden-triangle-sez,Golden Triangle Special Economic Zone (Bokeo),"entry rule that does not make a region: visa_exemption, zone_or_band"
 lb-south-of-litani,Lebanon south of the Litani River,"entry rule that does not make a region: permit_whole_territory, zone_or_band"
 ly-eastern-libya,Eastern Libya (Benghazi-based government),"entry rule that does not make a region: own_visa_system, de_facto_territory"
+mh-kwajalein,"Kwajalein Missile Range (US defense sites, Kwajalein Atoll)","entry rule that does not make a region: permit_whole_territory, site_list"
 mm-wa-state,Wa State,"entry rule that does not make a region: own_visa_system, de_facto_territory"
 mx-southern-border-tvr,Mexico southern border states (Regional Visitor Card),"entry rule that does not make a region: visa_exemption, admin_unit"
 np-restricted-areas,"Nepal restricted trekking areas (Upper Mustang, Upper Dolpo, Manaslu, Humla, etc.)","entry rule that does not make a region: permit_whole_territory, zone_or_band"

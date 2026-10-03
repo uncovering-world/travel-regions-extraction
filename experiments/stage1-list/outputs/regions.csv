@@ -291,6 +291,7 @@ area/transnistria-security-zone,Dniester Security Zone,residents; no single hold
 area/undof-zone,UNDOF area of separation,residents; no single holder,none,secondary,
 area/varosha,Varosha (Maraş),residents; no single holder,none,secondary,
 area/western-sahara-moroccan-controlled,Western Sahara west of the berm,registry: points of view differ,held by Morocco since 1979 (de facto control of most of the territory after Mauritania withdrew),secondary,
+rule/au-macquarie-island,Macquarie Island (Macquarie Island Nature Reserve),entry rule: permit_whole_territory,AU,confirmed_primary,
 rule/az-nakhchivan,Nakhchivan Autonomous Republic,entry rule: visa_exemption,AZ,cited_secondary,
 rule/cl-rapa-nui,Rapa Nui (Easter Island),entry rule: stay_limit,CL,cited_secondary,
 rule/cn-hainan,Hainan Province,entry rule: visa_exemption,CN,cited_secondary,

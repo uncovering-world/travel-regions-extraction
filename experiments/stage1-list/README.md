@@ -111,6 +111,14 @@ Result: 317 regions, 302 with nothing open; 90 special places; 11 missing facts,
 
 The list of entry rules is still the one-off census of 116 rows; a scripted discovery of rules is being built in `data/entry-rules/`.
 
+## Sixth run, 2026-10-04
+
+- Nine of the last ten facts found, one dropped on re-check; two facts remain missing (access to the Tomb of Suleyman Shah; since when Kafia Kingi has been held, where the holder itself is in doubt).
+- The scripted discovery in `data/entry-rules/` read 183 visa-policy articles and gave 432 candidates; after triage, four rules the census lacked were checked against their texts and added to the census (`experiments/stage1-world-draft/inputs/crw_scopes.csv` now serves as the living census; that experiment's own outputs are unchanged). One of them makes a region: Macquarie Island (a detached island with a rule of its own). The others do not: Ashmore and Cartier (the rule covers zones, not the whole territory), Kwajalein (US defence sites only), Punjab and Kerala (a visa-on-arrival exclusion that is no longer in force).
+- A census row marked as not covering a whole unit no longer separates even when its checked facts would allow it.
+
+Result: 322 regions, 309 with nothing open; 87 special places; 2 missing facts.
+
 ## Status
 
-Concluded 2026-10-03 (five runs).
+Concluded 2026-10-04 (six runs).

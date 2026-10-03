@@ -75,7 +75,7 @@ def main() -> None:
         if known is not None:                                  # checked against the text of the rule
             if row["regime_kind"] in NOT_A_WITNESS or GROUP_ONLY.search(row["affected_classes"]):
                 return False, []
-            if known.get("in_force") == "no":
+            if known.get("in_force") == "no" or row["whole_named_unit"] == "no":
                 return False, []
             top = known.get("unit_level") == "top_level"
             own_detached = known.get("detached") in ("island", "exclave") and known.get("own_rule") == "own"

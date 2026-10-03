@@ -25,13 +25,13 @@ Armenia / Schengen Area,ignore,not a part of the country
 Artsakh / Commonwealth of Independent States,ignore,not a part of the country
 Artsakh / Eurasian Economic Union,ignore,not a part of the country
 Australia / Adelaide,ignore,transit only
-Australia / Ashmore and Cartier Islands,,possible new rule: Indonesian traditional fishermen visiting the Territory of Ashmore and Cartier Islands are covered by a special purpose visa
+Australia / Ashmore and Cartier Islands,au-ashmore-cartier,added to the census on 2026-10-04 after checking the rule text
 Australia / Australian Antarctic Territory,ignore,"inside Antarctica, which is one cell (D040)"
 Australia / Cairns,ignore,transit only
 Australia / European Free Trade Association,ignore,not a part of the country
 "Australia / Gold Coast, Queensland",ignore,transit only
 Australia / Heard Island and McDonald Islands,ignore,"own ISO 3166-1 entry HM, already a region (R045)"
-Australia / Macquarie Island,,possible new rule: written authorisation of the Director of National Parks required for Macquarie Island; visitors there hold a special purpose visa
+Australia / Macquarie Island,au-macquarie-island,added to the census on 2026-10-04 after checking the rule text
 Australia / Norfolk Island,ignore,historical rule no longer in force (article: Norfolk Island immigration permits are no longer valid)
 Australia / Sydney,ignore,transit only
 Azerbaijan / Baku,ignore,port of entry; seat of the ministry that issues invitations
@@ -98,14 +98,14 @@ India / Cochin International Airport,ignore,port of entry
 India / Cochin Port,ignore,port of entry
 India / Himachal Pradesh,in-pap-partial-states,prefill by name match; to be reviewed
 India / Jammu and Kashmir (union territory),in-pap-partial-states,prefill by name match; to be reviewed
-India / Kerala,,possible new rule: visa on arrival for Pakistani nationals over 65 does not apply to visits to Punjab and Kerala
+India / Kerala,in-punjab-kerala-scheme-exclusion,added to the census on 2026-10-04 after checking the rule text
 India / Lakshadweep,in-lakshadweep in-minicoy-maldivians,prefill by name match; to be reviewed
 India / Mangalore International Airport,ignore,port of entry
 India / Minicoy,in-minicoy-maldivians,prefill by name match; to be reviewed
 India / Ministry of Culture (India),ignore,not a place (institution)
 India / Mormugao Port,ignore,port of entry
 India / Mumbai Port,ignore,port of entry
-India / Punjab,,possible new rule: visa on arrival for Pakistani nationals over 65 does not apply to visits to Punjab and Kerala
+India / Punjab,in-punjab-kerala-scheme-exclusion,added to the census on 2026-10-04 after checking the rule text
 India / Rajasthan,in-pap-partial-states,prefill by name match; to be reviewed
 India / Sikkim,in-sikkim,prefill by name match; to be reviewed
 India / Uttarakhand,in-pap-partial-states,prefill by name match; to be reviewed
@@ -397,7 +397,7 @@ Faroe Islands / Schengen Area,ignore,not a part of the country
 Kingdom of the Netherlands in the Caribbean / Caribbean Netherlands,ignore,country-wide rule
 Kingdom of the Netherlands in the Caribbean / Schengen Area,ignore,not a part of the country
 Marshall Islands / Ebeye Island,ignore,seat of an issuing office
-Marshall Islands / Kwajalein Atoll,,possible new rule: visitors to Kwajalein need an Entry Authorization issued by the United States military
+Marshall Islands / Kwajalein Atoll,mh-kwajalein,added to the census on 2026-10-04 after checking the rule text
 Philippines / Cebu,ignore,port of entry
 Philippines / Department of Foreign Affairs (Philippines),ignore,not a place (institution)
 Philippines / Freeport Area of Bataan,ignore,"work visa class, not a visitor rule"
