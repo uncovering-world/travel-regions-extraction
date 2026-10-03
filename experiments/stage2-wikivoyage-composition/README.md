@@ -67,6 +67,14 @@ Result (`probe_p150.py`, `outputs/p150.csv`): of 65 level-1 regions drawn from t
 
 Question: do names help where ids are absent? A unit counts as assigned to a level-1 region when its ISO 3166-2 name matches, after normalisation, a link in the region's `regionNitems` on the country page or the name of one of the region's own sub-regions. What would change our mind: if names lift most under-50% countries above 90%, text composition is the practical resolver (with the usual risk of name collisions, which the run reports as units matched in several regions); if not, only map images remain for those countries.
 
+Result (`probe_names.py`, `outputs/names.csv`): names recover Japan (45 of 47 prefectures, against 39 by ids), Nigeria (36 of 37), and partly Colombia (22 of 33), the Philippines (11 of 17), Switzerland and Italy. They find nothing or almost nothing in Vietnam, Kenya, Egypt, Peru, Papua New Guinea, Tanzania (1 of 31) and Turkey (2 of 81). No unit matched in more than one region.
+
+## Overall conclusion
+
+Taking the better of the id and name resolvers per country, 9 of the 19 test countries reach at least 80% of their first-level units (Thailand, Japan, Algeria, Iran, Nigeria, Malaysia, Ukraine, Chile and, at 73%, nearly Switzerland), Colombia and the Philippines about two thirds, and seven stay near zero: Turkey, Vietnam, Kenya, Peru, Egypt, Tanzania and Papua New Guinea. In those seven, Wikivoyage's first two levels are not expressed in first-level official units at all — the composition, if stated anywhere, sits deeper in the hierarchy or only in a map image.
+
+For Stage 2 this means: a published travel hierarchy can be turned into unit-based regions without drawing for roughly half of the countries that need grouping; the other half needs either a deeper walk of the hierarchy, map reading with review, or another grouping source.
+
 ## Status
 
-Third run planned 2026-10-03.
+Concluded 2026-10-03.
