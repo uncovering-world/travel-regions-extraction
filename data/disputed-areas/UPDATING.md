@@ -66,6 +66,17 @@ Government pages about access are usually not machine-readable and change withou
 
 `build.py` lists manual facts older than a year in `REPORT.md`. Re-read the source; if nothing changed, update only `read_date`.
 
+## Importing facts collected in bulk
+
+Facts gathered many at a time (by research agents, for example) go into CSV files with the columns `area_id,field,value,source_url,quote,evidence`, one fact per row, and are added with
+
+`python3 data/disputed-areas/import_facts.py --date <day the sources were read> <file.csv> …`
+
+- Every row must meet the rules for manual facts under "Routine". A row that does not — unknown area or field, a value that is not allowed, no passage, a Wikipedia link without `oldid` — is left out and listed.
+- Nothing is overwritten. A row for an area and field that already has a value is left out and listed with both values; to replace a fact, delete its row first. Two rows in the input for the same area and field are both left out.
+- A source already in `sources.csv` keeps its id; a new URL gets the next free `S` number.
+- The importer does not open the sources. Run `verify_quotes.py` afterwards and delete every imported fact whose passage it does not find, and every source no fact cites any more.
+
 ## Kinds
 
 - `own_regime` — a regime on the ground distinct from both sides' ordinary territory: UN buffer zones, demilitarised zones, neutral zones, condominiums.

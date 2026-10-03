@@ -27,7 +27,7 @@ AGENT = "ctr-disputed-areas/0.1 (https://github.com/uncovering-world/travel-regi
 def squash(text: str) -> str:
     text = unicodedata.normalize("NFKC", html.unescape(text))
     text = text.translate(str.maketrans({"’": "'", "‘": "'", "“": '"', "”": '"', "–": "-", "—": "-", " ": " "}))
-    text = re.sub(r"\[\d+\]|\[citation needed\]", "", text)
+    text = re.sub(r"\[\s*(?:\d+|citation needed)\s*\]", "", text)  # page_text turns tags into spaces: "[ 12 ]"
     return re.sub(r"\s+", " ", text).strip().lower()
 
 

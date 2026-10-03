@@ -35,6 +35,7 @@ FIELDS = {
 EVIDENCE = ["primary", "secondary", "machine"]  # there is no level for facts written from memory: they are not admitted
 REQUIRED = ["parties", "kind"]
 STALE_AFTER_DAYS = 365  # a manual fact older than this is listed for re-checking
+MIN_QUOTE = 15  # characters; the passage of a manual fact has to be long enough to be found on the page
 REGISTRY_COLUMNS = ["area_id", "name", "status", "kind", "parties", "area_km2", "inhabited", "traveller_access",
                     "weakest_evidence", "oldest_read", "wikidata_id", "natural_earth_id"]
 
@@ -68,7 +69,7 @@ def validate(areas: list[dict], facts: list[dict], sources: list[dict]) -> list[
             errors.append(f"{where}: missing or unknown source")
         if f["evidence"] not in EVIDENCE:
             errors.append(f"{where}: unknown evidence level {f['evidence']}")
-        if f["origin"] == "manual" and len(f["quote"].strip()) < 15:
+        if f["origin"] == "manual" and len(f["quote"].strip()) < MIN_QUOTE:
             errors.append(f"{where}: a manual fact needs the passage of the source it rests on")
         if f["origin"] not in ("manual", "machine"):
             errors.append(f"{where}: origin must be manual or machine")
