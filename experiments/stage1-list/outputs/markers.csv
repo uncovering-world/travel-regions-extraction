@@ -124,6 +124,7 @@ la-golden-triangle-sez,Golden Triangle Special Economic Zone (Bokeo),"entry rule
 lb-south-of-litani,Lebanon south of the Litani River,"entry rule that does not make a region: permit_whole_territory, zone_or_band"
 ly-eastern-libya,Eastern Libya (Benghazi-based government),"entry rule that does not make a region: own_visa_system, de_facto_territory"
 mm-wa-state,Wa State,"entry rule that does not make a region: own_visa_system, de_facto_territory"
+mx-southern-border-tvr,Mexico southern border states (Regional Visitor Card),"entry rule that does not make a region: visa_exemption, admin_unit"
 np-restricted-areas,"Nepal restricted trekking areas (Upper Mustang, Upper Dolpo, Manaslu, Humla, etc.)","entry rule that does not make a region: permit_whole_territory, zone_or_band"
 pk-azad-kashmir,Azad Jammu and Kashmir,"entry rule that does not make a region: permit_whole_territory, admin_unit"
 ru-72h-ferry-cruise,Russia 72-hour visa-free for ferry/cruise passengers,"entry rule that does not make a region: visa_exemption, site_list"

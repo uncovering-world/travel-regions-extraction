@@ -1,16 +1,16 @@
 {
-  "regions": 317,
+  "regions": 316,
   "regions_by_basis": {
     "ISO 3166-1 entry": 249,
-    "entry rule": 30,
+    "entry rule": 29,
     "residents": 20,
     "registry": 10,
     "leased area with its own access rule": 3,
     "unclaimed land": 3,
     "entry rule of the holder": 2
   },
-  "regions_with_nothing_open": 292,
-  "regions_with_an_open_point": 25,
+  "regions_with_nothing_open": 296,
+  "regions_with_an_open_point": 20,
   "special_places": 90,
   "special_places_by_kind": {
     "line_position": 47,
@@ -20,17 +20,15 @@
     "own_regime": 6,
     "paper_claim": 2
   },
-  "markers": 144,
-  "gaps": 26,
+  "markers": 145,
+  "gaps": 20,
   "gaps_by_missing_fact": {
-    "start date of the rule": 11,
+    "start date of the rule": 8,
     "whether entry follows its own rules": 4,
-    "not confirmed in force": 3,
     "kind": 2,
     "who holds the area and since when": 2,
     "whether civilians live there": 2,
-    "whether the unit is a top-level unit of its country": 1,
-    "level of the unit or whether it is detached": 1
+    "not confirmed in force": 2
   },
   "register_areas": 210,
   "register_areas_linked": 60,

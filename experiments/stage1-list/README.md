@@ -92,6 +92,17 @@ Result: 316 regions (285 with nothing open), 95 special places, 60 missing facts
 
 Weak points of this run: the ties to conflicts and to map features are judgements by name; several `holder_since` values hold no single year or a contested one (see the register's review list), and the clock is only as good as they are.
 
+## Fourth run, 2026-10-03: the remaining gaps
+
+Two more collections (residents and access for register areas; start dates and current force of entry rules; Hainan checked in full), the five loose registry cells tied to register areas, and two readings applied:
+
+- An area held by another party with neither a registry cell nor an entry rule of the holder stays inside its region, marked, under "no witness, no boundary".
+- For an area held by another party, the holder's own entry rule is the witness; the test for units of one country (top-level, or detached with a rule of its own) is not applied to it. This reading is the agent's and waits for the owner's confirmation; it makes Transnistria and Kinmen regions.
+
+Result: 316 regions, 296 with nothing open; 90 special places; 20 missing facts: start dates of eight long-standing entry rules (Tibet, Galápagos, Mount Athos, Minicoy, Kurdistan, Labuan, Tristan da Cunha, Gorno-Badakhshan), whether two rules are in force (Nakhchivan, Labuan), access to four leased sites, residents of two areas, the kind of two areas, and who holds two areas since when. The collectors ran out of web searches; these need another pass.
+
+The entry-rule passages were checked by their collectors only, not re-opened here.
+
 ## Status
 
-Concluded 2026-10-03 (three runs).
+Concluded 2026-10-03 (four runs).

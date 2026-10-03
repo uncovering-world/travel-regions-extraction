@@ -288,7 +288,7 @@ area/varosha,Varosha (Maraş),residents; no single holder,none,secondary,
 area/western-sahara-moroccan-controlled,Western Sahara west of the berm,registry: points of view differ,held by Morocco since 1979 (de facto control of most of the territory after Mauritania withdrew),secondary,
 rule/az-nakhchivan,Nakhchivan Autonomous Republic,entry rule: visa_exemption,AZ,cited_secondary,not confirmed in force
 rule/cl-rapa-nui,Rapa Nui (Easter Island),entry rule: stay_limit,CL,cited_secondary,
-rule/cn-hainan,Hainan Province,entry rule: visa_exemption,CN,cited_secondary,whether the unit is a top-level unit of its country
+rule/cn-hainan,Hainan Province,entry rule: visa_exemption,CN,cited_secondary,
 rule/cn-tibet,Tibet Autonomous Region,entry rule: permit_whole_territory,CN,cited_secondary,start date of the rule
 rule/co-san-andres,"Archipelago of San Andrés, Providencia and Santa Catalina",entry rule: stay_limit,CO,cited_secondary,
 rule/ec-galapagos,Galápagos Province,entry rule: stay_limit,EC,cited_secondary,start date of the rule
@@ -301,18 +301,17 @@ rule/in-mizoram,Mizoram,entry rule: permit_whole_territory,IN,cited_secondary,
 rule/in-nagaland,Nagaland,entry rule: permit_whole_territory,IN,cited_secondary,
 rule/in-sikkim,Sikkim,entry rule: permit_whole_territory,IN,cited_secondary,
 rule/iq-kurdistan,Kurdistan Region of Iraq,entry rule: own_visa_system,IQ,cited_secondary,start date of the rule
-rule/kr-jeju,Jeju Province,entry rule: visa_exemption,KR,cited_secondary,start date of the rule
-rule/mx-southern-border-tvr,Mexico southern border states (Regional Visitor Card),entry rule: visa_exemption,MX,confirmed_primary,level of the unit or whether it is detached; not confirmed in force
+rule/kr-jeju,Jeju Province,entry rule: visa_exemption,KR,cited_secondary,
 rule/my-labuan,Labuan,entry rule: separate_immigration_control,MY,unconfirmed,not confirmed in force; start date of the rule
 rule/my-sabah,Sabah,entry rule: separate_immigration_control,MY,cited_secondary,
 rule/my-sarawak,Sarawak,entry rule: separate_immigration_control,MY,cited_secondary,
 rule/ru-chukotka,Chukotka Autonomous Okrug,entry rule: permit_whole_territory,RU,confirmed_primary,
 rule/sh-ascension,Ascension Island,entry rule: own_visa_system,SH,confirmed_primary,
-rule/sh-saint-helena,Saint Helena,entry rule: own_visa_system,SH,cited_secondary,start date of the rule
+rule/sh-saint-helena,Saint Helena,entry rule: own_visa_system,SH,cited_secondary,
 rule/sh-tristan-da-cunha,Tristan da Cunha,entry rule: permit_whole_territory,SH,confirmed_primary,start date of the rule
 rule/sj-jan-mayen,Jan Mayen,entry rule: permit_whole_territory,SJ,unconfirmed,
 rule/tj-gbao,Gorno-Badakhshan Autonomous Oblast (GBAO),entry rule: permit_whole_territory,TJ,cited_secondary,start date of the rule
 rule/tw-penghu,Penghu County,entry rule: visa_exemption,TW,cited_secondary,
 rule/tz-zanzibar,Zanzibar,entry rule: separate_immigration_control,TZ,cited_secondary,
-rule/vn-phu-quoc,Phu Quoc Island,entry rule: visa_exemption,VN,cited_secondary,start date of the rule
+rule/vn-phu-quoc,Phu Quoc Island,entry rule: visa_exemption,VN,cited_secondary,
 rule/ye-socotra,Socotra Archipelago,entry rule: own_visa_system,YE,cited_secondary,
