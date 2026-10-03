@@ -26,7 +26,7 @@ Stage 1 boundaries come from three sources, and a release is built from them und
 
 Inside a registry cell, no recorded witness means no boundary; the result is marked as assumed, not proved, and every boundary states its rule and evidence level (`cited` suffices). Places that are not regions are **special places** — tickable objects inside their parent region, not counted as regions (R046) — or **markers**. Releases are yearly, for the situation at the end of the year; a boundary from an uncontested entry rule enters after two consecutive releases and leaves three years after its rule ends (R055).
 
-Open: Q002, Q004, Q005, Q007–Q011 (narrowed) and Q013–Q019 — outlines and custom geometries, the reading of the registry, scope-test details, areas with no single holder, unclaimed land and undelimited stretches, special places in the consumer, and release mechanics. D004–D007 remain accepted product regressions; they are expected to follow from the registry and stay open until a release check (V011) confirms it.
+Open: Q002, Q004, Q005, Q007–Q011 (narrowed) and Q013–Q016, Q018–Q019 — outlines and custom geometries, the reading of the registry, scope-test details, areas with no single holder, special places in the consumer, and release mechanics. D004–D007 remain accepted product regressions; they are expected to follow from the registry and stay open until a release check (V011) confirms it.
 
 ## Stage 2: Destination Partition
 
