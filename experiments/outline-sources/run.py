@@ -27,7 +27,7 @@ NE_ADMIN1 = {"url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vec
                     "ne_10m_admin_1_states_provinces.geojson", "file": "ne_10m_admin_1_states_provinces.geojson"}
 WIKIDATA = "https://www.wikidata.org/w/api.php"
 AGENT = "ctr-outline-sources/0.1 (https://github.com/uncovering-world/travel-regions-extraction)"
-PROPS = {"P402": "osm_relation", "P8714": "gadm_id", "P300": "iso_3166_2"}
+PROPS = {"P402": "osm_relation", "P8714": "gadm_id", "P300": "iso_3166_2", "P3896": "commons_geoshape"}
 
 
 def read(path: Path) -> list[dict]:
@@ -134,7 +134,7 @@ def main() -> None:
         r.update({field: c.get(field, "") for field in PROPS.values()})
         r["natural_earth"] = ("admin-0" if r["item"] in ne_items else "admin-1" if r["item"] in admin1_items else "")
         sources = [s for s, ok in (("Natural Earth", r["natural_earth"]), ("GADM", r["gadm_id"]),
-                                   ("OpenStreetMap", r["osm_relation"])) if ok]
+                                   ("OpenStreetMap", r["osm_relation"]), ("Commons map", r["commons_geoshape"])) if ok]
         r["outline_sources"] = " + ".join(sources) or "none"
 
     (ROOT / "outputs").mkdir(exist_ok=True)

@@ -61,6 +61,12 @@ Against what was written beforehand:
 
 What this supports: a layered design — Natural Earth for countries, registry cells and many first-level units; OpenStreetMap relations (pinned by version) or GADM units for smaller units; a custom geometry digitised from a cited document for the ten with nothing. Which layer is the canon's reference geometry, and whether OpenStreetMap's share-alike licence is acceptable, are the owner's choices (Q013).
 
+## Revision, 2026-10-04: Wikipedia, Wikivoyage and Commons maps
+
+The owner pointed out that Wikivoyage and Wikipedia show shapes too. Their maps (the Kartographer extension) draw polygons from OpenStreetMap, found through the Wikidata item, or from GeoJSON `.map` files on Wikimedia Commons ([Help:Extension:Kartographer](https://www.mediawiki.org/wiki/Help:Extension:Kartographer), read 2026-10-04: "the source for external polygons and lines is OpenStreetMap database … maps can link directly to raw GeoJSON stored on Wikimedia Commons (.map files)"). So the only source they add is the Commons map files, which Wikidata links through P3896 (geoshape). The run now reads P3896: 271 of the 315 regions have a Commons map.
+
+At the same time the list build's correction for leased areas removed five regions. On the current list (315 regions) six have no outline in any source: the Koalou zone, Rukwanzi–Semliki, the Dniester Security Zone, the UNDOF area of separation, Varosha, and Rapa Nui as the special territory (its commune has one in OpenStreetMap). The Spratly Islands have a Commons map.
+
 ## Status
 
-Concluded 2026-10-04.
+Concluded 2026-10-04 (revised the same day).
