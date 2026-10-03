@@ -10,6 +10,9 @@
 | on_the_ground | Under Russian occupation since 2014. | secondary | 2026-10-03 | S0062 | The region, internationally recognised as part of Ukraine, has been under Russian occupation since 2014 . |
 | inhabited | yes | secondary | 2026-10-03 | S0062 | The population is 2.4 million, and the largest city is Sevastopol . |
 | area_km2 | 27000 | secondary | 2026-10-03 | S0062 | Area 27,000 km 2 (10,000 sq mi) |
+| holder | Russia | secondary | 2026-10-03 | S0062 | The region, internationally recognised as part of Ukraine, has been under Russian occupation since 2014 |
+| holder_since | 2014 | secondary | 2026-10-03 | S0062 | In 2014, the peninsula was occupied by Russian forces and annexed by Russia |
+| stated_outline | The land border between Crimea and Ukraine's Kherson Oblast in the north (the peninsula's only land border) | secondary | 2026-10-03 | S0062 | the only land border is shared with Ukraine's Kherson Oblast on the north |
 | ne_name | Crimea | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. by Russia; Claimed by Ukraine | machine | 2026-10-03 | NE |  |

@@ -9,6 +9,9 @@
 | origin | The Luhansk People's Republic was created in 2014, when Russian-backed paramilitaries took control of settlements in the province. | secondary | 2026-10-03 | S0145 | The LPR was created in 2014 when Russian-backed paramilitaries took control of settlements in the province. |
 | on_the_ground | Russian-backed officials claimed in July 2025 that Russian forces had captured the last Ukrainian-held areas, bringing the entire region under their control. | secondary | 2026-10-03 | S0144 | Russian-backed officials claimed in July 2025 that Russian forces had captured the last Ukrainian-held areas in Luhansk Oblast, bringing the entire region under their control. |
 | inhabited | yes | secondary | 2026-10-03 | S0145 | In December 2017, approximately 1.4 million lived in the LPR's territory, with 435,000 in the city of Luhansk. |
+| holder | Russia (the oblast is almost entirely under Russian occupation) | secondary | 2026-10-03 | S0144 | the oblast has come almost entirely under Russian occupation and has been the scene of heavy fighting , which continues in some places |
+| holder_since | 2014 for large parts of the oblast, including the city of Luhansk | secondary | 2026-10-03 | S0144 | In 2014, large parts of the oblast, including the capital Luhansk, came under the control of Russian-backed separatists who declared the Luhansk People's Republic |
+| stated_outline | none: the line is moving | secondary | 2026-10-03 | S0144 | Russian-backed officials claimed in July 2025 that Russian forces had captured the last Ukrainian-held areas in Luhansk Oblast, bringing the entire region under their control. They made the same claim in April 2026, though Ukraine denied it. |
 
 Sources:
 

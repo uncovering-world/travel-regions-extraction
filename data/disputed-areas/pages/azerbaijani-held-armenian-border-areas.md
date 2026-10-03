@@ -8,6 +8,9 @@
 | kind | occupied_or_annexed | secondary | 2026-10-03 | S0019 | Despite international calls for withdrawal from the European Parliament , France , Iran , and the United States , Azerbaijan has maintained its presence on Armenian soil, occupying at least 215 square kilometers (83 sq mi) of internationally recognized Armenian territory. |
 | origin | Azerbaijani soldiers crossed several kilometres into Armenia's Syunik and Gegharkunik provinces on 12 May 2021. | secondary | 2026-10-03 | S0019 | The military forces of Armenia and Azerbaijan have been engaged in a border conflict since 12 May 2021, when Azerbaijani soldiers crossed several kilometers into Armenia in the provinces of Syunik and Gegharkunik . |
 | on_the_ground | Azerbaijani soldiers hold the positions and carry out engineering and fortification works. | secondary | 2026-10-03 | S0019 | Azerbaijani soldiers are occupying internationally recognized Armenian territory and conducting engineering and fortification works. |
+| holder | Azerbaijan | secondary | 2026-10-03 | S0019 | Azerbaijan has maintained its presence on Armenian soil, occupying at least 215 square kilometers (83 sq mi) of internationally recognized Armenian territory. |
+| holder_since | 2021-05-12 (first crossing into Syunik and Gegharkunik) | secondary | 2026-10-03 | S0019 | The military forces of Armenia and Azerbaijan have been engaged in a border conflict since 12 May 2021, when Azerbaijani soldiers crossed several kilometers into Armenia in the provinces of Syunik and Gegharkunik |
+| stated_outline | The Armenia-Azerbaijan border on the basis of the Alma-Ata declaration, which the two states agreed in April 2024 to demarcate | secondary | 2026-10-03 | S0019 | In April 2024, Armenia and Azerbaijan reached an agreement according to which the border between the two states is to be demarcated on the basis of the Alma-Ata declaration |
 
 Sources:
 

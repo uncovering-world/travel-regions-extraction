@@ -8,6 +8,9 @@
 | kind | occupied_or_annexed | secondary | 2026-10-03 | S0108 | United Nations: Secretary-General Antonio Guterres 's spokesman Stephane Dujarric said that Israel expanding its occupation was a violation of the 1974 agreement. |
 | origin | After the fall of the Assad government on 8 December 2024 Israel invaded the demilitarised buffer zone in south-western Syria and has continued to occupy it. | secondary | 2026-10-03 | S0108 | Following the fall of the Assad regime on 8 December 2024, Israel invaded the demilitarized buffer zone in southwestern Syria (adjacent to the Israeli-occupied Golan Heights ) and has continued to occupy it. |
 | on_the_ground | A new line of Israeli positions has formed to the north, with a checkpoint north-west of Hadar. | secondary | 2026-10-03 | S0108 | Following the invasion and expanded Israeli occupation, a new line demarcating Israeli positions formed to the north. One checkpoint is north-west of Hadar, Syria |
+| holder | Israel | secondary | 2026-10-03 | S0108 | Israel invaded the demilitarized buffer zone in southwestern Syria (adjacent to the Israeli-occupied Golan Heights ) and has continued to occupy it. |
+| holder_since | 2024-12-08 | secondary | 2026-10-03 | S0108 | On 8 December 2024, Israeli armored units, including main battle tanks , crossed the ceasefire line in the occupied Golan Heights fence and entered the buffer zone during early morning operations. |
+| stated_outline | none: the line is moving | secondary | 2026-10-03 | S0108 | Following the invasion and expanded Israeli occupation, a new line demarcating Israeli positions formed to the north. |
 
 Sources:
 

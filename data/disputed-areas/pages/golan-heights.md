@@ -10,6 +10,9 @@
 | on_the_ground | Israel treats the part it occupies as a subdistrict of its Northern District. | secondary | 2026-10-03 | S0089 | Since the passing of the Golan Heights Law , Israel has treated the Israeli-occupied portion of the Golan Heights as a subdistrict of its Northern District . |
 | inhabited | yes | secondary | 2026-10-03 | S0089 | Total ~63,000 • Israeli settlers 31,000 |
 | area_km2 | 1800 | secondary | 2026-10-03 | S0089 | Total 1,800 km 2 (690 sq mi) |
+| holder | Israel (the territory it holds was under military administration until 1981, when Israeli law was applied to it) | secondary | 2026-10-03 | S0089 | Construction of Israeli settlements began in the territory held by Israel, which was under a military administration until the Knesset passed the Golan Heights Law in 1981, which applied Israeli law to the territory |
+| holder_since | 1967 | secondary | 2026-10-03 | S0089 | Internationally recognized as Syrian territory , occupied by Israel since 1967 |
+| stated_outline | the Purple Line: the 1967 ceasefire line to which Israel and Syria agreed on 31 May 1974 to pull back their forces | secondary | 2026-10-03 | S0338 | Israel and Syria agreed on 31 May 1974, to pull back their respective forces on the Golan Heights to the Purple Line. |
 | ne_name | Golan Heights | machine | 2026-10-03 | NE |  |
 | ne_type | Indeterminate | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. By Israel; Claimed by Syria | machine | 2026-10-03 | NE |  |
@@ -23,4 +26,5 @@ Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
 - S0089: https://en.wikipedia.org/w/index.php?title=Golan_Heights&oldid=1378075391
+- S0338: https://en.wikipedia.org/w/index.php?title=Purple_Line_%28ceasefire_line%29&oldid=1374825815
 - WD: https://www.wikidata.org/

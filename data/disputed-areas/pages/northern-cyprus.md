@@ -11,6 +11,9 @@
 | inhabited | yes | secondary | 2026-10-03 | S0171 | Population • 2021 estimate 382,836 |
 | traveller_access | open | primary | 2026-10-03 | S0303 | You can use any crossing point to move between the north and south of the island. |
 | area_km2 | 3355 | secondary | 2026-10-03 | S0171 | Northern Cyprus has an area of 3,355 square kilometres (1,295 mi 2 ), which amounts to around a third of the island. |
+| holder | Turkish Republic of Northern Cyprus | secondary | 2026-10-03 | S0246 | the largely unrecognized Turkish Republic of Northern Cyprus in the north. |
+| holder_since | 1974 | secondary | 2026-10-03 | S0171 | prompted Turkey to invade Cyprus and capture the northern third of the island. |
+| stated_outline | The northern limit of the UN buffer zone: the line where the forces stood at the ceasefire of 16 August 1974, as recorded by UNFICYP | primary | 2026-10-03 | S0292 | Its northern and southern limits are the lines where the belligerents stood following the ceasefire of 16 August 1974, as recorded by UNFICYP. |
 | ne_name | N. Cyprus | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Self admin.; Claimed by Cyprus | machine | 2026-10-03 | NE |  |
@@ -21,4 +24,6 @@ Sources:
 
 - NE: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2
 - S0171: https://en.wikipedia.org/w/index.php?title=Northern_Cyprus&oldid=1373911852
+- S0246: https://en.wikipedia.org/w/index.php?title=United_Nations_Buffer_Zone_in_Cyprus&oldid=1374866617
+- S0292: https://unficyp.unmissions.org/about-buffer-zone
 - S0303: https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements

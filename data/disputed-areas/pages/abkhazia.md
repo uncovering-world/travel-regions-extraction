@@ -10,7 +10,12 @@
 | on_the_ground | Run as a presidential republic with its own People's Assembly. | secondary | 2026-10-03 | S0007 | Abkhazia is a presidential republic . Legislative powers are vested in the People's Assembly , which consists of 35 members elected from single-member districts . |
 | inhabited | yes | secondary | 2026-10-03 | S0007 | It covers 8,665 square kilometres (3,346 sq mi) and has a population of around 245,000. |
 | area_km2 | 8665 | secondary | 2026-10-03 | S0007 | It covers 8,665 square kilometres (3,346 sq mi) and has a population of around 245,000. |
+| holder | Abkhaz authorities, with Russian forces; Georgia's government has held no part since 12 August 2008, when it left the upper Kodori gorge | secondary | 2026-10-03 | S0334 | About 1,000 Abkhazian soldiers moved to expel the residual Georgian forces within Abkhazia in the Upper Kodori Gorge. By 12 August the Georgian forces and civilians had evacuated the last part of Abkhazia under Georgian government control. |
+| holder_since | 1993 for most of Abkhazia (end of the 1992-1993 war) | secondary | 2026-10-03 | S0334 | culminated in the 1992–1993 War in Abkhazia , which resulted in Georgia's loss of control over most of Abkhazia followed by de facto Abkhazian independence |
+| stated_outline | the territory of the Autonomous Republic of Abkhazia, as Georgia's Law on Occupied Territories names the occupied territory | primary | 2026-10-03 | S0342 | a) the territories of the Autonomous Republic of Abkhazia; |
 
 Sources:
 
 - S0007: https://en.wikipedia.org/w/index.php?title=Abkhazia&oldid=1377757725
+- S0334: https://en.wikipedia.org/w/index.php?title=Abkhazia&oldid=1378251591
+- S0342: https://matsne.gov.ge/en/document/view/19132

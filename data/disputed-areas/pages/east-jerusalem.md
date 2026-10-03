@@ -10,6 +10,9 @@
 | on_the_ground | Under Israeli control since 1967, together with the rest of the city. | secondary | 2026-10-03 | S0076 | Israel occupied East Jerusalem during the 1967 Six-Day War ; since then, the entire city has been under Israeli control. |
 | inhabited | yes | secondary | 2026-10-03 | S0076 | In 2020, East Jerusalem had a population of 595,000 inhabitants, of whom 361,700 (61%) were Palestinian Arabs and 234,000 (39%) were Jewish settlers . |
 | area_km2 | 70 | secondary | 2026-10-03 | S0076 | On 27 June 1967, Israel expanded the municipal boundaries of West Jerusalem so as to include approximately 70 km 2 (27.0 sq mi) of West Bank territory today referred to as East Jerusalem |
+| holder | Israel | secondary | 2026-10-03 | S0076 | since then, the entire city has been under Israeli control. |
+| holder_since | 1967 | secondary | 2026-10-03 | S0076 | Following the 1967 Six-Day War , the eastern part of Jerusalem came under Israeli rule, along with the entire West Bank. |
+| stated_outline | No single line: the Israeli definition follows the extended municipal boundaries, the Palestinian definition the 1949 Armistice Agreements | secondary | 2026-10-03 | S0076 | The Israeli position is based on the extended municipal boundaries, while the Palestinian position is based on the 1949 Agreements. |
 | ne_name | East Jerusalem | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Admin. By Israel; Claimed by Palestine | machine | 2026-10-03 | NE |  |

@@ -10,8 +10,13 @@
 | on_the_ground | The Russian administration's executive bodies evacuated from Kherson city to the left bank of the Dnieper in October 2022. | secondary | 2026-10-03 | S0190 | In October 2022, as a Ukrainian counteroffensive approached the city of Kherson itself, the Russian administration's executive bodies evacuated from Kherson to the left bank of the Dnieper River |
 | inhabited | yes | secondary | 2026-10-03 | S0190 | On 22 July 2022, Human Rights Watch reported that Russian forces had tortured, unlawfully detained, and forcibly disappeared civilians in the occupied areas of Kherson and Zaporizhzhia regions. |
 | traveller_access | closed | primary | 2026-10-03 | S0318 | It is illegal to enter internationally recognised Ukrainian territory through a border point that is not currently controlled by the Ukrainian authorities. |
+| holder | Russia (the areas of Kherson region under Russian control) | primary | 2026-10-03 | S0345 | This includes any areas temporarily under Russian control such as Zaporizhzhia and Kherson regions. |
+| holder_since | 2022-02-24 | secondary | 2026-10-03 | S0190 | The ongoing military occupation of Ukraine's Kherson Oblast by Russian forces began on 24 February 2022, when Russian forces invaded Ukraine from Crimea |
+| stated_outline | none: the line is moving | secondary | 2026-10-03 | S0340 | which crosses the Dnipro River between Russian positions on the South bank and the Ukrainian city of Kherson on the North bank. |
 
 Sources:
 
 - S0190: https://en.wikipedia.org/w/index.php?title=Russian_occupation_of_Kherson_Oblast&oldid=1370660254
 - S0318: https://www.gov.uk/foreign-travel-advice/ukraine/entry-requirements
+- S0340: https://en.wikipedia.org/w/index.php?title=Russian_occupation_of_Ukraine&oldid=1377021447
+- S0345: https://www.gov.uk/foreign-travel-advice/ukraine/regional-risks

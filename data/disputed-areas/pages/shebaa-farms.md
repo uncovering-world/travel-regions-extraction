@@ -9,6 +9,9 @@
 | origin | Occupied by Israel in the 1967 Six-Day War. | secondary | 2026-10-03 | S0207 | Shebaa Farms were then occupied by Israel in the 1967 Six-Day War . |
 | on_the_ground | Israel treats it as part of the Golan Heights and holds it under military occupation. | secondary | 2026-10-03 | S0207 | Israel considers it part of the Golan Heights and continues to hold it, along with the Golan, under military occupation . |
 | area_km2 | 22 | secondary | 2026-10-03 | S0207 | Shebaa Farms is an area about 9 km (5.6 mi) long, and 2.5 km (1.6 mi) wide; about 22 km 2 (8.5 sq mi); 5,400 acres). |
+| holder | Israel | secondary | 2026-10-03 | S0207 | Israel considers it part of the Golan Heights and continues to hold it, along with the Golan, under military occupation |
+| holder_since | 1967 | secondary | 2026-10-03 | S0207 | Shebaa Farms were then occupied by Israel in the 1967 Six-Day War |
+| stated_outline | No line stated by the parties; the extent of the area as defined by the former UN cartographer Miklos Pinther, released by the UN on 31 October 2007 | secondary | 2026-10-03 | S0207 | On 31 October 2007, the definition of the physical extent of the Shebaa Farms area by former UN cartographer Miklos Pinther was released by the UN. |
 
 Sources:
 

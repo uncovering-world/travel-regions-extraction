@@ -9,7 +9,12 @@
 | origin | Territory in dispute since the Madrid Tripartite Agreement of 1975. | secondary | 2026-10-03 | S0130 | Since the Alegal Madrid Tripartite Agreement of 1975 , it remains territory in dispute |
 | on_the_ground | The town lies about 65 km south of the Moroccan Wall at Guerguerat and is technically abandoned. | secondary | 2026-10-03 | S0130 | La Güera is situated about 65 kilometres (40 mi) south of the Moroccan Wall at Guerguerat and is technically abandoned. |
 | area_km2 | 87.8 | secondary | 2026-10-03 | S0130 | Area  • Total 87.8 km 2 (33.9 sq mi) |
+| holder | Mauritania (polices the western side of the Ras Nouadhibou peninsula; neither Morocco nor the Polisario Front occupies it) | secondary | 2026-10-03 | S0339 | However, the western side is currently policed by Mauritania, as neither Morocco nor the Polisario Front occupies the area. |
+| holder_since | 1975-12 | secondary | 2026-10-03 | S0336 | Occupation of La Güera and Tichla by Mauritania. |
+| stated_outline | The Mauritania-Western Sahara border down the middle of the Ras Nouadhibou peninsula, agreed by Spain and France in the 1912 Convention of Madrid | secondary | 2026-10-03 | S0130 | Spain and France had agreed on a border between Mauritania and Spanish possessions that ran down the middle of the peninsula. |
 
 Sources:
 
 - S0130: https://en.wikipedia.org/w/index.php?title=La_G%C3%BCera&oldid=1377759755
+- S0336: https://en.wikipedia.org/w/index.php?title=Battles_of_La_G%C3%BCera_and_Tichla&oldid=1370603620
+- S0339: https://en.wikipedia.org/w/index.php?title=Ras_Nouadhibou&oldid=1377539797

@@ -9,7 +9,12 @@
 | origin | Kokkina was one of the Turkish Cypriot enclaves formed from December 1963 in the intercommunal fighting, and one of the last port areas under Turkish Cypriot control. | secondary | 2026-10-03 | S0121 | Since December 1963, thousands of Turkish Cypriots became concentrated in enclaves, as a result of the intercommunal fighting (see Cyprus problem ). Kokkina was one of the last port areas under Turkish Cypriot control and a vital supply link with Turkey for the fighters. |
 | on_the_ground | All inhabitants were moved out in 1976; the exclave has since functioned as a military camp. | secondary | 2026-10-03 | S0121 | In 1976, all Kokkina inhabitants were transferred to Yialousa (renamed Yeni Erenköy or "New Erenköy" in Turkish) and the exclave has since functioned as a North Cyprus Defence Force military camp for the Turkish forces. |
 | inhabited | garrison_only | secondary | 2026-10-03 | S0121 | In 1976, all Kokkina inhabitants were transferred to Yialousa (renamed Yeni Erenköy or "New Erenköy" in Turkish) and the exclave has since functioned as a North Cyprus Defence Force military camp for the Turkish forces. |
+| holder | Northern Cyprus (the exclave is a military camp of its Defence Force for the Turkish forces) | secondary | 2026-10-03 | S0121 | the exclave has since functioned as a North Cyprus Defence Force military camp for the Turkish forces. |
+| holder_since | 1964 or earlier (the Turkish Cypriot enclave was not taken in the attack of August 1964) | secondary | 2026-10-03 | S0335 | the Greek Cypriot National Guard had failed to storm the inner defenses of the enclave, thus leaving the Turkish beachhead essentially intact. |
+| stated_outline | The separate section of the UN buffer zone that surrounds Kokkina | secondary | 2026-10-03 | S0246 | where a separate section surrounds Kokkina |
 
 Sources:
 
 - S0121: https://en.wikipedia.org/w/index.php?title=Kokkina&oldid=1374454114
+- S0246: https://en.wikipedia.org/w/index.php?title=United_Nations_Buffer_Zone_in_Cyprus&oldid=1374866617
+- S0335: https://en.wikipedia.org/w/index.php?title=Battle_of_Tillyria&oldid=1374553885

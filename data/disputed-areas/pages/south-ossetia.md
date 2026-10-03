@@ -11,6 +11,9 @@
 | inhabited | yes | secondary | 2026-10-03 | S0216 | It has an officially stated population of just over 56,500 people (2022), who live in an area of 3,900 square kilometres (1,500 sq mi), with 33,000 living in the capital city, Tskhinvali . |
 | traveller_access | restricted | secondary | 2026-10-03 | S0216 | Furthermore, the South Ossetian authorities only allow entry of foreigners "through the territory of the Russian Federation". |
 | area_km2 | 3900 | secondary | 2026-10-03 | S0216 | South Ossetia covers an area of about 3,900 km 2 (1,506 sq mi), |
+| holder | South Ossetian and Russian forces | secondary | 2026-10-03 | S0216 | during which Ossetian and Russian forces gained full de facto control of the territory of the former South Ossetian Autonomous Oblast. |
+| holder_since | 2008-08 (full control of the former autonomous oblast; the last Georgian-administered municipalities were captured in 2008) | secondary | 2026-10-03 | S0216 | Georgia maintained local councils elected in 2006 in Akhalgori , Kurta , Tighva and Eredvi municipalities before they were captured by the separatists and Russia in 2008. |
+| stated_outline | The administrative boundary line with South Ossetia | primary | 2026-10-03 | S0305 | The administrative boundary lines with the Russian occupied regions of Abkhazia and South Ossetia are generally unmarked and away from roads. |
 
 Sources:
 

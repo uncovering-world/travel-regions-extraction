@@ -11,6 +11,8 @@
 | inhabited | garrison_only | secondary | 2026-10-03 | S0184 | about five hundred Taiwanese marines were stationed on Pratas Island. |
 | traveller_access | closed | secondary | 2026-10-03 | S0074 | The park is not open to tourism due to environmental restoration, safety, and ecological studies currently in progress. |
 | area_km2 | 1.74 | secondary | 2026-10-03 | S0184 | Area 174 ha (430 acres) (land), 64 ha (158.15 acres) (lagoon) |
+| holder | Republic of China (Taiwan), which administers the island as part of Cijin District, Kaohsiung | secondary | 2026-10-03 | S0184 | is a coral island situated in the northern part of the South China Sea administered as part of Cijin District , Kaohsiung , Taiwan |
+| holder_since | 1946-09-12 | secondary | 2026-10-03 | S0184 | On September 12, 1946, the navy of the Republic of China took over and garrisoned Pratas Island. |
 
 Sources:
 

@@ -11,6 +11,8 @@
 | inhabited | yes | secondary | 2026-10-03 | S0212 | The Somaliland government estimates that there are 6,200,000 residents as of 2024, |
 | traveller_access | open | primary | 2026-10-03 | S0312 | You will need to purchase a single-entry visa upon arrival at Hargeisa International Airport, which will be valid for one month. |
 | area_km2 | 176120 | secondary | 2026-10-03 | S0212 | In terms of landmass, Somaliland has an area of 176,120 km 2 (68,000 sq mi). |
+| holder | Somaliland, except a significant eastern part lost to the SSC-Khatumo administration after the Las Anod conflict | secondary | 2026-10-03 | S0212 | Following the Las Anod conflict that emerged in 2022, Somaliland lost control of a significant portion of its eastern territory to pro-unionist forces who established the SSC-Khatumo administration. |
+| holder_since | 1991 | secondary | 2026-10-03 | S0212 | a 10-year war of independence concluded with the declaration of Somaliland's independence in 1991 |
 | ne_name | Somaliland | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_note | Self admin.; Claimed by Somalia | machine | 2026-10-03 | NE |  |

@@ -8,7 +8,12 @@
 | kind | occupied_or_annexed | secondary | 2026-10-03 | S0073 | The United Nations General Assembly passed a resolution condemning the "attempted illegal annexation" and demanding that Russian forces withdraw. |
 | origin | Russia proclaimed the annexation in September 2022 after referendums widely described as fraudulent. | secondary | 2026-10-03 | S0073 | In September 2022, Russia proclaimed the annexation of the DPR and other occupied territories, following referendums widely described as fraudulent . |
 | on_the_ground | Around 55% of Donetsk Oblast was under the control of Russia and the DPR by June 2022 (no later figure sourced). | secondary | 2026-10-03 | S0073 | In the course of the Russian invasion of Ukraine , around 55% of Donetsk Oblast came under the control of Russia and the DPR by June 2022. |
+| holder | Russia and its Donetsk People's Republic administration, in part of the oblast (around 55% by June 2022) | secondary | 2026-10-03 | S0337 | around 55% of Donetsk Oblast came under the control of Russia and the DPR by June 2022 |
+| holder_since | 2014 for parts of the oblast | secondary | 2026-10-03 | S0340 | parts of Luhansk Oblast (5) and Donetsk Oblast (6) since 2014 |
+| stated_outline | none: the line is moving | secondary | 2026-10-03 | S0337 | Captured by Donetsk PR in mid-April 2014. Recaptured by Ukraine on 7 July 2014. Contested by Russia since 4 November 2025. |
 
 Sources:
 
 - S0073: https://en.wikipedia.org/w/index.php?title=Donetsk_People%27s_Republic&oldid=1376721103
+- S0337: https://en.wikipedia.org/w/index.php?title=Donetsk_People%27s_Republic&oldid=1378227532
+- S0340: https://en.wikipedia.org/w/index.php?title=Russian_occupation_of_Ukraine&oldid=1377021447

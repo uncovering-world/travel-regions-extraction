@@ -11,8 +11,12 @@
 | inhabited | yes | secondary | 2026-10-03 | S0240 | According to the 2015 census, the population of the region was 475,373, a 14.5% decrease from the figure recorded in the 2004 census. |
 | traveller_access | open | primary | 2026-10-03 | S0308 | When you enter Transnistria, you need to fill in 2 copies of a migration card for the de facto authorities – keep one copy to show them when you leave. |
 | area_km2 | 4163 | secondary | 2026-10-03 | S0240 | Total 4,163 km 2 (1,607 sq mi) |
+| holder | Transnistria's de facto authorities (they question arrivals and may deny entry) | primary | 2026-10-03 | S0308 | The de facto authorities may ask the purpose and length of your visit, and where you will stay. They may also deny you entry. |
+| holder_since | 1992 | secondary | 2026-10-03 | S0240 | Moldova has since then exercised no effective control or influence on Transnistrian authorities. A ceasefire agreement, signed on 21 July 1992, has held to the present day. |
+| stated_outline | the Security Zone of the 1992 ceasefire, supervised by the Joint Control Commission, roughly along the Dniester | secondary | 2026-10-03 | S0111 | or simply Security Zone , roughly follows the outline of the Dniester river. |
 
 Sources:
 
+- S0111: https://en.wikipedia.org/w/index.php?title=Joint_Control_Commission&oldid=1370369355
 - S0240: https://en.wikipedia.org/w/index.php?title=Transnistria&oldid=1375814450
 - S0308: https://www.gov.uk/foreign-travel-advice/moldova/entry-requirements

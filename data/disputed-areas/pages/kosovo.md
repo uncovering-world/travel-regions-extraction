@@ -11,6 +11,9 @@
 | inhabited | yes | secondary | 2026-10-03 | S0124 | It covers an area of 10,887 km 2 (4,203 sq mi) and has a population of nearly 1.6 million, of whom the vast majority (approximately 92%) are ethnic Albanians |
 | traveller_access | open | primary | 2026-10-03 | S0306 | You can visit Kosovo without a visa for up to 90 days, for business or tourism. |
 | area_km2 | 10887 | secondary | 2026-10-03 | S0124 | It covers an area of 10,887 km 2 (4,203 sq mi) and has a population of nearly 1.6 million, of whom the vast majority (approximately 92%) are ethnic Albanians |
+| holder | Kosovo (its authorities set and enforce the entry rules) | primary | 2026-10-03 | S0306 | The authorities in Kosovo set and enforce entry rules. |
+| holder_since | 1999-06-10 (UN administration after the Kumanovo Agreement of 9 June 1999; Kosovo declared independence on 17 February 2008) | secondary | 2026-10-03 | S0124 | Kumanovo Agreement 9 June 1999 • UN Administration 10 June 1999 • Declaration of independence 17 February 2008 |
+| stated_outline | the boundary of the Autonomous Province of Kosovo and Metohija, the unit Serbia claims | secondary | 2026-10-03 | S0124 | Serbia does not officially recognise Kosovo as a sovereign state and continues to claim it as its constituent Autonomous Province of Kosovo and Metohija |
 | ne_name | Kosovo | machine | 2026-10-03 | NE |  |
 | ne_type | Disputed | machine | 2026-10-03 | NE |  |
 | ne_area_km2 | 7193 | machine | 2026-10-03 | NE |  |

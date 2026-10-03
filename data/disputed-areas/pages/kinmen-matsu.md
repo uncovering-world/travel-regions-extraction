@@ -10,9 +10,12 @@
 | on_the_ground | Kinmen's decades-long military administration has ended; travel restrictions between Kinmen and the main island of Taiwan were lifted in 1994. | secondary | 2026-10-03 | S0118 | Travel restrictions between Kinmen and the main island of Taiwan were lifted in 1994 following the end of decades-long military administration over Kinmen. |
 | inhabited | yes | secondary | 2026-10-03 | S0118 | Population   (March 2020)  • Total 127,723 |
 | traveller_access | open | secondary | 2026-10-03 | S0118 | The island was returned to the civilian government in the mid-1990s, after which travel to and from it was allowed. |
+| holder | Republic of China (Taiwan): its law counts Kinmen and Matsu in the area under the effective control of its government | primary | 2026-10-03 | S0341 | "Taiwan Area" refers to Taiwan, Penghu, Kinmen, Matsu, and any other area under the effective control of the Government. |
+| holder_since | 1945-10-03 for Kinmen (ROC forces landed and installed a government) | secondary | 2026-10-03 | S0118 | Kinmen was effectively ungoverned until 3 October 1945 when ROC forces landed and installed a new government. |
 
 Sources:
 
 - S0118: https://en.wikipedia.org/w/index.php?title=Kinmen&oldid=1374603563
 - S0142: https://en.wikipedia.org/w/index.php?title=List_of_territorial_disputes&oldid=1377757742
 - S0152: https://en.wikipedia.org/w/index.php?title=Matsu_Islands&oldid=1374603666
+- S0341: https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=Q0010001

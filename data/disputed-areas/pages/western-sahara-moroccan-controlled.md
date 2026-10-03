@@ -10,6 +10,9 @@
 | on_the_ground | Most of Western Sahara is administered by Morocco, which closely monitors and controls access to the territory. | primary | 2026-10-03 | S0321 | Most of Western Sahara is under administration of Morocco, which closely monitors and controls access to the territory. |
 | inhabited | yes | secondary | 2026-10-03 | S0252 | Mauritania withdrew its claims in 1979, and Morocco secured de facto control of most of the territory, including all major cities and most natural resources. |
 | traveller_access | restricted | primary | 2026-10-03 | S0320 | Travel is restricted. Organised groups are generally permitted, but independent travellers could be turned back at the border. |
+| holder | Morocco | primary | 2026-10-03 | S0321 | Most of Western Sahara is under administration of Morocco, which closely monitors and controls access to the territory. |
+| holder_since | 1979 (de facto control of most of the territory after Mauritania withdrew) | secondary | 2026-10-03 | S0252 | Mauritania withdrew its claims in 1979, and Morocco secured de facto control of most of the territory, including all major cities and most natural resources. |
+| stated_outline | The berm, the sand wall separating the Moroccan and Frente POLISARIO military forces | primary | 2026-10-03 | S0343 | the berm, the sand wall that continues to separate the Moroccan and Frente POLISARIO military forces. |
 
 Sources:
 
@@ -17,3 +20,4 @@ Sources:
 - S0319: https://www.gov.uk/foreign-travel-advice/western-sahara
 - S0320: https://www.gov.uk/foreign-travel-advice/western-sahara/entry-requirements
 - S0321: https://www.gov.uk/foreign-travel-advice/western-sahara/safety-and-security
+- S0343: https://minurso.unmissions.org/background

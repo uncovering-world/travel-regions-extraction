@@ -8,6 +8,9 @@
 | kind | occupied_or_annexed | secondary | 2026-10-03 | S0015 | In 1966, five months after Guyana gained independence, the Venezuelan armed forces crossed the boundary on Ankoko Island and has occupied the Guyanese side of the island ever since, in violation of the peace treaty set forth by the Geneva Agreement . |
 | origin | Venezuelan troops occupied the island in October 1966, five months after Guyana's independence. | secondary | 2026-10-03 | S0015 | Five months after Guyana's independence from the United Kingdom , Venezuelan troops began their occupation of Ankoko Island in October 1966. |
 | on_the_ground | Under Venezuelan administration, with a Venezuelan airport and military base. | secondary | 2026-10-03 | S0015 | The island remains under Venezuelan administration, where a Venezuelan airport and a military base operate. |
+| holder | Venezuela (the island is under Venezuelan administration, with a Venezuelan airport and military base) | secondary | 2026-10-03 | S0015 | The island remains under Venezuelan administration, where a Venezuelan airport and a military base operate. |
+| holder_since | 1966-10 | secondary | 2026-10-03 | S0015 | Venezuelan troops began their occupation of Ankoko Island in October 1966. |
+| stated_outline | The boundary across the island finalised in 1905 by the British-Venezuelan Mixed Boundary Commission under the Arbitral Award of 3 October 1899 | secondary | 2026-10-03 | S0015 | The Ankoko Island border was finalized in 1905 by the British-Venezuelan Mixed Boundary Commission, in accordance with the Arbitral Award of 3 October 1899 |
 
 Sources:
 

@@ -10,7 +10,11 @@
 | on_the_ground | Held by Azerbaijan as part of its Gadabay District; the Armenian population was expelled. | secondary | 2026-10-03 | S0020 | Today, the village is largely abandoned as the Azerbaijani army expelled its Armenian population after it captured the territory, and is now occupied by Azerbaijan as part of its Gadabay District . |
 | inhabited | yes | secondary | 2026-10-03 | S0020 | Although Artsvashen still has empty houses belonging to Armenians, the village has now been settled by Azerbaijanis and the local Armenian church has been converted to a mosque . |
 | area_km2 | 40 | secondary | 2026-10-03 | S0020 | It is a 40 square kilometres (15 sq mi) exclave of Armenia |
+| holder | Azerbaijan | secondary | 2026-10-03 | S0020 | surrounded by the territory of Azerbaijan , whose forces have captured and occupied it since the First Nagorno-Karabakh War in 1992 |
+| holder_since | 1992-08-04 | secondary | 2026-10-03 | S0020 | on August 4, 1992, Azerbaijani forces completely devastated the village and stripped it of its Armenian inhabitants, effectively occupying the village |
+| stated_outline | the Soviet-era border between the Armenian and Azerbaijani republics (in October 2022 both states agreed that Soviet-era borders are the basis of delineation, under the 1991 Alma-Ata Declaration) | secondary | 2026-10-03 | S0018 | In October 2022, the two countries reached an agreement that Soviet-era borders should form the basis of border delineation based on the Alma-Ata 1991 Declaration |
 
 Sources:
 
+- S0018: https://en.wikipedia.org/w/index.php?title=Armenia%E2%80%93Azerbaijan_border&oldid=1368043117
 - S0020: https://en.wikipedia.org/w/index.php?title=Artsvashen&oldid=1377070396

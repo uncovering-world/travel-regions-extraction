@@ -9,7 +9,11 @@
 | origin | The occupation began after Russian forces invaded mainland Ukraine out of Crimea on 24 February 2022. | secondary | 2026-10-03 | S0191 | The ongoing military occupation of Ukraine's Zaporizhzhia Oblast began after Russian forces launched an invasion of mainland Ukraine out of Crimea on 24 February 2022. |
 | on_the_ground | Melitopol is the Russian seat of administration, since Russia does not control the city of Zaporizhzhia. | secondary | 2026-10-03 | S0191 | Melitopol serves as the Russian seat of administration as Russia does not control Zaporizhzhia. |
 | inhabited | yes | secondary | 2026-10-03 | S0191 | In May, the Russian government began offering Russian passports to the region's inhabitants. |
+| holder | Russia in the occupied part (Melitopol, Berdiansk, Enerhodar); Ukraine holds the city of Zaporizhzhia | secondary | 2026-10-03 | S0191 | the city of Melitopol fell under Russian control, followed by Berdiansk the next day. Russian forces besieged the city of Enerhodar , home of the Zaporizhzhia Nuclear Power Plant , then captured it on 4 March. The oblast's capital city of Zaporizhzhia , however, remains under Ukrainian government control. |
+| holder_since | 2022 for parts of the oblast | secondary | 2026-10-03 | S0340 | parts of Zaporizhzhia Oblast (7) and Kherson Oblast (8) since 2022 |
+| stated_outline | none: the line is moving | secondary | 2026-10-03 | S0191 | Contested by Russia since November 2025. Captured by Russia in early February 2026. |
 
 Sources:
 
 - S0191: https://en.wikipedia.org/w/index.php?title=Russian_occupation_of_Zaporizhzhia_Oblast&oldid=1377539994
+- S0340: https://en.wikipedia.org/w/index.php?title=Russian_occupation_of_Ukraine&oldid=1377021447

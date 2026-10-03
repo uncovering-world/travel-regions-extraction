@@ -10,7 +10,11 @@
 | on_the_ground | Armenia has controlled Karki since May 1992 and governs it as part of its Ararat Province. | secondary | 2026-10-03 | S0116 | Since May 1992, following the First Nagorno-Karabakh War, Karki has been controlled by Armenia, which governs the 8.23 km 2 (3.18 sq mi) territory as part of its Ararat Province |
 | inhabited | yes | secondary | 2026-10-03 | S0116 | Today the village is mostly inhabited by Armenians, both locals and refugees from Azerbaijan. |
 | area_km2 | 8.23 | secondary | 2026-10-03 | S0116 | Since May 1992, following the First Nagorno-Karabakh War, Karki has been controlled by Armenia, which governs the 8.23 km 2 (3.18 sq mi) territory as part of its Ararat Province |
+| holder | Armenia (administered within Ararat Province) | secondary | 2026-10-03 | S0116 | de facto under the control of Armenia , administered within the Ararat Municipality of the Ararat Province |
+| holder_since | May 1992 | secondary | 2026-10-03 | S0116 | Since May 1992, following the First Nagorno-Karabakh War, Karki has been controlled by Armenia |
+| stated_outline | the Soviet-era border between the Armenian and Azerbaijani republics (in October 2022 both states agreed that Soviet-era borders are the basis of delineation, under the 1991 Alma-Ata Declaration) | secondary | 2026-10-03 | S0018 | In October 2022, the two countries reached an agreement that Soviet-era borders should form the basis of border delineation based on the Alma-Ata 1991 Declaration |
 
 Sources:
 
+- S0018: https://en.wikipedia.org/w/index.php?title=Armenia%E2%80%93Azerbaijan_border&oldid=1368043117
 - S0116: https://en.wikipedia.org/w/index.php?title=Karki%2C_Azerbaijan&oldid=1376395384

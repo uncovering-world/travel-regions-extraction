@@ -10,7 +10,12 @@
 | on_the_ground | The agreement to transfer the islands to Mauritius, with Diego Garcia leased back to the UK, was signed on 22 May 2025; its ratification is on hold. | secondary | 2026-10-03 | S0050 | The transfer agreement was signed on 22 May 2025, with the provision that the island of Diego Garcia would be leased back to the UK for at least 99 years. The UK government expected the treaty to be ratified sometime in 2025, but the legislation is indefinitely on hold due to both US opposition, as well as domestic political opposition in the UK. |
 | inhabited | garrison_only | secondary | 2026-10-03 | S0050 | The only permanent inhabitants are employees of the military, including civilian contracted personnel, on Diego Garcia. |
 | area_km2 | 56.13 | secondary | 2026-10-03 | S0050 | Area 56.13 km 2 (21.67 sq mi) |
+| holder | United Kingdom (the British Indian Ocean Territory authorities set and enforce the entry rules) | primary | 2026-10-03 | S0344 | The authorities in British Indian Ocean Territory set and enforce entry rules. |
+| holder_since | 1814 (France ceded the Chagos Islands to the United Kingdom by the Treaty of Paris) | secondary | 2026-10-03 | S0050 | Under the Treaty of Paris in 1814, France ceded Isle de France and the Chagos Islands to the United Kingdom |
+| stated_outline | the seven atolls of the Chagos Archipelago, which make up the British Indian Ocean Territory | secondary | 2026-10-03 | S0044 | The territory comprises the seven atolls of the Chagos Archipelago with over 1,000 individual islands |
 
 Sources:
 
+- S0044: https://en.wikipedia.org/w/index.php?title=British_Indian_Ocean_Territory&oldid=1377561588
 - S0050: https://en.wikipedia.org/w/index.php?title=Chagos_Archipelago&oldid=1376421739
+- S0344: https://www.gov.uk/foreign-travel-advice/british-indian-ocean-territory/entry-requirements

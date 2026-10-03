@@ -9,6 +9,9 @@
 | origin | Captured by Armenian forces in 1992 during the First Nagorno-Karabakh War (quoted for Yukhari Askipara). | secondary | 2026-10-03 | S0254 | It is surrounded by Armenia 's Tavush Province and has been occupied by Armenia since 1992, when it was captured and destroyed by Armenian troops in the First Nagorno-Karabakh War . |
 | on_the_ground | Under Armenian control and administered as part of Tavush Province (quoted for the Barkhudarly exclave). | secondary | 2026-10-03 | S0032 | The exclave has been under the control of Armenia ever since and is administered as part of the surrounding Tavush Province . |
 | inhabited | no | secondary | 2026-10-03 | S0032 | is an abandoned Azerbaijani village in the Qazakh District of Azerbaijan , under the de facto control of Armenia . |
+| holder | Armenia (the Azerbaijani exclave villages Yukhari Askipara, Barxudarli and Sofulu are controlled by their host state) | secondary | 2026-10-03 | S0018 | four Azerbaijani ( Karki , Yukhari Askipara , Barxudarlı and Sofulu ) exclave villages which are now controlled by their 'host' nation |
+| holder_since | 1992 (the Barxudarli-Sofulu exclave since 27 April 1992) | secondary | 2026-10-03 | S0032 | the village was captured by the Armenian Armed Forces on 27 April 1992, during the First Nagorno-Karabakh War . The exclave has been under the control of Armenia ever since |
+| stated_outline | the Soviet-era border between the Armenian and Azerbaijani republics (in October 2022 both states agreed that Soviet-era borders are the basis of delineation, under the 1991 Alma-Ata Declaration) | secondary | 2026-10-03 | S0018 | In October 2022, the two countries reached an agreement that Soviet-era borders should form the basis of border delineation based on the Alma-Ata 1991 Declaration |
 
 Sources:
 

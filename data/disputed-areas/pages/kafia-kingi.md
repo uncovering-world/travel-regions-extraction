@@ -10,6 +10,8 @@
 | on_the_ground | Sudan controls all or most of the area; South Sudanese forces have at times briefly controlled large portions. | secondary | 2026-10-03 | S0114 | Sudan controls all or most of this area today, though at times independent South Sudan forces have briefly controlled large portions. |
 | inhabited | yes | secondary | 2026-10-03 | S0114 | Population  • Estimate  (2010) 16,000 |
 | area_km2 | 12500 | secondary | 2026-10-03 | S0114 | Total 4,800 sq mi (12,500 km 2 ) |
+| holder | Sudan (all or most of the area) | secondary | 2026-10-03 | S0114 | Sudan controls all or most of this area today, though at times independent South Sudan forces have briefly controlled large portions. |
+| stated_outline | The Sudan north-south line as of 1 January 1956, required by the 2005 Comprehensive Peace Agreement | secondary | 2026-10-03 | S0114 | under the terms of the 2005 Comprehensive Peace Agreement which required use of the Sudan "north–south line" as of 1 January 1956. |
 
 Sources:
 

@@ -140,3 +140,12 @@ Merge, duplicate or overlap:
 - Figures: `koalou` (68 km² entered; 7.75 km² in the list), `siachen` (2,500 entered; 700 to 9,600 elsewhere), `susta` (50 entered; 148.6 implied by the text), `libya-niger-tummo` (25,000 entered; 19,400 on Wikipedia), `rincon-de-artigas` (237 versus 273), `shaksgam`, `south-ossetia`, `svalbard`, `west-bank`, `golan-heights`; `chile-peru-land-triangle` and `sabanerwa` have figures that cannot be read as an area and were not entered.
 - Habitation: `tunbs`, `varosha`, `la-guera` (no value entered because the page contradicts itself); `artsvashen`, `aksai-chin`, `spratly-islands` (entered `yes` although the same page also says "largely abandoned", "nearly uninhabitable", "largely uninhabited").
 - Inconsistent treatment between batches: for the same gov.uk statement about entering Ukrainian territory through a point Ukraine does not control, `kherson-occupied` has `traveller_access = closed`, while `luhansk-occupied` and `zaporizhzhia-occupied` have no value; `glorioso-islands` versus the other French islands (5a).
+
+## 8. Facts on who holds an area (added 2026-10-03)
+
+The fields `holder`, `holder_since` and `stated_outline` were collected for 29 contested areas; every passage is found in its source. No act ending a contest was found for any of them. Weak rows, as the collectors reported them and not checked again:
+
+- `holder_since`: `la-guera` (an infobox line; a Polisario presence is reported in 2015), `kokkina` ("1964 or earlier"), `western-sahara-moroccan-controlled` (1979 recorded, 1987 the alternative), `kosovo` (1999, the UN administration, not 2008), `abkhazia` (1993 for most of the area, Kodori in 2008), `donetsk-occupied` and `zaporizhzhia-occupied` (a map caption).
+- `holder`: `kafia-kingi` (undated sentence in an article tagged as disputed), `gazakh-exclaves` (a section tagged as unsourced), `somaliland` (the east is held by another party).
+- `stated_outline`: `shebaa-farms` (a UN cartographer's definition, not a party's line), `crimea` (a geographic sentence), `artsvashen`, `karki`, `gazakh-exclaves` (a general passage on Soviet-era borders), `transnistria` (the Security Zone), `luhansk-occupied` (the parties disagree on control), `kherson-occupied` and `israeli-held-southern-syria` (recorded as a moving line although the sources describe fairly static ones). None found for `kinmen-matsu`, `pratas`, `somaliland`.
+- Scope: `israeli-posts-south-lebanon` no longer matches what its name says; problems also noted for `ghajar`, `east-jerusalem`, `crimea`, `la-guera`, `ankoko-island`.
