@@ -171,3 +171,7 @@ Collected for D057 (a lease is a region when its holder is not the lessor). On r
 - `suleyman-shah-tomb`: `restricted` rests on one family visit in 2015 arranged by the Turkish General Staff. A 2026 Kurdish report that the tomb was moved back to Karakozak is unverified.
 - `russian-ranges-kazakhstan`: the leased range is closed under Article 22 of the lease; the town of Priozersk has been open to foreigners since the mid-2000s. The register's value (`closed`) is for the range.
 - Entry rules (in `experiments/stage1-list/inputs/entry_rule_facts.csv`): Tibet's permit dates from a 1989 central-government regulation as cited by the US State Department (the regulation itself was not found); the Gorno-Badakhshan permit rests on Article 19 of Tajikistan's border law of 1997 in the wording of 2005-07-25 (the original 1997 wording is unknown).
+
+## 13. Varosha re-kinded (2026-10-04)
+
+`varosha` was recorded as `own_regime` on the strength of UN Security Council Resolution 550, which calls for the area's transfer to UN administration. That is a call, not a regime in force: the register's own passage says the quarter is "currently under the control of Northern Cyprus". The owner noticed the result (Varosha had come out as a region with no single holder). Its kind is now `occupied_or_annexed` and its holder Northern Cyprus, both on that passage; it is part of the land Northern Cyprus holds, not a zone of its own.

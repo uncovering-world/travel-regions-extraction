@@ -137,6 +137,8 @@ The owner added the residents test to leases (D058): a lease held by the lessee 
 
 Result: 317 regions, 304 with nothing open; 90 special places; 2 missing facts.
 
+Correction the same day: Varosha had come out as a region (a zone with no single holder) because the register recorded it as `own_regime` from a UN resolution calling for UN administration. Its own passage says it is under the control of Northern Cyprus; it is re-kinded and now stays, marked, inside the land Northern Cyprus holds. Result: 316 regions, 303 with nothing open; 90 special places.
+
 ## Status
 
-Concluded 2026-10-04 (six runs, two corrections, D057–D058).
+Concluded 2026-10-04 (six runs, three corrections, D057–D058).

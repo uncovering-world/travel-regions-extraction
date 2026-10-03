@@ -1,15 +1,15 @@
 {
-  "regions": 317,
+  "regions": 316,
   "regions_by_basis": {
     "ISO 3166-1 entry": 249,
     "entry rule": 30,
-    "residents": 21,
+    "residents": 20,
     "registry": 11,
     "leased area held by the lessee": 2,
     "unclaimed land": 2,
     "entry rule of the holder": 2
   },
-  "regions_with_nothing_open": 304,
+  "regions_with_nothing_open": 303,
   "regions_with_an_open_point": 13,
   "special_places": 90,
   "special_places_by_kind": {
@@ -20,10 +20,10 @@
     "own_regime": 6,
     "paper_claim": 1
   },
-  "markers": 150,
-  "gaps": 2,
+  "markers": 151,
+  "gaps": 3,
   "gaps_by_missing_fact": {
-    "who holds the area and since when": 1,
+    "who holds the area and since when": 2,
     "who holds the area": 1
   },
   "register_areas": 210,

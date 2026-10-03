@@ -201,7 +201,7 @@ transnistria-security-zone,Dniester Security Zone,sourced,own_regime,"Joint Cont
 tromelin,Tromelin Island,sourced,islets_for_maritime_zone,France (administers as part of the French Southern and Antarctic Lands); Mauritius (claims),0.8,garrison_only,,secondary,2026-10-03,,
 tunbs,Greater and Lesser Tunb,sourced,paper_claim,"Iran (administers as part of Hormozgan province); United Arab Emirates (claims, for the Emirate of Ras al-Khaimah)",12.3,,,secondary,2026-10-03,,
 undof-zone,UNDOF area of separation,sourced,own_regime,Syria; Israel; United Nations (UNDOF maintains the ceasefire between Israeli and Syrian forces and supervises the disengagement agreement),235,yes,,secondary,2026-10-03,,
-varosha,Varosha (Maraş),sourced,own_regime,Northern Cyprus (controls); Cyprus (de jure territory),6.19,yes,open,secondary,2026-10-03,,
+varosha,Varosha (Maraş),sourced,occupied_or_annexed,Northern Cyprus (controls); Cyprus (de jure territory),6.19,yes,open,secondary,2026-10-03,,
 wadi-halfa-salient,Wadi Halfa Salient,sourced,paper_claim,Egypt (claims under the original 1899 border along the 22nd parallel); Sudan (claims under the amended border of 1902),210,no,,secondary,2026-10-03,,
 wake-island,Wake Island,sourced,paper_claim,"United States (administers as an unorganized, unincorporated territory); Marshall Islands (claims)",7.38,garrison_only,restricted,secondary,2026-10-03,,
 west-bank,West Bank,sourced,occupied_or_annexed,"Israel (controls Area C, 60% of the territory, and shares Area B); Palestine (the Palestinian National Authority holds Area A and shares Area B)",5640,yes,open,secondary,2026-10-03,,1159320903
