@@ -76,6 +76,20 @@ What this supports:
 
 What it does not support: any claim about legality, or a precise threshold. The sample is small, the rows are editors' units, and the year resolution blurs exactly the one-to-two-year range.
 
+## Second question (added 2026-10-03, before running it)
+
+The owner pointed to the public conflict statistics as a second source. The Uppsala Conflict Data Program (UCDP) records, for every year since 1946, each armed conflict involving a state that caused at least 25 battle-related deaths, and says whether the conflict is over territory and which territory.
+
+Question: after fighting over a territory stops, how long is it before one can tell that it will not resume? For a number of quiet years Q: of the territorial conflicts that have stayed quiet for Q years, what share becomes active again within the following ten?
+
+What would change our mind:
+
+1. If conflicts that have been quiet for two years rarely resume within the following ten (under about a fifth), two quiet years are a sound point for reviewing an unsettled area.
+2. If the share is still high after two quiet years and drops clearly by five, five quiet years are the sound point.
+3. If the share is about the same however long the quiet has lasted, quiet time does not tell settled from unsettled, and the status has to rest on the kind of ending (an agreement, a victory) instead.
+
+Also reported, as context: how long episodes of fighting over territory last.
+
 ## Status
 
-Concluded 2026-10-03.
+First question concluded 2026-10-03; second question planned.
