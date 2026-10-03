@@ -1,433 +1,433 @@
 key,census_ids,reason
-Russia / Anadyr (town),,
-Russia / Caribbean,,
+Russia / Anadyr (town),ru-former-regional-evisas ru-72h-ferry-cruise,port of entry of rules already in the census (former regional e-visa; 72-hour cruise visa-free)
+Russia / Caribbean,ignore,not a part of the country
 Russia / Chukotka Autonomous Okrug,,
-Russia / Commonwealth of Independent States,,
-Russia / Ivangorod,,
-Russia / Kaliningrad,,
-Russia / Kaliningrad Oblast,,
-Russia / Kuril Islands,,
-Russia / Leningrad Oblast,,
-Russia / Moscow,,
-Russia / Narva,,
-Russia / Saint Petersburg,,
-Russia / Sakhalin,,
-Russia / Schengen Area,,
-Russia / Vladivostok,,
-Overseas France / Schengen Area,,
-Afghanistan / Kabul International Airport,,
-Afghanistan / Ministry of Commerce and Industry (Afghanistan),,
-Albania / European Free Trade Association,,
-Albania / Micronesia,,
-Albania / Schengen Area,,
-Antigua and Barbuda / Schengen Area,,
-Armenia / Schengen Area,,
-Artsakh / Commonwealth of Independent States,,
-Artsakh / Eurasian Economic Union,,
-Australia / Adelaide,,
-Australia / Ashmore and Cartier Islands,,
-Australia / Australian Antarctic Territory,,
-Australia / Cairns,,
-Australia / European Free Trade Association,,
-"Australia / Gold Coast, Queensland",,
-Australia / Heard Island and McDonald Islands,,
-Australia / Macquarie Island,,
-Australia / Norfolk Island,,
-Australia / Sydney,,
-Azerbaijan / Baku,,
-Azerbaijan / Barxudarlı,,
-"Azerbaijan / Karki, Azerbaijan",,
-"Azerbaijan / Sofulu, Qazax",,
-Azerbaijan / Yukhari Askipara,,
-Belarus / Augustów Canal,,
-Belarus / Belovezhskaya Pushcha National Park,,
+Russia / Commonwealth of Independent States,ignore,not a part of the country
+Russia / Ivangorod,ignore,border residents only
+Russia / Kaliningrad,ru-former-regional-evisas ru-72h-ferry-cruise,corrected prefill: passages are the former regional e-visa and the 72-hour cruise ports; the restricted districts are not mentioned
+Russia / Kaliningrad Oblast,ru-former-regional-evisas,corrected prefill: passages are the former regional e-visa (and local border traffic); the restricted districts are not mentioned
+Russia / Kuril Islands,ignore,group-only rule; historical rule no longer in force (article: terminated September 2022)
+Russia / Leningrad Oblast,ru-former-regional-evisas,
+Russia / Moscow,ignore,not a rule (place of an event)
+Russia / Narva,ignore,border residents only
+Russia / Saint Petersburg,ru-former-regional-evisas ru-72h-ferry-cruise,
+Russia / Sakhalin,ignore,group-only rule (visits on pre-authorised lists)
+Russia / Schengen Area,ignore,not a part of the country
+Russia / Vladivostok,ru-former-regional-evisas,free port status that preceded the former regional e-visa
+Overseas France / Schengen Area,ignore,not a part of the country
+Afghanistan / Kabul International Airport,ignore,port of entry
+Afghanistan / Ministry of Commerce and Industry (Afghanistan),ignore,not a place (institution)
+Albania / European Free Trade Association,ignore,not a part of the country
+Albania / Micronesia,ignore,not a part of the country
+Albania / Schengen Area,ignore,not a part of the country
+Antigua and Barbuda / Schengen Area,ignore,not a part of the country
+Armenia / Schengen Area,ignore,not a part of the country
+Artsakh / Commonwealth of Independent States,ignore,not a part of the country
+Artsakh / Eurasian Economic Union,ignore,not a part of the country
+Australia / Adelaide,ignore,transit only
+Australia / Ashmore and Cartier Islands,,possible new rule: Indonesian traditional fishermen visiting the Territory of Ashmore and Cartier Islands are covered by a special purpose visa
+Australia / Australian Antarctic Territory,,possible new rule: an environmental authorisation (on an EIA by the organiser) is required for the Australian Antarctic Territory
+Australia / Cairns,ignore,transit only
+Australia / European Free Trade Association,ignore,not a part of the country
+"Australia / Gold Coast, Queensland",ignore,transit only
+Australia / Heard Island and McDonald Islands,,possible new rule: a permit to enter the Territory of Heard Island and McDonald Islands is required (own ISO 3166-1 entry HM)
+Australia / Macquarie Island,,possible new rule: written authorisation of the Director of National Parks required for Macquarie Island; visitors there hold a special purpose visa
+Australia / Norfolk Island,ignore,historical rule no longer in force (article: Norfolk Island immigration permits are no longer valid)
+Australia / Sydney,ignore,transit only
+Azerbaijan / Baku,ignore,port of entry; seat of the ministry that issues invitations
+Azerbaijan / Barxudarlı,,possible new rule: Azerbaijan prohibits entry of foreigners to the exclave (held by Armenia) without its prior consent
+"Azerbaijan / Karki, Azerbaijan",,possible new rule: Azerbaijan prohibits entry of foreigners to the exclave (held by Armenia) without its prior consent
+"Azerbaijan / Sofulu, Qazax",,possible new rule: Azerbaijan prohibits entry of foreigners to the exclave (held by Armenia) without its prior consent
+Azerbaijan / Yukhari Askipara,,possible new rule: Azerbaijan prohibits entry of foreigners to the exclave (held by Armenia) without its prior consent
+Belarus / Augustów Canal,by-brest-grodno-zone,
+Belarus / Belovezhskaya Pushcha National Park,by-brest-grodno-zone,
 Belarus / Brest Airport,by-brest-grodno-zone,prefill by name match; to be reviewed
-Belarus / Brest region,,
-Belarus / Gomel Airport,,
+Belarus / Brest region,by-brest-grodno-zone,
+Belarus / Gomel Airport,ignore,port of entry
 Belarus / Grodno Airport,by-brest-grodno-zone,prefill by name match; to be reviewed
-Belarus / Grodno region,,
-Belarus / Mahilyow Airport,,
-Belarus / Minsk National Airport,,
-Belarus / Vitebsk Vostochny Airport,,
+Belarus / Grodno region,by-brest-grodno-zone,
+Belarus / Mahilyow Airport,ignore,port of entry
+Belarus / Minsk National Airport,ignore,port of entry
+Belarus / Vitebsk Vostochny Airport,ignore,port of entry
 Bhutan / Gelephu,bt-border-towns,prefill by name match; to be reviewed
 Bhutan / Samdrup Jongkhar,bt-border-towns,prefill by name match; to be reviewed
-Bosnia and Herzegovina / Schengen Area,,
-Brazil / Federal Senate (Brazil),,
-"Brazil / North Region, Brazil",,
-Brunei / Brunei International Airport,,
-Cambodia / Bavet municipality,,
-Cambodia / Phnom Penh International Airport,,
-Canada / Schengen Area,,
-Canada / Vancouver International Airport,,
-"Cape Verde / Boa Vista, Cape Verde",,
-"Cape Verde / Sal, Cape Verde",,
-"Cape Verde / Santiago, Cape Verde",,
-"Cape Verde / São Vicente, Cape Verde",,
-Colombia / Schengen Area,,
-Djibouti / Djibouti–Ambouli International Airport,,
-Ecuador / Galápagos Islands,,
+Bosnia and Herzegovina / Schengen Area,ignore,not a part of the country
+Brazil / Federal Senate (Brazil),ignore,not a place (institution)
+"Brazil / North Region, Brazil",ignore,false match (no mention of the place)
+Brunei / Brunei International Airport,ignore,port of entry
+Cambodia / Bavet municipality,ignore,port of entry
+Cambodia / Phnom Penh International Airport,ignore,transit only
+Canada / Schengen Area,ignore,not a part of the country
+Canada / Vancouver International Airport,ignore,transit only
+"Cape Verde / Boa Vista, Cape Verde",ignore,port of entry
+"Cape Verde / Sal, Cape Verde",ignore,port of entry
+"Cape Verde / Santiago, Cape Verde",ignore,port of entry
+"Cape Verde / São Vicente, Cape Verde",ignore,port of entry
+Colombia / Schengen Area,ignore,not a part of the country
+Djibouti / Djibouti–Ambouli International Airport,ignore,port of entry
+Ecuador / Galápagos Islands,ec-galapagos,
 Egypt / Dahab,eg-south-sinai-resorts,prefill by name match; to be reviewed
 Egypt / Nuweiba,eg-south-sinai-resorts,prefill by name match; to be reviewed
-Egypt / Rafah Border Crossing,,
-Egypt / Schengen Area,,
+Egypt / Rafah Border Crossing,ignore,transit only
+Egypt / Schengen Area,ignore,not a part of the country
 Egypt / Sharm El Sheikh,eg-south-sinai-resorts,prefill by name match; to be reviewed
-Egypt / Sharm El Sheikh International Airport,,
-Egypt / St. Catherine International Airport,,
+Egypt / Sharm El Sheikh International Airport,eg-south-sinai-resorts,
+Egypt / St. Catherine International Airport,eg-south-sinai-resorts,
 Egypt / Taba International Airport,eg-south-sinai-resorts,prefill by name match; to be reviewed
 "Egypt / Taba, Egypt",eg-south-sinai-resorts,prefill by name match; to be reviewed
-El Salvador / Schengen Area,,
-Equatorial Guinea / Malabo International Airport,,
-Ethiopia / Addis Ababa Bole International Airport,,
-Gabon / Libreville,,
-Gabon / Léon-Mba International Airport,,
-Greenland / Schengen Area,,
-Guatemala / Schengen Area,,
-"Guyana / Annai, Guyana",,
-"Guyana / Lethem, Guyana",,
-Guyana / Schengen Area,,
-Haiti / Schengen Area,,
-Honduras / Schengen Area,,
+El Salvador / Schengen Area,ignore,not a part of the country
+Equatorial Guinea / Malabo International Airport,ignore,port of entry
+Ethiopia / Addis Ababa Bole International Airport,ignore,port of entry
+Gabon / Libreville,ignore,port of entry
+Gabon / Léon-Mba International Airport,ignore,port of entry
+Greenland / Schengen Area,ignore,not a part of the country
+Guatemala / Schengen Area,ignore,not a part of the country
+"Guyana / Annai, Guyana",,possible new rule: nationals entering through Lethem by land may travel as far as Annai on an ID card instead of a passport
+"Guyana / Lethem, Guyana",,possible new rule: nationals entering through Lethem by land may travel as far as Annai on an ID card instead of a passport
+Guyana / Schengen Area,ignore,not a part of the country
+Haiti / Schengen Area,ignore,not a part of the country
+Honduras / Schengen Area,ignore,not a part of the country
 India / Andaman and Nicobar Islands,in-andaman-nicobar,prefill by name match; to be reviewed
 India / Arunachal Pradesh,in-arunachal-pradesh,prefill by name match; to be reviewed
-India / Bagdogra,,
-India / Bagdogra Airport,,
-India / Chennai International Airport,,
-India / Chennai Port,,
-India / Chhatrapati Shivaji Maharaj International Airport,,
-India / Cochin International Airport,,
-India / Cochin Port,,
+India / Bagdogra,ignore,transit only
+India / Bagdogra Airport,ignore,transit only
+India / Chennai International Airport,ignore,port of entry
+India / Chennai Port,ignore,port of entry
+India / Chhatrapati Shivaji Maharaj International Airport,ignore,port of entry
+India / Cochin International Airport,ignore,port of entry
+India / Cochin Port,ignore,port of entry
 India / Himachal Pradesh,in-pap-partial-states,prefill by name match; to be reviewed
 India / Jammu and Kashmir (union territory),in-pap-partial-states,prefill by name match; to be reviewed
-India / Kerala,,
+India / Kerala,,possible new rule: visa on arrival for Pakistani nationals over 65 does not apply to visits to Punjab and Kerala
 India / Lakshadweep,in-lakshadweep in-minicoy-maldivians,prefill by name match; to be reviewed
-India / Mangalore International Airport,,
+India / Mangalore International Airport,ignore,port of entry
 India / Minicoy,in-minicoy-maldivians,prefill by name match; to be reviewed
-India / Ministry of Culture (India),,
-India / Mormugao Port,,
-India / Mumbai Port,,
-India / Punjab,,
+India / Ministry of Culture (India),ignore,not a place (institution)
+India / Mormugao Port,ignore,port of entry
+India / Mumbai Port,ignore,port of entry
+India / Punjab,,possible new rule: visa on arrival for Pakistani nationals over 65 does not apply to visits to Punjab and Kerala
 India / Rajasthan,in-pap-partial-states,prefill by name match; to be reviewed
 India / Sikkim,in-sikkim,prefill by name match; to be reviewed
 India / Uttarakhand,in-pap-partial-states,prefill by name match; to be reviewed
 Indonesia / Batam,id-batam-bintan-karimun,prefill by name match; to be reviewed
 Indonesia / Bintan Regency,id-batam-bintan-karimun,prefill by name match; to be reviewed
 Indonesia / Karimun Regency,id-batam-bintan-karimun,prefill by name match; to be reviewed
-Indonesia / Ngurah Rai International Airport,,
-Indonesia / Riau Islands,,
-Indonesia / Soekarno–Hatta International Airport,,
-Iran / Aras Free Zone,,
-Iran / Imam Khomeini International Airport,,
+Indonesia / Ngurah Rai International Airport,ignore,transit only
+Indonesia / Riau Islands,id-batam-bintan-karimun,
+Indonesia / Soekarno–Hatta International Airport,ignore,transit only
+Iran / Aras Free Zone,ir-other-free-zones,
+Iran / Imam Khomeini International Airport,ignore,port of entry
 Iran / Kish Island,ir-kish,prefill by name match; to be reviewed
-Iran / Port of Shahid Rajaee,,
+Iran / Port of Shahid Rajaee,ignore,port of entry
 Iran / Qeshm Island,ir-qeshm,prefill by name match; to be reviewed
 Iraq / Kurdistan Region,iq-kurdistan,prefill by name match; to be reviewed
-Ireland / European Free Trade Association,,
-Ireland / Ireland,,
-Ireland / Micronesia,,
-Ireland / Schengen Area,,
-Ireland / Serbia and Montenegro,,
-Ireland / Union of South Africa,,
-Israel / West Bank,,
-Ivory Coast / Abidjan,,
-Ivory Coast / Félix-Houphouët-Boigny International Airport,,
-Jamaica / Schengen Area,,
-Jordan / Allenby Bridge,,
-Jordan / Schengen Area,,
-Kazakhstan / Almaty International Airport,,
-Kazakhstan / Atyrau Region,,
-Kazakhstan / Mangystau Region,,
-Kazakhstan / Nursultan Nazarbayev International Airport,,
-Kosovo / Schengen Area,,
-"Kyrgyzstan / Ak-Jol, Chüy",,
-Kyrgyzstan / Alay District,,
-Kyrgyzstan / Batken District,,
-Kyrgyzstan / Chaldybar,,
-Kyrgyzstan / Irkeshtam,,
-Kyrgyzstan / Kulundu,,
-Kyrgyzstan / Manas District,,
-Kyrgyzstan / Manas International Airport,,
-Kyrgyzstan / Osh,,
-Kyrgyzstan / Osh Airport,,
-Kyrgyzstan / Schengen Area,,
-Kyrgyzstan / Torugart Pass,,
-Kyrgyzstan / Ysyk-Ata District,,
-Lebanon / Beirut,,
-Lebanon / Beirut–Rafic Hariri International Airport,,
-Liberia / Monrovia,,
-Libya / Benina International Airport,,
-Libya / Misrata Airport,,
-Libya / Mitiga International Airport,,
-Libya / Sabha Airport,,
-Libya / Tripoli International Airport,,
-Madagascar / Antananarivo,,
-Madagascar / Antsiranana,,
-Madagascar / Ivato International Airport,,
-Madagascar / Toamasina,,
-Madagascar / Toliara,,
-Malaysia / Immigration Department of Malaysia,,
-Malaysia / Kuala Lumpur International Airport,,
-Mauritania / Nouakchott–Oumtounsy International Airport,,
-Moldova / Schengen Area,,
-Mongolia / Chinggis Khaan International Airport,,
-Montenegro / Schengen Area,,
-Mozambique / Maputo,,
-Myanmar / Mandalay International Airport,,
-Myanmar / Nay Pyi Taw International Airport,,
-Myanmar / Yangon International Airport,,
-New Zealand / Auckland Airport,,
-New Zealand / Tokelau,,
+Ireland / European Free Trade Association,ignore,not a part of the country
+Ireland / Ireland,ignore,the country itself
+Ireland / Micronesia,ignore,not a part of the country
+Ireland / Schengen Area,ignore,not a part of the country
+Ireland / Serbia and Montenegro,ignore,not a part of the country
+Ireland / Union of South Africa,ignore,not a part of the country
+Israel / West Bank,,possible new rule: foreign nationals may apply for an entry permit valid only for the West Bank; Israeli citizens need a permit for Area A
+Ivory Coast / Abidjan,ignore,port of entry
+Ivory Coast / Félix-Houphouët-Boigny International Airport,ignore,port of entry
+Jamaica / Schengen Area,ignore,not a part of the country
+Jordan / Allenby Bridge,ignore,port of entry
+Jordan / Schengen Area,ignore,not a part of the country
+Kazakhstan / Almaty International Airport,ignore,port of entry
+Kazakhstan / Atyrau Region,ignore,border residents only
+Kazakhstan / Mangystau Region,ignore,border residents only
+Kazakhstan / Nursultan Nazarbayev International Airport,ignore,port of entry
+Kosovo / Schengen Area,ignore,not a part of the country
+"Kyrgyzstan / Ak-Jol, Chüy",ignore,port of entry
+Kyrgyzstan / Alay District,ignore,port of entry
+Kyrgyzstan / Batken District,ignore,port of entry
+Kyrgyzstan / Chaldybar,ignore,port of entry
+Kyrgyzstan / Irkeshtam,ignore,port of entry
+Kyrgyzstan / Kulundu,ignore,port of entry
+Kyrgyzstan / Manas District,ignore,port of entry
+Kyrgyzstan / Manas International Airport,ignore,port of entry
+Kyrgyzstan / Osh,ignore,port of entry
+Kyrgyzstan / Osh Airport,ignore,port of entry
+Kyrgyzstan / Schengen Area,ignore,not a part of the country
+Kyrgyzstan / Torugart Pass,ignore,port of entry
+Kyrgyzstan / Ysyk-Ata District,ignore,port of entry
+Lebanon / Beirut,ignore,port of entry
+Lebanon / Beirut–Rafic Hariri International Airport,ignore,port of entry
+Liberia / Monrovia,ignore,port of entry
+Libya / Benina International Airport,ignore,port of entry
+Libya / Misrata Airport,ignore,port of entry
+Libya / Mitiga International Airport,ignore,port of entry
+Libya / Sabha Airport,ignore,port of entry
+Libya / Tripoli International Airport,ignore,port of entry
+Madagascar / Antananarivo,ignore,port of entry
+Madagascar / Antsiranana,ignore,port of entry
+Madagascar / Ivato International Airport,ignore,port of entry
+Madagascar / Toamasina,ignore,port of entry
+Madagascar / Toliara,ignore,port of entry
+Malaysia / Immigration Department of Malaysia,ignore,not a place (institution)
+Malaysia / Kuala Lumpur International Airport,ignore,transit only
+Mauritania / Nouakchott–Oumtounsy International Airport,ignore,port of entry
+Moldova / Schengen Area,ignore,not a part of the country
+Mongolia / Chinggis Khaan International Airport,ignore,port of entry
+Montenegro / Schengen Area,ignore,not a part of the country
+Mozambique / Maputo,ignore,seat of an issuing office
+Myanmar / Mandalay International Airport,ignore,port of entry
+Myanmar / Nay Pyi Taw International Airport,ignore,port of entry
+Myanmar / Yangon International Airport,ignore,port of entry
+New Zealand / Auckland Airport,ignore,transit only
+New Zealand / Tokelau,,possible new rule: all visitors need a permit to enter Tokelau from the Tokelau Apia Liaison Office (own ISO 3166-1 entry TK)
 North Korea / Sinuiju,kp-sinuiju,prefill by name match; to be reviewed
-North Korea / Tongrim County,,
-North Macedonia / Micronesia,,
-North Macedonia / Schengen Area,,
-Oman / Schengen Area,,
-Pakistan / Schengen Area,,
-Pakistan / Wagah,,
-Palestine / Allenby Bridge,,
-Palestine / Erez Crossing,,
+North Korea / Tongrim County,ignore,group-only rule
+North Macedonia / Micronesia,ignore,not a part of the country
+North Macedonia / Schengen Area,ignore,not a part of the country
+Oman / Schengen Area,ignore,not a part of the country
+Pakistan / Schengen Area,ignore,not a part of the country
+Pakistan / Wagah,ignore,port of entry
+Palestine / Allenby Bridge,ignore,port of entry
+Palestine / Erez Crossing,ignore,port of entry
 Palestine / Gaza Strip,ps-gaza,prefill by name match; to be reviewed
-Palestine / Rafah Border Crossing,,
-Palestine / West Bank,,
-Papua New Guinea / Port Moresby International Airport,,
-Peru / Schengen Area,,
-Qatar / Hamad International Airport,,
-Qatar / Schengen Area,,
-Russia / Anadyr (town),,
+Palestine / Rafah Border Crossing,ignore,port of entry
+Palestine / West Bank,,possible new rule: visitors entering via Allenby Bridge may get an entry stamp permitting travel only in Palestinian Authority-controlled areas of the West Bank
+Papua New Guinea / Port Moresby International Airport,ignore,port of entry
+Peru / Schengen Area,ignore,not a part of the country
+Qatar / Hamad International Airport,ignore,transit only
+Qatar / Schengen Area,ignore,not a part of the country
+Russia / Anadyr (town),ru-former-regional-evisas ru-72h-ferry-cruise,port of entry of rules already in the census (former regional e-visa; 72-hour cruise visa-free)
 Russia / Chukotka Autonomous Okrug,ru-chukotka,prefill by name match; to be reviewed
-Russia / Far Eastern Federal District,,
-Russia / Great Port of Saint Petersburg,,
-Russia / Kaliningrad,ru-former-regional-evisas ru-kaliningrad-restricted,prefill by name match; to be reviewed
-Russia / Kaliningrad Oblast,ru-kaliningrad-restricted,prefill by name match; to be reviewed
-Russia / Khrabrovo Airport,ru-former-regional-evisas ru-kaliningrad-restricted,prefill by name match; to be reviewed
-Russia / Korsakov (town),,
-Russia / Murmansk,,
-Russia / Murmansk Airport,,
-Russia / Port of Murmansk,,
-Russia / Port of Novorossiysk,,
-Russia / Port of Sevastopol,,
-Russia / Port of Sochi,,
-Russia / Pulkovo Airport,,
-Russia / Saint Petersburg,,
-Russia / Sochi,,
-Russia / Ugolny Airport,,
-Russia / Yamalo-Nenets Autonomous Okrug,,
+Russia / Far Eastern Federal District,ru-former-regional-evisas,
+Russia / Great Port of Saint Petersburg,ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
+Russia / Kaliningrad,ru-former-regional-evisas ru-72h-ferry-cruise,corrected prefill: passages are the former regional e-visa and the 72-hour cruise ports; the restricted districts are not mentioned
+Russia / Kaliningrad Oblast,ru-former-regional-evisas,corrected prefill: passages are the former regional e-visa (and local border traffic); the restricted districts are not mentioned
+Russia / Khrabrovo Airport,ru-72h-ferry-cruise,corrected prefill: passages are the 72-hour cruise ports and local border traffic; neither the e-visa nor the restricted districts are mentioned
+Russia / Korsakov (town),ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
+Russia / Murmansk,ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
+Russia / Murmansk Airport,ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
+Russia / Port of Murmansk,ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
+Russia / Port of Novorossiysk,ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
+Russia / Port of Sevastopol,ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
+Russia / Port of Sochi,ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
+Russia / Pulkovo Airport,ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
+Russia / Saint Petersburg,ru-former-regional-evisas ru-72h-ferry-cruise,
+Russia / Sochi,ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
+Russia / Ugolny Airport,ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
+Russia / Yamalo-Nenets Autonomous Okrug,ru-zato-closed-cities,
 Saudi Arabia / Mecca,sa-mecca,prefill by name match; to be reviewed
-Saudi Arabia / Medina,,
-Saudi Arabia / Schengen Area,,
-Serbia / Micronesia,,
-Serbia / Schengen Area,,
-Sierra Leone / Freetown International Airport,,
-Singapore / Changi Airport,,
-Singapore / Commonwealth of Independent States,,
-South Africa / Department of Home Affairs (South Africa),,
-South Korea / Cheongju International Airport,,
+Saudi Arabia / Medina,,possible new rule: non-Muslims are not allowed to travel to Medina (census has Mecca only)
+Saudi Arabia / Schengen Area,ignore,not a part of the country
+Serbia / Micronesia,ignore,not a part of the country
+Serbia / Schengen Area,ignore,not a part of the country
+Sierra Leone / Freetown International Airport,ignore,port of entry
+Singapore / Changi Airport,ignore,transit only
+Singapore / Commonwealth of Independent States,ignore,not a part of the country
+South Africa / Department of Home Affairs (South Africa),ignore,not a place (institution)
+South Korea / Cheongju International Airport,ignore,group-only rule; port of entry
 "South Korea / Gangwon Province, South Korea",kr-yangyang-groups,prefill by name match; to be reviewed
-South Korea / Gimhae International Airport,,
-South Korea / Incheon International Airport,,
-South Korea / Jeju International Airport,,
-South Korea / Jeju Island,,
+South Korea / Gimhae International Airport,ignore,group-only rule; port of entry
+South Korea / Incheon International Airport,ignore,transit only; group-only rule
+South Korea / Jeju International Airport,ignore,group-only rule; port of entry
+South Korea / Jeju Island,kr-jeju,
 South Korea / Jeju Province,kr-jeju,prefill by name match; to be reviewed
-South Korea / Muan International Airport,,
-South Korea / North Jeolla Province,,
+South Korea / Muan International Airport,kr-muan-groups,
+South Korea / North Jeolla Province,kr-muan-groups,
 South Korea / Seoul,kr-yangyang-groups,prefill by name match; to be reviewed
 South Korea / Seoul metropolitan area,kr-yangyang-groups,prefill by name match; to be reviewed
-South Korea / South Jeolla Province,,
-South Korea / Yangyang International Airport,,
-Sri Lanka / Ministry of Public Security (Sri Lanka),,
-Sri Lanka / Supreme Court of Sri Lanka,,
-Suriname / Schengen Area,,
-Svalbard / Svalbard,,
-Syria / Syrian civil war,,
-São Tomé and Príncipe / Schengen Area,,
-Taiwan / Kaohsiung International Airport,,
+South Korea / South Jeolla Province,kr-muan-groups,
+South Korea / Yangyang International Airport,kr-yangyang-groups,
+Sri Lanka / Ministry of Public Security (Sri Lanka),ignore,not a place (institution)
+Sri Lanka / Supreme Court of Sri Lanka,ignore,not a place (institution)
+Suriname / Schengen Area,ignore,not a part of the country
+Svalbard / Svalbard,sj-svalbard,
+Syria / Syrian civil war,ignore,not a place (event)
+São Tomé and Príncipe / Schengen Area,ignore,not a part of the country
+Taiwan / Kaohsiung International Airport,ignore,port of entry
 Taiwan / Kinmen,tw-kinmen,prefill by name match; to be reviewed
-Taiwan / Ministry of Labor (Taiwan),,
-Taiwan / National Immigration Agency,,
+Taiwan / Ministry of Labor (Taiwan),ignore,not a place (institution)
+Taiwan / National Immigration Agency,ignore,not a place (institution)
 Taiwan / Penghu,tw-matsu tw-penghu,prefill by name match; to be reviewed
-Taiwan / Schengen Area,,
-Taiwan / Songshan Airport,,
-Taiwan / Taichung International Airport,,
-Taiwan / Taoyuan International Airport,,
-Tajikistan / Dushanbe,,
-Tajikistan / Dushanbe International Airport,,
+Taiwan / Schengen Area,ignore,not a part of the country
+Taiwan / Songshan Airport,ignore,port of entry
+Taiwan / Taichung International Airport,ignore,port of entry
+Taiwan / Taoyuan International Airport,ignore,port of entry
+Tajikistan / Dushanbe,ignore,port of entry
+Tajikistan / Dushanbe International Airport,ignore,port of entry
 Tajikistan / Gorno-Badakhshan,tj-gbao,prefill by name match; to be reviewed
-Tajikistan / Sarez Lake,,
-Thailand / 2014 Thai coup d'état,,
-Thailand / Aranyaprathet,,
-Thailand / Bangkok Port,,
-"Thailand / Betong, Thailand",,
-Thailand / Bueng Kan,,
-Thailand / Buke Ta,,
-Thailand / Chiang Khong district,,
-Thailand / Chiang Saen,,
-Thailand / Kanchanaburi province,,
-Thailand / Khlong Yai,,
-Thailand / Khuan Don district,,
-Thailand / Ko Lipe,,
-Thailand / Ko Samui,,
-Thailand / Krabi,,
-Thailand / Mae Sai district,,
-Thailand / Map Ta Phut,,
-Thailand / Mueang Samut Prakan district,,
-Thailand / Mukdahan,,
-Thailand / Na Thawi district,,
-Thailand / Nakhon Phanom,,
-"Thailand / Nan, Thailand",,
-Thailand / Nong Khai,,
-"Thailand / Padang Besar, Thailand",,
-Thailand / Pattaya,,
-Thailand / Phibun Mangsahan district,,
-Thailand / Phu Sing district,,
-Thailand / Phuket province,,
-Thailand / Pong Nam Ron district,,
-Thailand / Sadao district,,
-Thailand / Satun,,
-Thailand / Si Racha,,
-Thailand / Songkhla,,
-Thailand / Su-ngai Kolok,,
-Thailand / Tak Bai,,
-Thailand / Tak province,,
-Thailand / Tha Li district,,
-Timor-Leste / Dili,,
-Timor-Leste / Presidente Nicolau Lobato International Airport,,
-Turkey / European Free Trade Association,,
-Turkey / Ministry of Foreign Affairs (Turkey),,
-Turkey / Schengen Area,,
-Turkmenistan / Ashgabat International Airport,,
+Tajikistan / Sarez Lake,,"possible new rule: a separate special permit is required for Lake Sarez, beyond the GBAO OVIR permit"
+Thailand / 2014 Thai coup d'état,ignore,not a place (event)
+Thailand / Aranyaprathet,ignore,port of entry
+Thailand / Bangkok Port,ignore,port of entry
+"Thailand / Betong, Thailand",ignore,port of entry
+Thailand / Bueng Kan,ignore,port of entry
+Thailand / Buke Ta,ignore,port of entry
+Thailand / Chiang Khong district,ignore,port of entry
+Thailand / Chiang Saen,ignore,port of entry
+Thailand / Kanchanaburi province,ignore,port of entry
+Thailand / Khlong Yai,ignore,port of entry
+Thailand / Khuan Don district,ignore,port of entry
+Thailand / Ko Lipe,ignore,port of entry
+Thailand / Ko Samui,ignore,port of entry
+Thailand / Krabi,ignore,port of entry
+Thailand / Mae Sai district,ignore,port of entry
+Thailand / Map Ta Phut,ignore,port of entry
+Thailand / Mueang Samut Prakan district,ignore,port of entry
+Thailand / Mukdahan,ignore,port of entry
+Thailand / Na Thawi district,ignore,port of entry
+Thailand / Nakhon Phanom,ignore,port of entry
+"Thailand / Nan, Thailand",ignore,port of entry
+Thailand / Nong Khai,ignore,port of entry
+"Thailand / Padang Besar, Thailand",ignore,port of entry
+Thailand / Pattaya,ignore,port of entry
+Thailand / Phibun Mangsahan district,ignore,port of entry
+Thailand / Phu Sing district,ignore,port of entry
+Thailand / Phuket province,ignore,port of entry
+Thailand / Pong Nam Ron district,ignore,port of entry
+Thailand / Sadao district,ignore,port of entry
+Thailand / Satun,ignore,port of entry
+Thailand / Si Racha,ignore,port of entry
+Thailand / Songkhla,ignore,port of entry
+Thailand / Su-ngai Kolok,ignore,port of entry
+Thailand / Tak Bai,ignore,port of entry
+Thailand / Tak province,ignore,port of entry
+Thailand / Tha Li district,ignore,port of entry
+Timor-Leste / Dili,ignore,port of entry
+Timor-Leste / Presidente Nicolau Lobato International Airport,ignore,port of entry
+Turkey / European Free Trade Association,ignore,not a part of the country
+Turkey / Ministry of Foreign Affairs (Turkey),ignore,not a place (institution)
+Turkey / Schengen Area,ignore,not a part of the country
+Turkmenistan / Ashgabat International Airport,ignore,transit only
 Turkmenistan / Daşoguz,tm-restricted-zones,prefill by name match; to be reviewed
 "Turkmenistan / Hazar, Turkmenistan",tm-restricted-zones,prefill by name match; to be reviewed
 Turkmenistan / Kerki,tm-restricted-zones,prefill by name match; to be reviewed
 Turkmenistan / Sarahs,tm-restricted-zones,prefill by name match; to be reviewed
 Turkmenistan / Serhetabat,tm-restricted-zones,prefill by name match; to be reviewed
-Uzbekistan / Amudarya district,,
-Uzbekistan / Bukhara Region,,
-Uzbekistan / Dehqonobod District,,
-Uzbekistan / Gʻuzor District,,
-Uzbekistan / Karakalpakstan,,
-Uzbekistan / Khorazm Region,,
-Uzbekistan / Mirishkor District,,
-Uzbekistan / Muzrabot District,,
-Uzbekistan / Nishon District,,
-Uzbekistan / Qashqadaryo Region,,
-Uzbekistan / Qońırat district,,
-Uzbekistan / Sherobod District,,
-Uzbekistan / Shomanay district,,
-Uzbekistan / Surxondaryo Region,,
-Uzbekistan / Taqiyatas,,
-Uzbekistan / Xojeli district,,
-Vietnam / Da Lat,,
-Vietnam / Da Nang,,
-Vietnam / Haiphong,,
-Vietnam / Hanoi,,
-Vietnam / Ho Chi Minh City,,
-Vietnam / Ministry of Public Security (Vietnam),,
-Vietnam / National Assembly of Vietnam,,
-Vietnam / Nha Trang,,
+Uzbekistan / Amudarya district,ignore,border residents only
+Uzbekistan / Bukhara Region,ignore,border residents only
+Uzbekistan / Dehqonobod District,ignore,border residents only
+Uzbekistan / Gʻuzor District,ignore,border residents only
+Uzbekistan / Karakalpakstan,ignore,border residents only
+Uzbekistan / Khorazm Region,ignore,border residents only
+Uzbekistan / Mirishkor District,ignore,border residents only
+Uzbekistan / Muzrabot District,ignore,border residents only
+Uzbekistan / Nishon District,ignore,border residents only
+Uzbekistan / Qashqadaryo Region,ignore,border residents only
+Uzbekistan / Qońırat district,ignore,border residents only
+Uzbekistan / Sherobod District,ignore,border residents only
+Uzbekistan / Shomanay district,ignore,border residents only
+Uzbekistan / Surxondaryo Region,ignore,border residents only
+Uzbekistan / Taqiyatas,ignore,border residents only
+Uzbekistan / Xojeli district,ignore,border residents only
+Vietnam / Da Lat,ignore,port of entry
+Vietnam / Da Nang,ignore,port of entry
+Vietnam / Haiphong,ignore,port of entry
+Vietnam / Hanoi,ignore,port of entry
+Vietnam / Ho Chi Minh City,ignore,port of entry
+Vietnam / Ministry of Public Security (Vietnam),ignore,not a place (institution)
+Vietnam / National Assembly of Vietnam,ignore,not a place (institution)
+Vietnam / Nha Trang,ignore,port of entry
 Vietnam / Phú Quốc,vn-coastal-economic-zones vn-phu-quoc,prefill by name match; to be reviewed
-mainland China / Beihai,,
-mainland China / Beihai Fucheng Airport,,
+mainland China / Beihai,cn-240h-transit-areas cn-cruise-coastal-provinces,
+mainland China / Beihai Fucheng Airport,cn-240h-transit-areas cn-cruise-coastal-provinces,
 mainland China / Beijing,cn-cruise-coastal-provinces,prefill by name match; to be reviewed
-mainland China / Chongqing,,
-mainland China / Chongqing Jiangbei International Airport,,
-mainland China / Dalian,,
-mainland China / Dalian Zhoushuizi International Airport,,
-mainland China / Fangchenggang,,
-mainland China / Guangxi,,
-mainland China / Guangzhou,,
-mainland China / Guangzhou Baiyun International Airport,,
-mainland China / Guigang,,
+mainland China / Chongqing,cn-240h-transit-areas,
+mainland China / Chongqing Jiangbei International Airport,cn-240h-transit-areas,
+mainland China / Dalian,cn-cruise-coastal-provinces,
+mainland China / Dalian Zhoushuizi International Airport,cn-cruise-coastal-provinces,
+mainland China / Fangchenggang,cn-240h-transit-areas,
+mainland China / Guangxi,cn-240h-transit-areas cn-guilin-asean-groups,
+mainland China / Guangzhou,cn-cruise-coastal-provinces,
+mainland China / Guangzhou Baiyun International Airport,cn-cruise-coastal-provinces,
+mainland China / Guigang,cn-240h-transit-areas,
 mainland China / Guilin,cn-guilin-asean-groups,prefill by name match; to be reviewed
 mainland China / Guilin Liangjiang International Airport,cn-guilin-asean-groups,prefill by name match; to be reviewed
-mainland China / Haikou,,
-mainland China / Haikou Meilan International Airport,,
-mainland China / Haikou Xiuying Port,,
+mainland China / Haikou,cn-cruise-coastal-provinces,
+mainland China / Haikou Meilan International Airport,cn-cruise-coastal-provinces,
+mainland China / Haikou Xiuying Port,cn-cruise-coastal-provinces,
 mainland China / Hainan,cn-hainan,prefill by name match; to be reviewed
-mainland China / Hechi,,
-mainland China / Hezhou,,
-mainland China / Hong Kong,,
+mainland China / Hechi,cn-240h-transit-areas,
+mainland China / Hezhou,cn-240h-transit-areas,
+mainland China / Hong Kong,,possible new rule: Hong Kong maintains an independent visa policy (own ISO 3166-1 entry HK; Hainan and Pearl River Delta group rules are in the census)
 mainland China / Hong Kong–Zhuhai–Macao Bridge Zhuhai–Macao Port,cn-sez-visa-on-arrival,prefill by name match; to be reviewed
-mainland China / Huanggang Port,,
-mainland China / Laibin,,
-mainland China / Lianyungang,,
-mainland China / Liuzhou,,
-mainland China / Luohu Port,,
-mainland China / Macau,,
-mainland China / Mainland China,,
-mainland China / Ministry of Foreign Affairs (China),,
-mainland China / Mohan railway station,,
-"mainland China / Mohan, Yunnan",,
-mainland China / Mount Kailash,,
-mainland China / Nanning,,
-mainland China / Nanning Wuxu International Airport,,
+mainland China / Huanggang Port,ignore,port of entry
+mainland China / Laibin,cn-240h-transit-areas,
+mainland China / Lianyungang,cn-cruise-coastal-provinces,
+mainland China / Liuzhou,cn-240h-transit-areas,
+mainland China / Luohu Port,ignore,port of entry
+mainland China / Macau,,possible new rule: Macau maintains an independent visa policy (own ISO 3166-1 entry MO; Hainan and Pearl River Delta group rules are in the census)
+mainland China / Mainland China,ignore,the country itself
+mainland China / Ministry of Foreign Affairs (China),ignore,not a place (institution)
+mainland China / Mohan railway station,cn-xishuangbanna-asean-groups,
+"mainland China / Mohan, Yunnan",cn-xishuangbanna-asean-groups,
+mainland China / Mount Kailash,,possible new rule: a border permit and a military permit are required for Kailash (beyond the Tibet Travel Permit)
+mainland China / Nanning,cn-240h-transit-areas,
+mainland China / Nanning Wuxu International Airport,cn-240h-transit-areas,
 mainland China / Pearl River Delta,cn-prd-144h-groups,prefill by name match; to be reviewed
-mainland China / Port of Beibu Gulf,,
-mainland China / Port of Dalian,,
-mainland China / Port of Lianyungang,,
-mainland China / Port of Ningbo-Zhoushan,,
-mainland China / Port of Shanghai,,
-mainland China / Port of Tianjin,,
-mainland China / Port of Wenzhou,,
+mainland China / Port of Beibu Gulf,cn-240h-transit-areas cn-cruise-coastal-provinces,
+mainland China / Port of Dalian,cn-cruise-coastal-provinces,
+mainland China / Port of Lianyungang,cn-cruise-coastal-provinces,
+mainland China / Port of Ningbo-Zhoushan,cn-cruise-coastal-provinces,
+mainland China / Port of Shanghai,cn-240h-transit-areas cn-cruise-coastal-provinces,
+mainland China / Port of Tianjin,cn-240h-transit-areas cn-cruise-coastal-provinces,
+mainland China / Port of Wenzhou,cn-cruise-coastal-provinces,
 mainland China / Port of Xiamen,cn-sez-visa-on-arrival,prefill by name match; to be reviewed
-mainland China / Qingdao,,
-mainland China / Qingdao Jiaodong International Airport,,
-mainland China / Qingdao Port,,
-mainland China / Qinzhou,,
-mainland China / Sanya,,
-mainland China / Sanya Phoenix International Airport,,
-mainland China / Shanghai,,
+mainland China / Qingdao,cn-cruise-coastal-provinces,
+mainland China / Qingdao Jiaodong International Airport,cn-cruise-coastal-provinces,
+mainland China / Qingdao Port,cn-cruise-coastal-provinces,
+mainland China / Qinzhou,cn-240h-transit-areas,
+mainland China / Sanya,cn-cruise-coastal-provinces,
+mainland China / Sanya Phoenix International Airport,cn-cruise-coastal-provinces,
+mainland China / Shanghai,cn-240h-transit-areas cn-cruise-coastal-provinces,
 mainland China / Shenzhen,cn-sez-visa-on-arrival,prefill by name match; to be reviewed
 mainland China / Shenzhen Bao'an International Airport,cn-sez-visa-on-arrival,prefill by name match; to be reviewed
-mainland China / Tianjin,,
-mainland China / Tianjin Binhai International Airport,,
-mainland China / Wenzhou,,
-mainland China / Wenzhou Longwan International Airport,,
-mainland China / Wuzhou,,
+mainland China / Tianjin,cn-240h-transit-areas cn-cruise-coastal-provinces,
+mainland China / Tianjin Binhai International Airport,cn-240h-transit-areas cn-cruise-coastal-provinces,
+mainland China / Wenzhou,cn-cruise-coastal-provinces,
+mainland China / Wenzhou Longwan International Airport,cn-cruise-coastal-provinces,
+mainland China / Wuzhou,cn-240h-transit-areas,
 mainland China / Xiamen,cn-sez-visa-on-arrival,prefill by name match; to be reviewed
-mainland China / Xiamen Gaoqi International Airport,,
-mainland China / Xishuangbanna Dai Autonomous Prefecture,,
-mainland China / Xishuangbanna Gasa International Airport,,
-"mainland China / Yulin, Guangxi",,
-mainland China / Yunnan,,
-mainland China / Zhoushan,,
+mainland China / Xiamen Gaoqi International Airport,cn-cruise-coastal-provinces cn-sez-visa-on-arrival,
+mainland China / Xishuangbanna Dai Autonomous Prefecture,cn-xishuangbanna-asean-groups,
+mainland China / Xishuangbanna Gasa International Airport,cn-xishuangbanna-asean-groups,
+"mainland China / Yulin, Guangxi",cn-240h-transit-areas,
+mainland China / Yunnan,cn-xishuangbanna-asean-groups,
+mainland China / Zhoushan,cn-cruise-coastal-provinces,
 mainland China / Zhuhai,cn-sez-visa-on-arrival,prefill by name match; to be reviewed
-mainland China / Ürümqi Tianshan International Airport,,
-Bahamas / Schengen Area,,
-Dominican Republic / Schengen Area,,
-Faroe Islands / Schengen Area,,
-Kingdom of the Netherlands in the Caribbean / Caribbean Netherlands,,
-Kingdom of the Netherlands in the Caribbean / Schengen Area,,
-Marshall Islands / Ebeye Island,,
-Marshall Islands / Kwajalein Atoll,,
-Philippines / Cebu,,
-Philippines / Department of Foreign Affairs (Philippines),,
-Philippines / Freeport Area of Bataan,,
-Philippines / Mactan–Cebu International Airport,,
-Philippines / Manila,,
-Philippines / Ninoy Aquino International Airport,,
-Philippines / Schengen Area,,
-Schengen Area / Caribbean,,
-Schengen Area / Schengen Agreement,,
-Schengen Area / Schengen Area,,
-United Kingdom / Bailiwick of Guernsey,,
-United Kingdom / Jersey,,
-United Kingdom / Latin America,,
-United Kingdom / Schengen Area,,
-United States / Alaska,,
-United States / American Samoa,,
-United States / Baker Island,,
-United States / Caribbean,,
-United States / European Free Trade Association,,
-United States / Guam,,
-United States / Headquarters of the United Nations,,
-United States / Howland Island,,
-United States / Jarvis Island,,
-United States / Johnston Atoll,,
-United States / Kingman Reef,,
-United States / Midway Atoll,,
-United States / Navassa Island,,
-United States / New York City,,
-United States / Northern Mariana Islands,,
-United States / Palmyra Atoll,,
-United States / United States Department of State,,
-United States / United States Minor Outlying Islands,,
-United States / Wake Island,,
+mainland China / Ürümqi Tianshan International Airport,ignore,transit only
+Bahamas / Schengen Area,ignore,not a part of the country
+Dominican Republic / Schengen Area,ignore,not a part of the country
+Faroe Islands / Schengen Area,ignore,not a part of the country
+Kingdom of the Netherlands in the Caribbean / Caribbean Netherlands,ignore,country-wide rule
+Kingdom of the Netherlands in the Caribbean / Schengen Area,ignore,not a part of the country
+Marshall Islands / Ebeye Island,ignore,seat of an issuing office
+Marshall Islands / Kwajalein Atoll,,possible new rule: visitors to Kwajalein need an Entry Authorization issued by the United States military
+Philippines / Cebu,ignore,port of entry
+Philippines / Department of Foreign Affairs (Philippines),ignore,not a place (institution)
+Philippines / Freeport Area of Bataan,ignore,"work visa class, not a visitor rule"
+Philippines / Mactan–Cebu International Airport,ignore,port of entry
+Philippines / Manila,ignore,port of entry
+Philippines / Ninoy Aquino International Airport,ignore,port of entry
+Philippines / Schengen Area,ignore,not a part of the country
+Schengen Area / Caribbean,ignore,not a part of the country
+Schengen Area / Schengen Agreement,ignore,not a place (treaty)
+Schengen Area / Schengen Area,ignore,the country itself
+United Kingdom / Bailiwick of Guernsey,,possible new rule: UK visa policy applies but the Crown dependency operates its own immigration enforcement (own ISO 3166-1 entry)
+United Kingdom / Jersey,,possible new rule: UK visa policy applies but the Crown dependency operates its own immigration enforcement (own ISO 3166-1 entry)
+United Kingdom / Latin America,ignore,not a part of the country
+United Kingdom / Schengen Area,ignore,not a part of the country
+United States / Alaska,ignore,border residents only
+United States / American Samoa,,possible new rule: American Samoa has its own entry requirements and visitor permits (own ISO 3166-1 entry AS)
+United States / Baker Island,um-minor-outlying-islands,
+United States / Caribbean,ignore,not a part of the country
+United States / European Free Trade Association,ignore,not a part of the country
+United States / Guam,,"possible new rule: Guam–CNMI Visa Waiver Program admits some nationals to Guam and the Northern Mariana Islands only (own ISO 3166-1 entries GU, MP)"
+United States / Headquarters of the United Nations,ignore,transit only
+United States / Howland Island,um-minor-outlying-islands,
+United States / Jarvis Island,um-minor-outlying-islands,
+United States / Johnston Atoll,um-minor-outlying-islands,
+United States / Kingman Reef,um-minor-outlying-islands,
+United States / Midway Atoll,um-minor-outlying-islands,
+United States / Navassa Island,um-minor-outlying-islands,
+United States / New York City,ignore,transit only
+United States / Northern Mariana Islands,,"possible new rule: Guam–CNMI Visa Waiver Program admits some nationals to Guam and the Northern Mariana Islands only (own ISO 3166-1 entries GU, MP)"
+United States / Palmyra Atoll,um-minor-outlying-islands,
+United States / United States Department of State,ignore,not a place (institution)
+United States / United States Minor Outlying Islands,um-minor-outlying-islands,
+United States / Wake Island,um-minor-outlying-islands,

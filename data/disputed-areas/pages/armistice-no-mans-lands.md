@@ -8,8 +8,10 @@
 | kind | paper_claim | secondary | 2026-10-03 | S0352 | The Palestinian and Israeli definition of the West Bank differs by approximately 5% land area as the Israeli definition does not include East Jerusalem (71 km 2 ), the territorial waters of the Dead Sea (195 km 2 ) and the area known as No Man's Land (50 km 2 near Latrun ). |
 | origin | Under the 1949 Armistice Agreements the Latrun salient stayed under Jordanian control, surrounded by a perimeter of no man's land. | secondary | 2026-10-03 | S0135 | In the 1949 Armistice Agreements , the fort remained a salient under Jordanian control , which was in turn surrounded by a perimeter of no man's land . |
 | on_the_ground | Latrun was captured by Israel in the 1967 war and has been under Israeli control since. | secondary | 2026-10-03 | S0135 | In the 1967 war it was captured by Israel and had been under Israeli control since then. |
+| inhabited | yes | secondary | 2026-10-04 | S0354 | he obtained forty hectares (120 acres ) of terrain classified as no man's land in the Latrun salient |
 
 Sources:
 
 - S0135: https://en.wikipedia.org/w/index.php?title=Latrun&oldid=1376600230
 - S0352: https://en.wikipedia.org/w/index.php?title=2000_Camp_David_Summit&oldid=1373255584
+- S0354: https://en.wikipedia.org/w/index.php?title=Neve_Shalom&oldid=1374535238

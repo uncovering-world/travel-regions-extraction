@@ -8,6 +8,7 @@
 | kind | lease_or_base | secondary | 2026-10-03 | S0288 | in 1999, Tiwinza memorial park was created on lands that remains sovereign Peruvian territory, but Ecuador has the right to maintain and administer it in perpetuity |
 | origin | The arrangement was made by the Brasilia Presidential Act, the treaty signed at Itamaraty Palace on 26 October 1998. | secondary | 2026-10-03 | S0041 | The treaty was signed at Itamaraty Palace on October 26, 1998, with the signatories being as follows: |
 | on_the_ground | The planned commemorative use has been held up by slow demining; the area remains covered in mines and booby traps. | secondary | 2026-10-03 | S0041 | This purpose, however, has been interrupted by the slow process of demining the area, which remains covered in mines and other boobytraps. |
+| traveller_access | closed | secondary | 2026-10-04 | S0358 | al que los ecuatorianos nunca pudieron llegar |
 | area_km2 | 1 | secondary | 2026-10-03 | S0077 | an area of one square kilometer in the place of the fiercest struggle, Tiwinza, on the Peruvian side of the border, would be granted to Ecuador as a non-sovereign private property. |
 
 Sources:
@@ -15,3 +16,4 @@ Sources:
 - S0041: https://en.wikipedia.org/w/index.php?title=Brasilia_Presidential_Act&oldid=1370833906
 - S0077: https://en.wikipedia.org/w/index.php?title=Ecuadorian%E2%80%93Peruvian_territorial_dispute&oldid=1374831282
 - S0288: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/south-america/pe.json
+- S0358: https://www.primicias.ec/noticias/politica/guerra-ecuador-peru-paz-frontera-tiwintza/

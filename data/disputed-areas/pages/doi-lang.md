@@ -4,8 +4,12 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
+| parties | Thailand (claims); Myanmar (claims) - an area of about 36 km2 claimed by both since 1988 (B.E. 2531), each side using a different map; a 2015 source says Thailand took control of Doi Lang in 1987 | secondary | 2026-10-04 | S0360 | นับตั้งแต่ปี 2531 พื้นที่ขนาด 36 ตร.กม. ตกเป็นพื้นที่อ้างสิทธิ ไทย – เมียนมา เพราะทั้งสองประเทศใช้แผนที่คนละฉบับ |
+| kind | line_position | secondary | 2026-10-04 | S0356 | The Burmese cite British maps claiming the 30 square kilometre area is on the Burmese side, while the Thais say American maps say Doi Lang is in Thailand |
 | on_the_ground | Lies within Thailand's Doi Pha Hom Pok National Park along the border with Myanmar; known as a birdwatching site. | secondary | 2026-10-03 | S0071 | The area of Doi Lang, located within the park along the border with Myanmar, is considered one of Thailand's premier birding sites. |
 
 Sources:
 
 - S0071: https://en.wikipedia.org/w/index.php?title=Doi_Pha_Hom_Pok_National_Park&oldid=1369062370
+- S0356: https://web.archive.org/web/20150511111752/http://mizzima.com:80/news-opinion/thai-myanmar-border-demarcation-horizon
+- S0360: https://www.springnews.co.th/program/spring-spark/852921

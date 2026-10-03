@@ -153,3 +153,10 @@ The fields `holder`, `holder_since` and `stated_outline` were collected for 29 c
 ## 9. Residents and access, second collection (added 2026-10-03)
 
 Weak rows as reported by the collector, not checked again: `moselle-condominium` (an infobox label), `minerva-reefs` ("no" read from "submerged atolls"), `shaksgam` ("mostly uninhabited"), `ladakh-lac-buffer-zones` (Depsang only), `tin-bigha` (the passage covers Bangladeshis only), `bhutanese-enclaves-tibet` (Darchen only). `diego-garcia`: a primary source gives access as `closed`, the register holds `restricted` from an earlier row; not replaced. Nothing found for: residents of `ilemi-triangle` and `tort-kocho-road`; access to `moldauhafen`, `russian-ranges-kazakhstan`, `suleyman-shah-tomb`, `tiwinza`; the kind of `armistice-no-mans-lands` and `doi-lang`; since when `kafia-kingi` has been held.
+
+## 10. Last facts (added 2026-10-04)
+
+- `kafia-kingi`: a `holder_since` of 2012 was found in a PDF report, but its passage could not be matched on re-check and was dropped. The collector also found a 2025 report that the Rapid Support Forces have held the area since mid-2023, so the recorded `holder` (Sudan) needs review.
+- `moldauhafen`: access recorded as `closed` from a passage describing a fenced, gated lot; a 2017 blog says otherwise.
+- `armistice-no-mans-lands`: `inhabited` = yes rests on Neve Shalom in the Latrun strip only.
+- Not found: access to the current site of the Tomb of Suleyman Shah.
