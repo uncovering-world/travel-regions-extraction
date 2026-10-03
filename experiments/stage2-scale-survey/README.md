@@ -21,6 +21,12 @@ Written before the first run.
 3. If many countries have more reference regions than top-tier units, Stage 2 also needs a rule that **descends** below the top tier.
 4. If the top-tier total for the world is close to the reference total while per-country counts disagree, a matching world count is not evidence that a rule works.
 
+## Second question (added 2026-10-03, after the first run)
+
+The first run showed that reaching the reference scale needs a grouping of first-level units for most countries, and ISO 3166-2 offers no tier above them. Is Wikivoyage's region hierarchy a candidate grouping source at the right scale? For each country, compare the reference count with the number of Wikivoyage regions one level and two levels below the country page.
+
+What would change our mind: if one of the two Wikivoyage levels is within a factor of 1.5 of the reference for most multi-region countries, Wikivoyage is a serious candidate list source for Stage 2 and the next experiment is whether its regions resolve to substrate units. If neither level fits, a published travel hierarchy alone does not give the scale and a weight or threshold rule is needed on top.
+
 ## Method
 
 `run.py` (Python ≥ 3.11, standard library) reads two committed inputs and classifies each country by where its reference count sits relative to the official tiers (within a factor of 1.5 = "matches"). From the repository root:
