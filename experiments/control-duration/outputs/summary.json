@@ -1,0 +1,379 @@
+{
+  "all": {
+    "by_waiting_time": {
+      "1": {
+        "ended_before_T": 23,
+        "fate_known": 207,
+        "of_those_ended_within_follow_up": 131,
+        "reached_T_with_known_follow_up": 180,
+        "share_ended_before_T": 0.111,
+        "share_reverting_after_T": 0.728
+      },
+      "10": {
+        "ended_before_T": 151,
+        "fate_known": 203,
+        "of_those_ended_within_follow_up": 19,
+        "reached_T_with_known_follow_up": 48,
+        "share_ended_before_T": 0.744,
+        "share_reverting_after_T": 0.396
+      },
+      "2": {
+        "ended_before_T": 57,
+        "fate_known": 207,
+        "of_those_ended_within_follow_up": 99,
+        "reached_T_with_known_follow_up": 146,
+        "share_ended_before_T": 0.275,
+        "share_reverting_after_T": 0.678
+      },
+      "3": {
+        "ended_before_T": 72,
+        "fate_known": 205,
+        "of_those_ended_within_follow_up": 88,
+        "reached_T_with_known_follow_up": 129,
+        "share_ended_before_T": 0.351,
+        "share_reverting_after_T": 0.682
+      },
+      "5": {
+        "ended_before_T": 117,
+        "fate_known": 204,
+        "of_those_ended_within_follow_up": 45,
+        "reached_T_with_known_follow_up": 84,
+        "share_ended_before_T": 0.574,
+        "share_reverting_after_T": 0.536
+      }
+    },
+    "ended": 182,
+    "ended_median_span": 3,
+    "ended_share_span_at_most": {
+      "0": 0.126,
+      "1": 0.313,
+      "2": 0.396,
+      "4": 0.643,
+      "9": 0.83
+    },
+    "occupations": 207,
+    "ongoing": 25
+  },
+  "by_era": {
+    "before_1946_other": {
+      "by_waiting_time": {
+        "1": {
+          "ended_before_T": 7,
+          "fate_known": 18,
+          "of_those_ended_within_follow_up": 9,
+          "reached_T_with_known_follow_up": 11,
+          "share_ended_before_T": 0.389,
+          "share_reverting_after_T": 0.818
+        },
+        "10": {
+          "ended_before_T": 16,
+          "fate_known": 18,
+          "of_those_ended_within_follow_up": 1,
+          "reached_T_with_known_follow_up": 2,
+          "share_ended_before_T": 0.889,
+          "share_reverting_after_T": 0.5
+        },
+        "2": {
+          "ended_before_T": 10,
+          "fate_known": 18,
+          "of_those_ended_within_follow_up": 6,
+          "reached_T_with_known_follow_up": 8,
+          "share_ended_before_T": 0.556,
+          "share_reverting_after_T": 0.75
+        },
+        "3": {
+          "ended_before_T": 10,
+          "fate_known": 18,
+          "of_those_ended_within_follow_up": 6,
+          "reached_T_with_known_follow_up": 8,
+          "share_ended_before_T": 0.556,
+          "share_reverting_after_T": 0.75
+        },
+        "5": {
+          "ended_before_T": 12,
+          "fate_known": 18,
+          "of_those_ended_within_follow_up": 5,
+          "reached_T_with_known_follow_up": 6,
+          "share_ended_before_T": 0.667,
+          "share_reverting_after_T": 0.833
+        }
+      },
+      "ended": 18,
+      "ended_median_span": 1,
+      "ended_share_span_at_most": {
+        "0": 0.389,
+        "1": 0.556,
+        "2": 0.556,
+        "4": 0.667,
+        "9": 0.889
+      },
+      "occupations": 18,
+      "ongoing": 0
+    },
+    "since_1946": {
+      "by_waiting_time": {
+        "1": {
+          "ended_before_T": 13,
+          "fate_known": 77,
+          "of_those_ended_within_follow_up": 25,
+          "reached_T_with_known_follow_up": 60,
+          "share_ended_before_T": 0.169,
+          "share_reverting_after_T": 0.417
+        },
+        "10": {
+          "ended_before_T": 36,
+          "fate_known": 73,
+          "of_those_ended_within_follow_up": 11,
+          "reached_T_with_known_follow_up": 33,
+          "share_ended_before_T": 0.493,
+          "share_reverting_after_T": 0.333
+        },
+        "2": {
+          "ended_before_T": 25,
+          "fate_known": 77,
+          "of_those_ended_within_follow_up": 15,
+          "reached_T_with_known_follow_up": 48,
+          "share_ended_before_T": 0.325,
+          "share_reverting_after_T": 0.312
+        },
+        "3": {
+          "ended_before_T": 28,
+          "fate_known": 75,
+          "of_those_ended_within_follow_up": 12,
+          "reached_T_with_known_follow_up": 43,
+          "share_ended_before_T": 0.373,
+          "share_reverting_after_T": 0.279
+        },
+        "5": {
+          "ended_before_T": 33,
+          "fate_known": 74,
+          "of_those_ended_within_follow_up": 7,
+          "reached_T_with_known_follow_up": 38,
+          "share_ended_before_T": 0.446,
+          "share_reverting_after_T": 0.184
+        }
+      },
+      "ended": 52,
+      "ended_median_span": 2,
+      "ended_share_span_at_most": {
+        "0": 0.25,
+        "1": 0.481,
+        "2": 0.538,
+        "4": 0.635,
+        "9": 0.692
+      },
+      "occupations": 77,
+      "ongoing": 25
+    },
+    "world_war_1": {
+      "by_waiting_time": {
+        "1": {
+          "ended_before_T": 1,
+          "fate_known": 32,
+          "of_those_ended_within_follow_up": 29,
+          "reached_T_with_known_follow_up": 31,
+          "share_ended_before_T": 0.031,
+          "share_reverting_after_T": 0.935
+        },
+        "10": {
+          "ended_before_T": 30,
+          "fate_known": 32,
+          "of_those_ended_within_follow_up": 2,
+          "reached_T_with_known_follow_up": 2,
+          "share_ended_before_T": 0.938,
+          "share_reverting_after_T": 1.0
+        },
+        "2": {
+          "ended_before_T": 7,
+          "fate_known": 32,
+          "of_those_ended_within_follow_up": 23,
+          "reached_T_with_known_follow_up": 25,
+          "share_ended_before_T": 0.219,
+          "share_reverting_after_T": 0.92
+        },
+        "3": {
+          "ended_before_T": 15,
+          "fate_known": 32,
+          "of_those_ended_within_follow_up": 16,
+          "reached_T_with_known_follow_up": 17,
+          "share_ended_before_T": 0.469,
+          "share_reverting_after_T": 0.941
+        },
+        "5": {
+          "ended_before_T": 25,
+          "fate_known": 32,
+          "of_those_ended_within_follow_up": 6,
+          "reached_T_with_known_follow_up": 7,
+          "share_ended_before_T": 0.781,
+          "share_reverting_after_T": 0.857
+        }
+      },
+      "ended": 32,
+      "ended_median_span": 3,
+      "ended_share_span_at_most": {
+        "0": 0.031,
+        "1": 0.219,
+        "2": 0.469,
+        "4": 0.781,
+        "9": 0.938
+      },
+      "occupations": 32,
+      "ongoing": 0
+    },
+    "world_war_2": {
+      "by_waiting_time": {
+        "1": {
+          "ended_before_T": 2,
+          "fate_known": 80,
+          "of_those_ended_within_follow_up": 68,
+          "reached_T_with_known_follow_up": 78,
+          "share_ended_before_T": 0.025,
+          "share_reverting_after_T": 0.872
+        },
+        "10": {
+          "ended_before_T": 69,
+          "fate_known": 80,
+          "of_those_ended_within_follow_up": 5,
+          "reached_T_with_known_follow_up": 11,
+          "share_ended_before_T": 0.863,
+          "share_reverting_after_T": 0.455
+        },
+        "2": {
+          "ended_before_T": 15,
+          "fate_known": 80,
+          "of_those_ended_within_follow_up": 55,
+          "reached_T_with_known_follow_up": 65,
+          "share_ended_before_T": 0.188,
+          "share_reverting_after_T": 0.846
+        },
+        "3": {
+          "ended_before_T": 19,
+          "fate_known": 80,
+          "of_those_ended_within_follow_up": 54,
+          "reached_T_with_known_follow_up": 61,
+          "share_ended_before_T": 0.237,
+          "share_reverting_after_T": 0.885
+        },
+        "5": {
+          "ended_before_T": 47,
+          "fate_known": 80,
+          "of_those_ended_within_follow_up": 27,
+          "reached_T_with_known_follow_up": 33,
+          "share_ended_before_T": 0.588,
+          "share_reverting_after_T": 0.818
+        }
+      },
+      "ended": 80,
+      "ended_median_span": 4,
+      "ended_share_span_at_most": {
+        "0": 0.025,
+        "1": 0.188,
+        "2": 0.237,
+        "4": 0.588,
+        "9": 0.863
+      },
+      "occupations": 80,
+      "ongoing": 0
+    }
+  },
+  "since_1946_survival": {
+    "ends_within_5_years_after_reaching_T": {
+      "1": 0.316,
+      "10": 0.108,
+      "2": 0.179,
+      "3": 0.151,
+      "5": 0.075
+    },
+    "ends_within_follow_up_after_reaching_T": {
+      "1": 0.401,
+      "10": 0.314,
+      "2": 0.305,
+      "3": 0.263,
+      "5": 0.175
+    },
+    "reaches_T": {
+      "1": 0.831,
+      "10": 0.526,
+      "2": 0.675,
+      "20": 0.361,
+      "3": 0.636,
+      "5": 0.569
+    }
+  },
+  "since_1946_survival_annexed_only": {
+    "ends_within_5_years_after_reaching_T": {
+      "1": 0.091,
+      "10": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "5": 0.0
+    },
+    "ends_within_follow_up_after_reaching_T": {
+      "1": 0.091,
+      "10": 0.1,
+      "2": 0.0,
+      "3": 0.0,
+      "5": 0.0
+    },
+    "reaches_T": {
+      "1": 1.0,
+      "10": 0.909,
+      "2": 0.909,
+      "20": 0.818,
+      "3": 0.909,
+      "5": 0.909
+    }
+  },
+  "since_1946_survival_not_annexed": {
+    "ends_within_5_years_after_reaching_T": {
+      "1": 0.364,
+      "10": 0.148,
+      "2": 0.224,
+      "3": 0.193,
+      "5": 0.1
+    },
+    "ends_within_follow_up_after_reaching_T": {
+      "1": 0.47,
+      "10": 0.397,
+      "2": 0.384,
+      "3": 0.337,
+      "5": 0.233
+    },
+    "reaches_T": {
+      "1": 0.803,
+      "10": 0.46,
+      "2": 0.636,
+      "20": 0.277,
+      "3": 0.591,
+      "5": 0.511
+    }
+  },
+  "source": {
+    "as_of_year": 2026,
+    "follow_up_years": 10,
+    "page": "List_of_military_occupations",
+    "revision": 1377366365,
+    "sha256": "87b88e6949832e71a04bdbd3d8db49ae3355ebef4554dea4f5b615f84c558f2d"
+  },
+  "span_histogram_since_1946_ended": {
+    "0": 13,
+    "1": 12,
+    "2": 3,
+    "3": 2,
+    "4": 3,
+    "6": 1,
+    "7": 1,
+    "9": 1,
+    "10": 2,
+    "11": 2,
+    "15": 1,
+    "16": 1,
+    "18": 3,
+    "19": 2,
+    "21": 1,
+    "24": 1,
+    "28": 1,
+    "29": 1,
+    "32": 1
+  }
+}

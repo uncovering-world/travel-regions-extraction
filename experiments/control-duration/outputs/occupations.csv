@@ -1,0 +1,208 @@
+territory,occupier,start,end,ongoing,annexed,era,section
+Korea,Japan,1905,1910,0,1,before_1946_other,1907–1914
+Cuba,United States,1906,1909,0,0,before_1946_other,1907–1914
+Libya,Italy,1911,1912,0,1,before_1946_other,1907–1914
+Albania,Serbia,1912,1913,0,0,before_1946_other,1907–1914
+Nicaragua,United States,1912,1933,0,0,before_1946_other,1907–1914
+Veracruz,United States,1914,1914,0,0,world_war_1,1907–1914
+Eastern Galicia,Russia,1914,1915,0,0,world_war_1,World War I and immediate aftermath
+German South West Africa,South Africa,1914,1915,0,1,world_war_1,World War I and immediate aftermath
+Kelmis,Germany,1914,1915,0,1,world_war_1,World War I and immediate aftermath
+Belgium,Germany,1914,1918,0,0,world_war_1,World War I and immediate aftermath
+Congress Poland,Austria-Hungary Germany,1914,1918,0,0,world_war_1,World War I and immediate aftermath
+Luxembourg,Germany,1914,1918,0,0,world_war_1,World War I and immediate aftermath
+Northeastern France,Germany,1914,1918,0,0,world_war_1,World War I and immediate aftermath
+Parts of the Baltic governorates and Vilna Governorate-General,Germany,1914,1919,0,0,world_war_1,World War I and immediate aftermath
+Albania,Bulgaria,1915,1917,0,0,world_war_1,World War I and immediate aftermath
+Eastern Serbia,Bulgaria,1915,1918,0,0,world_war_1,World War I and immediate aftermath
+Governorate of Serbia,Austria-Hungary,1915,1918,0,0,world_war_1,World War I and immediate aftermath
+Serbia,Germany,1915,1918,0,0,world_war_1,World War I and immediate aftermath
+Serbian Macedonia,Bulgaria,1915,1918,0,1,world_war_1,World War I and immediate aftermath
+Haiti,United States,1915,1934,0,0,world_war_1,World War I and immediate aftermath
+Albania,Austria-Hungary,1916,1918,0,0,world_war_1,World War I and immediate aftermath
+Montenegro,Austria-Hungary,1916,1918,0,0,world_war_1,World War I and immediate aftermath
+Dominican Republic,United States,1916,1924,0,0,world_war_1,World War I and immediate aftermath
+Northeast Italy,Austria-Hungary,1917,1918,0,0,world_war_1,World War I and immediate aftermath
+Cuba,United States,1917,1922,0,0,world_war_1,World War I and immediate aftermath
+Eastern Galicia,Poland,1918,1919,0,1,world_war_1,World War I and immediate aftermath
+Volhynia,Poland,1918,1919,0,0,world_war_1,World War I and immediate aftermath
+"Slovakia, Carpathian Ruthenia, part of Northeast Hungary inc. Sátoraljaújhely (to 1920)",Czechoslovakia,1918,1920,0,0,world_war_1,World War I and immediate aftermath
+"Transylvania, part of Banat, part of Carpathian Ruthenia, Tiszántúl, Danube–Tisza Interfluve, Budapest, Northwest Transdanubia",Romania,1918,1920,0,0,world_war_1,World War I and immediate aftermath
+Tyrol,Italy,1918,1920,0,0,world_war_1,World War I and immediate aftermath
+Ukraine,Russian SFSR,1918,1920,0,1,world_war_1,World War I and immediate aftermath
+"part of Banat, Szeged",France,1918,1920,0,0,world_war_1,World War I and immediate aftermath
+Dalmatia,France Italy United Kingdom United States,1918,1921,0,0,world_war_1,World War I and immediate aftermath
+"Prekmurje, Međimurje, Voivodina, part of Banat, Baranya, Bácska","Kingdom of Serbs, Croats, and Slovenes",1918,1921,0,0,world_war_1,World War I and immediate aftermath
+Constantinople,France Italy United Kingdom,1918,1923,0,0,world_war_1,World War I and immediate aftermath
+"Parts of the Russian Far East, Caucasus, Parts of Northern Russia",United Kingdom Japan Greece United States France China,1918,1925,0,0,world_war_1,World War I and immediate aftermath
+Rhineland,France United Kingdom Belgium United States Siam,1918,1930,0,0,world_war_1,World War I and immediate aftermath
+Smyrna,Greece,1919,1922,0,0,before_1946_other,World War I and immediate aftermath
+Transcaucasia,Russia,1920,1920,0,1,before_1946_other,World War I and immediate aftermath
+Transcaucasia,Russia,1920,1920,0,1,before_1946_other,World War I and immediate aftermath
+"Western Armenia (Kars, Ardahan, Surmalu)",Turkey,1920,1920,0,1,before_1946_other,World War I and immediate aftermath
+Transcaucasia,Russia,1921,1921,0,1,before_1946_other,World War I and immediate aftermath
+Ruhr,Belgium France,1923,1924,0,0,before_1946_other,World War I and immediate aftermath
+Manchuria / Manchukuo,Japan,1931,1945,0,0,before_1946_other,World War II: build up and immediate aftermath
+Xinjiang,Soviet Union,1934,1934,0,0,before_1946_other,World War II: build up and immediate aftermath
+Ethiopia,Italy,1935,1941,0,1,before_1946_other,World War II: build up and immediate aftermath
+Parts of China,Japan,1937,1945,0,0,before_1946_other,World War II: build up and immediate aftermath
+Shanghai,Japan,1937,1945,0,0,before_1946_other,World War II: build up and immediate aftermath
+Austria,Germany,1938,1938,0,1,before_1946_other,World War II: build up and immediate aftermath
+Sudetenland,Germany,1938,1938,0,1,before_1946_other,World War II: build up and immediate aftermath
+Parts of Finland,Soviet Union,1939,1940,0,0,world_war_2,World War II: build up and immediate aftermath
+Eastern Poland,Soviet Union,1939,1941,0,0,world_war_2,World War II: build up and immediate aftermath
+Albania,Italy,1939,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Bohemia and Moravia,Germany,1939,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Memel Territory,Germany,1939,1945,0,1,world_war_2,World War II: build up and immediate aftermath
+Poland,Germany,1939,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+"Bessarabia, Northern Bukovina and the Hertsa region",Soviet Union,1940,1940,0,1,world_war_2,World War II: build up and immediate aftermath
+Baltic states,Soviet Union,1940,1941,0,1,world_war_2,World War II: build up and immediate aftermath
+Baltic states,Soviet Union,1940,1941,0,1,world_war_2,World War II: build up and immediate aftermath
+Baltic states,Soviet Union,1940,1941,0,1,world_war_2,World War II: build up and immediate aftermath
+British Somaliland,Italy,1940,1941,0,1,world_war_2,World War II: build up and immediate aftermath
+Hankoniemi,Soviet Union,1940,1941,0,0,world_war_2,World War II: build up and immediate aftermath
+Southeastern France,Italy,1940,1943,0,0,world_war_2,World War II: build up and immediate aftermath
+Northern France,Germany,1940,1944,0,0,world_war_2,World War II: build up and immediate aftermath
+Belgium,Germany,1940,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Channel Islands,Germany,1940,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Denmark,Germany,1940,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Faroe Islands,United Kingdom,1940,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Greenland,United States United Kingdom,1940,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Iceland,United Kingdom,1940,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Iceland,United States,1940,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Luxembourg,Germany,1940,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Netherlands,Germany,1940,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Norway,Germany,1940,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Vietnam,Japan,1940,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Baltic states,Germany,1941,1944,0,0,world_war_2,World War II: build up and immediate aftermath
+Byelorussia,Germany,1941,1944,0,0,world_war_2,World War II: build up and immediate aftermath
+Eastern Karelia,Finland,1941,1944,0,0,world_war_2,World War II: build up and immediate aftermath
+Greece,Bulgaria Italy Germany,1941,1944,0,0,world_war_2,World War II: build up and immediate aftermath
+Guam,Japan,1941,1944,0,0,world_war_2,World War II: build up and immediate aftermath
+Parts of European Russia,Germany,1941,1944,0,0,world_war_2,World War II: build up and immediate aftermath
+Transnistria,Romania,1941,1944,0,0,world_war_2,World War II: build up and immediate aftermath
+Ukraine,Germany,1941,1944,0,0,world_war_2,World War II: build up and immediate aftermath
+Borneo,Japan,1941,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Cambodia,Japan,1941,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Hong Kong,Japan,1941,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Malaya,Japan,1941,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Yugoslavia,Bulgaria Hungary Italy Germany Croatia,1941,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Iran,Soviet Union United Kingdom,1941,1946,0,0,world_war_2,World War II: build up and immediate aftermath
+Attu,Japan,1942,1943,0,0,world_war_2,World War II: build up and immediate aftermath
+Kiska,Japan,1942,1943,0,0,world_war_2,World War II: build up and immediate aftermath
+Andaman Islands,Japan,1942,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Burma (Myanmar),Japan,1942,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Dutch East Indies,Japan,1942,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Nauru,Japan,1942,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+New Caledonia,United States,1942,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+New Guinea,Japan,1942,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Philippines,Japan,1942,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Portuguese Timor,Japan,1942,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Singapore,Japan,1942,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Italy,Germany,1943,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Italy,United Kingdom United States,1943,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+Italian Libya,United Kingdom France,1943,1951,0,0,world_war_2,World War II: build up and immediate aftermath
+Carpathian Ruthenia,Soviet Union,1944,1945,0,1,world_war_2,World War II: build up and immediate aftermath
+Hungary,Germany,1944,1945,0,0,world_war_2,World War II: build up and immediate aftermath
+France,Free France United Kingdom United States,1944,1946,0,0,world_war_2,World War II: build up and immediate aftermath
+Bulgaria,Soviet Union,1944,1947,0,0,world_war_2,World War II: build up and immediate aftermath
+Hungary,Soviet Union,1944,1949,0,0,world_war_2,World War II: build up and immediate aftermath
+Poland,Soviet Union,1944,1956,0,0,world_war_2,World War II: build up and immediate aftermath
+Porkkalanniemi,Soviet Union,1944,1956,0,0,world_war_2,World War II: build up and immediate aftermath
+Romania,Soviet Union,1944,1958,0,0,world_war_2,World War II: build up and immediate aftermath
+Baltic states,Soviet Union,1944,1991,0,1,world_war_2,World War II: build up and immediate aftermath
+Baltic states,Soviet Union,1944,1991,0,1,world_war_2,World War II: build up and immediate aftermath
+Baltic states,Soviet Union,1944,1991,0,1,world_war_2,World War II: build up and immediate aftermath
+Northern part of East Prussia/Kaliningrad Oblast,Soviet Union,1945,1945,0,1,world_war_2,World War II: build up and immediate aftermath
+Manchuria,Soviet Union,1945,1946,0,0,world_war_2,World War II: build up and immediate aftermath
+Northern Iran,Soviet Union,1945,1946,0,0,world_war_2,World War II: build up and immediate aftermath
+Southern Vietnam and Saigon,United Kingdom,1945,1946,0,0,world_war_2,World War II: build up and immediate aftermath
+Korea,United States Soviet Union,1945,1948,0,0,world_war_2,World War II: build up and immediate aftermath
+"East Germany, incl. East Berlin",Soviet Union,1945,1949,0,0,world_war_2,World War II: build up and immediate aftermath
+West Germany,United Kingdom United States France,1945,1949,0,0,world_war_2,World War II: build up and immediate aftermath
+Japan (mainland),United States,1945,1951,0,0,world_war_2,World War II: build up and immediate aftermath
+Pescadores and Itu Aba,China,1945,1952,0,0,world_war_2,World War II: build up and immediate aftermath
+Tokara Islands,United States,1945,1952,0,0,world_war_2,World War II: build up and immediate aftermath
+Amami Islands,United States,1945,1953,0,0,world_war_2,World War II: build up and immediate aftermath
+Austria,United Kingdom United States Soviet Union France,1945,1955,0,0,world_war_2,World War II: build up and immediate aftermath
+Saarland,France,1945,1957,0,0,world_war_2,World War II: build up and immediate aftermath
+Ogasawara archipelago,United States,1945,1968,0,0,world_war_2,World War II: build up and immediate aftermath
+Daitō Islands and Ryukyu Islands,United States,1945,1972,0,0,world_war_2,World War II: build up and immediate aftermath
+West Berlin,United Kingdom United States France,1945,1990,0,0,world_war_2,World War II: build up and immediate aftermath
+Junagadh,India,1947,2026,1,1,since_1946,1947–1968
+Hyderabad,India,1948,2026,1,1,since_1946,1947–1968
+Gaza Strip,Egypt,1948,1967,0,0,since_1946,1947–1968
+West Bank,Jordan,1948,1967,0,1,since_1946,1947–1968
+Sikkim,India,1949,1950,0,0,since_1946,1947–1968
+Tibet,China,1949,2026,1,1,since_1946,1947–1968
+Northern Jordan Valley,Syria,1949,1967,0,0,since_1946,1947–1968
+Most of South Korea,South Korea,1950,1951,0,0,since_1946,1947–1968
+Dadra and Nagar Haveli,India,1954,2026,1,1,since_1946,1947–1968
+Hungary,Soviet Union,1956,1956,0,0,since_1946,1947–1968
+Suez Canal Zone,France United Kingdom,1956,1956,0,0,since_1946,1947–1968
+Gaza Strip,Israel,1956,1957,0,0,since_1946,1947–1968
+Sinai,Israel,1956,1957,0,0,since_1946,1947–1968
+Laos,North Vietnam,1959,1975,0,0,since_1946,1947–1968
+"Goa, Daman and Diu",India,1961,2026,1,1,since_1946,1947–1968
+Aksai Chin,China,1962,2026,1,1,since_1946,1947–1968
+Arunachal Pradesh,China,1962,1962,0,0,since_1946,1947–1968
+Dominican Republic,United States,1965,1966,0,0,since_1946,1947–1968
+Sinai,Israel,1967,1982,0,0,since_1946,1947–1968
+East Jerusalem,Israel,1967,2026,1,0,since_1946,Ongoing occupations
+Gaza Strip,Israel,1967,2026,1,0,since_1946,Ongoing occupations
+Golan Heights,Israel,1967,2026,1,0,since_1946,Ongoing occupations
+West Bank,Israel,1967,2026,1,0,since_1946,Ongoing occupations
+Czechoslovakia,Soviet Union Bulgaria Poland East Germany Hungary,1968,1989,0,0,since_1946,1947–1968
+East Pakistan / (became Bangladesh),India,1971,1971,0,0,since_1946,1970–1991
+Northern Cyprus,Turkey,1974,2026,1,0,since_1946,Ongoing occupations
+Parts of Angola,South Africa,1975,1976,0,0,since_1946,1970–1991
+Southern half of Vietnam,North Vietnam,1975,2026,1,1,since_1946,1970–1991
+Tiris al-Gharbiyya,Mauritania,1975,1979,0,0,since_1946,1970–1991
+East Timor,Indonesia,1975,1999,0,1,since_1946,1970–1991
+Majority of Western Sahara,Morocco,1975,2026,1,0,since_1946,Ongoing occupations
+Aouzou Strip,Libya,1976,1987,0,0,since_1946,1970–1991
+Parts of Lebanon,Syria,1976,2005,0,0,since_1946,1970–1991
+Kagera Region,Tanzania,1978,1978,0,0,since_1946,1970–1991
+Southern Lebanon,Israel,1978,1978,0,0,since_1946,1970–1991
+Southern Lebanon,Free Lebanon State,1978,1982,0,0,since_1946,1970–1991
+Cambodia,Vietnam,1978,1989,0,0,since_1946,1970–1991
+Parts of Vietnam,China,1979,1979,0,0,since_1946,1970–1991
+Afghanistan,Soviet Union,1979,1989,0,0,since_1946,1970–1991
+Falkland Islands,Argentina,1982,1982,0,0,since_1946,1970–1991
+South Lebanon,Israel,1982,2000,0,0,since_1946,1970–1991
+Grenada,United States Barbados Jamaica Antigua and Barbuda Dominica Saint Kitts and Nevis Saint Lucia Saint Vincent and the Grenadines,1983,1983,0,0,since_1946,1970–1991
+Iraqi Kurdistan,Turkey,1984,1984,0,0,since_1946,1970–1991
+Northern Province,India,1987,1990,0,0,since_1946,1970–1991
+Maldives,India,1988,1988,0,0,since_1946,1970–1991
+Panama,United States,1989,1990,0,0,since_1946,1970–1991
+Kuwait,Iraq Kuwait Governorate Saddamiyat al-Mitla' District,1990,1991,0,1,since_1946,1970–1991
+Seven districts surrounding Nagorno-Karabakh,Armenia Artsakh,1992,2020,0,1,since_1946,1992–1999
+"Bağanıs Ayrım, Aşağı Əskipara, Xeyrimli and Ghizilhajili",Armenia,1992,2024,0,0,since_1946,1992–1999
+Artsvashen,Azerbaijan,1992,2026,1,0,since_1946,Ongoing occupations
+Transnistria,Russia,1992,2026,1,0,since_1946,Ongoing occupations
+"Yukhari Askipara, Sofulu, Barxudarlı and Karki",Armenia,1992,2026,1,0,since_1946,Ongoing occupations
+Haiti,United States Poland Argentina,1994,1995,0,0,since_1946,1992–1999
+Parts of Iraqi Kurdistan,Turkey,1997,2026,1,0,since_1946,Ongoing occupations
+Lesotho,South Africa Botswana,1998,1999,0,0,since_1946,1992–1999
+Parts of the Democratic Republic of the Congo,Uganda Rwanda Zimbabwe Angola Namibia Chad Sudan,1998,2002,0,0,since_1946,1992–1999
+"Gash-Barka, Southern, Northern Red Sea and Southern Red Sea / regions of Eritrea",Ethiopia,2000,2018,0,0,since_1946,2000–2019
+Afghanistan,United States United Kingdom Canada Australia New Zealand and other troops,2001,2002,0,0,since_1946,2000–2019
+Iraq,United States United Kingdom Australia Poland and other troops,2003,2004,0,0,since_1946,2000–2019
+Parts of Somalia,Ethiopia,2006,2009,0,0,since_1946,2000–2019
+Gori and Poti,Russia,2008,2008,0,0,since_1946,2000–2019
+Perevi,Russia,2008,2010,0,0,since_1946,2000–2019
+Abkhazia,Russia,2008,2026,1,0,since_1946,Ongoing occupations
+South Ossetia,Russia,2008,2026,1,0,since_1946,Ongoing occupations
+Crimea,Russia,2014,2026,1,0,since_1946,Ongoing occupations
+"Significant parts of Donetsk, Kherson, Luhansk, and Zaporizhzhia OblastsNegligible parts of Kharkiv and Mykolaiv, Sumy and Dnipropetrovsk Oblasts",Russia,2014,2026,1,0,since_1946,Ongoing occupations
+"Azaz, al-Bab and Jarabulus Districts",Turkey,2016,2025,0,0,since_1946,2000–2019
+Al-Tanf,US,2016,2026,0,0,since_1946,2000–2019
+Socotra,United Arab Emirates,2018,2018,0,0,since_1946,2000–2019
+Afrin District,Turkey,2018,2025,0,0,since_1946,2000–2019
+Tell Abyad and Ras al-Ayn Districts,Turkey,2019,2025,0,0,since_1946,2000–2019
+"Portions of Syunik, Vayots Dzor, and Gegharkunik Provinces",Azerbaijan,2021,2026,1,0,since_1946,Ongoing occupations
+"Parts of Chernihiv, Dnipropetrovsk, Kharkiv, Kyiv, Poltava, Sumy, and Zhytomyr OblastsChernobyl Exclusion ZoneSnake Island",Russia,2022,2024,0,0,since_1946,2020–present
+"Parts of North Kivu and South Kivu, Democratic Republic of the Congo",Rwanda,2022,2026,1,0,since_1946,Ongoing occupations
+"Parts of Bryansk Oblast, Belgorod Oblast and Kursk Oblast",Ukraine,2023,2025,0,0,since_1946,2020–present
+Parts of Southern Lebanon,Israel,2024,2026,1,0,since_1946,Ongoing occupations
+Parts of Southern Syria,Israel,2024,2026,1,0,since_1946,Ongoing occupations
