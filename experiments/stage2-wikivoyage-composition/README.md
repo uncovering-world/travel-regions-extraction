@@ -71,9 +71,9 @@ Result (`probe_names.py`, `outputs/names.csv`): names recover Japan (45 of 47 pr
 
 ## Overall conclusion
 
-Taking the better of the id and name resolvers per country, 9 of the 19 test countries reach at least 80% of their first-level units (Thailand, Japan, Algeria, Iran, Nigeria, Malaysia, Ukraine, Chile and, at 73%, nearly Switzerland), Colombia and the Philippines about two thirds, and seven stay near zero: Turkey, Vietnam, Kenya, Peru, Egypt, Tanzania and Papua New Guinea. In those seven, Wikivoyage's first two levels are not expressed in first-level official units at all — the composition, if stated anywhere, sits deeper in the hierarchy or only in a map image.
+Taking the better of the id and name resolvers per country, 8 of the 19 test countries reach at least 80% of their first-level units (Thailand, Japan, Algeria, Iran, Nigeria, Malaysia, Ukraine, Chile), Switzerland, Colombia and the Philippines about two thirds, Angola 61%, and seven stay near zero: Turkey, Vietnam, Kenya, Peru, Egypt, Tanzania and Papua New Guinea. In those seven, Wikivoyage's first two levels are not expressed in first-level official units at all — the composition, if stated anywhere, sits deeper in the hierarchy or only in a map image.
 
-For Stage 2 this means: a published travel hierarchy can be turned into unit-based regions without drawing for roughly half of the countries that need grouping; the other half needs either a deeper walk of the hierarchy, map reading with review, or another grouping source.
+For Stage 2 this means: a published travel hierarchy can be turned into unit-based regions without drawing for roughly half of the countries that need grouping; the rest needs either a deeper walk of the hierarchy, map reading with review, or another grouping source.
 
 ## Status
 
