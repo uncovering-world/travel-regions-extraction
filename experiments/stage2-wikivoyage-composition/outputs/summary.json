@@ -1,0 +1,9 @@
+{
+  "countries_with_units_in_several_regions": [],
+  "coverage_bands": {
+    "50-90%": 3,
+    "90%+": 7,
+    "under 50%": 9
+  },
+  "test_countries": 19
+}

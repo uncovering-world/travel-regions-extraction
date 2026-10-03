@@ -25,16 +25,38 @@ Name matching is approximate (transliteration, "Province" suffixes); the run rep
 
 ## Method
 
-Pending.
+`run.py` (Python ≥ 3.11, standard library), from the repository root:
+
+```bash
+python3 experiments/stage2-scale-survey/fetch_wikivoyage.py   # fills the shared wikitext cache
+python3 experiments/stage2-wikivoyage-composition/run.py
+```
+
+- Test countries: the 19 countries of the scale survey's "groups the top tier" class with at least six reference regions, plus Italy and Germany as controls.
+- Wikivoyage draws region maps with `mapshape` templates that list Wikidata ids. A unit counts as assigned to a level-1 region when its id appears in a `mapshape` on that region's page, or in a `mapshape` on the country page titled with the region's name.
+- Ids are tied to official units through Wikidata's ISO 3166-2 code (P300), fetched on 2026-10-03 and cached; no name matching is involved, so there are no false matches from spelling, but a unit whose Wikidata item lacks P300 is missed.
+- This run did not use the `regionNitems` text or the regions' own Wikidata items; those are other possible resolvers.
 
 ## Result
 
-Not run yet.
+| Coverage of official units by exactly one region | Test countries |
+|---|---|
+| 90% or more | 7 — Algeria, Iran, Nigeria, Malaysia (all 100%), Thailand (77 of 78), Chile (15 of 16), Ukraine (25 of 27) |
+| 50–90% | 3 — Japan (39 of 47), Switzerland (19 of 26), Angola (11 of 18) |
+| Under 50% | 9 — Philippines, Papua New Guinea, Turkey, Peru, and zero for Vietnam, Kenya, Colombia, Egypt, Tanzania |
+
+No unit was assigned to more than one region in any country. Controls: Italy 5 of 20, Germany 0 of 16. Per-country rows are in `outputs/coverage.csv`.
+
+The result is bimodal. Where a country's Wikivoyage maps were drawn from unit ids, the composition is complete or nearly so. Where they were drawn from a static image or from one shape per region, this resolver finds nothing.
 
 ## Conclusion
 
-Pending.
+Neither outcome 1 nor outcome 3 holds across the board: stated composition through `mapshape` ids is a clean resolver for about a third of the test countries (and never produced an overlap), a partial one for a few, and absent for about half.
+
+So Wikivoyage as a Stage 2 list source needs at least one more resolver before its geometry gap can be judged: the composition recorded on the regions' own Wikidata items, the `regionNitems` lists, or — as a last resort, and at the cost of manual review — the region map images that TYR's importer already reads. Measuring those is the next step; this run sets the baseline they have to beat.
+
+It supports no rule. It does show that "list first, geometry from stated composition, nothing drawn" is achievable today for countries such as Thailand, Algeria, Iran, Nigeria and Malaysia, which makes them good first countries for a Stage 2 prototype.
 
 ## Status
 
-Planned: set up 2026-10-03.
+Concluded 2026-10-03.
