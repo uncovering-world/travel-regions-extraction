@@ -26,19 +26,19 @@ Artsakh / Commonwealth of Independent States,ignore,not a part of the country
 Artsakh / Eurasian Economic Union,ignore,not a part of the country
 Australia / Adelaide,ignore,transit only
 Australia / Ashmore and Cartier Islands,,possible new rule: Indonesian traditional fishermen visiting the Territory of Ashmore and Cartier Islands are covered by a special purpose visa
-Australia / Australian Antarctic Territory,,possible new rule: an environmental authorisation (on an EIA by the organiser) is required for the Australian Antarctic Territory
+Australia / Australian Antarctic Territory,ignore,"inside Antarctica, which is one cell (D040)"
 Australia / Cairns,ignore,transit only
 Australia / European Free Trade Association,ignore,not a part of the country
 "Australia / Gold Coast, Queensland",ignore,transit only
-Australia / Heard Island and McDonald Islands,,possible new rule: a permit to enter the Territory of Heard Island and McDonald Islands is required (own ISO 3166-1 entry HM)
+Australia / Heard Island and McDonald Islands,ignore,"own ISO 3166-1 entry HM, already a region (R045)"
 Australia / Macquarie Island,,possible new rule: written authorisation of the Director of National Parks required for Macquarie Island; visitors there hold a special purpose visa
 Australia / Norfolk Island,ignore,historical rule no longer in force (article: Norfolk Island immigration permits are no longer valid)
 Australia / Sydney,ignore,transit only
 Azerbaijan / Baku,ignore,port of entry; seat of the ministry that issues invitations
-Azerbaijan / Barxudarlı,,possible new rule: Azerbaijan prohibits entry of foreigners to the exclave (held by Armenia) without its prior consent
-"Azerbaijan / Karki, Azerbaijan",,possible new rule: Azerbaijan prohibits entry of foreigners to the exclave (held by Armenia) without its prior consent
-"Azerbaijan / Sofulu, Qazax",,possible new rule: Azerbaijan prohibits entry of foreigners to the exclave (held by Armenia) without its prior consent
-Azerbaijan / Yukhari Askipara,,possible new rule: Azerbaijan prohibits entry of foreigners to the exclave (held by Armenia) without its prior consent
+Azerbaijan / Barxudarlı,ignore,covered by the register of disputed areas (held by another party)
+"Azerbaijan / Karki, Azerbaijan",ignore,covered by the register of disputed areas (held by another party)
+"Azerbaijan / Sofulu, Qazax",ignore,covered by the register of disputed areas (held by another party)
+Azerbaijan / Yukhari Askipara,ignore,covered by the register of disputed areas (held by another party)
 Belarus / Augustów Canal,by-brest-grodno-zone,
 Belarus / Belovezhskaya Pushcha National Park,by-brest-grodno-zone,
 Belarus / Brest Airport,by-brest-grodno-zone,prefill by name match; to be reviewed
@@ -82,8 +82,8 @@ Gabon / Libreville,ignore,port of entry
 Gabon / Léon-Mba International Airport,ignore,port of entry
 Greenland / Schengen Area,ignore,not a part of the country
 Guatemala / Schengen Area,ignore,not a part of the country
-"Guyana / Annai, Guyana",,possible new rule: nationals entering through Lethem by land may travel as far as Annai on an ID card instead of a passport
-"Guyana / Lethem, Guyana",,possible new rule: nationals entering through Lethem by land may travel as far as Annai on an ID card instead of a passport
+"Guyana / Annai, Guyana",ignore,"scope is a stretch of road up to a place, not a whole unit (R056)"
+"Guyana / Lethem, Guyana",ignore,"scope is a stretch of road up to a place, not a whole unit (R056)"
 Guyana / Schengen Area,ignore,not a part of the country
 Haiti / Schengen Area,ignore,not a part of the country
 Honduras / Schengen Area,ignore,not a part of the country
@@ -127,7 +127,7 @@ Ireland / Micronesia,ignore,not a part of the country
 Ireland / Schengen Area,ignore,not a part of the country
 Ireland / Serbia and Montenegro,ignore,not a part of the country
 Ireland / Union of South Africa,ignore,not a part of the country
-Israel / West Bank,,possible new rule: foreign nationals may apply for an entry permit valid only for the West Bank; Israeli citizens need a permit for Area A
+Israel / West Bank,ignore,covered by the register of disputed areas and the ISO entry PS
 Ivory Coast / Abidjan,ignore,port of entry
 Ivory Coast / Félix-Houphouët-Boigny International Airport,ignore,port of entry
 Jamaica / Schengen Area,ignore,not a part of the country
@@ -175,7 +175,7 @@ Myanmar / Mandalay International Airport,ignore,port of entry
 Myanmar / Nay Pyi Taw International Airport,ignore,port of entry
 Myanmar / Yangon International Airport,ignore,port of entry
 New Zealand / Auckland Airport,ignore,transit only
-New Zealand / Tokelau,,possible new rule: all visitors need a permit to enter Tokelau from the Tokelau Apia Liaison Office (own ISO 3166-1 entry TK)
+New Zealand / Tokelau,ignore,"own ISO 3166-1 entry TK, already a region (R045)"
 North Korea / Sinuiju,kp-sinuiju,prefill by name match; to be reviewed
 North Korea / Tongrim County,ignore,group-only rule
 North Macedonia / Micronesia,ignore,not a part of the country
@@ -187,7 +187,7 @@ Palestine / Allenby Bridge,ignore,port of entry
 Palestine / Erez Crossing,ignore,port of entry
 Palestine / Gaza Strip,ps-gaza,prefill by name match; to be reviewed
 Palestine / Rafah Border Crossing,ignore,port of entry
-Palestine / West Bank,,possible new rule: visitors entering via Allenby Bridge may get an entry stamp permitting travel only in Palestinian Authority-controlled areas of the West Bank
+Palestine / West Bank,ignore,covered by the register of disputed areas and the ISO entry PS
 Papua New Guinea / Port Moresby International Airport,ignore,port of entry
 Peru / Schengen Area,ignore,not a part of the country
 Qatar / Hamad International Airport,ignore,transit only
@@ -212,7 +212,7 @@ Russia / Sochi,ru-72h-ferry-cruise,port of a rule already in the census (72-hour
 Russia / Ugolny Airport,ru-72h-ferry-cruise,port of a rule already in the census (72-hour cruise and ferry visa-free)
 Russia / Yamalo-Nenets Autonomous Okrug,ru-zato-closed-cities,
 Saudi Arabia / Mecca,sa-mecca,prefill by name match; to be reviewed
-Saudi Arabia / Medina,,possible new rule: non-Muslims are not allowed to travel to Medina (census has Mecca only)
+Saudi Arabia / Medina,ignore,"a city inside a top-level unit, not a whole unit (R056)"
 Saudi Arabia / Schengen Area,ignore,not a part of the country
 Serbia / Micronesia,ignore,not a part of the country
 Serbia / Schengen Area,ignore,not a part of the country
@@ -251,7 +251,7 @@ Taiwan / Taoyuan International Airport,ignore,port of entry
 Tajikistan / Dushanbe,ignore,port of entry
 Tajikistan / Dushanbe International Airport,ignore,port of entry
 Tajikistan / Gorno-Badakhshan,tj-gbao,prefill by name match; to be reviewed
-Tajikistan / Sarez Lake,,"possible new rule: a separate special permit is required for Lake Sarez, beyond the GBAO OVIR permit"
+Tajikistan / Sarez Lake,ignore,"a site inside a top-level unit, not a whole unit (R056)"
 Thailand / 2014 Thai coup d'état,ignore,not a place (event)
 Thailand / Aranyaprathet,ignore,port of entry
 Thailand / Bangkok Port,ignore,port of entry
@@ -344,19 +344,19 @@ mainland China / Haikou Xiuying Port,cn-cruise-coastal-provinces,
 mainland China / Hainan,cn-hainan,prefill by name match; to be reviewed
 mainland China / Hechi,cn-240h-transit-areas,
 mainland China / Hezhou,cn-240h-transit-areas,
-mainland China / Hong Kong,,possible new rule: Hong Kong maintains an independent visa policy (own ISO 3166-1 entry HK; Hainan and Pearl River Delta group rules are in the census)
+mainland China / Hong Kong,ignore,"own ISO 3166-1 entry HK, already a region (R045)"
 mainland China / Hong Kong–Zhuhai–Macao Bridge Zhuhai–Macao Port,cn-sez-visa-on-arrival,prefill by name match; to be reviewed
 mainland China / Huanggang Port,ignore,port of entry
 mainland China / Laibin,cn-240h-transit-areas,
 mainland China / Lianyungang,cn-cruise-coastal-provinces,
 mainland China / Liuzhou,cn-240h-transit-areas,
 mainland China / Luohu Port,ignore,port of entry
-mainland China / Macau,,possible new rule: Macau maintains an independent visa policy (own ISO 3166-1 entry MO; Hainan and Pearl River Delta group rules are in the census)
+mainland China / Macau,ignore,"own ISO 3166-1 entry MO, already a region (R045)"
 mainland China / Mainland China,ignore,the country itself
 mainland China / Ministry of Foreign Affairs (China),ignore,not a place (institution)
 mainland China / Mohan railway station,cn-xishuangbanna-asean-groups,
 "mainland China / Mohan, Yunnan",cn-xishuangbanna-asean-groups,
-mainland China / Mount Kailash,,possible new rule: a border permit and a military permit are required for Kailash (beyond the Tibet Travel Permit)
+mainland China / Mount Kailash,ignore,"a site inside a top-level unit, not a whole unit (R056)"
 mainland China / Nanning,cn-240h-transit-areas,
 mainland China / Nanning Wuxu International Airport,cn-240h-transit-areas,
 mainland China / Pearl River Delta,cn-prd-144h-groups,prefill by name match; to be reviewed
@@ -408,16 +408,16 @@ Philippines / Schengen Area,ignore,not a part of the country
 Schengen Area / Caribbean,ignore,not a part of the country
 Schengen Area / Schengen Agreement,ignore,not a place (treaty)
 Schengen Area / Schengen Area,ignore,the country itself
-United Kingdom / Bailiwick of Guernsey,,possible new rule: UK visa policy applies but the Crown dependency operates its own immigration enforcement (own ISO 3166-1 entry)
-United Kingdom / Jersey,,possible new rule: UK visa policy applies but the Crown dependency operates its own immigration enforcement (own ISO 3166-1 entry)
+United Kingdom / Bailiwick of Guernsey,ignore,"own ISO 3166-1 entry GG, already a region (R045)"
+United Kingdom / Jersey,ignore,"own ISO 3166-1 entry JE, already a region (R045)"
 United Kingdom / Latin America,ignore,not a part of the country
 United Kingdom / Schengen Area,ignore,not a part of the country
 United States / Alaska,ignore,border residents only
-United States / American Samoa,,possible new rule: American Samoa has its own entry requirements and visitor permits (own ISO 3166-1 entry AS)
+United States / American Samoa,ignore,"own ISO 3166-1 entry AS, already a region (R045)"
 United States / Baker Island,um-minor-outlying-islands,
 United States / Caribbean,ignore,not a part of the country
 United States / European Free Trade Association,ignore,not a part of the country
-United States / Guam,,"possible new rule: Guam–CNMI Visa Waiver Program admits some nationals to Guam and the Northern Mariana Islands only (own ISO 3166-1 entries GU, MP)"
+United States / Guam,ignore,"own ISO 3166-1 entry GU, already a region (R045)"
 United States / Headquarters of the United Nations,ignore,transit only
 United States / Howland Island,um-minor-outlying-islands,
 United States / Jarvis Island,um-minor-outlying-islands,
@@ -426,7 +426,7 @@ United States / Kingman Reef,um-minor-outlying-islands,
 United States / Midway Atoll,um-minor-outlying-islands,
 United States / Navassa Island,um-minor-outlying-islands,
 United States / New York City,ignore,transit only
-United States / Northern Mariana Islands,,"possible new rule: Guam–CNMI Visa Waiver Program admits some nationals to Guam and the Northern Mariana Islands only (own ISO 3166-1 entries GU, MP)"
+United States / Northern Mariana Islands,ignore,"own ISO 3166-1 entry MP, already a region (R045)"
 United States / Palmyra Atoll,um-minor-outlying-islands,
 United States / United States Department of State,ignore,not a place (institution)
 United States / United States Minor Outlying Islands,um-minor-outlying-islands,
