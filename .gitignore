@@ -12,3 +12,6 @@ experiments/*/cache/
 # Machine-local agent settings and personal instructions
 .claude/settings.local.json
 CLAUDE.local.md
+
+# Register downloads are refetched by refresh_machine.py
+data/disputed-areas/cache/
