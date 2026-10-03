@@ -1,6 +1,6 @@
 # Canonical Travel Regions — open questions of the model
 
-Version: 0.3.0-draft. Date: 2026-09-12.
+Version: 0.4.0-draft. Date: 2026-10-03. Changes in 0.4.0-draft: Q006 closed; Q001–Q005 and Q007–Q012 annotated or narrowed by the owner's decisions of 2026-10-03 (D038–D053); Q013–Q019 added.
 
 The order reflects the potential scale of change to the world map: from a change in the definition of almost all regions to changes in individual classes and in history. These are model questions. "Which document is required now?" and "Where does the line run on date t?" are data tasks, not separate items of this list.
 
@@ -14,6 +14,8 @@ Undefined territorial/legal identity is rejected from the production and product
 
 P1/P2/P3 remain historical profiles whose results are not reinterpreted as `S1-core-v1`. D004–D007 are kept as accepted product regressions; if CR-W does not guarantee them, the conflict/requirement remains explicit, without automatic transfer to Stage 2. Residual Q002/Q004/Q005/Q006/Q007/Q008/Q009/Q011 remain open; the architectural Q012 is not resolved here either.
 
+Note, 2026-10-03: the reference registry (D038, R045) separates states, dependencies with their own ISO 3166-1 entry and perspective-dependent areas without a legal proof per pair, which removes most of the cases CR-J was meant for. The CR-J remainder stays open.
+
 **Next distinguishing experiment:** synthetic NX-01/NX-02/NX-04 from the review — independent capacities versus offices/shared apex under fully identical D, with a check that these premises are compatible with exact S/H. **Closure criterion for the remainder:** explicitly accept or reject the additional institutional invariant CR-J with J1–J6 and generic counterexamples. This does not declare the full Stage 1 semantics complete. [Adoption record](../experiments/q001/stage1-core-adoption.md).
 
 ## Q002 — For which set of travellers and which decisions is homogeneity needed?
@@ -26,6 +28,8 @@ The part resolved by D032/R044: in the accepted civilian-short-stay-v1, one vali
 
 Options: universality for all persons/purposes; a fixed civilian short-stay scope; typical profiles with explicitly acknowledged incompleteness. The specification provisionally chooses the second option and allows rare documents. The domain C must not be changed for the sake of a convenient result in an individual case. Completeness applies only to the explicitly chosen profile and scope: it does not mean knowledge of all conceivable traveller contexts outside them.
 
+Narrowed, 2026-10-03 (D050, R056): a class whose trip is defined by onward travel to a third territory (transit), a class defined by travelling in an organised group, and a class of residents of a neighbouring border area are not witness classes; a rule that admits visitors only through a tour operator is a witness. The rest of this question stands.
+
 **Experiment:** run one and the same geographic set for an ordinary passport, several citizenships, a refugee document, a residence permit, arrival by yacht and a long stay. **Closure criterion:** the formal scope C and the list of hard outputs are published; it is known which differences intentionally remain overlays.
 
 ## Q003 — What does it mean to cover the whole travel space?
@@ -36,6 +40,8 @@ A destination-only universe requires a definition of destination and changes wit
 
 The relation of the territorial sea to land needs to be defined: does it belong to the same region, to a separate maritime region, or is it outside the universe? An EEZ must not automatically be treated as the same kind of territory. Antarctica land and the Treaty Area are also distinct. LAND_V0 is an explicit temporary limitation of the experiment.
 
+Note, 2026-10-03 (D040): the Antarctic land in U is one Stage 1 cell, with claims as overlays (R026); which physical types of Antarctica belong to U is still this question.
+
 **Experiment:** inland lake, South Pole, ice shelf, ocean cruise point, low-tide reef, reclaimed island, closed island. **Closure criterion:** for each physical type, inclusion and the principle of classification are defined, independently of sovereignty and accessibility.
 
 ## Q004 — Do customs and biosecurity really divide canonical geography?
@@ -43,6 +49,8 @@ The relation of the territorial sea to land needs to be defined: does it belong 
 **Impact: from a few special territories to a large number of internal zones.** R013, R016, R017; D011.
 
 A choice is needed between a mandatory split by traveler-facing formalities, all such formalities as overlays, or a limited class of external customs jurisdictions. The problem is not whether there is a declaration on a particular island: even knowing all the rules, the boundary of the class has to be explained.
+
+Narrowed, 2026-10-03 (D050, R056): answered for entry payments — a mandatory fee or purchase on arrival does not separate, and only rules on who may enter and for how long do (visa, permit, separate control, stay limit); fees are markers. Customs and biosecurity formalities as such remain open. The owner's wording ("only rules on who may enter and for how long") points to their not separating either; that reading is to be confirmed, not assumed.
 
 **Experiment:** Åland, Canary Islands, Ceuta/Melilla, Heligoland, Büsingen, Livigno, Tasmania, Hawaii, California. First compare the formalities without names and political statuses. **Closure criterion:** one test applies to external and internal zones; if an identity correction is needed, the dependence on Q001 is explicit.
 
@@ -54,9 +62,13 @@ If every mandatory permit is sufficient, a multitude of objects will become regi
 
 R014 already excludes local border, military, nature-conservation, site-specific, route-specific and activity-specific restrictions from the sufficient grounds for a split. This remains true even if the overlay coincides with a whole district or federal subject: administrative scale is not a criterion. The open part of Q005 is now narrower: which general predicate distinguishes such an overlay from a permission for ordinary civilian admission into the candidate territory as a destination as a whole.
 
+Narrowed, 2026-10-03 (D050, R014, R056): the owner adopted the convention this question asks for. A standing rule that makes presence in a whole unit conditional on a permit for an ordinary visitor separates that unit, if the unit is a whole top-level unit of its country or a smaller detached unit with a rule written for it; a permit for part of a unit, a border band, a list of places, a closed town or a single valley stays a marker. Open: the operational definition of the units and a rule covering several top-level units (Q015).
+
 **Experiment:** Mount Athos, Tibet, Galápagos, Lord Howe Island, North Sentinel Island, Montserrat exclusion zone, Antarctic protected area, an ordinary national park and airport airside. **Closure criterion:** a scope-level predicate or an honestly approved convention of size/institution, not a list of exceptions by name.
 
 ## Q006 — Should a legal dispute preserve a separate identity without travel discontinuity?
+
+**Status: closed, 2026-10-03 (D038, D043–D048).** A dispute is kept separate when a declared perspective of the reference registry places the area in another country (R045), subject to the treatment by kind: border-line disputes are special places (R050); islets and paper claims are regions where civilians live (R051); zones with no single holder are regions where civilians live and the parties state an outline (R052); leases follow the lessor (R053). A claim no declared perspective shows gives a marker. This explains D006 and D007 by a general norm, the closure criterion below; whether the release build confirms the derivation is check V011, not this question. The text below is kept for history.
 
 **Impact: all disputed/occupied areas and the residual regions of controlling states.** R010, R016, R022, R024; D006, D007, D013, D014.
 
@@ -74,6 +86,8 @@ Who controls entry, who patrols at night, who administers civilian affairs and w
 
 A separate question: is a complete point-wise assignment mandatory as a computational convention, or must it also mean confident knowledge? The specification allows a provisional assignment with uncertainty, but not an invented factual contour.
 
+Narrowed, 2026-10-03 (D043, R048, R049): the holder of an area is the party whose officers can in practice admit, refuse and remove a civilian; rules that cannot be enforced there do not count; parts held by different parties have their own holders. A forcible change of control follows the settling rule, and while fighting moves the line no area is delimited and the regions touched carry a flag. Open: what applies when the holder test cannot tell the parties apart (Q016), and joint regimes beyond the zones of R052.
+
 **Experiment:** West Bank Areas A/B/C, Gaza, Cyprus buffer zone, UNDOF area, Siachen, Ukraine frontline. **Closure criterion:** a model of control functions and the behaviour for an uncertain strip are defined; an observation update does not pass it off as a change of sovereignty.
 
 ## Q008 — What stability is needed for a new boundary to change the partition?
@@ -84,6 +98,8 @@ A "temporary measure" may last for years, while a new permanent jurisdiction has
 
 R044 adopts a narrow sufficient standing/constitutive gate for CR-W without an age threshold; incident/emergency measures are not promoted by duration. The remainder of Q008 is ambiguous institutional classification and fuller temporal semantics; the question is not closed.
 
+Narrowed, 2026-10-03 (D043, D049): stability is handled at release level. A boundary from an uncontested entry rule enters after two consecutive yearly releases and leaves three years after the rule ends (R055); a forcible change of control is accepted after three quiet calendar years or an explicit act (R049). G-TIME is unchanged. Open: the classification of emergency and incident measures under G-TIME, and the counting details of Q019.
+
 **Experiment:** one scope with restrictions for 1 day, 3 months and an indefinite period; a change of control with identical travel consequences; a new admission jurisdiction with a published start date. **Closure criterion:** the stability predicate does not require knowledge of the future and defines split/merge events without exceptions by country.
 
 ## Q009 — How much spatial dependence is admissible inside one region?
@@ -91,6 +107,8 @@ R044 adopts a narrow sufficient standing/constitutive gate for CR-W without an a
 **Impact: the number of cells after intersecting all scopes.** R006–R009, R014, R017, R027.
 
 If TravelDecision may refer to coordinates arbitrarily through overlays, the whole Earth can be left as one region. If coordinates are forbidden altogether, one airport with several procedures destroys homogeneity. Hard dimensions, invariant inside a region, and soft dimensions, for which internal geography is allowed, need to be defined.
+
+Narrowed, 2026-10-03 (D050, R056): transit limits, group-only and local-border-traffic schemes, fees, permits for part of a unit and entry rules whose scope fails the scope test are markers inside a region, not boundaries.
 
 **Experiment:** a common admission regime plus different entry points, transit procedures, local permits and a customs zone crossing a control boundary. **Closure criterion:** an identical signature guarantees exactly the enumerated homogeneity; overlays are not used to bypass mandatory splits.
 
@@ -102,6 +120,8 @@ After a small change of a boundary, both identities can be kept. After a part is
 
 Provisional hypothesis: split/merge create new IDs; a rename and a digitization correction keep the ID. It is not decided how to treat "the same territory" after a change of status, nor how to map a visit in the past onto the modern set.
 
+Note, 2026-10-03 (D049, R055): the set of regions changes only at a yearly release. Correspondence tables and a de-minimis rule are Q019.
+
 **Experiment:** rename; coastline correction; transfer of an enclave; division of an admission jurisdiction; merging of two regions; late correction of an old line. **Closure criterion:** an event taxonomy and rules for historical/current visit views are published without loss of the original evidence.
 
 ## Q011 — Are explicit product conventions admissible?
@@ -109,6 +129,8 @@ Provisional hypothesis: split/merge create new IDs; a rename and a digitization 
 **Impact: honesty and manageability of exceptions, especially Antarctic/identity cases.** R008, R010, R026, R035; D004, D016.
 
 A fully derived map may contradict the intuitive requirements of the project. A managed list of conventions is technically admissible, but it changes the meaning of falsifiability: what is then checked is conformance to the rules and the published conventions, not only to independent facts.
+
+Narrowed, 2026-10-03: the owner adopted explicit conventions with IDs and rationale — the reference registry as a declared product rule (D038), one Antarctic Stage 1 cell (D040), and whole-unit presence permits (D050). Further conventions still need their own decision; none may be added silently.
 
 **Experiment:** try to satisfy literal UKOT-separateness, non-overlap and a single Antarctic cell simultaneously. **Closure criterion:** either a general rule removes the conflict, or the conventions are approved as a separate part of the model with an ID, rationale, domain and tests. Until then such exceptions must not be accepted silently.
 
@@ -120,7 +142,65 @@ Stage 2 must treat destination semantics as first-class inputs while producing a
 
 The open question is how to choose a reproducible destination partition without using desired territory names as hidden labels or allowing arbitrary subdivision. The solution must preserve `Stage2Partition refines Stage1Partition`. Q001/P3 cannot be used as a substitute because territorial/legal identity and destination identity are separate concepts.
 
+Note, 2026-10-03 (D040): the Antarctic Stage 1 cell is divided in Stage 2 by how and from where travellers reach it, also taking into account how people who work there see it; the operational criteria belong to this question.
+
 **Closure criterion:** publish a name-blind Stage 2 contract with typed inputs, deterministic conflict and uncertainty behavior, refinement tests, and adversarial cases. This patch does not choose that contract.
+
+## Q013 — How are outlines and custom geometries sourced, pinned and versioned?
+
+**Impact: every cell the substrate cannot represent.** R028, R047; D042.
+
+R047 says where an outline comes from — a line the parties state — and that the substrate is extended with a custom geometry where it has no fitting unit. It does not say which sources carry such lines, how a geometry is digitised from them and pinned, how its version relates to the release and to the substrate's version, or how a cell is bound to substrate units when it does exist. As of 2026-10-03 only 23 of the register's 210 areas are linked to Natural Earth and 10 to Wikidata.
+
+**Closure criterion:** a design that, for each cell, names its geometry source and version, reproduces the geometry from a pinned input, and reports a cell whose substrate has no fitting unit instead of approximating it silently (consumer contract C6).
+
+## Q014 — Which attributions make up the declared perspectives, and how are errors in them handled?
+
+**Impact: which perspective-dependent areas become cells.** R045; D038, D039.
+
+D038 declares ISO 3166-1 and the national points of view of Natural Earth. Not decided: whether Natural Earth's default attribution is also a declared perspective (the first world draft counted it); how features that equal a whole ISO 3166-1 entry, opaque codes for "shown as disputed" and plain errors in Natural Earth's columns are treated; and whether names may be taken from it (the proposal: attribution only, not names).
+
+**Closure criterion:** a published reading of the pinned editions that lists each perspective, each correction with its source, and the resulting cells.
+
+## Q015 — Scope test details: what is a top-level or detached unit, and what does a rule over several units give?
+
+**Impact: which entry rules make regions.** R014, R056; D050.
+
+The scope test of R056 needs: a source for a country's top-level units that is not tied to one substrate; what counts as detached (an island, an exclave) and as "a rule written for it, not a line in a list"; and what a unit "with exceptions" is. One rule over several top-level units satisfies the test for each of them (the owner's known rough case: five Mexican states under one card); whether that gives one region per unit or one region for their union is not decided — CR-W gives no witness between them.
+
+**Closure criterion:** generic definitions with counterexamples, and a decision on rules over several units.
+
+## Q016 — Areas with no single holder that are not regions
+
+**Impact: special places in buffer zones, divided islet groups and undecidable control.** R048, R051, R052; D043, D045, D046.
+
+Three cases have no decided outcome: (a) an islet group held in parts by several parties with no line between the parts — it has no single country in the canon's attribution; (b) a zone of kind `own_regime` that is not a region (no residents or no stated outline) — which region takes its land, given that the zone is never split between the neighbours; (c) an area where the holder test of R048 cannot tell the parties apart. For (c) the owner agreed in principle on 2026-10-03 to a fallback — the party providing civil administration to residents, otherwise nobody — but that fallback was not adopted with the settling rule.
+
+**Closure criterion:** a rule for each case that keeps R003/R004 and draws no line the parties do not state (R047).
+
+## Q017 — Unclaimed land and areas with no agreed boundary
+
+**Impact: a handful of areas, each a known curiosity.** R046, R047; register kinds `unclaimed` and `no_agreed_boundary`.
+
+Agreed in principle on 2026-10-03, not adopted: unclaimed land (`unclaimed`) is a cell of its own with no country, its outline being what the neighbours' own claim lines leave out; areas where a boundary must exist but is not agreed (`no_agreed_boundary`) are not cells — the land goes with whoever holds it and the place is a special place. The agreement depended on the definition of "administers" and the outline principle; the outline principle (D042) and the holder test (D043) are now adopted, the holder fallback is not (Q016).
+
+**Closure criterion:** the owner confirms or changes the treatment, and it is recorded as an R item.
+
+## Q018 — How are special places carried and attributed?
+
+**Impact: every special place and how the consumer shows it.** R045, R046, R054; D041, D044, D048.
+
+Open: how Track Your Regions carries special places (the owner expects a category of their own, something like "border curiosities"; to be raised with TYR as an importer need, not changed from here); how a declared perspective's attribution of a special place's land is reported when the land lies in a region of another country; what happens to a special place whose land lies in more than one region; and when a recently resolved dispute stays a special place.
+
+**Closure criterion:** a release format for special places and the matching TYR importer need, with the attribution of each special place per perspective.
+
+## Q019 — Release mechanics not yet decided
+
+**Impact: the consumer's view of change between releases.** R032, R055; D049.
+
+D049 fixes the yearly release, entry after two consecutive releases and exit after three years without the rule. Not decided: how the three years are counted against releases (calendar years from the suspension, or year-end cut-offs without the rule); whether releases ship a correspondence table between identifiers; whether a de-minimis rule applies to geometry corrections (the proposal: 1% of a region's area); and how a correction of an error of ours between releases is published.
+
+**Closure criterion:** the owner decides each point, recorded in R055 or R032.
 
 ## What is intentionally not included in this list
 

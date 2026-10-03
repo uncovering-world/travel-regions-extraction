@@ -1,8 +1,8 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.3.0-draft. Date: 2026-09-12. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.0-draft. Date: 2026-10-03. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
-The current normative decision on Stage 1 is D032–D037. Earlier research/experimental entries preserve the history but do not override the later, explicitly accepted CR-W-only core. D004–D007 remain accepted product constraints.
+The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
 ## How to read the log
 
@@ -58,6 +58,7 @@ The Library IDs are given for exact lookup of the original reports. The external
 - Counterarguments: "each one separately" does not define a split inside a composite territory; Antarctic claims cannot be turned into overlapping canonical cells. The user did not separately approve Crown Dependencies here.
 - Status: accepted as an original requirement; universal application and the Antarctic exception are unresolved, see D016, Q001.
 - Basis: S01. S03 extends this to a general identity model, but the extension is not confirmed by the user.
+- Note, 2026-10-03: territories with their own ISO 3166-1 entry are separated through the reference registry (D038, R045). The Antarctic exception is now an explicit convention (D040): the British Antarctic Territory stays inside the single Antarctic Stage 1 cell.
 
 ### D005 — Réunion is separated from metropolitan France
 
@@ -123,6 +124,7 @@ The Library IDs are given for exact lookup of the original reports. The external
 - Counterarguments: the same criterion may fragment Tasmania, Hawaii, California and a multitude of internal quarantine zones; the notion of substantiality is not defined.
 - Status: unresolved for the general criterion.
 - Basis: the criteria tables of S02/S03. A deficiency of the model cannot be closed by one additional customs document.
+- Note, 2026-10-03: a mandatory fee or purchase on arrival does not separate (D050, R056); customs and biosecurity formalities as such remain Q004.
 
 ### D012 — MultiPolygon and no automatic island split
 
@@ -141,6 +143,7 @@ The Library IDs are given for exact lookup of the original reports. The external
 - Counterarguments: separate control explains the boundary with Ukraine, but not automatically the one with Russia. A territorial legal-route witness or a general identity criterion is needed. Whether Crimea/Sevastopol is one cell or two is also not decided.
 - Status: tentative.
 - Basis: S02 "Crimea", S03 "Crimea"; do not extend the accepted status of D006.
+- Note, 2026-10-03: under the reference registry (D038) an area that a declared perspective attributes differently from the others is a cell of its own, which in the first world draft gives Crimea a cell separate from both Ukraine and Russia; its attribution follows the settling rule (D043). This entry itself is not promoted.
 
 ### D014 — Splitting Western Sahara by operational control
 
@@ -150,6 +153,7 @@ The Library IDs are given for exact lookup of the original reports. The external
 - Counterarguments: a map of the Berm is not identical to an exact current map of control; buffer/restricted strips and changes of control may require a different refinement. Two areas do not prove the separation of the western part from Morocco.
 - Status: tentative. Exactly two final cells are not approved.
 - Basis: the corresponding sections of S02/S03. E03 confirms only the legal-status layer.
+- Note, 2026-10-03: the reference registry (D038) separates the parts that declared perspectives attribute differently; outlines come only from lines the parties state (D042).
 
 ### D015 — Check St Helena / Ascension / Tristan da Cunha separately
 
@@ -166,7 +170,7 @@ The Library IDs are given for exact lookup of the original reports. The external
 - Rationale: overlapping claims cannot be turned into mutually exclusive regions without an additional rule.
 - Rules: R002–R005, R014, R026.
 - Counterarguments: one treaty regime does not prove one destination identity; territorial protected areas have permits. The land universe does not coincide with the Treaty Area. An explicit limitation of D004 is required for the British Antarctic Territory.
-- Status: tentative; reconciliation with the literal "each UKOT separately" is unresolved.
+- Status: tentative; reconciliation with the literal "each UKOT separately" is unresolved. Superseded by D040 (2026-10-03).
 - Basis: S02/S03 "Antarctica"; E04. It is not an exception accepted by the user.
 
 ### D017 — Closed territories are not excluded from coverage
@@ -302,6 +306,7 @@ The Library IDs are given for exact lookup of the original reports. The external
 - Status: tentative; the direction is directly confirmed for Russian border zones, generalisation to all types of restricted-regime zones requires the Q005 check.
 - Basis: the user's clarification of 12 September 2026.
 - ID history: during integration D031 was assigned instead of the duplicate D017 from upstream; the original D017 on the coverage of closed territories is preserved.
+- Note, 2026-10-03: D050 adopts the Q005 convention — a standing permit requirement for presence in a whole top-level or detached unit separates that unit; a permit for part of a unit, a border band or district, a list of places or a closed town stays a marker, as this entry says.
 
 ## CR-W core adoption
 
@@ -310,7 +315,7 @@ The Library IDs are given for exact lookup of the original reports. The external
 - Decision: `S1-core-v1` uses only CR-W — a proven hard territorial TravelDecision discontinuity with G-SCOPE/G-CONTEXT/G-HARD/G-TIME/G-EVIDENCE from the review. One valid class-based witness is sufficient regardless of frequency; there is no frequency threshold.
 - Rationale: proven different territorial decisions are incompatible with a single accepted hard decision function. A certificate that has not been found does not prove equality; `hard_compatible` requires positive complete equality of all accepted dimensions on the same S/t.
 - Rules: R007–R009, R012, R031, R038, R039, R044.
-- Status: accepted. Q001 narrowed/resolved for regime-based mandatory separation; the Stage 1 semantics as a whole are not declared complete.
+- Status: accepted. Q001 narrowed/resolved for regime-based mandatory separation; the Stage 1 semantics as a whole are not declared complete. Amended by D050 (2026-10-03): which classes are witnesses, which differences are hard, and which scopes qualify.
 - Basis: the user's explicit normative decision of 2026-09-12, after the Q001 Stage 1 rule review.
 
 ### D033 — CR-J is defined but not accepted
@@ -344,6 +349,7 @@ The Library IDs are given for exact lookup of the original reports. The external
 - Rules: R008, R009, R018, R022, R024, R044; the remainder of Q006/Q011 and the relevant data/model gaps.
 - Status: accepted distinction; the accepted constraints remain open in the part that is not proven.
 - Basis: the user's explicit decision of 2026-09-12.
+- Note, 2026-10-03: with the reference registry (D038) D004–D007 are expected to be derived, not hardcoded — D004 and D005 through ISO 3166-1 entries, D006 and D007 through ISO entries and areas that declared perspectives attribute differently ([Stage 1 as a list](../experiments/stage1-list/README.md), a draft without geometry). The British Antarctic Territory is covered by the explicit convention D040. The constraints stay open until a release check (V011) confirms the derivation.
 
 ### D037 — Historical profiles and current production are separated
 
@@ -352,3 +358,159 @@ The Library IDs are given for exact lookup of the original reports. The external
 - Rules: R008, R033, R035, R038, R044.
 - Status: accepted implementation consequence of D032–D034.
 - Basis: the user's explicit reproducibility requirement of 2026-09-12.
+
+## Decisions of 2026-10-03
+
+Taken one at a time in conversation with the owner; the backlog and its order are in [status.md](status.md). Issues: [#17](https://github.com/uncovering-world/travel-regions-extraction/issues/17), [#19](https://github.com/uncovering-world/travel-regions-extraction/issues/19), [#20](https://github.com/uncovering-world/travel-regions-extraction/issues/20), [#22](https://github.com/uncovering-world/travel-regions-extraction/issues/22). Named places in these entries are examples the owner used, not rules.
+
+### D038 — No region crosses a country boundary under a supported perspective
+
+- Decision: Stage 1 refines a declared reference registry — ISO 3166-1 and the national points of view of Natural Earth. A region never crosses a country boundary under any supported perspective. The rule sits in Stage 1, so Stage 2 cannot cross it either (R041).
+- Rationale: the consumer needs every region inside one country under each perspective it supports, so that "regions of a country" can be read from the canon (consumer contract C2, C3; TYR #770, #771). CR-W cannot guarantee that: it separates only where entry rules differ, so a microstate with no entry regime of its own would merge with its neighbour. ISO 3166-1 alone has no cell for Crimea, Kosovo, Northern Cyprus, Somaliland, Abkhazia, South Ossetia or the Sovereign Base Areas; with the national points of view the first world draft derives D004–D007 except the Antarctic case (settled by D040).
+- Rules: R045; R009, R016, R039 amended; notes on R010, R018, R019, R022, R023, R028; check V011.
+- Counterarguments: the registry is a product declaration, not a legal proof; which disputes become cells depends on a dataset's columns, and Natural Earth's attributes contain opaque codes and at least one error, so names and attributions cannot be taken from it unchecked (Q014). The alternatives were CR-J, which needs a J1–J6 legal proof per pair and does not separate areas where perspectives disagree, and a curated list of names, which R008 and D036 reject. Small perspective-dependent areas are not handled by a size floor or by the substrate (D052) but by kind (D044–D047); where those make an area a special place, its land stays in its holder's region even though a perspective places it elsewhere.
+- Status: accepted.
+- Basis: owner decision, 2026-10-03; [reference-registry proposal](proposals/reference-registry.md); [world Stage 1 draft](../experiments/stage1-world-draft/README.md); [consumer contract](proposals/consumer-contract.md) (proposal).
+
+### D039 — The canon is pinned to stated editions of its reference lists
+
+- Decision: the canon is pinned to stated editions of ISO 3166-1 and Natural Earth, and moves to a new edition only by the owner's decision at a release, after seeing what the new edition would change.
+- Rationale: a new edition can add, remove or reattribute cells; the consumer needs regions that change only for a stated reason (consumer contract C7).
+- Rules: R045, R055.
+- Counterarguments: the canon can lag behind a change that both lists already show, by up to a release.
+- Status: accepted.
+- Basis: owner decision, 2026-10-03; [reference-registry proposal](proposals/reference-registry.md), parameter 4; [release stability proposal](proposals/release-stability.md).
+
+### D040 — Antarctica is one Stage 1 cell, divided in Stage 2 by access
+
+- Decision: the Antarctic land in U is one cell in Stage 1. Stage 2 divides it by how and from where travellers reach it, also taking into account how people who work there see it. National claims stay an overlay and create no region, including where a declared perspective of the registry would attribute a sector to a claimant.
+- Rationale: overlapping claims cannot become mutually exclusive regions (R004), and the Treaty preserves positions on claims without settling them (E04). How travellers reach the continent is a destination question, which belongs to Stage 2.
+- Rules: R026 amended; R045 (qualification 3); Q003, Q011, Q012 annotated. Supersedes D016.
+- Counterarguments: the British Antarctic Territory and the Antarctic parts of other claimants are not regions, so the literal "each British overseas territory separately" of D004 does not hold there. This is an explicit, named convention adopted by the owner (Q011), not a derived rule. The Stage 2 criteria are not yet operational.
+- Status: accepted.
+- Basis: owner decision, 2026-10-03; [reference-registry proposal](proposals/reference-registry.md), parameter 3.
+
+### D041 — Special places are objects inside their parent region
+
+- Decision: places that the rules do not make regions but that matter to travellers — border-line disputes, undelimited stretches, uninhabited islets and claimed rocks, uninhabited zones, small leases — are special places: tickable, shown with the region that holds them, and not counted as regions. The owner expects Track Your Regions to carry them as a category of their own, something like "border curiosities"; this is raised with TYR as an importer need, not changed from here.
+- Rationale: a hardcore traveller seeks such places out, but most have no outline that the parties state (D042) and no residents; as regions they would add cells the canon cannot delimit. As objects they stay visible without breaking the partition.
+- Rules: R046; R050–R054, R056.
+- Counterarguments: a special place adds nothing to region totals, and a consumer without a category for them loses them. Its land may lie in a region that a declared perspective attributes to another country (Q018).
+- Status: accepted.
+- Basis: owner decision, 2026-10-03.
+
+### D042 — Outlines come from lines the parties state; the substrate is extensible
+
+- Decision: the outline of a special cell is never drawn here. It comes from lines the parties themselves state — claim, ceasefire, treaty or lease lines, coastlines; where there are none, there is no cell, only a special place. The registry and the register say which places are separate and whose they are; they are not the only source of outlines. The substrate must be extensible: where it has no fitting unit, a custom geometry is added as needed, from a cited source of the line the parties state.
+- Rationale: a line drawn here would be the project's own judgement of a dispute; a front line moves. The canon must not depend on one substrate, which is weak in places (consumer contract C6; South Ossetia is poorly cut in GADM).
+- Rules: R047; notes on R028, R030.
+- Counterarguments: some distinct places have no stated line and remain special places only. Stated lines are published unevenly and in different forms. How custom geometries are sourced, pinned and versioned is not designed (Q013).
+- Status: accepted.
+- Basis: owner decision, 2026-10-03 (the outline principle and the statement on geometry); [Stage 1 as a list](../experiments/stage1-list/README.md).
+
+### D043 — The holder of an area, and the settling rule for contested control
+
+- Decision: (1) An area's holder is the party whose officers can in practice admit a civilian, refuse one and remove one; rules that cannot be enforced there do not count. Holding in fact is enough; there is no separate condition about civil administration. (2) An area taken by force, with a claim by the new holder and within an outline the parties state, is unsettled and stays attributed to its last settled holder. The canon accepts the new holder after three consecutive quiet calendar years, or at once when the side that lost the area stops contesting by an explicit act — an agreement, an accepted ruling, a renunciation of the claim, or ceasing to exist; nothing weaker counts. (3) There is no original or rightful holder: a retaking is a change like any other (D053). (4) The status creates no regions: an unsettled area becomes a region through the registry or CR-W, and at acceptance at the latest. (5) While fighting moves the line, nothing is delimited; the regions touched carry a flag (the owner's proposal). The status and its paths are as in the settling-rule proposal.
+- Rationale: on 78 seizures by states and 40 breakaway entities since 1945, raising the wait from two to three years is the last step that removes reversals by force; beyond three, waiting removes only changes later ended by agreement, at a growing cost; the picture at the end of 2024 is the same for one to three years. Who held an area first is often disputed, and some conflicts run for decades with long pauses. An act has a date and a document; "can no longer act" would be a judgement of ours. Holding in fact applies to uninhabited areas too: 16 of the 39 seizures accepted at three years are uninhabited, and a condition about administration for residents could never be met there.
+- Rules: R048, R049; notes on R015, R024, R030; Q007, Q008 narrowed.
+- Counterarguments: each step in the back-test rests on two to four cases, with year precision and one author's dataset per population; two years is defensible as the literature's convention. Acceptance by time can be read as accepting the result of force; the canon records whose officers a visitor meets, and the other side stays a claimant. The tie from areas to UCDP conflicts is a judgement by name and is the clock's weakest input. What applies when the holder test cannot tell the parties apart is open (Q016).
+- Status: accepted.
+- Basis: owner decision, 2026-10-03; [settling-rule proposal](proposals/settling-rule.md); [settling-rule back-test](../experiments/settling-rule/README.md); [control-duration experiment](../experiments/control-duration/README.md); [literature note](research/2026-10-03-settling-time-literature.md). The earlier definition of "administers", with civil administration as a fallback, was agreed only in principle; its fallback is in Q016.
+
+### D044 — Disputes about where a border line runs are special places
+
+- Decision: an area whose register kind is `line_position` is not a cell. The land belongs to the region of whoever holds it, and the dispute is a tickable special place on top of the map.
+- Rationale: both sides agree that a border exists and disagree only on where it runs; a cell would be a region bounded by the very line in dispute, with no outline the parties share.
+- Rules: R050; R046.
+- Counterarguments: a declared perspective that shows the strip as another country's is not honoured by the region boundary there (R045, qualification 2; Q018).
+- Status: accepted.
+- Basis: owner decision, 2026-10-03; [register of disputed areas](../data/disputed-areas/README.md).
+
+### D045 — Islets and paper claims: regions only where civilians live
+
+- Decision: an islet group disputed for the sea around it (`islets_for_maritime_zone`) with resident civilians (`inhabited` = `yes`) is a region, outlined by its coastlines; the others are special places, their land going with whoever holds it. An area another state claims on paper only (`paper_claim`) is a region if a supported perspective puts it in another country and it has resident civilians; otherwise it is a special place and its land goes with the holder. Areas with their own ISO 3166-1 entry stay regions regardless; a claim that no supported perspective shows gives only a marker.
+- Rationale: where people live under one party while another claims the place, a visitor meets a distinct situation; an uninhabited rock is better kept visible as a special place than as a cell. Residents are a sourced register fact, and coastlines are outlines the parties do not contest.
+- Rules: R051; R045, R046, R055.
+- Counterarguments: the test turns on one register fact and on which perspectives are declared. A group held in parts by several parties with no line between the parts has no single country in the default view; how that is handled was left to be settled when the rule is recorded and is open (Q016). When the last residents leave, the region follows the exit rule of D049.
+- Status: accepted.
+- Basis: owner decision, 2026-10-03; [Stage 1 as a list](../experiments/stage1-list/README.md).
+
+### D046 — Zones with no single holder
+
+- Decision: an area of kind `own_regime` — a UN buffer or separation zone, a demilitarised zone, a condominium — is a region with no country if civilians live there and the parties state its outline; otherwise it is a special place. Nothing is split between the neighbours.
+- Rationale: such a zone is run by neither neighbour as ordinary territory; splitting it along a midline would draw a line the parties never stated (D042).
+- Rules: R052; R046, R047.
+- Counterarguments: for an uninhabited zone or one without a stated outline, the decision does not say which region holds its land (Q016).
+- Status: accepted.
+- Basis: owner decision, 2026-10-03.
+
+### D047 — Leased areas and bases belong to the lessor's country
+
+- Decision: for an area of kind `lease_or_base` the country is the lessor's, since the parties agree whose land it is; the area is a region only where entry follows its own rules (examples: Baikonur, Guantanamo Bay), and the lessee is named. A leased road or piece of a port with no population and no entry rule of its own is not a region; it is a special place.
+- Rationale: a lease is an agreed arrangement, not a dispute over whose land it is; what a visitor meets is decided by whether entry differs.
+- Rules: R053; R046, R056.
+- Counterarguments: whether a leased area has its own entry rule is often poorly documented; four leased sites still lack that fact in the list build.
+- Status: accepted.
+- Basis: owner decision, 2026-10-03; [Stage 1 as a list](../experiments/stage1-list/README.md).
+
+### D048 — Recently resolved disputes need no rule of their own
+
+- Decision: for an area of kind `resolved_recently` the agreed outcome is taken over at the next release, and the place may stay as a special place.
+- Rationale: an agreed settlement is the explicit act of D043 and a fact like any other.
+- Rules: R054.
+- Counterarguments: when a resolved dispute stays a special place is not stated (Q018).
+- Status: accepted.
+- Basis: owner decision, 2026-10-03.
+
+### D049 — Yearly releases; when an uncontested boundary enters and leaves
+
+- Decision: one release a year, for the situation at the end of the year; between releases the set of regions does not change, and only errors of ours are corrected. A part of a country becomes a region because of its own entry rule only when the rule is in force at two yearly releases in a row; a stated expiry or "pilot" label is ignored. When the rule is suspended or ends, the region stays, marked as having no special rule at present, and is merged back if the rule has not returned after three years — the same number as the waiting time for contested control. The same holds for any boundary that lost its basis, including an islet group or claimed area whose last residents left.
+- Rationale: of 55 territory-specific entry regimes started since 2000, 4 ended within two years outside the 2020 closures; a second cut-off halves the short-lived entries, a third adds nothing. Stated expiries were mostly outlived and early endings were not announced, so a rule's stated duration is a poor guide. Suspended regimes usually came back within two to four years, so a suspension should not remove a boundary at once. The consumer needs regions that hold still (consumer contract C7).
+- Rules: R055; notes on R031, R032; Q008, Q010 narrowed.
+- Counterarguments: every new regime waits a year; a release can show a region whose rule has lapsed, for up to three years (it is marked). The regime collection under-counts ended regimes. The release-stability proposal's exit after two cut-offs, its de-minimis rule and its correspondence tables were not decided (Q019).
+- Status: accepted.
+- Basis: owner decision, 2026-10-03; [release stability proposal](proposals/release-stability.md); [regime-lifetimes experiment](../experiments/regime-lifetimes/README.md).
+
+### D050 — CR-W amendments: transit, scope, presence permits, group, border-traffic and operator rules, held areas, fees
+
+- Decision:
+  1. A rule for travellers in transit is not a witness; only trips to the place as a destination are compared, and a transit regime's territorial limits are an overlay (proposal A1).
+  2. A place with its own entry rule is a region only if it is a whole top-level unit of its country, or a smaller but detached unit — an island or an exclave — that has a rule written for it, not a line in a list. Everything else is an object inside its region, marked (border bands and districts, lists of islands or ports, closed towns, single valleys). This replaces proposal A2.
+  3. A standing rule that makes presence in a whole unit conditional on a permit for an ordinary visitor separates that unit, for the same kinds of unit as in item 2; a permit for part of a unit stays a marker (proposal A3; the convention Q005 asks for).
+  4. A rule that applies only to organised groups is not a witness; only a rule for an independent visitor separates. Group schemes are markers.
+  5. A rule only for residents of a neighbouring area across the border (local border traffic) is not a witness; it is a marker.
+  6. A rule under which a place can be reached only through a tour operator is a witness, because it closes the place to an independent visitor.
+  7. For an area held by another party, the holder's own entry rule, with an outline the parties state, is the witness; the test of item 2 is not applied.
+  8. A mandatory fee or purchase on arrival does not separate; only rules on who may enter and for how long do (visa, permit, separate control, stay limit). Fees are markers. This answers Q004 for entry.
+- Rationale: applied to 116 real regimes, CR-W without amendments produced artefacts — transit areas, border bands, lists of sites — next to good cells; the census went from 55 cells to 26 under the first proposal. Transit, group, border-traffic and fee rules describe how a trip is organised or paid for, not who may be in the place. The owner found A2 too coarse: a list of whole border districts would have passed it. Whole-unit permits keep places that every travel list treats as their own; a tour-operator-only rule closes a place to an independent visitor, which a group concession does not.
+- Rules: R056; R014, R044 amended; notes on R007, R013, R017, R027; Q002, Q004, Q005, Q009 narrowed.
+- Counterarguments: one rule over several top-level units separates each of them, which looks odd as a set of regions (a known rough case, Q015). "Top-level" and "detached" need an operational source (Q015). The line between a tour-operator rule and a group concession must be read from each rule's text. The amendments narrow what a producer may attest under the gates; they do not change the evaluator's input contract.
+- Status: accepted.
+- Basis: owner decision, 2026-10-03; [CR-W amendments proposal](proposals/crw-amendments.md); [world Stage 1 draft](../experiments/stage1-world-draft/README.md); [Stage 1 as a list](../experiments/stage1-list/README.md).
+
+### D051 — Product profile: no witness, no boundary; "cited" evidence enters a release
+
+- Decision: releases are built with "no witness, no boundary": inside a country a boundary exists only where a rule with a source is recorded, and the rest is marked as assumed, not proved. A witness at the level "cited" (source, passage and dates; may be prepared by the agent) is enough for a release; review by a named person is for conflicting or missing primary sources, or on the owner's request. The strict core stays as the definition of a proved boundary; every boundary in a release states its rule and evidence level.
+- Rationale: under the strict core two areas are compatible only after positive proof of equality in all seven hard dimensions for every traveller context; the Q001 experiment reached that in 0 of 147 results. A release cannot wait for that. Two profiles keep "proved" and "assumed for now" apart instead of weakening the core.
+- Rules: R057; note on R038.
+- Counterarguments: a cited witness prepared by an agent can be wrong; the evidence level is published so the consumer can see it. A place whose rule is widely reported but has no cited source (the proposal's example: a permit described only by travel agencies) gets no boundary until a source is found. Treating evidence below "cited" as insufficient follows the proposal's text; the owner's statement names only "cited" as sufficient.
+- Status: accepted.
+- Basis: owner decision, 2026-10-03; [product profile proposal](proposals/product-profile.md).
+
+### D052 — Rejected: tying small disputed areas to the substrate, or a bare area threshold
+
+- Decision: two ways of deciding which small perspective-dependent areas become cells are rejected: (a) an area that no substrate unit can represent is attached to the administering cell and marked; (b) an area below a fixed size (the first world draft used 100 km²) is not a cell.
+- Rationale: the substrate is not an authority — whether a boundary dataset happens to have a unit says nothing about the place. A size threshold cuts arbitrarily: in the first draft it removed Akrotiri (78 km²) and kept Dhekelia (102 km²). Both are replaced by the treatment by kind (D044–D047).
+- Rules: none; R045 qualification 2 and R050–R053 apply instead.
+- Counterarguments: both options are simple and need no register facts; the kind-based treatment depends on the register's `kind` and `inhabited` facts, which still have gaps.
+- Status: rejected.
+- Basis: owner decision, 2026-10-03; [reference-registry proposal](proposals/reference-registry.md), parameter 2; [world Stage 1 draft](../experiments/stage1-world-draft/README.md).
+
+### D053 — Rejected: taking a retaking by the "original holder" over at once
+
+- Decision: an earlier draft of the settling rule took a retaking by an area's original holder over at once. Rejected.
+- Rationale: who held an area first is often disputed, and some conflicts run for decades with long pauses. Where no waiting is needed, the reason is that the other side stopped trying — the dispute over Nagorno-Karabakh ended with the dissolution of Artsakh — not that the first holder came back. Under the adopted rule a retaking is a seizure like any other (Thule Island: accepted as held by Argentina in 1979, retaken by British troops in 1982, accepted as held by the United Kingdom in 1985).
+- Rules: R049 (no original holder).
+- Counterarguments: a state that recovers its own territory waits as long as a conqueror unless the other side stops contesting by an act.
+- Status: rejected.
+- Basis: owner decision, 2026-10-03; [settling-rule proposal](proposals/settling-rule.md).

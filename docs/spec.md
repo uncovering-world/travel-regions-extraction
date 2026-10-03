@@ -1,6 +1,8 @@
 # Canonical Travel Regions — working specification
 
-Version: 0.3.0-draft. Date: 2026-09-12. Status: CR-W is accepted as the current production Stage 1 core; the full Stage 1 semantics and the world classification are not complete.
+Version: 0.4.0-draft. Date: 2026-10-03. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
+
+Changes in 0.4.0-draft: R045–R057 added from the owner's decisions of 2026-10-03 (D038–D053); R009, R014, R016, R026, R039 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
 
 ## Basis and limits of reliability
 
@@ -52,6 +54,8 @@ Context C contains citizenships, documents and their types, residency, purpose, 
 
 TravelDecision distinguishes admission, the required authorisation, the accepted documents, the conditions of stay/exit, mandatory procedures, physical accessibility and legality under each relevant jurisdiction. A split based on a difference in conditions needs a **witness**: a concrete admissible C and two destinations A/B for which a material decision differs. The route is compared for the same class of trip; a mere difference in destination coordinates or airport names is not a witness.
 
+Note, 2026-10-03 (D050): R056 narrows which classes are witnesses — transit, organised-group-only and local-border-traffic classes are not; a rule that admits visitors only through a tour operator is.
+
 ### R008 — Certificate of mandatory separation [tentative]
 
 `must_separate(A,B,profile)` and `hard_compatible(A,B,profile)` are independent Stage 1 predicates. `must_separate` means sufficient positive evidence forbids A and B from occupying one final canonical travel region under the selected profile. `hard_compatible` means positive evidence establishes equivalence across the profile's complete hard signature and no mandatory-separation certificate applies. It means only that Stage 1 requires no boundary between A and B. It does not decide whether Stage 2 places them in one final region. `not must_separate` does not imply `hard_compatible`.
@@ -60,11 +64,11 @@ Each `must_separate(A,B,profile)` contains rule_id, versioned profile/traveller 
 
 `must_separate(A,B)` means that no final region contains points of both areas. This does not promise that A as a whole becomes exactly one region: an additional split inside A is possible.
 
-### R009 — Two-stage partition construction [accepted; Q001, Q005, Q012]
+### R009 — Two-stage partition construction [accepted; Q001, Q005, Q012; amended by D038, D050, D051]
 
 1. Fix U, time, rule profile, and facts. Build candidate geometries without using desired output names.
 2. Build their common geometric refinement as technical atoms. These atoms are not user-visible regions.
-3. Stage 1 computes the coarsest partition satisfying the accepted hard rules of the versioned profile (currently only CR-W, R044). Accepted product regression constraints without a derivation are reported as unresolved requirements, not inserted as hardcoded boundaries. For each atom, evaluate the profile's hard signature as specified by R038.
+3. Stage 1 computes the coarsest partition that refines the reference registry (R045), applies the rules for disputed and special-status areas (R049–R054) and satisfies the accepted hard rules of the versioned profile (CR-W, R044 as amended by R056). A release is built under the product profile `S1-product-v1` (R057). Accepted product regression constraints without a derivation are reported as unresolved requirements, not inserted as hardcoded boundaries. For each atom, evaluate the profile's hard signature as specified by R038.
 4. `signature_complete(A,profile)` is true only when every required profile dimension has an evidence-backed `known_value`, `known_absence`, or justified `not_applicable` state. `unknown` and `unresolved_model_semantics` make the signature incomplete.
 5. `signatures_equal(A,B,profile)` can be true only when both signatures are complete and every typed hard dimension is equal. A finite set of traveller examples cannot prove completeness.
 6. `hard_compatible` requires complete equal hard signatures and no applicable `must_separate` certificate. Absence of a witness, an empty search result, and `not must_separate` are not positive compatibility evidence.
@@ -78,6 +82,8 @@ Hard-signature equality must be an equivalence relation, and Stage 1 must be ord
 The second version of the research proposes forbidding the merging of stable external territorial jurisdictions even when travel policies are equal. There is as yet no general verifiable definition of "external" and "independent" identity. Neither an ISO code, nor a flag of its own, nor tourist renown substitutes for it.
 
 Territorial/legal identity alone is not an accepted Stage 1 hard separator. Undefined identity is excluded from production and production-candidate semantics. P3 is retained only as a historical non-production, model-unresolved profile: when the result depends on identity it returns `model_unresolved` / `Q001.identity`; an already proven historical P1/P2 split is preserved. P3 is not a Stage 2 destination model. A registry, an ISO code and curated exceptions do not replace the predicate. A possible future precisely defined legal-status rule requires a separate decision on Q006; undefined identity does not block completeness of the current CR-W core.
+
+Note, 2026-10-03 (D038): the reference registry of R045 separates countries and perspective-dependent areas. It is a declared product rule with a pinned external source, adopted by the owner, not an identity predicate; this item's statement that a registry does not replace an identity predicate still holds.
 
 ### R011 — Immigration / admission jurisdiction [well-defined normative candidate; not adopted]
 
@@ -97,7 +103,11 @@ It is not resolved why this test should separate, for example, a special island 
 
 This is the unresolved state of an additional experimental hard rule. In `S1-core-v1` an independent customs/biosecurity dimension is not accepted and is not required for completeness; such a label alone does not block positive equality of the accepted dimensions. If a specific alleged CR-W effect has an unresolved hard classification, the blocker of the corresponding gate is retained.
 
-### R014 — Destination permits and special zones [unresolved; Q005]
+Note, 2026-10-03 (D050): a mandatory fee or purchase on arrival is not a separator; it is recorded as a marker (R056). Customs and biosecurity formalities as such remain Q004.
+
+### R014 — Destination permits and special zones [unresolved; Q005; amended by D050]
+
+Amendment, 2026-10-03 (D050, R056): a standing rule that makes presence in a whole unit conditional on a permit for an ordinary visitor (a civilian short-stay class) separates that unit, for the units that pass the scope test of R056 — a whole top-level unit of its country, or a smaller detached unit with a rule written for it. This is the explicit convention Q005 asks for. A permit for a part of a unit stays a marker, and the overlay default below continues to cover everything else.
 
 In current production only a territorial legal effect that has passed G-HARD and the other gates of R044 gives CR-W. The unresolved boundary between territorial presence permit and spatial overlay remains Q005/Q009, even if the permit is verified. Whole administrative scope, the size and the name of the destination do not close the gate.
 
@@ -111,7 +121,11 @@ A permit that regulates ordinary civilian admission to the candidate territory a
 
 A control label or a difference in military control does not by itself require a split. Control evidence may support CR-W if it proves an actual hard territorial travel consequence and all gates of R044, including territorial legal effect and standing rule. A difference in physical coercion without a defined hard consequence is not added as a hidden dimension; civil, military, border and enforcement roles remain separate, shared/noninstitutional control is Q007, temporal uncertainty is Q008. Uncertain operational geometry does not turn into a precise line without R030.
 
-### R016 — What is not sufficient for a split by itself [tentative]
+Note, 2026-10-03 (D043): who holds an area is defined by R048 (the party that can in practice admit, refuse and remove a civilian), and a forcible change of control changes the canon's attribution only under the settling rule R049. A label still does not split by itself.
+
+### R016 — What is not sufficient for a split by itself [tentative; amended by D038]
+
+Amendment, 2026-10-03 (D038): an entry of ISO 3166-1 and a country boundary under a declared perspective of the reference registry do separate, through R045 — not as a CR-W `must_separate`, but as a declared registry boundary. A territorial claim separates only where a declared perspective shows it, and then subject to R050–R054. The statements below about an ISO code, a claim and recognition apply to everything else: ISO 3166-2 and other codes, and claims or recognition that no declared perspective shows.
 
 Accepted for current production: `disputed=true`, `claim exists`, `recognition differs`, `controller label differs`, `military control differs`, dependency label, autonomous status, overseas status and island status **are not independently sufficient separators**. Their actual hard territorial travel consequences may take part in CR-W evidence; labels do not become signature dimensions. Accepted product regressions D004–D007 are kept separately from derivable hard rules.
 
@@ -123,15 +137,21 @@ EU/Schengen/CTA and other common areas are reusable versioned policies. Claims, 
 
 The presence of an overlay does not cancel a verified CR-W split under R044. Otherwise any heterogeneous space could be declared one region with arbitrary nested checks. The homogeneity of R006 refers to the approved hard dimensions, not to all possible local rules. CR-J is not accepted; historical R011 splits do not substitute for the current production norm.
 
+Note, 2026-10-03 (D040, D050): the territorial limits of a transit regime, group-only schemes, local border traffic schemes, fees on arrival, permits for part of a unit and entry rules whose scope fails R056's scope test are markers (R046), that is, overlays in the sense of this item. Antarctic claims stay overlays (R026).
+
 ## Categories of territories
 
 ### R018 — Dependent territories [tentative; Q001]
 
 Dependency creates a political relation and a candidate for analysis. Metropolitan policies must not be inherited without evidence. In the current core a split requires CR-W; an independent admission jurisdiction without it remains the non-adopted CR-J candidate, dependency/overseas status is not a separator. D004 is retained as an accepted product regression constraint, but is not guaranteed by CR-W and is not hardcoded. One dependent territory may contain several regions; claims cannot violate R004.
 
+Note, 2026-10-03 (D038): a dependent territory with its own ISO 3166-1 entry is separated through the reference registry (R045); the dependency label itself still does not separate. The British Antarctic Territory stays inside the Antarctic cell (R026, D040).
+
 ### R019 — Overseas territories [tentative; Q001]
 
 Overseas parts are checked individually regardless of the form of the constitutional link: department, collectivity, overseas country, etc. Distance from the metropole and membership of the "French overseas"/"British overseas" family are insufficient for a specific merge or split. Non-equivalent immigration scopes require separation from the metropole under R012; merging overseas parts with one another is checked separately.
+
+Note, 2026-10-03 (D038): an overseas part with its own ISO 3166-1 entry is separated through R045 regardless of its immigration scope.
 
 ### R020 — Autonomous regions [tentative]
 
@@ -145,9 +165,13 @@ An island, an exclave and the need to transit through a neighbouring state do no
 
 A dispute creates a dispute object with geometry and legal positions, but not automatically a canonical region or a Stage 1 boundary. A proven territorial admission/legal-route/access consequence may give CR-W under R044; dispute/claim/recognition are not sufficient by themselves. A claim polygon does not assign points. The requirement to keep a legal-status area separate without CR-W remains unresolved Q006, and the accepted D006/D007 do not turn into rules and are not considered satisfied by overlays or by a future Stage 2.
 
+Note, 2026-10-03 (D038, D044–D048): a disputed area is separated where a declared perspective of the reference registry places it in another country (R045), and the register of disputed and special-status areas decides by kind whether an area is a region, a special place or a marker (R050–R054). D006 and D007 are expected to follow from R045; they stay accepted constraints until a release check confirms it (D036).
+
 ### R023 — De facto states [tentative]
 
 The de facto system of territorial admission is assessed under CR-W/R044 regardless of the number of recognising states. The independence of admission competence is assessed separately as the non-adopted CR-J candidate of R011. Counterexample: the same hard decisions as before, with recognition having changed, do not give a new split. The name of a state and a claim contour do not replace operational scope.
+
+Note, 2026-10-03 (D038, D043, D050): a de facto state is separated where a declared perspective shows it (R045), or by the holder's own entry rule for the area with an outline the parties state (R056, rule for held areas), and at the latest when the canon accepts its holder under R049.
 
 ### R024 — Occupation and disputed control [tentative; Q006, Q007]
 
@@ -155,13 +179,19 @@ De jure sovereignty/legal status, de facto control and traveller reality are sto
 
 If a CR-W discontinuity is proven inside an area, the corresponding scopes are separated under R044. Separation from the ordinary territory of the same controller requires its own CR-W certificate; an internal control boundary does not replace it. D006 concerns ordinary Ukraine, D013 about ordinary Russia remains tentative; D007 is not guaranteed in the absence of CR-W. International legal status is stored independently of claims, but the label itself is not a hard dimension. Legal applicability to C must be proven independently of a bare claim, otherwise Q006. Neither occupation nor military control automatically defines a contour or the number of cells.
 
+Note, 2026-10-03 (D043): the canon's attribution of an area whose control changed by force follows the settling rule R049; while the line moves, no area is delimited and the regions touched carry a flag.
+
 ### R025 — Uninhabited and closed territories [tentative]
 
 All their points that fall within U take part in the partition. `visitability = closed/restricted/unknown` is a property, not a ground for exclusion. Being uninhabited does not require a separate region_id. Separate permits are checked under R014. The absence of a confirmed controller is encoded explicitly; adjacency does not give the right to attach a territory automatically.
 
-### R026 — Antarctica [tentative; Q003, Q005]
+Note, 2026-10-03 (D045, D046): for register areas of kind `islets_for_maritime_zone`, `paper_claim` and `own_regime`, resident civilians are one condition of being a region (R051, R052); an uninhabited area of those kinds is a special place. For islets and paper claims its land goes with its holder, not with a neighbour by adjacency; for zones with no single holder the region that takes the land is open (Q016).
 
-Baseline hypothesis: one canonical cell for the Antarctic land included in U south of 60°S; national claims remain overlapping overlays. This is a working choice, not the conclusion "one treaty = one region". Stations and protected sites are initially access overlays. National authorisation of an expedition, which depends on the organiser/route, does not by itself divide geography. A proven territorial admission boundary brings back the question of R014.
+### R026 — Antarctica [Stage 1 part accepted; D040; Q003, Q012]
+
+Amendment, 2026-10-03 (D040): Stage 1 has one cell for the Antarctic land included in U south of 60°S. National claims remain overlays; they create no Stage 1 boundary, including where a declared perspective of the reference registry (R045) would attribute a sector to a claimant. Stage 2 divides the cell by how and from where travellers reach it, also taking into account how people who work there see it; the operational criteria are part of Q012. This is an explicit convention adopted by the owner (Q011), not a derivation.
+
+Original baseline (2026-09-12), kept for history: one canonical cell for the Antarctic land included in U south of 60°S; national claims remain overlapping overlays. This is a working choice, not the conclusion "one treaty = one region". Stations and protected sites are initially access overlays. National authorisation of an expedition, which depends on the organiser/route, does not by itself divide geography. A proven territorial admission boundary brings back the question of R014.
 
 The area of application of the treaty includes more than land: the Treaty Area must not be unconditionally equated with the geometry of this cell. The Antarctic portions of TAAF, British Antarctic Territory and other claimed sectors are not created as a second layer of canonical polygons. This is an explicit limitation of the general requirement about separate overseas territories (D004/D016), not a hidden exception.
 
@@ -171,6 +201,8 @@ For CR-W, the place of processing is distinguished from the territorial legal ef
 
 Airside, the port procedure, foreign preclearance and the stamp belong to EntryPoint/EntryEvent. They do not move physical geography into another state. Entry in the immigration sense and physical presence are separate. A counterexample to a split is an airport with different transit and landside rules without an independent territorial jurisdiction.
 
+Note, 2026-10-03 (D050): a class whose trip is defined by onward travel to a third territory is not a CR-W witness, and a transit regime's territorial limits are an overlay (R056).
+
 ## Geometry, time, reproducibility
 
 ### R028 — Choice of boundary by the ground of the split [tentative]
@@ -178,6 +210,8 @@ Airside, the port procedure, foreign preclearance and the stamp belong to EntryP
 In production the boundary is taken from the certified CR-W scope. G-SCOPE requires nonempty disjoint scopes and a proven effect on each fragment being certified; heterogeneous/overlapping reference objects first require explicit disjoint fragments. A witness between points does not prove blanket separation of the containing entities. An administrative polygon is allowed only as a documented proxy with its accuracy and basis. A claim line, an advisory buffer and a military map do not replace a scope certificate.
 
 Intersecting mandatory boundaries refine one another. The rule "the last polygon wins" and the blanket precedence from the first version of the research are **not accepted** here: they can erase another mandatory distinction. Contradictory descriptions of one boundary go through R030/R034. There is no approved universal ranking of all providers.
+
+Note, 2026-10-03 (D038, D042): registry boundaries come from the pinned editions of R045. The outline of a cell for a register area or a held area is a line the parties themselves state, never one drawn here (R047); where the substrate has no fitting unit, a custom geometry from a cited source of that line is added. How such geometries are sourced, pinned and versioned is Q013.
 
 ### R029 — Topology and points on the boundary [tentative]
 
@@ -189,6 +223,8 @@ Checkpoint lookup does not override territory(point): a separate query returns d
 
 The original estimate of the boundary, uncertainty geometry/precision, the date and the alternatives are stored. Approximate assignment is admissible in an explicitly provisional release with a quality flag; this is a single technical answer, but not exact knowledge of control. If even such a choice has no justification, the build returns the unresolved area separately and does not receive the status of a complete canonical release. An unknown area is not automatically a buffer state or terra nullius.
 
+Note, 2026-10-03 (D042, D043): a front line is never drawn. While fighting moves the line, no area is delimited; the regions touched keep their attribution and carry a flag (R049).
+
 ### R031 — Temporal model [tentative; Q008]
 
 For the current CR-W the sufficient G-TIME of R044 is accepted: an effective-at-t standing class-based or constitutive instrument, not activated exclusively by a specific incident/emergency/event. There is no age/duration threshold: a new standing jurisdiction/rule may take effect immediately; expiry does not by itself exclude a norm; a long emergency restriction does not become standing through age. An undetermined classification remains Q008. Revision between releases does not violate R041 on the refinement of the stages of one version.
@@ -197,11 +233,15 @@ A fact, policy membership, geometry and control record have `valid_from <= t < v
 
 A lookup specifies world_time and release_id/knowledge_time. A historical correction creates a new version of knowledge without rewriting the published result. A change of a visa requirement without a change of hard territorial scopes does not require a new region_id.
 
+Note, 2026-10-03 (D049): this item and G-TIME describe facts at a date t; they are unchanged. Which factual changes reach the consumer is decided at the level of yearly releases (R055): a boundary created by an uncontested entry rule enters only after two consecutive releases and leaves only after three years without the rule; contested control follows R049.
+
 ### R032 — Identity under split/merge [tentative; Q010]
 
 For a pure renaming and a digitisation correction the region_id is kept and the revision changes. On a semantic split the old ID is closed, and all new regions receive new IDs and `split_from`. On a merge a new ID with `merged_from` is created. Old IDs are not reused. A boundary transfer of area between persisting jurisdictions changes the geometry revision and the event log; if the territorial identity itself changes, split/merge applies. Where this boundary lies is examined in Q010.
 
 A visit event stores the time and the geographic evidence separately from the region_id at the time of recording; recalculation against a new map must not silently rewrite the user's history.
+
+Note, 2026-10-03 (D049): the set of regions changes only at a yearly release (R055); between releases only errors of ours are corrected. Correspondence tables and a de-minimis rule for geometry corrections are not decided (Q019).
 
 ### R033 — Build manifest [tentative]
 
@@ -245,11 +285,13 @@ This minimal composition of the signature is needed to implement the evaluator, 
 
 The current normative production profile is **`S1-core-v1`**, separator set **`[CR-W]`**, spec `0.3.0-draft`, R044. It is not a renaming of historical P1. Production completeness requires positive full equality only of the accepted hard decision dimensions of R044 on one S/t/scope; CR-J, undefined identity and control/status labels are not required. A certificate that was not found is not equal to `hard_compatible`. An unresolved relevant accepted dimension/gate keeps the model/data blocker; excluded identity does not by itself block production. Neither historical results nor sampled policies are considered a new production audit.
 
+Note, 2026-10-03 (D051): releases are built under the product profile `S1-product-v1` (R057), which treats the absence of a recorded witness inside a registry cell as no boundary and marks the result as assumed. That is a declared closed-world default for building releases, not `hard_compatible`; `S1-core-v1` remains the definition of a proved boundary.
+
 ## Two-stage architecture
 
-### R039 — Stage 1 Mandatory Separation [accepted]
+### R039 — Stage 1 Mandatory Separation [accepted; amended by D038, D050, D051]
 
-Stage 1 establishes boundaries that the final partition may not cross. Its current production core is only CR-W under R044 and all five proof gates. Final admission competence CR-J is a well-defined normative candidate, not adopted. Undefined territorial/legal identity, claims, recognition, dispute, control actors, military control, dependency, autonomy, overseas and island labels are not independent hard separators. Tourism/cultural/destination identity, administrative subdivision, remoteness, transport inconvenience and itinerary usefulness do not enter this evaluator. Accepted product constraints remain regressions even where the current core cannot derive them.
+Stage 1 establishes boundaries that the final partition may not cross. Its current production core is only CR-W under R044 and all five proof gates. Amendment, 2026-10-03: Stage 1 also refines the reference registry (R045) and applies the rules for disputed and special-status areas (R049–R054); CR-W is read with the amendments of R056; releases are built under `S1-product-v1` (R057). The pairwise `S1-core-v1` evaluator remains CR-W only. Final admission competence CR-J is a well-defined normative candidate, not adopted. Undefined territorial/legal identity, claims, recognition, dispute, control actors, military control, dependency, autonomy, overseas and island labels are not independent hard separators. Tourism/cultural/destination identity, administrative subdivision, remoteness, transport inconvenience and itinerary usefulness do not enter this evaluator. Accepted product constraints remain regressions even where the current core cannot derive them.
 
 ### R040 — Stage 2 Destination Partition [accepted; Q012]
 
@@ -297,6 +339,133 @@ One witness that has passed the gates is sufficient regardless of the number of 
 
 This is the accepted sufficient core, not the completion of all Stage 1 semantics. Q002/Q004/Q005/Q006/Q007/Q008/Q009/Q011 remain open in the residual part. D004–D007 are retained as accepted product regressions with no guarantee of deriving them from CR-W, with no special-case rules and with no promise to resolve them through Stage 2.
 
+Note, 2026-10-03 (amended by D050): R056 narrows what a producer of gate proofs may attest under G-CONTEXT (transit, organised-group-only and local-border-traffic classes are not witnesses; tour-operator-only access is), G-HARD (fees and purchases on arrival are not hard; whole-unit presence permits are) and G-SCOPE (the scope test for units of one country, and the witness for held areas). The five gates, the hard dimensions `H_v` and the evaluator's input contract are unchanged: gate records remain producer attestations, so the evaluator, its `SPEC_VERSION` and its tests are not changed. With D038 (R045) the registry, not CR-W, is what derives D004–D007; they stay accepted constraints until a release check confirms them (D036). Of the residual questions listed above, Q006 is closed and Q002, Q004, Q005, Q007, Q008, Q009 and Q011 are narrowed (see [open-questions.md](open-questions.md)).
+
+## Registry, disputed areas and releases
+
+Items R045–R057 record the owner's decisions of 2026-10-03 (D038–D053). They use the [register of disputed and special-status areas](../data/disputed-areas/README.md) as their factual input: its `kind`, `inhabited`, `holder`, `holder_since`, `contest_ended_by` and `stated_outline` fields, each a sourced fact. Rules read those fields; names of places appear only as examples.
+
+### R045 — Reference registry [accepted; D038, D039]
+
+The **declared perspectives** are ISO 3166-1 and the national points of view of Natural Earth, each at a pinned edition stated in the build manifest (R033). Each declared perspective P assigns land to countries; land that P assigns to no country is P's remainder. The canon's own attribution under R049 is treated as one more perspective for this rule.
+
+```text
+for every declared perspective P and every Stage 1 cell s:
+    s lies within exactly one country of P, or within P's remainder
+```
+
+Because Stage 2 refines Stage 1 (R041), no final region crosses a country boundary under any declared perspective. The registry adds boundaries only; CR-W and R049–R054 may separate further inside its classes. It is a declared product rule with an external source, not an identity predicate (R010) and not a CR-W certificate.
+
+Decided qualifications:
+
+1. An area with its own ISO 3166-1 entry is always a region.
+2. An area that R050–R054 make a special place creates no boundary, even where a declared perspective places it in another country: its land stays in the region of its holder (D045, D052). How the consumer learns that perspective's attribution is part of Q018.
+3. Antarctic claims create no boundary (R026).
+
+**Editions.** The canon is pinned to stated editions of ISO 3166-1 and Natural Earth. It moves to a new edition only by the owner's decision at a release, after a report of what the new edition would change (R055). Which Natural Earth attributions count as declared perspectives in detail, and how errors in its attributes are handled, is Q014.
+
+### R046 — Special places and markers [accepted; D041]
+
+A **special place** is an object with its own location or outline that is not a region. It is tickable, it is shown with the region that holds its land (its parent region), it is not counted as a region, and it does not change the partition. A **marker** is a recorded note on a region or a boundary — an overlay in the sense of R017 — and is neither a region nor a special place.
+
+Which places become special places or markers is stated by R049–R056: border-line disputes, undelimited stretches, uninhabited islets and claimed rocks, uninhabited zones with no single holder and small leases are special places; entry rules that fail R056 are markers. How the consumer carries special places is Q018.
+
+### R047 — Outlines come from lines the parties state [accepted; D042]
+
+The outline of a cell created for an area of the register, or for an area held by a party other than the one the surrounding region is attributed to, is never drawn by this project. It is a line the parties themselves state: a claim line, a ceasefire or armistice line, a treaty or lease line, or a coastline. A front line is never an outline. Where no such line exists, there is no cell: the place is a special place (R046), or, for an area whose control changed by force, the flag of R049 applies.
+
+The registry and the register say which places are separate and whose they are; they are not the only source of outlines. The substrate is extensible: where it has no unit that fits the stated line, a custom geometry is added from a cited source of that line. How custom geometries are sourced, pinned and versioned is Q013.
+
+### R048 — The holder of an area [accepted; D043]
+
+`holder(area, t)` is the party whose officers can in practice admit a civilian to the area, refuse one and remove one at t. Rules a party issues for an area but cannot enforce there do not count. Where parts of an area are held by different parties, each part has its own holder. Holding in fact is enough, for inhabited and uninhabited areas alike; there is no separate condition about civil administration. The holder and the date from which it has held the area without interruption are register facts with a source and a quoted passage; attribution is computed from them. What applies when this test cannot tell the parties apart is Q016.
+
+### R049 — Unsettled areas and the settling time [accepted; D043, D053]
+
+**When it applies.** All three must hold; otherwise the canon's attribution does not change.
+
+1. *Force*: a party takes control of the area without the consent of the party the canon attributes it to.
+2. *Claim*: the new holder asserts the area as its own or as a separate entity.
+3. *Stated outline*: any boundary involved is a line the parties state (R047).
+
+**States.** A *settled* area is attributed to its holder. An *unsettled* area is attributed to its last settled holder, and a release says that it is unsettled, since when, who holds it, and, while quiet, how many of the required quiet years have passed. *Active conflict* is a flag of its own, shown in any state while the conflict over the area has a conflict-year in the UCDP/PRIO Armed Conflict Dataset (25 or more battle-related deaths). The tie from an area to its conflicts is a maintained input of the register.
+
+**Clock.** T = 3. Each full calendar year after the year of the seizure adds one if it has no active conflict over the area, and resets the clock to zero if it has.
+
+**Paths.**
+
+| Path | Condition | Effect |
+|---|---|---|
+| Acceptance by time | T quiet calendar years in a row under the same holder | Attribution moves to the holder; the other side stays a claimant |
+| Acceptance by an act | The side that lost the area stops contesting by an explicit act: an agreement, an accepted ruling, a renunciation of the claim, or that party ceasing to exist; a dated, sourced fact. Nothing weaker counts | Attribution moves at the next release, without waiting |
+| Return | Control goes back to the party the canon attributes the area to | None |
+| Fighting without change of control | Active conflict, same holder | Flag only |
+
+There is no original or rightful holder: a party that retakes an area the canon attributes to someone else is a new holder like any other.
+
+**While the line moves.** When control changes over part of a region and the held part has no outline the parties state, no area is delimited and no region is created, even if entry to that part follows other rules. The regions it touches keep their attribution and carry a flag that part of them is unsettled, held by whom and since when, with active conflict while it applies. Once the parties state a line, the held part becomes an unsettled area and the clock applies.
+
+**The status creates no regions.** An unsettled area becomes a region of its own only through the registry (R045) or CR-W (R044, R056, including the witness for held areas), and at acceptance at the latest, because its attribution then differs from the rest of its former region; a strip between two neighbours then moves into the neighbour's region instead. Until then it stays inside the region of the party it is attributed to, marked.
+
+**First release.** The attribution of each contested area is found by applying this rule to its record: the holder whose control the other side last stopped contesting. Only the last settled holder is needed.
+
+### R050 — Disputes about where a border line runs [accepted; D044]
+
+An area whose register `kind` is `line_position` is not a cell. Its land belongs to the region of its holder (R048), and the dispute is a special place (R046).
+
+### R051 — Islets and paper claims: the residents test [accepted; D045]
+
+*Resident civilians* means the register's `inhabited` = `yes`; `garrison_only` and `no` do not count.
+
+1. An area of kind `islets_for_maritime_zone` with resident civilians is a region, outlined by its coastlines. Otherwise it is a special place, and its land goes with its holder.
+2. An area of kind `paper_claim` is a region if a declared perspective (R045) places it in a country other than its holder's and it has resident civilians. If a declared perspective shows the claim and the area has no resident civilians, it is a special place and its land goes with its holder. A claim that no declared perspective shows gives only a marker.
+3. An area with its own ISO 3166-1 entry is a region regardless of this test.
+
+An islet group held in parts by several parties with no line between the parts is Q016. When the last residents leave, R055 applies.
+
+### R052 — Zones with no single holder [accepted; D046]
+
+An area of kind `own_regime` (a buffer, separation or demilitarised zone, a condominium) is a region attributed to no country in the canon's attribution if civilians live there and the parties state its outline (R047). Otherwise it is a special place. The zone is never split between the neighbouring parties. Which region takes the land of such a special place is Q016.
+
+### R053 — Leased areas and bases [accepted; D047]
+
+An area of kind `lease_or_base` is attributed to the lessor's country, since the parties agree whose land it is; the lessee is recorded on it. It is a region only where entry to it follows rules of its own; otherwise it stays in the lessor's region as a special place. A leased road or part of a port with no population and no entry rule of its own is not a region.
+
+### R054 — Recently resolved disputes [accepted; D048]
+
+An area of kind `resolved_recently` needs no rule of its own: the agreed outcome is taken over at the next release, and the place may stay as a special place. When it does is part of Q018.
+
+### R055 — Releases and changes nobody contests [accepted; D039, D049]
+
+1. **Two layers.** Facts at a date t, and CR-W evaluated on them, stay as in R031 and R044 (G-TIME is unchanged). A **release** is the canon for the situation at the end of a calendar year. There is one release a year. Between releases the set of regions does not change; only errors of ours are corrected.
+2. **Entry.** A part of a country becomes a region because of its own entry rule only when the rule is in force at two consecutive yearly releases. A stated expiry date or a "pilot" label is ignored.
+3. **Exit.** When such a rule is suspended or ends, the region stays, marked as having no special rule at present, and is merged back if the rule has not returned after three years. The same holds for any boundary that lost its basis, including an islet group or a claimed area whose last residents left (R051, R052).
+4. **Editions** of ISO 3166-1 and Natural Earth change only as R045 says.
+5. Contested control follows R049, not this item.
+
+How the three years are counted against releases, correspondence tables between releases and a de-minimis rule for geometry corrections are Q019.
+
+### R056 — CR-W amendments: witnesses and scopes [accepted; D050]
+
+These amend how R044's gates are read. One valid class suffices regardless of frequency (D032), as before.
+
+1. **Transit is not a witness** (G-CONTEXT). Only trips to each place as a destination are compared. A class whose trip is defined by onward travel to a third territory is not a witness; the territorial limits of a transit regime are an overlay (R017, R027).
+2. **Organised-group rules are not witnesses** (G-CONTEXT). A rule that applies only to organised groups does not separate; only a rule for an independent visitor does. Group schemes are markers.
+3. **Local border traffic is not a witness** (G-CONTEXT). A rule only for residents of a neighbouring area across the border is a marker.
+4. **Tour-operator-only access is a witness** (G-CONTEXT, G-HARD). A rule under which a place can be reached only through a tour operator closes it to an independent visitor, unlike a concession for groups.
+5. **Payments do not separate** (G-HARD). A mandatory fee or purchase on arrival is not a hard difference; only rules on who may enter and for how long do (a visa, a permit, a separate control, a stay limit). Fees are markers.
+6. **Scope test for units of one country** (G-SCOPE). A place with its own entry rule is a region only if it is (a) a whole top-level unit of its country, or (b) a smaller but detached unit — an island or an exclave — with a rule written for it, not a line in a list. Everything else is a marker inside its region: border bands and districts, lists of islands or ports, closed towns, single valleys. One rule over several top-level units, and the operational definition of the units, are Q015.
+7. **Whole-unit presence permits** (G-HARD). A standing rule that makes presence in a whole unit conditional on a permit for an ordinary visitor is a hard difference in `permission_to_enter_or_be_present_in_territorial_scope` and separates that unit, for the units that pass item 6. A permit for part of a unit stays a marker (R014).
+8. **Held areas** (G-SCOPE). For an area held (R048) by a party other than the one that claims it as its ordinary territory, the holder's own entry rule for the area, with an outline the parties state (R047), is the witness; item 6 is not applied.
+
+### R057 — Product profile `S1-product-v1` and evidence levels [accepted; D051]
+
+Releases are built under `S1-product-v1`:
+
+1. **No witness, no boundary.** Inside a registry cell there is a Stage 1 boundary only where a rule with a source is recorded (R044 with R056, or R049–R054). The rest is marked as assumed, not proved; it is not `hard_compatible`.
+2. **Evidence levels.** `cited`: a source states the rule, with locator, publisher, quoted passage and dates, and the gates are checked by the preparer, who may be an AI agent; enough for a release. `audited`: review by a named person, required where sources conflict, where no primary source can be found, or on the owner's request. Evidence below `cited` does not create a boundary in a release.
+3. **Labelling.** Every boundary in a release states its rule and its evidence level. Nothing built under this profile is presented as certified under `S1-core-v1`, which stays the definition of a proved boundary.
+
 ## Checks that the first build must implement
 
 | Check ID | Rules | Property checked |
@@ -311,6 +480,7 @@ This is the accepted sufficient core, not the completion of all Stage 1 semantic
 | V008 | R031–R033 | One manifest reproduces an identical result; a historical correction is available separately; no overlap of intervals within one revision stream |
 | V009 | R034–R038 | unknown does not turn into false; the absence of a witness does not become `hard_compatible`; unresolved is not counted as the definition of a region |
 | V010 | R008–R010, R038 | The same facts under substituted country names give an isomorphic result; the manual registry is shown separately |
+| V011 | R045, R050–R054 | For each declared perspective and the canon's attribution, every region lies within at most one country; each exception is the land of a special place under R050–R054, listed with its rule |
 
 These checks are specified here, but the geometry pipeline is not yet implemented. In this release the structure of the CSV and the links between documents have been checked.
 
@@ -321,4 +491,4 @@ This is a spot check of the basic distinctions, not a re-verification of all the
 - E01: [France-Visas — France in the Schengen area](https://www.france-visas.gouv.fr/en/la-france-dans-l-espace-schengen). Confirms the exclusion of the non-European French territories from Schengen; the separateness of Réunion from the metropole is consistent with R012. It does not follow from this that all overseas parts are mutually separate.
 - E02: [European Commission — Territorial Scope](https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en). EU/customs/VAT/excise are different scopes. Réunion is part of the EU customs territory, but not of the common VAT/excise territory. In the original paraphrases this must not be shortened to "Réunion is outside the EU customs territory".
 - E03: [UN — Western Sahara](https://www.un.org/dppa/decolonization/en/nsgt/western-sahara). Confirms UN Non-Self-Governing Territory status, but does not define the current operational geometry and does not prove a two-part division.
-- E04: [Antarctic Treaty Secretariat — Antarctic Treaty](https://www.ats.aq/e/antarctictreaty.html) and the [text of the treaty](https://documents.ats.aq/keydocs/vol_1/vol1_2_at_antarctic_treaty_e.pdf). Article IV preserves positions on claims; Article VI describes the area south of 60°S. The choice of one land cell is our modelling hypothesis, not a requirement of the treaty.
+- E04: [Antarctic Treaty Secretariat — Antarctic Treaty](https://www.ats.aq/e/antarctictreaty.html) and the [text of the treaty](https://documents.ats.aq/keydocs/vol_1/vol1_2_at_antarctic_treaty_e.pdf). Article IV preserves positions on claims; Article VI describes the area south of 60°S. The choice of one land cell is our modelling hypothesis, not a requirement of the treaty; on 2026-10-03 the owner adopted it for Stage 1 as an explicit convention (D040).

@@ -1,6 +1,6 @@
 # Product Stage 1 profile and evidence levels — proposal
 
-**Status: proposal, not adopted.** Part of issue [#22](https://github.com/uncovering-world/travel-regions-extraction/issues/22).
+**Status: adopted on 2026-10-03 as [D051](../decisions.md#d051--product-profile-no-witness-no-boundary-cited-evidence-enters-a-release) (R057).** Part of issue [#22](https://github.com/uncovering-world/travel-regions-extraction/issues/22).
 
 ## Question
 

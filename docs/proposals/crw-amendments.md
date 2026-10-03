@@ -1,6 +1,6 @@
 # CR-W amendments — proposal
 
-**Status: proposal, not adopted.** Issue: [#17](https://github.com/uncovering-world/travel-regions-extraction/issues/17). Evidence: the [world Stage 1 draft](../../experiments/stage1-world-draft/README.md) and its census of 116 territory-specific entry regimes (secondary evidence for most rows).
+**Status: adopted on 2026-10-03 as [D050](../decisions.md#d050--cr-w-amendments-transit-scope-presence-permits-group-border-traffic-and-operator-rules-held-areas-fees) (R056), with changes: A1 and A3 as proposed; A2 replaced by a scope test (a whole top-level unit, or a detached unit with a rule written for it); question 1 decided (group-only rules are not witnesses), question 4 decided (fees do not separate); also adopted: local border traffic is not a witness, tour-operator-only access is, and held areas are separated by the holder's own rule. Question 2 (rules over several units) is Q015.** Issue: [#17](https://github.com/uncovering-world/travel-regions-extraction/issues/17). Evidence: the [world Stage 1 draft](../../experiments/stage1-world-draft/README.md) and its census of 116 territory-specific entry regimes (secondary evidence for most rows).
 
 ## Question
 

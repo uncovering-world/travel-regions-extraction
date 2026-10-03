@@ -1,6 +1,6 @@
 # Reference-registry rule — proposal
 
-**Status: proposal, not adopted.** Issue: [#19](https://github.com/uncovering-world/travel-regions-extraction/issues/19). Evidence: [experiments/stage1-world-draft](../../experiments/stage1-world-draft/README.md).
+**Status: option A adopted on 2026-10-03 as [D038](../decisions.md#d038--no-region-crosses-a-country-boundary-under-a-supported-perspective) (R045), with ISO 3166-1 and the Natural Earth national points of view. Parameters: Antarctica unchanged ([D040](../decisions.md#d040--antarctica-is-one-stage-1-cell-divided-in-stage-2-by-access)); editions change only by decision ([D039](../decisions.md#d039--the-canon-is-pinned-to-stated-editions-of-its-reference-lists)); the rule sits in Stage 1. The recommended resolution rule (tie to the substrate) and a size floor are rejected ([D052](../decisions.md#d052--rejected-tying-small-disputed-areas-to-the-substrate-or-a-bare-area-threshold)); small areas are treated by kind (D044–D047). Open details: Q014.** Issue: [#19](https://github.com/uncovering-world/travel-regions-extraction/issues/19). Evidence: [experiments/stage1-world-draft](../../experiments/stage1-world-draft/README.md).
 
 ## Question
 

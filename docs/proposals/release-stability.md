@@ -1,6 +1,6 @@
 # Release stability policy — proposal
 
-**Status: proposal, not adopted.** Issue: [#20](https://github.com/uncovering-world/travel-regions-extraction/issues/20).
+**Status: adopted in part on 2026-10-03 as [D049](../decisions.md#d049--yearly-releases-when-an-uncontested-boundary-enters-and-leaves) (R055): yearly releases for the situation at the end of the year; entry as in option B (two consecutive releases), stated expiries ignored; exit differs from option B — the region stays, marked, and is merged back after three years without the rule; registry editions by decision ([D039](../decisions.md#d039--the-canon-is-pinned-to-stated-editions-of-its-reference-lists)). Not decided: the de-minimis rule and correspondence tables (Q019).** Issue: [#20](https://github.com/uncovering-world/travel-regions-extraction/issues/20).
 
 ## Question
 

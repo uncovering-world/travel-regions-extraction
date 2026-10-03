@@ -1,6 +1,6 @@
 # Partition architecture
 
-The normative requirements are in [spec.md](spec.md), especially R009 and R039–R044. This document is a short implementation-oriented map of those rules.
+The normative requirements are in [spec.md](spec.md), especially R009, R039–R044 and R045–R057. This document is a short implementation-oriented map of those rules.
 
 Canonical Travel Regions has one published output: an exhaustive, mutually exclusive, single-level partition. The project constructs that output in two internal stages.
 
@@ -14,7 +14,19 @@ P1/P2/P3 are historical non-production Q001 profiles under their original contra
 
 The positive compatibility outcome is `hard_compatible`. It means both units have complete and equal signatures across all hard dimensions required by the profile and no mandatory-separation certificate applies. It does not assign the units to one final region. Open-world outcomes remain valid when evidence or model semantics are incomplete.
 
-Absence of a CR-W certificate is not compatibility. Production completeness covers all accepted hard decision dimensions at the same versioned traveller scope and time, excluding CR-J/identity. Q001 is narrowed, not all Stage 1 semantics complete. Q002/Q004/Q005/Q006/Q007/Q008/Q009/Q011 remain open. D004–D007 remain accepted product regressions; unresolved guarantees are neither hardcoded nor assumed solved by Stage 2. See the [adoption record](../experiments/q001/stage1-core-adoption.md).
+Absence of a CR-W certificate is not compatibility. Production completeness covers all accepted hard decision dimensions at the same versioned traveller scope and time, excluding CR-J/identity. Q001 is narrowed, not all Stage 1 semantics complete. See the [adoption record](../experiments/q001/stage1-core-adoption.md).
+
+### Stage 1 as decided on 2026-10-03 (D038–D053)
+
+Stage 1 boundaries come from three sources, and a release is built from them under the product profile `S1-product-v1` (R057):
+
+1. **Reference registry** (R045). Stage 1 refines ISO 3166-1 and the national points of view of Natural Earth, at pinned editions that change only by the owner's decision at a release. No region crosses a country boundary under a declared perspective, except the land of special places below. Antarctica is one Stage 1 cell; claims there are overlays (R026).
+2. **Disputed and special-status areas** (R047–R054), read from the [register](../data/disputed-areas/README.md). The holder of an area is whoever can in practice admit, refuse and remove a civilian (R048). A forcible change of control is accepted after three quiet calendar years or an explicit act of the losing side; while the line moves nothing is delimited (R049). Border-line disputes are special places; islets and paper claims are regions where civilians live; zones with no single holder are regions where civilians live and the parties state an outline; leases follow the lessor and are regions only with entry rules of their own. Outlines are never drawn here: they come from lines the parties state (R047).
+3. **CR-W** (R044 with the amendments of R056): transit, organised-group, local-border-traffic and fee rules do not separate; a tour-operator-only rule does; an entry rule separates a whole top-level unit or a detached unit with a rule written for it, and an area held by another party through the holder's own rule.
+
+Inside a registry cell, no recorded witness means no boundary; the result is marked as assumed, not proved, and every boundary states its rule and evidence level (`cited` suffices). Places that are not regions are **special places** — tickable objects inside their parent region, not counted as regions (R046) — or **markers**. Releases are yearly, for the situation at the end of the year; a boundary from an uncontested entry rule enters after two consecutive releases and leaves three years after its rule ends (R055).
+
+Open: Q002, Q004, Q005, Q007–Q011 (narrowed) and Q013–Q019 — outlines and custom geometries, the reading of the registry, scope-test details, areas with no single holder, unclaimed land and undelimited stretches, special places in the consumer, and release mechanics. D004–D007 remain accepted product regressions; they are expected to follow from the registry and stay open until a release check (V011) confirms it.
 
 ## Stage 2: Destination Partition
 
@@ -22,7 +34,7 @@ Stage 2 receives each Stage 1 cell independently and may subdivide it using dest
 
 For example, Stage 1 compatibility between Portugal mainland and Madeira, Italy and Sicily, or the continental United States and Hawaii would not settle their final placement. Stage 2 could still separate those destinations. Regional candidates such as Tuscany, Bavaria, or Andalusia likewise belong to Stage 2 unless an independent hard rule already requires separation.
 
-The Stage 2 algorithm is intentionally unspecified. Q012 tracks the required definitions, evidence model, and deterministic selection rule. P3's unresolved territorial/legal identity predicate is not a destination-identity model.
+Stage 2 divides the Antarctic cell by how and from where travellers reach it (D040). The Stage 2 algorithm is otherwise unspecified. Q012 tracks the required definitions, evidence model, and deterministic selection rule. P3's unresolved territorial/legal identity predicate is not a destination-identity model.
 
 ## Refinement invariant
 

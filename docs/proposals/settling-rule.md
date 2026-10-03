@@ -1,6 +1,6 @@
 # Unsettled areas and the settling time — proposal
 
-**Status: proposal, not adopted.** Issue: [#20](https://github.com/uncovering-world/travel-regions-extraction/issues/20). Evidence: [settling-rule back-test](../../experiments/settling-rule/README.md), [control-duration experiment](../../experiments/control-duration/README.md), [literature note](../research/2026-10-03-settling-time-literature.md).
+**Status: adopted on 2026-10-03 as [D043](../decisions.md#d043--the-holder-of-an-area-and-the-settling-rule-for-contested-control) (R048, R049); the original-holder path is rejected as [D053](../decisions.md#d053--rejected-taking-a-retaking-by-the-original-holder-over-at-once). The release interval (open point 5) is decided by D049. The text below is the proposal as decided.** Issue: [#20](https://github.com/uncovering-world/travel-regions-extraction/issues/20). Evidence: [settling-rule back-test](../../experiments/settling-rule/README.md), [control-duration experiment](../../experiments/control-duration/README.md), [literature note](../research/2026-10-03-settling-time-literature.md).
 
 ## Question
 
@@ -99,7 +99,7 @@ Not counted as undone: entities that became states and one island that sank.
 
 **Recommendation: T = 3.** Two is defensible (it is the literature's convention and the owner's first suggestion) at the price of the two reversals above. Five and ten are not supported over three.
 
-**Decided by the owner on 2026-10-03: T = 3; no original holder; only an explicit act ends a contest at once; the status creates no regions; holding in fact is enough, with no separate condition about civil administration.** To be recorded in the spec with the rest of the rule once its open points are settled.
+**Decided by the owner on 2026-10-03: T = 3; no original holder; only an explicit act ends a contest at once; the status creates no regions; holding in fact is enough, with no separate condition about civil administration.** Recorded on 2026-10-03 as D043 (R048, R049).
 
 ## How it would have run
 
@@ -144,7 +144,7 @@ To be put to the owner one at a time:
 2. ~~Path 4: which acts count as the other side having stopped contesting.~~ Decided: only an explicit act — agreement, accepted ruling, renunciation of the claim, or the party ceasing to exist. A claim kept on paper by a party that can no longer act waits for the clock, because "cannot act" would be a judgement of ours and an act has a date and a document.
 3. ~~Whether the status can create a region.~~ Decided: no new rule. A region exists through the reference registry (a supported point of view separates the area) or through CR-W (R044): where another party controls civilian access, the entry decision for the area differs from the rest of the region, which CR-W separates once a witness is cited and its gates pass. CR-W needs certified scopes (G-SCOPE), so it can separate only an area with a stable outline, never one bounded by a moving line. Until then an unsettled area stays inside the region of the party it is attributed to, with the status shown. Acceptance separates it at the latest, because it then has another country than the rest of the region; a strip between two neighbours moves into the neighbour's region instead. The status decides only to whom a region is attributed.
 4. ~~What counts as evidence of a standing civil arrangement.~~ Decided: no such condition. Holding the area in fact — being able to admit, refuse and remove a civilian — is enough, for inhabited and uninhabited areas alike; 16 of the 39 seizures accepted at three years are uninhabited, and a condition about administration for residents could never be met there.
-5. The release interval; one release per year is assumed here.
+5. ~~The release interval.~~ Decided: one release a year, for the situation at the end of the year (D049).
 
 ## What adoption would change
 
