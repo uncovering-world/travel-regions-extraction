@@ -47,7 +47,7 @@ Decisions are taken one at a time in conversation with the owner; this list is t
 5. CR-W amendments (#17): all decided (above) — transit, scope, presence permits, group-only rules, fees. Left as a known rough case: one rule over several top-level units.
 6. Product profile (#22): decided (above).
 7. Release format for TYR and the importer gaps to raise there.
-8. Frozen Q001 package (#29): decided — to be translated into English, but later; the owner asked not to touch it for now.
+8. Frozen Q001 package (#29): done — an English copy is in `experiments/q001-en/`; the Russian original is untouched and remains the record. The translation was machine-made and only spot-checked.
 9. Stage 2 direction (#28): grouping source and level-selection rule — after the Stage 1 decisions.
 
 ## Experiments
@@ -58,9 +58,10 @@ Concluded on 2026-10-03 unless marked.
 - [Stage 2 scale survey](../experiments/stage2-scale-survey/README.md) (#28): the reference scale needs grouping of first-level units in 142 of 183 countries.
 - [Wikivoyage composition check](../experiments/stage2-wikivoyage-composition/README.md) (#28): regions resolve to official units without drawing in about half of the test countries.
 - [Control duration](../experiments/control-duration/README.md) (#20): a third of occupations since 1946 ended within two years; fighting over territory resumes within ten years in a third of cases after two quiet years, a sixth after five.
+- [Stage 1 as a list](../experiments/stage1-list/README.md) (#22): the rules decided on 2026-10-03 give 322 regions (258 with nothing open), 95 special places and 193 missing facts; the largest gaps are links from paper claims to the registry, the level of units with their own entry rule, and who holds contested areas since when.
 - [Regime lifetimes](../experiments/regime-lifetimes/README.md) (#20): of 55 territory-specific entry regimes started since 2000, 4 ended within two years outside the 2020 closures; suspended regimes mostly resumed within two to four years. Collected passages not re-checked.
 - [Settling-rule back-test](../experiments/settling-rule/README.md) (#20): on 78 seizures by states and 40 breakaway entities, raising the wait from 2 to 3 years is the last step that removes reversals by force; the map at the end of 2024 is the same for 1 to 3 years.
 
 ## Next step
 
-After decisions 1–3: bind the Stage 1 draft's cells to substrate units and build the first release package in the proposed format. For Stage 2: a prototype on the countries where composition resolves (Thailand, Japan, Algeria, Iran, Nigeria, Malaysia), and a rule for choosing the level where no published level fits the scale.
+Close the gaps the list build names, in this order: (1) register fields for who holds an area and since when, acts that end a contest, and the UCDP conflict, for the 28 contested areas; (2) for the 39 entry rules that could make a region, the level of the unit, whether the rule is its own, its start date and whether it is in force, from the text of the rule; (3) ties between the 47 paper claims and the registry's points of view, and the seven registry cells with no register area; (4) residents for nine areas. Then outlines for places the substrate cannot represent, the binding to substrate units, and the release package. Recording the decisions of 2026-10-03 in the spec runs alongside.

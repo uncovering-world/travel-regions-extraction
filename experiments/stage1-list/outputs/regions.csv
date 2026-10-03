@@ -1,0 +1,323 @@
+id,name,basis,country,evidence,open
+AD,Andorra,ISO 3166-1 entry,AD,registry,
+AE,United Arab Emirates,ISO 3166-1 entry,AE,registry,
+AF,Afghanistan,ISO 3166-1 entry,AF,registry,
+AG,Antigua and Barbuda,ISO 3166-1 entry,AG,registry,
+AI,Anguilla,ISO 3166-1 entry,AI,registry,
+AL,Albania,ISO 3166-1 entry,AL,registry,
+AM,Armenia,ISO 3166-1 entry,AM,registry,
+AO,Angola,ISO 3166-1 entry,AO,registry,
+AQ,Antarctica,ISO 3166-1 entry,AQ,registry,
+AR,Argentina,ISO 3166-1 entry,AR,registry,
+AS,American Samoa,ISO 3166-1 entry,AS,registry,
+AT,Austria,ISO 3166-1 entry,AT,registry,
+AU,Australia,ISO 3166-1 entry,AU,registry,
+AW,Aruba,ISO 3166-1 entry,AW,registry,
+AX,Åland Islands,ISO 3166-1 entry,AX,registry,
+AZ,Azerbaijan,ISO 3166-1 entry,AZ,registry,
+BA,Bosnia and Herzegovina,ISO 3166-1 entry,BA,registry,
+BB,Barbados,ISO 3166-1 entry,BB,registry,
+BD,Bangladesh,ISO 3166-1 entry,BD,registry,
+BE,Belgium,ISO 3166-1 entry,BE,registry,
+BF,Burkina Faso,ISO 3166-1 entry,BF,registry,
+BG,Bulgaria,ISO 3166-1 entry,BG,registry,
+BH,Bahrain,ISO 3166-1 entry,BH,registry,
+BI,Burundi,ISO 3166-1 entry,BI,registry,
+BJ,Benin,ISO 3166-1 entry,BJ,registry,
+BL,Saint Barthélemy,ISO 3166-1 entry,BL,registry,
+BM,Bermuda,ISO 3166-1 entry,BM,registry,
+BN,Brunei Darussalam,ISO 3166-1 entry,BN,registry,
+BO,"Bolivia, Plurinational State of",ISO 3166-1 entry,BO,registry,
+BQ,"Bonaire, Sint Eustatius and Saba",ISO 3166-1 entry,BQ,registry,
+BR,Brazil,ISO 3166-1 entry,BR,registry,
+BS,Bahamas,ISO 3166-1 entry,BS,registry,
+BT,Bhutan,ISO 3166-1 entry,BT,registry,
+BV,Bouvet Island,ISO 3166-1 entry,BV,registry,
+BW,Botswana,ISO 3166-1 entry,BW,registry,
+BY,Belarus,ISO 3166-1 entry,BY,registry,
+BZ,Belize,ISO 3166-1 entry,BZ,registry,
+CA,Canada,ISO 3166-1 entry,CA,registry,
+CC,Cocos (Keeling) Islands,ISO 3166-1 entry,CC,registry,
+CD,"Congo, The Democratic Republic of the",ISO 3166-1 entry,CD,registry,
+CF,Central African Republic,ISO 3166-1 entry,CF,registry,
+CG,Congo,ISO 3166-1 entry,CG,registry,
+CH,Switzerland,ISO 3166-1 entry,CH,registry,
+CI,Côte d'Ivoire,ISO 3166-1 entry,CI,registry,
+CK,Cook Islands,ISO 3166-1 entry,CK,registry,
+CL,Chile,ISO 3166-1 entry,CL,registry,
+CM,Cameroon,ISO 3166-1 entry,CM,registry,
+CN,China,ISO 3166-1 entry,CN,registry,
+CO,Colombia,ISO 3166-1 entry,CO,registry,
+CR,Costa Rica,ISO 3166-1 entry,CR,registry,
+CU,Cuba,ISO 3166-1 entry,CU,registry,
+CV,Cabo Verde,ISO 3166-1 entry,CV,registry,
+CW,Curaçao,ISO 3166-1 entry,CW,registry,
+CX,Christmas Island,ISO 3166-1 entry,CX,registry,
+CY,Cyprus,ISO 3166-1 entry,CY,registry,
+CZ,Czechia,ISO 3166-1 entry,CZ,registry,
+DE,Germany,ISO 3166-1 entry,DE,registry,
+DJ,Djibouti,ISO 3166-1 entry,DJ,registry,
+DK,Denmark,ISO 3166-1 entry,DK,registry,
+DM,Dominica,ISO 3166-1 entry,DM,registry,
+DO,Dominican Republic,ISO 3166-1 entry,DO,registry,
+DZ,Algeria,ISO 3166-1 entry,DZ,registry,
+EC,Ecuador,ISO 3166-1 entry,EC,registry,
+EE,Estonia,ISO 3166-1 entry,EE,registry,
+EG,Egypt,ISO 3166-1 entry,EG,registry,
+EH,Western Sahara,ISO 3166-1 entry,EH,registry,
+ER,Eritrea,ISO 3166-1 entry,ER,registry,
+ES,Spain,ISO 3166-1 entry,ES,registry,
+ET,Ethiopia,ISO 3166-1 entry,ET,registry,
+FI,Finland,ISO 3166-1 entry,FI,registry,
+FJ,Fiji,ISO 3166-1 entry,FJ,registry,
+FK,Falkland Islands (Malvinas),ISO 3166-1 entry,FK,registry,
+FM,"Micronesia, Federated States of",ISO 3166-1 entry,FM,registry,
+FO,Faroe Islands,ISO 3166-1 entry,FO,registry,
+FR,France,ISO 3166-1 entry,FR,registry,
+GA,Gabon,ISO 3166-1 entry,GA,registry,
+GB,United Kingdom,ISO 3166-1 entry,GB,registry,
+GD,Grenada,ISO 3166-1 entry,GD,registry,
+GE,Georgia,ISO 3166-1 entry,GE,registry,
+GF,French Guiana,ISO 3166-1 entry,GF,registry,
+GG,Guernsey,ISO 3166-1 entry,GG,registry,
+GH,Ghana,ISO 3166-1 entry,GH,registry,
+GI,Gibraltar,ISO 3166-1 entry,GI,registry,
+GL,Greenland,ISO 3166-1 entry,GL,registry,
+GM,Gambia,ISO 3166-1 entry,GM,registry,
+GN,Guinea,ISO 3166-1 entry,GN,registry,
+GP,Guadeloupe,ISO 3166-1 entry,GP,registry,
+GQ,Equatorial Guinea,ISO 3166-1 entry,GQ,registry,
+GR,Greece,ISO 3166-1 entry,GR,registry,
+GS,South Georgia and the South Sandwich Islands,ISO 3166-1 entry,GS,registry,
+GT,Guatemala,ISO 3166-1 entry,GT,registry,
+GU,Guam,ISO 3166-1 entry,GU,registry,
+GW,Guinea-Bissau,ISO 3166-1 entry,GW,registry,
+GY,Guyana,ISO 3166-1 entry,GY,registry,
+HK,Hong Kong,ISO 3166-1 entry,HK,registry,
+HM,Heard Island and McDonald Islands,ISO 3166-1 entry,HM,registry,
+HN,Honduras,ISO 3166-1 entry,HN,registry,
+HR,Croatia,ISO 3166-1 entry,HR,registry,
+HT,Haiti,ISO 3166-1 entry,HT,registry,
+HU,Hungary,ISO 3166-1 entry,HU,registry,
+ID,Indonesia,ISO 3166-1 entry,ID,registry,
+IE,Ireland,ISO 3166-1 entry,IE,registry,
+IL,Israel,ISO 3166-1 entry,IL,registry,
+IM,Isle of Man,ISO 3166-1 entry,IM,registry,
+IN,India,ISO 3166-1 entry,IN,registry,
+IO,British Indian Ocean Territory,ISO 3166-1 entry,IO,registry,
+IQ,Iraq,ISO 3166-1 entry,IQ,registry,
+IR,"Iran, Islamic Republic of",ISO 3166-1 entry,IR,registry,
+IS,Iceland,ISO 3166-1 entry,IS,registry,
+IT,Italy,ISO 3166-1 entry,IT,registry,
+JE,Jersey,ISO 3166-1 entry,JE,registry,
+JM,Jamaica,ISO 3166-1 entry,JM,registry,
+JO,Jordan,ISO 3166-1 entry,JO,registry,
+JP,Japan,ISO 3166-1 entry,JP,registry,
+KE,Kenya,ISO 3166-1 entry,KE,registry,
+KG,Kyrgyzstan,ISO 3166-1 entry,KG,registry,
+KH,Cambodia,ISO 3166-1 entry,KH,registry,
+KI,Kiribati,ISO 3166-1 entry,KI,registry,
+KM,Comoros,ISO 3166-1 entry,KM,registry,
+KN,Saint Kitts and Nevis,ISO 3166-1 entry,KN,registry,
+KP,"Korea, Democratic People's Republic of",ISO 3166-1 entry,KP,registry,
+KR,"Korea, Republic of",ISO 3166-1 entry,KR,registry,
+KW,Kuwait,ISO 3166-1 entry,KW,registry,
+KY,Cayman Islands,ISO 3166-1 entry,KY,registry,
+KZ,Kazakhstan,ISO 3166-1 entry,KZ,registry,
+LA,Lao People's Democratic Republic,ISO 3166-1 entry,LA,registry,
+LB,Lebanon,ISO 3166-1 entry,LB,registry,
+LC,Saint Lucia,ISO 3166-1 entry,LC,registry,
+LI,Liechtenstein,ISO 3166-1 entry,LI,registry,
+LK,Sri Lanka,ISO 3166-1 entry,LK,registry,
+LR,Liberia,ISO 3166-1 entry,LR,registry,
+LS,Lesotho,ISO 3166-1 entry,LS,registry,
+LT,Lithuania,ISO 3166-1 entry,LT,registry,
+LU,Luxembourg,ISO 3166-1 entry,LU,registry,
+LV,Latvia,ISO 3166-1 entry,LV,registry,
+LY,Libya,ISO 3166-1 entry,LY,registry,
+MA,Morocco,ISO 3166-1 entry,MA,registry,
+MC,Monaco,ISO 3166-1 entry,MC,registry,
+MD,"Moldova, Republic of",ISO 3166-1 entry,MD,registry,
+ME,Montenegro,ISO 3166-1 entry,ME,registry,
+MF,Saint Martin (French part),ISO 3166-1 entry,MF,registry,
+MG,Madagascar,ISO 3166-1 entry,MG,registry,
+MH,Marshall Islands,ISO 3166-1 entry,MH,registry,
+MK,North Macedonia,ISO 3166-1 entry,MK,registry,
+ML,Mali,ISO 3166-1 entry,ML,registry,
+MM,Myanmar,ISO 3166-1 entry,MM,registry,
+MN,Mongolia,ISO 3166-1 entry,MN,registry,
+MO,Macao,ISO 3166-1 entry,MO,registry,
+MP,Northern Mariana Islands,ISO 3166-1 entry,MP,registry,
+MQ,Martinique,ISO 3166-1 entry,MQ,registry,
+MR,Mauritania,ISO 3166-1 entry,MR,registry,
+MS,Montserrat,ISO 3166-1 entry,MS,registry,
+MT,Malta,ISO 3166-1 entry,MT,registry,
+MU,Mauritius,ISO 3166-1 entry,MU,registry,
+MV,Maldives,ISO 3166-1 entry,MV,registry,
+MW,Malawi,ISO 3166-1 entry,MW,registry,
+MX,Mexico,ISO 3166-1 entry,MX,registry,
+MY,Malaysia,ISO 3166-1 entry,MY,registry,
+MZ,Mozambique,ISO 3166-1 entry,MZ,registry,
+NA,Namibia,ISO 3166-1 entry,NA,registry,
+NC,New Caledonia,ISO 3166-1 entry,NC,registry,
+NE,Niger,ISO 3166-1 entry,NE,registry,
+NF,Norfolk Island,ISO 3166-1 entry,NF,registry,
+NG,Nigeria,ISO 3166-1 entry,NG,registry,
+NI,Nicaragua,ISO 3166-1 entry,NI,registry,
+NL,Netherlands,ISO 3166-1 entry,NL,registry,
+NO,Norway,ISO 3166-1 entry,NO,registry,
+NP,Nepal,ISO 3166-1 entry,NP,registry,
+NR,Nauru,ISO 3166-1 entry,NR,registry,
+NU,Niue,ISO 3166-1 entry,NU,registry,
+NZ,New Zealand,ISO 3166-1 entry,NZ,registry,
+OM,Oman,ISO 3166-1 entry,OM,registry,
+PA,Panama,ISO 3166-1 entry,PA,registry,
+PE,Peru,ISO 3166-1 entry,PE,registry,
+PF,French Polynesia,ISO 3166-1 entry,PF,registry,
+PG,Papua New Guinea,ISO 3166-1 entry,PG,registry,
+PH,Philippines,ISO 3166-1 entry,PH,registry,
+PK,Pakistan,ISO 3166-1 entry,PK,registry,
+PL,Poland,ISO 3166-1 entry,PL,registry,
+PM,Saint Pierre and Miquelon,ISO 3166-1 entry,PM,registry,
+PN,Pitcairn,ISO 3166-1 entry,PN,registry,
+PR,Puerto Rico,ISO 3166-1 entry,PR,registry,
+PS,"Palestine, State of",ISO 3166-1 entry,PS,registry,
+PT,Portugal,ISO 3166-1 entry,PT,registry,
+PW,Palau,ISO 3166-1 entry,PW,registry,
+PY,Paraguay,ISO 3166-1 entry,PY,registry,
+QA,Qatar,ISO 3166-1 entry,QA,registry,
+RE,Réunion,ISO 3166-1 entry,RE,registry,
+RO,Romania,ISO 3166-1 entry,RO,registry,
+RS,Serbia,ISO 3166-1 entry,RS,registry,
+RU,Russian Federation,ISO 3166-1 entry,RU,registry,
+RW,Rwanda,ISO 3166-1 entry,RW,registry,
+SA,Saudi Arabia,ISO 3166-1 entry,SA,registry,
+SB,Solomon Islands,ISO 3166-1 entry,SB,registry,
+SC,Seychelles,ISO 3166-1 entry,SC,registry,
+SD,Sudan,ISO 3166-1 entry,SD,registry,
+SE,Sweden,ISO 3166-1 entry,SE,registry,
+SG,Singapore,ISO 3166-1 entry,SG,registry,
+SH,"Saint Helena, Ascension and Tristan da Cunha",ISO 3166-1 entry,SH,registry,
+SI,Slovenia,ISO 3166-1 entry,SI,registry,
+SJ,Svalbard and Jan Mayen,ISO 3166-1 entry,SJ,registry,
+SK,Slovakia,ISO 3166-1 entry,SK,registry,
+SL,Sierra Leone,ISO 3166-1 entry,SL,registry,
+SM,San Marino,ISO 3166-1 entry,SM,registry,
+SN,Senegal,ISO 3166-1 entry,SN,registry,
+SO,Somalia,ISO 3166-1 entry,SO,registry,
+SR,Suriname,ISO 3166-1 entry,SR,registry,
+SS,South Sudan,ISO 3166-1 entry,SS,registry,
+ST,Sao Tome and Principe,ISO 3166-1 entry,ST,registry,
+SV,El Salvador,ISO 3166-1 entry,SV,registry,
+SX,Sint Maarten (Dutch part),ISO 3166-1 entry,SX,registry,
+SY,Syrian Arab Republic,ISO 3166-1 entry,SY,registry,
+SZ,Eswatini,ISO 3166-1 entry,SZ,registry,
+TC,Turks and Caicos Islands,ISO 3166-1 entry,TC,registry,
+TD,Chad,ISO 3166-1 entry,TD,registry,
+TF,French Southern Territories,ISO 3166-1 entry,TF,registry,
+TG,Togo,ISO 3166-1 entry,TG,registry,
+TH,Thailand,ISO 3166-1 entry,TH,registry,
+TJ,Tajikistan,ISO 3166-1 entry,TJ,registry,
+TK,Tokelau,ISO 3166-1 entry,TK,registry,
+TL,Timor-Leste,ISO 3166-1 entry,TL,registry,
+TM,Turkmenistan,ISO 3166-1 entry,TM,registry,
+TN,Tunisia,ISO 3166-1 entry,TN,registry,
+TO,Tonga,ISO 3166-1 entry,TO,registry,
+TR,Türkiye,ISO 3166-1 entry,TR,registry,
+TT,Trinidad and Tobago,ISO 3166-1 entry,TT,registry,
+TV,Tuvalu,ISO 3166-1 entry,TV,registry,
+TW,"Taiwan, Province of China",ISO 3166-1 entry,TW,registry,
+TZ,"Tanzania, United Republic of",ISO 3166-1 entry,TZ,registry,
+UA,Ukraine,ISO 3166-1 entry,UA,registry,
+UG,Uganda,ISO 3166-1 entry,UG,registry,
+UM,United States Minor Outlying Islands,ISO 3166-1 entry,UM,registry,
+US,United States,ISO 3166-1 entry,US,registry,
+UY,Uruguay,ISO 3166-1 entry,UY,registry,
+UZ,Uzbekistan,ISO 3166-1 entry,UZ,registry,
+VA,Holy See (Vatican City State),ISO 3166-1 entry,VA,registry,
+VC,Saint Vincent and the Grenadines,ISO 3166-1 entry,VC,registry,
+VE,"Venezuela, Bolivarian Republic of",ISO 3166-1 entry,VE,registry,
+VG,"Virgin Islands, British",ISO 3166-1 entry,VG,registry,
+VI,"Virgin Islands, U.S.",ISO 3166-1 entry,VI,registry,
+VN,Viet Nam,ISO 3166-1 entry,VN,registry,
+VU,Vanuatu,ISO 3166-1 entry,VU,registry,
+WF,Wallis and Futuna,ISO 3166-1 entry,WF,registry,
+WS,Samoa,ISO 3166-1 entry,WS,registry,
+YE,Yemen,ISO 3166-1 entry,YE,registry,
+YT,Mayotte,ISO 3166-1 entry,YT,registry,
+ZA,South Africa,ISO 3166-1 entry,ZA,registry,
+ZM,Zambia,ISO 3166-1 entry,ZM,registry,
+ZW,Zimbabwe,ISO 3166-1 entry,ZW,registry,
+area/abkhazia,Abkhazia,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/arunachal-pradesh,Arunachal Pradesh,residents; points of view differ,holder,secondary,who holds it
+area/bir-tawil,Bir Tawil,unclaimed land,none,secondary,
+area/crimea,Crimea and Sevastopol,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/cyprus-buffer-zone,UN Buffer Zone in Cyprus,residents; no single holder,none,secondary,
+area/east-jerusalem,East Jerusalem,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/golan-heights,Golan Heights,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/gornja-siga,Gornja Siga and other west-bank pockets,unclaimed land,none,secondary,
+area/indian-jammu-kashmir-ladakh,Jammu and Kashmir and Ladakh (Indian-administered),residents; points of view differ,holder,secondary,who holds it
+area/koalou,Koalou (Kourou) neutral zone,residents; no single holder,none,secondary,
+area/korean-dmz,Korean Demilitarized Zone,residents; no single holder,none,secondary,
+area/kosovo,Kosovo,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/kuril-islands,"Southern Kuril Islands (Iturup, Kunashir, Shikotan, Habomai)",residents; points of view differ,holder,secondary,who holds it
+area/marie-byrd-land,Marie Byrd Land (90°W-150°W),unclaimed land,none,secondary,
+area/northern-cyprus,Turkish Republic of Northern Cyprus,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/olivenza,Olivenza and Táliga,residents; points of view differ,holder,secondary,who holds it
+area/paracel-islands,Paracel Islands,residents; islet group,holder,secondary,who holds it
+area/rukwanzi-semliki,Rukwanzi Island (Lake Albert) and Semliki River valley,residents; no single holder,none,secondary,
+area/somaliland,Somaliland,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/south-ossetia,South Ossetia,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+area/spratly-islands,Spratly Islands,residents; islet group,holder,secondary,who holds it
+area/transnistria,Transnistria (including Bender),entry rule,by the settling rule,secondary,who holds it and since when
+area/transnistria-security-zone,Dniester Security Zone,residents; no single holder,none,secondary,
+area/undof-zone,UNDOF area of separation,residents; no single holder,none,secondary,
+area/western-sahara-moroccan-controlled,Western Sahara west of the berm,registry: points of view differ,by the settling rule,secondary,who holds it and since when
+BT/Bhutan#1159320455,Bhutan,registry: points of view differ,by the settling rule,registry,not tied to a register area: its kind and residents are unknown
+CN/China#1159320485,China,registry: points of view differ,by the settling rule,registry,not tied to a register area: its kind and residents are unknown
+IN/India#1159320865,India,registry: points of view differ,by the settling rule,registry,not tied to a register area: its kind and residents are unknown
+IN/India#1159320859,India,registry: points of view differ,by the settling rule,registry,not tied to a register area: its kind and residents are unknown
+PK/Pakistan#1159321155,Pakistan,registry: points of view differ,by the settling rule,registry,not tied to a register area: its kind and residents are unknown
+UA/Ukraine#1763286545,Ukraine,registry: points of view differ,by the settling rule,registry,not tied to a register area: its kind and residents are unknown
+UA/Ukraine#1763286547,Ukraine,registry: points of view differ,by the settling rule,registry,not tied to a register area: its kind and residents are unknown
+rule/az-nakhchivan,Nakhchivan Autonomous Republic,entry rule: visa_exemption,AZ,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
+rule/bd-chittagong-hill-tracts,"Chittagong Hill Tracts (Rangamati, Khagrachhari, Bandarban districts)",entry rule: permit_whole_territory,BD,cited_secondary,not confirmed in force; start date of the rule; whether the unit is a top-level unit of its country
+rule/cl-rapa-nui,Rapa Nui (Easter Island),entry rule: stay_limit,CL,cited_secondary,whether the rule is written for this place or is a line in a list
+rule/cn-tibet,Tibet Autonomous Region,entry rule: permit_whole_territory,CN,cited_secondary,start date of the rule; whether the unit is a top-level unit of its country
+rule/co-san-andres,"Archipelago of San Andrés, Providencia and Santa Catalina",entry rule: stay_limit,CO,cited_secondary,whether the unit is a top-level unit of its country
+rule/ec-galapagos,Galápagos Province,entry rule: stay_limit,EC,cited_secondary,start date of the rule; whether the unit is a top-level unit of its country
+rule/es-ceuta,Ceuta,entry rule: visa_exemption,ES,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
+rule/es-melilla,Melilla,entry rule: visa_exemption,ES,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
+rule/fr-clipperton,Clipperton Island,entry rule: permit_whole_territory,FR,cited_secondary,whether the rule is written for this place or is a line in a list
+rule/gr-mount-athos,Mount Athos,entry rule: permit_whole_territory,GR,cited_secondary,start date of the rule; whether the unit is a top-level unit of its country
+rule/in-lakshadweep,Lakshadweep,entry rule: permit_whole_territory,IN,conflicted,no cited source for the rule; whether the unit is a top-level unit of its country
+rule/in-manipur,Manipur,entry rule: permit_whole_territory,IN,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
+rule/in-minicoy-maldivians,Minicoy (Lakshadweep),entry rule: visa_exemption,IN,unconfirmed,no cited source for the rule; not confirmed in force; start date of the rule; whether the rule is written for this place or is a line in a list
+rule/in-mizoram,Mizoram,entry rule: permit_whole_territory,IN,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
+rule/in-nagaland,Nagaland,entry rule: permit_whole_territory,IN,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
+rule/in-sikkim,Sikkim,entry rule: permit_whole_territory,IN,cited_secondary,whether the unit is a top-level unit of its country
+rule/iq-kurdistan,Kurdistan Region of Iraq,entry rule: own_visa_system,IQ,cited_secondary,not confirmed in force; start date of the rule; whether the unit is a top-level unit of its country
+rule/ir-kish,Kish Island Free Zone,entry rule: visa_exemption,IR,cited_secondary,not confirmed in force; start date of the rule; whether the rule is written for this place or is a line in a list
+rule/ir-qeshm,Qeshm Island Free Zone,entry rule: visa_exemption,IR,cited_secondary,not confirmed in force; start date of the rule; whether the rule is written for this place or is a line in a list
+rule/kp-rason,Rason Special Economic Zone,entry rule: visa_exemption,KP,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
+rule/kr-jeju,Jeju Province,entry rule: visa_exemption,KR,cited_secondary,start date of the rule; whether the unit is a top-level unit of its country
+rule/mm-wa-state,Wa State,entry rule: own_visa_system,MM,unconfirmed,no cited source for the rule; not confirmed in force
+rule/mx-southern-border-tvr,Mexico southern border states (Regional Visitor Card),entry rule: visa_exemption,MX,confirmed_primary,whether the unit is a top-level unit of its country
+rule/my-labuan,Labuan,entry rule: separate_immigration_control,MY,unconfirmed,no cited source for the rule; not confirmed in force; start date of the rule; whether the unit is a top-level unit of its country
+rule/my-sabah,Sabah,entry rule: separate_immigration_control,MY,cited_secondary,whether the unit is a top-level unit of its country
+rule/my-sarawak,Sarawak,entry rule: separate_immigration_control,MY,cited_secondary,whether the unit is a top-level unit of its country
+rule/ru-chukotka,Chukotka Autonomous Okrug,entry rule: permit_whole_territory,RU,confirmed_primary,whether the unit is a top-level unit of its country
+rule/ru-chukotka-alaska-natives,Chukotka (Alaska Native visa-free travel),entry rule: visa_exemption,RU,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
+rule/ru-former-regional-evisas,"Russia former regional e-visas (Far East, Kaliningrad, St Petersburg/Leningrad Oblast)",entry rule: visa_requirement,RU,unconfirmed,no cited source for the rule; not confirmed in force; whether the unit is a top-level unit of its country
+rule/sh-ascension,Ascension Island,entry rule: own_visa_system,SH,confirmed_primary,whether the rule is written for this place or is a line in a list
+rule/sh-saint-helena,Saint Helena,entry rule: own_visa_system,SH,cited_secondary,start date of the rule; whether the rule is written for this place or is a line in a list
+rule/sh-tristan-da-cunha,Tristan da Cunha,entry rule: permit_whole_territory,SH,confirmed_primary,start date of the rule; whether the rule is written for this place or is a line in a list
+rule/sj-jan-mayen,Jan Mayen,entry rule: permit_whole_territory,SJ,unconfirmed,no cited source for the rule; start date of the rule; whether the rule is written for this place or is a line in a list
+rule/sy-aanes,North and East Syria (AANES/Rojava),entry rule: own_visa_system,SY,cited_secondary,not confirmed in force
+rule/tj-gbao,Gorno-Badakhshan Autonomous Oblast (GBAO),entry rule: permit_whole_territory,TJ,cited_secondary,start date of the rule; whether the unit is a top-level unit of its country
+rule/tw-kinmen,Kinmen County,entry rule: visa_exemption,TW,cited_secondary,whether the unit is a top-level unit of its country
+rule/tw-matsu,Lienchiang County (Matsu),entry rule: visa_exemption,TW,cited_secondary,whether the unit is a top-level unit of its country
+rule/tw-penghu,Penghu County,entry rule: visa_exemption,TW,cited_secondary,not confirmed in force; whether the unit is a top-level unit of its country
+rule/tz-zanzibar,Zanzibar,entry rule: separate_immigration_control,TZ,cited_secondary,whether the unit is a top-level unit of its country
+rule/vn-phu-quoc,Phu Quoc Island,entry rule: visa_exemption,VN,cited_secondary,start date of the rule; whether the rule is written for this place or is a line in a list
+rule/ye-socotra,Socotra Archipelago,entry rule: own_visa_system,YE,cited_secondary,whether the unit is a top-level unit of its country

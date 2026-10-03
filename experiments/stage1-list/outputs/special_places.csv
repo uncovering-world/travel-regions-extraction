@@ -1,0 +1,96 @@
+id,name,kind,why
+place/abyei,Abyei Area,own_regime,residents unknown: treated as a special place until sourced
+place/akrotiri-dhekelia,Akrotiri and Dhekelia Sovereign Base Areas,lease_or_base,leased; no entry rule of its own recorded
+place/antarctic-peninsula-overlap,Overlapping Antarctic claims 25°W-80°W,own_regime,residents unknown: treated as a special place until sourced
+place/aves-island,Aves Island (Bird Island),islets_for_maritime_zone,no resident civilians
+place/baikonur,Baikonur Cosmodrome and city,lease_or_base,leased; its recorded entry rule does not qualify
+place/bajo-nuevo,Bajo Nuevo Bank,islets_for_maritime_zone,no resident civilians
+place/banc-du-geyser,Banc du Geyser,islets_for_maritime_zone,no resident civilians
+place/bhutan-china-north,"Jakarlung, Pasamlung and Beyul Khenpajong",no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/bhutan-china-west,"Doklam, Dramana, Shakhatoe, Sinchulung and western Haa",no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/bosnia-serbia-drina,Sections along the Drina,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/bukit-jeli,Bukit Jeli (Kolok River headwaters),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/caspian-islets-ukatny,"Ukatny, Zhestky and Maly Zhemchuzhny islands",islets_for_maritime_zone,residents unknown: treated as a special place until sourced
+place/chile-peru-land-triangle,Land triangle at Punto Concordia,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/citrana-naktuka,Citrana Triangle (Naktuka) and other unresolved Oecusse segments,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/congo-river-islands,Islands in the Congo River,no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/croatia-serbia-danube-pockets,Danube east-bank pockets (Bačka) claimed by Croatia,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/david-gareja,David Gareja monastery complex (Keshikchidag),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/demchok,Demchok sector,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/diego-garcia,Diego Garcia base,lease_or_base,leased; no entry rule of its own recorded
+place/dokdo,Liancourt Rocks (Dokdo / Takeshima),islets_for_maritime_zone,no resident civilians
+place/doumeira,Ras Doumeira and Doumeira Island,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/dragonja,Dragonja left-bank hamlets and other Slovenia-Croatia segments,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/ethiopia-somalia-provisional-line,Ethiopia-Somalia provisional administrative line,no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/fasht-ad-dibal-qitat-jaradah,Fasht ad Dibal and Qit'at Jaradah,islets_for_maritime_zone,no resident civilians
+place/guantanamo-bay,Guantanamo Bay Naval Base,lease_or_base,leased; no entry rule of its own recorded
+place/guinea-liberia-makona,"Guinea-Liberia border at the Makona River (Sorlumba, Foya District)",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/ilemi-triangle,Ilemi Triangle,paper_claim,residents unknown: treated as a special place until sourced
+place/imia-kardak,Imia / Kardak,islets_for_maritime_zone,no resident civilians
+place/india-china-middle-sector,"Middle sector pockets (Chumar, Kaurik, Shipki La, Nelang-Jadhang, Barahoti, Lapthal, Pulam Sumda, Sang)",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/isla-brasilera,Brazilian Island (Ilha Brasileira),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/isla-santa-rosa,Santa Rosa Island (Amazon River),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/isla-suarez,Isla Suárez (Ilha de Guajará-Mirim),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/kalapani,"Kalapani, Lipulekh and Limpiyadhura",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/klek-skolj,"Mali Školj, Veliki Školj and the tip of Klek",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/kostajnica-island,River island at Kostajnica (Zrinski castle),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/kpeaba,Kpéaba village area,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/kula-kangri,Kula Kangri area,no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/ladakh-lac-buffer-zones,"Eastern Ladakh LAC friction areas (Depsang, Galwan, Pangong north bank, Gogra-Hot Springs)",own_regime,residents unknown: treated as a special place until sourced
+place/lake-constance,Lake Constance (Obersee),no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/lake-nyasa-islands,Islands in Mbamba Bay and eastern Lake Nyasa/Malawi,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/lawa-headwaters,Marouini-Litani area (Lawa headwaters),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/lebanon-syria-undelimited,Other unclear sections of the Lebanon-Syria boundary,no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/logoba-moyo,Logoba / Moyo-Kajo Keji border area,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/lunkinda-pweto,Lunkinda (Lunchinda) - Pweto triangle near Chiengi,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/margherita-peak,Margherita Peak (Rwenzori),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/matthew-hunter,Matthew and Hunter Islands,islets_for_maritime_zone,no resident civilians
+place/mazraat-deir-al-ashayer,Mazraat Deir al-Ashayer,no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/mekong-islands,Islands in the Mekong,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/migingo,Migingo Island and nearby Lake Victoria islets,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/minerva-reefs,Minerva Reefs,islets_for_maritime_zone,residents unknown: treated as a special place until sourced
+place/moldauhafen,Moldauhafen and Saalehafen (Hamburg),lease_or_base,leased; no entry rule of its own recorded
+place/mont-blanc-summit,"Mont Blanc summit area (Dôme du Goûter, Col du Géant)",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/moselle-condominium,"Germany-Luxembourg river condominium (Moselle, Sauer, Our)",own_regime,residents unknown: treated as a special place until sourced
+place/nepal-china-humla,Humla border area (Limi/Lapcha),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/ntem-island,Island at the mouth of the Ntem River,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/okpara-villages,Villages near the Okpara River,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/orange-river-boundary,Orange River boundary,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/otangav,O'Tangav area,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/palanca-road,Odesa-Reni road section at Palanca,lease_or_base,leased; no entry rule of its own recorded
+place/perejil,Perejil (Leila) Island,own_regime,no resident civilians
+place/pheasant-island,Pheasant Island,own_regime,no resident civilians
+place/point-20,'Point 20' reclaimed land at Tuas,no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/preah-vihear,Preah Vihear temple surroundings,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/prevlaka,Prevlaka peninsula,own_regime,no resident civilians
+place/rincon-de-artigas,Rincón de Artigas (Arroyo de la Invernada) and Vila Albornoz,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/rockall,Rockall,islets_for_maritime_zone,no resident civilians
+place/russian-ranges-kazakhstan,Russian-leased military test ranges in Kazakhstan (Sary-Shagan and others),lease_or_base,leased; no entry rule of its own recorded
+place/sabanerwa,Sabanerwa and the Rufunzo Valley,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/saimaa-canal,Saimaa Canal (Russian section),lease_or_base,leased; no entry rule of its own recorded
+place/sapodilla-cayes,Sapodilla Cayes,islets_for_maritime_zone,no resident civilians
+place/sarengrad-vukovar-islands,Islands of Šarengrad and Vukovar,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/scarborough-shoal,Scarborough Shoal,islets_for_maritime_zone,no resident civilians
+place/scattered-islands-mozambique-channel,"Bassas da India, Europa Island, Juan de Nova Island",islets_for_maritime_zone,no resident civilians
+place/senkaku,Senkaku Islands (Diaoyu),islets_for_maritime_zone,no resident civilians
+place/serranilla,Serranilla Bank,islets_for_maritime_zone,no resident civilians
+place/siachen,Siachen Glacier and Saltoro Ridge,no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/sindabezi,Sindabezi Island,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/sir-creek,Sir Creek,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/southern-patagonian-ice-field,Southern Patagonian Ice Field (Fitz Roy - Cerro Murallón section),no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/strovilia,Strovilia checkpoint area,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/sudan-south-sudan-other-border-areas,"14-Mile Area, Jodha, Kaka, Jebel Megeinis, Bebnis",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/suleyman-shah-tomb,Tomb of Suleyman Shah,lease_or_base,leased; no entry rule of its own recorded
+place/susta,Susta,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/sveta-gera,Sveta Gera (Trdinov vrh) barracks,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/ta-muen-thom-emerald-triangle,"Other contested Thai-Cambodian border areas (Ta Muen Thom, Ta Krabey, Emerald Triangle/Chong Bok)",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/thai-lao-land-border-villages,"Ban Romklao and the three villages (Ban Mai, Ban Klang, Ban Sawang)",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/three-pagodas-pass,Three Pagodas Pass,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/tigri,New River Triangle (Tigri),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/tin-bigha,Tin Bigha Corridor (Dahagram-Angarpota access),lease_or_base,leased; no entry rule of its own recorded
+place/tiwinza,Tiwinza,lease_or_base,leased; no entry rule of its own recorded
+place/tort-kocho-road,Tort-Kocho road (Vorukh access),own_regime,residents unknown: treated as a special place until sourced
+place/tromelin,Tromelin Island,islets_for_maritime_zone,no resident civilians
+place/varosha,Varosha (Maraş),own_regime,residents unknown: treated as a special place until sourced
+place/yalu-tumen-islands,Islands in the Yalu and Tumen rivers,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/yenga,Yenga,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
