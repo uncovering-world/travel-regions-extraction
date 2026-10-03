@@ -16,7 +16,7 @@ Facts about land areas whose attribution to a country is contested, undefined or
 | `candidates.csv`, `DISCOVERY.md` | `discover.py` only | Candidates from Wikipedia's list of territorial disputes and Natural Earth (both pinned), and the list of those not yet accounted for |
 | `seed/` | — | The census the register was first filled from (2026-10-03) and the script that imported it |
 
-Fields and allowed values are defined at the top of `build.py`. The `kind` of an area is one of: `own_regime`, `lease_or_base`, `de_facto_state`, `occupied_or_annexed`, `paper_claim`, `islets_for_maritime_zone`, `line_position`, `no_agreed_boundary`, `resolved_recently`; their meaning is in [UPDATING.md](UPDATING.md).
+Fields and allowed values are defined at the top of `build.py`. The `kind` of an area is one of: `own_regime`, `lease_or_base`, `de_facto_state`, `occupied_or_annexed`, `paper_claim`, `islets_for_maritime_zone`, `line_position`, `no_agreed_boundary`, `unclaimed`, `resolved_recently`; their meaning is in [UPDATING.md](UPDATING.md).
 
 Every manual fact carries the passage of its source that it rests on (`quote`), so it can be checked by re-opening the source; `verify_quotes.py` does that. Evidence levels: `primary` (the official or legal text itself), `secondary` (a reputable secondary source, including Wikipedia at a pinned revision), `machine` (read by `refresh_machine.py`). Facts written from memory are not admitted.
 

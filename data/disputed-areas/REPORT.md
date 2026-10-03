@@ -14,6 +14,7 @@ Areas: 210. Facts: 136 (0 manual, 136 machine).
 - islets_for_maritime_zone: 0
 - line_position: 0
 - no_agreed_boundary: 0
+- unclaimed: 0
 - resolved_recently: 0
 
 ## Manual facts by evidence

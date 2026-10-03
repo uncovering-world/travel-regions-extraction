@@ -21,7 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 
 KINDS = ["own_regime", "lease_or_base", "de_facto_state", "occupied_or_annexed", "paper_claim",
-         "islets_for_maritime_zone", "line_position", "no_agreed_boundary", "resolved_recently"]
+         "islets_for_maritime_zone", "line_position", "no_agreed_boundary", "unclaimed", "resolved_recently"]
 # field -> allowed values (None = free text)
 FIELDS = {
     "parties": None, "kind": KINDS, "origin": None, "on_the_ground": None,

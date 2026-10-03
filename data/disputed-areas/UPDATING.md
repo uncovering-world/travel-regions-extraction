@@ -75,7 +75,8 @@ Government pages about access are usually not machine-readable and change withou
 - `paper_claim` — ordinary territory of the administering state that another state claims.
 - `islets_for_maritime_zone` — small islands or reefs disputed mainly for the sea around them.
 - `line_position` — both sides agree a border exists here and disagree where the line runs.
-- `no_agreed_boundary` — no line was ever defined, or the area is unclaimed.
+- `no_agreed_boundary` — a boundary must exist here, between states that each hold territory on their side, but no line has been agreed or defined for this stretch. The area is not unclaimed: it will be somebody's once the line exists.
+- `unclaimed` — no state claims the area. Typically each neighbour's own claim line assigns it to the other, so its extent is exactly what those lines leave out.
 - `resolved_recently` — settled since 2015; say how in `origin`.
 
 When an area fits two kinds, choose by what a person standing there would meet (a distinct regime outranks a claim on paper), and say so in `on_the_ground`. The seed census lists the cases it found hard in `seed/census-2026-10-03.notes.md`.
