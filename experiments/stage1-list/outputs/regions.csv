@@ -249,7 +249,9 @@ ZA,South Africa,ISO 3166-1 entry,ZA,registry,
 ZM,Zambia,ISO 3166-1 entry,ZM,registry,
 ZW,Zimbabwe,ISO 3166-1 entry,ZW,registry,
 area/abkhazia,Abkhazia,registry: points of view differ,"Abkhaz authorities, with Russian forces; Georgia's government has held no part since 12 August 2008, when it left the upper Kodori gorge (accepted 1996)",secondary,
+area/abyei,Abyei Area,residents; no single holder,none,secondary,
 area/aksai-chin,Aksai Chin,residents; points of view differ,holder,secondary,who holds it
+area/antarctic-peninsula-overlap,Overlapping Antarctic claims 25°W-80°W,residents; no single holder,none,secondary,
 area/arunachal-pradesh,Arunachal Pradesh,residents; points of view differ,holder,secondary,who holds it
 area/azad-kashmir,Azad Jammu and Kashmir,residents; points of view differ,holder,secondary,who holds it
 area/baikonur,Baikonur Cosmodrome and city,leased area with its own access rule,the lessor,secondary,
@@ -282,6 +284,7 @@ area/spratly-islands,Spratly Islands,residents; islet group,holder,secondary,who
 area/transnistria,Transnistria (including Bender),entry rule of the holder,Transnistria's de facto authorities (they question arrivals and may deny entry) (accepted 1995),secondary,
 area/transnistria-security-zone,Dniester Security Zone,residents; no single holder,none,secondary,
 area/undof-zone,UNDOF area of separation,residents; no single holder,none,secondary,
+area/varosha,Varosha (Maraş),residents; no single holder,none,secondary,
 area/western-sahara-moroccan-controlled,Western Sahara west of the berm,registry: points of view differ,held by Morocco since 1979 (de facto control of most of the territory after Mauritania withdrew),secondary,
 rule/az-nakhchivan,Nakhchivan Autonomous Republic,entry rule: visa_exemption,AZ,cited_secondary,not confirmed in force
 rule/cl-rapa-nui,Rapa Nui (Easter Island),entry rule: stay_limit,CL,cited_secondary,

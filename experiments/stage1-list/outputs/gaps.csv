@@ -1,24 +1,14 @@
 area_id,name,kind,missing,undecided
-abyei,Abyei Area,own_regime,whether civilians live there,region or special place
-antarctic-peninsula-overlap,Overlapping Antarctic claims 25°W-80°W,own_regime,whether civilians live there,region or special place
 armistice-no-mans-lands,"1949 no-man's-lands (Latrun, Jerusalem) and Mount Scopus enclave",,kind,everything
-bhutanese-enclaves-tibet,"Former Bhutanese enclaves in western Tibet (Darchen, Khochar and others)",,kind,everything
-caspian-islets-ukatny,"Ukatny, Zhestky and Maly Zhemchuzhny islands",islets_for_maritime_zone,whether civilians live there,region or special place
+bhutanese-enclaves-tibet,"Former Bhutanese enclaves in western Tibet (Darchen, Khochar and others)",occupied_or_annexed,who holds the area and since when,the country it is listed under
 doi-lang,Doi Lang,,kind,everything
 ilemi-triangle,Ilemi Triangle,paper_claim,whether civilians live there,region or special place
 kafia-kingi,Kafia Kingi enclave,occupied_or_annexed,who holds the area and since when,the country it is listed under
-ladakh-lac-buffer-zones,"Eastern Ladakh LAC friction areas (Depsang, Galwan, Pangong north bank, Gogra-Hot Springs)",own_regime,whether civilians live there,region or special place
-minerva-reefs,Minerva Reefs,islets_for_maritime_zone,whether civilians live there,region or special place
 moldauhafen,Moldauhafen and Saalehafen (Hamburg),lease_or_base,whether entry follows its own rules,region or special place
-moselle-condominium,"Germany-Luxembourg river condominium (Moselle, Sauer, Our)",own_regime,whether civilians live there,region or special place
-palanca-road,Odesa-Reni road section at Palanca,lease_or_base,whether entry follows its own rules,region or special place
 russian-ranges-kazakhstan,Russian-leased military test ranges in Kazakhstan (Sary-Shagan and others),lease_or_base,whether entry follows its own rules,region or special place
-shaksgam,Trans-Karakoram Tract (Shaksgam Valley),paper_claim,whether civilians live there,region or special place
 suleyman-shah-tomb,Tomb of Suleyman Shah,lease_or_base,whether entry follows its own rules,region or special place
-tin-bigha,Tin Bigha Corridor (Dahagram-Angarpota access),lease_or_base,whether entry follows its own rules,region or special place
 tiwinza,Tiwinza,lease_or_base,whether entry follows its own rules,region or special place
 tort-kocho-road,Tort-Kocho road (Vorukh access),own_regime,whether civilians live there,region or special place
-varosha,Varosha (Maraş),own_regime,whether civilians live there,region or special place
 ,Nakhchivan Autonomous Republic,entry_rule,not confirmed in force,region or object inside its region
 ,Hainan Province,entry_rule,whether the unit is a top-level unit of its country,region or object inside its region
 ,Tibet Autonomous Region,entry_rule,start date of the rule,region or object inside its region

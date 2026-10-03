@@ -6,7 +6,9 @@
 |---|---|---|---|---|---|
 | parties | Russia (assigns Ukatny to Astrakhan Oblast); Kazakhstan (includes it in Atyrau Region) | secondary | 2026-10-03 | S0245 | According to Russia administratively this island belongs to the Astrakhan Oblast of the Russian Federation , but Kazakhstan had assumed the island was part of its historical territory and includes it in its Atyrau Region . |
 | kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0245 | It lies in an offshore oil producing area. |
+| inhabited | no | secondary | 2026-10-03 | S0350 | Укатный — песчаный необитаемый остров на севере Каспийского моря |
 
 Sources:
 
 - S0245: https://en.wikipedia.org/w/index.php?title=Ukatny_Island&oldid=1374949217
+- S0350: https://ru.wikipedia.org/w/index.php?title=%D0%A3%D0%BA%D0%B0%D1%82%D0%BD%D1%8B%D0%B9&oldid=150038619

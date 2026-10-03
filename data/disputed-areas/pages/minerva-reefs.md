@@ -8,6 +8,7 @@
 | kind | islets_for_maritime_zone | secondary | 2026-10-03 | S0159 | In 2005, Fiji declared that it did not recognize any maritime water claims by Tonga to the Minerva Reefs under the UNCLOS agreements . |
 | origin | The flag of Tonga was raised on North Minerva on 19 June 1972 and on South Minerva on 21 June 1972. | secondary | 2026-10-03 | S0159 | Arriving on 18 June 1972, the Flag of Tonga was raised on the following day on North Minerva and on South Minerva on 21 June 1972. |
 | on_the_ground | The atolls hold remnants of shipwrecks and platforms and functioning navigation beacons. | secondary | 2026-10-03 | S0159 | Remnants of shipwrecks and platforms remain on the atolls, plus functioning navigation beacons. |
+| inhabited | no | secondary | 2026-10-03 | S0159 | are a group of two submerged atolls located in the Pacific Ocean between Fiji and Tonga |
 
 Sources:
 

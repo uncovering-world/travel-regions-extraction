@@ -5,8 +5,10 @@
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
 | parties | China (occupied the exclaves in 1959); Bhutan (administered them for more than 300 years before that) | secondary | 2026-10-03 | S0036 | In July 1959, along with the occupation of Tibet, the Chinese People's Liberation Army occupied several Bhutanese exclaves in western Tibet which were under Bhutanese administration for more than 300 years and had been given to Bhutan by Ngawang Namgyal in the 17th century. |
+| kind | occupied_or_annexed | secondary | 2026-10-03 | S0346 | Darchen was once an exclave of Bhutan, held for almost 300 years and from where Bhutan raised revenue, until the People's Republic of China annexed it in 1959. |
 | origin | In July 1959 the Chinese People's Liberation Army occupied several Bhutanese exclaves in western Tibet. | secondary | 2026-10-03 | S0036 | In July 1959, along with the occupation of Tibet, the Chinese People's Liberation Army occupied several Bhutanese exclaves in western Tibet which were under Bhutanese administration for more than 300 years and had been given to Bhutan by Ngawang Namgyal in the 17th century. |
 
 Sources:
 
 - S0036: https://en.wikipedia.org/w/index.php?title=Bhutan%E2%80%93China_border&oldid=1370428766
+- S0346: https://en.wikipedia.org/w/index.php?title=Darchen&oldid=1377590445

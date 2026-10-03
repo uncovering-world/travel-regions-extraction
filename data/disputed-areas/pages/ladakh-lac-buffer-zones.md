@@ -8,7 +8,9 @@
 | kind | own_regime | secondary | 2026-10-03 | S0005 | As part of the disengagement process, buffer zones have largely been established inside Indian areas. |
 | origin | The buffer zones came out of the disengagement after the 2020 clashes: partial disengagement at Galwan, Hot Springs and Gogra in June-July 2020, complete disengagement at Pangong Lake in February 2021. | secondary | 2026-10-03 | S0005 | Partial disengagement from Galwan, Hot Springs , and Gogra occurred in June–July 2020 while complete disengagement from Pangong Lake north and south bank took place in February 2021. |
 | on_the_ground | In the buffer zone on the north bank of Pangong Tso Indian troops can no longer patrol a stretch of about 10 km from Finger-2 to Finger-8. | secondary | 2026-10-03 | S0005 | In the buffer zone on the north bank of Pangong Tso , for instance, Indian troops can no longer patrol an around 10-km stretch from 'Finger-2' to 'Finger-8' now, though Indian maps show the Line of Actual Control at 'Finger-8'. |
+| inhabited | garrison_only | secondary | 2026-10-03 | S0347 | Only the militaries of the two countries inhabit the region at the present time, distributed into numerous military camps. |
 
 Sources:
 
 - S0005: https://en.wikipedia.org/w/index.php?title=2020%E2%80%932021_China%E2%80%93India_skirmishes&oldid=1376767429
+- S0347: https://en.wikipedia.org/w/index.php?title=Depsang_Plains&oldid=1376806677

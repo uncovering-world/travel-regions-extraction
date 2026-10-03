@@ -8,8 +8,10 @@
 | kind | paper_claim | secondary | 2026-10-03 | S0239 | The tract is administered by China as part of its Taxkorgan and Yecheng counties in the Xinjiang Uyghur Autonomous Region . |
 | origin | China and Pakistan settled their border in the Sino-Pakistan Agreement signed on 2 March 1963. | secondary | 2026-10-03 | S0239 | Negotiations between the nations officially began on October 13, 1962, and resulted in the Sino-Pakistan Agreement signed on 2 March 1963 by foreign ministers Chen Yi of China and Zulfikar Ali Bhutto of Pakistan. |
 | on_the_ground | One of the most inhospitable areas of the world, among the highest peaks of the Karakoram. | secondary | 2026-10-03 | S0239 | The tract is one of the most inhospitable areas of the world, with some of the highest mountains of the Karakoram Range , including Broad Peak , K2 and Gasherbrum . |
+| inhabited | no | secondary | 2026-10-03 | S0348 | the mostly uninhabited Trans-Karakoram Tract |
 | area_km2 | 5180 | secondary | 2026-10-03 | S0239 | Total 5,180 km 2 (2,000 sq mi) |
 
 Sources:
 
 - S0239: https://en.wikipedia.org/w/index.php?title=Trans-Karakoram_Tract&oldid=1375482860
+- S0348: https://en.wikipedia.org/w/index.php?title=Kashmir_conflict&oldid=1377490436

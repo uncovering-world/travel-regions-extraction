@@ -8,6 +8,7 @@
 | kind | own_regime | secondary | 2026-10-03 | S0009 | Under the terms of the Abyei Protocol, the Abyei Area is considered, on an interim basis, to be simultaneously part of both the Republic of South Sudan and Republic of Sudan , effectively a condominium . |
 | origin | Given 'special administrative status' by the 2004 Abyei Protocol of the Comprehensive Peace Agreement that ended the Second Sudanese Civil War. | secondary | 2026-10-03 | S0009 | is an area of 10,546 km 2 or 4,072 sq mi on the border between South Sudan and Sudan that has been accorded "special administrative status" by the 2004 Protocol on the Resolution of the Abyei Conflict (Abyei Protocol) in the Comprehensive Peace Agreement (CPA) that ended the Second Sudanese Civil War . |
 | on_the_ground | UN peacekeepers (UNISFA) have been deployed since 27 June 2011 under a Security Council resolution. | secondary | 2026-10-03 | S0009 | The United Nations Interim Security Force for Abyei (UNISFA), consisting of Ethiopian troops commanded by Lieutenant General Tadesse Werede Tesfay , were deployed under a UNSC resolution from 27 June 2011. |
+| inhabited | yes | secondary | 2026-10-03 | S0009 | the residents of the Abyei Area have been declared, on an interim basis, to be simultaneously citizens of the states of West Kurdufan (Republic of Sudan) and Warrap State (South Sudan) |
 | area_km2 | 10546 | secondary | 2026-10-03 | S0009 | is an area of 10,546 km 2 or 4,072 sq mi on the border between South Sudan and Sudan |
 
 Sources:
