@@ -4,27 +4,28 @@ Updated: 2026-10-03.
 
 ## Focus
 
-Turn the [2026-09-24 independent review](reviews/2026-09-24-independent-review.md) into decisions and first experiments. The process has been reworked for working together in conversation ([workflow](workflow.md)).
+Proposals for every open decision are drafted and backed by first experiments. The next move is the owner's: decide, starting with the consumer contract and the reference registry.
 
 ## Waiting for the owner's decision
 
-1. **Consumer contract** (#27). Drafted in [proposals/consumer-contract.md](proposals/consumer-contract.md) with the owner's inputs of 2026-10-03 (file import, substrate not fixed, scale follows from rules, ERP is separate); waiting for adoption.
-2. **Reference-registry rule** (#19). The canon refines every partition in a declared registry (ISO 3166-1 plus selected Natural Earth point-of-view layers). Would derive D004–D007, country boundaries and microstates.
-3. **CR-W amendments** (#17). Transit is not a witness; a rule's scope must be a territorial unit it names (ports, terminals and distance bands are overlays); an explicit convention for whole-territory permits (Tibet, Jan Mayen, Indian PAP states).
-4. **Release stability policy** (#20). Separate facts at date t from canon releases: minimum interval, entry and exit conditions for a boundary, a de-minimis threshold, correspondence tables.
-5. **Product Stage 1 profile and evidence levels** (proposed within #22). Closed-world default inside a registry cell, results marked provisional; "cited" evidence by default, full audit only where sources disagree.
-6. **Translation to English** (#29). spec, decisions, open questions, the adversarial set and the frozen Q001 package are still in Russian; how to handle Q001 needs a choice.
+Each has a proposal with options, counterexamples and a recommendation; nothing is adopted.
 
-## Ready to experiment
+1. **Consumer contract** (#27) — [proposal](proposals/consumer-contract.md). Seven requirements from Track Your Regions; includes the owner's inputs of 2026-10-03.
+2. **Reference-registry rule** (#19) — [proposal](proposals/reference-registry.md). Parameters to set: which perspectives (249 / 259 / 278 cells), a resolution rule, Antarctica, registry versioning.
+3. **CR-W amendments** (#17) — [proposal](proposals/crw-amendments.md). Transit is not a witness; scope must be a whole named unit; whole-territory permits separate; plus the organised-group question.
+4. **Release stability policy** (#20) — [proposal](proposals/release-stability.md). Recommended: entry and exit after two consecutive cutoffs, 12-month interval.
+5. **Product Stage 1 profile and evidence levels** (#22) — [proposal](proposals/product-profile.md).
+6. **Release format for TYR** — [proposal](proposals/output-format.md); four importer gaps to raise as TYR issues once a release package exists.
+7. **Frozen Q001 package in Russian** (#29) — leave as a historical record or publish an English, separately versioned snapshot. Everything else is translated.
 
-- **World Stage 1 draft** (#22): registry cells plus cited CR-W splits; whole-partition metrics; comparison with TCC.
-- **Stage 2 design** on 5–12 countries (#28).
-- **Adversarial set extension**: the 20 regimes from the review's Appendix C, microstates, interior-granularity pairs.
+## Experiments
 
-## Active experiments
+All concluded on 2026-10-03; none active.
 
-None.
+- [World Stage 1 draft](../experiments/stage1-world-draft/README.md) (#22): 278 registry cells + 26 cited CR-W cells = 304. Count-only, secondary evidence.
+- [Stage 2 scale survey](../experiments/stage2-scale-survey/README.md) (#28): the reference scale needs grouping of first-level units in 142 of 183 countries.
+- [Wikivoyage composition check](../experiments/stage2-wikivoyage-composition/README.md) (#28): regions resolve to official units without drawing in about half of the test countries.
 
 ## Next step
 
-Start with items 1 and 2: they define what counts as a correct partition, and most later choices depend on them.
+After decisions 1–3: bind the Stage 1 draft's cells to substrate units and build the first release package in the proposed format. For Stage 2: a prototype on the countries where composition resolves (Thailand, Japan, Algeria, Iran, Nigeria, Malaysia), and a rule for choosing the level where no published level fits the scale.
