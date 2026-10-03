@@ -63,6 +63,10 @@ Question: where the country page draws a region from a single Wikidata id (the r
 
 Result (`probe_p150.py`, `outputs/p150.csv`): of 65 level-1 regions drawn from their own Wikidata item, 14 have any P150 statement — all five in Switzerland, three in Thailand, two each in Japan and Papua New Guinea, one each in the Philippines and Chile — and none in Turkey, Vietnam, Colombia, Peru, Tanzania, Angola or Algeria. The resolver changes little: for the countries where `mapshape` composition is absent, Wikidata does not record the composition either. What remains for them is the text of the pages and the map images.
 
+## Third resolver (added 2026-10-03, before running it)
+
+Question: do names help where ids are absent? A unit counts as assigned to a level-1 region when its ISO 3166-2 name matches, after normalisation, a link in the region's `regionNitems` on the country page or the name of one of the region's own sub-regions. What would change our mind: if names lift most under-50% countries above 90%, text composition is the practical resolver (with the usual risk of name collisions, which the run reports as units matched in several regions); if not, only map images remain for those countries.
+
 ## Status
 
-Concluded 2026-10-03.
+Third run planned 2026-10-03.
