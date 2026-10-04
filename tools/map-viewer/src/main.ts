@@ -23,6 +23,9 @@ interface Inside {
   what: string;
   why: string;
   where: string;
+  region: string;
+  story: { label: string; text: string }[];
+  facts: Fact[];
   wikidata_id?: string;
   link?: string;
 }
@@ -81,6 +84,21 @@ function esc(s: unknown): string {
 }
 
 /** The file's JSON, or null when it is missing (Vite answers a missing file with index.html and status 200). */
+const link = (url: string, text: string) =>
+  url ? `<a href="${esc(url)}" target="_blank" rel="noreferrer">${esc(text)}</a>` : esc(text);
+const sourceLinks = (sources: Source[]) => sources.filter((s) => s.url).map((s, i) => link(s.url, `[${i + 1}]`)).join(" ");
+const host = (url: string) => { try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return url; } };
+
+/** Facts with their sources and, folded, the passage quoted from them. */
+function factsHtml(facts: Fact[]): string {
+  return `<ul class="facts">${facts.map((f) => `
+    <li><b>${esc(f.field)}:</b> ${esc(f.value)} ${sourceLinks(f.sources)}
+      ${f.quote ? `<details><summary>quote${f.sources[0]?.url ? ` from ${esc(host(f.sources[0].url))}` : ""}</summary><blockquote>${esc(f.quote)}</blockquote></details>` : ""}
+    </li>`).join("")}</ul>`;
+}
+
+const tag = (what: string) => `<span class="tag ${what === "note" ? "note" : "special"}">${esc(what)}</span>`;
+
 async function load<T>(path: string): Promise<T | null> {
   try {
     const response = await fetch(path);
@@ -105,7 +123,7 @@ function bounds(geometry: GeoJSON.Geometry): maplibregl.LngLatBounds {
 async function main(): Promise<void> {
   const regions = await load<FC<RegionProps>>("/data/regions.geojson");
   const own = await load<FC<OwnProps>>("/data/own_geometries.geojson");
-  const places = await load<FC<Inside & { region: string }>>("/data/places.geojson");
+  const places = await load<FC<Inside>>("/data/places.geojson");
   if (!regions) {
     $("summary").innerHTML =
       "No data. Run <code>experiments/release-draft/export_viewer_data.py</code> first (see README).";
@@ -180,11 +198,6 @@ async function main(): Promise<void> {
     const owns = own?.features.filter((o) => o.properties.region === p.id) ?? [];
     const seen = new Set<string>();
     const ownLines = owns.filter((o) => !seen.has(o.properties.place) && seen.add(o.properties.place));
-    const link = (url: string, text: string) =>
-      url ? `<a href="${esc(url)}" target="_blank" rel="noreferrer">${esc(text)}</a>` : esc(text);
-    const sourceLinks = (sources: Source[]) =>
-      sources.filter((s) => s.url).map((s, i) => link(s.url, `[${i + 1}]`)).join(" ");
-    const host = (url: string) => { try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return url; } };
     const inside = p.inside ?? [];
     $("info").innerHTML = `
       <h2>${esc(p.name)} ${pinned === p.id ? '<span class="pin">(pinned)</span>' : ""}</h2>
@@ -198,15 +211,11 @@ async function main(): Promise<void> {
       <p class="muted">Evidence: ${esc(p.evidence_text)}.</p>
       ${p.open ? `<p class="warn">Still open: ${esc(p.open)}</p>` : ""}
 
-      ${p.facts.length ? `<h3>Facts it rests on</h3><ul class="facts">${p.facts.map((f) => `
-        <li><b>${esc(f.field)}:</b> ${esc(f.value)} ${sourceLinks(f.sources)}
-          ${f.quote ? `<details><summary>quote${f.sources[0]?.url ? ` from ${esc(host(f.sources[0].url))}` : ""}</summary><blockquote>${esc(f.quote)}</blockquote></details>` : ""}
-        </li>`).join("")}</ul>` : ""}
+      ${p.facts.length ? `<h3>Facts it rests on</h3>${factsHtml(p.facts)}` : ""}
 
       ${inside.length ? `<h3>Special places and notes in it</h3><ul class="facts">${inside.map((s) => `
-        <li><b>${esc(s.name)}</b> <span class="tag ${s.what === "note" ? "note" : "special"}">${esc(s.what)}</span>${
-          s.wikidata_id ? ` ${link(`https://www.wikidata.org/wiki/${s.wikidata_id}`, s.wikidata_id)}` : ""}<br><span class="muted">${esc(s.why)}${
-          s.where !== "inside" ? ` (${esc(s.where)}${s.link === "close" ? "; approximate point" : ""})` : s.link === "close" ? " (approximate point)" : ""}</span></li>`).join("")}</ul>` : ""}
+        <li><a href="#" data-place="${esc(s.id)}">${esc(s.name)}</a> ${tag(s.what)}<br><span class="muted">${
+          esc(s.story[0]?.text ?? "")}</span></li>`).join("")}</ul>` : ""}
 
       ${p.carved.length ? `<h3>Separate regions linked to it</h3><ul class="facts">${p.carved.map((c) => `
         <li><a href="#" data-region="${esc(c.id)}">${esc(c.name)}</a> <span class="muted">— ${esc(c.how)}</span></li>`).join("")}</ul>` : ""}
@@ -221,12 +230,45 @@ async function main(): Promise<void> {
           ${o.properties.notes ? `<br><span class="muted">${esc(o.properties.notes)}</span>` : ""}</li>`).join("")}</ul>` : ""}
 
       <details class="tech"><summary>Made of (substrate units)</summary>${p.units.map((u) => `<code>${esc(u)}</code>`).join("<br>")}</details>`;
+    wireLinks();
+  }
+
+  /** Links inside the panel: to a region (zoom and pin) or to a special place or note (its details). */
+  function wireLinks(): void {
     $("info").querySelectorAll<HTMLAnchorElement>("a[data-region]").forEach((a) =>
       a.addEventListener("click", (e) => {
         e.preventDefault();
         focus(a.dataset.region!);
       }),
     );
+    $("info").querySelectorAll<HTMLAnchorElement>("a[data-place]").forEach((a) =>
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        showPlace(a.dataset.place!);
+      }),
+    );
+  }
+
+  /** Every special place and note, by id, as the export lists them in their regions. */
+  const placeById = new Map<string, Inside>();
+  for (const f of regions.features) for (const it of f.properties.inside ?? []) placeById.set(it.id, it);
+
+  /** The details of a special place or a note, written for someone who hears of it for the first time. */
+  function showPlace(id: string): void {
+    const s = placeById.get(id);
+    if (!s) return;
+    pinned = s.region;
+    const region = byId.get(s.region);
+    const point = places?.features.find((f) => f.properties.id === id);
+    if (point && point.geometry.type === "Point") map.easeTo({ center: point.geometry.coordinates as [number, number], zoom: Math.max(map.getZoom(), 5) });
+    $("info").innerHTML = `
+      <h2>${esc(s.name)} ${tag(s.what)}</h2>
+      <p class="muted">in <a href="#" data-region="${esc(s.region)}">${esc(region?.properties.name ?? s.region)}</a>${
+        s.where !== "inside" ? ` (${esc(s.where)})` : ""}${s.wikidata_id ? ` · ${link(`https://www.wikidata.org/wiki/${s.wikidata_id}`, s.wikidata_id)}` : ""}${
+        s.link === "close" ? ' · <span class="warn">approximate point</span>' : ""}</p>
+      <dl class="story">${s.story.map((x) => `<dt>${esc(x.label)}</dt><dd>${esc(x.text)}</dd>`).join("")}</dl>
+      ${s.facts.length ? `<h3>Sources</h3>${factsHtml(s.facts)}` : ""}`;
+    wireLinks();
   }
 
   function focus(id: string): void {
@@ -319,6 +361,11 @@ async function main(): Promise<void> {
     if (!pinned) show(null);
   });
   map.on("click", (e) => {
+    const dot = map.getLayer("places") ? map.queryRenderedFeatures(e.point, { layers: ["places"] })[0] : undefined;
+    if (dot?.properties?.id) {
+      showPlace(dot.properties.id as string);
+      return;
+    }
     const f = map.queryRenderedFeatures(e.point, { layers: ["fill"] })[0];
     if (f?.properties?.id) focus(f.properties.id as string);
     else {
@@ -329,12 +376,15 @@ async function main(): Promise<void> {
 
   const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, maxWidth: "320px" });
   map.on("mousemove", "places", (e) => {
-    const p = e.features?.[0]?.properties as (Inside & { region: string }) | undefined;
-    if (!p) return;
+    const s = placeById.get(e.features?.[0]?.properties?.id as string);
+    if (!s) return;
     map.getCanvas().style.cursor = "pointer";
+    const say = (label: string) => s.story.find((x) => x.label === label)?.text;
     popup.setLngLat(e.lngLat).setHTML(
-      `<b>${esc(p.name)}</b> <span class="tag ${p.what === "note" ? "note" : "special"}">${esc(p.what)}</span><br>` +
-      `<span class="muted">${esc(p.why)}</span><br><span class="muted">in ${esc(byId.get(p.region)?.properties.name ?? p.region)}</span>`,
+      `<b>${esc(s.name)}</b> ${tag(s.what)}<br>` +
+      [say("What it is"), say("Who is involved") ?? say("Who it applies to"), say("Who controls it")]
+        .filter(Boolean).map((t) => `<p>${esc(t!)}</p>`).join("") +
+      `<p class="muted">${esc(say("On this map") ?? "")}</p><p class="muted"><i>Click the dot for the full story and sources.</i></p>`,
     ).addTo(map);
   });
   map.on("mouseleave", "places", () => popup.remove());

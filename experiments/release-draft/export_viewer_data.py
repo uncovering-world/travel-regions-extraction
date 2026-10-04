@@ -67,7 +67,7 @@ EVIDENCE = {
     "conflicted": "sources conflict",
     "machine": "read by machine from a dataset",
 }
-AREA_FIELDS = ["kind", "parties", "holder", "holder_since", "on_the_ground", "inhabited", "traveller_access",
+AREA_FIELDS = ["kind", "parties", "holder", "holder_since", "on_the_ground", "origin", "inhabited", "traveller_access",
                "stated_outline", "area_km2"]
 KIND = {
     "de_facto_state": "a state that controls its territory but is not widely recognised",
@@ -108,6 +108,80 @@ def note(text: str) -> str:
     else:
         why = "it fails a test of R056 or R055 (scope, a witness for independent visitors, or two yearly releases in force)"
     return f"Entry rule ({REGIME_NOTE.get(regime, regime)}, for {UNIT_NOTE.get(unit, unit)}); not a region because {why}."
+
+PEOPLE = {"yes": "Civilians live there.", "no": "Nobody lives there.",
+          "garrison_only": "Nobody lives there except soldiers or officials posted there."}
+ACCESS = {"open": "A traveller can visit it.", "restricted": "A traveller can visit it only with permission or under conditions.",
+          "closed": "It is closed to travellers.", "expedition_only": "Only organised expeditions can reach it."}
+
+
+def why_not_region(text: str) -> str:
+    """Why a special place or a note is not a region of its own, in plain words (from the Stage 1 list's reasons)."""
+    if text.startswith("Entry rule ("):
+        return text
+    rules = [
+        ("no resident civilians", "It is not a separate region because no civilians live there; its land counts to "
+                                  "the region of whoever holds it (R051, R052)."),
+        ("a dispute about a line", "It is not a separate region: the dispute is about where the border runs, and the "
+                                   "land counts to the region of whoever holds it (R050)."),
+        ("no stated outline", "It is not a separate region because no outline that the parties themselves state was "
+                              "found, and the canon never draws one of its own (R047)."),
+        ("leased; held by", "It is not a separate region: the land of a lease stays with the lessor's country unless "
+                            "another state controls who enters and civilians live there (R053)."),
+        ("residents unknown", "It is kept as a special place until a source says whether civilians live there (R051)."),
+        ("claimed on paper", "It is only a note: the claim exists on paper, and none of the points of view the canon "
+                             "supports shows it yet, so it creates no boundary (R051). Once the claimant's own point of "
+                             "view is built (D064), this may change."),
+        ("dispute resolved", "It is only a note: the dispute has been settled, and the canon follows the agreed outcome (R054)."),
+        ("the line is moving", "It is only a note: control is changing along a line that nobody has stated, so no area "
+                               "can be cut out; the regions it touches carry a flag (R049)."),
+        ("no witness, no boundary", "It is only a note: no supported point of view separates it and no entry rule of "
+                                    "its holder is recorded, so it stays inside its region (R057)."),
+        ("covered by the ISO entry", "It is only a note: it lies inside a country or territory that is a region of its "
+                                     "own anyway (R045)."),
+    ]
+    for key, plain in rules:
+        if key in text:
+            return plain
+    return text
+
+
+def story(name: str, facts: dict, rule: dict, why: str) -> list[dict]:
+    """A short explanation for someone who hears of the place for the first time: what, who, what is on the
+    ground, how it came about, people, visiting, and why it is shown as it is. Every sentence comes from a sourced
+    fact or from the rules."""
+    out = []
+    if rule:
+        out.append({"label": "What it is", "text": rule["rule_summary"]})
+        if rule.get("affected_classes"):
+            out.append({"label": "Who it applies to", "text": rule["affected_classes"]})
+        if rule.get("since"):
+            out.append({"label": "Since", "text": rule["since"]})
+    else:
+        if "kind" in facts:
+            out.append({"label": "What it is", "text": f"{name}: {KIND.get(facts['kind'], facts['kind'])}."})
+        if "parties" in facts:
+            out.append({"label": "Who is involved", "text": facts["parties"]})
+        if "holder" in facts:
+            since = f" (since {facts['holder_since']})" if "holder_since" in facts else ""
+            out.append({"label": "Who controls it", "text": facts["holder"] + since})
+        if "on_the_ground" in facts:
+            out.append({"label": "On the ground", "text": facts["on_the_ground"]})
+        if "origin" in facts:
+            out.append({"label": "How it came about", "text": facts["origin"]})
+        people = PEOPLE.get(facts.get("inhabited", "").split(" ")[0], "")
+        if "area_km2" in facts:
+            try:
+                size = f"{float(facts['area_km2']):,.0f}" if float(facts["area_km2"]) >= 10 else facts["area_km2"]
+            except ValueError:
+                size = facts["area_km2"]
+            people = (people + f" About {size} km².").strip()
+        if people:
+            out.append({"label": "People", "text": people})
+        if facts.get("traveller_access", "").split(" ")[0] in ACCESS:
+            out.append({"label": "Visiting", "text": ACCESS[facts["traveller_access"].split(" ")[0]]})
+    out.append({"label": "On this map", "text": why_not_region(why)})
+    return out
 
 
 def read(path: Path) -> list[dict]:
@@ -269,10 +343,15 @@ def main() -> None:
     # special places and markers (R046), placed by their Wikidata point (inputs/place_points.csv)
     points = {r["id"]: r for r in read(ROOT / "inputs" / "place_points.csv") if r["use"] == "yes"}
     listed_dir = REPO / "experiments" / "stage1-list" / "outputs"
-    items = [{"id": r["id"].split("/", 1)[1], "name": r["name"], "what": "special place",
-              "why": f"{KIND.get(r['kind'], r['kind'])}; {r['why']}"} for r in read(listed_dir / "special_places.csv")]
-    items += [{"id": r["area_id"], "name": r["name"], "what": "note",
-               "why": note(r["marker"])} for r in read(listed_dir / "markers.csv")]
+    items = [{"id": r["id"].split("/", 1)[1], "name": r["name"], "what": "special place", "why": r["why"]}
+             for r in read(listed_dir / "special_places.csv")]
+    items += [{"id": r["area_id"], "name": r["name"], "what": "note", "why": note(r["marker"])}
+              for r in read(listed_dir / "markers.csv")]
+    for it in items:
+        facts = {f["field"]: f["value"] for f in area_facts.get(it["id"], [])}
+        it["story"] = story(it["name"], facts, census.get(it["id"], {}), it["why"])
+        it["why"] = why_not_region(it["why"])
+        it["facts"] = area_evidence(it["id"]) if it["id"] in area_facts else rule_evidence(it["id"])
     boxes = {}
     for f in features:
         xs = [c[0] for poly in polygons(f["geometry"]) for c in poly[0]]

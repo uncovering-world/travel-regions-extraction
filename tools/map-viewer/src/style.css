@@ -50,6 +50,10 @@ details.tech { margin-top: 14px; }
 .tag.special { background: #fde4d3; color: #9a3412; }
 .tag.note { background: #dbe6fd; color: #1e3a8a; }
 .maplibregl-popup-content { font: 12px/1.4 system-ui, sans-serif; }
+dl.story { margin: 6px 0 0; }
+dl.story dt { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; margin-top: 8px; }
+dl.story dd { margin: 2px 0 0; }
+.maplibregl-popup-content p { margin: 4px 0 0; }
 .pin { color: var(--accent); font-weight: 600; }
 
 @media (max-width: 760px) {
