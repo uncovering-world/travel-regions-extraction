@@ -214,11 +214,15 @@ def main() -> None:
                 who = ", ".join(views) if len(views) <= 5 else f"{len(views)} of the {total}"
                 related.setdefault(other, f"counted to this country under the points of view of {who}")
         p["carved"] = [{"id": c, "name": props.get(c, {}).get("name", c), "how": how} for c, how in sorted(related.items())]
+    # the own geometries as clipped to their donors (render_map.py), else as published
+    clipped_path = ROOT / "cache" / "map" / "own_pieces.json"
+    clipped = json.loads(clipped_path.read_text(encoding="utf-8")) if clipped_path.exists() else {}
     own = []
     for s in read(REPO / "data" / "custom-geometries" / "sources.csv"):
         data = json.loads((REPO / "data" / "custom-geometries" / s["file"]).read_text(encoding="utf-8"))
-        for f in data["features"]:
-            own.append({"type": "Feature", "geometry": f["geometry"], "properties": {
+        shapes = [clipped[s["file"]]] if s["file"] in clipped else [f["geometry"] for f in data["features"]]
+        for g in shapes:
+            own.append({"type": "Feature", "geometry": g, "properties": {
                 k: s[k] for k in ("place", "region", "rank", "whose_line", "publisher", "licence", "source_url", "notes")}})
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "regions.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": features}, ensure_ascii=False))

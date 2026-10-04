@@ -79,9 +79,12 @@ def main():
         geoms = {rid: wkb.loads(g) for rid, g in cached["geoms"].items()}
         log(f"regions with own geometries read from {final.name}")
     else:
-        apply_own(geoms, membership)
-        final.write_bytes(pickle.dumps({"key": key2, "geoms": {rid: wkb.dumps(g) for rid, g in geoms.items()}}))
+        pieces = apply_own(geoms, membership)
+        final.write_bytes(pickle.dumps({"key": key2, "geoms": {rid: wkb.dumps(g) for rid, g in geoms.items()},
+                                        "pieces": {u: wkb.dumps(g) for u, g in pieces.items()}}))
+        cached = {"pieces": {u: wkb.dumps(g) for u, g in pieces.items()}}
     write(geoms, regions, membership, args.tolerance)
+    write_pieces({u: wkb.loads(g) for u, g in cached.get("pieces", {}).items()}, args.tolerance)
 
 
 def unite(tolerance, inc, exc):
@@ -115,6 +118,7 @@ def unite(tolerance, inc, exc):
 def apply_own(geoms, membership):
     """The canon's own geometries, clipped to their donors (plus land no GADM unit covers), moved to their region."""
     own = defaultdict(list)
+    pieces = {}
     ids = sorted(geoms)
     tree = shapely.STRtree([geoms[i] for i in ids])
     for m in membership:
@@ -133,10 +137,19 @@ def apply_own(geoms, membership):
         for d in donors:
             geoms[d] = shapely.make_valid(shapely.difference(geoms[d], piece))
         own[m["region_id"]].append(piece)
+        pieces[m["unit"]] = piece
         log(f"own geometry {m['unit']} -> {m['region_id']} (donors: {' '.join(donors) or 'none'})")
-    for rid, pieces in own.items():
-        geoms[rid] = shapely.make_valid(shapely.union_all(pieces + ([geoms[rid]] if rid in geoms else [])))
+    for rid, parts in own.items():
+        geoms[rid] = shapely.make_valid(shapely.union_all(parts + ([geoms[rid]] if rid in geoms else [])))
     log("own geometries applied")
+    return pieces
+
+
+def write_pieces(pieces, tolerance):
+    """Each own geometry as clipped to its donors: the land it actually moves (own_pieces.json)."""
+    out = {u: mapping(rounded(g.simplify(tolerance / 4))) for u, g in sorted(pieces.items()) if not g.is_empty}
+    (OUT / "own_pieces.json").write_text(json.dumps(out), encoding="utf-8")
+    log(f"wrote {len(out)} clipped own geometries")
 
 
 def write(geoms, regions, membership, tolerance):
