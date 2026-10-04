@@ -1,0 +1,455 @@
+{
+ "custom_geometries": [
+  {
+   "region": "BT",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320455",
+   "polygon_km2": 1236.84,
+   "on_gadm_land_km2": 1236.84,
+   "taken_from": {
+    "rule/cn-tibet": 1220.19,
+    "BT": 16.65
+   }
+  },
+  {
+   "region": "BZ",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320435",
+   "polygon_km2": 0.12,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "CN",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159321227",
+   "polygon_km2": 0.1,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "CO",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320425",
+   "polygon_km2": 0.43,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "CO",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159321245",
+   "polygon_km2": 0.11,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "EG",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1729635095",
+   "polygon_km2": 18161.89,
+   "on_gadm_land_km2": 18071.24,
+   "taken_from": {
+    "SD": 18012.61,
+    "EG": 58.62
+   }
+  },
+  {
+   "region": "ER",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320583",
+   "polygon_km2": 1.25,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "ES",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320605",
+   "polygon_km2": 0.01,
+   "on_gadm_land_km2": 0.01,
+   "taken_from": {
+    "area/melilla": 0.01
+   }
+  },
+  {
+   "region": "GA",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320695",
+   "polygon_km2": 0.13,
+   "on_gadm_land_km2": 0.01,
+   "taken_from": {
+    "GQ": 0.01
+   }
+  },
+  {
+   "region": "GB",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320775",
+   "polygon_km2": 0.03,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "GL",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320559",
+   "polygon_km2": 1.44,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "HR",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320835",
+   "polygon_km2": 1.41,
+   "on_gadm_land_km2": 0.58,
+   "taken_from": {
+    "SI": 0.58
+   }
+  },
+  {
+   "region": "IN",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320873",
+   "polygon_km2": 60.09,
+   "on_gadm_land_km2": 60.09,
+   "taken_from": {
+    "NP": 50.54,
+    "IN": 9.54
+   }
+  },
+  {
+   "region": "IO",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320723",
+   "polygon_km2": 7.02,
+   "on_gadm_land_km2": 0.15,
+   "taken_from": {
+    "IO": 0.15
+   }
+  },
+  {
+   "region": "JP",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320959",
+   "polygon_km2": 5.33,
+   "on_gadm_land_km2": 0.69,
+   "taken_from": {
+    "JP": 0.69
+   }
+  },
+  {
+   "region": "KR",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320995",
+   "polygon_km2": 0.03,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "NC",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320687",
+   "polygon_km2": 0.29,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "TF",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320665",
+   "polygon_km2": 0.16,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "TF",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320667",
+   "polygon_km2": 18.56,
+   "on_gadm_land_km2": 8.12,
+   "taken_from": {
+    "TF": 8.12
+   }
+  },
+  {
+   "region": "TF",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320675",
+   "polygon_km2": 1.97,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "TF",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320677",
+   "polygon_km2": 4.05,
+   "on_gadm_land_km2": 0.52,
+   "taken_from": {
+    "TF": 0.52
+   }
+  },
+  {
+   "region": "UM",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159321391",
+   "polygon_km2": 3.92,
+   "on_gadm_land_km2": 2.59,
+   "taken_from": {
+    "UM": 2.59
+   }
+  },
+  {
+   "region": "VE",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159321413",
+   "polygon_km2": 0.6,
+   "on_gadm_land_km2": 0.0,
+   "taken_from": {}
+  },
+  {
+   "region": "area/armistice-no-mans-lands",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320909",
+   "polygon_km2": 50.52,
+   "on_gadm_land_km2": 50.52,
+   "taken_from": {
+    "PS": 38.33,
+    "IL": 12.19
+   }
+  },
+  {
+   "region": "area/armistice-no-mans-lands",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320911",
+   "polygon_km2": 3.36,
+   "on_gadm_land_km2": 3.36,
+   "taken_from": {
+    "PS": 2.24,
+    "IL": 1.12
+   }
+  },
+  {
+   "region": "area/armistice-no-mans-lands",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1746265963",
+   "polygon_km2": 1.26,
+   "on_gadm_land_km2": 1.26,
+   "taken_from": {
+    "PS": 1.26
+   }
+  },
+  {
+   "region": "area/baikonur",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320965",
+   "polygon_km2": 6501.49,
+   "on_gadm_land_km2": 6501.49,
+   "taken_from": {
+    "KZ": 6501.49
+   }
+  },
+  {
+   "region": "area/bir-tawil",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1729635091",
+   "polygon_km2": 2019.46,
+   "on_gadm_land_km2": 2019.41,
+   "taken_from": {
+    "EG": 1934.35,
+    "SD": 85.06
+   }
+  },
+  {
+   "region": "area/cyprus-buffer-zone",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320511",
+   "polygon_km2": 341.0,
+   "on_gadm_land_km2": 340.52,
+   "taken_from": {
+    "CY": 340.52,
+    "area/northern-cyprus": 0.0,
+    "area/akrotiri-dhekelia": 0.0
+   }
+  },
+  {
+   "region": "area/east-jerusalem",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1746265961",
+   "polygon_km2": 66.55,
+   "on_gadm_land_km2": 66.55,
+   "taken_from": {
+    "PS": 60.39,
+    "IL": 6.16
+   }
+  },
+  {
+   "region": "area/gornja-siga",
+   "source": "OpenStreetMap relation",
+   "unit": "16381727",
+   "note": "geometry not available locally"
+  },
+  {
+   "region": "area/guantanamo-bay",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320529",
+   "polygon_km2": 65.35,
+   "on_gadm_land_km2": 62.25,
+   "taken_from": {
+    "CU": 62.25
+   }
+  },
+  {
+   "region": "area/ilemi-triangle",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320973",
+   "polygon_km2": 3400.63,
+   "on_gadm_land_km2": 3400.63,
+   "taken_from": {
+    "KE": 3209.74,
+    "SS": 190.89
+   }
+  },
+  {
+   "region": "area/ilemi-triangle",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159321237",
+   "polygon_km2": 17.44,
+   "on_gadm_land_km2": 17.44,
+   "taken_from": {
+    "KE": 17.44
+   }
+  },
+  {
+   "region": "area/indian-jammu-kashmir-ladakh",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320865",
+   "polygon_km2": 2268.47,
+   "on_gadm_land_km2": 2268.48,
+   "taken_from": {
+    "CN": 1318.21,
+    "rule/cn-tibet": 552.11,
+    "area/indian-jammu-kashmir-ladakh": 398.16
+   }
+  },
+  {
+   "region": "area/indian-jammu-kashmir-ladakh",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320963",
+   "polygon_km2": 2085.85,
+   "on_gadm_land_km2": 2085.85,
+   "taken_from": {
+    "area/gilgit-baltistan": 2084.95,
+    "CN": 0.9
+   }
+  },
+  {
+   "region": "area/koalou",
+   "source": "custom geometry",
+   "unit": "koalou.geojson",
+   "polygon_km2": 64.23,
+   "on_gadm_land_km2": 64.23,
+   "taken_from": {
+    "BJ": 64.11,
+    "TG": 0.12
+   }
+  },
+  {
+   "region": "area/korean-dmz",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320991",
+   "polygon_km2": 1097.68,
+   "on_gadm_land_km2": 1091.79,
+   "taken_from": {
+    "KR": 878.06,
+    "KP": 213.73
+   }
+  },
+  {
+   "region": "area/korean-dmz",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159321183",
+   "polygon_km2": 1142.09,
+   "on_gadm_land_km2": 1140.16,
+   "taken_from": {
+    "KP": 1069.12,
+    "KR": 71.04
+   }
+  },
+  {
+   "region": "area/kuril-islands",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159321213",
+   "polygon_km2": 4969.66,
+   "on_gadm_land_km2": 4603.27,
+   "taken_from": {
+    "RU": 4603.27
+   }
+  },
+  {
+   "region": "area/shebaa-farms",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320907",
+   "polygon_km2": 17.94,
+   "on_gadm_land_km2": 17.94,
+   "taken_from": {
+    "LB": 17.94
+   }
+  },
+  {
+   "region": "area/somaliland",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159321259",
+   "polygon_km2": 167418.6,
+   "on_gadm_land_km2": 166692.51,
+   "taken_from": {
+    "SO": 165699.59,
+    "ET": 746.65,
+    "DJ": 246.27
+   }
+  },
+  {
+   "region": "area/south-ossetia",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159320787",
+   "polygon_km2": 4465.43,
+   "on_gadm_land_km2": 4465.43,
+   "taken_from": {
+    "GE": 4445.2,
+    "RU": 20.23
+   }
+  },
+  {
+   "region": "area/undof-zone",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159321297",
+   "polygon_km2": 264.98,
+   "on_gadm_land_km2": 264.98,
+   "taken_from": {
+    "area/golan-heights": 165.75,
+    "SY": 89.86,
+    "LB": 9.23,
+    "JO": 0.14
+   }
+  },
+  {
+   "region": "area/western-sahara-moroccan-controlled",
+   "source": "Natural Earth 5.1.2 disputed areas",
+   "unit": "1159321037",
+   "polygon_km2": 177848.98,
+   "on_gadm_land_km2": 177278.06,
+   "taken_from": {
+    "EH": 177278.06
+   }
+  },
+  {
+   "region": "rule/ye-socotra",
+   "source": "OpenStreetMap relation",
+   "unit": "5486640",
+   "note": "geometry not available locally"
+  }
+ ],
+ "overlaps_between_regions": []
+}
