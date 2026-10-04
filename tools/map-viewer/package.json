@@ -1,0 +1,20 @@
+{
+  "name": "canon-map-viewer",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local viewer for a draft release of the region canon: regions, their countries under each point of view, and how they are made.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.8.0"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "typescript": "^5.6.0",
+    "vite": "^7.1.0"
+  }
+}

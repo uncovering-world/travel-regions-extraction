@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canon draft map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html, body { height: 100%; margin: 0; font: 13px/1.4 system-ui, sans-serif; }
+  #map { position: absolute; inset: 0 340px 0 0; background: #dfe7ec; }
+  #side { position: absolute; top: 0; right: 0; bottom: 0; width: 340px; overflow: auto; padding: 12px 14px;
+          box-sizing: border-box; background: #fbfbfa; border-left: 1px solid #ccd; }
+  h1 { font-size: 15px; margin: 0 0 6px; }
+  h2 { font-size: 14px; margin: 10px 0 4px; }
+  .muted { color: #667; }
+  table { border-collapse: collapse; width: 100%; }
+  td { padding: 2px 4px; vertical-align: top; border-bottom: 1px solid #eee; }
+  td:first-child { color: #556; width: 92px; }
+  code { font-size: 11px; }
+  input { width: 100%; box-sizing: border-box; padding: 5px; margin: 6px 0; }
+  .tag { display: inline-block; padding: 0 5px; margin: 1px; border-radius: 3px; background: #eef; font-size: 11px; }
+  label { display: block; margin: 4px 0; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="side">
+  <h1>Canon draft — Stage 1</h1>
+  <div class="muted" id="summary"></div>
+  <input id="search" placeholder="Find a region by name or id…">
+  <label><input type="checkbox" id="tiles" checked style="width:auto"> background map (OpenStreetMap tiles)</label>
+  <label><input type="checkbox" id="onlynonISO" style="width:auto"> highlight regions that are not ISO entries</label>
+  <div id="info" class="muted">Hover over a region.</div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="regions.js"></script>
+<script>
+const map = L.map('map', { worldCopyJump: true, preferCanvas: true }).setView([25, 20], 2);
+const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+  { maxZoom: 12, opacity: 0.35, attribution: '© OpenStreetMap contributors' }).addTo(map);
+document.getElementById('tiles').onchange = e => e.target.checked ? tiles.addTo(map) : map.removeLayer(tiles);
+
+function hue(s) { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 360; return h; }
+function isIso(p) { return /^[A-Z]{2}$/.test(p.id); }
+let highlightNonIso = false;
+function style(f) {
+  const p = f.properties, h = hue(p.country || p.id);
+  const dim = highlightNonIso && isIso(p);
+  return { color: '#334', weight: 0.6, fillColor: `hsl(${h} 55% ${isIso(p) ? 72 : 52}%)`,
+           fillOpacity: dim ? 0.15 : (isIso(p) ? 0.55 : 0.8) };
+}
+function esc(s) { return String(s).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c])); }
+function show(p) {
+  const pov = Object.entries(p.pov_differing || {}).map(([k, v]) => `<span class="tag">${esc(k)}: ${esc(v)}</span>`).join('');
+  document.getElementById('info').innerHTML = `
+    <h2>${esc(p.name)}</h2>
+    <table>
+      <tr><td>id</td><td><code>${esc(p.id)}</code></td></tr>
+      <tr><td>country</td><td>${esc(p.country)}</td></tr>
+      <tr><td>basis</td><td>${esc(p.basis)}</td></tr>
+      <tr><td>evidence</td><td>${esc(p.evidence)}</td></tr>
+      ${p.open ? `<tr><td>open</td><td>${esc(p.open)}</td></tr>` : ''}
+      <tr><td>points of view</td><td>most: ${esc(p.pov_majority)}${pov ? '<br>differ: ' + pov : ''}</td></tr>
+      <tr><td>made of</td><td>${(p.units || []).map(u => `<code>${esc(u)}</code>`).join('<br>')}</td></tr>
+    </table>`;
+}
+const layer = L.geoJSON(window.REGIONS, {
+  style,
+  onEachFeature: (f, l) => {
+    l.on('mouseover', () => { l.setStyle({ weight: 2.5, color: '#c00' }); l.bringToFront(); show(f.properties); });
+    l.on('mouseout', () => layer.resetStyle(l));
+    l.on('click', () => map.fitBounds(l.getBounds(), { maxZoom: 8 }));
+  }
+}).addTo(map);
+document.getElementById('onlynonISO').onchange = e => { highlightNonIso = e.target.checked; layer.setStyle(style); };
+const feats = window.REGIONS.features;
+document.getElementById('summary').textContent =
+  `${feats.length} regions drawn` + (window.MISSING.length ? `; without geometry: ${window.MISSING.join(', ')}` : '') +
+  '. Click a region to zoom to it.';
+document.getElementById('search').addEventListener('change', e => {
+  const q = e.target.value.trim().toLowerCase();
+  layer.eachLayer(l => {
+    const p = l.feature.properties;
+    if (q && (p.name.toLowerCase().includes(q) || p.id.toLowerCase() === q)) {
+      map.fitBounds(l.getBounds(), { maxZoom: 8 }); show(p);
+    }
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+node_modules/
+dist/
+# generated from GADM-derived geometry, whose licence forbids redistribution
+public/data/

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canon map viewer</title>
+</head>
+<body>
+  <div id="map"></div>
+  <aside id="side">
+    <header>
+      <h1>Canon draft — Stage 1</h1>
+      <p id="summary" class="muted">Loading…</p>
+    </header>
+    <section class="controls">
+      <label>Point of view
+        <select id="pov"></select>
+      </label>
+      <label>Find a region
+        <input id="search" list="names" placeholder="name or id">
+        <datalist id="names"></datalist>
+      </label>
+      <label class="check"><input type="checkbox" id="nonIso"> highlight regions that are not ISO entries</label>
+      <label class="check"><input type="checkbox" id="own" checked> outline the canon's own geometries</label>
+      <label class="check"><input type="checkbox" id="differ"> outline regions whose country differs from the canon's</label>
+      <label class="check"><input type="checkbox" id="osm"> background map (OpenStreetMap tiles)</label>
+    </section>
+    <section id="info" class="muted">Hover over a region; click to pin it.</section>
+  </aside>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
