@@ -303,8 +303,8 @@ def main() -> None:
     for rid, geom in geometry.items():
         r = rows.get(rid, {})
         s = listed.get(rid, {})
-        povs = {k[4:]: v for k, v in r.items() if k.startswith("pov_")}
-        povs["__canon_a3"] = a3.get(r.get("country_code", ""), "")
+        povs = {k[5:]: v for k, v in r.items() if k.startswith("view_")}   # each party's point of view (D064-D069)
+        povs["__canon"] = r.get("country_code", "")
         basis = s.get("basis", r.get("basis", ""))
         key = "entry rule" if basis.startswith("entry rule:") else basis
         text, refs = WHY.get(key, ("", []))
@@ -328,7 +328,7 @@ def main() -> None:
     for f in features:
         p = f["properties"]
         related = {c: "taken out of its land" for c in p["carved"]}
-        mine = a3.get(p["id"], "") if re.fullmatch(r"[A-Z]{2}", p["id"]) else ""
+        mine = p["id"] if re.fullmatch(r"[A-Z]{2}", p["id"]) else ""
         for other, q in props.items():
             if other == p["id"] or re.fullmatch(r"[A-Z]{2}", other) or not mine:
                 continue

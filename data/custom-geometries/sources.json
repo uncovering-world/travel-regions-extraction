@@ -683,8 +683,8 @@
   },
   {
    "place": "halaib-triangle",
-   "region": "EG",
-   "donors": "SD",
+   "region": "area/halaib-triangle",
+   "donors": "SD EG",
    "rank": 2,
    "whose_line": "the political boundary, which Egypt asserts, and the administrative boundary, which Sudan asserts, as drawn by the US Department of State (LSIB 'International Boundary' and 'Administrative Boundary')",
    "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",

@@ -55,20 +55,6 @@
    }
   },
   {
-   "region": "EG",
-   "source": "custom geometry",
-   "unit": "halaib-triangle.geojson",
-   "polygon_km2": 17878.37,
-   "on_gadm_land_km2": 17851.6,
-   "donors": [
-    "SD"
-   ],
-   "taken_from": {
-    "SD": 17799.25,
-    "already its own": 52.34
-   }
-  },
-  {
    "region": "ER",
    "source": "custom geometry",
    "unit": "doumeira-island.geojson",
@@ -343,6 +329,21 @@
    ],
    "taken_from": {
     "CU": 79.89
+   }
+  },
+  {
+   "region": "area/halaib-triangle",
+   "source": "custom geometry",
+   "unit": "halaib-triangle.geojson",
+   "polygon_km2": 17878.37,
+   "on_gadm_land_km2": 17851.6,
+   "donors": [
+    "EG",
+    "SD"
+   ],
+   "taken_from": {
+    "SD": 17799.25,
+    "EG": 52.34
    }
   },
   {

@@ -78,7 +78,6 @@ DZ,GADM 4.1,DZA,include,2,
 EC,GADM 4.1,ECU.9_1,exclude,2,
 EC,GADM 4.1,ECU,include,2,
 EE,GADM 4.1,EST,include,2,
-EG,custom geometry,halaib-triangle.geojson,include,1,SD
 EG,GADM 4.1,EGY,include,2,
 EH,GADM 4.1,ESH,include,2,
 ER,custom geometry,doumeira-island.geojson,include,1,
@@ -340,6 +339,7 @@ area/gilgit-baltistan,GADM 4.1,Z06.6_1,include,2,
 area/golan-heights,GADM 4.1,ISR.1_1,include,2,
 area/gornja-siga,custom geometry,gornja-siga.geojson,include,1,HR RS
 area/guantanamo-bay,custom geometry,guantanamo-bay.geojson,include,1,CU
+area/halaib-triangle,custom geometry,halaib-triangle.geojson,include,1,SD EG
 area/ilemi-triangle,custom geometry,ilemi-triangle.geojson,include,1,KE SS
 area/indian-jammu-kashmir-ladakh,custom geometry,siachen.geojson,include,1,area/gilgit-baltistan
 area/indian-jammu-kashmir-ladakh,GADM 4.1,Z01,include,2,

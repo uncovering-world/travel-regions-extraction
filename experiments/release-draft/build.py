@@ -25,8 +25,6 @@ OUT = ROOT / "release"
 GADM = "GADM 4.1"
 NE = "Natural Earth 5.1.2 disputed areas"
 CUSTOM = "custom geometry"
-POVS = ["AR", "BD", "BR", "CN", "DE", "EG", "ES", "FR", "GB", "GR", "ID", "IL", "IN", "IT", "JP", "KO",
-        "MA", "NL", "NP", "PK", "PL", "PS", "PT", "RU", "SA", "SE", "TR", "TW", "UA", "US", "VN"]
 INPUTS = [
     "experiments/stage1-list/outputs/regions.csv",
     "experiments/gadm-binding/outputs/bindings.csv",
@@ -35,7 +33,7 @@ INPUTS = [
     "experiments/release-draft/inputs/attribution.csv",
     "experiments/release-draft/inputs/gadm_leftovers.csv",
     "data/custom-geometries/sources.csv",
-    "experiments/release-draft/inputs/pov_features.csv",
+    "experiments/stage1-list/inputs/claims.csv",
     "data/custom-geometries/sources.json",
     "docs/spec.md",
 ]
@@ -60,6 +58,10 @@ def main() -> None:
     items = {r["region"]: r["item"] for r in read("experiments/outline-sources/outputs/regions.csv")}
     census = {r["id"]: r for r in read("data/entry-rules/census.csv")}
     attribution = {r["region"]: r for r in read("experiments/release-draft/inputs/attribution.csv")}
+    claims = {r["area_id"]: r for r in read("experiments/stage1-list/inputs/claims.csv")}
+
+    def single(holder: str) -> bool:
+        return holder not in ("", "none", "unclear") and not holder.startswith("split")
     iso_names = {c["alpha_2"]: c.get("common_name", c["name"]) for c in
                  json.loads(Path("/usr/share/iso-codes/json/iso_3166-1.json").read_text())["3166-1"]}
     ids = {r["id"] for r in regions}
@@ -77,6 +79,15 @@ def main() -> None:
         elif rid.startswith("rule/"):
             code = census[rid[5:]]["iso_code"]
             country = iso_names.get(code, code)
+        elif single(claims.get(rid[5:], {}).get("holder", "")):
+            # a region made by a claim goes with its holder (R050, R051); an area whose control is not yet accepted
+            # goes with the party it was taken from, its last settled holder (R049)
+            c = claims[rid[5:]]
+            taken_from = [x for x in c["claimants"].split() if x not in c["renounced"].split()]
+            code = taken_from[0] if r["country"].startswith("unsettled") and len(taken_from) == 1 else c["holder"]
+            country = iso_names.get(code, code)
+            if code.startswith("area/"):
+                code, country = "", attribution.get(code, {}).get("country", code)
         else:
             country, code = "", ""
             gaps.append({"item": rid, "missing": "country attribution"})
@@ -84,46 +95,37 @@ def main() -> None:
                       "basis": r["basis"].split(":")[0].split(";")[0], "country": country, "country_code": code,
                       "evidence": r["evidence"], "open": r["open"]})
 
-    # the country of each region under each Natural Earth point of view (R045): the ADM0_A3_<POV> value of the
-    # Natural Earth feature that represents the region, or of its country's feature
-    cache = REPO / "experiments" / "stage1-world-draft" / "cache"
-    units = json.loads((cache / "ne_10m_admin_0_map_units.geojson").read_text())["features"]
-    disputed = {str(f["properties"]["NE_ID"]): f["properties"] for f in
-                json.loads((cache / "ne_10m_admin_0_disputed_areas.geojson").read_text())["features"]}
-    by_a2 = {}
-    for f in units:
-        q = f["properties"]
-        for code in (q.get("ISO_A2"), q.get("ISO_A2_EH")):
-            if code and code != "-99":
-                by_a2.setdefault(code, q)
+    # the country of each region under each party's point of view (R045 as amended by D064-D069): a party counts the
+    # areas it claims and the areas it holds as its own; everywhere else its view is the canon's attribution.
+    # Natural Earth's views are only a lead (D065), checked in experiments/stage1-list/outputs/natural_earth_lead.csv.
     links = {r["area_id"]: r for r in read("experiments/stage1-list/inputs/links.csv")}
-    countries_by_a3 = {f["properties"]["ADM0_A3"]: f["properties"] for f in
-                       json.loads((cache / "ne_10m_admin_0_countries.geojson").read_text())["features"]}
-    pov_override = {r["region"]: r["ne_feature"] for r in read("experiments/release-draft/inputs/pov_features.csv")}
-    small = {r["ne_name"]: str(r["ne_id"]) for r in read("experiments/gadm-binding/outputs/disputed_points.csv")}
+    kinds = {r["area_id"]: r["kind"] for r in read("data/disputed-areas/registry.csv")}
+    own: dict[str, dict[str, str]] = {}                      # region id -> {party: party} where the party counts it its own
+    for area_id, c in claims.items():
+        link = links.get(area_id, {})
+        if link.get("iso") and link.get("basis", "").startswith("own ISO entry"):
+            rid = link["iso"]                                 # a claim to a whole ISO entry
+        else:
+            rid = "area/" + area_id
+        if rid not in ids:
+            continue
+        renounced = set(c["renounced"].split())
+        parties = set(c["claimants"].split()) - renounced
+        holder = c["holder"]
+        if single(holder) and kinds.get(area_id) != "lease_or_base" and not rid.isupper():
+            parties.add(holder)
+        for party in parties:
+            own.setdefault(rid, {})[party] = party
+    parties = sorted({p for v in own.values() for p in v})
+    view_name = {p: p.split("/", 1)[1] if "/" in p else p for p in parties}
     for r in table:
-        rid = r["region_id"]
-        feature = None
-        if rid.startswith("area/"):
-            link = links.get(rid[5:], {})
-            cell = link.get("registry_cell", "")
-            if "#" in cell:
-                feature = disputed.get(cell.rsplit("#", 1)[1])
-            elif link.get("small_feature") in small:
-                feature = disputed.get(small[link["small_feature"]])
-            elif link.get("pov_feature"):
-                feature = disputed.get(link["pov_feature"])
-        if rid in pov_override:
-            kind, _, ref = pov_override[rid].partition(":")
-            feature = {"countries": countries_by_a3, "disputed": disputed, "iso": by_a2}.get(kind, {}).get(ref)
-            if pov_override[rid] == "none":
-                feature = None
-        if feature is None and rid not in pov_override:
-            feature = by_a2.get(r["country_code"] or rid)
-        for pov in POVS:
-            r[f"pov_{pov}"] = str(feature.get(f"ADM0_A3_{pov}", "")) if feature else ""
-        if feature is None and pov_override.get(rid) != "none":
-            gaps.append({"item": rid, "missing": "no Natural Earth feature for its points of view"})
+        slug = r["region_id"].split("/", 1)[1] if r["region_id"].startswith("area/") else ""
+        canon = r["country_code"] or ("none" if r["country"] == "none" else slug if "area/" + slug in parties else
+                                     next((view_name[p] for p in parties if p.startswith("area/") and
+                                           attribution.get(p, {}).get("country") == r["country"]), ""))
+        for p in parties:
+            mine = own.get(r["region_id"], {}).get(p)
+            r[f"view_{view_name[p]}"] = view_name[mine] if mine else canon
 
     # membership: GADM units, ISO regions as GADM countries minus units bound elsewhere, custom geometries
     membership = []
@@ -187,7 +189,7 @@ def main() -> None:
     (OUT / "canon.json").write_text(json.dumps(tree, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     write_csv(OUT / "regions.csv", sorted(table, key=lambda r: r["region_id"]),
               ["region_id", "name", "wikidata_id", "basis", "country", "country_code", "evidence", "open"]
-              + [f"pov_{p}" for p in POVS])
+              + [f"view_{view_name[p]}" for p in parties])
     write_csv(OUT / "membership.csv", membership, ["region_id", "source", "unit", "role", "precedence", "clip_to"])
     write_csv(OUT / "gaps.csv", gaps, ["item", "missing"])
     manifest = {

@@ -172,7 +172,7 @@ def write(geoms, regions, membership, tolerance):
     features = []
     for rid, geom in sorted(geoms.items()):
         r = regions.get(rid, {"name": rid})
-        povs = {k[4:]: v for k, v in r.items() if k.startswith("pov_") and v}
+        povs = {k[5:]: v for k, v in r.items() if k.startswith("view_") and v}
         majority = max(set(povs.values()), key=list(povs.values()).count) if povs else ""
         differing = {k: v for k, v in povs.items() if v != majority}
         simple = geom.simplify(tolerance, preserve_topology=False)

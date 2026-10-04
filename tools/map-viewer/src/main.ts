@@ -134,7 +134,7 @@ async function main(): Promise<void> {
 
   const povSelect = $<HTMLSelectElement>("pov");
   povSelect.innerHTML = [`<option value="${CANON}">the canon's attribution</option>`]
-    .concat(povNames.map((p) => `<option value="${p}">Natural Earth, ${p}'s point of view</option>`))
+    .concat(povNames.filter((p) => !p.startsWith("__")).map((p) => `<option value="${p}">${p}'s point of view (its claims)</option>`))
     .join("");
   $("names").innerHTML = regions.features
     .map((f) => `<option value="${esc(f.properties.name)}">${esc(f.properties.id)}</option>`)
@@ -171,7 +171,7 @@ async function main(): Promise<void> {
     for (const f of regions!.features) {
       const p = f.properties;
       const code = pov === CANON ? p.country_code || p.country || p.id : p.povs[pov] || "?";
-      const canonCode = p.povs.__canon_a3 ?? "";
+      const canonCode = p.povs.__canon ?? "";
       p.color = colour(code, isIso(p.id));
       p.differs = pov !== CANON && canonCode !== "" && code !== canonCode;
     }
