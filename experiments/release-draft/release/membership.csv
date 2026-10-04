@@ -249,10 +249,6 @@ SD,GADM 4.1,SDN.17.1_1,exclude,2,
 SD,GADM 4.1,SDN,include,2,
 SE,GADM 4.1,SWE,include,2,
 SG,GADM 4.1,SGP,include,2,
-SH,GADM 4.1,SHN.1_1,exclude,2,
-SH,GADM 4.1,SHN.2_1,exclude,2,
-SH,GADM 4.1,SHN.3_1,exclude,2,
-SH,GADM 4.1,SHN,include,2,
 SI,GADM 4.1,SVN,include,2,
 SJ,GADM 4.1,SJM.1_1,exclude,2,
 SJ,GADM 4.1,SJM,include,2,
@@ -327,7 +323,7 @@ area/abyei,GADM 4.1,SDN.17.1_1,include,2,
 area/akrotiri-dhekelia,GADM 4.1,XAD,include,2,
 area/aksai-chin,GADM 4.1,Z03,include,2,
 area/ankoko-island,custom geometry,ankoko-island.geojson,include,1,VE GY
-area/armistice-no-mans-lands,custom geometry,armistice-no-mans-lands.geojson,include,1,IL PS
+area/armistice-no-mans-lands,custom geometry,armistice-no-mans-lands.geojson,include,1,IL PS area/east-jerusalem
 area/artsvashen,custom geometry,artsvashen.geojson,include,1,AZ AM
 area/arunachal-pradesh,GADM 4.1,Z07,include,2,
 area/azad-kashmir,GADM 4.1,Z06.1_1,include,2,

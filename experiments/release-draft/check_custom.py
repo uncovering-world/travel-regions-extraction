@@ -113,6 +113,7 @@ def main():
                        "donors": sorted(donors), "taken_from": {k: round(v, 2) for k, v in sorted(taken.items(), key=lambda kv: -kv[1])}})
 
     overlaps = []
+    donors_of = {r: d for r, _, _, _, d in custom}
     shapes = [(r, u, g) for r, s, u, g, _ in custom if g is not None]
     for i, (r1, u1, g1) in enumerate(shapes):
         for r2, u2, g2 in shapes[i + 1:]:
@@ -120,7 +121,9 @@ def main():
                 inter = g1.intersection(g2)
                 if not inter.is_empty and inter.area > 0:
                     c = inter.representative_point()
-                    overlaps.append({"a": f"{r1} ({u1})", "b": f"{r2} ({u2})", "km2": round(km2(inter, c.x, c.y), 3)})
+                    taker = r1 if r2 in donors_of.get(r1, set()) else r2 if r1 in donors_of.get(r2, set()) else ""
+                    overlaps.append({"a": f"{r1} ({u1})", "b": f"{r2} ({u2})", "km2": round(km2(inter, c.x, c.y), 3),
+                                     "resolved": f"{taker} takes it (the other is its donor)" if taker else "no: neither is the other's donor"})
     out = {"custom_geometries": report, "overlaps_between_regions": overlaps}
     (ROOT / "release" / "custom_check.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     for r in report:

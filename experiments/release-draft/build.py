@@ -17,6 +17,7 @@ import csv
 import hashlib
 import io
 import json
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -50,6 +51,35 @@ def write_csv(path: Path, rows: list[dict], columns: list[str]) -> None:
     writer.writeheader()
     writer.writerows(rows)
     path.write_text(buffer.getvalue(), encoding="utf-8")
+
+
+def landless(membership: list[dict]) -> set[str]:
+    """Regions none of whose GADM rows is left after their exclusions, and that have no own geometry (reads GADM)."""
+    import sqlite3
+    gpkg = Path(os.environ.get("GADM_GPKG", REPO.parent / "track-your-regions" / "deployment" / "gadm_410.gpkg"))
+    inc, exc, own = {}, {}, set()
+    for m in membership:
+        if m["source"] == CUSTOM:
+            own.add(m["region_id"])
+        elif m["source"] == GADM:
+            (inc if m["role"] == "include" else exc).setdefault(m["region_id"], set()).add(m["unit"])
+    db = sqlite3.connect(f"file:{gpkg}?mode=ro", uri=True)
+    empty = set()
+    for rid, units in inc.items():
+        if rid in own or not exc.get(rid):
+            continue
+        left = 0
+        for unit in units:
+            level = unit.count(".")                       # GID_0 for "SHN", GID_1 for "SHN.1_1", ...
+            for gids in db.execute(f"select GID_0, GID_1, GID_2, GID_3, GID_4, GID_5 from gadm_410 where GID_{level} = ?", (unit,)):
+                if not any(g in exc[rid] for g in gids if g):
+                    left += 1
+                    break
+            if left:
+                break
+        if not left:
+            empty.add(rid)
+    return empty
 
 
 def main() -> None:
@@ -161,6 +191,13 @@ def main() -> None:
     for r in read("data/custom-geometries/sources.csv"):
         membership.append({"region_id": r["region"], "source": CUSTOM, "unit": r["file"], "role": "include",
                            "precedence": 1, "clip_to": r["donors"].replace(";", " ")})
+    # a region whose GADM units are all taken by other regions and that has no own geometry has no land: an ISO entry
+    # divided entirely into entry-rule regions stays a country node in the tree, not a region of its own
+    empty = landless(membership)
+    if empty:
+        membership = [m for m in membership if m["region_id"] not in empty]
+        table = [r for r in table if r["region_id"] not in empty]
+        ids -= empty
     with_geometry = {m["region_id"] for m in membership if m["role"] == "include"}
     for r in table:
         if r["region_id"] not in with_geometry:

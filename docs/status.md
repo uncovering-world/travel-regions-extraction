@@ -17,7 +17,7 @@ Reference registry and points of view (D038, D039, D064–D069): every country's
 
 ## Active
 
-- [Release draft](../experiments/release-draft/README.md) (#22): 332 regions with `view_<party>` columns, membership in GADM units, 54 own geometries, manifest; every GADM unit in exactly one region. Open items: Migingo (holder unclear), the Okpara villages (which villages, see the register's [review list](../data/disputed-areas/REVIEW.md)), the ISO entry SH with no land of its own, Hans Island (split since 2022), the Mount Scopus enclave, a 0.1 km² overlap of East Jerusalem and the no-man's-lands, small plots of the Baikonur lease far from the cosmodrome, whether the Philippine law of 2009 kept the Sabah claim.
+- [Release draft](../experiments/release-draft/README.md) (#22): 331 regions with `view_<party>` columns, membership in GADM units, 54 own geometries, manifest; every GADM unit in exactly one region. Open items: Migingo (holder unclear), the Okpara villages (which villages, see the register's [review list](../data/disputed-areas/REVIEW.md)), Hans Island (split since 2022), the Mount Scopus enclave, small plots of the Baikonur lease far from the cosmodrome, whether the Philippine law of 2009 kept the Sabah claim.
 - [Stage 1 as a list](../experiments/stage1-list/README.md) (#22): rerun under D064–D069; `outputs/natural_earth_lead.csv` lists where Natural Earth and the recorded claims disagree.
 - Long term: a canon for every year from 2000 ([#30](https://github.com/uncovering-world/travel-regions-extraction/issues/30)).
 

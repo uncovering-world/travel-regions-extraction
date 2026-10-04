@@ -212,7 +212,7 @@
   {
    "place": "armistice-no-mans-lands",
    "region": "area/armistice-no-mans-lands",
-   "donors": "IL;PS",
+   "donors": "IL;PS area/east-jerusalem",
    "rank": 2,
    "whose_line": "the 1949 Israel–Jordan armistice lines (limits of the no-man's-lands) as drawn by the US Department of State",
    "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
@@ -239,7 +239,7 @@
     ]
    },
    "file": "armistice-no-mans-lands.geojson",
-   "notes": "Union of DoS 'No Man's Land' x2 (Latrun, Jerusalem; LSIB label '1949 Armistice Line') and 'Mt. Scopus South'; one DoS feature also has a 0.01 km² part at about 35.495°E 32.401°N, outside the three places. The Mount Scopus enclave itself (about 1.0 km²) is not a separate DoS feature (it is a part of DoS's 'Israel' polygon), so it is missing here; Natural Earth's 'Mount Scopus' feature included it. Owner to decide (see README)."
+   "notes": "Union of DoS 'No Man's Land' x2 (Latrun, Jerusalem; LSIB label '1949 Armistice Line') and 'Mt. Scopus South'; one DoS feature also has a 0.01 km² part at about 35.495°E 32.401°N, outside the three places. The Mount Scopus enclave itself (about 1.0 km²) is not a separate DoS feature (it is a part of DoS's 'Israel' polygon), so it is missing here; Natural Earth's 'Mount Scopus' feature included it. Owner to decide (see README). The no-man's-lands take precedence over East Jerusalem where the two outlines overlap (0.1 km²): East Jerusalem is one of their donors."
   },
   {
    "place": "artsvashen",

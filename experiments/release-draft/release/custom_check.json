@@ -236,7 +236,8 @@
    "on_gadm_land_km2": 52.62,
    "donors": [
     "IL",
-    "PS"
+    "PS",
+    "area/east-jerusalem"
    ],
    "taken_from": {
     "PS": 39.33,
@@ -718,7 +719,8 @@
   {
    "a": "area/armistice-no-mans-lands (armistice-no-mans-lands.geojson)",
    "b": "area/east-jerusalem (east-jerusalem.geojson)",
-   "km2": 0.096
+   "km2": 0.096,
+   "resolved": "area/armistice-no-mans-lands takes it (the other is its donor)"
   }
  ]
 }
