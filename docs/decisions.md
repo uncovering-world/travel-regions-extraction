@@ -577,3 +577,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: until TYR reads the sidecars, an import binds by names and needs manual review.
 - Status: accepted.
 - Basis: owner decision, 2026-10-04; [output-format proposal](proposals/output-format.md); consumer contract C5.
+
+### D061 — The overlap of the parties' official national outlines is a stated outline
+
+- Decision: where two states each publish their national outline and both include an area, the overlap of those outlines is the area's outline under R047 (it lies between the lines the parties themselves state). Applied first to the Koalou zone (Benin–Burkina Faso), from the HDX COD-AB national datasets. Rukwanzi–Semliki and the Dniester Security Zone stay special places until a usable line is found (the Security Zone's coordinates are in a protocol that is not public).
+- Rationale: no source has an outline drawn for the zone itself; the overlap of the two official datasets is close to the reported 68 km² and uses only lines the parties' mapping agencies publish.
+- Rules: R047 (application).
+- Counterarguments: national datasets are drawn for other purposes and their overlap also produces slivers along a border; only the part that contains the place is taken.
+- Status: accepted.
+- Basis: owner decision, 2026-10-04; [custom geometries](../data/custom-geometries/README.md).
