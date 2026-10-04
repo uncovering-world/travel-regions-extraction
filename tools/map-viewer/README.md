@@ -14,7 +14,7 @@ python3 experiments/release-draft/export_viewer_data.py   # writes tools/map-vie
 # 2. viewer
 cd tools/map-viewer
 npm install
-npm run dev                                               # opens on http://localhost:5173
+npm run dev                                               # http://localhost:5199 (fixed; fails if the port is taken)
 ```
 
 `public/data/` holds GADM-derived geometry, whose licence forbids redistribution; it is gitignored.
