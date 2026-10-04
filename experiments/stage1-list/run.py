@@ -144,7 +144,10 @@ def main() -> None:
             places.append({"id": "place/" + a["area_id"], "name": a["name"], "kind": kind, "why": why})
 
         whole = link.get("part_of", "")
-        if whole and {k: claims.get(a["area_id"], {}).get(k) for k in ("holder", "claimants")} == \
+        if whole.startswith("rule/"):
+            # the area is exactly a region the canon has for another reason: that region carries its points of view
+            markers.append({"area_id": a["area_id"], "name": a["name"], "marker": f"its outline is the whole of the region {whole}, which carries the claim as a point of view"})
+        elif whole and {k: claims.get(a["area_id"], {}).get(k) for k in ("holder", "claimants")} == \
                 {k: claims.get(whole, {}).get(k) for k in ("holder", "claimants")}:
             # under every point of view it belongs where the area it is part of belongs (R045): no boundary of its own
             markers.append({"area_id": a["area_id"], "name": a["name"], "marker": f"part of the area {whole}, with the same holder and claims; it goes with that area's region"})

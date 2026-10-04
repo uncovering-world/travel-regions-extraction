@@ -5,13 +5,13 @@
     "sha256": "5a85ef31541c85e12eed7eabfebe59c88c05881367101696d86abef56bfb4ec2",
     "countries": 263
   },
-  "regions": 314,
+  "regions": 332,
   "matched_by": {
     "ISO alpha-3": 247,
+    "unbound": 26,
+    "reviewed": 25,
     "exact name": 25,
-    "reviewed": 24,
-    "GADM pseudo-country": 9,
-    "unbound": 9
+    "GADM pseudo-country": 9
   },
   "by_basis": {
     "ISO 3166-1 entry": {
@@ -23,22 +23,19 @@
       "reviewed": 8,
       "GADM pseudo-country": 1
     },
-    "entry rule of the holder": {
-      "reviewed": 2
-    },
     "leased area held by the lessee": {
       "reviewed": 2
     },
     "registry": {
-      "reviewed": 6,
+      "unbound": 8,
+      "reviewed": 8,
       "GADM pseudo-country": 3,
-      "exact name": 1,
-      "unbound": 1
+      "exact name": 1
     },
     "residents": {
-      "unbound": 6,
+      "unbound": 16,
+      "reviewed": 5,
       "GADM pseudo-country": 5,
-      "reviewed": 4,
       "exact name": 3
     },
     "unclaimed land": {
@@ -46,20 +43,37 @@
     }
   },
   "unbound": [
+    "area/ankoko-island: no GADM unit named ['ankoko']",
     "area/armistice-no-mans-lands: no GADM unit named ['1949 no man s lands']",
+    "area/artsvashen: no GADM unit named ['artsvashen']",
     "area/baikonur: no GADM unit named for Baikonur: custom geometry",
     "area/bir-tawil: no GADM unit named ['bir tawil']",
     "area/cyprus-buffer-zone: no GADM unit named ['un buffer zone in cyprus']",
+    "area/demchok: no GADM unit named ['demchok sector']",
     "area/east-jerusalem: GADM's Jerusalem units (ISR.6_1, PSE.2.5_1) are not East Jerusalem: custom geometry",
+    "area/essequibo: no GADM unit named ['guayana esequiba']",
+    "area/gazakh-exclaves: no GADM unit named ['barkhudarli']",
+    "area/ghajar: no GADM unit named ['ghajar']",
     "area/gornja-siga: no GADM unit named ['gornja siga and other west bank pockets']",
     "area/guantanamo-bay: the base is not a GADM unit (it lies in Guantánamo province): custom geometry",
+    "area/halaib-triangle: no GADM unit named ['hala ib triangle']",
     "area/ilemi-triangle: no GADM unit named ['ilemi triangle']",
+    "area/junagadh: no GADM unit named ['junagadh and manavadar']",
+    "area/kafia-kingi: no GADM unit named ['kafia kingi enclave']",
+    "area/kalapani: no GADM unit named ['kalapani']",
+    "area/karki: no GADM unit named ['karki']",
     "area/koalou: no GADM unit named ['koalou']",
     "area/korean-dmz: no GADM unit named ['korean demilitarized zone']",
     "area/kuril-islands: GADM has only Kuril'skiy rayon (RUS.61.9_1); the other southern islands are not a named unit: custom geometry",
+    "area/la-guera: no GADM unit named ['la guera and the western side ras nouadhibou']",
+    "area/lawa-headwaters: no GADM unit named ['marouini litani area']",
+    "area/migingo: no GADM unit named ['migingo and nearby lake victoria islets']",
+    "area/moldovan-held-left-bank: no GADM unit named ['moldovan controlled dubasari villages']",
+    "area/rincon-de-artigas: no GADM unit named ['rincon de artigas']",
     "area/shebaa-farms: no GADM unit named ['shebaa farms and kfarchouba hills']",
     "area/somaliland: no GADM unit; the region is Natural Earth's feature, which does not follow GADM's regions",
     "area/south-ossetia: no GADM unit: custom geometry",
+    "area/tigri: no GADM unit named ['new river triangle']",
     "area/undof-zone: no GADM unit named ['undof area separation']",
     "area/western-sahara-moroccan-controlled: GADM's units of Western Sahara are not cut at the berm: custom geometry",
     "rule/ye-socotra: GADM has no unit named for Socotra: custom geometry"

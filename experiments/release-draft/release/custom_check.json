@@ -214,6 +214,21 @@
    }
   },
   {
+   "region": "area/ankoko-island",
+   "source": "custom geometry",
+   "unit": "ankoko-island.geojson",
+   "polygon_km2": 5.63,
+   "on_gadm_land_km2": 5.63,
+   "donors": [
+    "GY",
+    "VE"
+   ],
+   "taken_from": {
+    "VE": 5.44,
+    "GY": 0.19
+   }
+  },
+  {
    "region": "area/armistice-no-mans-lands",
    "source": "custom geometry",
    "unit": "armistice-no-mans-lands.geojson",
@@ -226,6 +241,21 @@
    "taken_from": {
     "PS": 39.33,
     "IL": 13.29
+   }
+  },
+  {
+   "region": "area/artsvashen",
+   "source": "custom geometry",
+   "unit": "artsvashen.geojson",
+   "polygon_km2": 38.06,
+   "on_gadm_land_km2": 38.06,
+   "donors": [
+    "AM",
+    "AZ"
+   ],
+   "taken_from": {
+    "AZ": 31.1,
+    "AM": 6.96
    }
   },
   {
@@ -304,6 +334,51 @@
    }
   },
   {
+   "region": "area/essequibo",
+   "source": "custom geometry",
+   "unit": "essequibo.geojson",
+   "polygon_km2": 149050.63,
+   "on_gadm_land_km2": 142707.83,
+   "donors": [
+    "GY"
+   ],
+   "taken_from": {
+    "GY": 142251.72,
+    "clipped away: VE": 234.76,
+    "clipped away: BR": 221.35
+   }
+  },
+  {
+   "region": "area/gazakh-exclaves",
+   "source": "custom geometry",
+   "unit": "gazakh-exclaves.geojson",
+   "polygon_km2": 36.13,
+   "on_gadm_land_km2": 36.13,
+   "donors": [
+    "AM",
+    "AZ"
+   ],
+   "taken_from": {
+    "AM": 23.35,
+    "AZ": 12.79
+   }
+  },
+  {
+   "region": "area/ghajar",
+   "source": "custom geometry",
+   "unit": "ghajar.geojson",
+   "polygon_km2": 0.21,
+   "on_gadm_land_km2": 0.21,
+   "donors": [
+    "LB",
+    "area/golan-heights",
+    "area/shebaa-farms"
+   ],
+   "taken_from": {
+    "LB": 0.21
+   }
+  },
+  {
    "region": "area/gornja-siga",
    "source": "custom geometry",
    "unit": "gornja-siga.geojson",
@@ -377,6 +452,35 @@
    }
   },
   {
+   "region": "area/junagadh",
+   "source": "custom geometry",
+   "unit": "junagadh.geojson",
+   "polygon_km2": 8650.56,
+   "on_gadm_land_km2": 8637.88,
+   "donors": [
+    "IN"
+   ],
+   "taken_from": {
+    "IN": 8637.88
+   }
+  },
+  {
+   "region": "area/kafia-kingi",
+   "source": "custom geometry",
+   "unit": "kafia-kingi.geojson",
+   "polygon_km2": 12591.12,
+   "on_gadm_land_km2": 12591.12,
+   "donors": [
+    "SD",
+    "SS"
+   ],
+   "taken_from": {
+    "SD": 12507.48,
+    "clipped away: CF": 47.61,
+    "SS": 36.03
+   }
+  },
+  {
    "region": "area/kalapani",
    "source": "custom geometry",
    "unit": "kalapani.geojson",
@@ -390,6 +494,19 @@
     "IN": 331.96,
     "NP": 65.7,
     "clipped away: rule/cn-tibet": 12.84
+   }
+  },
+  {
+   "region": "area/karki",
+   "source": "custom geometry",
+   "unit": "karki.geojson",
+   "polygon_km2": 8.23,
+   "on_gadm_land_km2": 8.23,
+   "donors": [
+    "AM"
+   ],
+   "taken_from": {
+    "AM": 8.23
    }
   },
   {
@@ -433,6 +550,52 @@
    ],
    "taken_from": {
     "RU": 4971.17
+   }
+  },
+  {
+   "region": "area/la-guera",
+   "source": "custom geometry",
+   "unit": "la-guera.geojson",
+   "polygon_km2": 243.69,
+   "on_gadm_land_km2": 243.61,
+   "donors": [
+    "EH",
+    "MR"
+   ],
+   "taken_from": {
+    "EH": 231.27,
+    "MR": 12.34
+   }
+  },
+  {
+   "region": "area/lawa-headwaters",
+   "source": "custom geometry",
+   "unit": "lawa-headwaters.geojson",
+   "polygon_km2": 3494.54,
+   "on_gadm_land_km2": 3494.54,
+   "donors": [
+    "GF",
+    "SR"
+   ],
+   "taken_from": {
+    "GF": 3291.09,
+    "SR": 131.66,
+    "clipped away: BR": 71.78
+   }
+  },
+  {
+   "region": "area/moldovan-held-left-bank",
+   "source": "custom geometry",
+   "unit": "moldovan-held-left-bank.geojson",
+   "polygon_km2": 276.96,
+   "on_gadm_land_km2": 276.96,
+   "donors": [
+    "MD",
+    "area/transnistria"
+   ],
+   "taken_from": {
+    "area/transnistria": 138.84,
+    "MD": 138.13
    }
   },
   {
@@ -489,6 +652,22 @@
    "taken_from": {
     "GE": 3845.34,
     "clipped away: RU": 15.16
+   }
+  },
+  {
+   "region": "area/tigri",
+   "source": "custom geometry",
+   "unit": "tigri.geojson",
+   "polygon_km2": 14267.6,
+   "on_gadm_land_km2": 14267.6,
+   "donors": [
+    "GY",
+    "SR"
+   ],
+   "taken_from": {
+    "GY": 13940.58,
+    "SR": 247.54,
+    "clipped away: BR": 79.48
    }
   },
   {

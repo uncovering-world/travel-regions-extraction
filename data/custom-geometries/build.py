@@ -357,6 +357,15 @@ def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
     else:
         geometry = mapping(unary_union([f[2] for f in feats]))
         operation = f"union of the {len(feats)} source features"
+    if "intersect_with" in sel:
+        # the land both sources include: e.g. an island's coastline and the country polygon of the side it belongs to
+        other = sel["intersect_with"]
+        kind2 = inputs[other["input"]]["kind"]
+        feats2 = (read_gpkg if kind2 == "worldpolygons-gpkg" else read_osm if kind2 == "osm-overpass" else read_geojson)(
+            paths[other["input"]], other)
+        geometry = mapping(shape(geometry).intersection(unary_union([f[2] for f in feats2])))
+        operation += f"; intersected with {other['input']} " + ", ".join(f[0] for f in feats2)
+        feats = feats + feats2
     if "part_at" in sel:
         # only the polygon parts of the source feature that contain the given points (an exclave of a country)
         whole = shape(geometry)
@@ -365,15 +374,7 @@ def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
         if len(parts) != len(points):
             raise SystemExit(f"{place['place']}: {len(parts)} parts contain the {len(points)} points")
         geometry = mapping(unary_union(parts))
-        operation = f"the parts of the source feature that contain the points {sel['part_at']}"
-    if "intersect_with" in sel:
-        # the land both sources include: e.g. an island's coastline and the country polygon of the side it belongs to
-        other = sel["intersect_with"]
-        feats2 = read_gpkg(paths[other["input"]], other) if inputs[other["input"]]["kind"] == "worldpolygons-gpkg" \
-            else read_osm(paths[other["input"]], other)
-        geometry = mapping(shape(geometry).intersection(unary_union([f[2] for f in feats2])))
-        operation += f"; intersected with {other['input']} " + ", ".join(f[0] for f in feats2)
-        feats = feats + feats2
+        operation += f"; only the parts that contain the points {sel['part_at']}"
     if "control_line" in sel:
         # D066: the land is divided by a line of control, not outlined: the file is that line, with a point on the
         # holder's side; the consumer splits the donors' substrate units by it and keeps the side with the point

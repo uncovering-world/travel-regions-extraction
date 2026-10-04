@@ -56,9 +56,6 @@
      "name": "Barkhudarli, Sofulu and Yukhari Askipara"
     },
     {
-     "name": "Border heights inside Armenia held by Azerbaijan since 2021-2022"
-    },
-    {
      "name": "Karki (Tigranashen)"
     }
    ]
@@ -329,15 +326,7 @@
   },
   {
    "name": "Côte d'Ivoire",
-   "children": [
-    {
-     "name": "Côte d'Ivoire",
-     "wikidataId": "Q1008"
-    },
-    {
-     "name": "Kpéaba village area"
-    }
-   ]
+   "wikidataId": "Q1008"
   },
   {
    "name": "Denmark",
@@ -430,6 +419,9 @@
     {
      "name": "Clipperton Island",
      "wikidataId": "Q161258"
+    },
+    {
+     "name": "Marouini-Litani area (Lawa headwaters)"
     }
    ]
   },
@@ -455,15 +447,7 @@
   },
   {
    "name": "Georgia",
-   "children": [
-    {
-     "name": "Georgia",
-     "wikidataId": "Q230"
-    },
-    {
-     "name": "Truso Gorge, Ghuda Gorge and Kobi Plateau"
-    }
-   ]
+   "wikidataId": "Q230"
   },
   {
    "name": "Germany",
@@ -516,15 +500,7 @@
   },
   {
    "name": "Guinea",
-   "children": [
-    {
-     "name": "Guinea",
-     "wikidataId": "Q1006"
-    },
-    {
-     "name": "Yenga"
-    }
-   ]
+   "wikidataId": "Q1006"
   },
   {
    "name": "Guinea-Bissau",
@@ -760,15 +736,7 @@
   },
   {
    "name": "Lebanon",
-   "children": [
-    {
-     "name": "Lebanon",
-     "wikidataId": "Q822"
-    },
-    {
-     "name": "Israeli-held points in south Lebanon"
-    }
-   ]
+   "wikidataId": "Q822"
   },
   {
    "name": "Lesotho",
@@ -812,9 +780,6 @@
     {
      "name": "Malaysia",
      "wikidataId": "Q833"
-    },
-    {
-     "name": "Eastern Sabah (North Borneo)"
     },
     {
      "name": "Labuan",
@@ -1034,15 +999,7 @@
   },
   {
    "name": "Peru",
-   "children": [
-    {
-     "name": "Peru",
-     "wikidataId": "Q419"
-    },
-    {
-     "name": "Santa Rosa Island (Amazon River)"
-    }
-   ]
+   "wikidataId": "Q419"
   },
   {
    "name": "Philippines",
@@ -1200,15 +1157,7 @@
   },
   {
    "name": "Somalia",
-   "children": [
-    {
-     "name": "Somalia",
-     "wikidataId": "Q485112"
-    },
-    {
-     "name": "Sool, Sanaag and Cayn (SSC-Khatumo / North Eastern State)"
-    }
-   ]
+   "wikidataId": "Q485112"
   },
   {
    "name": "Somaliland",
@@ -1216,15 +1165,7 @@
   },
   {
    "name": "South Africa",
-   "children": [
-    {
-     "name": "South Africa",
-     "wikidataId": "Q258"
-    },
-    {
-     "name": "KaNgwane and Ingwavuma"
-    }
-   ]
+   "wikidataId": "Q258"
   },
   {
    "name": "South Georgia and the South Sandwich Islands",
@@ -1282,9 +1223,6 @@
     {
      "name": "Sudan",
      "wikidataId": "Q1049"
-    },
-    {
-     "name": "Heglig (Panthou) oil field area"
     },
     {
      "name": "Kafia Kingi enclave"
@@ -1560,19 +1498,7 @@
    "name": "No country",
    "children": [
     {
-     "name": "Citrana Triangle (Naktuka) and other unresolved Oecusse segments"
-    },
-    {
-     "name": "Marouini-Litani area (Lawa headwaters)"
-    },
-    {
      "name": "Migingo Island and nearby Lake Victoria islets"
-    },
-    {
-     "name": "Three Pagodas Pass"
-    },
-    {
-     "name": "Villages near the Okpara River"
     }
    ]
   }

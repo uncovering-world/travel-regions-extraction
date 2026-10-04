@@ -9,8 +9,10 @@
 | origin | The Philippine claim rests on the view that the territory was only leased to the British North Borneo Company in 1878 and that the sultanate's sovereignty was never relinquished. | secondary | 2026-10-03 | S0167 | The Philippines, presenting itself as the successor state of the Sultanate of Sulu , retains a "dormant claim" on Eastern Sabah on the basis that the territory was only leased to the British North Borneo Company in 1878, and the sovereignty of the sultanate (and subsequently the republic) over the territory was never relinquished. |
 | on_the_ground | Sabah has been part of the Malaysian federation since 1963; Malaysia holds that its residents exercised self-determination in joining. | secondary | 2026-10-03 | S0167 | and it deems that the residents of Sabah (including Eastern Sabah) exercised their right to self-determination when they joined to form the Malaysian federation in 1963. |
 | inhabited | yes | secondary | 2026-10-03 | S0167 | and it deems that the residents of Sabah (including Eastern Sabah) exercised their right to self-determination when they joined to form the Malaysian federation in 1963. |
+| stated_outline | the whole territory of Sabah (Philippine Republic Act 5446 of 1968, section 2); whether Republic Act 9522 of 2009 kept this section is not checked | primary | 2026-10-04 | S0381 | without prejudice to the delineation of the baselines of the territorial sea around the territory of Sabah, situated in North Borneo, over which the Republic of the Philippines has acquired dominion and sovereignty |
 
 Sources:
 
 - S0167: https://en.wikipedia.org/w/index.php?title=North_Borneo_dispute&oldid=1371476391
 - S0280: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/east-n-southeast-asia/my.json
+- S0381: https://lawphil.net/statutes/repacts/ra1968/ra_5446_1968.html

@@ -117,9 +117,98 @@
    "version": "OpenStreetMap as of 2026-10-04T06:57:51Z",
    "licence": "ODbL 1.0 (https://www.openstreetmap.org/copyright)",
    "retrieved": "2026-10-04"
+  },
+  "osm-2026-10-04-claims": {
+   "kind": "osm-overpass",
+   "endpoints": [
+    "https://overpass-api.de/api/interpreter"
+   ],
+   "date": "2026-10-04T06:57:51Z",
+   "elements": {
+    "relation": [
+     1216705,
+     1377972,
+     6182716,
+     8289510,
+     12934144,
+     13096872,
+     16104167,
+     16782944,
+     19001620,
+     19008286,
+     19008287,
+     19013513,
+     19013514,
+     19013515
+    ]
+   },
+   "cache_file": "osm_claims_2026-10-04T065751Z.json",
+   "sha256": "7f7544b823127e19cf6ff6cdf7883afab17dd2502ddefc3cba79c162c78d9883",
+   "sha256_of": "the canonical cache file (elements sorted by type and id, JSON with sorted keys; the Overpass run-time header is dropped)",
+   "publisher": "OpenStreetMap contributors (Overpass API attic query)",
+   "version": "OpenStreetMap as of 2026-10-04T06:57:51Z",
+   "licence": "ODbL 1.0 (https://www.openstreetmap.org/copyright)",
+   "retrieved": "2026-10-04"
+  },
+  "cod-ab-sdn": {
+   "kind": "geojson-zip",
+   "url": "https://data.humdata.org/dataset/a66a4b6c-92de-4507-9546-aa1900474180/resource/018af991-4aa7-4043-a0d5-e429a55851fb/download/sdn_admin_boundaries.geojson.zip",
+   "cache_file": "sdn_admin_boundaries.geojson.zip",
+   "sha256": "75330d4e12e53f966df0e5683e04f0919e9964952fbbf827f3729038e603c95e",
+   "publisher": "Sudan's administrative boundaries, via OCHA's COD-AB on HDX (dataset cod-ab-sdn)",
+   "version": "COD-AB Sudan v03; HDX resource last_modified 2026-01-26",
+   "licence": "CC BY-IGO (HDX license_title)",
+   "retrieved": "2026-10-04"
   }
  },
  "places": [
+  {
+   "place": "ankoko-island",
+   "region": "area/ankoko-island",
+   "donors": "VE GY",
+   "rank": 3,
+   "whose_line": "OSM mappers (the island's coastline) cut by the US State Department's Guyana-Venezuela line (the 1899 award, demarcated 1905)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/13096872",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 13096872 v2",
+   "licence": "ODbL 1.0; US government work",
+   "input": "osm-2026-10-04-claims",
+   "feature_id": "relation 13096872",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      13096872,
+      2
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ],
+    "intersect_with": {
+     "input": "dos-worldpolygons-11.4",
+     "layer": "DoS_WP_11_4",
+     "fids": [
+      123
+     ],
+     "attributes": [
+      "WP_Name",
+      "GENC_3"
+     ]
+    }
+   },
+   "file": "ankoko-island.geojson",
+   "notes": "Guyana's side of the island, which Venezuela holds and Guyana claims. GADM puts 8.04 km² of the island in Venezuela's Sifontes."
+  },
   {
    "place": "armistice-no-mans-lands",
    "region": "area/armistice-no-mans-lands",
@@ -155,7 +244,7 @@
   {
    "place": "artsvashen",
    "region": "area/artsvashen",
-   "donors": "AZ",
+   "donors": "AZ AM",
    "rank": 2,
    "whose_line": "the US State Department's international boundaries (World Polygons 11.4)",
    "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
@@ -592,6 +681,42 @@
    "notes": "Two parties, two lines (register: Israel's position follows the extended municipal boundary, the Palestinian one the 1949 Agreements); not chosen here. Neither is available as a polygon of East Jerusalem: HDX COD-AB Palestine has only the whole Jerusalem governorate (344.5 km²); OpenStreetMap relation 1381350 is the whole Israeli municipality. Natural Earth kept until the owner decides."
   },
   {
+   "place": "essequibo",
+   "region": "area/essequibo",
+   "donors": "GY",
+   "rank": 3,
+   "whose_line": "OSM mappers: the area Venezuela claims (boundary=claim, claimed_by=VE), west of the Essequibo River",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/16782944",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 16782944 v36",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04-claims",
+   "feature_id": "relation 16782944",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      16782944,
+      36
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "essequibo.geojson",
+   "notes": "Venezuela's claim, bounded by the Essequibo River in the east (a 2023 Venezuelan bill: 'Este: Río Esequibo'); no set of GADM units fits, as two Guyanese regions straddle the river. OSM's outline includes the river islands Wakenaam and Leguan; which bank the claim follows is not stated. Area 149,051 km² (the register gives 159,500)."
+  },
+  {
    "place": "europa-island",
    "region": "TF",
    "donors": "",
@@ -624,7 +749,7 @@
   {
    "place": "gazakh-exclaves",
    "region": "area/gazakh-exclaves",
-   "donors": "AM",
+   "donors": "AM AZ",
    "rank": 2,
    "whose_line": "the US State Department's international boundaries (World Polygons 11.4)",
    "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
@@ -660,6 +785,53 @@
    },
    "file": "gazakh-exclaves.geojson",
    "notes": "Held by Armenia since 1992; Azerbaijan claims them. Sofulu lies inside the Barkhudarli exclave, so there are two polygons. GADM's exclave parts overlap these outlines by only 6-7 km² each."
+  },
+  {
+   "place": "ghajar",
+   "region": "area/ghajar",
+   "donors": "LB area/shebaa-farms area/golan-heights",
+   "rank": 3,
+   "whose_line": "OSM mappers (Ghajar local council, from Israel's Ministry of Interior) cut by the US State Department's Israel-Lebanon line",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/1377972",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 1377972 v35",
+   "licence": "ODbL 1.0; US government work",
+   "input": "osm-2026-10-04-claims",
+   "feature_id": "relation 1377972",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      1377972,
+      35
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ],
+    "intersect_with": {
+     "input": "dos-worldpolygons-11.4",
+     "layer": "DoS_WP_11_4",
+     "fids": [
+      170
+     ],
+     "attributes": [
+      "WP_Name",
+      "GENC_3"
+     ]
+    }
+   },
+   "file": "ghajar.geojson",
+   "notes": "The part of the village north of the State Department's Israel-Lebanon line (taken as the Lebanese side), which Israel holds and Lebanon claims; the Blue Line itself is not published as data, and Lebanon's COD-AB puts the whole village in Lebanon. GADM puts the village in its 'Chebaa Farms' unit."
   },
   {
    "place": "glorioso-islands",
@@ -879,6 +1051,79 @@
    "notes": ""
   },
   {
+   "place": "junagadh",
+   "region": "area/junagadh",
+   "donors": "IN",
+   "rank": 4,
+   "whose_line": "Natural Earth editors: the princely state of Junagadh with Manavadar, as Pakistan claims it",
+   "publisher": "Natural Earth (ne_10m_admin_0_disputed_areas)",
+   "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_disputed_areas.geojson",
+   "version_or_date": "v5.1.2 (git tag); read 2026-10-04",
+   "licence": "public domain",
+   "input": "ne-5.1.2-disputed-areas",
+   "feature_id": "NE_ID 1746598035",
+   "select": {
+    "property": "NE_ID",
+    "values": [
+     1746598035
+    ],
+    "attributes": [
+     "NE_ID",
+     "NAME",
+     "BRK_NAME",
+     "NOTE_BRK",
+     "TYPE",
+     "ADMIN"
+    ]
+   },
+   "file": "junagadh.geojson",
+   "notes": "Pakistan claims the princely state of Junagadh and Manavadar (its 2020 political map; deshgujarat.com 2020-08-04); its own line exists only as a raster map. The area (8,651 km²) matches the princely state's 8,643 km² of 1921; no set of current districts or talukas fits."
+  },
+  {
+   "place": "kafia-kingi",
+   "region": "area/kafia-kingi",
+   "donors": "SD SS",
+   "rank": 1,
+   "whose_line": "the land both parties' lines include: South Sudan's as the State Department draws it, and Sudan's official boundary (COD-AB)",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work; CC BY-IGO",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 272 (South Sudan) ∩ COD-AB Sudan admin0, the part containing Kafia Kingi",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     272
+    ],
+    "attributes": [
+     "WP_Name",
+     "GENC_3"
+    ],
+    "intersect_with": {
+     "input": "cod-ab-sdn",
+     "member": "sdn_admin0.geojson",
+     "property": "adm0_pcode",
+     "values": [
+      "SD"
+     ],
+     "attributes": [
+      "adm0_name",
+      "adm0_pcode",
+      "valid_on"
+     ]
+    },
+    "part_at": [
+     [
+      24.417404,
+      9.273123
+     ]
+    ]
+   },
+   "file": "kafia-kingi.geojson",
+   "notes": "As for Koalou (D061): the overlap of the parties' outlines is a stated outline. South Sudan's line is the 1 January 1956 north-south line (the 2005 agreement), as the State Department draws it; Sudan's official boundary includes the enclave. 12,591 km² (the register gives 12,500). OSM relation 9520186 (12,732 km²) is the next alternative."
+  },
+  {
    "place": "kalapani",
    "region": "area/kalapani",
    "donors": "NP;IN",
@@ -1037,6 +1282,78 @@
    "notes": "DoS has the islands only as parts of its 'Japan' polygon (no separate feature), so not used. Japan's or Russia's official data not checked."
   },
   {
+   "place": "la-guera",
+   "region": "area/la-guera",
+   "donors": "EH MR",
+   "rank": 3,
+   "whose_line": "OSM mappers: Morocco's commune of La Güera (HCP code 12.066.01.03), the unit the claimant names",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/6182716",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 6182716 v20",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04-claims",
+   "feature_id": "relation 6182716",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      6182716,
+      20
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "la-guera.geojson",
+   "notes": "Held by Mauritania, claimed by Morocco. Whether Mauritania's policing covers the whole commune is not stated; the register's 87.8 km² is unexplained (the commune is 243.7 km²)."
+  },
+  {
+   "place": "lawa-headwaters",
+   "region": "area/lawa-headwaters",
+   "donors": "GF SR",
+   "rank": 3,
+   "whose_line": "OSM mappers: the area Suriname claims and France controls, between both parties' lines (Lawa and Marouini rivers)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/16104167",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 16104167 v5",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04-claims",
+   "feature_id": "relation 16104167",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      16104167,
+      5
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "lawa-headwaters.geojson",
+   "notes": "Held by France (de facto administration); France's own commune of Maripasoula (IGN ADMIN EXPRESS) covers 3,490 of its 3,494.5 km². Natural Earth B14 is the same area. The register's 'about 5,000 square miles' does not match."
+  },
+  {
    "place": "matthew-hunter",
    "region": "NC",
    "donors": "",
@@ -1095,6 +1412,77 @@
    },
    "file": "mbanie.geojson",
    "notes": "DoS names the feature 'Corisco Bay Islands' but it is one polygon at Mbanié (OSM relation 17877330 'Île Mbanié'). Resolved: the land goes to Equatorial Guinea under D048 (the ICJ ruling of 19 May 2025 is an accepted ruling); before that: the register says the International Court of Justice found in 2025 that the territory belongs to Equatorial Guinea and that Gabon was to remove its presence; the canon gives it to GA."
+  },
+  {
+   "place": "moldovan-held-left-bank",
+   "region": "area/moldovan-held-left-bank",
+   "donors": "area/transnistria MD",
+   "rank": 3,
+   "whose_line": "OSM mappers: the communes Moldova holds that Transnistria claims (six on the left bank, Varnița and Copanca on the right)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/19008286",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 19008286 v12, relation 19008287 v8, relation 19001620 v10, relation 19013514 v9, relation 19013515 v8, relation 19013513 v7, relation 8289510 v22, relation 1216705 v27",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04-claims",
+   "feature_id": "relation 19008286, relation 19008287, relation 19001620, relation 19013514, relation 19013515, relation 19013513, relation 8289510, relation 1216705",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      19008286,
+      12
+     ],
+     [
+      "relation",
+      19008287,
+      8
+     ],
+     [
+      "relation",
+      19001620,
+      10
+     ],
+     [
+      "relation",
+      19013514,
+      9
+     ],
+     [
+      "relation",
+      19013515,
+      8
+     ],
+     [
+      "relation",
+      19013513,
+      7
+     ],
+     [
+      "relation",
+      8289510,
+      22
+     ],
+     [
+      "relation",
+      1216705,
+      27
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "moldovan-held-left-bank.geojson",
+   "notes": "The six left-bank communes 'remained under the control of the Moldovan government' and, with Varnița and Copanca, 'are claimed by the PMR' (Wikipedia Transnistria, oldid 1375814450). Whether villages Transnistria holds (Roghi, part of Corjova) lie inside these communes is not checked. GADM has Moldova only at level 1."
   },
   {
    "place": "penon-de-alhucemas",
@@ -1484,6 +1872,42 @@
    },
    "file": "south-ossetia.geojson",
    "notes": "South Ossetia's own line (it also claims Georgian-held Truso and other gorges, register area eastern-ossetia-claim) was not found as data. OSM relation 1152717 agrees with this outline to about 100 km²."
+  },
+  {
+   "place": "tigri",
+   "region": "area/tigri",
+   "donors": "GY SR",
+   "rank": 3,
+   "whose_line": "OSM mappers: the New River Triangle between both parties' lines (Courantyne and New River)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/12934144",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 12934144 v4",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04-claims",
+   "feature_id": "relation 12934144",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      12934144,
+      4
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "tigri.geojson",
+   "notes": "Held by Guyana, claimed by Suriname. Natural Earth B15 is the same area (14,319 km²)."
   },
   {
    "place": "undof-zone",

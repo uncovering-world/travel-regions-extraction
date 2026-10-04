@@ -48,6 +48,11 @@ Built and checked with shapely 2 / GEOS from the project's scratch environment; 
 | 3 | `siachen`, `demchok` → area/indian-jammu-kashmir-ladakh | OSM (`siachen` is a line of control, D066: OSM's India–Pakistan Line of Control ways north of the agreed line, along the Saltoro Ridge to the China border, with the glacier as the holder's point; Demchok is OSM's India-controlled western sector) | ODbL 1.0 |
 | 3 | `bhutan-china-north` → BT | OSM: Bhutan-controlled part of the northern disputed area | ODbL 1.0 |
 | 3 | `bajo-nuevo`, `serranilla` → CO; `penon-de-alhucemas` → ES; `rockall` → GB; `bird-island` → VE | OSM coastlines | ODbL 1.0 |
+| 1 | `kafia-kingi` → area/kafia-kingi | the land both parties' lines include: South Sudan's 1956 line as the State Department draws it, and Sudan's official boundary (COD-AB), as for Koalou (D061) | US government work; CC BY-IGO |
+| 2 | `artsvashen`, `karki`, `gazakh-exclaves` → their areas | the exclave parts of the State Department's Armenia and Azerbaijan polygons | US government work |
+| 3 | `essequibo`, `la-guera`, `moldovan-held-left-bank`, `lawa-headwaters`, `tigri` → their areas | OSM: Venezuela's claim area; Morocco's commune of La Güera; the communes Moldova holds that Transnistria claims; the Lawa and Tigri areas between both parties' lines | ODbL 1.0 |
+| 3 | `ghajar`, `ankoko-island` → their areas | OSM's village and island outlines intersected with the State Department's Lebanon and Guyana polygons | ODbL 1.0; US government work |
+| 4 | `junagadh` → area/junagadh | Natural Earth editors: the princely state of Junagadh with Manavadar, as Pakistan claims it | public domain |
 | 4 | `east-jerusalem`, `shebaa-farms`, `western-sahara-moroccan-controlled` | Natural Earth editors | public domain |
 
 Each row of `sources.csv` gives the publisher, URL, version, feature ids and notes.

@@ -105,6 +105,8 @@ def main() -> None:
         link = links.get(area_id, {})
         if link.get("iso") and link.get("basis", "").startswith("own ISO entry"):
             rid = link["iso"]                                 # a claim to a whole ISO entry
+        elif link.get("part_of", "").startswith("rule/"):
+            rid = link["part_of"]                             # a claim to the whole of a region made for another reason
         else:
             rid = "area/" + area_id
         if rid not in ids:

@@ -146,6 +146,7 @@ IQ,GADM 4.1,IRQ.12_1,exclude,2,
 IQ,GADM 4.1,IRQ.6_1,exclude,2,
 IQ,GADM 4.1,IRQ.7_1,exclude,2,
 IQ,GADM 4.1,IRQ,include,2,
+IR,GADM 4.1,IRN.11.1_1,exclude,2,
 IR,GADM 4.1,IRN,include,2,
 IS,GADM 4.1,ISL,include,2,
 IT,GADM 4.1,ITA,include,2,
@@ -321,10 +322,13 @@ ZA,GADM 4.1,ZAF,include,2,
 ZM,GADM 4.1,ZMB,include,2,
 ZW,GADM 4.1,ZWE,include,2,
 area/abkhazia,GADM 4.1,GEO.1_1,include,2,
+area/abu-musa,GADM 4.1,IRN.11.1_1,include,2,
 area/abyei,GADM 4.1,SDN.17.1_1,include,2,
 area/akrotiri-dhekelia,GADM 4.1,XAD,include,2,
 area/aksai-chin,GADM 4.1,Z03,include,2,
+area/ankoko-island,custom geometry,ankoko-island.geojson,include,1,VE GY
 area/armistice-no-mans-lands,custom geometry,armistice-no-mans-lands.geojson,include,1,IL PS
+area/artsvashen,custom geometry,artsvashen.geojson,include,1,AZ AM
 area/arunachal-pradesh,GADM 4.1,Z07,include,2,
 area/azad-kashmir,GADM 4.1,Z06.1_1,include,2,
 area/baikonur,custom geometry,baikonur.geojson,include,1,KZ
@@ -335,6 +339,9 @@ area/crimea,GADM 4.1,UKR.4_1,include,2,
 area/cyprus-buffer-zone,custom geometry,cyprus-buffer-zone.geojson,include,1,CY area/northern-cyprus
 area/demchok,custom geometry,demchok.geojson,include,1,CN rule/cn-tibet area/indian-jammu-kashmir-ladakh
 area/east-jerusalem,custom geometry,east-jerusalem.geojson,include,1,PS IL
+area/essequibo,custom geometry,essequibo.geojson,include,1,GY
+area/gazakh-exclaves,custom geometry,gazakh-exclaves.geojson,include,1,AM AZ
+area/ghajar,custom geometry,ghajar.geojson,include,1,LB area/shebaa-farms area/golan-heights
 area/gilgit-baltistan,GADM 4.1,Z06.6_1,include,2,
 area/golan-heights,GADM 4.1,ISR.1_1,include,2,
 area/gornja-siga,custom geometry,gornja-siga.geojson,include,1,HR RS
@@ -343,13 +350,19 @@ area/halaib-triangle,custom geometry,halaib-triangle.geojson,include,1,SD EG
 area/ilemi-triangle,custom geometry,ilemi-triangle.geojson,include,1,KE SS
 area/indian-jammu-kashmir-ladakh,custom geometry,siachen.geojson,include,1,area/gilgit-baltistan
 area/indian-jammu-kashmir-ladakh,GADM 4.1,Z01,include,2,
+area/junagadh,custom geometry,junagadh.geojson,include,1,IN
+area/kafia-kingi,custom geometry,kafia-kingi.geojson,include,1,SD SS
 area/kalapani,custom geometry,kalapani.geojson,include,1,NP IN
+area/karki,custom geometry,karki.geojson,include,1,AM
 area/kinmen-matsu,GADM 4.1,TWN.1_1,include,2,
 area/koalou,custom geometry,koalou.geojson,include,1,BJ BF
 area/korean-dmz,custom geometry,korean-dmz.geojson,include,1,KR KP
 area/kosovo,GADM 4.1,XKO,include,2,
 area/kuril-islands,custom geometry,kuril-islands.geojson,include,1,RU
+area/la-guera,custom geometry,la-guera.geojson,include,1,EH MR
+area/lawa-headwaters,custom geometry,lawa-headwaters.geojson,include,1,GF SR
 area/melilla,GADM 4.1,ESP.7.2_1,include,2,
+area/moldovan-held-left-bank,custom geometry,moldovan-held-left-bank.geojson,include,1,area/transnistria MD
 area/northern-cyprus,GADM 4.1,ZNC,include,2,
 area/olivenza,GADM 4.1,ESP.11.1.8.4_1,include,2,
 area/olivenza,GADM 4.1,ESP.11.1.8.5_1,include,2,
@@ -359,6 +372,7 @@ area/shebaa-farms,custom geometry,shebaa-farms.geojson,include,1,LB
 area/somaliland,custom geometry,somaliland.geojson,include,1,SO
 area/south-ossetia,custom geometry,south-ossetia.geojson,include,1,GE
 area/spratly-islands,GADM 4.1,XSP,include,2,
+area/tigri,custom geometry,tigri.geojson,include,1,GY SR
 area/transnistria,GADM 4.1,MDA.36_1,include,2,
 area/transnistria,GADM 4.1,MDA.4_1,include,2,
 area/undof-zone,custom geometry,undof-zone.geojson,include,1,SY area/golan-heights

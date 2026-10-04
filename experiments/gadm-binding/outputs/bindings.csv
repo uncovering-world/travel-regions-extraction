@@ -249,10 +249,13 @@ ZA,South Africa,ISO 3166-1 entry,ZAF,GID_0,ISO alpha-3,
 ZM,Zambia,ISO 3166-1 entry,ZMB,GID_0,ISO alpha-3,
 ZW,Zimbabwe,ISO 3166-1 entry,ZWE,GID_0,ISO alpha-3,
 area/abkhazia,Abkhazia,registry,GEO.1_1,GID_1,exact name,"searched ['abkhazia']; country not known, all searched"
+area/abu-musa,Abu Musa,residents,IRN.11.1_1,GID_2,reviewed,"GADM keeps the island of Abu Musa as its own unit of Hormozgan (14.0 km², outline search of 2026-10-04)"
 area/abyei,Abyei Area,residents,SDN.17.1_1,GID_2,reviewed,GADM's unit named Abyei (in West Kurdufan); outline not compared with the Abyei Area
 area/akrotiri-dhekelia,Akrotiri and Dhekelia Sovereign Base Areas,registry,XAD,GID_0,GADM pseudo-country,GADM NAME_0 Akrotiri and Dhekelia
 area/aksai-chin,Aksai Chin,residents,Z03,GID_0,GADM pseudo-country,GADM NAME_0 Aksai Chin
+area/ankoko-island,Ankoko Island,registry,,,,no GADM unit named ['ankoko']
 area/armistice-no-mans-lands,"1949 no-man's-lands (Latrun, Jerusalem) and Mount Scopus enclave",residents,,,,no GADM unit named ['1949 no man s lands']
+area/artsvashen,Artsvashen (Bashkend),registry,,,,no GADM unit named ['artsvashen']
 area/arunachal-pradesh,Arunachal Pradesh,residents,Z07,GID_0,GADM pseudo-country,GADM NAME_0 Arunachal Pradesh
 area/azad-kashmir,Azad Jammu and Kashmir,residents,Z06.1_1,GID_1,reviewed,GADM's pseudo-country Z06 also holds Gilgit-Baltistan (Z06.6_1); Azad Kashmir is Z06.1_1
 area/baikonur,Baikonur Cosmodrome and city,leased area held by the lessee,,,reviewed,no GADM unit named for Baikonur: custom geometry
@@ -260,27 +263,42 @@ area/bir-tawil,Bir Tawil,unclaimed land,,,,no GADM unit named ['bir tawil']
 area/ceuta,Ceuta,residents,ESP.7.1_1,GID_2,exact name,"searched ['ceuta']; country not known, all searched"
 area/crimea,Crimea and Sevastopol,registry,UKR.4_1 UKR.20_1,GID_1,reviewed,GADM's units Crimea and Sevastopol' (attributed to Ukraine)
 area/cyprus-buffer-zone,UN Buffer Zone in Cyprus,residents,,,,no GADM unit named ['un buffer zone in cyprus']
+area/demchok,Demchok sector,residents,,,,no GADM unit named ['demchok sector']
 area/east-jerusalem,East Jerusalem,registry,,,reviewed,"GADM's Jerusalem units (ISR.6_1, PSE.2.5_1) are not East Jerusalem: custom geometry"
+area/essequibo,Guayana Esequiba (Guyana west of the Essequibo River),residents,,,,no GADM unit named ['guayana esequiba']
+area/gazakh-exclaves,"Barkhudarli, Sofulu and Yukhari Askipara",registry,,,,no GADM unit named ['barkhudarli']
+area/ghajar,Ghajar (northern part),registry,,,,no GADM unit named ['ghajar']
 area/gilgit-baltistan,Gilgit-Baltistan,residents,Z06.6_1,GID_1,exact name,"searched ['gilgit baltistan']; country not known, all searched"
 area/golan-heights,Golan Heights,registry,ISR.1_1,GID_1,reviewed,GADM's unit Golan is attributed to Israel; Syria's Quneitra (SYR.12_1) is a separate unit
 area/gornja-siga,Gornja Siga and other west-bank pockets,unclaimed land,,,,no GADM unit named ['gornja siga and other west bank pockets']
 area/guantanamo-bay,Guantanamo Bay Naval Base,leased area held by the lessee,,,reviewed,the base is not a GADM unit (it lies in Guantánamo province): custom geometry
+area/halaib-triangle,Hala'ib Triangle,residents,,,,no GADM unit named ['hala ib triangle']
 area/ilemi-triangle,Ilemi Triangle,residents,,,,no GADM unit named ['ilemi triangle']
 area/indian-jammu-kashmir-ladakh,Jammu and Kashmir and Ladakh (Indian-administered),residents,Z01,GID_0,GADM pseudo-country,GADM NAME_0 Jammu and Kashmir
-area/kinmen-matsu,"Kinmen, Matsu and Wuqiu",entry rule of the holder,TWN.1_1,GID_1,reviewed,"GADM's unit Fujian (of Taiwan), which holds Kinmen and the Matsu islands"
+area/junagadh,Junagadh and Manavadar,residents,,,,no GADM unit named ['junagadh and manavadar']
+area/kafia-kingi,Kafia Kingi enclave,registry,,,,no GADM unit named ['kafia kingi enclave']
+area/kalapani,"Kalapani, Lipulekh and Limpiyadhura",residents,,,,no GADM unit named ['kalapani']
+area/karki,Karki (Tigranashen),registry,,,,no GADM unit named ['karki']
+area/kinmen-matsu,"Kinmen, Matsu and Wuqiu",registry,TWN.1_1,GID_1,reviewed,"GADM's unit Fujian (of Taiwan), which holds Kinmen and the Matsu islands"
 area/koalou,Koalou (Kourou) neutral zone,residents,,,,no GADM unit named ['koalou']
 area/korean-dmz,Korean Demilitarized Zone,residents,,,,no GADM unit named ['korean demilitarized zone']
 area/kosovo,Kosovo,registry,XKO,GID_0,GADM pseudo-country,GADM NAME_0 Kosovo
 area/kuril-islands,"Southern Kuril Islands (Iturup, Kunashir, Shikotan, Habomai)",residents,,,reviewed,GADM has only Kuril'skiy rayon (RUS.61.9_1); the other southern islands are not a named unit: custom geometry
+area/la-guera,La Güera and the western side of Ras Nouadhibou,registry,,,,no GADM unit named ['la guera and the western side ras nouadhibou']
+area/lawa-headwaters,Marouini-Litani area (Lawa headwaters),residents,,,,no GADM unit named ['marouini litani area']
 area/melilla,Melilla,residents,ESP.7.2_1,GID_2,exact name,"searched ['melilla']; country not known, all searched"
+area/migingo,Migingo Island and nearby Lake Victoria islets,residents,,,,no GADM unit named ['migingo and nearby lake victoria islets']
+area/moldovan-held-left-bank,"Moldovan-controlled Dubăsari villages, Varnița and Copanca",residents,,,,no GADM unit named ['moldovan controlled dubasari villages']
 area/northern-cyprus,Turkish Republic of Northern Cyprus,registry,ZNC,GID_0,GADM pseudo-country,GADM NAME_0 Northern Cyprus
 area/olivenza,Olivenza and Táliga,residents,ESP.11.1.8.4_1 ESP.11.1.8.5_1,GID_4,reviewed,GADM's municipalities Olivenza and Táliga
 area/paracel-islands,Paracel Islands,residents,XPI,GID_0,GADM pseudo-country,GADM NAME_0 Paracel Islands
+area/rincon-de-artigas,Rincón de Artigas (Arroyo de la Invernada) and Vila Albornoz,residents,,,,no GADM unit named ['rincon de artigas']
 area/shebaa-farms,Shebaa Farms and Kfarchouba hills,registry,,,,no GADM unit named ['shebaa farms and kfarchouba hills']
 area/somaliland,Somaliland,registry,,,reviewed,"no GADM unit; the region is Natural Earth's feature, which does not follow GADM's regions"
 area/south-ossetia,South Ossetia,registry,,,reviewed,no GADM unit: custom geometry
 area/spratly-islands,Spratly Islands,residents,XSP,GID_0,GADM pseudo-country,GADM NAME_0 Spratly Islands
-area/transnistria,Transnistria (including Bender),entry rule of the holder,MDA.36_1 MDA.4_1,GID_1,reviewed,"GADM's Transnistria plus Bender (MDA.4_1), which GADM keeps as a separate unit of Moldova; Bender's holder: Wikipedia, Bender, Moldova, oldid 1377486422 (read 2026-10-04): 'a city within the internationally recognized borders of Moldova under de facto control of the unrecognized Pridnestrovian Moldavian Republic (Transnistria) (PMR) since 1992'. The left-bank villages Moldova holds lie inside MDA.36_1 and are not cut out (no unit, no outline found)"
+area/tigri,New River Triangle (Tigri),residents,,,,no GADM unit named ['new river triangle']
+area/transnistria,Transnistria (including Bender),registry,MDA.36_1 MDA.4_1,GID_1,reviewed,"GADM's Transnistria plus Bender (MDA.4_1), which GADM keeps as a separate unit of Moldova; Bender's holder: Wikipedia, Bender, Moldova, oldid 1377486422 (read 2026-10-04): 'a city within the internationally recognized borders of Moldova under de facto control of the unrecognized Pridnestrovian Moldavian Republic (Transnistria) (PMR) since 1992'. The left-bank villages Moldova holds lie inside MDA.36_1 and are not cut out (no unit, no outline found)"
 area/undof-zone,UNDOF area of separation,residents,,,,no GADM unit named ['undof area separation']
 area/western-sahara-moroccan-controlled,Western Sahara west of the berm,registry,,,reviewed,GADM's units of Western Sahara are not cut at the berm: custom geometry
 rule/au-macquarie-island,Macquarie Island (Macquarie Island Nature Reserve),entry rule,AUS.9.22_1,GID_2,reviewed,GADM's unit Macquarie Island (Tasmania)
