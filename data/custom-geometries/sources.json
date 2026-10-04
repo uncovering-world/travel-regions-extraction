@@ -1294,6 +1294,54 @@
        35.0534354
       ],
       [
+       77.1167684,
+       35.053464
+      ],
+      [
+       77.1179709,
+       35.0545681
+      ],
+      [
+       77.1283794,
+       35.0641113
+      ],
+      [
+       77.2871571,
+       35.2095516
+      ],
+      [
+       77.3432801,
+       35.260898
+      ],
+      [
+       77.3872895,
+       35.3011391
+      ],
+      [
+       77.422193,
+       35.3330398
+      ],
+      [
+       77.4621569,
+       35.36955
+      ],
+      [
+       77.5041111,
+       35.4078607
+      ],
+      [
+       77.5526187,
+       35.4521331
+      ],
+      [
+       77.5685132,
+       35.4666346
+      ],
+      [
+       77.5806212,
+       35.4776796
+      ],
+      [
        77.5826865,
        35.4795555
       ],
@@ -1318,7 +1366,7 @@
        35.0534354
       ]
      ],
-     "why": "India holds the whole Siachen Glacier and its tributary glaciers east of the Saltoro Ridge (register facts, S0209); the source's straight east edge (NJ9842 towards the China border west of the Karakoram Pass) stops short of GADM's line from NJ9842 to the Karakoram Pass, so the mask takes the Gilgit-Baltistan land between the two lines for the holder"
+     "why": "India holds the whole Siachen Glacier and its tributary glaciers east of the Saltoro Ridge (register facts, S0209); the source's east edge (its own vertices are the mask's west edge) (NJ9842 towards the China border west of the Karakoram Pass) stops short of GADM's line from NJ9842 to the Karakoram Pass, so the mask takes the Gilgit-Baltistan land between the two lines for the holder"
     }
    },
    "file": "siachen.geojson",

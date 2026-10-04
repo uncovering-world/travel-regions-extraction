@@ -365,16 +365,16 @@
    "region": "area/indian-jammu-kashmir-ladakh",
    "source": "custom geometry",
    "unit": "siachen.geojson",
-   "polygon_km2": 11240.53,
-   "on_gadm_land_km2": 11245.72,
+   "polygon_km2": 11238.99,
+   "on_gadm_land_km2": 11244.21,
    "donors": [
     "area/gilgit-baltistan"
    ],
    "taken_from": {
-    "already its own": 3971.91,
-    "area/gilgit-baltistan": 2776.36,
-    "clipped away: area/aksai-chin": 2612.44,
-    "clipped away: CN": 1885.01
+    "already its own": 3971.89,
+    "area/gilgit-baltistan": 2774.89,
+    "clipped away: area/aksai-chin": 2612.41,
+    "clipped away: CN": 1885.02
    }
   },
   {
