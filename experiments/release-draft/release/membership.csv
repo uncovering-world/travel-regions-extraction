@@ -324,6 +324,7 @@ area/akrotiri-dhekelia,GADM 4.1,XAD,include,2,
 area/aksai-chin,GADM 4.1,Z03,include,2,
 area/ankoko-island,custom geometry,ankoko-island.geojson,include,1,VE GY
 area/armistice-no-mans-lands,custom geometry,armistice-no-mans-lands.geojson,include,1,IL PS area/east-jerusalem
+area/armistice-no-mans-lands,custom geometry,mount-scopus-enclave.geojson,include,1,IL PS area/east-jerusalem
 area/artsvashen,custom geometry,artsvashen.geojson,include,1,AZ AM
 area/arunachal-pradesh,GADM 4.1,Z07,include,2,
 area/azad-kashmir,GADM 4.1,Z06.1_1,include,2,

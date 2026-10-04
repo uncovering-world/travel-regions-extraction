@@ -190,3 +190,7 @@ An outline search for the inhabited line disputes found two doubts about the reg
 
 - `okpara-villages` rests on a sentence that several villages along the Okpara River are disputed, citing gazetteers and naming no village. The documented Benin–Nigeria village dispute concerns about sixteen villages of the Okuta district (Baruten, Kwara State) near 9.2–9.4° N, north of the stretch where the Okpara forms the border; a 2015 report says Benin raised its flags in most of them. The area may need a new name, place and sources, or removal.
 - `migingo`: who holds the islet is unclear (police of both countries have been posted there; Ugandan patrols dominate the waters), and a 2011 report quotes Uganda's president saying the island is in Kenya and only the waters are Uganda's. Whether Uganda still claims the island, and who holds it, need sources before it is a region.
+
+## 17. Hans Island after the 2022 agreement (added 2026-10-05)
+
+The agreement of 14 June 2022 gives the line across the island in its Article 4: points T1 80° 49′ 17,2″ N 66° 27′ 02,4″ W, T2 80° 49′ 33,1″ N 66° 27′ 52,3″ W, T3 80° 49′ 54,6″ N 66° 27′ 24,0″ W (ITRF2014, epoch 2010.0), joined by geodesic lines, Greenland to the east and Canada to the west; the text is annexed to the Danish bill B 14 of the 2023-24 session. Not yet confirmed: that the agreement is in force (its Article 6(2) ties entry into force to the last diplomatic note). Until it is, R054 takes nothing over; once a source confirms it, the island can be split by a transcription of these points like the Baikonur lease.

@@ -1485,6 +1485,42 @@
    "notes": "The six left-bank communes 'remained under the control of the Moldovan government' and, with Varnița and Copanca, 'are claimed by the PMR' (Wikipedia Transnistria, oldid 1375814450). Whether villages Transnistria holds (Roghi, part of Corjova) lie inside these communes is not checked. GADM has Moldova only at level 1."
   },
   {
+   "place": "mount-scopus-enclave",
+   "region": "area/armistice-no-mans-lands",
+   "donors": "IL PS area/east-jerusalem",
+   "rank": 2,
+   "whose_line": "the 1949 Israel–Jordan armistice lines (limits of the no-man's-lands) as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 143 (Israel), the separate part of the Mount Scopus enclave",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     143
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ],
+    "part_at": [
+     [
+      35.24513,
+      31.79585
+     ]
+    ]
+   },
+   "file": "mount-scopus-enclave.geojson",
+   "notes": "The 1948-1967 Mount Scopus enclave, a separate part (1.045 km²) of the State Department's Israel polygon, closed exactly by its LSIB 11.4 lines (the 1949 Armistice Line and the Israel / No Man's Land line). The 1948 agreement's own map is not published with it, and the two parties used different maps (UN S/4030, 1958); OSM way 202753108 differs by 0.5 km²."
+  },
+  {
    "place": "penon-de-alhucemas",
    "region": "ES",
    "donors": "",

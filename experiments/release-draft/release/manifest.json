@@ -14,7 +14,7 @@
   "counts": {
     "regions": 331,
     "countries_in_tree": 257,
-    "membership_rows": 412,
+    "membership_rows": 413,
     "gaps": 2
   },
   "inputs": {
@@ -24,9 +24,9 @@
     "data/entry-rules/census.csv": "66ef8b50ec73870d0af9033dc88299bc94e5fcee268240a6ffce54db2ae779fb",
     "experiments/release-draft/inputs/attribution.csv": "81b073a94ac79ac4978b1e16f52032df62310ca3f3bc38256709477cdc19f3b1",
     "experiments/release-draft/inputs/gadm_leftovers.csv": "fc46c06dad74297edff82dd4cfa64535b0ea492125018f6815b1018bd5cef070",
-    "data/custom-geometries/sources.csv": "c28b4d3562af2c9970a46499f9e5961aa28b393ce329b116f49746094c5c41f9",
+    "data/custom-geometries/sources.csv": "2d7c2b2ad14c1aa5b3cc7f99d1ab3989a3d9fb2952f4c26362f0f2dd209b2902",
     "experiments/stage1-list/inputs/claims.csv": "99f2a1ba6af9f905be6df3d9025ac84519ce24269cc7a95306300ab293447522",
-    "data/custom-geometries/sources.json": "3b77d8d7e17147ee968fe809047fcbc599ad21f037851767848a41823a310ed2",
+    "data/custom-geometries/sources.json": "a502057db82c4c809a36c5d0c8ef4747f07f2495693d39b719f84cb07238426e",
     "docs/spec.md": "cf1e62b204abf502ea47ed1b4d2988536f7dc37db8114ddb3184f1939c8c952c"
   },
   "correspondence": "none: first draft"

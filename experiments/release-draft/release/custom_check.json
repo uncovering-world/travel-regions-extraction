@@ -245,6 +245,21 @@
    }
   },
   {
+   "region": "area/armistice-no-mans-lands",
+   "source": "custom geometry",
+   "unit": "mount-scopus-enclave.geojson",
+   "polygon_km2": 1.05,
+   "on_gadm_land_km2": 1.05,
+   "donors": [
+    "IL",
+    "PS",
+    "area/east-jerusalem"
+   ],
+   "taken_from": {
+    "PS": 1.05
+   }
+  },
+  {
    "region": "area/artsvashen",
    "source": "custom geometry",
    "unit": "artsvashen.geojson",
@@ -720,6 +735,12 @@
    "a": "area/armistice-no-mans-lands (armistice-no-mans-lands.geojson)",
    "b": "area/east-jerusalem (east-jerusalem.geojson)",
    "km2": 0.096,
+   "resolved": "area/armistice-no-mans-lands takes it (the other is its donor)"
+  },
+  {
+   "a": "area/armistice-no-mans-lands (mount-scopus-enclave.geojson)",
+   "b": "area/east-jerusalem (east-jerusalem.geojson)",
+   "km2": 0.025,
    "resolved": "area/armistice-no-mans-lands takes it (the other is its donor)"
   }
  ]
