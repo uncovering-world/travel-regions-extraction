@@ -600,6 +600,20 @@
    }
   },
   {
+   "region": "area/migingo",
+   "source": "custom geometry",
+   "unit": "migingo.geojson",
+   "polygon_km2": 0.01,
+   "on_gadm_land_km2": 0.01,
+   "donors": [
+    "KE",
+    "UG"
+   ],
+   "taken_from": {
+    "UG": 0.01
+   }
+  },
+  {
    "region": "area/moldovan-held-left-bank",
    "source": "custom geometry",
    "unit": "moldovan-held-left-bank.geojson",

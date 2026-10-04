@@ -2,6 +2,11 @@ id,name,kind,why
 place/al-fashaga,Al-Fashaga district,paper_claim,residents unknown: treated as a special place until sourced
 place/aves-island,Aves Island (Bird Island),islets_for_maritime_zone,no resident civilians
 place/azerbaijani-held-armenian-border-areas,Border heights inside Armenia held by Azerbaijan since 2021-2022,occupied_or_annexed,"no stated outline found (R047, D061)"
+place/baikonur-dalny-water-intake,Baikonur lease: the 'Dalny' water intake (plot No. 2),lease_or_base,leased; holder not recorded
+place/baikonur-kostanay-rescue-complex,Baikonur lease: the search and rescue complex at Kostanay (plots No. 7 and 7a),lease_or_base,leased; holder not recorded
+place/baikonur-saran-ip9,Baikonur lease: tracking station IP-9 at Saran (plot No. 5),lease_or_base,leased; holder not recorded
+place/baikonur-ust-kamenogorsk-fall-base,Baikonur lease: the rocket-stage base at Ust-Kamenogorsk (plot No. 6),lease_or_base,leased; holder not recorded
+place/baikonur-zhezkazgan-fall-base,Baikonur lease: the rocket-stage base at Zhezkazgan (plot No. 3),lease_or_base,leased; holder not recorded
 place/bajo-nuevo,Bajo Nuevo Bank,islets_for_maritime_zone,no resident civilians
 place/banc-du-geyser,Banc du Geyser,islets_for_maritime_zone,no resident civilians
 place/belize-guatemala-claim,Belize south of the Sibun River (and Belize as a whole),paper_claim,residents unknown: treated as a special place until sourced

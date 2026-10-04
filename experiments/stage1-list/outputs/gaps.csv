@@ -1,5 +1,10 @@
 area_id,name,kind,missing,undecided
 al-fashaga,Al-Fashaga district,paper_claim,whether civilians live there,region or special place
+baikonur-dalny-water-intake,Baikonur lease: the 'Dalny' water intake (plot No. 2),lease_or_base,who holds the area,region or special place
+baikonur-kostanay-rescue-complex,Baikonur lease: the search and rescue complex at Kostanay (plots No. 7 and 7a),lease_or_base,who holds the area,region or special place
+baikonur-saran-ip9,Baikonur lease: tracking station IP-9 at Saran (plot No. 5),lease_or_base,who holds the area,region or special place
+baikonur-ust-kamenogorsk-fall-base,Baikonur lease: the rocket-stage base at Ust-Kamenogorsk (plot No. 6),lease_or_base,who holds the area,region or special place
+baikonur-zhezkazgan-fall-base,Baikonur lease: the rocket-stage base at Zhezkazgan (plot No. 3),lease_or_base,who holds the area,region or special place
 belize-guatemala-claim,Belize south of the Sibun River (and Belize as a whole),paper_claim,whether civilians live there,region or special place
 durand-line,Durand Line,paper_claim,whether civilians live there,region or special place
 estonia-russia-border,Ivangorod (Jaanilinn) and Pechory district (Petserimaa),paper_claim,whether civilians live there,region or special place

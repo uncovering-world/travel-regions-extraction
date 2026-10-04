@@ -140,10 +140,13 @@
      19013513,
      19013514,
      19013515
+    ],
+    "way": [
+     488350000
     ]
    },
    "cache_file": "osm_claims_2026-10-04T065751Z.json",
-   "sha256": "7f7544b823127e19cf6ff6cdf7883afab17dd2502ddefc3cba79c162c78d9883",
+   "sha256": "9aecb59eb9e9cc060c149390f264d7a93d9f4ab2b8676dea9619a93a946bed50",
    "sha256_of": "the canonical cache file (elements sorted by type and id, JSON with sorted keys; the Overpass run-time header is dropped)",
    "publisher": "OpenStreetMap contributors (Overpass API attic query)",
    "version": "OpenStreetMap as of 2026-10-04T06:57:51Z",
@@ -1412,6 +1415,42 @@
    },
    "file": "mbanie.geojson",
    "notes": "DoS names the feature 'Corisco Bay Islands' but it is one polygon at Mbanié (OSM relation 17877330 'Île Mbanié'). Resolved: the land goes to Equatorial Guinea under D048 (the ICJ ruling of 19 May 2025 is an accepted ruling); before that: the register says the International Court of Justice found in 2025 that the territory belongs to Equatorial Guinea and that Gabon was to remove its presence; the canon gives it to GA."
+  },
+  {
+   "place": "migingo",
+   "region": "area/migingo",
+   "donors": "KE UG",
+   "rank": 3,
+   "whose_line": "the islet's coastline (OSM mappers)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/way/488350000",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); way 488350000 v5",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04-claims",
+   "feature_id": "way 488350000",
+   "select": {
+    "elements": [
+     [
+      "way",
+      488350000,
+      5
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "migingo.geojson",
+   "notes": "Migingo Island's coastline (about 0.008 km²). No single holder: the latest report from the island (AFP, October 2018) says it is co-managed by Kenya and Uganda. GADM puts the islet in a Ugandan lake unit."
   },
   {
    "place": "moldovan-held-left-bank",

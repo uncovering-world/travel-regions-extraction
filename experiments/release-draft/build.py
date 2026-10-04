@@ -109,6 +109,8 @@ def main() -> None:
         elif rid.startswith("rule/"):
             code = census[rid[5:]]["iso_code"]
             country = iso_names.get(code, code)
+        elif claims.get(rid[5:], {}).get("holder") == "none":
+            country, code = "none", ""                         # no single holder (R048 as amended by D055)
         elif single(claims.get(rid[5:], {}).get("holder", "")):
             # a region made by a claim goes with its holder (R050, R051); an area whose control is not yet accepted
             # goes with the party it was taken from, its last settled holder (R049)

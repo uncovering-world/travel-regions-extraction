@@ -4,15 +4,15 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
-| parties | Malaysia (administers Sabah as one of its states); Philippines (retains a dormant claim to the eastern part) | secondary | 2026-10-03 | S0280 | Philippines retains a dormant claim to the eastern part of Malaysia's Sabah State in northern Borneo |
+| parties | Malaysia (administers Sabah as one of its states); Philippines (claims Sabah: section 2 of Republic Act 5446 of 1968 remains in force and Republic Act 12064 of 2024 expressly does not repeal it) | primary | 2026-10-05 | S0387 | Provided, That nothing in this Act shall be construed as repealing Section 2 of Republic Act No. 5446, as amended, and Section 2 of Republic Act No. 9522. |
 | kind | paper_claim | secondary | 2026-10-03 | S0167 | The Philippines, presenting itself as the successor state of the Sultanate of Sulu , retains a "dormant claim" on Eastern Sabah on the basis that the territory was only leased to the British North Borneo Company in 1878, and the sovereignty of the sultanate (and subsequently the republic) over the territory was never relinquished. |
 | origin | The Philippine claim rests on the view that the territory was only leased to the British North Borneo Company in 1878 and that the sultanate's sovereignty was never relinquished. | secondary | 2026-10-03 | S0167 | The Philippines, presenting itself as the successor state of the Sultanate of Sulu , retains a "dormant claim" on Eastern Sabah on the basis that the territory was only leased to the British North Borneo Company in 1878, and the sovereignty of the sultanate (and subsequently the republic) over the territory was never relinquished. |
 | on_the_ground | Sabah has been part of the Malaysian federation since 1963; Malaysia holds that its residents exercised self-determination in joining. | secondary | 2026-10-03 | S0167 | and it deems that the residents of Sabah (including Eastern Sabah) exercised their right to self-determination when they joined to form the Malaysian federation in 1963. |
 | inhabited | yes | secondary | 2026-10-03 | S0167 | and it deems that the residents of Sabah (including Eastern Sabah) exercised their right to self-determination when they joined to form the Malaysian federation in 1963. |
-| stated_outline | the whole territory of Sabah (Philippine Republic Act 5446 of 1968, section 2); whether Republic Act 9522 of 2009 kept this section is not checked | primary | 2026-10-04 | S0381 | without prejudice to the delineation of the baselines of the territorial sea around the territory of Sabah, situated in North Borneo, over which the Republic of the Philippines has acquired dominion and sovereignty |
+| stated_outline | the whole territory of Sabah (Philippine Republic Act 5446 of 1968, section 2); still in force: the Supreme Court held in 2011 (Magallona v. Ermita) that Republic Act 9522 of 2009 did not repeal it, and Republic Act 12064 of 2024 provides that nothing in it repeals that section | primary | 2026-10-05 | S0383 | Section 2 of RA 5446, which RA 9522 did not repeal, keeps open the door for drawing the baselines of Sabah: Section 2. The definition of the baselines of the territorial sea of the Philippine Archipelago as provided in this Act is without prejudice to the delineation of the baselines of the territorial sea around the territory of Sabah, situated in North Borneo, over which the Republic of the Philippines has acquired dominion and sovereignty |
 
 Sources:
 
 - S0167: https://en.wikipedia.org/w/index.php?title=North_Borneo_dispute&oldid=1371476391
-- S0280: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/east-n-southeast-asia/my.json
-- S0381: https://lawphil.net/statutes/repacts/ra1968/ra_5446_1968.html
+- S0383: https://lawphil.net/judjuris/juri2011/aug2011/gr_187167_2011.html
+- S0387: https://www.lawphil.net/statutes/repacts/ra2024/ra_12064_2024.html

@@ -359,6 +359,7 @@ area/kuril-islands,custom geometry,kuril-islands.geojson,include,1,RU
 area/la-guera,custom geometry,la-guera.geojson,include,1,EH MR
 area/lawa-headwaters,custom geometry,lawa-headwaters.geojson,include,1,GF SR
 area/melilla,GADM 4.1,ESP.7.2_1,include,2,
+area/migingo,custom geometry,migingo.geojson,include,1,KE UG
 area/moldovan-held-left-bank,custom geometry,moldovan-held-left-bank.geojson,include,1,area/transnistria MD
 area/northern-cyprus,GADM 4.1,ZNC,include,2,
 area/olivenza,GADM 4.1,ESP.11.1.8.4_1,include,2,

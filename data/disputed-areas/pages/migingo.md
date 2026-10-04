@@ -10,8 +10,10 @@
 | on_the_ground | The Ugandan flag was lowered, Uganda withdrew its military troops and agreed that all its police officers would leave the island (the paragraph is about 2009; the page gives no later state). | secondary | 2026-10-03 | S0158 | The Ugandan flag was lowered, Uganda withdrew its military troops, and agreed that all its police officers would leave the island. |
 | inhabited | yes | secondary | 2026-10-03 | S0158 | In 2009, the island had a reported population of 131 |
 | area_km2 | 0.002 | secondary | 2026-10-03 | S0158 | At only 2,000 m 2 (0.49-acre; 0.20 ha), it is the 7th most densely populated island on earth . |
+| holder | Contested on the island itself: Kenyan and Ugandan police are both posted there (the latest on-island report found, AFP October 2018, calls it co-managed and names a Ugandan police station), with Ugandan officers prevailing in practice (they blocked about 50 Kenyan administration officers from docking in August 2011 and lowered a Kenyan flag in September 2018). No single party admits, refuses and removes civilians | secondary | 2026-10-05 | S0386 | But nothing has come of the commission, and in the absence of any decisions on the boundary, the island is co-managed by both countries, a marriage of convenience that has seen highs and lows. |
 
 Sources:
 
 - S0158: https://en.wikipedia.org/w/index.php?title=Migingo_Island&oldid=1364051415
 - S0272: https://raw.githubusercontent.com/factbook/factbook.json/588c5b5084ee9c5e7ed0666c7be8f692c0329f56/africa/ug.json
+- S0386: https://www.independent.co.ug/migingo-island-a-rocky-marriage-between-uganda-and-kenya/

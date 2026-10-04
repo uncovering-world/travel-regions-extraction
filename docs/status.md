@@ -17,7 +17,7 @@ Reference registry and points of view (D038, D039, D064–D069): every country's
 
 ## Active
 
-- [Release draft](../experiments/release-draft/README.md) (#22): 331 regions with `view_<party>` columns, membership in GADM units, 54 own geometries, manifest; every GADM unit in exactly one region. Open items: Migingo (holder unclear), the Okpara villages (which villages, see the register's [review list](../data/disputed-areas/REVIEW.md)), Hans Island (the 2022 line is transcribed in the review list; whether the agreement is in force is not confirmed), small plots of the Baikonur lease far from the cosmodrome, whether the Philippine law of 2009 kept the Sabah claim.
+- [Release draft](../experiments/release-draft/README.md) (#22): 331 regions with `view_<party>` columns, membership in GADM units, 54 own geometries, manifest; every GADM unit in exactly one region. No gaps. Open items: the Okpara villages (the register area rests on a weak source; the documented dispute lies elsewhere — retire or replace it, see the register's [review list](../data/disputed-areas/REVIEW.md)), Hans Island (the 2022 line is transcribed there; whether the agreement is in force is not confirmed), who controls access at the five far plots of the Baikonur lease (now register areas, special places).
 - [Stage 1 as a list](../experiments/stage1-list/README.md) (#22): rerun under D064–D069; `outputs/natural_earth_lead.csv` lists where Natural Earth and the recorded claims disagree.
 - Long term: a canon for every year from 2000 ([#30](https://github.com/uncovering-world/travel-regions-extraction/issues/30)).
 

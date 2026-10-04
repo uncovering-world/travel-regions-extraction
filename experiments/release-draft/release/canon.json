@@ -1474,6 +1474,9 @@
      "wikidataId": "Q331990"
     },
     {
+     "name": "Migingo Island and nearby Lake Victoria islets"
+    },
+    {
      "name": "Spratly Islands",
      "wikidataId": "Q215664"
     },
@@ -1489,14 +1492,6 @@
   {
    "name": "Åland Islands",
    "wikidataId": "Q5689"
-  },
-  {
-   "name": "No country",
-   "children": [
-    {
-     "name": "Migingo Island and nearby Lake Victoria islets"
-    }
-   ]
   }
  ]
 }
