@@ -368,6 +368,8 @@ Amended by D064: the supported points of view also include, for every party to a
 
 Amended by D065: every country's point of view is built from its sourced claims (a law, its constitution, an official map or a government statement). Natural Earth's national points of view are a lead: each difference between them is checked against the country's claims, and a difference that no sourced claim supports cuts no boundary. What counts as a sourced claim and how unchecked differences are treated is Q020.
 
+Amended by D067: a claim may rest on a reliable secondary source that reports it, with the quoted passage; its evidence level is recorded and shown with the region it creates, and the claimant's own document replaces the secondary source when found.
+
 ### R046 — Special places and markers [accepted; D041]
 
 A **special place** is an object with its own location or outline that is not a region. It is tickable, it is shown with the region that holds its land (its parent region), it is not counted as a region, and it does not change the partition. A **marker** is a recorded note on a region or a boundary — an overlay in the sense of R017 — and is neither a region nor a special place.

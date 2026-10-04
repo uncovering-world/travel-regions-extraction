@@ -631,3 +631,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: R047 said a front line is never an outline; a line of control is a position of troops, not a line the parties state, and the best available one may be imprecise or of doubtful provenance (OpenStreetMap's Actual Ground Position Line was traced from a National Geographic map in 2015, unverified). The alternatives were using only published lines, which leaves the land with the substrate's choice against the facts on the holder, and making the wedge between the parties' readings a region of its own, which departs from the residents test (D045).
 - Status: accepted.
 - Basis: owner decision, 2026-10-04 (option "the best available line"); the Siachen case and the research on providers in this session.
+
+### D067 — A claim may rest on a reliable secondary source, marked as such
+
+- Decision: for a country's point of view (D065), a claim may rest on a reliable secondary source that reports it, with the quoted passage (an encyclopaedia, the press, research), as entry rules may under the product profile (D051). The evidence level of each claim is recorded and shown with the region it creates; the claimant's own document (a law, its constitution, an official map, a government statement) is sought over time and replaces the secondary source when found.
+- Rationale: the register's claims are mostly reported by secondary sources; requiring the claimant's own document first would leave most claims out of the first release, while the evidence level stays visible to the consumer and to review.
+- Rules: R045 (amended); Q020 (narrowed).
+- Counterarguments: a secondary source may misreport or overstate a claim, or report one the claimant no longer presses; the alternatives were the claimant's own document only, and secondary sources for drafts with the claimant's document required for a release.
+- Status: accepted.
+- Basis: owner decision, 2026-10-04 (option "a secondary source is acceptable, marked").
