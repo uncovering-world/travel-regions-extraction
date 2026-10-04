@@ -1,0 +1,289 @@
+id,record,wikidata_id,wd_label,lat,lon,link,use,how
+au-ashmore-cartier,census,Q726181,Ashmore Reef Marine Park,-12.240469,123.093314,close,yes,"wbsearch ""Ashmore Reef Marine Park""; rule covers the Sanctuary Zone and Cartier Island; territory is Q133888"
+au-lord-howe-island,census,Q104784,Lord Howe Island,-31.55,159.083333,exact,yes,source en:Lord Howe Island
+au-macquarie-island,census,Q46650,Macquarie Island,-54.63,158.86,exact,yes,enwiki title = name -> wikibase_item
+au-torres-strait-protected-zone,census,Q179188,Torres Strait,-9.833333,142.5,close,yes,"wbsearch ""Torres Strait"" (strait); no item for the Protected Zone; Torres Strait Treaty Q106405682 has no P625"
+az-nakhchivan,census,Q131083,Nakhchivan Autonomous Republic,39.333333,45.5,exact,yes,enwiki title = name -> wikibase_item
+bd-chittagong-hill-tracts,census,Q1074977,Chittagong Hill Tracts,22.55,92.283333,exact,yes,enwiki title = name -> wikibase_item
+bq-bonaire-saba-sint-eustatius,census,Q27561,Caribbean Netherlands,12.183333,-68.233333,exact,yes,"wbsearch ""Caribbean Netherlands"""
+br-fernando-de-noronha,census,Q175057,Fernando de Noronha,-3.855,-32.425,exact,yes,enwiki title = name -> wikibase_item
+cl-rapa-nui,census,Q14452,Easter Island,-27.12,-109.35,exact,yes,source en:Easter Island
+cn-guilin-asean-groups,census,Q189633,Guilin,25.266667,110.283333,exact,yes,"wbsearch ""Guilin"" (prefecture-level city) [item has 2 P625 values; preferred/first used]"
+cn-hainan,census,Q42200,Hainan,20.03342,110.32398,exact,yes,enwiki title = name -> wikibase_item
+cn-hengqin,census,Q5117990,Hengqin,22.12,113.5101,exact,yes,enwiki title = name -> wikibase_item (island and district)
+cn-prd-144h-groups,census,Q1144286,Pearl River Delta,22.533333,113.733333,close,yes,"wbsearch ""Pearl River Delta""; rule area is a list of cities"
+cn-tibet,census,Q17269,Tibet Autonomous Region,31.705556,86.940278,exact,yes,enwiki title = name -> wikibase_item
+cn-xishuangbanna-asean-groups,census,Q868046,Xishuangbanna Dai Autonomous Prefecture,22,100.8,exact,yes,"wbsearch ""Xishuangbanna Dai Autonomous Prefecture"""
+co-leticia,census,Q214913,Leticia,-4.215,-69.941111,exact,yes,"wbsearch ""Leticia"" (capital of Amazonas)"
+co-san-andres,census,Q26855,"Archipelago of San Andrés, Providencia and Santa Catalina",14.383333,-80.283333,exact,yes,enwiki title = name -> wikibase_item
+cy-northern-cyprus,census,Q23681,Northern Cyprus,35.1816,33.3634,exact,yes,enwiki title = name -> wikibase_item
+de-busingen,census,Q61698,Büsingen am Hochrhein,47.696944,8.690278,exact,yes,enwiki title = name -> wikibase_item
+de-heligoland,census,Q3038,Heligoland,54.1825,7.885278,exact,yes,enwiki title = name -> wikibase_item (municipality)
+ec-galapagos,census,Q475038,Galápagos Province,0.116667,-91.333333,exact,yes,enwiki title = name -> wikibase_item
+eh-polisario-free-zone,census,Q2399038,Free Zone,23.349,-12.933,exact,yes,"Free Zone (region) item, same as area sadr-free-zone; source en:Sahrawi Arab Democratic Republic gives the state Q40362"
+er-outside-asmara,census,Q986,Eritrea,15.483333,38.25,close,yes,Eritrea (containing; rule covers all but Asmara)
+es-canary-islands,census,Q5813,Canary Islands,28,-15.75,exact,yes,enwiki title = name -> wikibase_item
+es-ceuta,census,Q5823,Ceuta,35.886667,-5.3,exact,yes,enwiki title = name -> wikibase_item
+es-melilla,census,Q5831,Melilla,35.2825,-2.9475,exact,yes,enwiki title = name -> wikibase_item
+fi-aland,census,Q5689,Åland,60.25,20,exact,yes,source en:Aland
+fr-clipperton,census,Q161258,Clipperton Island,10.293889,-109.217222,exact,yes,enwiki title = name -> wikibase_item
+ge-abkhazia,census,Q23334,Abkhazia,43.15,41,exact,yes,same item as area abkhazia (region); de facto state Q31354462
+ge-south-ossetia,census,Q23427,South Ossetia,42.225,43.97,exact,yes,enwiki title = name -> wikibase_item
+gr-mount-athos,census,Q780149,monastic community of Mount Athos,40.2619,24.2442,exact,yes,"wbsearch ""Monastic community of Mount Athos"" (autonomous region); en:Mount Athos gives the mountain Q130321"
+id-papua-surat-jalan,census,Q3845,Western New Guinea,-5,136,close,yes,"wbsearch ""Western New Guinea"" (containing)"
+in-andaman-nicobar,census,Q40888,Andaman and Nicobar Islands,11.68,92.72,exact,yes,enwiki title = name -> wikibase_item
+in-arunachal-pradesh,census,Q1162,Arunachal Pradesh,27.06,93.37,exact,yes,enwiki title = name -> wikibase_item
+in-ladakh-pap-areas,census,Q200667,Ladakh,34.166667,77.583333,close,yes,"wbsearch ""Ladakh"" (containing); Nubra Valley Q2004108 is one listed area"
+in-lakshadweep,census,Q26927,Lakshadweep,10.57,72.64,exact,yes,enwiki title = name -> wikibase_item
+in-manipur,census,Q1193,Manipur,24.81,93.94,exact,yes,enwiki title = name -> wikibase_item
+in-minicoy-maldivians,census,Q162448,Minicoy,8.275,73.052778,exact,yes,enwiki title = name -> wikibase_item (atoll)
+in-mizoram,census,Q1502,Mizoram,23.36,92.8,exact,yes,enwiki title = name -> wikibase_item
+in-nagaland,census,Q1599,Nagaland,26.229169,94.6525,exact,yes,enwiki title = name -> wikibase_item
+in-sikkim,census,Q1505,Sikkim,27.55,88.5,exact,yes,enwiki title = name -> wikibase_item
+iq-kurdistan,census,Q205047,Kurdistan Region of Iraq,36.183333,44,exact,yes,enwiki title = name -> wikibase_item
+ir-kish,census,Q221883,Kish Island,26.535,53.975,exact,yes,"wbsearch ""Kish Island""; Kish Free Zone Q65197966 has no P625"
+ir-qeshm,census,Q240719,Qeshm Island,26.77,55.77,exact,yes,"wbsearch ""Qeshm"" (island); Qeshm Free Zone Q133869682 is the agency"
+it-livigno,census,Q40871,Livigno,46.538173,10.135993,exact,yes,enwiki title = name -> wikibase_item
+it-sicily,census,Q1460,Sicily,37.6,14.016667,exact,yes,source en:Sicily
+jo-aqaba-aseza,census,Q180522,Aqaba,29.532222,35.006111,close,yes,"wbsearch ""Aqaba"" (city); ASEZA item Q4782452 is the authority, no P625"
+kp-rason,census,Q7295151,Rason Special Economic Zone,42.366667,130.416667,exact,yes,enwiki title = name -> wikibase_item
+kp-sinuiju,census,Q156243,Sinuiju,40.1,124.4,close,yes,"wbsearch ""Sinuiju"" (city); rule is a day-trip zone"
+kr-jeju,census,Q41164,Jeju Province,33.366667,126.533333,exact,yes,enwiki title = name -> wikibase_item
+kz-baikonur,census,Q177477,Baikonur Cosmodrome,45.9648,63.3051,close,yes,same as area baikonur; city Q165413
+la-golden-triangle-sez,census,Q24896442,Golden Triangle Special Economic Zone,20.340248,100.105245,exact,yes,enwiki title = name -> wikibase_item
+ly-eastern-libya,census,Q165198,Cyrenaica,32.283333,21.633333,close,yes,enwiki title -> Cyrenaica (region); controlled area does not coincide
+md-transnistria,census,Q907112,Transnistria,47.3,29.25,exact,yes,enwiki title = name -> wikibase_item
+mh-kwajalein,census,Q1794892,Ronald Reagan Ballistic Missile Defense Test Site,8.716667,167.733333,exact,yes,enwiki title = name -> wikibase_item -> Ronald Reagan Ballistic Missile Defense Test Site
+mm-wa-state,census,Q2306303,Wa State,22.166667,99,exact,yes,source en:Wa State
+my-labuan,census,Q214504,Labuan,5.3,115.22,exact,yes,source en:Labuan
+my-sabah,census,Q179029,Sabah,5.5,116.8,exact,yes,source en:Sabah
+my-sarawak,census,Q170462,Sarawak,2.5,113,exact,yes,source en:Sarawak
+pg-bougainville,census,Q18826,Autonomous Region of Bougainville,-6,155,exact,yes,enwiki title = name -> wikibase_item
+pk-azad-kashmir,census,Q200130,Azad Kashmir,33.938083,73.764556,exact,yes,enwiki title = name -> wikibase_item
+pk-gilgit-baltistan,census,Q200697,Gilgit-Baltistan,35.35,75.9,exact,yes,enwiki title = name -> wikibase_item
+ps-gaza,census,Q39760,Gaza Strip,31.45,34.4,exact,yes,enwiki title = name -> wikibase_item
+pt-azores,census,Q25263,Azores,38.624,-28.031,exact,yes,enwiki title = name -> wikibase_item
+pt-madeira,census,Q26253,Madeira,32.75,-17,exact,yes,enwiki title = name -> wikibase_item
+rs-kosovo,census,Q1246,Kosovo,42.55,20.833333,exact,yes,enwiki title = name -> wikibase_item
+ru-chukotka,census,Q7984,Chukotka Autonomous District,66.252778,172.001,exact,yes,enwiki title = name -> wikibase_item
+ru-chukotka-alaska-natives,census,Q7984,Chukotka Autonomous District,66.252778,172.001,exact,yes,"Chukotka Autonomous District (enwiki ""Chukotka"" is a disambiguation)"
+ru-kaliningrad-restricted,census,Q76782,Baltiysky District,54.65,19.916667,close,yes,"wbsearch ""Baltiysky District""; one of the listed districts"
+ru-saatse-boot,census,Q4403385,Saatse Boot,57.90577,27.71323,exact,yes,"wbsearch ""Saatse Boot"" (territory)"
+ru-saimaa-canal,census,Q1129324,Saimaa Canal,60.992592,28.489953,close,yes,same as area saimaa-canal; whole canal
+sa-mecca,census,Q5806,Mecca,21.4225,39.826111,exact,yes,enwiki title = name -> wikibase_item (city; rule boundary is the haram)
+sh-ascension,census,Q46197,Ascension Island,-7.95,-14.35,exact,yes,enwiki title = name -> wikibase_item
+sh-saint-helena,census,Q34497,Saint Helena,-15.95,-5.716667,exact,yes,enwiki title = name -> wikibase_item
+sh-tristan-da-cunha,census,Q220982,Tristan da Cunha,-37.15,-12.3,exact,yes,enwiki title = name -> wikibase_item (island group) [item has 2 P625 values; preferred/first used]
+sj-jan-mayen,census,Q14056,Jan Mayen,70.983,-8.5336,exact,yes,source en:Jan Mayen
+sj-svalbard,census,Q25231,Svalbard,78.15706,15.86426,exact,yes,enwiki title = name -> wikibase_item
+so-puntland,census,Q485112,Puntland,8.4,48.5,exact,yes,enwiki title = name -> wikibase_item
+so-somaliland,census,Q34754,Somaliland,9.8,46.2,exact,yes,enwiki title = name -> wikibase_item
+sy-aanes,census,Q619829,Democratic Autonomous Administration of North and East Syria,37.05,41.25,exact,yes,enwiki title = name -> wikibase_item (description says 2012-2026; check current status)
+tj-gbao,census,Q207319,Gorno-Badakhshan Autonomous Region,38,73,exact,yes,enwiki title = name -> wikibase_item
+tw-kinmen,census,Q249870,Kinmen County,24.44,118.33,exact,yes,enwiki title = name -> wikibase_item
+tw-matsu,census,Q249872,Lienchiang County,26.151111,119.927222,exact,yes,"wbsearch ""Lienchiang County""; Matsu Islands Q609255"
+tw-penghu,census,Q198525,Penghu County,23.583333,119.583333,exact,yes,"wbsearch ""Penghu County""; Penghu Islands Q918799"
+tz-zanzibar,census,Q1774,Zanzibar Islands,-5.9,39.3,exact,yes,enwiki title = name -> wikibase_item
+ua-crimea,census,Q7835,Crimea,45,34,exact,yes,same as area crimea; Autonomous Republic of Crimea Q756294
+us-niihau,census,Q239743,Niʻihau,21.9,-160.166667,exact,yes,source en:Niihau
+vn-phu-quoc,census,Q146695,Phú Quốc,10.228889,103.957222,exact,yes,enwiki title = name -> wikibase_item
+xx-akrotiri-dhekelia,census,Q37362,Akrotiri and Dhekelia,34.583333,32.983333,exact,yes,enwiki title = name -> wikibase_item [item has 2 P625 values; preferred/first used]
+ye-socotra,census,Q15728745,Socotra Archipelago Governorate,12.5,53.833333,exact,yes,enwiki title = name -> wikibase_item (governorate); archipelago Q2860218 [item has 2 P625 values; preferred/first used]
+abkhazia,register,Q23334,Abkhazia,43.15,41,exact,yes,"wbsearch ""Abkhazia""; land/region item chosen over the de facto state Q31354462 that en:Abkhazia links to (same P625)"
+abu-musa,register,Q167217,Abu Musa Island,25.875,55.03,exact,yes,source page -> wikibase_item en:Abu Musa
+abyei,register,Q336494,Abyei,9.595,28.436,exact,yes,source page -> wikibase_item en:Abyei
+akrotiri-dhekelia,register,Q37362,Akrotiri and Dhekelia,34.583333,32.983333,exact,yes,source page -> wikibase_item en:Akrotiri and Dhekelia [item has 2 P625 values; preferred/first used]
+aksai-chin,register,Q230830,Aksai Chin,35,79,exact,yes,source page -> wikibase_item en:Aksai Chin
+ankoko-island,register,Q2711269,Ankoko Island,6.724368,-61.140235,exact,yes,source page -> wikibase_item en:Ankoko Island
+antarctic-peninsula-overlap,register,Q185605,Antarctic Peninsula,-69,-66,close,yes,"wbsearch ""Antarctic Peninsula""; containing/central feature of the UK-Chile-Argentina overlap; source en:Territorial claims in Antarctica (Q783953) is the dispute, no P625"
+antarctica,register,Q51,Antarctica,-90,0,exact,yes,source page -> wikibase_item en:Antarctica; P625 is the South Pole
+armistice-no-mans-lands,register,Q12032770,Latrun salient,31.843611,35.015278,close,yes,"wbsearch ""Latrun salient""; covers only the Latrun part; Mount Scopus Q312818 is the other part"
+artsvashen,register,Q514729,Artsvashen,40.646111,45.515556,exact,yes,source page -> wikibase_item en:Artsvashen
+arunachal-pradesh,register,Q1162,Arunachal Pradesh,27.06,93.37,exact,yes,source page -> wikibase_item en:Arunachal Pradesh
+aves-island,register,Q790669,Isla Aves,15.67,-63.618611,exact,yes,"source page -> wikibase_item en:Isla de Aves (title ""Aves Island"" redirects there)"
+azad-kashmir,register,Q200130,Azad Kashmir,33.938083,73.764556,exact,yes,source page -> wikibase_item en:Azad Kashmir
+azerbaijani-held-armenian-border-areas,register,Q106837837,Armenia–Azerbaijan border crisis,39.25,46.25,close,yes,"source page -> wikibase_item en:Armenia-Azerbaijan border crisis (2021-present); the crisis item, P625 inside Armenia near the border"
+badme,register,Q799198,Badme,14.716667,37.8,exact,yes,source page -> wikibase_item en:Badme
+baikonur,register,Q177477,Baikonur Cosmodrome,45.9648,63.3051,close,yes,source page -> wikibase_item en:Baikonur Cosmodrome (P31 includes condominium); the city is a separate item Q165413 (source en:Baikonur)
+bajo-nuevo,register,Q1257783,Bajo Nuevo Bank,15.883333,-78.633333,exact,yes,source page -> wikibase_item en:Bajo Nuevo Bank
+banc-du-geyser,register,Q2882024,Banc du Geyser,-12.32,46.45,exact,yes,source page -> wikibase_item en:Banc du Geyser
+baqoura-ghamr,register,Q11683912,Island of Peace,32.640556,35.566667,close,yes,source page -> wikibase_item en:Island of Peace; covers Baqoura only; Al-Ghamr is Q74893589 (region in Jordan)
+belize-guatemala-claim,register,Q242,Belize,17.066667,-88.7,close,yes,source en:Belizean-Guatemalan territorial dispute (Q4883000) is the dispute with no P625; Belize (the claim covers all of it) used as containing item
+bender,register,Q192176,Bendery,46.833333,29.483333,exact,yes,"existing wikidata_id; = source page -> wikibase_item en:Bender, Moldova"
+bhutan-china-north,register,Q3089001,Bhutan–China border,27.759718,91.658329,close,"no: the item is a border or a containing feature and its point lies in Arunachal Pradesh, outside the parties' countries (checked 2026-10-04)","source page -> wikibase_item en:Bhutan-China border; no items found for Jakarlung, Pasamlung, Beyul Khenpajong; border P625 is a generic point [item has 2 P625 values; preferred/first used]"
+bhutan-china-west,register,Q32744297,Doklam,27.3,88.933333,close,yes,source page -> wikibase_item en:Doklam; Doklam is one of the listed pieces
+bhutanese-enclaves-tibet,register,Q14305801,Kangsa Village,30.976389,81.286944,close,yes,source page -> wikibase_item en:Darchen -> Kangsa Village; one of the former enclaves
+bir-tawil,register,Q620634,Bir Tawil,21.870556,33.737222,exact,yes,existing wikidata_id
+bosnia-serbia-drina,register,Q3088859,Bosnia and Herzegovina–Serbia border,44.856111,19.020764,close,yes,source page -> wikibase_item en:Bosnia and Herzegovina-Serbia border
+bukit-jeli,register,Q31632599,Bukit Jeli,5.7325,101.8233,exact,yes,"wbsearch ""Bukit Jeli""; mountain in Thailand (P31 mountain)"
+burkina-niger-border,register,Q3089021,Burkina Faso–Niger border,11.902778,2.405556,close,yes,source page -> wikibase_item en:Burkina Faso-Niger border [item has 2 P625 values; preferred/first used]
+caspian-islets-ukatny,register,Q18591573,Ukatny,45.924444,49.577778,close,yes,source page -> wikibase_item en:Ukatny Island; one of three islets (Maly Zhemchuzhny = Q23900265; no item found for Zhestky) [item has 2 P625 values; preferred/first used]
+ceuta,register,Q5823,Ceuta,35.886667,-5.3,exact,yes,existing wikidata_id
+chagos,register,Q192188,Chagos Archipelago,-6.283333,72.083333,exact,yes,source page -> wikibase_item en:Chagos Archipelago
+chile-peru-land-triangle,register,Q16301370,Chilean–Peruvian territorial dispute,-18.350604,-70.377892,close,yes,source page -> wikibase_item en:Chilean-Peruvian territorial dispute; dispute item (P31 disputed territory) with P625 at the triangle [item has 2 P625 values; preferred/first used]
+citrana-naktuka,register,Q1093462,Citrana,-9.333333,124.083333,close,yes,"wbsearch ""Citrana""; aldeia of East Timor; Naktuka aldeia is Q22072919 (no English label)"
+conejo-island,register,Q5159484,Conejo Island,13.347778,-87.742778,exact,yes,source page -> wikibase_item en:Conejo Island
+congo-river-islands,register,Q3088975,Democratic Republic of the Congo–Republic of the Congo border,-4.645833,13.101389,close,yes,source page -> wikibase_item en:DRC-Republic of the Congo border [item has 3 P625 values; preferred/first used]
+crimea,register,Q7835,Crimea,45,34,exact,yes,source page -> wikibase_item en:Crimea (peninsula; Sevastopol included)
+david-gareja,register,Q1178627,David Gareja monastery complex,41.447544,45.376357,exact,yes,source page -> wikibase_item en:David Gareji monastery complex
+demchok,register,Q96807758,Demchok sector,32.88,79.31,exact,yes,source page -> wikibase_item en:Demchok sector
+diego-garcia,register,Q11694190,Naval Support Facility Diego Garcia,-7.313278,72.411083,exact,yes,"wbsearch ""Naval Support Facility Diego Garcia""; the base; island item is Q184851 (source en:Diego Garcia)"
+doi-lang,register,Q175708,Doi Pha Hom Pok National Park,19.987778,99.146389,close,yes,source page -> wikibase_item en:Doi Pha Hom Pok National Park; facts say Doi Lang lies within the park; no item found for Doi Lang itself
+dokdo,register,Q20317,Liancourt Rocks,37.241667,131.866667,exact,yes,existing wikidata_id
+donetsk-occupied,register,Q16150196,Donetsk People's Republic,48.008889,37.804167,close,yes,"source page -> wikibase_item en:Donetsk People's Republic; Russian-installed entity, P625 Donetsk city"
+doumeira,register,Q1252648,Ras Doumeira,12.7129,43.1362,close,yes,"wbsearch ""Ras Doumeira"" (cape); Doumeira Islands = Q1252656"
+dragonja,register,Q788452,Dragonja,45.478333,13.586111,close,yes,"wbsearch ""Dragonja""; the river along which the hamlets lie; source en:Croatia-Slovenia border disputes (Q476210) has no P625"
+east-jerusalem,register,Q212938,East Jerusalem,31.78336,35.23388,exact,yes,source page -> wikibase_item en:East Jerusalem
+eastern-ossetia-claim,register,Q957561,Truso valley,42.572778,44.481944,close,yes,source page -> wikibase_item en:Truso Gorge; one of three parts
+essequibo,register,Q816253,Guayana Esequiba,6.3,-59.7,exact,yes,"wbsearch ""Guayana Esequiba""; enwiki title redirects to the dispute article (Q124061083)"
+estonia-russia-border,register,Q2534084,Pechorsky District,57.816667,27.6,close,yes,"wbsearch ""Pechorsky District""; Ivangorod is Q15256; Petseri County (former) Q2510359"
+ethiopia-somalia-provisional-line,register,Q3088835,Ethiopia–Somalia border,10.983329,42.963889,close,yes,source page -> wikibase_item en:Ethiopia-Somalia border [item has 2 P625 values; preferred/first used]
+falkland-islands,register,Q9648,Falkland Islands,-51.73,-59.22,exact,yes,source page -> wikibase_item en:Falkland Islands
+fasht-ad-dibal-qitat-jaradah,register,Q35704761,Fasht ad Dībal,26.263889,50.953056,close,yes,"wbsearch ""Fasht ad Dibal"" (reef in Qatar); Qit'at Jaradah is Q24950416 (source en:Qit'at Jaradah)"
+gaza-strip,register,Q39760,Gaza Strip,31.45,34.4,exact,yes,source page -> wikibase_item en:Gaza Strip
+gazakh-exclaves,register,Q809674,Barxudarlı,40.997808,45.2218,close,yes,"source page -> wikibase_item en:Barxudarli; one of three; Sofulu Q4430101, Yukhari Askipara Q195887"
+gazakh-four-villages,register,Q196051,Ashaghy Eskipara,41.075811,45.07994,close,yes,"wbsearch ""Asagi Askipara""; one of four villages"
+ghajar,register,Q1261045,Ghajar,33.272675,35.623528,close,yes,"source page -> wikibase_item en:Ghajar; whole village, the area is its northern part"
+gibraltar,register,Q1410,Gibraltar,36.14,-5.35,exact,yes,source page -> wikibase_item en:Gibraltar
+gilgit-baltistan,register,Q200697,Gilgit-Baltistan,35.35,75.9,exact,yes,source page -> wikibase_item en:Gilgit-Baltistan
+glorioso-islands,register,Q236601,Glorioso Islands,-11.55,47.333333,exact,yes,source page -> wikibase_item en:Glorioso Islands
+golan-heights,register,Q83210,Golan Heights,33,35.75,exact,yes,existing wikidata_id
+gornja-siga,register,Q102285156,Gornja Siga,45.7693,18.8709,exact,yes,"wbsearch ""Gornja Siga"" (P31 disputed territory, terra nullius); source en:Liberland gives the micronation Q19801186"
+guantanamo-bay,register,Q762570,Guantanamo Bay Naval Base,19.9175,-75.16,exact,yes,existing wikidata_id
+guinea-liberia-makona,register,Q2424388,Foya District,8.273056,-10.31,close,yes,"wbsearch ""Foya District""; district containing Sorlumba; no item for the disputed spot"
+halaib-triangle,register,Q796684,Hala'ib Triangle,22.469167,35.523056,exact,yes,source page -> wikibase_item en:Halaib Triangle
+hans-island,register,Q681389,Hans Island,80.826389,-66.458333,exact,yes,source page -> wikibase_item en:Hans Island
+hatay,register,Q83274,Hatay Province,36.2,36.15,exact,yes,source page -> wikibase_item en:Hatay Province
+heglig,register,Q1320844,Heglig,9.999444,29.398611,exact,yes,"source page -> wikibase_item en:Heglig (P31 human settlement, disputed territory)"
+ilemi-triangle,register,Q973527,Ilemi Triangle,4.991272,35.327464,exact,yes,source page -> wikibase_item en:Ilemi Triangle
+imia-kardak,register,Q2119012,Imia,37.050833,27.151111,exact,yes,source page -> wikibase_item en:Imia
+india-bangladesh-enclaves,register,Q645659,Indo-Bangladesh enclaves,26.247778,89.086667,exact,yes,source page -> wikibase_item en:Bangladesh-India enclaves (group item)
+india-china-middle-sector,register,Q104858870,Barahoti,30.838489,79.962722,close,yes,source page -> wikibase_item en:Barahoti; one of eight pockets
+isla-brasilera,register,Q2093778,Brazilian Island,-30.185,-57.63,exact,yes,source page -> wikibase_item en:Brazilian Island [item has 2 P625 values; preferred/first used]
+isla-portillos,register,Q1674027,Isla Calero,10.849492,-83.623122,close,yes,"wbsearch ""Isla Calero""; no item found for Isla Portillos; area is the northern tip"
+isla-santa-rosa,register,Q21175528,Santa Rosa Island,-4.227511,-69.956283,exact,yes,source page -> wikibase_item en:Santa Rosa Island (Amazon River)
+isla-suarez,register,Q1674047,Isla Suárez/Ilha de Guajará-Mirim,-10.795,-65.359722,exact,yes,source page -> wikibase_item en:Isla Suarez
+islas-chafarinas,register,Q130574,Chafarinas Islands,35.176525,-2.430399,exact,yes,source page -> wikibase_item en:Chafarinas Islands
+israeli-held-southern-syria,register,Q215471,Mount Hermon,33.4,35.85,close,yes,"wbsearch ""Mount Hermon""; mountain range including the summit named in the area; source en:Israeli invasion of Syria has no P625"
+kafia-kingi,register,Q844262,Kafia Kingi,9.273123,24.417404,exact,yes,source page -> wikibase_item en:Kafia Kingi (P31 disputed territory)
+kalapani,register,Q6350651,Kalapani territory,30.214,80.984,exact,yes,source page -> wikibase_item en:Kalapani territory
+kangwane-ingwavuma,register,Q1433125,KaNgwane,-25.677,31.298,close,yes,source page -> wikibase_item en:KaNgwane (former bantustan); Ingwavuma is Q5138677
+karki,register,Q201557,Karki,39.791321,44.959833,exact,yes,"source page -> wikibase_item en:Karki, Azerbaijan"
+kherson-occupied,register,Q111686059,Russian occupation of Kherson Oblast,46.176944,34.798889,close,yes,source page -> wikibase_item en:Russian occupation of Kherson Oblast; occupation item with P625
+kinmen-matsu,register,Q63698,Fuchien,24.416667,118.316667,exact,yes,"wbsearch ""Fujian Province, Republic of China"" -> Fuchien (titular ROC province = Kinmen + Matsu + Wuqiu); P625 at Kinmen"
+klek-skolj,register,Q3442096,Mali Školj,42.91149,17.59877,close,yes,"source page -> wikibase_item en:Mali Skolj; Veliki Skolj Q3442022, Klek Q1279786"
+koalou,register,Q65131682,Koalou,11.022417,0.939749,close,yes,source page -> wikibase_item en:Koalou; the village the neutral zone is named after
+kokkina,register,Q202360,Kokkina,35.161431,32.601819,exact,yes,source page -> wikibase_item en:Kokkina
+korean-dmz,register,Q331990,Korean Demilitarized Zone,38.32,127.2,exact,yes,source page -> wikibase_item en:Korean Demilitarized Zone
+kosovo,register,Q1246,Kosovo,42.55,20.833333,exact,yes,source page -> wikibase_item en:Kosovo
+kosovo-montenegro-border,register,Q337570,Čakor pass,42.668611,20.0075,close,yes,"wbsearch ""Cakor"" (pass); one of the two sectors; Kosovo-Montenegro border item Q25383190 has no P625"
+kostajnica-island,register,Q396575,Hrvatska Kostajnica,45.233333,16.533333,close,yes,"wbsearch ""Hrvatska Kostajnica"" (town); no item found for the island/castle"
+kula-kangri,register,Q866771,Kula Kangri,28.226667,90.616389,exact,yes,source page -> wikibase_item en:Kula Kangri (mountain)
+kuril-islands,register,Q11401819,South Kuril Islands,44.1,146.7,exact,yes,"wbsearch ""South Kuril Islands"" (P31 disputed territory, archipelago); source en:Kuril Islands gives the whole chain Q80389"
+kyrgyz-tajik-border,register,Q3089109,Kyrgyzstan–Tajikistan border,39.463889,73.659718,close,"no: the item is a border or a containing feature and its point lies in China, outside the parties' countries (checked 2026-10-04)",source page -> wikibase_item en:Kyrgyzstan-Tajikistan border [item has 2 P625 values; preferred/first used]
+kyrgyz-uzbek-border,register,Q34868908,Kempir-Abad reservoir,40.77222,73.11167,close,yes,"source page -> wikibase_item en:Andijan Reservoir -> Kempir-Abad reservoir; border item Q3089108 has P625 far from the sectors (42.26,70.94)"
+la-guera,register,Q1356850,La Güera,20.833333,-17.091667,exact,yes,source page -> wikibase_item en:La Guera
+ladakh-lac-buffer-zones,register,Q5260936,Depsang Plains,35.3,78,close,yes,source page -> wikibase_item en:Depsang Plains; one of the friction areas
+lake-constance,register,Q4127,Lake Constance,47.65,9.316667,exact,yes,source page -> wikibase_item en:Lake Constance
+lake-nyasa-islands,register,Q637890,Mbamba Bay,-11.283333,34.766667,close,yes,"wbsearch ""Mbamba Bay"" (town); dispute item Q136668712 has no P625"
+lawa-headwaters,register,Q3088913,France–Suriname border,2.337556,-54.434556,close,yes,source page -> wikibase_item en:France-Suriname border [item has 4 P625 values; preferred/first used]
+lebanon-syria-undelimited,register,Q3089110,Lebanon–Syria border,33.341667,35.805556,close,yes,source page -> wikibase_item en:Lebanon-Syria border [item has 2 P625 values; preferred/first used]
+libya-algeria-claim,register,Q3088687,Algeria–Libya border,23.526389,11.975,close,yes,"wbsearch ""Algeria-Libya border""; no Wikipedia source for the area [item has 2 P625 values; preferred/first used]"
+libya-niger-tummo,register,Q1008941,Tumu,22.763,14.051,close,yes,"wbsearch ""Toummo"" -> Tumu border checkpoint"
+logoba-moyo,register,Q21296978,Kajo Keji County,3.85843,31.54673,close,yes,"wbsearch ""Kajo Keji"" (county); Logoba parish Q136944420 has no P625"
+luhansk-occupied,register,Q16746854,Luhansk People's Republic,49,39,close,yes,source page -> wikibase_item en:Luhansk People's Republic
+lunkinda-pweto,register,Q996085,Chienge,-8.663611,29.16,close,yes,source page -> wikibase_item en:Chiengi; Pweto is Q1015063 [item has 2 P625 values; preferred/first used]
+machias-seal-island,register,Q477574,Machias Seal Island,44.500037,-67.101059,exact,yes,source page -> wikibase_item en:Machias Seal Island
+margherita-peak,register,Q1895254,Margherita Peak,0.3867,29.8725,exact,yes,"wbsearch ""Margherita Peak"" (summit); enwiki title redirects to Mount Stanley Q221666"
+marie-byrd-land,register,Q745767,Marie Byrd Land,-80,-120,exact,yes,source page -> wikibase_item en:Marie Byrd Land
+matthew-hunter,register,Q1909475,Matthew Island and Hunter Island,-22.346944,171.341389,exact,yes,source page -> wikibase_item en:Matthew Island and Hunter Island
+mayotte,register,Q17063,Mayotte,-12.843056,45.138333,exact,yes,source page -> wikibase_item en:Mayotte
+mazraat-deir-al-ashayer,register,Q17068349,Mazraat Deir al-Ashayer,33.575278,36.0125,exact,yes,"wbsearch ""Mazraat Deir al-Ashayer"" (village in Syria); enwiki title redirects to Deir al-Ashayer Q5252506, a different (Lebanese) place"
+mbanie,register,Q3303496,Mbañe,0.810309,9.378939,close,yes,source page -> wikibase_item en:Mbanie Island; one of three islands
+mekong-islands,register,Q730240,Laos–Thailand border,20.352778,100.902796,close,yes,source page -> wikibase_item en:Laos-Thailand border [item has 2 P625 values; preferred/first used]
+melilla,register,Q5831,Melilla,35.2825,-2.9475,exact,yes,existing wikidata_id
+migingo,register,Q1568935,Migingo Island,-0.882778,33.938056,exact,yes,source page -> wikibase_item en:Migingo Island
+minerva-reefs,register,Q1138750,Minerva Reefs,-23.633333,-178.9,exact,yes,source page -> wikibase_item en:Minerva Reefs [item has 2 P625 values; preferred/first used]
+moldauhafen,register,Q280224,Moldauhafen,53.528889,10.015,exact,yes,source page -> wikibase_item en:Moldauhafen (Saalehafen not separate)
+moldovan-held-left-bank,register,Q20858593,Cocieri,47.3,29.116667,close,yes,"source page -> wikibase_item en:Cocieri; Varnita Q2331113, Copanca Q1116161"
+mont-blanc-summit,register,Q583,Mont Blanc,45.832778,6.865,close,yes,"source page -> wikibase_item en:Mont Blanc; Dome du Gouter Q30434, Col du Geant Q2982284"
+moselle-condominium,register,Q1500976,Community territory of Germany and Luxembourg,49.713333,6.506667,exact,yes,source page -> wikibase_item de:Gemeinschaftliches deutsch-luxemburgisches Hoheitsgebiet
+nagorno-karabakh,register,Q44302,Nagorno-Karabakh,39.815278,46.751944,exact,yes,source page -> wikibase_item en:Nagorno-Karabakh (region); Republic of Artsakh is Q244165 (same P625)
+navassa,register,Q25359,Navassa Island,18.4027,-75.0126,exact,yes,source page -> wikibase_item en:Navassa Island
+nepal-china-humla,register,Q28623,Humla District,29.966667,81.833333,close,yes,"wbsearch ""Humla District""; no item for Limi/Lapcha"
+noktundo,register,Q712037,Noktundo,42.333333,130.683333,exact,yes,source page -> wikibase_item en:Noktundo
+north-korea-claimed-by-rok,register,Q423,North Korea,40,127,exact,yes,source page -> wikibase_item en:North Korea
+northern-cyprus,register,Q23681,Northern Cyprus,35.1816,33.3634,exact,yes,source page -> wikibase_item en:Northern Cyprus
+okpara-villages,register,Q4781577,Okpara River,6.433333,2.55,close,yes,"source page -> wikibase_item en:Okpara River; P625 is near its mouth, far from the villages"
+olivenza,register,Q488052,Olivenza,38.685744,-7.100731,exact,yes,source page -> wikibase_item en:Olivenza (Taliga not separate)
+orange-river-boundary,register,Q181475,Orange River,-28.896611,29.017944,close,"no: the item is a border or a containing feature and its point lies in Lesotho, outside the parties' countries (checked 2026-10-04)","source page -> wikibase_item en:Orange River; P625 (-28.90,29.02) is far upstream, not on the boundary [item has 2 P625 values; preferred/first used]"
+otangav,register,Q3089035,Cambodia–Laos border,14.336106,105.213889,close,yes,source page -> wikibase_item en:Cambodia-Laos border; no item for O'Tangav [item has 2 P625 values; preferred/first used]
+oyster-pond,register,Q3359182,Oyster Pond,18.058281,-63.014908,exact,yes,"wbsearch ""Oyster Pond"" (town in Saint Martin, border city); Sint Maarten side Q135908472"
+palanca-road,register,Q2379856,Palanca,46.408611,30.096111,close,yes,"source page -> wikibase_item en:Palanca, Stefan Voda (village)"
+paracel-islands,register,Q274388,Paracel Islands,16.654612,112.747192,exact,yes,source page -> wikibase_item en:Paracel Islands [item has 2 P625 values; preferred/first used]
+pedra-branca,register,Q1190558,Pedra Branca,1.330368,104.405883,close,yes,"source page -> wikibase_item en:Pedra Branca, Singapore; Middle Rocks Q3045574"
+penon-de-alhucemas,register,Q1184963,Alhucemas Islands,35.215,-3.896111,exact,yes,source page -> wikibase_item en:Alhucemas Islands
+penon-de-velez-de-la-gomera,register,Q191146,Peñón de Vélez de la Gomera,35.172222,-4.299722,exact,yes,source page -> wikibase_item en:Penon de Velez de la Gomera
+perejil,register,Q191750,Perejil Islet,35.913889,-5.418611,exact,yes,source page -> wikibase_item en:Perejil Island
+pheasant-island,register,Q373767,Pheasant Island,43.342778,-1.7655,exact,yes,source page -> wikibase_item en:Pheasant Island
+point-20,register,Q7850658,Tuas,1.316667,103.65,close,yes,"wbsearch ""Tuas"" (planning area); no item for Point 20"
+pratas,register,Q11103595,Pratas Island,20.703572,116.727539,exact,yes,source page -> wikibase_item en:Pratas Island; archipelago item Q698931
+preah-vihear,register,Q45949,Preah Vihear Temple,14.390556,104.680278,exact,yes,"source page -> wikibase_item en:Preah Vihear (temple, P31 disputed territory)"
+prevlaka,register,Q2109394,Prevlaka,42.399167,18.517778,exact,yes,source page -> wikibase_item en:Prevlaka
+rincon-de-artigas,register,Q11703222,Rincón de Artigas,-31.01125,-55.938056,exact,yes,source page -> wikibase_item es:Rincon de Artigas (P31 disputed territory)
+rockall,register,Q206137,Rockall,57.596278,-13.687306,exact,yes,source page -> wikibase_item en:Rockall
+rukwanzi-semliki,register,Q1714359,Rukwanzi Island,1.235,30.472222,close,yes,source page -> wikibase_item en:Rukwanzi Island; Semliki valley part not covered
+russian-ranges-kazakhstan,register,Q782082,Sary Shagan,46.383333,72.866667,close,yes,source page -> wikibase_item en:Sary Shagan; one of several ranges
+sabah,register,Q179029,Sabah,5.5,116.8,close,yes,Sabah state (containing); source en:North Borneo dispute Q4438024 and Eastern Sabah Security Zone Q12712876 have no P625
+sadr-free-zone,register,Q2399038,Free Zone,23.349,-12.933,exact,yes,source page -> wikibase_item en:Free Zone (region)
+saimaa-canal,register,Q1129324,Saimaa Canal,60.992592,28.489953,close,yes,"source page -> wikibase_item en:Saimaa Canal; whole canal, area is the Russian section; check P625 side of border"
+sakteng,register,Q4405530,Sakteng Wildlife Sanctuary,27.28,91.95,exact,yes,source page -> wikibase_item en:Sakteng Wildlife Sanctuary
+sapodilla-cayes,register,Q766270,Sapodilla Cayes,16.146,-88.281,exact,yes,source page -> wikibase_item en:Sapodilla Cayes
+sarengrad-vukovar-islands,register,Q560385,Island of Vukovar,45.347222,19.033333,close,yes,source page -> wikibase_item en:Island of Vukovar; Island of Sarengrad Q391205
+saudi-kuwait-neutral-zone,register,Q74091,Saudi–Kuwaiti Neutral Zone,28.528205,48.062422,exact,yes,"source page -> wikibase_item en:Saudi Arabian-Kuwaiti neutral zone (Qaruh, Umm al Maradim not separate)"
+saudi-uae-border,register,Q3088720,Saudi Arabia–United Arab Emirates border,22.697218,55.215278,close,yes,source page -> wikibase_item en:Saudi Arabia-UAE border [item has 2 P625 values; preferred/first used]
+scarborough-shoal,register,Q628716,Scarborough Shoal,15.183333,117.766667,exact,yes,existing wikidata_id
+scattered-islands-mozambique-channel,register,Q190571,Scattered Islands in the Indian Ocean,-22.343889,40.367222,close,yes,source page -> wikibase_item en:Scattered Islands in the Indian Ocean (also includes Glorioso and Tromelin); Bassas da India Q220601 [item has 2 P625 values; preferred/first used]
+senkaku,register,Q29460,Senkaku Islands,25.745,123.485,exact,yes,source page -> wikibase_item en:Senkaku Islands
+serranilla,register,Q1169008,Serranilla Bank,15.833333,-79.833333,exact,yes,source page -> wikibase_item en:Serranilla Bank
+shaksgam,register,Q1819167,Trans-Karakoram Tract,36.109089,76.646805,exact,yes,source page -> wikibase_item en:Trans-Karakoram Tract
+shebaa-farms,register,Q1133272,Shebaa farms,33.283333,35.7,exact,yes,source page -> wikibase_item en:Shebaa Farms
+siachen,register,Q333946,Siachen Glacier,35.19861,77.20139,exact,yes,existing wikidata_id
+sir-creek,register,Q973945,Sir Creek,23.966667,68.8,exact,yes,source page -> wikibase_item en:Sir Creek
+situngu,register,Q133891195,Situngu,-18.064449,24.11396,exact,yes,source page -> wikibase_item en:Situngu (island in Botswana; item has no P31)
+somaliland,register,Q34754,Somaliland,9.8,46.2,exact,yes,source page -> wikibase_item en:Somaliland
+sool-sanaag-cayn,register,Q2621587,North East State of Somalia,9.133333,48.416667,exact,yes,source page -> wikibase_item en:North East State of Somalia
+south-georgia-south-sandwich,register,Q35086,South Georgia and the South Sandwich Islands,-54.25,-36.75,exact,yes,source page -> wikibase_item en:South Georgia and the South Sandwich Islands
+south-korea-claimed-by-dprk,register,Q884,South Korea,36,128,exact,yes,source page -> wikibase_item en:South Korea
+south-ossetia,register,Q23427,South Ossetia,42.225,43.97,exact,yes,source page -> wikibase_item en:South Ossetia
+southern-patagonian-ice-field,register,Q1031467,Southern Patagonian Ice Field,-49.493953,-73.270633,close,yes,source page -> wikibase_item en:Southern Patagonian Ice Field (containing); dispute item Q5977199 has P625 too
+spratly-islands,register,Q215664,Spratly Islands,10,114,exact,yes,existing wikidata_id
+strovilia,register,Q7624924,Strovilia,35.095,33.9,exact,yes,source page -> wikibase_item en:Strovilia
+suleyman-shah-tomb,register,Q7818644,Tomb of Suleyman Shah,36.879167,38.105556,exact,yes,"source page -> wikibase_item en:Tomb of Suleyman Shah; check P625 is the 2015 Ashme site, not an earlier one"
+susta,register,Q96407051,Susta territory,27.357265,83.87609,exact,yes,source page -> wikibase_item en:Susta territory
+sutorina,register,Q2715074,Sutorina,42.473611,18.472222,close,"no: the item is a border or a containing feature and its point lies in Croatia, outside the parties' countries (checked 2026-10-04)",source page -> wikibase_item en:Sutorina (village); the strip itself has no item; Sutorina Valley Q27558552
+svalbard,register,Q25231,Svalbard,78.15706,15.86426,exact,yes,source page -> wikibase_item en:Svalbard
+sveta-gera,register,Q3047978,Sveta Gera,45.759783,15.318158,exact,yes,source page -> wikibase_item en:Sveta Gera (peak with the barracks)
+swains-island,register,Q1128488,Swains Island,-11.055556,-171.077778,exact,yes,source page -> wikibase_item en:Swains Island
+ta-muen-thom-emerald-triangle,register,Q3401369,Prasat Ta Muen Thom,14.349246,103.266582,close,yes,"wbsearch ""Prasat Ta Muen Thom""; one of the listed areas; Emerald Triangle Q13022615, Chong Bok Q27213761"
+taiwan,register,Q22502,Taiwan Island,23.766667,121,close,yes,"wbsearch ""Taiwan Island""; Penghu is Q918799; source en:Taiwan gives the state Q865 (includes Kinmen/Matsu)"
+thai-lao-land-border-villages,register,Q730240,Laos–Thailand border,20.352778,100.902796,close,yes,Laos-Thailand border; source en:Thai-Laotian Border War (Q1359828) has no P625; no item for Ban Romklao [item has 2 P625 values; preferred/first used]
+three-pagodas-pass,register,Q1256860,Three Pagodas Pass,15.301667,98.401944,exact,yes,source page -> wikibase_item en:Three Pagodas Pass
+tigri,register,Q5671580,Tigri Area,2.5,-57.25,exact,yes,source page -> wikibase_item en:Tigri Area
+tin-bigha,register,Q4233073,Tin Bigha Corridor,26.3008,88.9836,exact,yes,source page -> wikibase_item en:Tin Bigha Corridor (item has no P31)
+tiran-sanafir,register,Q598889,Tiran Island,27.951944,34.566111,close,yes,source page -> wikibase_item en:Tiran Island; Sanafir Q2000838
+tiwinza,register,Q124045778,Tiwinza area,-3.463306,-78.25975,exact,yes,"source page -> wikibase_item es:Tiwinza (Peru) -> ""Tiwinza area"""
+tort-kocho-road,register,Q135903232,Tort-Kocho,39.956389,70.514444,exact,yes,"wbsearch ""Tort-Kocho"" (neutral zone; item has no P31)"
+transnistria,register,Q907112,Transnistria,47.3,29.25,exact,yes,source page -> wikibase_item en:Transnistria
+transnistria-security-zone,register,Q907112,Transnistria,47.3,29.25,close,yes,source page -> wikibase_item en:Transnistria; no item for the Security Zone
+tromelin,register,Q234208,Tromelin Island,-15.892222,54.524722,exact,yes,source page -> wikibase_item en:Tromelin Island
+tunbs,register,Q1475754,Greater and Lesser Tunbs,26.26594,55.299259,exact,yes,source page -> wikibase_item en:Greater and Lesser Tunbs [item has 2 P625 values; preferred/first used]
+undof-zone,register,Q1428532,United Nations Disengagement Observer Force,33.117,35.867,close,yes,source page -> wikibase_item en:UNDOF (the mission); no item for the Area of Separation
+varosha,register,Q75666,Varosha,35.110833,33.953611,exact,yes,"source page -> wikibase_item en:Varosha, Famagusta"
+wadi-halfa-salient,register,Q943214,Wadi Halfa Salient,22.091944,31.405556,exact,yes,source page -> wikibase_item en:Wadi Halfa Salient
+wake-island,register,Q43296,Wake Island,19.3,166.633333,exact,yes,source page -> wikibase_item en:Wake Island
+west-bank,register,Q36678,West Bank,32,35.35,exact,yes,source page -> wikibase_item en:West Bank
+western-sahara-moroccan-controlled,register,Q6250,Western Sahara,25,-13,close,yes,source page -> wikibase_item en:Western Sahara (whole territory)
+yalu-tumen-islands,register,Q706605,Wihwa Island,40.137,124.446,close,yes,"wbsearch ""Wihwa Island""; one of many; Hwanggumpyong Q706910"
+yenga,register,Q8052220,Yenga,8.49917,-10.3314,exact,yes,source page -> wikibase_item en:Yenga [item has 2 P625 values; preferred/first used]
+zaporizhzhia-occupied,register,Q111710700,Russian occupation of Zaporizhzhia Oblast,46.848889,35.3675,close,yes,source page -> wikibase_item en:Russian occupation of Zaporizhzhia Oblast

@@ -11,6 +11,7 @@ Run from the repository root: python3 experiments/release-draft/export_viewer_da
 """
 import csv
 import json
+import math
 import re
 from collections import defaultdict
 from pathlib import Path
@@ -81,10 +82,61 @@ KIND = {
     "no_agreed_boundary": "a stretch where no boundary is agreed",
 }
 
+REGIME_NOTE = {
+    "visa_exemption": "a visa exemption", "visa_requirement": "a visa requirement of its own",
+    "permit_whole_territory": "a permit to enter", "own_visa_system": "its own visa or entry permission",
+    "customs_or_tax_only": "customs or tax rules only", "transit_only": "a transit-only rule", "stay_limit": "a stay limit",
+}
+UNIT_NOTE = {
+    "admin_unit": "an administrative unit", "zone_or_band": "a zone or border band", "site_list": "a list of places",
+    "class_of_parcels": "a class of land parcels", "island": "an island", "de_facto_territory": "a de facto territory",
+}
+
+
+def note(text: str) -> str:
+    """A Stage 1 marker in plain words."""
+    m = re.match(r"entry rule that does not make a region: (\w+), (\w+)", text)
+    if not m:
+        return text
+    regime, unit = m.groups()
+    if regime in ("customs_or_tax_only", "transit_only"):
+        why = "it does not change who may enter or stay (R056)"
+    elif unit in ("zone_or_band", "site_list", "class_of_parcels"):
+        why = "it covers a zone, a list of places or a class of land, not a whole unit (R056, item 6)"
+    elif unit == "de_facto_territory":
+        why = "the territory is treated by the register of disputed areas"
+    else:
+        why = "it fails a test of R056 or R055 (scope, a witness for independent visitors, or two yearly releases in force)"
+    return f"Entry rule ({REGIME_NOTE.get(regime, regime)}, for {UNIT_NOTE.get(unit, unit)}); not a region because {why}."
+
 
 def read(path: Path) -> list[dict]:
     with path.open(encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle))
+
+
+def inside_ring(x: float, y: float, ring: list) -> bool:
+    hit = False
+    for (x1, y1), (x2, y2) in zip(ring, ring[1:]):
+        if (y1 > y) != (y2 > y) and x < x1 + (y - y1) * (x2 - x1) / (y2 - y1):
+            hit = not hit
+    return hit
+
+
+def polygons(geometry: dict) -> list:
+    return [geometry["coordinates"]] if geometry["type"] == "Polygon" else geometry["coordinates"]
+
+
+def locate(x: float, y: float, geometry: dict, bbox: tuple) -> bool:
+    if not (bbox[0] <= x <= bbox[2] and bbox[1] <= y <= bbox[3]):
+        return False
+    return any(inside_ring(x, y, poly[0]) and not any(inside_ring(x, y, h) for h in poly[1:]) for poly in polygons(geometry))
+
+
+def nearest(x: float, y: float, geometry: dict) -> float:
+    """Distance in degrees (longitude scaled by latitude) to the closest vertex: enough to name the nearest region."""
+    k = math.cos(math.radians(y))
+    return min(math.hypot((px - x) * k, py - y) for poly in polygons(geometry) for ring in poly for px, py in ring)
 
 
 def status(country: str, listed: str) -> str:
@@ -214,6 +266,43 @@ def main() -> None:
                 who = ", ".join(views) if len(views) <= 5 else f"{len(views)} of the {total}"
                 related.setdefault(other, f"counted to this country under the points of view of {who}")
         p["carved"] = [{"id": c, "name": props.get(c, {}).get("name", c), "how": how} for c, how in sorted(related.items())]
+    # special places and markers (R046), placed by their Wikidata point (inputs/place_points.csv)
+    points = {r["id"]: r for r in read(ROOT / "inputs" / "place_points.csv") if r["use"] == "yes"}
+    listed_dir = REPO / "experiments" / "stage1-list" / "outputs"
+    items = [{"id": r["id"].split("/", 1)[1], "name": r["name"], "what": "special place",
+              "why": f"{KIND.get(r['kind'], r['kind'])}; {r['why']}"} for r in read(listed_dir / "special_places.csv")]
+    items += [{"id": r["area_id"], "name": r["name"], "what": "note",
+               "why": note(r["marker"])} for r in read(listed_dir / "markers.csv")]
+    boxes = {}
+    for f in features:
+        xs = [c[0] for poly in polygons(f["geometry"]) for c in poly[0]]
+        ys = [c[1] for poly in polygons(f["geometry"]) for c in poly[0]]
+        boxes[f["properties"]["id"]] = (min(xs), min(ys), max(xs), max(ys))
+    places, unplaced = [], []
+    for it in items:
+        pt = points.get(it["id"])
+        country = census.get(it["id"], {}).get("iso_code", "")
+        if not pt and country in props:
+            # an entry rule for a list of places or a class of land: listed with its country, without a point
+            props[country].setdefault("inside", []).append({**it, "region": country, "where": "in this country, no single point"})
+            continue
+        if not pt:
+            unplaced.append(it)
+            continue
+        x, y = float(pt["lon"]), float(pt["lat"])
+        hits = [f["properties"]["id"] for f in features if locate(x, y, f["geometry"], boxes[f["properties"]["id"]])]
+        if hits:
+            region, where = hits[0], "inside"
+        else:
+            region = min(features, key=lambda f: nearest(x, y, f["geometry"]))["properties"]["id"]
+            where = "nearest region (the point is off land)"
+        entry = {**it, "region": region, "where": where, "wikidata_id": pt["wikidata_id"], "wd_label": pt["wd_label"],
+                 "link": pt["link"]}
+        places.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [x, y]}, "properties": entry})
+        props[region].setdefault("inside", []).append(entry)
+    for p in props.values():
+        p["inside_count"] = len(p.get("inside", []))
+
     # the own geometries as clipped to their donors (render_map.py), else as published
     clipped_path = ROOT / "cache" / "map" / "own_pieces.json"
     clipped = json.loads(clipped_path.read_text(encoding="utf-8")) if clipped_path.exists() else {}
@@ -226,8 +315,11 @@ def main() -> None:
                 k: s[k] for k in ("place", "region", "rank", "whose_line", "publisher", "licence", "source_url", "notes")}})
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "regions.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": features}, ensure_ascii=False))
+    (OUT / "places.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": places, "unplaced": unplaced},
+                                                   ensure_ascii=False))
     (OUT / "own_geometries.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": own}, ensure_ascii=False))
-    print(f"{len(features)} regions, {len(own)} own geometry features -> {OUT}")
+    print(f"{len(features)} regions, {len(own)} own geometry features, {len(places)} placed special places and notes "
+          f"({len(unplaced)} without a location) -> {OUT}")
 
 
 if __name__ == "__main__":

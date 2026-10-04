@@ -21,9 +21,10 @@ npm run dev                                               # http://localhost:519
 
 ## What it shows
 
-- **Regions**, coloured by country under the chosen point of view (selector at the top right). Hover: name, id, country, the countries other points of view give it, the rule it rests on, evidence level, open points, the GADM units and own geometries it is made of. Click pins a region and zooms to it; the search box finds a region by name or id.
+- **Regions**, coloured by country under the chosen point of view (selector at the top right). Hover or click: why the region exists in plain words with links to the rules, its country in the canon and under the settling rule, the facts it rests on with sources and quoted passages, the separate regions taken out of it or counted to it, the countries the points of view give it, and the substrate units it is made of. Click pins a region and zooms to it; the search box finds a region by name or id.
 - **Own geometries** (dashed outline): the canon's geometries from `data/custom-geometries`, with rank and whose line they draw.
 - **Regions whose country differs** from the canon's under the chosen point of view (purple outline).
+- **Special places** (orange) and **notes** (blue) of the Stage 1 list, at their Wikidata points (`experiments/release-draft/inputs/place_points.csv`), with what they are and why on hover; a region's details list the ones that lie in it, and entry rules for lists of places or classes of land are listed with their country without a point. A switch dims every region without any.
 - An optional OpenStreetMap background.
 
 Outlines are simplified for display (0.01° by default; `render_map.py --tolerance`).

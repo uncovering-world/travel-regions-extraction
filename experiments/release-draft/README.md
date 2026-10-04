@@ -11,7 +11,7 @@ python3 experiments/release-draft/build.py
 - Regions: the [Stage 1 list](../stage1-list/README.md) (314 regions).
 - Substrate units: the [GADM binding](../gadm-binding/README.md) (GADM 4.1 unit identifiers; no GADM geometry is copied).
 - The canon's own geometries: [data/custom-geometries](../../data/custom-geometries/README.md), 42 places, sources ranked by whose line they draw (D062), each with the regions it may take land from (`donors`).
-- Reviewed tables in `inputs/`: `attribution.csv` (the country of each non-ISO region under the canon's attribution, with its basis) and `gadm_leftovers.csv` (GADM pseudo-countries no region claims).
+- Reviewed tables in `inputs/`: `attribution.csv` (the country of each non-ISO region under the canon's attribution, with its basis) and `gadm_leftovers.csv` (GADM pseudo-countries no region claims). `place_points.csv` gives a point for each register area and census record that has one: the Wikidata item it was linked to (by the item's label, description and P31; `link` = `exact` when the item is the place itself, `close` when it is a part, a containing feature, a border or the dispute), its P625 coordinates read on 2026-10-04, and `use` = `no` for four border items whose point lies outside the parties' countries. The points only say which region a special place or note lies in, for the viewer; they are not register facts and do not decide a parent region in the release.
 
 ## What comes out (`release/`)
 

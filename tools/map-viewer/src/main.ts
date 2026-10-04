@@ -22,6 +22,9 @@ interface Inside {
   name: string;
   what: string;
   why: string;
+  where: string;
+  wikidata_id?: string;
+  link?: string;
 }
 
 /** Properties of a region feature, as written by experiments/release-draft/export_viewer_data.py. */
@@ -41,6 +44,7 @@ interface RegionProps {
   facts: Fact[];
   carved: { id: string; name: string; how: string }[];
   inside?: Inside[];
+  inside_count: number;
   units: string[];
   wikidata_id: string;
   color?: string;
@@ -101,6 +105,7 @@ function bounds(geometry: GeoJSON.Geometry): maplibregl.LngLatBounds {
 async function main(): Promise<void> {
   const regions = await load<FC<RegionProps>>("/data/regions.geojson");
   const own = await load<FC<OwnProps>>("/data/own_geometries.geojson");
+  const places = await load<FC<Inside & { region: string }>>("/data/places.geojson");
   if (!regions) {
     $("summary").innerHTML =
       "No data. Run <code>experiments/release-draft/export_viewer_data.py</code> first (see README).";
@@ -198,8 +203,10 @@ async function main(): Promise<void> {
           ${f.quote ? `<details><summary>quote${f.sources[0]?.url ? ` from ${esc(host(f.sources[0].url))}` : ""}</summary><blockquote>${esc(f.quote)}</blockquote></details>` : ""}
         </li>`).join("")}</ul>` : ""}
 
-      ${inside.length ? `<h3>Special places and notes inside</h3><ul class="facts">${inside.map((s) => `
-        <li><b>${esc(s.name)}</b> <span class="tag">${esc(s.what)}</span><br><span class="muted">${esc(s.why)}</span></li>`).join("")}</ul>` : ""}
+      ${inside.length ? `<h3>Special places and notes in it</h3><ul class="facts">${inside.map((s) => `
+        <li><b>${esc(s.name)}</b> <span class="tag ${s.what === "note" ? "note" : "special"}">${esc(s.what)}</span>${
+          s.wikidata_id ? ` ${link(`https://www.wikidata.org/wiki/${s.wikidata_id}`, s.wikidata_id)}` : ""}<br><span class="muted">${esc(s.why)}${
+          s.where !== "inside" ? ` (${esc(s.where)}${s.link === "close" ? "; approximate point" : ""})` : s.link === "close" ? " (approximate point)" : ""}</span></li>`).join("")}</ul>` : ""}
 
       ${p.carved.length ? `<h3>Separate regions linked to it</h3><ul class="facts">${p.carved.map((c) => `
         <li><a href="#" data-region="${esc(c.id)}">${esc(c.name)}</a> <span class="muted">— ${esc(c.how)}</span></li>`).join("")}</ul>` : ""}
@@ -264,6 +271,20 @@ async function main(): Promise<void> {
         paint: { "line-color": "#111", "line-width": 1.2, "line-dasharray": [2, 1.5] },
       });
     }
+    if (places) {
+      map.addSource("places", { type: "geojson", data: places });
+      map.addLayer({
+        id: "places",
+        type: "circle",
+        source: "places",
+        paint: {
+          "circle-radius": ["interpolate", ["linear"], ["zoom"], 1, 3, 6, 6],
+          "circle-color": ["case", ["==", ["get", "what"], "note"], "#1d4ed8", "#c2410c"],
+          "circle-stroke-color": "#fff",
+          "circle-stroke-width": 1,
+        },
+      });
+    }
     map.addLayer({
       id: "hover",
       type: "line",
@@ -276,7 +297,8 @@ async function main(): Promise<void> {
     $("summary").textContent = "Drawing regions…";
     map.once("idle", () => {
       $("summary").textContent =
-        `${regions.features.length} regions` + (own ? `, ${own.features.length} own geometries` : "") + ". Click a region to pin and zoom.";
+        `${regions.features.length} regions` + (own ? `, ${own.features.length} own geometries` : "") +
+      (places ? `, ${places.features.length} special places and notes on the map` : "") + ". Click a region to pin and zoom.";
     });
   });
 
@@ -305,6 +327,26 @@ async function main(): Promise<void> {
     }
   });
 
+  const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, maxWidth: "320px" });
+  map.on("mousemove", "places", (e) => {
+    const p = e.features?.[0]?.properties as (Inside & { region: string }) | undefined;
+    if (!p) return;
+    map.getCanvas().style.cursor = "pointer";
+    popup.setLngLat(e.lngLat).setHTML(
+      `<b>${esc(p.name)}</b> <span class="tag ${p.what === "note" ? "note" : "special"}">${esc(p.what)}</span><br>` +
+      `<span class="muted">${esc(p.why)}</span><br><span class="muted">in ${esc(byId.get(p.region)?.properties.name ?? p.region)}</span>`,
+    ).addTo(map);
+  });
+  map.on("mouseleave", "places", () => popup.remove());
+  $<HTMLInputElement>("places").addEventListener("change", (e) => {
+    if (map.getLayer("places")) map.setLayoutProperty("places", "visibility", (e.target as HTMLInputElement).checked ? "visible" : "none");
+  });
+  $<HTMLInputElement>("withPlaces").addEventListener("change", (e) => {
+    const on = (e.target as HTMLInputElement).checked;
+    $<HTMLInputElement>("nonIso").checked = false;
+    for (const f of regions.features) map.setFeatureState({ source: "regions", id: f.properties.id }, { dim: on && !f.properties.inside_count });
+  });
+
   povSelect.addEventListener("change", () => {
     recolour(povSelect.value);
     if (pinned) show(pinned);
@@ -317,6 +359,7 @@ async function main(): Promise<void> {
   });
   $<HTMLInputElement>("nonIso").addEventListener("change", (e) => {
     const on = (e.target as HTMLInputElement).checked;
+    $<HTMLInputElement>("withPlaces").checked = false;
     for (const f of regions.features) map.setFeatureState({ source: "regions", id: f.properties.id }, { dim: on && isIso(f.properties.id) });
   });
   $<HTMLInputElement>("own").addEventListener("change", (e) => {
