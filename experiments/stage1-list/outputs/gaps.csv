@@ -1,4 +1,14 @@
 area_id,name,kind,missing,undecided
+al-fashaga,Al-Fashaga district,paper_claim,whether civilians live there,region or special place
+belize-guatemala-claim,Belize south of the Sibun River (and Belize as a whole),paper_claim,whether civilians live there,region or special place
+durand-line,Durand Line,paper_claim,whether civilians live there,region or special place
+estonia-russia-border,Ivangorod (Jaanilinn) and Pechory district (Petserimaa),paper_claim,whether civilians live there,region or special place
 kafia-kingi,Kafia Kingi enclave,occupied_or_annexed,who holds the area and since when,the country it is listed under
+libya-algeria-claim,South-eastern Algeria claimed on Libyan maps,paper_claim,whether civilians live there,region or special place
+libya-niger-tummo,Tummo region,paper_claim,whether civilians live there,region or special place
+noktundo,Noktundo,paper_claim,whether civilians live there,region or special place
+roc-legacy-claims,"Legacy claims of the Republic of China (mainland China, Mongolia, Tuva, Pamirs, northern Myanmar, parts of Bhutan, India, Russia and others)",paper_claim,whether civilians live there,region or special place
+sakteng,Sakteng Wildlife Sanctuary,paper_claim,whether civilians live there,region or special place
+saudi-uae-border,"Saudi Arabia-UAE border (Khor al-Udaid corridor, Shaybah/Zararah area)",paper_claim,whether civilians live there,region or special place
 tiwinza,Tiwinza,lease_or_base,who holds the area,region or special place
-varosha,Varosha (Maraş),occupied_or_annexed,who holds the area and since when,the country it is listed under
+tunbs,Greater and Lesser Tunb,paper_claim,whether civilians live there,region or special place

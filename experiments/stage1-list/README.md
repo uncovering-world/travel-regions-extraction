@@ -145,6 +145,14 @@ The owner extended the residents test to line disputes (D063): where a supported
 
 Result: 317 regions, 304 with nothing open; 89 special places; 3 missing facts (none changes whether a place is a region).
 
+## Points of view from claims, under D064-D069, 2026-10-04
+
+Natural Earth's points of view are now a lead (D065): whether an area's points of view differ is read from `inputs/claims.csv`, which reads the register's own facts (parties, holder, on the ground) into the codes of the holder and of the parties that claim the area — ISO 3166-1 countries, Kosovo, and the de facto states that are regions (D069); a claim counts until renounced by an act in force (D068) and may rest on a secondary source (D067). The reading was drafted by an agent from the register only, every `basis_text` checked to occur verbatim in the cited fact, and reviewed: leases do not set the sovereign lessor against the lessee (Baikonur, Russian ranges, Guantanamo, Tiwinza, Palanca road), and the Sahrawi Republic is not coded as EH. 140 rows note something unclear, mostly a holder the facts do not name.
+
+Code changes: a claim of a party other than the holder replaces the Natural Earth cell in every branch; a claim to a whole ISO 3166-1 entry changes only whose it is under the claimant's view, while a part of an entry separates when one party other than the entry's holder holds it (`entry_holder` in `inputs/links.csv`; Antarctica stays one cell); an area that is part of another register area with the same holder and claims goes with that area (`part_of`: Bender, Varosha, Strovilia, Kokkina); a claim on a lease takes the residents test (D058). `outputs/natural_earth_lead.csv` lists where Natural Earth and the claims disagree.
+
+Result: 345 regions (28 more than before: Essequibo, Halayib, Abu Musa, Sabah, Junagadh, KaNgwane and Ingwavuma, Moldovan-held left-bank villages, Eastern Ossetia claim, Sool-Sanaag-Cayn, Heglig, occupied areas such as Artsvashen, Karki, the Gazakh exclaves, Ghajar, Israeli posts in southern Lebanon, Kafia Kingi, and ten inhabited line disputes); 98 special places; 115 markers; 13 missing facts. Natural Earth separates five areas no recorded claim supports (Bir Tawil and the Cyprus buffer zone, which are regions for other reasons; Guantanamo, Hans Island, Nagorno-Karabakh, Tiran and Sanafir); Western Sahara west of the berm separates as a part of an ISO entry held by Morocco. The new regions still need outlines the parties state (R047) and bindings to the substrate; until they have them they are not in the release.
+
 ## Status
 
-Concluded 2026-10-04 (six runs, three corrections, D057, D058, D063).
+Running again under D064-D069 (2026-10-04): points of view from claims; outlines of the new regions pending.

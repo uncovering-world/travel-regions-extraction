@@ -41,6 +41,13 @@ def main() -> None:
     not_witness = {r["id"] for r in read(ROOT / "inputs" / "not_a_witness.csv")}
     lease_roles = {r["area_id"]: r for r in read(ROOT / "inputs" / "lease_holders.csv")}
     no_outline = {r["area_id"] for r in read(ROOT / "inputs" / "no_outline.csv")}   # R047: no stated line, no cell
+    # D064-D069: a point of view is a party's sourced claims; inputs/claims.csv reads the register's facts into codes
+    claims = {r["area_id"]: r for r in read(ROOT / "inputs" / "claims.csv")}
+
+    def claimed(area_id: str) -> bool:
+        """Whether a party other than the holder claims the area (D065): some point of view puts it in another country."""
+        c = claims.get(area_id, {})
+        return bool(set(c.get("claimants", "").split()) - set(c.get("renounced", "").split()))
     held: dict[str, dict] = {}
     for r in read(REPO / "data" / "disputed-areas" / "facts.csv"):
         if r["field"] in ("holder", "holder_since", "stated_outline"):
@@ -62,7 +69,7 @@ def main() -> None:
         assert not link["small_feature"] or link["small_feature"] in small, link["small_feature"]
         assert not link["census_id"] or link["census_id"] in census, link["census_id"]
 
-    regions, places, markers, gaps = [], [], [], []
+    regions, places, markers, gaps, lead = [], [], [], [], []
     for c in cells:
         if c["kind"] == "iso":
             regions.append({"id": c["cell"], "name": c["name"], "basis": "ISO 3166-1 entry", "country": c["cell"],
@@ -119,6 +126,12 @@ def main() -> None:
         cell, rule = link.get("registry_cell", "") or link.get("small_feature", ""), link.get("census_id", "")
         used_cells.add(cell)
         used_census.add(rule)
+        differ = claimed(a["area_id"])                        # D065: claims decide; Natural Earth is only a lead
+        if bool(cell or link.get("pov_feature")) != differ:
+            lead.append({"area_id": a["area_id"], "name": a["name"], "kind": a["kind"],
+                         "natural_earth": cell or link.get("pov_feature", ""), "claimants": claims.get(a["area_id"], {}).get("claimants", ""),
+                         "finding": "Natural Earth separates it but no claim is recorded" if not differ
+                                    else "a claim is recorded but Natural Earth does not separate it"})
 
         def gap(fact: str, consequence: str) -> None:
             gaps.append({"area_id": a["area_id"], "name": a["name"], "kind": kind, "missing": fact, "undecided": consequence})
@@ -130,7 +143,12 @@ def main() -> None:
         def place(why: str) -> None:
             places.append({"id": "place/" + a["area_id"], "name": a["name"], "kind": kind, "why": why})
 
-        if not kind:
+        whole = link.get("part_of", "")
+        if whole and {k: claims.get(a["area_id"], {}).get(k) for k in ("holder", "claimants")} == \
+                {k: claims.get(whole, {}).get(k) for k in ("holder", "claimants")}:
+            # under every point of view it belongs where the area it is part of belongs (R045): no boundary of its own
+            markers.append({"area_id": a["area_id"], "name": a["name"], "marker": f"part of the area {whole}, with the same holder and claims; it goes with that area's region"})
+        elif not kind:
             gap("kind", "everything")
         elif a["area_id"] in no_outline:
             place("no stated outline found (R047, D061)")
@@ -138,10 +156,15 @@ def main() -> None:
             # the area is, or lies inside, an ISO entry: that entry is the region (Antarctica is one cell, D040);
             # a registry cell inside it still separates
             markers.append({"area_id": a["area_id"], "name": a["name"], "marker": f"covered by the ISO entry {link['iso']}; {kind}"})
-            if cell:
+            # a claim to a whole ISO entry changes only whose it is under the claimant's view, not any boundary; a part
+            # of an entry separates when one party with a view other than the entry holds it (the canon's own
+            # attribution, R045); Antarctica stays one cell (D040)
+            holder = claims.get(a["area_id"], {}).get("holder", "")
+            part = not link["basis"].startswith("own ISO entry") and link["iso"] != "AQ"
+            if part and holder not in ("", "none", "unclear") and not holder.startswith("split") and holder != link.get("entry_holder", ""):
                 h = held.get(a["area_id"], {})
                 region("registry: points of view differ", f"held by {h.get('holder', '?')} since {h.get('holder_since', '?')}", "" if h else "who holds it")
-        elif kind == "line_position" and (cell or link.get("pov_feature")) and lives == "yes":
+        elif kind == "line_position" and differ and lives == "yes":
             # D063: a line dispute takes the residents test when a supported point of view differs
             h = held.get(a["area_id"], {})
             region("residents; points of view differ (line dispute)", h.get("holder", "holder"))
@@ -152,8 +175,8 @@ def main() -> None:
         elif kind == "resolved_recently":
             markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "dispute resolved; outcome taken over"})
         elif kind in BY_RESIDENTS or kind == "paper_claim":
-            if kind == "paper_claim" and not cell:
-                markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"})
+            if kind == "paper_claim" and not differ:
+                markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "claimed on paper, but no claim of a party with a point of view is recorded (D065)"})
             elif lives == "yes":
                 region("residents; " + ("points of view differ" if kind == "paper_claim" else "no single holder" if kind == "own_regime" else "islet group"),
                        "none" if kind == "own_regime" else "holder", "" if kind == "own_regime" else "who holds it")
@@ -168,7 +191,7 @@ def main() -> None:
             role = lease_roles.get(a["area_id"], {}).get("holder_role", "")
             if role == "lessee" and a["inhabited"] == "yes":
                 region("leased area held by the lessee", "the lessor; held by " + held.get(a["area_id"], {}).get("holder", "?")[:60])
-            elif link.get("registry_cell"):
+            elif differ and a["inhabited"] == "yes":           # a claim on a lease takes the residents test (D058)
                 region("registry: points of view differ", "per the registry")
             elif role:
                 place(f"leased; held by the {role}")
@@ -199,10 +222,10 @@ def main() -> None:
                 and rule_facts.get(rule, {}).get("in_force", census[rule]["in_force_2026"]) == "yes"
             if moving:
                 markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "the line is moving: a flag on the regions it touches; " + whose})
-            elif cell or witness:
-                region("registry: points of view differ" if cell else "entry rule of the holder", whose, pending)
+            elif differ or witness:
+                region("registry: points of view differ" if differ else "entry rule of the holder", whose, pending)
             else:
-                markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; " + whose})
+                markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "no witness, no boundary: no claim of another party and no entry rule recorded, so it stays inside its region; " + whose})
 
     for cid, c in registry.items():
         if cid not in used_cells:
@@ -224,9 +247,11 @@ def main() -> None:
 
     out = ROOT / "outputs"
     out.mkdir(exist_ok=True)
-    for name, rows in (("regions", regions), ("special_places", places), ("markers", markers), ("gaps", gaps)):
+    for name, rows in (("regions", regions), ("special_places", places), ("markers", markers), ("gaps", gaps),
+                       ("natural_earth_lead", lead)):
         with (out / f"{name}.csv").open("w", encoding="utf-8", newline="") as handle:
-            writer = csv.DictWriter(handle, fieldnames=list(rows[0]), lineterminator="\n")
+            fields = list(rows[0]) if rows else ["area_id", "name", "kind", "natural_earth", "claimants", "finding"]
+            writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
             writer.writeheader()
             writer.writerows(rows)
     firm = [r for r in regions if not r["open"]]

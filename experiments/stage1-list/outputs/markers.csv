@@ -1,87 +1,49 @@
 area_id,name,marker
-abu-musa,Abu Musa,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-al-fashaga,Al-Fashaga district,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-ankoko-island,Ankoko Island,"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; Venezuela (the island is under Venezuelan administration, with a Venezuelan airport and military base) (accepted 1969)"
 antarctic-peninsula-overlap,Overlapping Antarctic claims 25°W-80°W,covered by the ISO entry AQ; own_regime
 antarctica,Antarctica (Antarctic Treaty area south of 60°S),covered by the ISO entry AQ; own_regime
-artsvashen,Artsvashen (Bashkend),"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; Azerbaijan (accepted 2001)"
-azerbaijani-held-armenian-border-areas,Border heights inside Armenia held by Azerbaijan since 2021-2022,"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; unsettled: held by Azerbaijan since 2021"
 badme,Badme,dispute resolved; outcome taken over
 baqoura-ghamr,Baqoura (Naharayim) and Al-Ghamr (Tzofar),dispute resolved; outcome taken over
-belize-guatemala-claim,Belize south of the Sibun River (and Belize as a whole),"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-bender,Bender (Tighina),"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; Transnistria's authorities (accepted 1995)"
-bhutanese-enclaves-tibet,"Former Bhutanese enclaves in western Tibet (Darchen, Khochar and others)","no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; China (stated for Darchen; the other former enclaves are not covered by the passage) (accepted 1962)"
+bender,Bender (Tighina),"part of the area transnistria, with the same holder and claims; it goes with that area's region"
+bhutanese-enclaves-tibet,"Former Bhutanese enclaves in western Tibet (Darchen, Khochar and others)","no witness, no boundary: no claim of another party and no entry rule recorded, so it stays inside its region; China (stated for Darchen; the other former enclaves are not covered by the passage) (accepted 1962)"
 burkina-niger-border,Burkina Faso-Niger border sectors,dispute resolved; outcome taken over
-chagos,Chagos Archipelago (British Indian Ocean Territory),"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; United Kingdom (the British Indian Ocean Territory authorities set and enforce the entry rules) (accepted 1817)"
-conejo-island,Conejo Island,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
+chagos,Chagos Archipelago (British Indian Ocean Territory),covered by the ISO entry IO; occupied_or_annexed
+diego-garcia,Diego Garcia base,covered by the ISO entry IO; lease_or_base
 donetsk-occupied,Russian-occupied Donetsk Oblast,"the line is moving: a flag on the regions it touches; unsettled: held by Russia and its Donetsk People's Republic administration, in part of the oblast (around 55% by June 2022) since 2014; active conflict"
 dragonja,Dragonja left-bank hamlets and other Slovenia-Croatia segments,dispute resolved; outcome taken over
-durand-line,Durand Line,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-eastern-ossetia-claim,"Truso Gorge, Ghuda Gorge and Kobi Plateau","claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-essequibo,Guayana Esequiba (Guyana west of the Essequibo River),"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-estonia-russia-border,Ivangorod (Jaanilinn) and Pechory district (Petserimaa),"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
 falkland-islands,Falkland Islands (Malvinas),covered by the ISO entry FK; paper_claim
 gaza-strip,Gaza Strip,covered by the ISO entry PS; occupied_or_annexed
-gazakh-exclaves,"Barkhudarli, Sofulu and Yukhari Askipara","no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; Armenia (the Azerbaijani exclave villages Yukhari Askipara, Barxudarli and Sofulu are controlled by their host state) (accepted 2001)"
 gazakh-four-villages,"Four non-enclave Gazakh villages (Baghanis Ayrum, Ashagi Askipara, Kheyrimli, Gizilhajili)",dispute resolved; outcome taken over
-ghajar,Ghajar (northern part),"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; Israel (the whole village and adjacent land across the Blue Line) (accepted 2009); active conflict"
 gibraltar,Gibraltar,covered by the ISO entry GI; paper_claim
-glorioso-islands,Glorioso Islands,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-halaib-triangle,Hala'ib Triangle,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
 hans-island,Hans Island (Tartupaluk),dispute resolved; outcome taken over
 hatay,Hatay Province,dispute resolved; outcome taken over
-heglig,Heglig (Panthou) oil field area,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
 india-bangladesh-enclaves,India-Bangladesh enclaves and adverse possessions,dispute resolved; outcome taken over
 isla-portillos,Isla Portillos / Isla Calero northern tip,dispute resolved; outcome taken over
-islas-chafarinas,Chafarinas Islands,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
 israeli-held-southern-syria,Israeli-held positions in southern Syria beyond the 1974 zone (incl. Mount Hermon summit),the line is moving: a flag on the regions it touches; unsettled: held by Israel since 2024; active conflict
-israeli-posts-south-lebanon,Israeli-held points in south Lebanon,"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; unsettled: held by Israel (its forces prohibit expelled Lebanese civilians from returning) since 2025; active conflict"
-junagadh,Junagadh and Manavadar,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-kafia-kingi,Kafia Kingi enclave,"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; by the settling rule"
-kangwane-ingwavuma,KaNgwane and Ingwavuma,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-karki,Karki (Tigranashen),"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; Armenia (administered within Ararat Province) (accepted 2001)"
 kherson-occupied,Russian-occupied Kherson Oblast (left bank) and Kinburn Spit,the line is moving: a flag on the regions it touches; unsettled: held by Russia (the areas of Kherson region under Russian control) since 2022; active conflict
-kokkina,Kokkina (Erenköy) exclave,"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; Northern Cyprus (the exclave is a military camp of its Defence Force for the Turkish forces) (accepted 1967)"
+kokkina,Kokkina (Erenköy) exclave,"part of the area northern-cyprus, with the same holder and claims; it goes with that area's region"
 kosovo-montenegro-border,"Kosovo-Montenegro border (Čakor, Kula)",dispute resolved; outcome taken over
 kyrgyz-tajik-border,Kyrgyzstan-Tajikistan border (Batken-Isfara sectors),dispute resolved; outcome taken over
 kyrgyz-uzbek-border,"Kyrgyzstan-Uzbekistan border (Kempir-Abad, Ungar-Too, Barak)",dispute resolved; outcome taken over
-la-guera,La Güera and the western side of Ras Nouadhibou,"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; Mauritania (polices the western side of the Ras Nouadhibou peninsula; neither Morocco nor the Polisario Front occupies it) (accepted 1992)"
-libya-algeria-claim,South-eastern Algeria claimed on Libyan maps,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-libya-niger-tummo,Tummo region,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
 luhansk-occupied,Russian-occupied Luhansk Oblast,the line is moving: a flag on the regions it touches; unsettled: held by Russia (the oblast is almost entirely under Russian occupation) since 2014; active conflict
-machias-seal-island,Machias Seal Island and North Rock,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
 marie-byrd-land,Marie Byrd Land (90°W-150°W),covered by the ISO entry AQ; unclaimed
 mayotte,Mayotte,covered by the ISO entry YT; paper_claim
 mbanie,"Mbanié, Cocotiers and Conga islands",dispute resolved; outcome taken over
-moldovan-held-left-bank,"Moldovan-controlled Dubăsari villages, Varnița and Copanca","claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
 nagorno-karabakh,Nagorno-Karabakh (former Republic of Artsakh),dispute resolved; outcome taken over
-navassa,Navassa Island,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-noktundo,Noktundo,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-north-korea-claimed-by-rok,North Korea (claimed by the Republic of Korea),"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
+north-korea-claimed-by-rok,North Korea (claimed by the Republic of Korea),covered by the ISO entry KP; paper_claim
 oyster-pond,Oyster Pond (Saint Martin),dispute resolved; outcome taken over
 pedra-branca,"Pedra Branca, Middle Rocks and South Ledge",dispute resolved; outcome taken over
-penon-de-alhucemas,Peñón de Alhucemas and islets,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-penon-de-velez-de-la-gomera,Peñón de Vélez de la Gomera,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-pratas,Pratas (Dongsha) Island,"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; Republic of China (Taiwan), which administers the island as part of Cijin District, Kaohsiung (accepted 1953)"
-roc-legacy-claims,"Legacy claims of the Republic of China (mainland China, Mongolia, Tuva, Pamirs, northern Myanmar, parts of Bhutan, India, Russia and others)","claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-sabah,Eastern Sabah (North Borneo),"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
+pratas,Pratas (Dongsha) Island,covered by the ISO entry TW; de_facto_state
 sadr-free-zone,Western Sahara east of the berm (Free Zone),covered by the ISO entry EH; de_facto_state
-sakteng,Sakteng Wildlife Sanctuary,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
 saudi-kuwait-neutral-zone,"Saudi-Kuwaiti neutral zone, Qaruh and Umm al Maradim",dispute resolved; outcome taken over
-saudi-uae-border,"Saudi Arabia-UAE border (Khor al-Udaid corridor, Shaybah/Zararah area)","claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
 situngu,Situngu Island,dispute resolved; outcome taken over
-sool-sanaag-cayn,"Sool, Sanaag and Cayn (SSC-Khatumo / North Eastern State)","claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
 south-georgia-south-sandwich,South Georgia and the South Sandwich Islands,covered by the ISO entry GS; paper_claim
 south-korea-claimed-by-dprk,South Korea (formerly claimed by North Korea),dispute resolved; outcome taken over
+strovilia,Strovilia checkpoint area,"part of the area northern-cyprus, with the same holder and claims; it goes with that area's region"
 sutorina,Sutorina,dispute resolved; outcome taken over
 svalbard,Svalbard,covered by the ISO entry SJ; own_regime
-swains-island,Swains Island (Olohega),"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
 taiwan,Taiwan and Penghu,covered by the ISO entry TW; de_facto_state
 tiran-sanafir,Tiran and Sanafir,dispute resolved; outcome taken over
-tunbs,Greater and Lesser Tunb,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-varosha,Varosha (Maraş),"no witness, no boundary: no supported point of view and no entry rule recorded, so it stays inside its region; by the settling rule"
-wadi-halfa-salient,Wadi Halfa Salient,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
-wake-island,Wake Island,"claimed on paper; no feature of the pinned Natural Earth edition corresponds to it, so no supported point of view shows the claim"
+varosha,Varosha (Maraş),"part of the area northern-cyprus, with the same holder and claims; it goes with that area's region"
 west-bank,West Bank,covered by the ISO entry PS; occupied_or_annexed
 western-sahara-moroccan-controlled,Western Sahara west of the berm,covered by the ISO entry EH; occupied_or_annexed
 zaporizhzhia-occupied,Russian-occupied Zaporizhzhia Oblast,"the line is moving: a flag on the regions it touches; unsettled: held by Russia in the occupied part (Melitopol, Berdiansk, Enerhodar); Ukraine holds the city of Zaporizhzhia since 2022; active conflict"
