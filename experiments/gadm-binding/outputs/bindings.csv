@@ -281,10 +281,9 @@ area/shebaa-farms,Shebaa Farms and Kfarchouba hills,registry,,,,no GADM unit nam
 area/somaliland,Somaliland,registry,,,reviewed,"no GADM unit; the region is Natural Earth's feature, which does not follow GADM's regions"
 area/south-ossetia,South Ossetia,registry,,,reviewed,no GADM unit: custom geometry
 area/spratly-islands,Spratly Islands,residents,XSP,GID_0,GADM pseudo-country,GADM NAME_0 Spratly Islands
-area/transnistria,Transnistria (including Bender),entry rule of the holder,MDA.36_1,GID_1,exact name,"searched ['transnistria']; country not known, all searched"
+area/transnistria,Transnistria (including Bender),entry rule of the holder,MDA.36_1 MDA.4_1,GID_1,reviewed,"GADM's Transnistria plus Bender (MDA.4_1), which GADM keeps as a separate unit of Moldova; Bender's holder: Wikipedia, Bender, Moldova, oldid 1377486422 (read 2026-10-04): 'a city within the internationally recognized borders of Moldova under de facto control of the unrecognized Pridnestrovian Moldavian Republic (Transnistria) (PMR) since 1992'. The left-bank villages Moldova holds lie inside MDA.36_1 and are not cut out (no unit, no outline found)"
 area/transnistria-security-zone,Dniester Security Zone,residents,,,,no GADM unit named ['dniester security zone']
 area/undof-zone,UNDOF area of separation,residents,,,,no GADM unit named ['undof area separation']
-area/varosha,Varosha (Maraş),residents,,,,no GADM unit named ['varosha']
 area/western-sahara-moroccan-controlled,Western Sahara west of the berm,registry,,,reviewed,GADM's units of Western Sahara are not cut at the berm: custom geometry
 rule/au-macquarie-island,Macquarie Island (Macquarie Island Nature Reserve),entry rule,AUS.9.22_1,GID_2,reviewed,GADM's unit Macquarie Island (Tasmania)
 rule/az-nakhchivan,Nakhchivan Autonomous Republic,entry rule,AZE.7_1,GID_1,exact name,searched ['nakhchivan']

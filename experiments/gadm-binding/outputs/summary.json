@@ -5,12 +5,12 @@
     "sha256": "5a85ef31541c85e12eed7eabfebe59c88c05881367101696d86abef56bfb4ec2",
     "countries": 263
   },
-  "regions": 317,
+  "regions": 316,
   "matched_by": {
     "ISO alpha-3": 247,
-    "exact name": 26,
-    "reviewed": 23,
-    "unbound": 12,
+    "exact name": 25,
+    "reviewed": 24,
+    "unbound": 11,
     "GADM pseudo-country": 9
   },
   "by_basis": {
@@ -24,8 +24,7 @@
       "GADM pseudo-country": 1
     },
     "entry rule of the holder": {
-      "reviewed": 1,
-      "exact name": 1
+      "reviewed": 2
     },
     "leased area held by the lessee": {
       "reviewed": 2
@@ -37,7 +36,7 @@
       "unbound": 1
     },
     "residents": {
-      "unbound": 9,
+      "unbound": 8,
       "GADM pseudo-country": 5,
       "reviewed": 4,
       "exact name": 3
@@ -64,7 +63,6 @@
     "area/south-ossetia: no GADM unit: custom geometry",
     "area/transnistria-security-zone: no GADM unit named ['dniester security zone']",
     "area/undof-zone: no GADM unit named ['undof area separation']",
-    "area/varosha: no GADM unit named ['varosha']",
     "area/western-sahara-moroccan-controlled: GADM's units of Western Sahara are not cut at the berm: custom geometry",
     "rule/ye-socotra: GADM has no unit named for Socotra: custom geometry"
   ],

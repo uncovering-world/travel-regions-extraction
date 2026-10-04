@@ -85,7 +85,7 @@ python3 experiments/gadm-binding/check_points.py
 
 ## Revision, 2026-10-04: Transnistria and Bender
 
-The owner asked on which side Bender falls. A point check (`gadm_points.py`, Wikidata coordinates of Bender, Dubăsari and Cocieri) shows that GADM keeps Bender as its own unit of Moldova (`MDA.4_1`), outside GADM's `Transnistria` (`MDA.36_1`), while Cocieri, a left-bank village Moldova holds, lies inside `MDA.36_1`. The binding of Transnistria now adds `MDA.4_1`; the register still needs a passage naming Bender's holder. The left-bank villages Moldova holds stay inside the Transnistria binding, a known error until an outline for them is found.
+The owner asked on which side Bender falls. A point check (`gadm_points.py`, Wikidata coordinates of Bender, Dubăsari and Cocieri) shows that GADM keeps Bender as its own unit of Moldova (`MDA.4_1`), outside GADM's `Transnistria` (`MDA.36_1`), while Cocieri, a left-bank village Moldova holds, lies inside `MDA.36_1`. The binding of Transnistria now adds `MDA.4_1`, with the passage on Bender's holder in `inputs/reviewed.csv`. The left-bank villages Moldova holds stay inside the Transnistria binding, a known error until an outline for them is found.
 
 ## Status
 
