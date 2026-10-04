@@ -20,6 +20,7 @@ bajo-nuevo,Bajo Nuevo Bank,sourced,islets_for_maritime_zone,Colombia (administer
 banc-du-geyser,Banc du Geyser,sourced,islets_for_maritime_zone,France (controls; claims it within the EEZ of the Glorioso Islands); Comoros (claims); Madagascar (claims),,no,,secondary,2026-10-03,,
 baqoura-ghamr,Baqoura (Naharayim) and Al-Ghamr (Tzofar),sourced,resolved_recently,Jordan (sovereign); Israel (recognises Jordanian sovereignty),,,,secondary,2026-10-03,,
 belize-guatemala-claim,Belize south of the Sibun River (and Belize as a whole),sourced,paper_claim,"Belize (administers); Guatemala (claims the territory between the Sibun and Sarstoon rivers, and formally all of Belize)",12272,,,secondary,2026-10-03,,
+bender,Bender (Tighina),sourced,de_facto_state,Transnistria (de facto control since 1992); Moldova (within its internationally recognised borders),,,,secondary,2026-10-04,Q192176,
 bhutan-china-north,"Jakarlung, Pasamlung and Beyul Khenpajong",sourced,no_agreed_boundary,"Bhutan; China (disputed areas, named in China's 1996 exchange offer)",,,,secondary,2026-10-03,,
 bhutan-china-west,"Doklam, Dramana, Shakhatoe, Sinchulung and western Haa",sourced,no_agreed_boundary,Bhutan (claims); China (claims),269,,,secondary,2026-10-03,,
 bhutanese-enclaves-tibet,"Former Bhutanese enclaves in western Tibet (Darchen, Khochar and others)",sourced,occupied_or_annexed,China (occupied the exclaves in 1959); Bhutan (administered them for more than 300 years before that),,,,secondary,2026-10-03,,
@@ -44,7 +45,7 @@ doi-lang,Doi Lang,sourced,line_position,"Thailand (claims); Myanmar (claims) - a
 dokdo,Liancourt Rocks (Dokdo / Takeshima),sourced,islets_for_maritime_zone,"South Korea (administers, exercises sovereignty); Japan (claims)",0.19,garrison_only,restricted,secondary,2026-10-03,Q20317,1159320995
 donetsk-occupied,Russian-occupied Donetsk Oblast,sourced,occupied_or_annexed,Russia (controls part; proclaimed annexation in 2022); Ukraine (the territory is part of Ukraine's Donetsk Oblast),,,,secondary,2026-10-03,,
 doumeira,Ras Doumeira and Doumeira Island,sourced,line_position,Eritrea (accused by Djibouti of reoccupying the mainland hill and Doumeira Island in 2017); Djibouti (claims),,,,secondary,2026-10-03,,
-dragonja,Dragonja left-bank hamlets and other Slovenia-Croatia segments,sourced,line_position,Slovenia (claims the border lies south of the river); Croatia (claims the border is on the river itself),,yes,,secondary,2026-10-03,,
+dragonja,Dragonja left-bank hamlets and other Slovenia-Croatia segments,sourced,resolved_recently,"Croatia (the land up to the Dragonja river, by the 2017 award); Slovenia (implemented the award)",,yes,,secondary,2026-10-03,,
 durand-line,Durand Line,sourced,paper_claim,Pakistan (the line is internationally recognised as its western border); Afghanistan (largely does not recognise it),,,,secondary,2026-10-03,,
 east-jerusalem,East Jerusalem,sourced,occupied_or_annexed,Israel (occupies); Palestine (considered its capital and part of the Palestinian territories by the United Nations),70,yes,,secondary,2026-10-03,,1746265961
 eastern-ossetia-claim,"Truso Gorge, Ghuda Gorge and Kobi Plateau",sourced,paper_claim,"Georgia (controls, as part of Kazbegi Municipality); South Ossetia (claims)",,yes,,secondary,2026-10-03,,

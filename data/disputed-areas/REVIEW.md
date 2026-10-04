@@ -178,4 +178,8 @@ Collected for D057 (a lease is a region when its holder is not the lessor). On r
 
 ## 14. Dragonja after the 2017 award (added 2026-10-04)
 
-The register's `parties` for `dragonja` gives Slovenia's pre-award claim (south of the river). The 2017 arbitration award puts the land boundary on the Dragonja river, which Slovenia implemented and which is also Croatia's line; on land the two parties' cadastral lines now differ only by slivers. The kind (`line_position`) and parties need re-sourcing against the award text.
+The register's `parties` for `dragonja` gives Slovenia's pre-award claim (south of the river). The 2017 arbitration award puts the land boundary on the Dragonja river, which Slovenia implemented and which is also Croatia's line; on land the two parties' cadastral lines now differ only by slivers. Done the same day: `parties` and `kind` (`resolved_recently`) now rest on the award text (paragraph 769 and item 5 of the dispositif).
+
+## 15. Bender (added 2026-10-04)
+
+Bender (Tighina) is entered as its own area, held by Transnistria's authorities since 1992 (pinned Wikipedia), so that the GADM binding of Transnistria, which adds GADM's separate unit for Bender, rests on a register fact.

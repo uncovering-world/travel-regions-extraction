@@ -11,22 +11,22 @@
   },
   "regions_with_nothing_open": 304,
   "regions_with_an_open_point": 13,
-  "special_places": 89,
+  "special_places": 88,
   "special_places_by_kind": {
-    "line_position": 45,
+    "line_position": 44,
     "islets_for_maritime_zone": 16,
     "no_agreed_boundary": 11,
     "lease_or_base": 8,
     "own_regime": 8,
     "paper_claim": 1
   },
-  "markers": 151,
+  "markers": 153,
   "gaps": 3,
   "gaps_by_missing_fact": {
     "who holds the area and since when": 2,
     "who holds the area": 1
   },
-  "register_areas": 210,
+  "register_areas": 211,
   "register_areas_linked": 63,
   "registry_cells": 29,
   "registry_cells_not_tied_to_an_area": 0

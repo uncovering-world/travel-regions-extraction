@@ -4,8 +4,8 @@
 
 | Field | Value | Evidence | Read | Sources | Passage |
 |---|---|---|---|---|---|
-| parties | Slovenia (claims the border lies south of the river); Croatia (claims the border is on the river itself) | secondary | 2026-10-03 | S0064 | In the delta of Dragonja, Slovenia claims that the border is south of the river (thus including all the land that is registered in the cadastral municipality of Sečovlje ), while Croatia claims that the border is on the river itself (St. Odoric's canal). |
-| kind | line_position | secondary | 2026-10-03 | S0064 | In the delta of Dragonja, Slovenia claims that the border is south of the river (thus including all the land that is registered in the cadastral municipality of Sečovlje ), while Croatia claims that the border is on the river itself (St. Odoric's canal). |
+| parties | Croatia (the land up to the Dragonja river, by the 2017 award); Slovenia (implemented the award) | secondary | 2026-10-04 | S0377 | Consequently, the Tribunal determines that the boundary between the Parties today also follows that river |
+| kind | resolved_recently | secondary | 2026-10-04 | S0377 | In the area of Merišće/Krkavče and in the Lower Dragonja region, as set out in paragraph 769, the boundary follows the Dragonja River |
 | origin | The border had not been determined in detail before the two countries became independent in 1991. | secondary | 2026-10-03 | S0064 | Following the breakup of Yugoslavia in 1991, Slovenia and Croatia became independent countries. As the border between the countries had not been determined in detail prior to independence, several parts of the border were disputed, both on land and at the sea, namely in the Gulf of Piran . |
 | on_the_ground | Slovenia implemented the 2017 arbitration ruling on 29 December 2017; Croatia continues to oppose it. | secondary | 2026-10-03 | S0064 | Slovenia implemented the ruling on 29 December 2017 with continued opposition from Croatia. |
 | inhabited | yes | secondary | 2026-10-03 | S0064 | Among the Slovenian citizens residing in the area on the left bank of the Dragonja river is Joško Joras |
@@ -13,3 +13,4 @@
 Sources:
 
 - S0064: https://en.wikipedia.org/w/index.php?title=Croatia%E2%80%93Slovenia_border_disputes&oldid=1377212104
+- S0377: https://www.acerislaw.com/wp-content/uploads/2017/07/PCA-Arbitration-Between-Slovenia-and-Croatia.pdf
