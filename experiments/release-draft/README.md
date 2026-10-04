@@ -16,7 +16,7 @@ python3 experiments/release-draft/build.py
 ## What comes out (`release/`)
 
 - `canon.json` — TYR's import tree: World → country → regions (a country with one region is a leaf).
-- `regions.csv` — 314 regions with name, Wikidata id, basis, country and evidence level.
+- `regions.csv` — 314 regions with name, Wikidata id, basis, country under the canon's attribution, evidence level, and the country under each of Natural Earth's 31 national points of view (`pov_XX`, Natural Earth's ADM0_A3 codes), taken from the Natural Earth feature that represents the region or its country (`inputs/pov_features.csv` for six that need a choice). This is what lets a user pick a side: the same region counts for Ukraine under one point of view and for Russia under another.
 - `membership.csv` — 402 rows. A region is the union of its `include` rows minus its `exclude` rows; an own geometry (precedence 1), clipped by the consumer to the GADM units of the regions in `clip_to`, wins over GADM units (precedence 2), so land GADM gives to another country (Siachen, Demchok, Halayib…) goes where the canon says, and no geometry reaches into a neighbouring country.
 - `geometry/` — the 42 own geometries, as in `data/custom-geometries/` (licences per file there; 13 OpenStreetMap-derived files are under ODbL).
 - `manifest.json` — versions, the membership rule and the sha256 of every input.
@@ -31,6 +31,5 @@ python3 experiments/release-draft/build.py
 An earlier run on Natural Earth's polygons alone had shown how far they were off (the Korean DMZ about 2.5 times too wide, the Cyprus buffer zone displaced, Natural Earth's "Bhutan (northwest valleys)" lying inside China) and how they reached into neighbouring countries (Somaliland 747 km² of Ethiopia); that led to D062.
 
 ## What is not checked
-- Only one perspective (the canon's attribution) is in `regions.csv`; the other declared perspectives are not yet columns.
 - No correspondence table: this is the first draft.
 - TYR's importer reads only the tree; binding by unit identifiers and own geometry need the importer changes listed in the [output-format proposal](../../docs/proposals/output-format.md).

@@ -25,6 +25,8 @@ OUT = ROOT / "release"
 GADM = "GADM 4.1"
 NE = "Natural Earth 5.1.2 disputed areas"
 CUSTOM = "custom geometry"
+POVS = ["AR", "BD", "BR", "CN", "DE", "EG", "ES", "FR", "GB", "GR", "ID", "IL", "IN", "IT", "JP", "KO",
+        "MA", "NL", "NP", "PK", "PL", "PS", "PT", "RU", "SA", "SE", "TR", "TW", "UA", "US", "VN"]
 INPUTS = [
     "experiments/stage1-list/outputs/regions.csv",
     "experiments/gadm-binding/outputs/bindings.csv",
@@ -33,6 +35,7 @@ INPUTS = [
     "experiments/release-draft/inputs/attribution.csv",
     "experiments/release-draft/inputs/gadm_leftovers.csv",
     "data/custom-geometries/sources.csv",
+    "experiments/release-draft/inputs/pov_features.csv",
     "data/custom-geometries/sources.json",
     "docs/spec.md",
 ]
@@ -80,6 +83,45 @@ def main() -> None:
         table.append({"region_id": rid, "name": r["name"], "wikidata_id": items.get(rid, ""),
                       "basis": r["basis"].split(":")[0].split(";")[0], "country": country, "country_code": code,
                       "evidence": r["evidence"], "open": r["open"]})
+
+    # the country of each region under each Natural Earth point of view (R045): the ADM0_A3_<POV> value of the
+    # Natural Earth feature that represents the region, or of its country's feature
+    cache = REPO / "experiments" / "stage1-world-draft" / "cache"
+    units = json.loads((cache / "ne_10m_admin_0_map_units.geojson").read_text())["features"]
+    disputed = {str(f["properties"]["NE_ID"]): f["properties"] for f in
+                json.loads((cache / "ne_10m_admin_0_disputed_areas.geojson").read_text())["features"]}
+    by_a2 = {}
+    for f in units:
+        q = f["properties"]
+        for code in (q.get("ISO_A2"), q.get("ISO_A2_EH")):
+            if code and code != "-99":
+                by_a2.setdefault(code, q)
+    links = {r["area_id"]: r for r in read("experiments/stage1-list/inputs/links.csv")}
+    countries_by_a3 = {f["properties"]["ADM0_A3"]: f["properties"] for f in
+                       json.loads((cache / "ne_10m_admin_0_countries.geojson").read_text())["features"]}
+    pov_override = {r["region"]: r["ne_feature"] for r in read("experiments/release-draft/inputs/pov_features.csv")}
+    small = {r["ne_name"]: str(r["ne_id"]) for r in read("experiments/gadm-binding/outputs/disputed_points.csv")}
+    for r in table:
+        rid = r["region_id"]
+        feature = None
+        if rid.startswith("area/"):
+            link = links.get(rid[5:], {})
+            cell = link.get("registry_cell", "")
+            if "#" in cell:
+                feature = disputed.get(cell.rsplit("#", 1)[1])
+            elif link.get("small_feature") in small:
+                feature = disputed.get(small[link["small_feature"]])
+        if rid in pov_override:
+            kind, _, ref = pov_override[rid].partition(":")
+            feature = {"countries": countries_by_a3, "disputed": disputed, "iso": by_a2}.get(kind, {}).get(ref)
+            if pov_override[rid] == "none":
+                feature = None
+        if feature is None and rid not in pov_override:
+            feature = by_a2.get(r["country_code"] or rid)
+        for pov in POVS:
+            r[f"pov_{pov}"] = str(feature.get(f"ADM0_A3_{pov}", "")) if feature else ""
+        if feature is None and pov_override.get(rid) != "none":
+            gaps.append({"item": rid, "missing": "no Natural Earth feature for its points of view"})
 
     # membership: GADM units, ISO regions as GADM countries minus units bound elsewhere, custom geometries
     membership = []
@@ -142,7 +184,8 @@ def main() -> None:
         (OUT / "geometry" / f.name).write_bytes(f.read_bytes())
     (OUT / "canon.json").write_text(json.dumps(tree, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     write_csv(OUT / "regions.csv", sorted(table, key=lambda r: r["region_id"]),
-              ["region_id", "name", "wikidata_id", "basis", "country", "country_code", "evidence", "open"])
+              ["region_id", "name", "wikidata_id", "basis", "country", "country_code", "evidence", "open"]
+              + [f"pov_{p}" for p in POVS])
     write_csv(OUT / "membership.csv", membership, ["region_id", "source", "unit", "role", "precedence", "clip_to"])
     write_csv(OUT / "gaps.csv", gaps, ["item", "missing"])
     manifest = {

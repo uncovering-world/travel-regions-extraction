@@ -1,0 +1,7 @@
+region,ne_feature,basis
+UM,countries:UMI,Natural Earth countries layer feature ADM0_A3 UMI (the map-units layer has no ISO_A2 for it)
+area/korean-dmz,disputed:1159320991,Natural Earth's southern DMZ half (that both halves carry the same points of view is not checked)
+area/undof-zone,disputed:1159321297,Natural Earth's UNDOF Zone feature
+area/transnistria,iso:MD,no Natural Earth feature of its own: every point of view attributes it to Moldova (stage1-world-draft)
+area/koalou,none,no Natural Earth feature; Natural Earth has no Benin or Burkina Faso point of view
+area/gornja-siga,none,no Natural Earth feature; unclaimed

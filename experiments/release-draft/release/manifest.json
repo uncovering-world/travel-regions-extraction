@@ -25,6 +25,7 @@
     "experiments/release-draft/inputs/attribution.csv": "0d528ce5bc8c993e7e0581e91d26b0825fcba327ce527f657890526a27975c42",
     "experiments/release-draft/inputs/gadm_leftovers.csv": "655378fd0c8060777544a41fe020629562507917aa467013aa18318604add012",
     "data/custom-geometries/sources.csv": "8b3afdc2ae261194b26bc4befcc8471e0dbb18456e51247a829de484f385e9ec",
+    "experiments/release-draft/inputs/pov_features.csv": "5f7e65b17fe25e8714b223e7b19e50b7c079e0f2fd9fd6654d70fcdb08773e8d",
     "data/custom-geometries/sources.json": "ac032797142db30bacb5de859f7802d4fec53f0975173af0d3385194ed7368d7",
     "docs/spec.md": "5df884df9a3546aa0d8cffb2c2a53349efefad1b6f74b6efad4e9fbd66be2ff9"
   },
