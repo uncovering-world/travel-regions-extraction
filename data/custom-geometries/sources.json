@@ -83,6 +83,40 @@
    "version": "OpenStreetMap as of 2026-10-04T06:57:51Z",
    "licence": "ODbL 1.0 (https://www.openstreetmap.org/copyright)",
    "retrieved": "2026-10-04"
+  },
+  "baikonur-lease-appendix2": {
+   "kind": "document-points",
+   "path": "documents/baikonur-lease-appendix2.json",
+   "cache_file": "-",
+   "sha256": "260f04b2c70b07c3ea73b7004207b09e1dbf718f1ff0d4046945463a2e1f3759",
+   "sha256_of": "the committed transcription",
+   "publisher": "Governments of the Russian Federation and the Republic of Kazakhstan (lease treaty), published on publication.pravo.gov.ru",
+   "version": "Appendix No. 2 as restated by the protocol of 9 November 2017, in force 22 January 2020",
+   "licence": "official treaty text; no licence stated",
+   "retrieved": "2026-10-04"
+  },
+  "osm-syr-darya-2026-10-04": {
+   "kind": "osm-overpass",
+   "endpoints": [
+    "https://overpass-api.de/api/interpreter"
+   ],
+   "date": "2026-10-04T06:57:51Z",
+   "elements": {
+    "way": [
+     95384206,
+     127912911,
+     370851431,
+     370851432,
+     933749215
+    ]
+   },
+   "cache_file": "osm_syr-darya_2026-10-04T065751Z.json",
+   "sha256": "0e32f5393d1462ff69368b3da8ade7d7530a6e88f80befdfa5ec64bb34b8ab67",
+   "sha256_of": "the canonical cache file (elements sorted by type and id, JSON with sorted keys; the Overpass run-time header is dropped)",
+   "publisher": "OpenStreetMap contributors (Overpass API attic query)",
+   "version": "OpenStreetMap as of 2026-10-04T06:57:51Z",
+   "licence": "ODbL 1.0 (https://www.openstreetmap.org/copyright)",
+   "retrieved": "2026-10-04"
   }
  },
  "places": [
@@ -122,30 +156,45 @@
    "place": "baikonur",
    "region": "area/baikonur",
    "donors": "KZ",
-   "rank": 4,
-   "whose_line": "Natural Earth editors",
-   "publisher": "Natural Earth (ne_10m_admin_0_disputed_areas)",
-   "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_disputed_areas.geojson",
-   "version_or_date": "v5.1.2 (git tag); read 2026-10-04",
-   "licence": "public domain",
-   "input": "ne-5.1.2-disputed-areas",
-   "feature_id": "NE_ID 1159320965",
+   "rank": 1,
+   "whose_line": "Russia and Kazakhstan (the lease treaty)",
+   "publisher": "Lease treaty of 10 December 1994, Appendix No. 2 as restated in 2017 (official text on publication.pravo.gov.ru)",
+   "source_url": "http://publication.pravo.gov.ru/Document/View/0001202002050006",
+   "version_or_date": "protocol signed 2017-11-09, in force 2020-01-22; published 2020-02-05; read 2026-10-04",
+   "licence": "official treaty text (no licence stated); river edges from OpenStreetMap, ODbL 1.0",
+   "input": "baikonur-lease-appendix2",
+   "feature_id": "Plot No. 1, points 1-31",
    "select": {
-    "property": "NE_ID",
-    "values": [
-     1159320965
-    ],
-    "attributes": [
-     "NE_ID",
-     "NAME",
-     "BRK_NAME",
-     "NOTE_BRK",
-     "TYPE",
-     "ADMIN"
-    ]
+    "ring": "plot_1",
+    "holes": "not_included",
+    "river": {
+     "input": "osm-syr-darya-2026-10-04",
+     "ways": [
+      [
+       95384206,
+       21
+      ],
+      [
+       127912911,
+       49
+      ],
+      [
+       370851431,
+       4
+      ],
+      [
+       370851432,
+       17
+      ],
+      [
+       933749215,
+       3
+      ]
+     ]
+    }
    },
    "file": "baikonur.geojson",
-   "notes": "No published outline of the lease area found: DoS World Polygons has none (inside 'Kazakhstan'); OpenStreetMap has only the city (relation 5295657, 38 km²) and the cosmodrome land use (relation 6725906, 2,743 km²); HDX COD-AB Kazakhstan is from OSM via UNHCR, not a party's dataset."
+   "notes": "Plot No. 1 of the lease: 31 boundary points joined by straight lines, the edges 17-18 and 31-1 along the right bank of the Syr Darya (drawn along the OpenStreetMap centre line of the river), minus the settlements Toretam and Akay and Plots 1-1 to 1-4 returned in 2017. The Novokazalinsk-Dzhusaly road and railway are excluded by the document without a width and are not cut out. Replaces Natural Earth's schematic oval."
   },
   {
    "place": "bajo-nuevo",
@@ -1237,10 +1286,43 @@
      "disputed_by",
      "source",
      "ne_id"
-    ]
+    ],
+    "extend": {
+     "ring": [
+      [
+       77.1167373,
+       35.0534354
+      ],
+      [
+       77.5826865,
+       35.4795555
+      ],
+      [
+       78.0,
+       35.9
+      ],
+      [
+       78.4,
+       35.9
+      ],
+      [
+       78.4,
+       34.9
+      ],
+      [
+       77.1167373,
+       34.9
+      ],
+      [
+       77.1167373,
+       35.0534354
+      ]
+     ],
+     "why": "India holds the whole Siachen Glacier and its tributary glaciers east of the Saltoro Ridge (register facts, S0209); the source's straight east edge (NJ9842 towards the China border west of the Karakoram Pass) stops short of GADM's line from NJ9842 to the Karakoram Pass, so the mask takes the Gilgit-Baltistan land between the two lines for the holder"
+    }
    },
    "file": "siachen.geojson",
-   "notes": "No agreed line exists, so DoS's 'Siachen' polygon (its own line; note 'Do not connect Line of Control lines to China') is not rank 2. The OSM relation carries ne_id 1746708607 and ne:brk_a3 B45: its outline is Natural Earth's, from an edition later than v5.1.2."
+   "notes": "No agreed line exists, so DoS's 'Siachen' polygon (its own line; note 'Do not connect Line of Control lines to China') is not rank 2. The OSM relation carries ne_id 1746708607 and ne:brk_a3 B45: its outline is Natural Earth's, from an edition later than v5.1.2. Extended east by a clipping mask: the land between the source's straight east edge and GADM's NJ9842-Karakoram Pass line is held by India like the rest of the glacier; only the source's west edge (the Saltoro Ridge, the Actual Ground Position Line) remains a boundary."
   },
   {
    "place": "somaliland",

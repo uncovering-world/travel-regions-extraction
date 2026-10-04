@@ -4,7 +4,12 @@
 Every place in sources.json names one input and the features of it that draw the place. The input is downloaded
 into cache/ (gitignored) and checked against its pinned sha256; the selected features are written to the place's
 GeoJSON file unmodified, except that several source features of one place are merged by a plain union, and that an
-OpenStreetMap relation is assembled from its member ways (outer rings minus inner rings). All inputs are already in
+OpenStreetMap relation is assembled from its member ways (outer rings minus inner rings). An input of kind
+"document-points" is a committed transcription (documents/) of the boundary points a cited document lists: its ring
+is drawn with straight lines between the points, edges the document runs along a river follow a pinned OpenStreetMap
+river line, and the areas the document excludes are cut out. A place may also name a clipping mask ("extend"), a
+polygon unioned with its geometry so that the consumer's clip to the donors takes all the donor land on one side of
+the source's outline; the mask's own edges are never boundaries between regions. All inputs are already in
 WGS84 longitude/latitude, so nothing is reprojected. No geometry is clipped here: the clip to the substrate (GADM)
 units of each place's donor regions is expressed in the release's membership and done by the consumer (D062).
 Files marked "kept" are not rebuilt; only their sha256 is checked.
@@ -36,8 +41,8 @@ import zlib
 from pathlib import Path
 
 from shapely import wkb
-from shapely.geometry import LineString, Polygon, mapping, shape
-from shapely.ops import polygonize, unary_union
+from shapely.geometry import LineString, Point, Polygon, mapping, shape
+from shapely.ops import linemerge, polygonize, substring, unary_union
 
 HERE = Path(__file__).resolve().parent
 CACHE = HERE / "cache"
@@ -160,7 +165,9 @@ def ensure_input(key: str, spec: dict) -> Path:
         if sha256_file(src) != spec["sha256"]:
             raise SystemExit(f"{src}: sha256 differs from the pinned {spec['sha256']}")
         return src
-    if not path.exists():
+    if spec["kind"] == "document-points":
+        path = HERE / spec["path"]
+    elif not path.exists():
         print(f"fetching {key} …", file=sys.stderr)
         if spec["kind"] == "worldpolygons-gpkg":
             fetch_nested_zip_member(spec["url"], spec["zip_members"], path)
@@ -257,6 +264,46 @@ def read_osm(path: Path, sel: dict) -> list:
     return out
 
 
+def dms(text: str) -> float:
+    """Degrees, minutes and seconds as a document prints them ("45 42 10" or "45 44 14,16")."""
+    d, m, sec = text.replace(",", ".").split()
+    return float(d) + float(m) / 60 + float(sec) / 3600
+
+
+def read_document(path: Path, sel: dict, inputs: dict, paths: dict) -> list:
+    doc = json.loads(path.read_bytes())
+    ring = doc[sel["ring"]]
+    pts = [(dms(p["lon"]), dms(p["lat"])) for p in ring["points"]]
+    along = {tuple(e) for e in ring.get("along_river", [])}
+    river, river_ids = None, []
+    if along:
+        data = json.loads(paths[sel["river"]["input"]].read_bytes())
+        ways = {e["id"]: e for e in data["elements"] if e["type"] == "way"}
+        for wid, version in sel["river"]["ways"]:
+            if ways[wid].get("version") != version:
+                raise SystemExit(f"OSM way {wid}: version {ways[wid].get('version')} in the input, pinned {version}")
+        river = linemerge([LineString([(p["lon"], p["lat"]) for p in ways[w]["geometry"]]) for w, _ in sel["river"]["ways"]])
+        if river.geom_type != "LineString":
+            raise SystemExit("the pinned river ways do not join into one line")
+        river_ids = [f"way {w} v{v}" for w, v in sel["river"]["ways"]]
+    coords = []
+    for i, p in enumerate(pts):
+        coords.append(p)
+        a, b = i + 1, (i + 1) % len(pts) + 1
+        if (a, b) in along:  # the document runs this edge along the river bank: follow the river line
+            seg = substring(river, river.project(Point(p)), river.project(Point(pts[b - 1])))
+            coords.extend(list(seg.coords)[1:-1])
+    outer = Polygon(coords)
+    holes = {name: Polygon([(dms(q["lon"]), dms(q["lat"])) for q in points]) for name, points in doc[sel["holes"]].items()}
+    geom = outer.difference(unary_union(list(holes.values())))
+    if not geom.is_valid:
+        raise SystemExit(f"{path.name}: the outline is not valid")
+    attrs = {"document": doc["document"], "locator": doc["locator"], "file_sha256": doc["file_sha256"],
+             "points": len(pts), "along_river": sorted(map(list, along)), "cut_out": sorted(holes),
+             "river": river_ids, "not_drawn": doc.get("not_drawn", "")}
+    return [(f"{path.name} {sel['ring']}", attrs, geom, None)]
+
+
 # ---------------------------------------------------------------- build
 
 
@@ -266,6 +313,8 @@ def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
     kind = inputs[place["input"]]["kind"]
     if kind == "worldpolygons-gpkg":
         feats = read_gpkg(path, sel)
+    elif kind == "document-points":
+        feats = read_document(path, sel, inputs, paths)
     elif kind == "osm-overpass":
         feats = read_osm(path, sel)
     else:
@@ -275,10 +324,17 @@ def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
     elif len(feats) == 1:
         geometry = mapping(feats[0][2])
         operation = ("assembled from the OSM element's member ways (outer minus inner)" if kind == "osm-overpass"
+                     else "the document's points joined by straight lines, river edges along the pinned river line, "
+                          "excluded areas cut out" if kind == "document-points"
                      else "none (the source feature's geometry as published)")
     else:
         geometry = mapping(unary_union([f[2] for f in feats]))
         operation = f"union of the {len(feats)} source features"
+    if "extend" in sel:
+        # a clipping mask, not a line: it lets the consumer's clip to the donors take all the donor land on one side
+        # of the source's outline; only the source's own edges remain boundaries between regions
+        geometry = mapping(unary_union([shape(geometry), Polygon(sel["extend"]["ring"])]))
+        operation += "; unioned with a clipping mask: " + sel["extend"]["why"]
     geometry = json.loads(json.dumps(geometry))  # tuples -> lists
     props = {k: place[k] for k in CSV_COLUMNS if k not in ("file", "notes")}
     props.update({"notes": place["notes"], "input_sha256": inputs[place["input"]]["sha256"],
@@ -305,6 +361,7 @@ def main():
     spec = json.loads((HERE / "sources.json").read_text())
     inputs, places = spec["inputs"], spec["places"]
     needed = {p["input"] for p in places if p["input"] in inputs}
+    needed |= {p["select"]["river"]["input"] for p in places if "river" in p["select"]}
     paths = {k: ensure_input(k, inputs[k]) for k in sorted(needed)}
     outputs = {"sources.csv": sources_csv(places)}
     failures = []

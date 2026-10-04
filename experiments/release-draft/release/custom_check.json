@@ -120,34 +120,6 @@
    }
   },
   {
-   "region": "HR",
-   "source": "custom geometry",
-   "unit": "dragonja.geojson",
-   "polygon_km2": 1.41,
-   "on_gadm_land_km2": 0.58,
-   "donors": [
-    "SI"
-   ],
-   "taken_from": {
-    "SI": 0.58
-   }
-  },
-  {
-   "region": "IN",
-   "source": "custom geometry",
-   "unit": "kalapani.geojson",
-   "polygon_km2": 410.5,
-   "on_gadm_land_km2": 410.5,
-   "donors": [
-    "NP"
-   ],
-   "taken_from": {
-    "already its own": 331.96,
-    "NP": 65.7,
-    "clipped away: rule/cn-tibet": 12.84
-   }
-  },
-  {
    "region": "IO",
    "source": "custom geometry",
    "unit": "biot.geojson",
@@ -274,13 +246,13 @@
    "region": "area/baikonur",
    "source": "custom geometry",
    "unit": "baikonur.geojson",
-   "polygon_km2": 6501.49,
-   "on_gadm_land_km2": 6501.49,
+   "polygon_km2": 6438.15,
+   "on_gadm_land_km2": 6437.28,
    "donors": [
     "KZ"
    ],
    "taken_from": {
-    "KZ": 6501.49
+    "KZ": 6437.28
    }
   },
   {
@@ -312,6 +284,23 @@
     "CY": 190.36,
     "area/northern-cyprus": 53.63,
     "clipped away: area/akrotiri-dhekelia": 1.75
+   }
+  },
+  {
+   "region": "area/demchok",
+   "source": "custom geometry",
+   "unit": "demchok.geojson",
+   "polygon_km2": 532.89,
+   "on_gadm_land_km2": 532.89,
+   "donors": [
+    "CN",
+    "area/indian-jammu-kashmir-ladakh",
+    "rule/cn-tibet"
+   ],
+   "taken_from": {
+    "CN": 434.74,
+    "area/indian-jammu-kashmir-ladakh": 84.74,
+    "rule/cn-tibet": 13.41
    }
   },
   {
@@ -375,31 +364,33 @@
   {
    "region": "area/indian-jammu-kashmir-ladakh",
    "source": "custom geometry",
-   "unit": "demchok.geojson",
-   "polygon_km2": 532.89,
-   "on_gadm_land_km2": 532.89,
-   "donors": [
-    "CN",
-    "rule/cn-tibet"
-   ],
-   "taken_from": {
-    "CN": 434.74,
-    "already its own": 84.74,
-    "rule/cn-tibet": 13.41
-   }
-  },
-  {
-   "region": "area/indian-jammu-kashmir-ladakh",
-   "source": "custom geometry",
    "unit": "siachen.geojson",
-   "polygon_km2": 2166.08,
-   "on_gadm_land_km2": 2166.08,
+   "polygon_km2": 11240.53,
+   "on_gadm_land_km2": 11245.72,
    "donors": [
     "area/gilgit-baltistan"
    ],
    "taken_from": {
-    "area/gilgit-baltistan": 2154.36,
-    "clipped away: CN": 11.72
+    "already its own": 3971.91,
+    "area/gilgit-baltistan": 2776.36,
+    "clipped away: area/aksai-chin": 2612.44,
+    "clipped away: CN": 1885.01
+   }
+  },
+  {
+   "region": "area/kalapani",
+   "source": "custom geometry",
+   "unit": "kalapani.geojson",
+   "polygon_km2": 410.5,
+   "on_gadm_land_km2": 410.5,
+   "donors": [
+    "IN",
+    "NP"
+   ],
+   "taken_from": {
+    "IN": 331.96,
+    "NP": 65.7,
+    "clipped away: rule/cn-tibet": 12.84
    }
   },
   {
@@ -443,6 +434,20 @@
    ],
    "taken_from": {
     "RU": 4971.17
+   }
+  },
+  {
+   "region": "area/rincon-de-artigas",
+   "source": "custom geometry",
+   "unit": "rincon-de-artigas.geojson",
+   "polygon_km2": 267.54,
+   "on_gadm_land_km2": 267.54,
+   "donors": [
+    "BR"
+   ],
+   "taken_from": {
+    "BR": 244.67,
+    "clipped away: UY": 22.87
    }
   },
   {

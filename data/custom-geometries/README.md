@@ -11,7 +11,7 @@ Sources are ranked by whose line they draw:
 3. OpenStreetMap;
 4. Natural Earth v5.1.2.
 
-A place takes the highest-ranked source that has a polygon of it. The files are the source's geometry unmodified: every input is already WGS84 longitude/latitude, so nothing is reprojected; where a source draws a place as several features they are merged by a plain union; an OpenStreetMap relation is assembled from its member ways (outer rings minus inner rings). Nothing is cut out of a larger feature and nothing is clipped.
+A place takes the highest-ranked source that has a polygon of it. The files are the source's geometry unmodified: every input is already WGS84 longitude/latitude, so nothing is reprojected; where a source draws a place as several features they are merged by a plain union; an OpenStreetMap relation is assembled from its member ways (outer rings minus inner rings). Nothing is cut out of a larger feature and nothing is clipped. Two exceptions are explicit in `sources.json`: an outline drawn from the boundary points a document lists (a transcription in `documents/`, straight lines between the points, river edges along a pinned OSM river line, the areas the document excludes cut out), and a clipping mask (`extend`) unioned with a source's polygon so that the clip to the donors takes all donor land on one side of the source's outline; a mask's edges are never boundaries.
 
 **Clipping is the consumer's job.** GADM's licence forbids redistribution, so the clip to the substrate is not done in these files. `donors` lists the regions (ids of `experiments/release-draft/release/regions.csv`) whose GADM units a place may take land from. The consumer keeps the part of a geometry that lies on the donors' GADM units, on the receiving region's own units, or on no GADM unit at all (islets GADM lacks), and drops the rest, so a place never takes land from a neighbour that is not a donor. An empty `donors` means the place only adds land where GADM has none.
 
@@ -36,6 +36,7 @@ Built and checked with shapely 2 / GEOS from the project's scratch environment; 
 | 1 | `south-ossetia` → area/south-ossetia | Georgia's official unit "Provisional Administration" (GE48), COD-AB | CC BY-IGO |
 | 1 | `ye-socotra` → rule/ye-socotra | Yemen's governorate of Socotra (YE32), COD-AB | CC BY-IGO |
 | 1 | `koalou` → area/koalou | Burkina Faso's and Benin's national outlines: the land both include (D061) | CC BY-IGO |
+| 1 | `baikonur` → area/baikonur | the lease treaty's Appendix 2 (Plot No. 1, 31 boundary points, as restated in 2017), transcribed in `documents/`; river edges along OSM's Syr Darya | official treaty text; river edges ODbL 1.0 |
 | 2 | `armistice-no-mans-lands` → area/armistice-no-mans-lands | 1949 armistice lines, US DoS | US government work |
 | 2 | `korean-dmz` → area/korean-dmz | 1953 Armistice MDL and DMZ limits, US DoS | US government work |
 | 2 | `undof-zone` → area/undof-zone | 1974 disengagement lines A and B, US DoS | US government work |
@@ -44,19 +45,20 @@ Built and checked with shapely 2 / GEOS from the project's scratch environment; 
 | 2 | `ilemi-triangle` → area/ilemi-triangle | Kenya–South Sudan administrative and provisional boundaries, US DoS | US government work |
 | 2 | 14 islets: `sapodilla-cayes`, `hans-island`, `doumeira-island`, `bassas-da-india`, `europa-island`, `glorioso-islands`, `juan-de-nova`, `matthew-hunter`, `mbanie`, `biot`, `senkaku`, `dokdo`, `scarborough-shoal`, `wake` | the coastline, US DoS | US government work |
 | 3 | `cyprus-buffer-zone`, `gornja-siga`, `kuril-islands`, `somaliland`, `kalapani` → IN | OpenStreetMap mappers | ODbL 1.0 |
-| 3 | `siachen`, `demchok` → area/indian-jammu-kashmir-ladakh | OSM (Siachen's outline is a later Natural Earth edition imported into OSM; Demchok is OSM's India-controlled western sector) | ODbL 1.0 |
+| 3 | `siachen`, `demchok` → area/indian-jammu-kashmir-ladakh | OSM (Siachen's outline is a later Natural Earth edition imported into OSM, extended east by a clipping mask to GADM's NJ9842–Karakoram Pass line, since India holds the whole glacier; Demchok is OSM's India-controlled western sector) | ODbL 1.0 |
 | 3 | `bhutan-china-north` → BT | OSM: Bhutan-controlled part of the northern disputed area | ODbL 1.0 |
 | 3 | `bajo-nuevo`, `serranilla` → CO; `penon-de-alhucemas` → ES; `rockall` → GB; `bird-island` → VE | OSM coastlines | ODbL 1.0 |
-| 4 | `baikonur`, `east-jerusalem`, `shebaa-farms`, `western-sahara-moroccan-controlled` | Natural Earth editors | public domain |
+| 4 | `east-jerusalem`, `shebaa-farms`, `western-sahara-moroccan-controlled` | Natural Earth editors | public domain |
 
 Each row of `sources.csv` gives the publisher, URL, version, feature ids and notes.
 
 ### Licences
 
-- **ODbL 1.0** (OpenStreetMap contributors; share-alike — a database made from these files must stay under ODbL): `bajo-nuevo`, `bhutan-china-north`, `bird-island`, `cyprus-buffer-zone`, `demchok`, `gornja-siga`, `kalapani`, `kuril-islands`, `penon-de-alhucemas`, `rockall`, `serranilla`, `siachen`, `somaliland`.
+- **ODbL 1.0** (OpenStreetMap contributors; share-alike — a database made from these files must stay under ODbL): `bajo-nuevo`, `bhutan-china-north`, `bird-island`, `cyprus-buffer-zone`, `demchok`, `gornja-siga`, `kalapani`, `kuril-islands`, `penon-de-alhucemas`, `rockall`, `serranilla`, `siachen`, `somaliland`; the river edges of `baikonur`.
 - **US government work**, not subject to US copyright (17 U.S.C. § 105; World Polygons metadata): the 21 rank-2 files.
 - **CC BY-IGO** (HDX COD-AB; attribution required): `south-ossetia`, `ye-socotra`, `koalou`.
-- **Public domain** (Natural Earth): `baikonur`, `east-jerusalem`, `shebaa-farms`, `western-sahara-moroccan-controlled`.
+- **Official treaty text**, no licence stated: the boundary points of `baikonur`.
+- **Public domain** (Natural Earth): `east-jerusalem`, `shebaa-farms`, `western-sahara-moroccan-controlled`.
 
 ## Readings of the rule to review
 
