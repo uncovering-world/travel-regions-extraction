@@ -83,6 +83,10 @@ python3 experiments/gadm-binding/check_points.py
 
 **What this changes.** Binding by names is not enough even where every name matches: GADM's land assignment has to be checked against the canon's holder for every special place and marker, and land GADM does not cover has to be added. Both need geometry, not only attributes.
 
+## Revision, 2026-10-04: Transnistria and Bender
+
+The owner asked on which side Bender falls. A point check (`gadm_points.py`, Wikidata coordinates of Bender, Dubăsari and Cocieri) shows that GADM keeps Bender as its own unit of Moldova (`MDA.4_1`), outside GADM's `Transnistria` (`MDA.36_1`), while Cocieri, a left-bank village Moldova holds, lies inside `MDA.36_1`. The binding of Transnistria now adds `MDA.4_1`; the register still needs a passage naming Bender's holder. The left-bank villages Moldova holds stay inside the Transnistria binding, a known error until an outline for them is found.
+
 ## Status
 
-Concluded 2026-10-04 (revised the same day).
+Concluded 2026-10-04 (revised twice the same day).
