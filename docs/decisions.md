@@ -604,3 +604,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: uninhabited strips such as glaciers stay special places, so a user choosing such a party's point of view does not see them as that party's.
 - Status: accepted.
 - Basis: owner decision, 2026-10-04.
+
+### D064 — Every party to a dispute has its own point of view
+
+- Decision: the supported points of view (R045) are Natural Earth's 31 national ones plus, for every party to a dispute in the register that has none there, that party's own view, built from its sourced claim: under it, the area it claims is its own. A region is separated wherever any supported point of view, including these, puts it in another country (subject to the residents test, D045, D063).
+- Rationale: the canon lets a user choose a side; with Natural Earth's 31 views alone, many parties to disputes (Georgia, Serbia, Moldova, Sudan, Cyprus, Somalia, Venezuela, Benin…) have no view, so for example no point of view puts the Halayib Triangle in Sudan.
+- Rules: R045 (amended).
+- Counterarguments: a party's view built from the register states only its claims in the register's disputes, not its whole map; which entities count as parties (states only, or also de facto authorities) and how a claim's outline is sourced are open (Q014).
+- Status: accepted.
+- Basis: owner decision, 2026-10-04 ("Нужны свои").

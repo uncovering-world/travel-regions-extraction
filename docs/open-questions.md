@@ -164,6 +164,8 @@ D038 declares ISO 3166-1 and the national points of view of Natural Earth. Not d
 
 **Closure criterion:** a published reading of the pinned editions that lists each perspective, each correction with its source, and the resulting cells.
 
+Narrowed on 2026-10-04 by D064: parties without a Natural Earth view get their own, from their sourced claims. Open within it: whether de facto authorities count as parties with a view, and how each claim's outline is sourced.
+
 ## Q015 — Scope test details: what is a top-level or detached unit, and what does a rule over several units give?
 
 **Impact: which entry rules make regions.** R014, R056; D050.

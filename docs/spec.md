@@ -2,7 +2,7 @@
 
 Version: 0.4.0-draft. Date: 2026-10-03. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
 
-Changes in 0.4.0-draft: R045–R059 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D063); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
+Changes in 0.4.0-draft: R045–R059 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D064); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
 
 ## Basis and limits of reliability
 
@@ -363,6 +363,8 @@ Decided qualifications:
 3. Antarctic claims create no boundary (R026).
 
 **Editions.** The canon is pinned to stated editions of ISO 3166-1 and Natural Earth. It moves to a new edition only by the owner's decision at a release, after a report of what the new edition would change (R055). Which Natural Earth attributions count as declared perspectives in detail, and how errors in its attributes are handled, is Q014.
+
+Amended by D064: the supported points of view also include, for every party to a dispute in the register that has no Natural Earth view, that party's own view built from its sourced claim.
 
 ### R046 — Special places and markers [accepted; D041]
 
