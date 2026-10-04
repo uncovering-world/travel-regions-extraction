@@ -7,9 +7,9 @@ GeoJSON file unmodified, except that several source features of one place are me
 OpenStreetMap relation is assembled from its member ways (outer rings minus inner rings). An input of kind
 "document-points" is a committed transcription (documents/) of the boundary points a cited document lists: its ring
 is drawn with straight lines between the points, edges the document runs along a river follow a pinned OpenStreetMap
-river line, and the areas the document excludes are cut out. A place may also name a clipping mask ("extend"), a
-polygon unioned with its geometry so that the consumer's clip to the donors takes all the donor land on one side of
-the source's outline; the mask's own edges are never boundaries between regions. All inputs are already in
+river line, and the areas the document excludes are cut out. A place whose land is divided by a line of control
+(D066) is written as that line, from the member ways of a pinned OSM relation with both ends prolonged a little,
+and a point on the holder's side; the consumer splits the donors' units by the line and keeps the side with the point. All inputs are already in
 WGS84 longitude/latitude, so nothing is reprojected. No geometry is clipped here: the clip to the substrate (GADM)
 units of each place's donor regions is expressed in the release's membership and done by the consumer (D062).
 Files marked "kept" are not rebuilt; only their sha256 is checked.
@@ -307,6 +307,31 @@ def read_document(path: Path, sel: dict, inputs: dict, paths: dict) -> list:
 # ---------------------------------------------------------------- build
 
 
+def control_line(path: Path, sel: dict) -> tuple[dict, str]:
+    """A line of control (D066) from the member ways of a pinned OSM relation, joined into one line; each end is
+    prolonged straight along its last segment by prolong_deg so that the line crosses the substrate's own line."""
+    data = json.loads(path.read_bytes())
+    (etype, eid, version), = sel["elements"]
+    rel = next(e for e in data["elements"] if e["type"] == etype and e["id"] == eid)
+    if rel.get("version") != version:
+        raise SystemExit(f"OSM {etype} {eid}: version {rel.get('version')} in the input, pinned {version}")
+    members = {m["ref"]: m for m in rel["members"] if m["type"] == "way"}
+    line = linemerge([LineString([(p["lon"], p["lat"]) for p in members[w]["geometry"]]) for w in sel["control_line"]["ways"]])
+    if line.geom_type != "LineString":
+        raise SystemExit(f"{etype} {eid}: the control-line ways do not join into one line")
+    c, step = list(line.coords), sel["control_line"]["prolong_deg"]
+
+    def beyond(a, b):
+        dx, dy = a[0] - b[0], a[1] - b[1]
+        n = (dx * dx + dy * dy) ** 0.5
+        return (round(a[0] + dx / n * step, 7), round(a[1] + dy / n * step, 7))
+
+    line = LineString([beyond(c[0], c[1])] + c + [beyond(c[-1], c[-2])])
+    ways = ", ".join(str(w) for w in sel["control_line"]["ways"])
+    return mapping(line), (f"line of control (D066): ways {ways} of the relation joined into one line, each end prolonged "
+                           f"by {step}° along its last segment; split the donors by it and keep the side with holder_point")
+
+
 def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
     sel = place["select"]
     path = paths[place["input"]]
@@ -330,13 +355,14 @@ def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
     else:
         geometry = mapping(unary_union([f[2] for f in feats]))
         operation = f"union of the {len(feats)} source features"
-    if "extend" in sel:
-        # a clipping mask, not a line: it lets the consumer's clip to the donors take all the donor land on one side
-        # of the source's outline; only the source's own edges remain boundaries between regions
-        geometry = mapping(unary_union([shape(geometry), Polygon(sel["extend"]["ring"])]))
-        operation += "; unioned with a clipping mask: " + sel["extend"]["why"]
+    if "control_line" in sel:
+        # D066: the land is divided by a line of control, not outlined: the file is that line, with a point on the
+        # holder's side; the consumer splits the donors' substrate units by it and keeps the side with the point
+        geometry, operation = control_line(path, sel)
     geometry = json.loads(json.dumps(geometry))  # tuples -> lists
     props = {k: place[k] for k in CSV_COLUMNS if k not in ("file", "notes")}
+    if "holder_point" in sel:
+        props["holder_point"] = sel["holder_point"]
     props.update({"notes": place["notes"], "input_sha256": inputs[place["input"]]["sha256"],
                   "operation": operation, "crs": "WGS84 longitude/latitude, as in the source (no reprojection)",
                   "source_features": [{"id": f[0], **f[1]} for f in feats]})

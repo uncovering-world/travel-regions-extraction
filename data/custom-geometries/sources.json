@@ -1260,13 +1260,13 @@
    "region": "area/indian-jammu-kashmir-ladakh",
    "donors": "area/gilgit-baltistan",
    "rank": 3,
-   "whose_line": "OpenStreetMap mappers (the relation's ways; its west edge is OSM's Actual Ground Position Line)",
+   "whose_line": "OpenStreetMap mappers: the India-Pakistan line of actual control north of the agreed line (the Actual Ground Position Line along the Saltoro Ridge, to the China border)",
    "publisher": "OpenStreetMap contributors",
    "source_url": "https://www.openstreetmap.org/relation/13559521",
    "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 13559521 v10 (2026-09-03T12:38:19Z)",
    "licence": "ODbL 1.0",
    "input": "osm-2026-10-04",
-   "feature_id": "relation 13559521",
+   "feature_id": "relation 13559521 v10, its Line of Control ways 329316222, 484308119, 1168804850, 1536432437",
    "select": {
     "elements": [
      [
@@ -1287,90 +1287,25 @@
      "source",
      "ne_id"
     ],
-    "extend": {
-     "ring": [
-      [
-       77.1167373,
-       35.0534354
-      ],
-      [
-       77.1167684,
-       35.053464
-      ],
-      [
-       77.1179709,
-       35.0545681
-      ],
-      [
-       77.1283794,
-       35.0641113
-      ],
-      [
-       77.2871571,
-       35.2095516
-      ],
-      [
-       77.3432801,
-       35.260898
-      ],
-      [
-       77.3872895,
-       35.3011391
-      ],
-      [
-       77.422193,
-       35.3330398
-      ],
-      [
-       77.4621569,
-       35.36955
-      ],
-      [
-       77.5041111,
-       35.4078607
-      ],
-      [
-       77.5526187,
-       35.4521331
-      ],
-      [
-       77.5685132,
-       35.4666346
-      ],
-      [
-       77.5806212,
-       35.4776796
-      ],
-      [
-       77.5826865,
-       35.4795555
-      ],
-      [
-       78.0,
-       35.9
-      ],
-      [
-       78.4,
-       35.9
-      ],
-      [
-       78.4,
-       34.9
-      ],
-      [
-       77.1167373,
-       34.9
-      ],
-      [
-       77.1167373,
-       35.0534354
-      ]
+    "control_line": {
+     "ways": [
+      329316222,
+      484308119,
+      1168804850,
+      1536432437
      ],
-     "why": "India holds the whole Siachen Glacier and its tributary glaciers east of the Saltoro Ridge (register facts, S0209); the source's east edge (its own vertices are the mask's west edge) (NJ9842 towards the China border west of the Karakoram Pass) stops short of GADM's line from NJ9842 to the Karakoram Pass, so the mask takes the Gilgit-Baltistan land between the two lines for the holder"
+     "prolong_deg": 0.02
+    },
+    "holder_point": {
+     "lonlat": [
+      77.2014,
+      35.1986
+     ],
+     "source": "register fact siachen / wd_coordinates (Wikidata Q333946, P625, read 2026-10-03): the Siachen Glacier, held by India (siachen / holder)"
     }
    },
    "file": "siachen.geojson",
-   "notes": "No agreed line exists, so DoS's 'Siachen' polygon (its own line; note 'Do not connect Line of Control lines to China') is not rank 2. The OSM relation is built from OSM's own ways; it is only tagged ne_id 1746708607 and ne:brk_a3 B45, and no polygon with that id is in Natural Earth's disputed areas v5.1.2 (corrected 2026-10-04). Extended east by a clipping mask: the land between the source's straight east edge and GADM's NJ9842-Karakoram Pass line is held by India like the rest of the glacier; only the source's west edge (the Saltoro Ridge, the Actual Ground Position Line) remains a boundary."
+   "notes": "No party publishes the line up to which India holds the glacier, so the land is divided by the best available line of control (D066): OSM's India-Pakistan line north of the end of the agreed Line of Control, taken from the ways of the relation 'Siachen Glacier Disputed Area' (13559521) tagged Line of Control, which run along the Saltoro Ridge to the China border. Both ends are prolonged by 0.02° (about 2 km) so the line crosses GADM's own line; the result is the same for 0.02° to 0.1°. The consumer splits Gilgit-Baltistan's units by the line and gives the side with the holder point (the glacier) to India-held Jammu and Kashmir and Ladakh. The OSM relation is built from OSM's own ways and only tagged with a Natural Earth id. DoS draws no such line (its Siachen polygon is a wedge of two straight lines); Natural Earth's is three vertices marked 'please verify'."
   },
   {
    "place": "somaliland",

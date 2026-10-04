@@ -24,10 +24,10 @@
     "data/entry-rules/census.csv": "66ef8b50ec73870d0af9033dc88299bc94e5fcee268240a6ffce54db2ae779fb",
     "experiments/release-draft/inputs/attribution.csv": "81b073a94ac79ac4978b1e16f52032df62310ca3f3bc38256709477cdc19f3b1",
     "experiments/release-draft/inputs/gadm_leftovers.csv": "655378fd0c8060777544a41fe020629562507917aa467013aa18318604add012",
-    "data/custom-geometries/sources.csv": "49cb6f36b60504d0998038c64255b5c724463ceecadfd24c574f54825d56ff38",
+    "data/custom-geometries/sources.csv": "8729883aad60add9c96b734e61bef23aea095880fdfb26236a0b6af391b6617a",
     "experiments/release-draft/inputs/pov_features.csv": "5f7e65b17fe25e8714b223e7b19e50b7c079e0f2fd9fd6654d70fcdb08773e8d",
-    "data/custom-geometries/sources.json": "4e9c66d5c79c8f29ae54ae6808a4fb0458923b553667dadf238321db9ee415e1",
-    "docs/spec.md": "3b416034b2d293890660aa10ba5e9bf138dc85d2ec842e7a843294f9a0328bc3"
+    "data/custom-geometries/sources.json": "1f9d1f93f9f00e8abec56db0ad33ac9ec468b462b8eeb821fc6f761deceb99da",
+    "docs/spec.md": "8d2b8041f9246c7b6d6d857fb7f04adba330f9246ca364853d3042339732133a"
   },
   "correspondence": "none: first draft"
 }

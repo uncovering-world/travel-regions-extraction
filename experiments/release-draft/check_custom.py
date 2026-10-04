@@ -17,8 +17,8 @@ from pathlib import Path
 
 from pyproj import Transformer
 from shapely import wkb
-from shapely.geometry import shape
-from shapely.ops import transform, unary_union
+from shapely.geometry import Point, shape
+from shapely.ops import split, transform, unary_union
 
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parents[1]
@@ -62,11 +62,28 @@ def main():
         elif r["source"] == "custom geometry":
             data = json.loads((REPO / "data" / "custom-geometries" / r["unit"]).read_text())
             geom = unary_union([shape(f["geometry"]) for f in data["features"]])
+            if geom.geom_type == "LineString":   # a line of control (D066): resolved against the donors below
+                geom = ("line", geom, data["features"][0]["properties"]["holder_point"]["lonlat"])
         else:
             geom = None   # OpenStreetMap relations are not fetched here
         custom.append((r["region_id"], r["source"], r["unit"], geom, set(r.get("clip_to", "").split())))
 
     db = sqlite3.connect(f"file:{GADM}?mode=ro", uri=True)
+
+    def split_side(line, point, donors):
+        """The donors' GADM land on the holder's side of a line of control: split by the line, keep the side with point."""
+        minx, miny, maxx, maxy = line.buffer(0.5).bounds
+        land = []
+        for fid, in db.execute("select id from rtree_gadm_410_geom where maxx>=? and minx<=? and maxy>=? and miny<=?",
+                               (minx, maxx, miny, maxy)):
+            blob, *gids = db.execute("select geom, GID_0, GID_1, GID_2, GID_3, GID_4, GID_5 from gadm_410 where fid=?",
+                                     (fid,)).fetchone()
+            if region_of([x for x in gids if x]) in donors:
+                land.append(gpkg_geometry(blob))
+        pt = Point(point)
+        return unary_union([p for p in split(unary_union(land), line).geoms if p.intersects(pt.buffer(1e-6))])
+
+    custom = [(r, s, u, split_side(g[1], g[2], d) if isinstance(g, tuple) else g, d) for r, s, u, g, d in custom]
     report = []
     for region, source, unit, geom, donors in custom:
         if geom is None:

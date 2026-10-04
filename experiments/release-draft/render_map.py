@@ -25,6 +25,7 @@ from pathlib import Path
 import shapely
 from shapely import wkb
 from shapely.geometry import mapping, shape
+from shapely.ops import split
 
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parents[1]
@@ -73,7 +74,8 @@ def main():
         united.write_bytes(pickle.dumps({"key": key, "geoms": {rid: wkb.dumps(g) for rid, g in geoms.items()}}))
     final = OUT / f"final-{args.tolerance}.pickle"
     own_files = sorted((REPO / "data" / "custom-geometries").glob("*.geojson"))
-    key2 = key + hashlib.sha256(b"".join(f.read_bytes() for f in own_files)).hexdigest()
+    # the cache holds the result of apply_own, so it also depends on this script
+    key2 = key + hashlib.sha256(b"".join(f.read_bytes() for f in own_files) + Path(__file__).read_bytes()).hexdigest()
     cached = pickle.loads(final.read_bytes()) if final.exists() else {}
     if cached.get("key") == key2:
         geoms = {rid: wkb.loads(g) for rid, g in cached["geoms"].items()}
@@ -125,6 +127,19 @@ def apply_own(geoms, membership):
         if m["source"] != "custom geometry":
             continue
         data = json.loads((REPO / "data" / "custom-geometries" / m["unit"]).read_text())
+        donors = [d for d in m.get("clip_to", "").split() if d in geoms]
+        if data["features"][0]["geometry"]["type"] == "LineString":
+            # a line of control (D066): split the donors by it and keep the side with the holder's point
+            line = shape(data["features"][0]["geometry"])
+            point = shapely.Point(data["features"][0]["properties"]["holder_point"]["lonlat"])
+            land = shapely.union_all([geoms[d] for d in donors])   # whole donors: a box could cut off land on the far side
+            piece = shapely.union_all([p for p in split(land, line).geoms if p.intersects(point.buffer(1e-6))])
+            for d in donors:
+                geoms[d] = shapely.make_valid(shapely.difference(geoms[d], piece))
+            own[m["region_id"]].append(piece)
+            pieces[m["unit"]] = piece
+            log(f"own geometry {m['unit']} -> {m['region_id']} (line of control, donors: {' '.join(donors)})")
+            continue
         geom = shapely.make_valid(shapely.union_all([shape(f["geometry"]) for f in data["features"]]))
         # only the neighbourhood of the piece matters: clip whole countries to its box before any union
         x0, y0, x1, y1 = geom.bounds
