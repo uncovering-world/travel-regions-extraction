@@ -1,0 +1,17 @@
+{
+ "gadm_rows": 356508,
+ "one": 356507,
+ "none": 1,
+ "problems": [
+  {
+   "kind": "none",
+   "gid_0": "XCA",
+   "regions": [],
+   "example": [
+    "Caspian Sea",
+    "",
+    "XCA"
+   ]
+  }
+ ]
+}

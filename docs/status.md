@@ -55,4 +55,4 @@ Concluded on 2026-10-03 unless marked.
 
 ## Next step
 
-Geometry is settled in principle (D056, D059): regions bind to GADM 4.1 units (297 of 317), and the canon's own geometry comes from Natural Earth for 41 of the 47 places GADM cannot represent, OpenStreetMap for two, and four (Koalou, Rukwanzi–Semliki, the Dniester Security Zone, Varosha) must be digitised from documents. Next: the release format for TYR (queue item 7), then a first release package built from the list, the bindings and the custom geometries.
+A [first draft of the release package](../experiments/release-draft/README.md) exists: 314 regions, TYR's import tree, membership in GADM units and custom geometries, a manifest; every GADM unit falls into exactly one region (the Caspian Sea, water, into none). Next: a geometry check of the custom geometries against GADM (slivers, overlaps), pinning the two OpenStreetMap relations, the importer changes to propose to TYR (binding by unit identifiers, own geometry, stable region id, country), and the other declared perspectives as columns of `regions.csv`.

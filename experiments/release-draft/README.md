@@ -22,9 +22,13 @@ python3 experiments/release-draft/build.py
 - `manifest.json` — versions, the membership rule and the sha256 of every input.
 - `gaps.csv` — empty in this build.
 
+## Checks
+
+`check_cover.py` assigns every one of GADM 4.1's 356,508 rows (its smallest units) to regions by the membership rules, by identifiers alone. Result (`release/cover_check.json`): 356,507 rows fall into exactly one region; one, the Caspian Sea (`XCA`), into none, as intended (water). So the GADM part of the partition has no gaps and no overlaps.
+
 ## What is not checked
 
-- No geometry is computed: the membership rules have not been run against polygons, so overlaps, slivers and land covered by no region are not detected. That needs a geometry engine and is the next check.
+- The custom geometries are not intersected with GADM: that a Natural Earth polygon cuts the right land out of the right GADM units, and leaves no sliver, needs a geometry engine and is the next check.
 - Only one perspective (the canon's attribution) is in `regions.csv`; the other declared perspectives are not yet columns.
 - No correspondence table: this is the first draft.
 - TYR's importer reads only the tree; binding by unit identifiers and own geometry need the importer changes listed in the [output-format proposal](../../docs/proposals/output-format.md).
