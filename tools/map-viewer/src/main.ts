@@ -2,6 +2,28 @@ import maplibregl, { type GeoJSONSource, type MapGeoJSONFeature } from "maplibre
 import "maplibre-gl/dist/maplibre-gl.css";
 import "./style.css";
 
+interface Source {
+  url: string;
+  label: string;
+}
+
+/** A fact a region rests on, with its sources and the passage quoted from them. */
+interface Fact {
+  field: string;
+  value: string;
+  quote: string;
+  evidence: string;
+  sources: Source[];
+}
+
+/** A special place or a marker that lies in a region (R046). */
+interface Inside {
+  id: string;
+  name: string;
+  what: string;
+  why: string;
+}
+
 /** Properties of a region feature, as written by experiments/release-draft/export_viewer_data.py. */
 interface RegionProps {
   id: string;
@@ -9,9 +31,16 @@ interface RegionProps {
   country: string;
   country_code: string;
   basis: string;
+  why: string;
+  rules: { id: string; url: string; title: string }[];
+  status: string;
   evidence: string;
+  evidence_text: string;
   open: string;
   povs: Record<string, string>;
+  facts: Fact[];
+  carved: { id: string; name: string; how: string }[];
+  inside?: Inside[];
   units: string[];
   wikidata_id: string;
   color?: string;
@@ -25,6 +54,8 @@ interface OwnProps {
   whose_line: string;
   publisher: string;
   licence: string;
+  source_url: string;
+  notes: string;
 }
 
 type FC<P> = GeoJSON.FeatureCollection<GeoJSON.Geometry, P>;
@@ -131,7 +162,7 @@ async function main(): Promise<void> {
   function show(id: string | null): void {
     const f = id ? byId.get(id) : undefined;
     if (!f) {
-      $("info").innerHTML = '<p class="muted">Hover over a region; click to pin it.</p>';
+      $("info").innerHTML = '<p class="muted">Hover over a region; click it to pin the details and follow their links.</p>';
       return;
     }
     const p = f.properties;
@@ -142,22 +173,53 @@ async function main(): Promise<void> {
     const majority = [...counts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? "";
     const differing = values.filter(([, v]) => v !== majority);
     const owns = own?.features.filter((o) => o.properties.region === p.id) ?? [];
+    const seen = new Set<string>();
+    const ownLines = owns.filter((o) => !seen.has(o.properties.place) && seen.add(o.properties.place));
+    const link = (url: string, text: string) =>
+      url ? `<a href="${esc(url)}" target="_blank" rel="noreferrer">${esc(text)}</a>` : esc(text);
+    const sourceLinks = (sources: Source[]) =>
+      sources.filter((s) => s.url).map((s, i) => link(s.url, `[${i + 1}]`)).join(" ");
+    const host = (url: string) => { try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return url; } };
+    const inside = p.inside ?? [];
     $("info").innerHTML = `
       <h2>${esc(p.name)} ${pinned === p.id ? '<span class="pin">(pinned)</span>' : ""}</h2>
-      <table>
-        <tr><td>id</td><td><code>${esc(p.id)}</code></td></tr>
-        <tr><td>country</td><td>${esc(p.country)} ${p.country_code ? `<code>${esc(p.country_code)}</code>` : ""}</td></tr>
-        ${pov !== CANON ? `<tr><td>under ${esc(pov)}</td><td><code>${esc(p.povs[pov])}</code></td></tr>` : ""}
-        <tr><td>points of view</td><td>most: <code>${esc(majority)}</code>${
-          differing.length ? "<br>differ: " + differing.map(([k, v]) => `<span class="tag">${esc(k)} → ${esc(v)}</span>`).join("") : ""
-        }</td></tr>
-        <tr><td>basis</td><td>${esc(p.basis)}</td></tr>
-        <tr><td>evidence</td><td>${esc(p.evidence)}</td></tr>
-        ${p.open ? `<tr><td>open</td><td>${esc(p.open)}</td></tr>` : ""}
-        ${p.wikidata_id ? `<tr><td>Wikidata</td><td><a href="https://www.wikidata.org/wiki/${esc(p.wikidata_id)}" target="_blank" rel="noreferrer">${esc(p.wikidata_id)}</a></td></tr>` : ""}
-        <tr><td>made of</td><td>${p.units.map((u) => `<code>${esc(u)}</code>`).join("<br>")}</td></tr>
-        ${owns.map((o) => `<tr><td>own geometry</td><td>${esc(o.properties.place)}: rank ${esc(o.properties.rank)}, ${esc(o.properties.whose_line)} <span class="muted">(${esc(o.properties.licence)})</span></td></tr>`).join("")}
-      </table>`;
+      <p class="muted">${esc(p.country)}${p.id !== p.country_code ? ` · <code>${esc(p.id)}</code>` : ""}${
+        p.wikidata_id ? ` · ${link(`https://www.wikidata.org/wiki/${p.wikidata_id}`, p.wikidata_id)}` : ""}</p>
+
+      <h3>Why it is a region</h3>
+      <p>${esc(p.why)}</p>
+      ${p.status ? `<p><b>In the canon:</b> ${esc(p.status)}</p>` : ""}
+      <p class="rules">${p.rules.map((r) => link(r.url, `${r.id} ${r.title}`)).join(" · ")}</p>
+      <p class="muted">Evidence: ${esc(p.evidence_text)}.</p>
+      ${p.open ? `<p class="warn">Still open: ${esc(p.open)}</p>` : ""}
+
+      ${p.facts.length ? `<h3>Facts it rests on</h3><ul class="facts">${p.facts.map((f) => `
+        <li><b>${esc(f.field)}:</b> ${esc(f.value)} ${sourceLinks(f.sources)}
+          ${f.quote ? `<details><summary>quote${f.sources[0]?.url ? ` from ${esc(host(f.sources[0].url))}` : ""}</summary><blockquote>${esc(f.quote)}</blockquote></details>` : ""}
+        </li>`).join("")}</ul>` : ""}
+
+      ${inside.length ? `<h3>Special places and notes inside</h3><ul class="facts">${inside.map((s) => `
+        <li><b>${esc(s.name)}</b> <span class="tag">${esc(s.what)}</span><br><span class="muted">${esc(s.why)}</span></li>`).join("")}</ul>` : ""}
+
+      ${p.carved.length ? `<h3>Separate regions linked to it</h3><ul class="facts">${p.carved.map((c) => `
+        <li><a href="#" data-region="${esc(c.id)}">${esc(c.name)}</a> <span class="muted">— ${esc(c.how)}</span></li>`).join("")}</ul>` : ""}
+
+      <h3>Points of view</h3>
+      <p>Most say <code>${esc(majority)}</code>${pov !== CANON ? `; ${esc(pov)} says <code>${esc(p.povs[pov])}</code>` : ""}.${
+        differing.length ? "<br>Differ: " + differing.map(([k, v]) => `<span class="tag">${esc(k)} → ${esc(v)}</span>`).join("") : ""}</p>
+
+      ${ownLines.length ? `<h3>Own outline</h3><ul class="facts">${ownLines.map((o) => `
+        <li>${esc(o.properties.place)}: ${link(o.properties.source_url, o.properties.publisher)}, the line of ${esc(o.properties.whose_line)}
+          <span class="muted">(rank ${esc(o.properties.rank)}, ${esc(o.properties.licence)})</span>
+          ${o.properties.notes ? `<br><span class="muted">${esc(o.properties.notes)}</span>` : ""}</li>`).join("")}</ul>` : ""}
+
+      <details class="tech"><summary>Made of (substrate units)</summary>${p.units.map((u) => `<code>${esc(u)}</code>`).join("<br>")}</details>`;
+    $("info").querySelectorAll<HTMLAnchorElement>("a[data-region]").forEach((a) =>
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        focus(a.dataset.region!);
+      }),
+    );
   }
 
   function focus(id: string): void {
