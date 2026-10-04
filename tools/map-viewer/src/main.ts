@@ -108,6 +108,7 @@ async function main(): Promise<void> {
       ],
     },
   });
+  if (import.meta.env.DEV) (window as unknown as { map: maplibregl.Map }).map = map; // for checks from the console
   map.addControl(new maplibregl.NavigationControl(), "top-left");
   map.addControl(new maplibregl.ScaleControl(), "bottom-left");
 
@@ -122,6 +123,7 @@ async function main(): Promise<void> {
     }
     (map.getSource("regions") as GeoJSONSource | undefined)?.setData(regions!);
   }
+  recolour(CANON); // before the source exists, so the large file is tiled once, not twice
 
   let hovered: string | null = null;
   let pinned: string | null = null;
@@ -209,9 +211,11 @@ async function main(): Promise<void> {
         "line-width": ["case", ["boolean", ["feature-state", "hover"], false], 2.5, 0],
       },
     });
-    recolour(CANON);
-    $("summary").textContent =
-      `${regions.features.length} regions` + (own ? `, ${own.features.length} own geometries` : "") + ". Click a region to pin and zoom.";
+    $("summary").textContent = "Drawing regions…";
+    map.once("idle", () => {
+      $("summary").textContent =
+        `${regions.features.length} regions` + (own ? `, ${own.features.length} own geometries` : "") + ". Click a region to pin and zoom.";
+    });
   });
 
   map.on("mousemove", "fill", (e) => {
