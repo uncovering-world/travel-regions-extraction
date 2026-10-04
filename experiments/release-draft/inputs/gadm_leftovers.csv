@@ -3,5 +3,5 @@ Z02,CN,"GADM: Shaksgam Valley, sovereign China; register parties: China administ
 Z04,IN,"GADM: Kaurik, sovereign India"
 Z05,IN,"GADM: Lapthal, sovereign India; Natural Earth: Bara Hotii valleys admin. by India"
 Z09,IN,"GADM: Sang, sovereign India; Natural Earth: Tirpani valleys admin. by India"
-Z08,CN,"GADM: Pa-li-chia-ssu, sovereign China; the Indian-held Demchok part is overridden by its custom geometry"
+Z08,rule/cn-tibet,"GADM: Pa-li-chia-ssu (the China-held part of the Demchok sector), sovereign China, under Xizang / Ngari in GADM's own hierarchy (Z08.29.4_1), so it goes with the Tibet region, not with China as a whole (corrected 2026-10-04); the Indian-held part is overridden by its custom geometry"
 XCA,,"GADM: Caspian Sea; water, not a region"
