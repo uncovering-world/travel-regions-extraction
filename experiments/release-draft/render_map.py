@@ -37,6 +37,11 @@ def gpkg_geometry(blob):
     return wkb.loads(bytes(blob[8 + envelope:]))
 
 
+def rounded(geom):
+    """Coordinates rounded to 1e-4 degrees for a lighter file (display only; validity is not re-checked)."""
+    return shapely.transform(geom, lambda xy: xy.round(4))
+
+
 def log(message):
     print(time.strftime("%H:%M:%S"), message, file=sys.stderr, flush=True)
 
@@ -66,7 +71,16 @@ def main():
         geoms = unite(args.tolerance, inc, exc)
         OUT.mkdir(parents=True, exist_ok=True)
         united.write_bytes(pickle.dumps({"key": key, "geoms": {rid: wkb.dumps(g) for rid, g in geoms.items()}}))
-    apply_own(geoms, membership)
+    final = OUT / f"final-{args.tolerance}.pickle"
+    own_files = sorted((REPO / "data" / "custom-geometries").glob("*.geojson"))
+    key2 = key + hashlib.sha256(b"".join(f.read_bytes() for f in own_files)).hexdigest()
+    cached = pickle.loads(final.read_bytes()) if final.exists() else {}
+    if cached.get("key") == key2:
+        geoms = {rid: wkb.loads(g) for rid, g in cached["geoms"].items()}
+        log(f"regions with own geometries read from {final.name}")
+    else:
+        apply_own(geoms, membership)
+        final.write_bytes(pickle.dumps({"key": key2, "geoms": {rid: wkb.dumps(g) for rid, g in geoms.items()}}))
     write(geoms, regions, membership, args.tolerance)
 
 
@@ -108,14 +122,18 @@ def apply_own(geoms, membership):
             continue
         data = json.loads((REPO / "data" / "custom-geometries" / m["unit"]).read_text())
         geom = shapely.make_valid(shapely.union_all([shape(f["geometry"]) for f in data["features"]]))
+        # only the neighbourhood of the piece matters: clip whole countries to its box before any union
+        x0, y0, x1, y1 = geom.bounds
+        local = lambda g: shapely.make_valid(shapely.clip_by_rect(g, x0 - 0.1, y0 - 0.1, x1 + 0.1, y1 + 0.1))
         donors = [d for d in m.get("clip_to", "").split() if d in geoms]
-        taken = shapely.intersection(geom, shapely.union_all([geoms[d] for d in donors])) if donors else shapely.Polygon()
-        near = [geoms[ids[i]] for i in tree.query(geom)]
+        taken = shapely.intersection(geom, shapely.union_all([local(geoms[d]) for d in donors])) if donors else shapely.Polygon()
+        near = [local(geoms[ids[i]]) for i in tree.query(geom)]
         uncovered = shapely.difference(geom, shapely.union_all(near)) if near else geom
         piece = shapely.make_valid(shapely.union_all([taken, uncovered]))
         for d in donors:
             geoms[d] = shapely.make_valid(shapely.difference(geoms[d], piece))
         own[m["region_id"]].append(piece)
+        log(f"own geometry {m['unit']} -> {m['region_id']} (donors: {' '.join(donors) or 'none'})")
     for rid, pieces in own.items():
         geoms[rid] = shapely.make_valid(shapely.union_all(pieces + ([geoms[rid]] if rid in geoms else [])))
     log("own geometries applied")
@@ -129,10 +147,12 @@ def write(geoms, regions, membership, tolerance):
         povs = {k[4:]: v for k, v in r.items() if k.startswith("pov_") and v}
         majority = max(set(povs.values()), key=list(povs.values()).count) if povs else ""
         differing = {k: v for k, v in povs.items() if v != majority}
-        simple = geom.simplify(tolerance, preserve_topology=True)
+        simple = geom.simplify(tolerance, preserve_topology=False)
         if simple.is_empty:
             simple = geom
-        features.append({"type": "Feature", "geometry": mapping(shapely.set_precision(simple, 1e-4)), "properties": {
+        if len(features) % 50 == 0:
+            log(f"wrote {len(features)} regions")
+        features.append({"type": "Feature", "geometry": mapping(rounded(simple)), "properties": {
             "id": rid, "name": r.get("name", rid), "country": r.get("country", ""), "basis": r.get("basis", ""),
             "evidence": r.get("evidence", ""), "open": r.get("open", ""), "pov_majority": majority,
             "pov_differing": differing,
