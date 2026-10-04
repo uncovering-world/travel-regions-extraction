@@ -595,3 +595,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: national datasets show each party's claim, and where two parties publish different lines the choice between them follows the canon's attribution, not the source order alone.
 - Status: accepted.
 - Basis: owner decision, 2026-10-04.
+
+### D063 — Line disputes take the residents test like paper claims
+
+- Decision: amends D044. A dispute about where a border line runs is a region of its own when a supported point of view (R045) puts the area between the lines in another country and civilians live there; it is attributed to its holder and carries the other country under that point of view. Otherwise it stays a special place and its land goes with its holder.
+- Rationale: the canon exists so that a user can choose a side; Kalapani (415 km² between Nepal's 2020 line and the line India holds, with the villages Gunji, Kuti and Nabi) would otherwise count for India under every point of view, although Nepal's puts it in Nepal. The same test already applies to paper claims and islets (D045).
+- Rules: R050 (amended).
+- Counterarguments: uninhabited strips such as glaciers stay special places, so a user choosing such a party's point of view does not see them as that party's.
+- Status: accepted.
+- Basis: owner decision, 2026-10-04.
