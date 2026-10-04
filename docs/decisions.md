@@ -586,3 +586,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: national datasets are drawn for other purposes and their overlap also produces slivers along a border; only the part that contains the place is taken.
 - Status: accepted.
 - Basis: owner decision, 2026-10-04; [custom geometries](../data/custom-geometries/README.md).
+
+### D062 — Outline sources ranked by whose line they draw; clipped to the substrate
+
+- Decision: amends D059. A place's own geometry is taken, in this order, from (1) a line one of the parties publishes itself (an official national boundary dataset, a map annexed to a treaty or ceasefire agreement); (2) a line the parties agreed, drawn precisely by a neutral publisher (for example the US Department of State's World Polygons for an armistice line or a lease boundary); (3) OpenStreetMap; (4) Natural Earth. Each place records its source and whose line it is. Every own geometry is clipped to the substrate units of the regions it is meant to take land from, so its outer edge against a neighbouring country is the substrate's line.
+- Rationale: a [comparison of higher-resolution sources](../experiments/release-draft/README.md) found Natural Earth's polygons off by 18–74% for several places (the Korean DMZ is drawn about 2.5 times too wide; the Cyprus buffer zone and Kalapani are displaced), and a check against GADM found slivers taken from neighbouring countries (Somaliland 747 km² from Ethiopia). The owner objected to taking a third party's view as the default ("why the State Department if its maps of places like South Ossetia are wrong?"); the order therefore puts the parties' own lines first, and a neutral publisher only where the line is agreed.
+- Rules: R047 (amended).
+- Counterarguments: national datasets show each party's claim, and where two parties publish different lines the choice between them follows the canon's attribution, not the source order alone.
+- Status: accepted.
+- Basis: owner decision, 2026-10-04.
