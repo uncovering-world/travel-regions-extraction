@@ -175,3 +175,7 @@ Collected for D057 (a lease is a region when its holder is not the lessor). On r
 ## 13. Varosha re-kinded (2026-10-04)
 
 `varosha` was recorded as `own_regime` on the strength of UN Security Council Resolution 550, which calls for the area's transfer to UN administration. That is a call, not a regime in force: the register's own passage says the quarter is "currently under the control of Northern Cyprus". The owner noticed the result (Varosha had come out as a region with no single holder). Its kind is now `occupied_or_annexed` and its holder Northern Cyprus, both on that passage; it is part of the land Northern Cyprus holds, not a zone of its own.
+
+## 14. Dragonja after the 2017 award (added 2026-10-04)
+
+The register's `parties` for `dragonja` gives Slovenia's pre-award claim (south of the river). The 2017 arbitration award puts the land boundary on the Dragonja river, which Slovenia implemented and which is also Croatia's line; on land the two parties' cadastral lines now differ only by slivers. The kind (`line_position`) and parties need re-sourcing against the award text.

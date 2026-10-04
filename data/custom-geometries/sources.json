@@ -1193,35 +1193,6 @@
    "notes": "DoS has Rockall only as a part of 'United Kingdom'."
   },
   {
-   "place": "dragonja",
-   "region": "HR",
-   "donors": "SI",
-   "rank": 4,
-   "whose_line": "Natural Earth editors",
-   "publisher": "Natural Earth (ne_10m_admin_0_disputed_areas)",
-   "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_disputed_areas.geojson",
-   "version_or_date": "v5.1.2 (git tag); read 2026-10-04",
-   "licence": "public domain",
-   "input": "ne-5.1.2-disputed-areas",
-   "feature_id": "NE_ID 1159320835",
-   "select": {
-    "property": "NE_ID",
-    "values": [
-     1159320835
-    ],
-    "attributes": [
-     "NE_ID",
-     "NAME",
-     "BRK_NAME",
-     "NOTE_BRK",
-     "TYPE",
-     "ADMIN"
-    ]
-   },
-   "file": "dragonja.geojson",
-   "notes": "Two parties, two lines (register): Slovenia's (the 2017 arbitration award, which it implemented) and Croatia's (the river); not chosen here, neither checked as data. No DoS or OSM polygon of the strip. Whether the assignment to HR matches the holder is not established."
-  },
-  {
    "place": "senkaku",
    "region": "JP",
    "donors": "",

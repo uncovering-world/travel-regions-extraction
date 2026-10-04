@@ -47,7 +47,7 @@ Built and checked with shapely 2 / GEOS from the project's scratch environment; 
 | 3 | `siachen`, `demchok` → area/indian-jammu-kashmir-ladakh | OSM (Siachen's outline is a later Natural Earth edition imported into OSM; Demchok is OSM's India-controlled western sector) | ODbL 1.0 |
 | 3 | `bhutan-china-north` → BT | OSM: Bhutan-controlled part of the northern disputed area | ODbL 1.0 |
 | 3 | `bajo-nuevo`, `serranilla` → CO; `penon-de-alhucemas` → ES; `rockall` → GB; `bird-island` → VE | OSM coastlines | ODbL 1.0 |
-| 4 | `baikonur`, `east-jerusalem`, `shebaa-farms`, `western-sahara-moroccan-controlled`, `dragonja` → HR | Natural Earth editors | public domain |
+| 4 | `baikonur`, `east-jerusalem`, `shebaa-farms`, `western-sahara-moroccan-controlled` | Natural Earth editors | public domain |
 
 Each row of `sources.csv` gives the publisher, URL, version, feature ids and notes.
 
@@ -56,7 +56,7 @@ Each row of `sources.csv` gives the publisher, URL, version, feature ids and not
 - **ODbL 1.0** (OpenStreetMap contributors; share-alike — a database made from these files must stay under ODbL): `bajo-nuevo`, `bhutan-china-north`, `bird-island`, `cyprus-buffer-zone`, `demchok`, `gornja-siga`, `kalapani`, `kuril-islands`, `penon-de-alhucemas`, `rockall`, `serranilla`, `siachen`, `somaliland`.
 - **US government work**, not subject to US copyright (17 U.S.C. § 105; World Polygons metadata): the 21 rank-2 files.
 - **CC BY-IGO** (HDX COD-AB; attribution required): `south-ossetia`, `ye-socotra`, `koalou`.
-- **Public domain** (Natural Earth): `baikonur`, `dragonja`, `east-jerusalem`, `shebaa-farms`, `western-sahara-moroccan-controlled`.
+- **Public domain** (Natural Earth): `baikonur`, `east-jerusalem`, `shebaa-farms`, `western-sahara-moroccan-controlled`.
 
 ## Readings of the rule to review
 
@@ -66,7 +66,10 @@ Each row of `sources.csv` gives the publisher, URL, version, feature ids and not
 
 ## Contradictions and open places
 
-- **Two parties, two lines, not chosen** (Natural Earth or OSM kept meanwhile): East Jerusalem (Israel's municipal boundary vs the 1949 line), Dragonja (Slovenia's 2017 award line vs Croatia's river line), Kalapani (Nepal's claim vs India's line; neither found as data, and COD-AB Nepal does not follow Nepal's claim).
+- **Two parties, two lines** — the canon does not choose; it cuts along both (R045). Checked on 2026-10-04:
+  - East Jerusalem: the area between Israel's municipal boundary (Ministry of Interior layer `muni_il`) and the 1949 line (US State Department) is 67.1 km², within 1% of the Natural Earth polygon used here (66.6 km²); inhabited. Kept as is; the municipal layer's licence is not stated, so it is not copied here.
+  - Dragonja: the 2017 award puts the boundary on the river, which is also Croatia's line; on land the two lines differ only by slivers about 9 m wide. The Natural Earth strip, which moved 0.58 km² from Slovenia to Croatia, was removed; GADM's units stand.
+  - Kalapani: Nepal's 2020 line (geoBoundaries' digitisation, CC BY 4.0) and India's line (State Department) enclose 415 km² with seasonal villages (Gunji, Kuti, Nabi). How it is treated is the owner's question (a line dispute under D044, but a supported point of view, Nepal's, puts it in Nepal).
 - **Bhutan (northwest valleys):** Natural Earth's polygon lies where the State Department has China and overlaps none of OSM's Bhutan–China disputed areas. The file is OSM's Bhutan-held northern disputed area; it lies in GADM's Bhutan already, so the 1,220 km² of Tibet stay with Tibet. That it is the register's Pasamlung/Jakarlung is unverified.
 - **Demchok:** the canon's input gives Natural Earth's whole 2,268 km² "Demchok" to India's region; the register says each side holds its side of the Line of Actual Control. The file is OSM's India-controlled western sector (533 km²); the whole sector (OSM relation 2713466, about 1,474 km²) is the alternative.
 - **Natural Earth's names swapped:** its "Bajo Nuevo" feature lies at Serranilla and its "Serranilla" at Bajo Nuevo. The membership rows of the two Natural Earth ids should be swapped when they point to these files.
