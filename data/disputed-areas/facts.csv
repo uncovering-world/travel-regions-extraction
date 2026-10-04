@@ -1067,6 +1067,8 @@ siachen,on_the_ground,"Both countries keep a permanent military presence in the 
 siachen,inhabited,garrison_only,S0208,"Aside from the Indian and Pakistani military presence, the glacier region is unpopulated.",2026-10-03,secondary,manual
 siachen,traveller_access,expedition_only,S0208,"Since September 2007, India has opened up limited mountaineering and trekking expeditions to the area.",2026-10-03,secondary,manual
 siachen,area_km2,2500,S0209,"India gains control of 2,500 km 2 (970 sq mi)",2026-10-03,secondary,manual
+siachen,holder,India: the whole Siachen Glacier and its tributary glaciers and the passes and heights of the Saltoro Ridge; Pakistan holds the valleys west of the ridge,S0209,"Siachen Glacier and its tributary glaciers, as well as all the main passes and heights of the Saltoro Ridge immediately west of the glacier, including Sia La , Bilafond La , and Gyong La . Pakistan controls the glacial valleys immediately west of the Saltoro Ridge.",2026-10-04,secondary,manual
+siachen,holder_since,1984 (Operation Meghdoot),S0209,The conflict was started in 1984 by India's successful capture of the Siachen Glacier as part of Operation Meghdoot,2026-10-04,secondary,manual
 siachen,ne_name,Siachen Glacier,NE,,2026-10-03,machine,machine
 siachen,ne_type,Indeterminate,NE,,2026-10-03,machine,machine
 siachen,ne_note,Claimed by Pakistan and India,NE,,2026-10-03,machine,machine
