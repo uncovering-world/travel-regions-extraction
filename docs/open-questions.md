@@ -1,6 +1,6 @@
 # Canonical Travel Regions — open questions of the model
 
-Version: 0.4.0-draft. Date: 2026-10-03. Changes in 0.4.0-draft: Q006 closed; Q001–Q005 and Q007–Q012 annotated or narrowed by the owner's decisions of 2026-10-03 (D038–D053); Q013–Q019 added; Q017 closed and Q016 narrowed by D054–D055.
+Version: 0.4.1-draft. Date: 2026-10-04. Changes in 0.4.1-draft: Q014 narrowed and Q020 added by D065. Changes in 0.4.0-draft: Q006 closed; Q001–Q005 and Q007–Q012 annotated or narrowed by the owner's decisions of 2026-10-03 (D038–D053); Q013–Q019 added; Q017 closed and Q016 narrowed by D054–D055.
 
 The order reflects the potential scale of change to the world map: from a change in the definition of almost all regions to changes in individual classes and in history. These are model questions. "Which document is required now?" and "Where does the line run on date t?" are data tasks, not separate items of this list.
 
@@ -166,6 +166,8 @@ D038 declares ISO 3166-1 and the national points of view of Natural Earth. Not d
 
 Narrowed on 2026-10-04 by D064: parties without a Natural Earth view get their own, from their sourced claims. Open within it: whether de facto authorities count as parties with a view, and how each claim's outline is sourced.
 
+Narrowed on 2026-10-04 by D065: Natural Earth's attributions are a lead, not a perspective of their own; how its errors are handled no longer decides any boundary. The remaining points (de facto authorities, sourcing a claim's outline, unchecked differences) move to Q020.
+
 ## Q015 — Scope test details: what is a top-level or detached unit, and what does a rule over several units give?
 
 **Impact: which entry rules make regions.** R014, R056; D050.
@@ -201,6 +203,14 @@ Open: how Track Your Regions carries special places (the owner expects a categor
 D049 fixes the yearly release, entry after two consecutive releases and exit after three years without the rule. Not decided: how the three years are counted against releases (calendar years from the suspension, or year-end cut-offs without the rule); whether releases ship a correspondence table between identifiers; whether a de-minimis rule applies to geometry corrections (the proposal: 1% of a region's area); and how a correction of an error of ours between releases is published.
 
 **Closure criterion:** the owner decides each point, recorded in R055 or R032.
+
+## Q020 — What counts as a sourced claim, and what happens to Natural Earth's differences until they are checked?
+
+**Impact: which disputed areas become regions under D065.** R045; D064, D065.
+
+D065 builds every country's point of view from its sourced claims and treats Natural Earth's views as a lead. Not decided: which documents count as a claim (law, constitution, official map, government statement, a claim pressed at a court) and whether one is enough; what a claim is when the sources disagree (a constitution that keeps it while an unratified treaty renounces it); whether de facto authorities have views (from Q014); how the outline of a claim is sourced where the claimant publishes no line (R047); and whether a Natural Earth difference that has not been checked yet keeps cutting a boundary in drafts until it is.
+
+**Closure criterion:** the owner decides each point, recorded in R045.
 
 ## What is intentionally not included in this list
 

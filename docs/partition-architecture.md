@@ -16,11 +16,11 @@ The positive compatibility outcome is `hard_compatible`. It means both units hav
 
 Absence of a CR-W certificate is not compatibility. Production completeness covers all accepted hard decision dimensions at the same versioned traveller scope and time, excluding CR-J/identity. Q001 is narrowed, not all Stage 1 semantics complete. See the [adoption record](../experiments/q001/stage1-core-adoption.md).
 
-### Stage 1 as decided on 2026-10-03 (D038–D064)
+### Stage 1 as decided on 2026-10-03 (D038–D065)
 
 Stage 1 boundaries come from three sources, and a release is built from them under the product profile `S1-product-v1` (R057):
 
-1. **Reference registry** (R045). Stage 1 refines ISO 3166-1 and the national points of view of Natural Earth, at pinned editions that change only by the owner's decision at a release. No region crosses a country boundary under a declared perspective, except the land of special places below. Antarctica is one Stage 1 cell; claims there are overlays (R026).
+1. **Reference registry** (R045). Stage 1 refines ISO 3166-1 and the countries' points of view, each built from the country's sourced claims (D064, D065; Natural Earth's national views are a lead, checked difference by difference), at pinned editions that change only by the owner's decision at a release. No region crosses a country boundary under a declared perspective, except the land of special places below. Antarctica is one Stage 1 cell; claims there are overlays (R026).
 2. **Disputed and special-status areas** (R047–R054), read from the [register](../data/disputed-areas/README.md). The holder of an area is whoever can in practice admit, refuse and remove a civilian (R048). A forcible change of control is accepted after three quiet calendar years or an explicit act of the losing side; while the line moves nothing is delimited (R049). Border-line disputes are special places; islets and paper claims are regions where civilians live; zones with no single holder are regions where civilians live and the parties state an outline; leases follow the lessor and are regions only with entry rules of their own. Outlines are never drawn here: they come from lines the parties state (R047).
 3. **CR-W** (R044 with the amendments of R056): transit, organised-group, local-border-traffic and fee rules do not separate; a tour-operator-only rule does; an entry rule separates a whole top-level unit or a detached unit with a rule written for it, and an area held by another party through the holder's own rule.
 

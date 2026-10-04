@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.0-draft. Date: 2026-10-03. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.1-draft. Date: 2026-10-04. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -613,3 +613,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: a party's view built from the register states only its claims in the register's disputes, not its whole map; which entities count as parties (states only, or also de facto authorities) and how a claim's outline is sourced are open (Q014).
 - Status: accepted.
 - Basis: owner decision, 2026-10-04 ("Нужны свои").
+
+### D065 — Natural Earth's points of view are a lead; a country's view is built from its sourced claims
+
+- Decision: a country's point of view (R045) is built from that country's sourced claims — a law, its constitution, an official map or a government statement. Natural Earth's national points of view show where to look: each place where a Natural Earth view differs from the others is checked against the country's claims, and a difference that no sourced claim of that country supports cuts no boundary. Countries that have a Natural Earth view and parties that have none (D064) are treated alike.
+- Rationale: Natural Earth's choices are not documented well enough to stand as a basis. Research of 2026-10-04 found that Portugal's view shows Olivenza as Portuguese through a commit titled only "fix PORT-SPAIN dispute", with no cited source; that the east edge of its Siachen polygon has no stated source; and that no criteria are published for which countries get a view. As a result two paper claims of the same kind were treated differently only because one claimant has a Natural Earth view (Olivenza a region, Ivangorod and Pechory district a note). The canon lets a user choose a side, so a side must be a party's own claim, not an editor's rendering of it.
+- Rules: R045 (amended); D038 (its "national points of view of Natural Earth" read as points of view built under this decision); D064 (extended to every country).
+- Counterarguments: every difference now needs a source, which is more work than reading a dataset's columns; some claims are ambiguous (a constitution that keeps a claim while an unratified treaty renounces it); a claim's outline still needs a stated line (R047). What counts as a sourced claim and how the draft treats differences not yet checked are open (Q020). The alternatives were keeping Natural Earth's 31 views as a direct basis (simpler, but an editor's choice becomes a boundary) and building views from claims only after first measuring how many differences can be sourced.
+- Status: accepted.
+- Basis: owner decision, 2026-10-04 ("Возможно не надо ссылаться на НатЁрс как на надёжный источник, а понимать почему они так сделали"; option "Natural Earth as a lead; cut by the claim").

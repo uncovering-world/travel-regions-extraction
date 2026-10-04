@@ -13,6 +13,7 @@ Decisions are taken one at a time in conversation with the owner; this list is t
 **Decided on 2026-10-03 and recorded** in [decisions.md](decisions.md), [spec.md](spec.md) and [open-questions.md](open-questions.md):
 
 - D038 / R045 — reference registry: Stage 1 refines ISO 3166-1 and the Natural Earth national points of view (#19); D039 — pinned editions, changed only by the owner's decision at a release.
+- D064, D065 / R045 — every country's point of view is built from its sourced claims; Natural Earth's views are a lead, and a difference no sourced claim supports cuts no boundary. Open: what counts as a claim and how unchecked differences are treated (Q020).
 - D040 / R026 (amended) — Antarctica: one Stage 1 cell, divided in Stage 2 by access; claims stay an overlay.
 - D041 / R046 — special places are tickable objects inside their parent region, not regions; to be raised with TYR as an importer need.
 - D042 / R047 — outlines only from lines the parties state; the substrate is extensible with cited custom geometries (design open: Q013).
