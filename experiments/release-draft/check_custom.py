@@ -64,11 +64,11 @@ def main():
             geom = unary_union([shape(f["geometry"]) for f in data["features"]])
         else:
             geom = None   # OpenStreetMap relations are not fetched here
-        custom.append((r["region_id"], r["source"], r["unit"], geom))
+        custom.append((r["region_id"], r["source"], r["unit"], geom, set(r.get("clip_to", "").split())))
 
     db = sqlite3.connect(f"file:{GADM}?mode=ro", uri=True)
     report = []
-    for region, source, unit, geom in custom:
+    for region, source, unit, geom, donors in custom:
         if geom is None:
             report.append({"region": region, "source": source, "unit": unit, "note": "geometry not available locally"})
             continue
@@ -87,15 +87,16 @@ def main():
                 continue
             land.append(part)
             donor = region_of([x for x in gids if x])
-            taken[donor] = taken.get(donor, 0) + km2(part, c.x, c.y)
+            key = ("already its own" if donor == region else donor if donor in donors else f"clipped away: {donor}")
+            taken[key] = taken.get(key, 0) + km2(part, c.x, c.y)
         total = km2(geom, c.x, c.y)
         on_land = km2(unary_union(land), c.x, c.y) if land else 0.0
         report.append({"region": region, "source": source, "unit": unit, "polygon_km2": round(total, 2),
                        "on_gadm_land_km2": round(on_land, 2),
-                       "taken_from": {k: round(v, 2) for k, v in sorted(taken.items(), key=lambda kv: -kv[1])}})
+                       "donors": sorted(donors), "taken_from": {k: round(v, 2) for k, v in sorted(taken.items(), key=lambda kv: -kv[1])}})
 
     overlaps = []
-    shapes = [(r, u, g) for r, s, u, g in custom if g is not None]
+    shapes = [(r, u, g) for r, s, u, g, _ in custom if g is not None]
     for i, (r1, u1, g1) in enumerate(shapes):
         for r2, u2, g2 in shapes[i + 1:]:
             if r1 != r2 and g1.intersects(g2):

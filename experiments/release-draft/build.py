@@ -29,13 +29,11 @@ INPUTS = [
     "experiments/stage1-list/outputs/regions.csv",
     "experiments/gadm-binding/outputs/bindings.csv",
     "experiments/outline-sources/outputs/regions.csv",
-    "experiments/custom-geometry-sources/inputs/places.csv",
     "experiments/stage1-world-draft/inputs/crw_scopes.csv",
     "experiments/release-draft/inputs/attribution.csv",
-    "experiments/release-draft/inputs/custom_assignments.csv",
     "experiments/release-draft/inputs/gadm_leftovers.csv",
-    "experiments/release-draft/inputs/osm_geometries.csv",
-    "data/custom-geometries/koalou.geojson",
+    "data/custom-geometries/sources.csv",
+    "data/custom-geometries/sources.json",
     "docs/spec.md",
 ]
 
@@ -110,19 +108,11 @@ def main() -> None:
         if r["region"]:
             membership.append({"region_id": r["region"], "source": GADM, "unit": r["gid_0"], "role": "include",
                                "precedence": 2})
-    places = {r["place"]: r for r in read("experiments/custom-geometry-sources/inputs/places.csv")}
-    for place, p in places.items():
-        if p["group"] == "A" and place in ids and p["ne_ids"]:
-            for ne_id in p["ne_ids"].split():
-                membership.append({"region_id": place, "source": NE, "unit": ne_id, "role": "include", "precedence": 1})
-    for r in read("experiments/release-draft/inputs/custom_assignments.csv"):
-        for ne_id in r["ne_ids"].split():
-            membership.append({"region_id": r["region"], "source": NE, "unit": ne_id, "role": "include", "precedence": 1})
-    membership.append({"region_id": "area/koalou", "source": CUSTOM, "unit": "koalou.geojson", "role": "include",
-                       "precedence": 1})
-    for r in read("experiments/release-draft/inputs/osm_geometries.csv"):
-        membership.append({"region_id": r["region"], "source": "OpenStreetMap relation", "unit": r["relation"],
-                           "role": "include", "precedence": 1})
+    # the canon's own geometries (D059, D062): files in data/custom-geometries, clipped by the consumer to the
+    # substrate units of their donor regions
+    for r in read("data/custom-geometries/sources.csv"):
+        membership.append({"region_id": r["region"], "source": CUSTOM, "unit": r["file"], "role": "include",
+                           "precedence": 1, "clip_to": r["donors"].replace(";", " ")})
     with_geometry = {m["region_id"] for m in membership if m["role"] == "include"}
     for r in table:
         if r["region_id"] not in with_geometry:
@@ -148,11 +138,12 @@ def main() -> None:
 
     OUT.mkdir(exist_ok=True)
     (OUT / "geometry").mkdir(exist_ok=True)
-    (OUT / "geometry" / "koalou.geojson").write_bytes((REPO / "data" / "custom-geometries" / "koalou.geojson").read_bytes())
+    for f in sorted((REPO / "data" / "custom-geometries").glob("*.geojson")):
+        (OUT / "geometry" / f.name).write_bytes(f.read_bytes())
     (OUT / "canon.json").write_text(json.dumps(tree, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     write_csv(OUT / "regions.csv", sorted(table, key=lambda r: r["region_id"]),
               ["region_id", "name", "wikidata_id", "basis", "country", "country_code", "evidence", "open"])
-    write_csv(OUT / "membership.csv", membership, ["region_id", "source", "unit", "role", "precedence"])
+    write_csv(OUT / "membership.csv", membership, ["region_id", "source", "unit", "role", "precedence", "clip_to"])
     write_csv(OUT / "gaps.csv", gaps, ["item", "missing"])
     manifest = {
         "release": "draft-2026-10-04", "status": "draft, not a release",
@@ -160,8 +151,8 @@ def main() -> None:
         "rules": "docs/spec.md 0.4.0-draft (D038-D061)",
         "registry": {"ISO 3166-1": "iso-codes 4.20.1", "Natural Earth": "v5.1.2"},
         "substrate": {"GADM": "4.1 (gadm_410.gpkg; unit identifiers only, no GADM geometry in this package)"},
-        "membership": "a region is the union of its include rows minus its exclude rows; precedence 1 (custom "
-                      "geometry) wins over precedence 2 (GADM units)",
+        "membership": "a region is the union of its include rows minus its exclude rows; precedence 1 (own "
+                      "geometry, clipped to the GADM units of the regions in clip_to) wins over precedence 2 (GADM units)",
         "counts": {"regions": len(table), "countries_in_tree": len(children),
                    "membership_rows": len(membership), "gaps": len(gaps)},
         "inputs": {rel: hashlib.sha256((REPO / rel).read_bytes()).hexdigest() for rel in INPUTS},

@@ -1,0 +1,1432 @@
+{
+ "description": "Pinned inputs and per-place sources of the canon's own geometries (D062, R047). build.py rebuilds the GeoJSON files and sources.csv from this file.",
+ "rule": "Sources ranked by whose line they draw: 1 a party's own published line; 2 a line the parties agreed, drawn by a neutral publisher; 3 OpenStreetMap; 4 Natural Earth v5.1.2. No clipping in the files: the clip to the donors' substrate units is done by the consumer.",
+ "inputs": {
+  "dos-worldpolygons-11.4": {
+   "kind": "worldpolygons-gpkg",
+   "url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "zip_members": [
+    "WorldPolygons/WorldPolygon_11_4_BETA_24Feb2025.zip",
+    "WorldPolygon_11_4_BETA_24Feb2025/WorldPolygons11_4.gpkg"
+   ],
+   "cache_file": "WorldPolygons11_4.gpkg",
+   "sha256": "55fab422ef09e35eb48d68141b9ece0ace86d4276dfe332a04dfd401c0bfc80c",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues",
+   "version": "World Polygons 11.4 BETA of 2025-02-24 (WorldPolygons.zip: Last-Modified 2025-09-12, 2,438,845,406 bytes, ETag bd9f022c788b721cf807609654fc12d6; the publisher's SHA256 of the inner WorldPolygons_11_4_BETA_24Feb2025.zip is E4FFC1EE55BD8A792F5C7BD515A4018B4321DB0D18C914769FEE0C222305A447)",
+   "metadata": "https://data.geodata.state.gov/waf/iso/worldpolygons.xml",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105), per the metadata's copyright notice",
+   "retrieved": "2026-10-04",
+   "sha256_of": "the extracted WorldPolygons11_4.gpkg"
+  },
+  "ne-5.1.2-disputed-areas": {
+   "kind": "geojson",
+   "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_disputed_areas.geojson",
+   "cache_file": "ne_10m_admin_0_disputed_areas.geojson",
+   "sha256": "9cafef8b7dfb6b164dc58f218f981f4ace9f716f6c03795d4c62d1ac9f3d50f5",
+   "publisher": "Natural Earth",
+   "version": "v5.1.2 (git tag)",
+   "licence": "public domain (https://www.naturalearthdata.com/about/terms-of-use/)",
+   "retrieved": "2026-10-04"
+  },
+  "cod-ab-geo": {
+   "kind": "geojson-zip",
+   "url": "https://data.humdata.org/dataset/3ee95199-2dfe-40fc-b9bd-b44cc8c91024/resource/e5f2125c-d2aa-49ee-a7d1-1fa27fb030df/download/geo_admin_boundaries.geojson.zip",
+   "cache_file": "geo_admin_boundaries.geojson.zip",
+   "sha256": "a746ea99257e3e949eb519c01fd4423464ab0236471e8e671358ec0329a0bc73",
+   "publisher": "National Statistics Office of Georgia, via OCHA's COD-AB on HDX (dataset cod-ab-geo; 'modifications by OCHA')",
+   "version": "COD-AB Georgia v01, valid_on 2019-10-18; HDX resource last_modified 2026-01-26",
+   "licence": "CC BY-IGO (HDX license_title)",
+   "retrieved": "2026-10-04"
+  },
+  "cod-ab-yem": {
+   "kind": "geojson-zip",
+   "url": "https://data.humdata.org/dataset/6b2656e2-b915-4671-bfed-468d5edcd80a/resource/c79a3728-44cd-4d20-8ea4-ecfab88c1450/download/yem_admin_boundaries.geojson.zip",
+   "cache_file": "yem_admin_boundaries.geojson.zip",
+   "sha256": "4529c4450f4ef6e4728c80ab010a6bdc1ed9c4644294c14717fdddf6c2528972",
+   "publisher": "Central Statistical Organization (CSO) of Yemen, via OCHA's COD-AB on HDX (dataset cod-ab-yem)",
+   "version": "COD-AB Yemen v01, valid_on 2019-11-22; HDX resource last_modified 2026-01-26",
+   "licence": "CC BY-IGO (HDX license_title)",
+   "retrieved": "2026-10-04"
+  },
+  "osm-2026-10-04": {
+   "kind": "osm-overpass",
+   "endpoints": [
+    "https://overpass-api.de/api/interpreter"
+   ],
+   "date": "2026-10-04T06:57:51Z",
+   "elements": {
+    "relation": [
+     3263909,
+     3586169,
+     8831214,
+     9823095,
+     11592431,
+     11789426,
+     13559363,
+     13559521,
+     14102287,
+     16381727
+    ],
+    "way": [
+     8692684,
+     335569980,
+     335569981,
+     1339962684,
+     1368829633,
+     1368829634
+    ]
+   },
+   "cache_file": "osm_2026-10-04T065751Z.json",
+   "sha256": "1838423be70b3ca5632ef5eaec9e63dbcc02882905378bd38723d4f9e6125ed7",
+   "sha256_of": "the canonical cache file (elements sorted by type and id, JSON with sorted keys; the Overpass run-time header is dropped)",
+   "publisher": "OpenStreetMap contributors (Overpass API attic query)",
+   "version": "OpenStreetMap as of 2026-10-04T06:57:51Z",
+   "licence": "ODbL 1.0 (https://www.openstreetmap.org/copyright)",
+   "retrieved": "2026-10-04"
+  }
+ },
+ "places": [
+  {
+   "place": "armistice-no-mans-lands",
+   "region": "area/armistice-no-mans-lands",
+   "donors": "IL;PS",
+   "rank": 2,
+   "whose_line": "the 1949 Israel–Jordan armistice lines (limits of the no-man's-lands) as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 216; 217; 204",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     216,
+     217,
+     204
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "armistice-no-mans-lands.geojson",
+   "notes": "Union of DoS 'No Man's Land' x2 (Latrun, Jerusalem; LSIB label '1949 Armistice Line') and 'Mt. Scopus South'; one DoS feature also has a 0.01 km² part at about 35.495°E 32.401°N, outside the three places. The Mount Scopus enclave itself (about 1.0 km²) is not a separate DoS feature (it is a part of DoS's 'Israel' polygon), so it is missing here; Natural Earth's 'Mount Scopus' feature included it. Owner to decide (see README)."
+  },
+  {
+   "place": "baikonur",
+   "region": "area/baikonur",
+   "donors": "KZ",
+   "rank": 4,
+   "whose_line": "Natural Earth editors",
+   "publisher": "Natural Earth (ne_10m_admin_0_disputed_areas)",
+   "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_disputed_areas.geojson",
+   "version_or_date": "v5.1.2 (git tag); read 2026-10-04",
+   "licence": "public domain",
+   "input": "ne-5.1.2-disputed-areas",
+   "feature_id": "NE_ID 1159320965",
+   "select": {
+    "property": "NE_ID",
+    "values": [
+     1159320965
+    ],
+    "attributes": [
+     "NE_ID",
+     "NAME",
+     "BRK_NAME",
+     "NOTE_BRK",
+     "TYPE",
+     "ADMIN"
+    ]
+   },
+   "file": "baikonur.geojson",
+   "notes": "No published outline of the lease area found: DoS World Polygons has none (inside 'Kazakhstan'); OpenStreetMap has only the city (relation 5295657, 38 km²) and the cosmodrome land use (relation 6725906, 2,743 km²); HDX COD-AB Kazakhstan is from OSM via UNHCR, not a party's dataset."
+  },
+  {
+   "place": "bir-tawil",
+   "region": "area/bir-tawil",
+   "donors": "EG;SD",
+   "rank": 2,
+   "whose_line": "the political boundary, which Egypt asserts, and the administrative boundary, which Sudan asserts, as drawn by the US Department of State (LSIB 'International Boundary' and 'Administrative Boundary')",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 33",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     33
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "bir-tawil.geojson",
+   "notes": "Rank 2 on the reading that the parties dispute which of the two lines is the boundary, not where each runs (register: Egypt asserts the political, Sudan the administrative boundary); that neither disputes their position is not verified. OpenStreetMap relation 3335661 differs by about 22 km² from it."
+  },
+  {
+   "place": "cyprus-buffer-zone",
+   "region": "area/cyprus-buffer-zone",
+   "donors": "CY;area/northern-cyprus",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/3263909",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 3263909 v166 (2026-03-28T14:40:11Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "relation 3263909",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      3263909,
+      166
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "cyprus-buffer-zone.geojson",
+   "notes": "No party's or UN dataset of the 1974 ceasefire lines found (DoS World Polygons has the zone inside 'Cyprus'; the UNFICYP map is not open data). The relation runs into the sea at both ends and overlaps GADM's Akrotiri and Dhekelia by about 1.7 km²; the consumer's clip to the donors' land removes both."
+  },
+  {
+   "place": "east-jerusalem",
+   "region": "area/east-jerusalem",
+   "donors": "PS;IL",
+   "rank": 4,
+   "whose_line": "Natural Earth editors",
+   "publisher": "Natural Earth (ne_10m_admin_0_disputed_areas)",
+   "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_disputed_areas.geojson",
+   "version_or_date": "v5.1.2 (git tag); read 2026-10-04",
+   "licence": "public domain",
+   "input": "ne-5.1.2-disputed-areas",
+   "feature_id": "NE_ID 1746265961",
+   "select": {
+    "property": "NE_ID",
+    "values": [
+     1746265961
+    ],
+    "attributes": [
+     "NE_ID",
+     "NAME",
+     "BRK_NAME",
+     "NOTE_BRK",
+     "TYPE",
+     "ADMIN"
+    ]
+   },
+   "file": "east-jerusalem.geojson",
+   "notes": "Two parties, two lines (register: Israel's position follows the extended municipal boundary, the Palestinian one the 1949 Agreements); not chosen here. Neither is available as a polygon of East Jerusalem: HDX COD-AB Palestine has only the whole Jerusalem governorate (344.5 km²); OpenStreetMap relation 1381350 is the whole Israeli municipality. Natural Earth kept until the owner decides."
+  },
+  {
+   "place": "gornja-siga",
+   "region": "area/gornja-siga",
+   "donors": "HR;RS",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/16381727",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 16381727 v11 (2026-03-05T23:00:50Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "relation 16381727",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      16381727,
+      11
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "gornja-siga.geojson",
+   "notes": "Neither Croatia's nor Serbia's official boundary data was checked. The relation is a multipolygon tagged only with its name and Wikidata id. GADM puts about 4.1 km² of it in Croatia and 1.8 km² in Serbia, hence both donors."
+  },
+  {
+   "place": "guantanamo-bay",
+   "region": "area/guantanamo-bay",
+   "donors": "CU",
+   "rank": 2,
+   "whose_line": "the 1903 lease boundary as drawn by the US Department of State (LSIB 'Special Line', note 'US Naval Base Guantanamo Bay')",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 300",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     300
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "guantanamo-bay.geojson",
+   "notes": "The United States is the lessee, so DoS is also a party here; ranked 2 rather than 1 because the dataset disclaims being the US view ('should not be relied upon as a representation of the views of the United States'), and D062 names a DoS lease boundary as its rank-2 example. Cuba's line not found (HDX COD-AB Cuba is from GADM)."
+  },
+  {
+   "place": "ilemi-triangle",
+   "region": "area/ilemi-triangle",
+   "donors": "KE;SS",
+   "rank": 2,
+   "whose_line": "the Kenya–South Sudan administrative and provisional boundaries bounding the triangle, as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 135; 136",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     135,
+     136
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "ilemi-triangle.geojson",
+   "notes": "Union of DoS 'Ilemi Triangle (Kenya)' and 'Ilemi Triangle (South Sudan)', bounded by lines LSIB labels 'Administrative Boundary' and 'Provisional Boundary'. Rank 2 on the same reading as Bir Tawil, not verified. OpenStreetMap relation 192797 is a different line (differs by about 1,000 km²). HDX COD-AB Kenya is 'not an official administrative layer from the National authorities'."
+  },
+  {
+   "place": "siachen",
+   "region": "area/indian-jammu-kashmir-ladakh",
+   "donors": "area/gilgit-baltistan",
+   "rank": 3,
+   "whose_line": "a later Natural Earth edition (NE_ID 1746708607) imported into OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/13559521",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 13559521 v10 (2026-09-03T12:38:19Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "relation 13559521",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      13559521,
+      10
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "siachen.geojson",
+   "notes": "No agreed line exists, so DoS's 'Siachen' polygon (its own line; note 'Do not connect Line of Control lines to China') is not rank 2. The OSM relation carries ne_id 1746708607 and ne:brk_a3 B45: its outline is Natural Earth's, from an edition later than v5.1.2."
+  },
+  {
+   "place": "demchok",
+   "region": "area/indian-jammu-kashmir-ladakh",
+   "donors": "CN;rule/cn-tibet",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers: the part of the Demchok sector controlled by India (west of the Line of Actual Control)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/9823095",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 9823095 v6 (2026-09-11T06:59:38Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "relation 9823095",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      9823095,
+      6
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "demchok.geojson",
+   "notes": "Contradiction with the canon's input: custom_assignments gives Natural Earth's whole 'Demchok' (2,268 km², 'Admin. by India') to India's region, but the register says each side holds its side of the LAC, and DoS (fid 78) and OSM (relation 2713466) draw the whole disputed sector at about 1,474 km². This file takes OSM's India-controlled 'Demchok Western Sector' (claimed_by CN, controlled_by IN). The LAC is not a line both parties state (R047). Alternative: relation 2713466 (whole sector)."
+  },
+  {
+   "place": "koalou",
+   "region": "area/koalou",
+   "donors": "BJ;BF",
+   "rank": 1,
+   "whose_line": "Burkina Faso's national outline (IGB) and Benin's (SALB/OCHA): the land both include",
+   "publisher": "derived in this repository (D061) from OCHA COD-AB admin-0 of Burkina Faso and Benin on HDX",
+   "source_url": "https://data.humdata.org/dataset/cod-ab-bfa; https://data.humdata.org/dataset/cod-ab-ben",
+   "version_or_date": "Burkina Faso v03 valid_on 2025-08-01; Benin v01 valid_on 2019-08-16; read 2026-10-04",
+   "feature_id": "intersection polygon containing OSM node 3813587874",
+   "licence": "CC BY-IGO",
+   "input": "kept",
+   "select": {
+    "kind": "kept",
+    "sha256": "c4bac59b49da5ee0e0cd683a96139882da78d157803faf44d749300997eb2ae3"
+   },
+   "file": "koalou.geojson",
+   "notes": "Kept as accepted (D061); not rebuilt, its sha256 is checked. DoS World Polygons' 'Koalou / Kourou' (7.7 km²) lies almost wholly inside it."
+  },
+  {
+   "place": "korean-dmz",
+   "region": "area/korean-dmz",
+   "donors": "KR;KP",
+   "rank": 2,
+   "whose_line": "the 1953 Korean Armistice Military Demarcation Line and the DMZ limits as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 82; 83",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     82,
+     83
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "korean-dmz.geojson",
+   "notes": "Union of DoS 'DMZ - North Korea' and 'DMZ - South Korea' (LSIB labels 'Military Demarcation Line', 'DMZ'). Natural Earth's two halves were about 2.5 times as wide."
+  },
+  {
+   "place": "kuril-islands",
+   "region": "area/kuril-islands",
+   "donors": "RU",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers: the four island groups Japan claims (relation cites Japan's Ministry of Foreign Affairs)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/14102287",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 14102287 v11 (2023-08-25T09:41:50Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "relation 14102287",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      14102287,
+      11
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "kuril-islands.geojson",
+   "notes": "DoS has the islands only as parts of its 'Japan' polygon (no separate feature), so not used. Japan's or Russia's official data not checked."
+  },
+  {
+   "place": "shebaa-farms",
+   "region": "area/shebaa-farms",
+   "donors": "LB",
+   "rank": 4,
+   "whose_line": "Natural Earth editors",
+   "publisher": "Natural Earth (ne_10m_admin_0_disputed_areas)",
+   "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_disputed_areas.geojson",
+   "version_or_date": "v5.1.2 (git tag); read 2026-10-04",
+   "licence": "public domain",
+   "input": "ne-5.1.2-disputed-areas",
+   "feature_id": "NE_ID 1159320907",
+   "select": {
+    "property": "NE_ID",
+    "values": [
+     1159320907
+    ],
+    "attributes": [
+     "NE_ID",
+     "NAME",
+     "BRK_NAME",
+     "NOTE_BRK",
+     "TYPE",
+     "ADMIN"
+    ]
+   },
+   "file": "shebaa-farms.geojson",
+   "notes": "No line stated by the parties (register); the UN's 2007 definition by its former cartographer Miklos Pinther is not available as data. No DoS or OSM polygon. HDX COD-AB Lebanon was 'prepared by ITOS to match the UN GIS boundaries' and has no separate unit."
+  },
+  {
+   "place": "somaliland",
+   "region": "area/somaliland",
+   "donors": "SO",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers (de facto)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/3586169",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 3586169 v72 (2026-03-21T21:12:06Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "relation 3586169",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      3586169,
+      72
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "somaliland.geojson",
+   "notes": "No dataset of Somaliland's own line found. Candidate not used: the union of Somalia's five north-western 1984 regions in HDX COD-AB Somalia (Awdal, Woqooyi Galbeed, Togdheer, Sool, Sanaag), because Somalia states no Somaliland line and the union is a construction. Register: Somaliland lost a significant eastern part to SSC-Khatumo (sool-sanaag-cayn); this outline does not show that."
+  },
+  {
+   "place": "south-ossetia",
+   "region": "area/south-ossetia",
+   "donors": "GE",
+   "rank": 1,
+   "whose_line": "Georgia's official administrative unit 'Provisional Administration' (დროებითი ადმინისტრაცია, adm1 GE48)",
+   "publisher": "National Statistics Office of Georgia, via OCHA's COD-AB on HDX (cod-ab-geo; 'modifications by OCHA')",
+   "source_url": "https://data.humdata.org/dataset/3ee95199-2dfe-40fc-b9bd-b44cc8c91024/resource/e5f2125c-d2aa-49ee-a7d1-1fa27fb030df/download/geo_admin_boundaries.geojson.zip",
+   "version_or_date": "COD-AB Georgia v01, valid_on 2019-10-18; HDX resource last_modified 2026-01-26; read 2026-10-04",
+   "feature_id": "geo_admin1.geojson adm1_pcode GE48",
+   "licence": "CC BY-IGO",
+   "input": "cod-ab-geo",
+   "select": {
+    "member": "geo_admin1.geojson",
+    "property": "adm1_pcode",
+    "values": [
+     "GE48"
+    ],
+    "attributes": [
+     "adm1_name",
+     "adm1_name1",
+     "adm1_pcode",
+     "valid_on",
+     "version",
+     "area_sqkm"
+    ]
+   },
+   "file": "south-ossetia.geojson",
+   "notes": "South Ossetia's own line (it also claims Georgian-held Truso and other gorges, register area eastern-ossetia-claim) was not found as data. OSM relation 1152717 agrees with this outline to about 100 km²."
+  },
+  {
+   "place": "undof-zone",
+   "region": "area/undof-zone",
+   "donors": "SY;area/golan-heights",
+   "rank": 2,
+   "whose_line": "the 1974 Israel–Syria disengagement lines (UNDOF Lines A and B) as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 303; 304",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     303,
+     304
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "undof-zone.geojson",
+   "notes": "Union of DoS 'UNDOF Zone - Israel Sovereignty' and 'UNDOF Zone - Syria Sovereignty' (DoS splits the zone by its view of sovereignty; the union is the zone)."
+  },
+  {
+   "place": "western-sahara-moroccan-controlled",
+   "region": "area/western-sahara-moroccan-controlled",
+   "donors": "EH",
+   "rank": 4,
+   "whose_line": "Natural Earth editors",
+   "publisher": "Natural Earth (ne_10m_admin_0_disputed_areas)",
+   "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_disputed_areas.geojson",
+   "version_or_date": "v5.1.2 (git tag); read 2026-10-04",
+   "licence": "public domain",
+   "input": "ne-5.1.2-disputed-areas",
+   "feature_id": "NE_ID 1159321037",
+   "select": {
+    "property": "NE_ID",
+    "values": [
+     1159321037
+    ],
+    "attributes": [
+     "NE_ID",
+     "NAME",
+     "BRK_NAME",
+     "NOTE_BRK",
+     "TYPE",
+     "ADMIN"
+    ]
+   },
+   "file": "western-sahara-moroccan-controlled.geojson",
+   "notes": "The stated outline is the berm (register). No polygon of the Moroccan-controlled part found: HDX COD-AB Morocco and OSM's Moroccan regions cover the whole territory (Morocco's claim), DoS has no separate polygon. OSM has the SADR-held part (relation 5441968) and the berm as a line (13562307); Western Sahara minus SADR (relations 2559126 − 5441968) is a construction, not used."
+  },
+  {
+   "place": "ye-socotra",
+   "region": "rule/ye-socotra",
+   "donors": "YE",
+   "rank": 1,
+   "whose_line": "Yemen's official governorate of Socotra (adm1 YE32)",
+   "publisher": "Central Statistical Organization (CSO) of Yemen, via OCHA's COD-AB on HDX (cod-ab-yem)",
+   "source_url": "https://data.humdata.org/dataset/6b2656e2-b915-4671-bfed-468d5edcd80a/resource/c79a3728-44cd-4d20-8ea4-ecfab88c1450/download/yem_admin_boundaries.geojson.zip",
+   "version_or_date": "COD-AB Yemen v01, valid_on 2019-11-22; HDX resource last_modified 2026-01-26; read 2026-10-04",
+   "feature_id": "yem_admin1.geojson adm1_pcode YE32",
+   "licence": "CC BY-IGO",
+   "input": "cod-ab-yem",
+   "select": {
+    "member": "yem_admin1.geojson",
+    "property": "adm1_pcode",
+    "values": [
+     "YE32"
+    ],
+    "attributes": [
+     "adm1_name",
+     "adm1_name1",
+     "adm1_pcode",
+     "valid_on",
+     "version",
+     "area_sqkm"
+    ]
+   },
+   "file": "ye-socotra.geojson",
+   "notes": "Replaces the planned OSM relation 5486640. Not a dispute: the outline of the governorate whose entry rule makes the region."
+  },
+  {
+   "place": "bhutan-china-north",
+   "region": "BT",
+   "donors": "CN;rule/cn-tibet",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers: the Bhutan-controlled part of the northern Bhutan–China disputed area ('Bhutan Actually Control Baiyu Area')",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/11789426",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 11789426 v32 (2026-06-23T12:42:13Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "relation 11789426",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      11789426,
+      32
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "bhutan-china-north.geojson",
+   "notes": "Contradiction: Natural Earth's 'Bhutan (northwest valleys)' (1,237 km², 89.8–90.6°E) lies where DoS has China (1,227 km²) and overlaps none of OSM's Bhutan–China disputed areas. This file takes OSM's polygon for Bhutan-held disputed land in the north (claimed_by CN, controlled_by BT; part of 'Beyul'). That it is the register's Pasamlung/Jakarlung is not verified. It lies wholly in GADM's Bhutan, so it moves no land: the 1,220 km² of Tibet that Natural Earth's polygon gave to BT stay with Tibet."
+  },
+  {
+   "place": "kalapani",
+   "region": "IN",
+   "donors": "NP",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers: the extent of Nepal's claim beyond India's line",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/13559363",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 13559363 v20 (2026-10-02T12:31:36Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "relation 13559363",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      13559363,
+      20
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "kalapani.geojson",
+   "notes": "Two parties, two lines: Nepal's claim and India's line; neither found as data. HDX COD-AB Nepal (Survey Department) does not follow Nepal's claim (it holds 66 of these 410 km²). DoS's 'Kalapani' (60 km²) is DoS's own line, not agreed, so not rank 2. Natural Earth's 'Near Om Parvat' (60 km²) is a different, smaller object."
+  },
+  {
+   "place": "halaib-triangle",
+   "region": "EG",
+   "donors": "SD",
+   "rank": 2,
+   "whose_line": "the political boundary, which Egypt asserts, and the administrative boundary, which Sudan asserts, as drawn by the US Department of State (LSIB 'International Boundary' and 'Administrative Boundary')",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 125",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     125
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "halaib-triangle.geojson",
+   "notes": "Rank 2 read as for Bir Tawil. HDX COD-AB Egypt (CAPMAS) has a markaz 'Halayib' (7,544 km²), not the triangle. OSM relation 4081614 agrees closely."
+  },
+  {
+   "place": "bajo-nuevo",
+   "region": "CO",
+   "donors": "",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers (coastline)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/way/335569980",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); way 335569980 v2 (2024-12-07T18:37:11Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "way 335569980",
+   "select": {
+    "elements": [
+     [
+      "way",
+      335569980,
+      2
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "bajo-nuevo.geojson",
+   "notes": "Natural Earth's names are swapped: its 'Bajo Nuevo Bank (Petrel Is.)' (NE_ID 1159320425) lies at Serranilla Bank (about 79.8°W) and its 'Serranilla Bank' (1159321245) at Bajo Nuevo (about 78.6°W), where OSM maps 'Cayo Bajo Nuevo'. The membership row of NE_ID 1159320425 should point to this file's twin serranilla.geojson and vice versa. DoS has the cays only as parts of 'Colombia'."
+  },
+  {
+   "place": "sapodilla-cayes",
+   "region": "BZ",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 253",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     253
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "sapodilla-cayes.geojson",
+   "notes": "Natural Earth's polygon is offset from DoS's and does not overlap it."
+  },
+  {
+   "place": "hans-island",
+   "region": "GL",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 126",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     126
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "hans-island.geojson",
+   "notes": "Contradiction: the register says the island has been split between Canada and Denmark (Greenland) since 14 June 2022 by a 1,280 m border; the canon gives the whole island to GL. DoS 11.4 still has one 'Hans Island' polygon."
+  },
+  {
+   "place": "doumeira-island",
+   "region": "ER",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 86",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     86
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "doumeira-island.geojson",
+   "notes": "DoS 'Doumeira Islands' has two parts (the island and an islet)."
+  },
+  {
+   "place": "penon-de-alhucemas",
+   "region": "ES",
+   "donors": "",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers (coastline)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/way/8692684",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); way 8692684 v25 (2025-12-22T21:16:58Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "way 8692684",
+   "select": {
+    "elements": [
+     [
+      "way",
+      8692684,
+      25
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "penon-de-alhucemas.geojson",
+   "notes": "Only the Peñón itself, as Natural Earth's feature; the neighbouring Isla de Tierra and Isla de Mar (OSM ways 8692720, 8692779) are not included. DoS has it only inside 'Spain (Plazas de Soberania)' with the other plazas."
+  },
+  {
+   "place": "bassas-da-india",
+   "region": "TF",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 26",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     26
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "bassas-da-india.geojson",
+   "notes": "Natural Earth's polygon does not overlap DoS's."
+  },
+  {
+   "place": "europa-island",
+   "region": "TF",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 96",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     96
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "europa-island.geojson",
+   "notes": ""
+  },
+  {
+   "place": "glorioso-islands",
+   "region": "TF",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 113",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     113
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "glorioso-islands.geojson",
+   "notes": "Natural Earth's polygon does not overlap DoS's."
+  },
+  {
+   "place": "juan-de-nova",
+   "region": "TF",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 153",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     153
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "juan-de-nova.geojson",
+   "notes": ""
+  },
+  {
+   "place": "matthew-hunter",
+   "region": "NC",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 133",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     133
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "matthew-hunter.geojson",
+   "notes": "Natural Earth's polygons do not overlap DoS's."
+  },
+  {
+   "place": "mbanie",
+   "region": "GQ",
+   "donors": "GA",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 70",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     70
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "mbanie.geojson",
+   "notes": "DoS names the feature 'Corisco Bay Islands' but it is one polygon at Mbanié (OSM relation 17877330 'Île Mbanié'). Resolved: the land goes to Equatorial Guinea under D048 (the ICJ ruling of 19 May 2025 is an accepted ruling); before that: the register says the International Court of Justice found in 2025 that the territory belongs to Equatorial Guinea and that Gabon was to remove its presence; the canon gives it to GA."
+  },
+  {
+   "place": "biot",
+   "region": "IO",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 41",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     41
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "biot.geojson",
+   "notes": "The whole British Indian Ocean Territory (all atolls, with Diego Garcia); Natural Earth's disputed-area feature had the northern atolls only. Region IO also takes GADM's IOT units."
+  },
+  {
+   "place": "rockall",
+   "region": "GB",
+   "donors": "",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers (coastline)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/way/1339962684",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); way 1339962684 v8 (2026-09-03T07:41:58Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "way 1339962684",
+   "select": {
+    "elements": [
+     [
+      "way",
+      1339962684,
+      8
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "rockall.geojson",
+   "notes": "DoS has Rockall only as a part of 'United Kingdom'."
+  },
+  {
+   "place": "dragonja",
+   "region": "HR",
+   "donors": "SI",
+   "rank": 4,
+   "whose_line": "Natural Earth editors",
+   "publisher": "Natural Earth (ne_10m_admin_0_disputed_areas)",
+   "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_disputed_areas.geojson",
+   "version_or_date": "v5.1.2 (git tag); read 2026-10-04",
+   "licence": "public domain",
+   "input": "ne-5.1.2-disputed-areas",
+   "feature_id": "NE_ID 1159320835",
+   "select": {
+    "property": "NE_ID",
+    "values": [
+     1159320835
+    ],
+    "attributes": [
+     "NE_ID",
+     "NAME",
+     "BRK_NAME",
+     "NOTE_BRK",
+     "TYPE",
+     "ADMIN"
+    ]
+   },
+   "file": "dragonja.geojson",
+   "notes": "Two parties, two lines (register): Slovenia's (the 2017 arbitration award, which it implemented) and Croatia's (the river); not chosen here, neither checked as data. No DoS or OSM polygon of the strip. Whether the assignment to HR matches the holder is not established."
+  },
+  {
+   "place": "senkaku",
+   "region": "JP",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 257",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     257
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "senkaku.geojson",
+   "notes": ""
+  },
+  {
+   "place": "dokdo",
+   "region": "KR",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 173",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     173
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "dokdo.geojson",
+   "notes": "DoS 'Liancourt Rocks'."
+  },
+  {
+   "place": "scarborough-shoal",
+   "region": "CN",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 255",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     255
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "scarborough-shoal.geojson",
+   "notes": "Natural Earth's polygon lies about 9 km west of DoS's 'Scarborough Reef'."
+  },
+  {
+   "place": "serranilla",
+   "region": "CO",
+   "donors": "",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers (coastline)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/8831214; https://www.openstreetmap.org/way/335569981; https://www.openstreetmap.org/way/1368829634; https://www.openstreetmap.org/way/1368829633",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 8831214 v4 (2026-06-19T03:29:02Z); way 335569981 v6 (2025-03-09T19:53:25Z); way 1368829634 v3 (2026-06-19T03:05:27Z); way 1368829633 v3 (2026-06-19T02:25:33Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "relation 8831214; way 335569981; way 1368829634; way 1368829633",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      8831214,
+      4
+     ],
+     [
+      "way",
+      335569981,
+      6
+     ],
+     [
+      "way",
+      1368829634,
+      3
+     ],
+     [
+      "way",
+      1368829633,
+      3
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "serranilla.geojson",
+   "notes": "Union of the bank's four mapped cays (Beacon Cay, East Cay, Middle Cay, Northeast Breaker). See bajo-nuevo for Natural Earth's swapped names. GADM has 0.005 km² of it in the San Andrés department (region rule/co-san-andres), not a donor."
+  },
+  {
+   "place": "wake",
+   "region": "UM",
+   "donors": "",
+   "rank": 2,
+   "whose_line": "the coastline (uncontested), as drawn by the US Department of State",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 317",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     317
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ]
+   },
+   "file": "wake.geojson",
+   "notes": "The United States administers Wake; DoS ranked 2 as for Guantanamo."
+  },
+  {
+   "place": "bird-island",
+   "region": "VE",
+   "donors": "",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers (coastline)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/11592431",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 11592431 v9 (2026-01-25T14:53:27Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04",
+   "feature_id": "relation 11592431",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      11592431,
+      9
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "bird-island.geojson",
+   "notes": "DoS has the island only as a part of 'Venezuela'; HDX COD-AB Venezuela (INE) has no unit there."
+  }
+ ]
+}

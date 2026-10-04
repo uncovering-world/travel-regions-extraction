@@ -8,17 +8,17 @@ python3 experiments/release-draft/build.py
 
 ## What goes in
 
-- Regions: the [Stage 1 list](../stage1-list/README.md) (314 regions after the corrections of 2026-10-04).
+- Regions: the [Stage 1 list](../stage1-list/README.md) (314 regions).
 - Substrate units: the [GADM binding](../gadm-binding/README.md) (GADM 4.1 unit identifiers; no GADM geometry is copied).
-- The canon's own geometries (D059): Natural Earth v5.1.2 disputed-area features referenced by id; OpenStreetMap relations for Gornja Siga and Socotra (versions still to be pinned); `data/custom-geometries/koalou.geojson` (D061).
-- Reviewed tables in `inputs/`: `attribution.csv` (the country of each non-ISO region under the canon's attribution, with its basis), `custom_assignments.csv` (to which region the land of each special place or uncovered islet goes, from its holder or Natural Earth's "Admin. by"), `gadm_leftovers.csv` (GADM pseudo-countries no region claims), `osm_geometries.csv`.
+- The canon's own geometries: [data/custom-geometries](../../data/custom-geometries/README.md), 42 places, sources ranked by whose line they draw (D062), each with the regions it may take land from (`donors`).
+- Reviewed tables in `inputs/`: `attribution.csv` (the country of each non-ISO region under the canon's attribution, with its basis) and `gadm_leftovers.csv` (GADM pseudo-countries no region claims).
 
 ## What comes out (`release/`)
 
 - `canon.json` — TYR's import tree: World → country → regions (a country with one region is a leaf).
 - `regions.csv` — 314 regions with name, Wikidata id, basis, country and evidence level.
-- `membership.csv` — 406 rows. A region is the union of its `include` rows minus its `exclude` rows; a custom geometry (precedence 1) wins over GADM units (precedence 2), so land GADM gives to another country (Siachen, Demchok, Halayib…) goes where the canon says.
-- `geometry/` — the one geometry this package carries (Koalou).
+- `membership.csv` — 402 rows. A region is the union of its `include` rows minus its `exclude` rows; an own geometry (precedence 1), clipped by the consumer to the GADM units of the regions in `clip_to`, wins over GADM units (precedence 2), so land GADM gives to another country (Siachen, Demchok, Halayib…) goes where the canon says, and no geometry reaches into a neighbouring country.
+- `geometry/` — the 42 own geometries, as in `data/custom-geometries/` (licences per file there; 13 OpenStreetMap-derived files are under ODbL).
 - `manifest.json` — versions, the membership rule and the sha256 of every input.
 - `gaps.csv` — empty in this build.
 
@@ -26,13 +26,9 @@ python3 experiments/release-draft/build.py
 
 `check_cover.py` assigns every one of GADM 4.1's 356,508 rows (its smallest units) to regions by the membership rules, by identifiers alone. Result (`release/cover_check.json`): 356,507 rows fall into exactly one region; one, the Caspian Sea (`XCA`), into none, as intended (water). So the GADM part of the partition has no gaps and no overlaps.
 
-`check_custom.py` (needs shapely and pyproj) intersects every custom geometry with the GADM units under it and reports, in km² in a local equal-area projection, how much land it takes from which region (`release/custom_check.json`). Custom geometries of different regions do not overlap each other. What they take:
+`check_custom.py` (needs shapely and pyproj) intersects every own geometry with the GADM units under it and reports, in km², the land it takes from each donor region and the land the clip removes (`release/custom_check.json`). With the ranked sources and the clip (D062): intended moves are kept (Siachen 2,154 km² from Gilgit-Baltistan, Halayib 17,799 km² from Sudan, Demchok's India-held sector 435 km² from China); what the clip removes is small and all of it outside the donors — Somaliland 176 km² of Ethiopia and 3 km² of Djibouti, South Ossetia 15 km² of Russia, Siachen 12 km² of China, Kalapani 13 km² of Tibet, the Cyprus buffer zone 2 km² of the Sovereign Base Areas. Island geometries mostly add land GADM lacks. One overlap between own geometries remains: the 1949 no-man's-lands and East Jerusalem share 0.1 km².
 
-- **Intended moves.** Siachen takes 2,085 km² from Gilgit-Baltistan; Halayib 18,013 km² from Sudan; Bhutan's north-western valleys 1,220 km² from Tibet; Kalapani 51 km² from Nepal; the zones, leases and registry cells take their land from the region around them.
-- **Slivers from neighbours**, where Natural Earth's 1:10 million line and GADM's line differ: Somaliland takes 747 km² from Ethiopia and 246 km² from Djibouti; South Ossetia 20 km² from Russia; Bir Tawil 85 km² from Sudan; the UNDOF zone 9 km² from Lebanon; Koalou 0.1 km² from Togo.
-- **To review: Demchok.** Natural Earth's "Demchok" feature (noted "Admin. by India") is 2,268 km² and lies mostly where GADM has China (1,318 km² from China, 552 km² from Tibet). Whether that whole feature is land India holds is not established.
-- **Islets.** Most island polygons lie on no GADM land at all (GADM has no polygon there); they add land rather than take it.
-- The two OpenStreetMap relations (Gornja Siga, Socotra) are not fetched yet.
+An earlier run on Natural Earth's polygons alone had shown how far they were off (the Korean DMZ about 2.5 times too wide, the Cyprus buffer zone displaced, Natural Earth's "Bhutan (northwest valleys)" lying inside China) and how they reached into neighbouring countries (Somaliland 747 km² of Ethiopia); that led to D062.
 
 ## What is not checked
 - Only one perspective (the canon's attribution) is in `regions.csv`; the other declared perspectives are not yet columns.

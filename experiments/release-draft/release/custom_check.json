@@ -2,284 +2,328 @@
  "custom_geometries": [
   {
    "region": "BT",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320455",
-   "polygon_km2": 1236.84,
-   "on_gadm_land_km2": 1236.84,
+   "source": "custom geometry",
+   "unit": "bhutan-china-north.geojson",
+   "polygon_km2": 52.62,
+   "on_gadm_land_km2": 52.62,
+   "donors": [
+    "CN",
+    "rule/cn-tibet"
+   ],
    "taken_from": {
-    "rule/cn-tibet": 1220.19,
-    "BT": 16.65
+    "already its own": 52.62
    }
   },
   {
    "region": "BZ",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320435",
-   "polygon_km2": 0.12,
-   "on_gadm_land_km2": 0.0,
-   "taken_from": {}
+   "source": "custom geometry",
+   "unit": "sapodilla-cayes.geojson",
+   "polygon_km2": 0.2,
+   "on_gadm_land_km2": 0.17,
+   "donors": [],
+   "taken_from": {
+    "already its own": 0.17
+   }
   },
   {
    "region": "CN",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159321227",
-   "polygon_km2": 0.1,
+   "source": "custom geometry",
+   "unit": "scarborough-shoal.geojson",
+   "polygon_km2": 0.36,
    "on_gadm_land_km2": 0.0,
+   "donors": [],
    "taken_from": {}
   },
   {
    "region": "CO",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320425",
-   "polygon_km2": 0.43,
+   "source": "custom geometry",
+   "unit": "bajo-nuevo.geojson",
+   "polygon_km2": 0.01,
    "on_gadm_land_km2": 0.0,
+   "donors": [],
    "taken_from": {}
   },
   {
    "region": "CO",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159321245",
-   "polygon_km2": 0.11,
-   "on_gadm_land_km2": 0.0,
-   "taken_from": {}
+   "source": "custom geometry",
+   "unit": "serranilla.geojson",
+   "polygon_km2": 0.14,
+   "on_gadm_land_km2": 0.01,
+   "donors": [],
+   "taken_from": {
+    "clipped away: rule/co-san-andres": 0.01
+   }
   },
   {
    "region": "EG",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1729635095",
-   "polygon_km2": 18161.89,
-   "on_gadm_land_km2": 18071.24,
+   "source": "custom geometry",
+   "unit": "halaib-triangle.geojson",
+   "polygon_km2": 17878.37,
+   "on_gadm_land_km2": 17851.6,
+   "donors": [
+    "SD"
+   ],
    "taken_from": {
-    "SD": 18012.61,
-    "EG": 58.62
+    "SD": 17799.25,
+    "already its own": 52.34
    }
   },
   {
    "region": "ER",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320583",
-   "polygon_km2": 1.25,
+   "source": "custom geometry",
+   "unit": "doumeira-island.geojson",
+   "polygon_km2": 0.8,
    "on_gadm_land_km2": 0.0,
+   "donors": [],
    "taken_from": {}
   },
   {
    "region": "ES",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320605",
+   "source": "custom geometry",
+   "unit": "penon-de-alhucemas.geojson",
    "polygon_km2": 0.01,
-   "on_gadm_land_km2": 0.01,
-   "taken_from": {
-    "area/melilla": 0.01
-   }
-  },
-  {
-   "region": "GA",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320695",
-   "polygon_km2": 0.13,
-   "on_gadm_land_km2": 0.01,
-   "taken_from": {
-    "GQ": 0.01
-   }
+   "on_gadm_land_km2": 0.0,
+   "donors": [],
+   "taken_from": {}
   },
   {
    "region": "GB",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320775",
-   "polygon_km2": 0.03,
+   "source": "custom geometry",
+   "unit": "rockall.geojson",
+   "polygon_km2": 0.0,
    "on_gadm_land_km2": 0.0,
+   "donors": [],
    "taken_from": {}
   },
   {
    "region": "GL",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320559",
-   "polygon_km2": 1.44,
+   "source": "custom geometry",
+   "unit": "hans-island.geojson",
+   "polygon_km2": 1.26,
+   "on_gadm_land_km2": 1.26,
+   "donors": [],
+   "taken_from": {
+    "already its own": 1.26
+   }
+  },
+  {
+   "region": "GQ",
+   "source": "custom geometry",
+   "unit": "mbanie.geojson",
+   "polygon_km2": 0.07,
    "on_gadm_land_km2": 0.0,
-   "taken_from": {}
+   "donors": [
+    "GA"
+   ],
+   "taken_from": {
+    "already its own": 0.0
+   }
   },
   {
    "region": "HR",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320835",
+   "source": "custom geometry",
+   "unit": "dragonja.geojson",
    "polygon_km2": 1.41,
    "on_gadm_land_km2": 0.58,
+   "donors": [
+    "SI"
+   ],
    "taken_from": {
     "SI": 0.58
    }
   },
   {
    "region": "IN",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320873",
-   "polygon_km2": 60.09,
-   "on_gadm_land_km2": 60.09,
+   "source": "custom geometry",
+   "unit": "kalapani.geojson",
+   "polygon_km2": 410.5,
+   "on_gadm_land_km2": 410.5,
+   "donors": [
+    "NP"
+   ],
    "taken_from": {
-    "NP": 50.54,
-    "IN": 9.54
+    "already its own": 331.96,
+    "NP": 65.7,
+    "clipped away: rule/cn-tibet": 12.84
    }
   },
   {
    "region": "IO",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320723",
-   "polygon_km2": 7.02,
-   "on_gadm_land_km2": 0.15,
+   "source": "custom geometry",
+   "unit": "biot.geojson",
+   "polygon_km2": 22.23,
+   "on_gadm_land_km2": 20.81,
+   "donors": [],
    "taken_from": {
-    "IO": 0.15
+    "already its own": 20.81
    }
   },
   {
    "region": "JP",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320959",
-   "polygon_km2": 5.33,
-   "on_gadm_land_km2": 0.69,
+   "source": "custom geometry",
+   "unit": "senkaku.geojson",
+   "polygon_km2": 5.92,
+   "on_gadm_land_km2": 5.79,
+   "donors": [],
    "taken_from": {
-    "JP": 0.69
+    "already its own": 5.79
    }
   },
   {
    "region": "KR",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320995",
-   "polygon_km2": 0.03,
-   "on_gadm_land_km2": 0.0,
-   "taken_from": {}
+   "source": "custom geometry",
+   "unit": "dokdo.geojson",
+   "polygon_km2": 0.15,
+   "on_gadm_land_km2": 0.11,
+   "donors": [],
+   "taken_from": {
+    "already its own": 0.11
+   }
   },
   {
    "region": "NC",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320687",
-   "polygon_km2": 0.29,
-   "on_gadm_land_km2": 0.0,
-   "taken_from": {}
-  },
-  {
-   "region": "TF",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320665",
-   "polygon_km2": 0.16,
-   "on_gadm_land_km2": 0.0,
-   "taken_from": {}
-  },
-  {
-   "region": "TF",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320667",
-   "polygon_km2": 18.56,
-   "on_gadm_land_km2": 8.12,
+   "source": "custom geometry",
+   "unit": "matthew-hunter.geojson",
+   "polygon_km2": 1.27,
+   "on_gadm_land_km2": 1.26,
+   "donors": [],
    "taken_from": {
-    "TF": 8.12
+    "already its own": 1.26
    }
   },
   {
    "region": "TF",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320675",
-   "polygon_km2": 1.97,
+   "source": "custom geometry",
+   "unit": "bassas-da-india.geojson",
+   "polygon_km2": 0.44,
    "on_gadm_land_km2": 0.0,
+   "donors": [],
    "taken_from": {}
   },
   {
    "region": "TF",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320677",
-   "polygon_km2": 4.05,
-   "on_gadm_land_km2": 0.52,
+   "source": "custom geometry",
+   "unit": "europa-island.geojson",
+   "polygon_km2": 33.4,
+   "on_gadm_land_km2": 31.81,
+   "donors": [],
    "taken_from": {
-    "TF": 0.52
+    "already its own": 31.81
+   }
+  },
+  {
+   "region": "TF",
+   "source": "custom geometry",
+   "unit": "glorioso-islands.geojson",
+   "polygon_km2": 4.62,
+   "on_gadm_land_km2": 4.35,
+   "donors": [],
+   "taken_from": {
+    "already its own": 4.35
+   }
+  },
+  {
+   "region": "TF",
+   "source": "custom geometry",
+   "unit": "juan-de-nova.geojson",
+   "polygon_km2": 4.98,
+   "on_gadm_land_km2": 4.92,
+   "donors": [],
+   "taken_from": {
+    "already its own": 4.92
    }
   },
   {
    "region": "UM",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159321391",
-   "polygon_km2": 3.92,
-   "on_gadm_land_km2": 2.59,
+   "source": "custom geometry",
+   "unit": "wake.geojson",
+   "polygon_km2": 7.15,
+   "on_gadm_land_km2": 7.13,
+   "donors": [],
    "taken_from": {
-    "UM": 2.59
+    "already its own": 7.13
    }
   },
   {
    "region": "VE",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159321413",
-   "polygon_km2": 0.6,
-   "on_gadm_land_km2": 0.0,
-   "taken_from": {}
-  },
-  {
-   "region": "area/armistice-no-mans-lands",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320909",
-   "polygon_km2": 50.52,
-   "on_gadm_land_km2": 50.52,
+   "source": "custom geometry",
+   "unit": "bird-island.geojson",
+   "polygon_km2": 0.04,
+   "on_gadm_land_km2": 0.04,
+   "donors": [],
    "taken_from": {
-    "PS": 38.33,
-    "IL": 12.19
+    "already its own": 0.04
    }
   },
   {
    "region": "area/armistice-no-mans-lands",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320911",
-   "polygon_km2": 3.36,
-   "on_gadm_land_km2": 3.36,
+   "source": "custom geometry",
+   "unit": "armistice-no-mans-lands.geojson",
+   "polygon_km2": 52.62,
+   "on_gadm_land_km2": 52.62,
+   "donors": [
+    "IL",
+    "PS"
+   ],
    "taken_from": {
-    "PS": 2.24,
-    "IL": 1.12
-   }
-  },
-  {
-   "region": "area/armistice-no-mans-lands",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1746265963",
-   "polygon_km2": 1.26,
-   "on_gadm_land_km2": 1.26,
-   "taken_from": {
-    "PS": 1.26
+    "PS": 39.33,
+    "IL": 13.29
    }
   },
   {
    "region": "area/baikonur",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320965",
+   "source": "custom geometry",
+   "unit": "baikonur.geojson",
    "polygon_km2": 6501.49,
    "on_gadm_land_km2": 6501.49,
+   "donors": [
+    "KZ"
+   ],
    "taken_from": {
     "KZ": 6501.49
    }
   },
   {
    "region": "area/bir-tawil",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1729635091",
-   "polygon_km2": 2019.46,
-   "on_gadm_land_km2": 2019.41,
+   "source": "custom geometry",
+   "unit": "bir-tawil.geojson",
+   "polygon_km2": 2005.22,
+   "on_gadm_land_km2": 2002.24,
+   "donors": [
+    "EG",
+    "SD"
+   ],
    "taken_from": {
-    "EG": 1934.35,
-    "SD": 85.06
+    "EG": 1979.21,
+    "SD": 23.02
    }
   },
   {
    "region": "area/cyprus-buffer-zone",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320511",
-   "polygon_km2": 341.0,
-   "on_gadm_land_km2": 340.52,
+   "source": "custom geometry",
+   "unit": "cyprus-buffer-zone.geojson",
+   "polygon_km2": 245.74,
+   "on_gadm_land_km2": 245.74,
+   "donors": [
+    "CY",
+    "area/northern-cyprus"
+   ],
    "taken_from": {
-    "CY": 340.52,
-    "area/northern-cyprus": 0.0,
-    "area/akrotiri-dhekelia": 0.0
+    "CY": 190.36,
+    "area/northern-cyprus": 53.63,
+    "clipped away: area/akrotiri-dhekelia": 1.75
    }
   },
   {
    "region": "area/east-jerusalem",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1746265961",
+   "source": "custom geometry",
+   "unit": "east-jerusalem.geojson",
    "polygon_km2": 66.55,
    "on_gadm_land_km2": 66.55,
+   "donors": [
+    "IL",
+    "PS"
+   ],
    "taken_from": {
     "PS": 60.39,
     "IL": 6.16
@@ -287,62 +331,75 @@
   },
   {
    "region": "area/gornja-siga",
-   "source": "OpenStreetMap relation",
-   "unit": "16381727",
-   "note": "geometry not available locally"
+   "source": "custom geometry",
+   "unit": "gornja-siga.geojson",
+   "polygon_km2": 5.96,
+   "on_gadm_land_km2": 5.96,
+   "donors": [
+    "HR",
+    "RS"
+   ],
+   "taken_from": {
+    "HR": 4.12,
+    "RS": 1.84
+   }
   },
   {
    "region": "area/guantanamo-bay",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320529",
-   "polygon_km2": 65.35,
-   "on_gadm_land_km2": 62.25,
+   "source": "custom geometry",
+   "unit": "guantanamo-bay.geojson",
+   "polygon_km2": 80.61,
+   "on_gadm_land_km2": 79.89,
+   "donors": [
+    "CU"
+   ],
    "taken_from": {
-    "CU": 62.25
+    "CU": 79.89
    }
   },
   {
    "region": "area/ilemi-triangle",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320973",
-   "polygon_km2": 3400.63,
-   "on_gadm_land_km2": 3400.63,
+   "source": "custom geometry",
+   "unit": "ilemi-triangle.geojson",
+   "polygon_km2": 3375.05,
+   "on_gadm_land_km2": 3377.42,
+   "donors": [
+    "KE",
+    "SS"
+   ],
    "taken_from": {
-    "KE": 3209.74,
-    "SS": 190.89
-   }
-  },
-  {
-   "region": "area/ilemi-triangle",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159321237",
-   "polygon_km2": 17.44,
-   "on_gadm_land_km2": 17.44,
-   "taken_from": {
-    "KE": 17.44
+    "KE": 3210.19,
+    "SS": 167.22
    }
   },
   {
    "region": "area/indian-jammu-kashmir-ladakh",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320865",
-   "polygon_km2": 2268.47,
-   "on_gadm_land_km2": 2268.48,
+   "source": "custom geometry",
+   "unit": "demchok.geojson",
+   "polygon_km2": 532.89,
+   "on_gadm_land_km2": 532.89,
+   "donors": [
+    "CN",
+    "rule/cn-tibet"
+   ],
    "taken_from": {
-    "CN": 1318.21,
-    "rule/cn-tibet": 552.11,
-    "area/indian-jammu-kashmir-ladakh": 398.16
+    "CN": 434.74,
+    "already its own": 84.74,
+    "rule/cn-tibet": 13.41
    }
   },
   {
    "region": "area/indian-jammu-kashmir-ladakh",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320963",
-   "polygon_km2": 2085.85,
-   "on_gadm_land_km2": 2085.85,
+   "source": "custom geometry",
+   "unit": "siachen.geojson",
+   "polygon_km2": 2166.08,
+   "on_gadm_land_km2": 2166.08,
+   "donors": [
+    "area/gilgit-baltistan"
+   ],
    "taken_from": {
-    "area/gilgit-baltistan": 2084.95,
-    "CN": 0.9
+    "area/gilgit-baltistan": 2154.36,
+    "clipped away: CN": 11.72
    }
   },
   {
@@ -351,105 +408,134 @@
    "unit": "koalou.geojson",
    "polygon_km2": 64.23,
    "on_gadm_land_km2": 64.23,
+   "donors": [
+    "BF",
+    "BJ"
+   ],
    "taken_from": {
     "BJ": 64.11,
-    "TG": 0.12
+    "clipped away: TG": 0.12
    }
   },
   {
    "region": "area/korean-dmz",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320991",
-   "polygon_km2": 1097.68,
-   "on_gadm_land_km2": 1091.79,
+   "source": "custom geometry",
+   "unit": "korean-dmz.geojson",
+   "polygon_km2": 902.68,
+   "on_gadm_land_km2": 902.24,
+   "donors": [
+    "KP",
+    "KR"
+   ],
    "taken_from": {
-    "KR": 878.06,
-    "KP": 213.73
-   }
-  },
-  {
-   "region": "area/korean-dmz",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159321183",
-   "polygon_km2": 1142.09,
-   "on_gadm_land_km2": 1140.16,
-   "taken_from": {
-    "KP": 1069.12,
-    "KR": 71.04
+    "KP": 575.17,
+    "KR": 327.06
    }
   },
   {
    "region": "area/kuril-islands",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159321213",
-   "polygon_km2": 4969.66,
-   "on_gadm_land_km2": 4603.27,
+   "source": "custom geometry",
+   "unit": "kuril-islands.geojson",
+   "polygon_km2": 4987.64,
+   "on_gadm_land_km2": 4971.17,
+   "donors": [
+    "RU"
+   ],
    "taken_from": {
-    "RU": 4603.27
+    "RU": 4971.17
    }
   },
   {
    "region": "area/shebaa-farms",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320907",
+   "source": "custom geometry",
+   "unit": "shebaa-farms.geojson",
    "polygon_km2": 17.94,
    "on_gadm_land_km2": 17.94,
+   "donors": [
+    "LB"
+   ],
    "taken_from": {
     "LB": 17.94
    }
   },
   {
    "region": "area/somaliland",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159321259",
-   "polygon_km2": 167418.6,
-   "on_gadm_land_km2": 166692.51,
+   "source": "custom geometry",
+   "unit": "somaliland.geojson",
+   "polygon_km2": 187361.18,
+   "on_gadm_land_km2": 170431.43,
+   "donors": [
+    "SO"
+   ],
    "taken_from": {
-    "SO": 165699.59,
-    "ET": 746.65,
-    "DJ": 246.27
+    "SO": 170253.11,
+    "clipped away: ET": 175.5,
+    "clipped away: DJ": 2.82
    }
   },
   {
    "region": "area/south-ossetia",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159320787",
-   "polygon_km2": 4465.43,
-   "on_gadm_land_km2": 4465.43,
+   "source": "custom geometry",
+   "unit": "south-ossetia.geojson",
+   "polygon_km2": 3860.5,
+   "on_gadm_land_km2": 3860.5,
+   "donors": [
+    "GE"
+   ],
    "taken_from": {
-    "GE": 4445.2,
-    "RU": 20.23
+    "GE": 3845.34,
+    "clipped away: RU": 15.16
    }
   },
   {
    "region": "area/undof-zone",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159321297",
-   "polygon_km2": 264.98,
-   "on_gadm_land_km2": 264.98,
+   "source": "custom geometry",
+   "unit": "undof-zone.geojson",
+   "polygon_km2": 233.99,
+   "on_gadm_land_km2": 233.99,
+   "donors": [
+    "SY",
+    "area/golan-heights"
+   ],
    "taken_from": {
-    "area/golan-heights": 165.75,
-    "SY": 89.86,
-    "LB": 9.23,
-    "JO": 0.14
+    "area/golan-heights": 131.31,
+    "SY": 102.4,
+    "clipped away: LB": 0.28,
+    "clipped away: JO": 0.0
    }
   },
   {
    "region": "area/western-sahara-moroccan-controlled",
-   "source": "Natural Earth 5.1.2 disputed areas",
-   "unit": "1159321037",
+   "source": "custom geometry",
+   "unit": "western-sahara-moroccan-controlled.geojson",
    "polygon_km2": 177848.98,
    "on_gadm_land_km2": 177278.06,
+   "donors": [
+    "EH"
+   ],
    "taken_from": {
     "EH": 177278.06
    }
   },
   {
    "region": "rule/ye-socotra",
-   "source": "OpenStreetMap relation",
-   "unit": "5486640",
-   "note": "geometry not available locally"
+   "source": "custom geometry",
+   "unit": "ye-socotra.geojson",
+   "polygon_km2": 3906.91,
+   "on_gadm_land_km2": 3736.56,
+   "donors": [
+    "YE"
+   ],
+   "taken_from": {
+    "YE": 3736.56
+   }
   }
  ],
- "overlaps_between_regions": []
+ "overlaps_between_regions": [
+  {
+   "a": "area/armistice-no-mans-lands (armistice-no-mans-lands.geojson)",
+   "b": "area/east-jerusalem (east-jerusalem.geojson)",
+   "km2": 0.096
+  }
+ ]
 }
