@@ -45,10 +45,16 @@ function esc(s: unknown): string {
   return String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 }
 
+/** The file's JSON, or null when it is missing (Vite answers a missing file with index.html and status 200). */
 async function load<T>(path: string): Promise<T | null> {
-  const response = await fetch(path);
-  if (!response.ok) return null;
-  return (await response.json()) as T;
+  try {
+    const response = await fetch(path);
+    if (!response.ok || !(response.headers.get("content-type") ?? "").includes("json")) return null;
+    return (await response.json()) as T;
+  } catch (error) {
+    console.error(`could not read ${path}`, error);
+    return null;
+  }
 }
 
 function bounds(geometry: GeoJSON.Geometry): maplibregl.LngLatBounds {
