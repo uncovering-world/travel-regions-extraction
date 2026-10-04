@@ -145,7 +145,15 @@
   },
   {
    "name": "Brazil",
-   "wikidataId": "Q155"
+   "children": [
+    {
+     "name": "Brazil",
+     "wikidataId": "Q155"
+    },
+    {
+     "name": "Rincón de Artigas (Arroyo de la Invernada) and Vila Albornoz"
+    }
+   ]
   },
   {
    "name": "British Indian Ocean Territory",
@@ -517,8 +525,14 @@
      "wikidataId": "Q1162"
     },
     {
+     "name": "Demchok sector"
+    },
+    {
      "name": "Jammu and Kashmir and Ladakh (Indian-administered)",
      "wikidataId": "Q43100"
+    },
+    {
+     "name": "Kalapani, Lipulekh and Limpiyadhura"
     },
     {
      "name": "Lakshadweep",

@@ -12,22 +12,22 @@
   },
   "membership": "a region is the union of its include rows minus its exclude rows; precedence 1 (own geometry, clipped to the GADM units of the regions in clip_to) wins over precedence 2 (GADM units)",
   "counts": {
-    "regions": 314,
+    "regions": 317,
     "countries_in_tree": 256,
-    "membership_rows": 401,
+    "membership_rows": 402,
     "gaps": 0
   },
   "inputs": {
-    "experiments/stage1-list/outputs/regions.csv": "8980d0cbd32c235f55d151fde214a1753058b5cba6153ca7e269620e502fc0de",
+    "experiments/stage1-list/outputs/regions.csv": "48e3338373f1c9611e0358ed5e6afaa015a3135238bd724cc19180f737ae97ba",
     "experiments/gadm-binding/outputs/bindings.csv": "57828218b54258620f62a7caad83aa1ccf3875f43db506fbaa9e16f6c047291d",
     "experiments/outline-sources/outputs/regions.csv": "9df9ec3e721551dfb23b2c38a43497dad08964683281efa2e829c13bb094933c",
     "experiments/stage1-world-draft/inputs/crw_scopes.csv": "66ef8b50ec73870d0af9033dc88299bc94e5fcee268240a6ffce54db2ae779fb",
-    "experiments/release-draft/inputs/attribution.csv": "0d528ce5bc8c993e7e0581e91d26b0825fcba327ce527f657890526a27975c42",
+    "experiments/release-draft/inputs/attribution.csv": "81b073a94ac79ac4978b1e16f52032df62310ca3f3bc38256709477cdc19f3b1",
     "experiments/release-draft/inputs/gadm_leftovers.csv": "655378fd0c8060777544a41fe020629562507917aa467013aa18318604add012",
-    "data/custom-geometries/sources.csv": "c217d6589d9b73fa0990956eb03b4cc3fb7330262a375fb911814b5304128f5e",
+    "data/custom-geometries/sources.csv": "e1fd6880e2064e11c50e75db567ac17f87983a50dd92e794d00566944b841bb0",
     "experiments/release-draft/inputs/pov_features.csv": "5f7e65b17fe25e8714b223e7b19e50b7c079e0f2fd9fd6654d70fcdb08773e8d",
-    "data/custom-geometries/sources.json": "2528c7843342881001e6b3969b0aa677fc0f6cf670ae943d6a08dfb63de1e12f",
-    "docs/spec.md": "5df884df9a3546aa0d8cffb2c2a53349efefad1b6f74b6efad4e9fbd66be2ff9"
+    "data/custom-geometries/sources.json": "3a331394e595828729863165d585cc8da1a1ccdfdd4dd36e565094925a5d1745",
+    "docs/spec.md": "b6a1c35c1acf67dc9ba3be632d37fb017b16aa7f4e87ce4ae473ac0f6a5a413f"
   },
   "correspondence": "none: first draft"
 }

@@ -8,7 +8,9 @@
 | kind | line_position | secondary | 2026-10-03 | S0115 | The Kali River forms the boundary between India and Nepal in this region. However, India states that the headwaters of the river are not included in the boundary. |
 | origin | Nepal's protests over the Kalapani territory started in 1997, after India and China agreed to reopen the Lipulekh pass. | secondary | 2026-10-03 | S0115 | The Nepalese protests regarding the Kalapani territory started in 1997, after India and China agreed to reopen the Lipulekh pass. |
 | on_the_ground | India's Indo-Tibetan Border Police has held the post at Kalapani since 1979, when it replaced a State Police post established in 1956. | secondary | 2026-10-03 | S0115 | A State Police post was established at Kalapani in 1956, which remained in place till 1979, when it was replaced by Indo-Tibetan Border Police (ITBP). |
+| inhabited | yes | secondary | 2026-10-04 | S0375 | There are five Byans villages in the Kuthi valley — Gunji, Nabi, Rongkang, Napalchu and Kuti — with a combined population of 968 people. |
 
 Sources:
 
 - S0115: https://en.wikipedia.org/w/index.php?title=Kalapani_territory&oldid=1376433507
+- S0375: https://en.wikipedia.org/w/index.php?title=Kuthi_Valley&oldid=1376817300

@@ -260,6 +260,7 @@ area/bir-tawil,Bir Tawil,Q620634,unclaimed land,none,,secondary,,BRT,BRT,BRT,BRT
 area/ceuta,Ceuta,Q5823,residents,Spain,ES,secondary,who holds it,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP
 area/crimea,Crimea and Sevastopol,Q7835,registry,Russian Federation,RU,secondary,,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,UKR,RUS,UKR,UKR,UKR,UKR,UKR,UKR,UKR
 area/cyprus-buffer-zone,UN Buffer Zone in Cyprus,Q116970,residents,none,,secondary,,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP
+area/demchok,Demchok sector,,residents,India,IN,secondary,,IND,IND,IND,CHN,IND,IND,IND,IND,CHN,IND,IND,CHN,IND,IND,IND,IND,IND,IND,IND,PAK,IND,IND,IND,CHN,IND,IND,PAK,TWN,IND,CHN,IND
 area/east-jerusalem,East Jerusalem,Q16129570,registry,Israel,IL,secondary,,ISR,PSX,ISR,ISR,ISR,ISR,ISR,ISR,ISR,ISR,PSX,ISR,ISR,ISR,ISR,ISR,ISR,ISR,ISR,PSX,ISR,PSX,ISR,ISR,PSX,ISR,ISR,ISR,ISR,ISR,ISR
 area/gilgit-baltistan,Gilgit-Baltistan,Q200697,residents,Pakistan,PK,secondary,who holds it,PAK,PAK,PAK,PAK,PAK,PAK,PAK,PAK,PAK,PAK,PAK,PAK,IND,PAK,PAK,PAK,PAK,PAK,IND,PAK,PAK,PAK,PAK,IND,PAK,PAK,PAK,PAK,PAK,PAK,PAK
 area/golan-heights,Golan Heights,Q83210,registry,Israel,IL,secondary,,SYR,SYR,B16,SYR,B16,SYR,B16,B16,B16,B16,SYR,ISR,SYR,B16,B16,SYR,SYR,B16,SYR,SYR,B16,SYR,B16,SYR,SYR,B16,SYR,SYR,B16,ISR,SYR
@@ -267,6 +268,7 @@ area/gornja-siga,Gornja Siga and other west-bank pockets,Q102285156,unclaimed la
 area/guantanamo-bay,Guantanamo Bay Naval Base,,leased area held by the lessee,Cuba,CU,secondary,,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB,CUB
 area/ilemi-triangle,Ilemi Triangle,Q973527,residents,Kenya,KE,secondary,who holds it,KEN,B17,KEN,SDS,KEN,KEN,SDS,KEN,B17,B17,B17,B17,KEN,B17,B17,B17,B17,B17,KEN,KEN,B17,B17,B17,SDS,KEN,B17,B17,SDS,KEN,B17,B17
 area/indian-jammu-kashmir-ladakh,Jammu and Kashmir and Ladakh (Indian-administered),Q43100,residents,India,IN,secondary,who holds it,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,PAK,IND,IND,IND,IND,IND,IND,PAK,IND,IND,IND,IND
+area/kalapani,"Kalapani, Lipulekh and Limpiyadhura",,residents,India,IN,secondary,,IND,IND,IND,IND,IND,IND,IND,IND,B88,IND,IND,IND,IND,IND,IND,IND,IND,IND,NPL,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND,IND
 area/kinmen-matsu,"Kinmen, Matsu and Wuqiu",Q249870,entry rule of the holder,Taiwan,TW,secondary,,TWN,CHN,TWN,CHN,TWN,CHN,TWN,TWN,TWN,TWN,CHN,TWN,TWN,TWN,TWN,TWN,CHN,TWN,CHN,CHN,TWN,TWN,TWN,CHN,TWN,TWN,TWN,TWN,TWN,TWN,TWN
 area/koalou,Koalou (Kourou) neutral zone,,residents,none,,secondary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 area/korean-dmz,Korean Demilitarized Zone,Q331990,residents,none,,secondary,,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR,KOR
@@ -276,6 +278,7 @@ area/melilla,Melilla,Q5831,residents,Spain,ES,secondary,who holds it,ESP,ESP,ESP
 area/northern-cyprus,Turkish Republic of Northern Cyprus,Q23681,registry,Northern Cyprus,,secondary,,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYP,CYN,CYP,CYP,CYP,CYP
 area/olivenza,Olivenza and Táliga,Q488052,residents,Spain,ES,secondary,who holds it,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP,PRT,ESP,ESP,ESP,ESP,ESP,ESP,ESP,ESP
 area/paracel-islands,Paracel Islands,Q274388,residents,China,CN,secondary,who holds it,PFA,PFA,PFA,CHN,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,PFA,TWN,PFA,PFA,VNM
+area/rincon-de-artigas,Rincón de Artigas (Arroyo de la Invernada) and Vila Albornoz,,residents,Brazil,BR,secondary,,B92,B92,BRA,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92,B92
 area/shebaa-farms,Shebaa Farms and Kfarchouba hills,Q1133272,registry,Israel,IL,secondary,,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,ISR,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN,LBN
 area/somaliland,Somaliland,Q34754,registry,Somaliland,,secondary,,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOM,SOL,SOM,SOM,SOM
 area/south-ossetia,South Ossetia,Q23427,registry,South Ossetia,,secondary,,GEO,GEO,GEO,GEO,GEO,GEO,GEO,GEO,B37,GEO,GEO,GEO,GEO,GEO,GEO,GEO,GEO,GEO,GEO,GEO,GEO,GEO,GEO,B37,GEO,GEO,GEO,GEO,GEO,B37,GEO

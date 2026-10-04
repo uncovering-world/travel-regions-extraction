@@ -132,7 +132,6 @@ IE,GADM 4.1,IRL,include,2,
 IL,GADM 4.1,ISR.1_1,exclude,2,
 IL,GADM 4.1,ISR,include,2,
 IM,GADM 4.1,IMN,include,2,
-IN,custom geometry,kalapani.geojson,include,1,NP
 IN,GADM 4.1,IND.18.1.4_1,exclude,2,
 IN,GADM 4.1,IND.18_1,exclude,2,
 IN,GADM 4.1,IND.21_1,exclude,2,
@@ -336,15 +335,16 @@ area/ceuta,GADM 4.1,ESP.7.1_1,include,2,
 area/crimea,GADM 4.1,UKR.20_1,include,2,
 area/crimea,GADM 4.1,UKR.4_1,include,2,
 area/cyprus-buffer-zone,custom geometry,cyprus-buffer-zone.geojson,include,1,CY area/northern-cyprus
+area/demchok,custom geometry,demchok.geojson,include,1,CN rule/cn-tibet area/indian-jammu-kashmir-ladakh
 area/east-jerusalem,custom geometry,east-jerusalem.geojson,include,1,PS IL
 area/gilgit-baltistan,GADM 4.1,Z06.6_1,include,2,
 area/golan-heights,GADM 4.1,ISR.1_1,include,2,
 area/gornja-siga,custom geometry,gornja-siga.geojson,include,1,HR RS
 area/guantanamo-bay,custom geometry,guantanamo-bay.geojson,include,1,CU
 area/ilemi-triangle,custom geometry,ilemi-triangle.geojson,include,1,KE SS
-area/indian-jammu-kashmir-ladakh,custom geometry,demchok.geojson,include,1,CN rule/cn-tibet
 area/indian-jammu-kashmir-ladakh,custom geometry,siachen.geojson,include,1,area/gilgit-baltistan
 area/indian-jammu-kashmir-ladakh,GADM 4.1,Z01,include,2,
+area/kalapani,custom geometry,kalapani.geojson,include,1,NP IN
 area/kinmen-matsu,GADM 4.1,TWN.1_1,include,2,
 area/koalou,custom geometry,koalou.geojson,include,1,BJ BF
 area/korean-dmz,custom geometry,korean-dmz.geojson,include,1,KR KP
@@ -355,6 +355,7 @@ area/northern-cyprus,GADM 4.1,ZNC,include,2,
 area/olivenza,GADM 4.1,ESP.11.1.8.4_1,include,2,
 area/olivenza,GADM 4.1,ESP.11.1.8.5_1,include,2,
 area/paracel-islands,GADM 4.1,XPI,include,2,
+area/rincon-de-artigas,custom geometry,rincon-de-artigas.geojson,include,1,BR
 area/shebaa-farms,custom geometry,shebaa-farms.geojson,include,1,LB
 area/somaliland,custom geometry,somaliland.geojson,include,1,SO
 area/south-ossetia,custom geometry,south-ossetia.geojson,include,1,GE

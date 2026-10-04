@@ -1,63 +1,64 @@
-area_id,iso,registry_cell,small_feature,census_id,basis
-bir-tawil,,-/Bir Tawil#1729635091,,,name
-cyprus-buffer-zone,,-/Cyprus U.N. Buffer Zone#1159320511,,,name
-akrotiri-dhekelia,,-/Dhekelia#1159320709,,,name; Akrotiri is under the first draft's size floor
-abkhazia,,-/Georgia#1159320785,,ge-abkhazia,the larger of the two self-administered areas claimed by Georgia
-south-ossetia,,-/Georgia#1159320787,,ge-south-ossetia,the smaller of the two
-kosovo,,-/Kosovo#1159321007,,rs-kosovo,name
-northern-cyprus,,-/N. Cyprus#1159320531,,cy-northern-cyprus,name
-siachen,,-/Siachen Glacier#1159320963,,,name
-somaliland,,-/Somaliland#1159321259,,so-somaliland,name
-southern-patagonian-ice-field,,-/Southern Patagonian Ice Field#1729635141,,,name
-nagorno-karabakh,,AZ/Azerbaijan#1159320385,,,the self-administered area claimed by Azerbaijan in the pinned edition
-rincon-de-artigas,,BR/Corner of Artigas#1159320443,,,name
-olivenza,,ES/Spain#1159320611,,,administered by Spain and claimed by Portugal
-east-jerusalem,,IL/East Jerusalem+No Man's Land (Fort Latrun)+No Man's Land (Jerusalem)#1159320909,,,name
-golan-heights,,IL/Golan Heights#1159320905,,,name
-arunachal-pradesh,,IN/India#1159320857,,in-arunachal-pradesh,the largest area administered by India and claimed by China
-indian-jammu-kashmir-ladakh,,IN/India#1159320869,,,administered by India and claimed by Pakistan
-ilemi-triangle,,KE/Kenya#1159320973,,,administered by Kenya and claimed by South Sudan
-western-sahara-moroccan-controlled,EH,MA/Morocco#1159321037,,,administered by Morocco; Western Sahara has its own ISO entry
-sadr-free-zone,EH,,,,Western Sahara has its own ISO entry
-crimea,,RU/Crimea#1159321217,,ua-crimea,name
-kuril-islands,,RU/Russia#1159321213,,,administered by Russia and claimed by Japan
-abyei,,SD/Sudan#1159321231,,,administered by Sudan and claimed by South Sudan
-taiwan,TW,,,,own ISO entry
-falkland-islands,FK,,,,own ISO entry
-gibraltar,GI,,,,own ISO entry
-mayotte,YT,,,,own ISO entry
-south-georgia-south-sandwich,GS,,,,own ISO entry
-svalbard,SJ,,,sj-svalbard,own ISO entry (with Jan Mayen)
-antarctica,AQ,,,,own ISO entry
-west-bank,PS,,,,part of the ISO entry for Palestine
-gaza-strip,PS,,,ps-gaza,part of the ISO entry for Palestine
-transnistria,,,,md-transnistria,name
-baikonur,,,,kz-baikonur,name
-aksai-chin,,CN/China#1159320485,,,administered by China and claimed by India
-shaksgam,,CN/China#1159320485,,,the same registry cell: ceded to China by Pakistan and claimed by India
-gilgit-baltistan,,PK/Pakistan#1159321155,,,administered by Pakistan and claimed by India
-azad-kashmir,,PK/Pakistan#1159321155,,,administered by Pakistan and claimed by India
-ceuta,,,Ceuta; Melilla; Spain,,name
-melilla,,,Ceuta; Melilla; Spain,,name
-tiran-sanafir,,,Tiran and Sanafir Is.,,name
-doumeira,,,Doumera I.,,name
-dragonja,,,Dragonja River,,name
-armistice-no-mans-lands,,,Mount Scopus,,one of the places the area bundles
-shebaa-farms,,,Shebaa Farms,,name
-dokdo,,,Dokdo,,name
-spratly-islands,,,Spratly Is.,,name
-paracel-islands,,,Paracel Is.,,name
-scarborough-shoal,,,Scarborough Reef,,name
-bajo-nuevo,,,Bajo Nuevo Bank,,name
-serranilla,,,Serranilla Bank,,name
-guantanamo-bay,,,USNB Guantanamo Bay,,name
-senkaku,,,Nansei-shoto,,the feature in the Nansei islands attributed differently by China and Japan
-hans-island,,,Greenland,,the 5 km2 feature under Greenland
-luhansk-occupied,,UA/Ukraine#1763286547,,,the feature's own name: Luhansk People's Republic
-donetsk-occupied,,UA/Ukraine#1763286545,,,the feature's own name: Donetsk People's Republic
-demchok,,IN/India#1159320865,,,the feature's own name: Demchok
-india-china-middle-sector,,IN/India#1159320859,,,the feature's name is Tirpani Valleys; tied by position in the middle sector and not by a source
-bhutan-china-north,,BT/Bhutan#1159320455,,,the feature is named Bhutan (northwest valleys) and lies at about 90.5 E 28.1 N; tied by position and not by a source
-kinmen-matsu,,,,tw-kinmen,name
-antarctic-peninsula-overlap,AQ,,,,"inside Antarctica (ISO entry AQ), one cell under D040"
-marie-byrd-land,AQ,,,,"inside Antarctica (ISO entry AQ), one cell under D040"
+area_id,iso,registry_cell,small_feature,census_id,pov_feature,basis
+bir-tawil,,-/Bir Tawil#1729635091,,,,name
+cyprus-buffer-zone,,-/Cyprus U.N. Buffer Zone#1159320511,,,,name
+akrotiri-dhekelia,,-/Dhekelia#1159320709,,,,name; Akrotiri is under the first draft's size floor
+abkhazia,,-/Georgia#1159320785,,ge-abkhazia,,the larger of the two self-administered areas claimed by Georgia
+south-ossetia,,-/Georgia#1159320787,,ge-south-ossetia,,the smaller of the two
+kosovo,,-/Kosovo#1159321007,,rs-kosovo,,name
+northern-cyprus,,-/N. Cyprus#1159320531,,cy-northern-cyprus,,name
+siachen,,-/Siachen Glacier#1159320963,,,,name
+somaliland,,-/Somaliland#1159321259,,so-somaliland,,name
+southern-patagonian-ice-field,,-/Southern Patagonian Ice Field#1729635141,,,,name
+nagorno-karabakh,,AZ/Azerbaijan#1159320385,,,,the self-administered area claimed by Azerbaijan in the pinned edition
+rincon-de-artigas,,BR/Corner of Artigas#1159320443,,,,name
+olivenza,,ES/Spain#1159320611,,,,administered by Spain and claimed by Portugal
+east-jerusalem,,IL/East Jerusalem+No Man's Land (Fort Latrun)+No Man's Land (Jerusalem)#1159320909,,,,name
+golan-heights,,IL/Golan Heights#1159320905,,,,name
+arunachal-pradesh,,IN/India#1159320857,,in-arunachal-pradesh,,the largest area administered by India and claimed by China
+indian-jammu-kashmir-ladakh,,IN/India#1159320869,,,,administered by India and claimed by Pakistan
+ilemi-triangle,,KE/Kenya#1159320973,,,,administered by Kenya and claimed by South Sudan
+western-sahara-moroccan-controlled,EH,MA/Morocco#1159321037,,,,administered by Morocco; Western Sahara has its own ISO entry
+sadr-free-zone,EH,,,,,Western Sahara has its own ISO entry
+crimea,,RU/Crimea#1159321217,,ua-crimea,,name
+kuril-islands,,RU/Russia#1159321213,,,,administered by Russia and claimed by Japan
+abyei,,SD/Sudan#1159321231,,,,administered by Sudan and claimed by South Sudan
+taiwan,TW,,,,,own ISO entry
+falkland-islands,FK,,,,,own ISO entry
+gibraltar,GI,,,,,own ISO entry
+mayotte,YT,,,,,own ISO entry
+south-georgia-south-sandwich,GS,,,,,own ISO entry
+svalbard,SJ,,,sj-svalbard,,own ISO entry (with Jan Mayen)
+antarctica,AQ,,,,,own ISO entry
+west-bank,PS,,,,,part of the ISO entry for Palestine
+gaza-strip,PS,,,ps-gaza,,part of the ISO entry for Palestine
+transnistria,,,,md-transnistria,,name
+baikonur,,,,kz-baikonur,,name
+aksai-chin,,CN/China#1159320485,,,,administered by China and claimed by India
+shaksgam,,CN/China#1159320485,,,,the same registry cell: ceded to China by Pakistan and claimed by India
+gilgit-baltistan,,PK/Pakistan#1159321155,,,,administered by Pakistan and claimed by India
+azad-kashmir,,PK/Pakistan#1159321155,,,,administered by Pakistan and claimed by India
+ceuta,,,Ceuta; Melilla; Spain,,,name
+melilla,,,Ceuta; Melilla; Spain,,,name
+tiran-sanafir,,,Tiran and Sanafir Is.,,,name
+doumeira,,,Doumera I.,,,name
+dragonja,,,,,,"Natural Earth's 'Dragonja River' feature shows the pre-2017 situation; the 2017 award and Croatia's line coincide on land (both parties' cadastral lines differ by slivers about 9 m wide), so no point of view puts land on the other side; the link is not used"
+armistice-no-mans-lands,,,Mount Scopus,,,one of the places the area bundles
+shebaa-farms,,,Shebaa Farms,,,name
+dokdo,,,Dokdo,,,name
+spratly-islands,,,Spratly Is.,,,name
+paracel-islands,,,Paracel Is.,,,name
+scarborough-shoal,,,Scarborough Reef,,,name
+bajo-nuevo,,,Bajo Nuevo Bank,,,name
+serranilla,,,Serranilla Bank,,,name
+guantanamo-bay,,,USNB Guantanamo Bay,,,name
+senkaku,,,Nansei-shoto,,,the feature in the Nansei islands attributed differently by China and Japan
+hans-island,,,Greenland,,,the 5 km2 feature under Greenland
+luhansk-occupied,,UA/Ukraine#1763286547,,,,the feature's own name: Luhansk People's Republic
+donetsk-occupied,,UA/Ukraine#1763286545,,,,the feature's own name: Donetsk People's Republic
+demchok,,IN/India#1159320865,,,,the feature's own name: Demchok
+india-china-middle-sector,,IN/India#1159320859,,,,the feature's name is Tirpani Valleys; tied by position in the middle sector and not by a source
+bhutan-china-north,,BT/Bhutan#1159320455,,,,the feature is named Bhutan (northwest valleys) and lies at about 90.5 E 28.1 N; tied by position and not by a source
+kinmen-matsu,,,,tw-kinmen,,name
+antarctic-peninsula-overlap,AQ,,,,,"inside Antarctica (ISO entry AQ), one cell under D040"
+marie-byrd-land,AQ,,,,,"inside Antarctica (ISO entry AQ), one cell under D040"
+kalapani,,,,,1159320873,"Natural Earth feature 'Near Om Parvat' (NE_ID 1159320873): default India, Nepal's point of view NPL"

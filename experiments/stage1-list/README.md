@@ -139,6 +139,12 @@ Result: 317 regions, 304 with nothing open; 90 special places; 2 missing facts.
 
 Correction the same day: Varosha had come out as a region (a zone with no single holder) because the register recorded it as `own_regime` from a UN resolution calling for UN administration. Its own passage says it is under the control of Northern Cyprus; it is re-kinded and now stays, marked, inside the land Northern Cyprus holds. Result: 316 regions, 303 with nothing open; 90 special places.
 
+## Line disputes under D063, 2026-10-04
+
+The owner extended the residents test to line disputes (D063): where a supported point of view puts the area between the lines in another country and civilians live there, it is a region. Demchok, Kalapani (415 km² between Nepal's 2020 line and India's; villages Gunji, Kuti, Nabi) and Rincón de Artigas become regions. `inputs/links.csv` gains a `pov_feature` column (the Natural Earth feature whose points of view differ, for Kalapani); Dragonja's link to Natural Earth's pre-2017 feature is dropped because the award line and Croatia's line coincide on land. `inputs/no_outline.csv` keeps Rukwanzi–Semliki and the Dniester Security Zone special places (R047).
+
+Result: 317 regions, 304 with nothing open; 89 special places; 3 missing facts (none changes whether a place is a region).
+
 ## Status
 
-Concluded 2026-10-04 (six runs, three corrections, D057–D058).
+Concluded 2026-10-04 (six runs, three corrections, D057, D058, D063).

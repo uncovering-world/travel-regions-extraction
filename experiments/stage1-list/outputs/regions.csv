@@ -260,6 +260,7 @@ area/bir-tawil,Bir Tawil,unclaimed land,none,secondary,
 area/ceuta,Ceuta,residents; points of view differ,holder,secondary,who holds it
 area/crimea,Crimea and Sevastopol,registry: points of view differ,Russia (accepted 2017); active conflict,secondary,
 area/cyprus-buffer-zone,UN Buffer Zone in Cyprus,residents; no single holder,none,secondary,
+area/demchok,Demchok sector,residents; points of view differ (line dispute),holder,secondary,
 area/east-jerusalem,East Jerusalem,registry: points of view differ,Israel (accepted 1999); active conflict,secondary,
 area/gilgit-baltistan,Gilgit-Baltistan,residents; points of view differ,holder,secondary,who holds it
 area/golan-heights,Golan Heights,registry: points of view differ,"Israel (the territory it holds was under military administration until 1981, when Israeli law was applied to it) (accepted 1970); active conflict",secondary,
@@ -267,6 +268,7 @@ area/gornja-siga,Gornja Siga and other west-bank pockets,unclaimed land,none,sec
 area/guantanamo-bay,Guantanamo Bay Naval Base,leased area held by the lessee,the lessor; held by Split: United States (lessee) inside the base — complete jur,secondary,
 area/ilemi-triangle,Ilemi Triangle,residents; points of view differ,holder,secondary,who holds it
 area/indian-jammu-kashmir-ladakh,Jammu and Kashmir and Ladakh (Indian-administered),residents; points of view differ,holder,secondary,who holds it
+area/kalapani,"Kalapani, Lipulekh and Limpiyadhura",residents; points of view differ (line dispute),holder,secondary,
 area/kinmen-matsu,"Kinmen, Matsu and Wuqiu",entry rule of the holder,Republic of China (Taiwan): its law counts Kinmen and Matsu in the area under the effective control of its government (accepted 1948),secondary,
 area/koalou,Koalou (Kourou) neutral zone,residents; no single holder,none,secondary,
 area/korean-dmz,Korean Demilitarized Zone,residents; no single holder,none,secondary,
@@ -276,6 +278,7 @@ area/melilla,Melilla,residents; points of view differ,holder,secondary,who holds
 area/northern-cyprus,Turkish Republic of Northern Cyprus,registry: points of view differ,Turkish Republic of Northern Cyprus (accepted 1977),secondary,
 area/olivenza,Olivenza and Táliga,residents; points of view differ,holder,secondary,who holds it
 area/paracel-islands,Paracel Islands,residents; islet group,holder,secondary,who holds it
+area/rincon-de-artigas,Rincón de Artigas (Arroyo de la Invernada) and Vila Albornoz,residents; points of view differ (line dispute),holder,secondary,
 area/shebaa-farms,Shebaa Farms and Kfarchouba hills,registry: points of view differ,Israel (accepted 1970); active conflict,secondary,
 area/somaliland,Somaliland,registry: points of view differ,"Somaliland, except a significant eastern part lost to the SSC-Khatumo administration after the Las Anod conflict (accepted 1994)",secondary,
 area/south-ossetia,South Ossetia,registry: points of view differ,South Ossetian and Russian forces (accepted 2011),secondary,

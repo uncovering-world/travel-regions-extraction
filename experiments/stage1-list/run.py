@@ -141,6 +141,10 @@ def main() -> None:
             if cell:
                 h = held.get(a["area_id"], {})
                 region("registry: points of view differ", f"held by {h.get('holder', '?')} since {h.get('holder_since', '?')}", "" if h else "who holds it")
+        elif kind == "line_position" and (cell or link.get("pov_feature")) and lives == "yes":
+            # D063: a line dispute takes the residents test when a supported point of view differs
+            h = held.get(a["area_id"], {})
+            region("residents; points of view differ (line dispute)", h.get("holder", "holder"))
         elif kind in SPECIAL:
             place("a dispute about a line or an undelimited stretch; the land goes with whoever holds it")
         elif kind == "unclaimed":

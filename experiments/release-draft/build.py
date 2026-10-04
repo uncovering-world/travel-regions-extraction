@@ -111,6 +111,8 @@ def main() -> None:
                 feature = disputed.get(cell.rsplit("#", 1)[1])
             elif link.get("small_feature") in small:
                 feature = disputed.get(small[link["small_feature"]])
+            elif link.get("pov_feature"):
+                feature = disputed.get(link["pov_feature"])
         if rid in pov_override:
             kind, _, ref = pov_override[rid].partition(":")
             feature = {"countries": countries_by_a3, "disputed": disputed, "iso": by_a2}.get(kind, {}).get(ref)
