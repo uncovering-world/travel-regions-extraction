@@ -16,7 +16,7 @@ The positive compatibility outcome is `hard_compatible`. It means both units hav
 
 Absence of a CR-W certificate is not compatibility. Production completeness covers all accepted hard decision dimensions at the same versioned traveller scope and time, excluding CR-J/identity. Q001 is narrowed, not all Stage 1 semantics complete. See the [adoption record](../experiments/q001/stage1-core-adoption.md).
 
-### Stage 1 as decided on 2026-10-03 (D038–D065)
+### Stage 1 as decided on 2026-10-03 (D038–D066)
 
 Stage 1 boundaries come from three sources, and a release is built from them under the product profile `S1-product-v1` (R057):
 

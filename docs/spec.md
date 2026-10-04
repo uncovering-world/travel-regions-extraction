@@ -380,6 +380,8 @@ The outline of a cell created for an area of the register, or for an area held b
 
 The registry and the register say which places are separate and whose they are; they are not the only source of outlines. The substrate is extensible: where it has no unit that fits the stated line, a custom geometry is added from a cited source of that line. Outlines may be taken from Natural Earth, GADM or OpenStreetMap, or digitised from a cited document; the licences of these datasets apply as they do to Track Your Regions, of which the canon is part (amended by D056). Where the substrate cannot represent a place as the canon needs, the canon's geometry is Natural Earth's polygon, else OpenStreetMap or a Commons map, else an outline digitised from a cited document; a more detailed source replaces Natural Earth place by place after review, at a release (amended by D059). Sources are ranked by whose line they draw: a party's own published line, then an agreed line drawn by a neutral publisher, then OpenStreetMap, then Natural Earth; every own geometry is clipped to the substrate units of the regions it takes land from (amended by D062). How geometries are pinned and versioned is Q013.
 
+Amended by D066: where the holder of land is known (R048) but no party publishes the line up to which it holds, the land is divided between the holders by the best available line of actual control, in the source order above, with the source recorded; the line has held since a ceasefire (a moving front does not qualify, R049) and only decides which region the land goes to. The project draws no polygon for the purpose.
+
 ### R048 — The holder of an area [accepted; D043]
 
 `holder(area, t)` is the party whose officers can in practice admit a civilian to the area, refuse one and remove one at t. Rules a party issues for an area but cannot enforce there do not count. Where parts of an area are held by different parties, each part has its own holder. Holding in fact is enough, for inhabited and uninhabited areas alike; there is no separate condition about civil administration. The holder and the date from which it has held the area without interruption are register facts with a source and a quoted passage; attribution is computed from them. Where this test cannot tell the parties apart, the holder is the party that provides civil administration to the residents; if there is none, the area has no holder (amended by D055).
@@ -415,7 +417,7 @@ There is no original or rightful holder: a party that retakes an area the canon 
 
 ### R050 — Disputes about where a border line runs [accepted; D044]
 
-An area whose register `kind` is `line_position` is not a cell. Its land belongs to the region of its holder (R048), and the dispute is a special place (R046).
+An area whose register `kind` is `line_position` is not a cell. Its land belongs to the region of its holder (R048), and the dispute is a special place (R046). Where its holders' line of control is not published, D066 (R047) says how the land is divided.
 
 Amended by D063: such an area is a region of its own when a supported point of view (R045) puts it in another country and civilians live there, attributed to its holder; otherwise the rule above applies.
 
