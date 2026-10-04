@@ -153,6 +153,42 @@
    "notes": "Union of DoS 'No Man's Land' x2 (Latrun, Jerusalem; LSIB label '1949 Armistice Line') and 'Mt. Scopus South'; one DoS feature also has a 0.01 km² part at about 35.495°E 32.401°N, outside the three places. The Mount Scopus enclave itself (about 1.0 km²) is not a separate DoS feature (it is a part of DoS's 'Israel' polygon), so it is missing here; Natural Earth's 'Mount Scopus' feature included it. Owner to decide (see README)."
   },
   {
+   "place": "artsvashen",
+   "region": "area/artsvashen",
+   "donors": "AZ",
+   "rank": 2,
+   "whose_line": "the US State Department's international boundaries (World Polygons 11.4)",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 15: the Armenian exclave of Artsvashen, part of Armenia's polygon (fid 15)",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     15
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ],
+    "part_at": [
+     [
+      45.517,
+      40.629
+     ]
+    ]
+   },
+   "file": "artsvashen.geojson",
+   "notes": "Held by Azerbaijan since August 1992; Armenia claims it. GADM puts the land in Azerbaijan's Gadabay and its own Artsvashen part overlaps the State Department's outline by only 7 of 38 km²; Armenia's own COD-AB boundary has no exclave. OSM relation 10853047 (Chambarak community) agrees with this outline (37.4 km² overlap)."
+  },
+  {
    "place": "baikonur",
    "region": "area/baikonur",
    "donors": "KZ",
@@ -586,6 +622,46 @@
    "notes": ""
   },
   {
+   "place": "gazakh-exclaves",
+   "region": "area/gazakh-exclaves",
+   "donors": "AM",
+   "rank": 2,
+   "whose_line": "the US State Department's international boundaries (World Polygons 11.4)",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 20: the Azerbaijani exclaves of Yukhari Askipara and Barkhudarli (with Sofulu), parts of Azerbaijan's polygon (fid 20)",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     20
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ],
+    "part_at": [
+     [
+      45.0134,
+      41.0648
+     ],
+     [
+      45.2086,
+      40.996
+     ]
+    ]
+   },
+   "file": "gazakh-exclaves.geojson",
+   "notes": "Held by Armenia since 1992; Azerbaijan claims them. Sofulu lies inside the Barkhudarli exclave, so there are two polygons. GADM's exclave parts overlap these outlines by only 6-7 km² each."
+  },
+  {
    "place": "glorioso-islands",
    "region": "TF",
    "donors": "",
@@ -837,6 +913,42 @@
    },
    "file": "kalapani.geojson",
    "notes": "Two parties, two lines: Nepal's claim and India's line; neither found as data. HDX COD-AB Nepal (Survey Department) does not follow Nepal's claim (it holds 66 of these 410 km²). DoS's 'Kalapani' (60 km²) is DoS's own line, not agreed, so not rank 2. Natural Earth's 'Near Om Parvat' (60 km²) is a different, smaller object. Since D063 (2026-10-04) Kalapani is a region of its own (inhabited; Nepal’s point of view puts it in Nepal)."
+  },
+  {
+   "place": "karki",
+   "region": "area/karki",
+   "donors": "AM",
+   "rank": 2,
+   "whose_line": "the US State Department's international boundaries (World Polygons 11.4)",
+   "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
+   "source_url": "https://data.geodata.state.gov/WorldPolygons.zip",
+   "version_or_date": "World Polygons 11.4 BETA, 2025-02-24; read 2026-10-04",
+   "licence": "US government work, not subject to US copyright (17 U.S.C. § 105)",
+   "input": "dos-worldpolygons-11.4",
+   "feature_id": "DoS_WP_11_4 fid 20: the Azerbaijani exclave of Karki (Tigranashen), part of Azerbaijan's polygon (fid 20)",
+   "select": {
+    "layer": "DoS_WP_11_4",
+    "fids": [
+     20
+    ],
+    "attributes": [
+     "WP_Name",
+     "WP_ID",
+     "Map_Label",
+     "NOTES",
+     "US_Recog",
+     "Show_Disp",
+     "GENC_3"
+    ],
+    "part_at": [
+     [
+      44.954,
+      39.792
+     ]
+    ]
+   },
+   "file": "karki.geojson",
+   "notes": "Held by Armenia since May 1992; Azerbaijan claims it. GADM has no unit or part for it."
   },
   {
    "place": "koalou",

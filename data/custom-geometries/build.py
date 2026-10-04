@@ -9,7 +9,9 @@ OpenStreetMap relation is assembled from its member ways (outer rings minus inne
 is drawn with straight lines between the points, edges the document runs along a river follow a pinned OpenStreetMap
 river line, and the areas the document excludes are cut out. A place whose land is divided by a line of control
 (D066) is written as that line, from the member ways of a pinned OSM relation with both ends prolonged a little,
-and a point on the holder's side; the consumer splits the donors' units by the line and keeps the side with the point. All inputs are already in
+and a point on the holder's side; the consumer splits the donors' units by the line and keeps the side with the point. A place may also take only the
+parts of a source feature that contain given points (an exclave inside a country polygon), or the intersection of
+its source feature with a polygon of another pinned input (an island's coastline and the country it belongs to). All inputs are already in
 WGS84 longitude/latitude, so nothing is reprojected. No geometry is clipped here: the clip to the substrate (GADM)
 units of each place's donor regions is expressed in the release's membership and done by the consumer (D062).
 Files marked "kept" are not rebuilt; only their sha256 is checked.
@@ -355,6 +357,23 @@ def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
     else:
         geometry = mapping(unary_union([f[2] for f in feats]))
         operation = f"union of the {len(feats)} source features"
+    if "part_at" in sel:
+        # only the polygon parts of the source feature that contain the given points (an exclave of a country)
+        whole = shape(geometry)
+        points = [Point(xy) for xy in sel["part_at"]]
+        parts = [g for g in getattr(whole, "geoms", [whole]) if any(g.contains(pt) for pt in points)]
+        if len(parts) != len(points):
+            raise SystemExit(f"{place['place']}: {len(parts)} parts contain the {len(points)} points")
+        geometry = mapping(unary_union(parts))
+        operation = f"the parts of the source feature that contain the points {sel['part_at']}"
+    if "intersect_with" in sel:
+        # the land both sources include: e.g. an island's coastline and the country polygon of the side it belongs to
+        other = sel["intersect_with"]
+        feats2 = read_gpkg(paths[other["input"]], other) if inputs[other["input"]]["kind"] == "worldpolygons-gpkg" \
+            else read_osm(paths[other["input"]], other)
+        geometry = mapping(shape(geometry).intersection(unary_union([f[2] for f in feats2])))
+        operation += f"; intersected with {other['input']} " + ", ".join(f[0] for f in feats2)
+        feats = feats + feats2
     if "control_line" in sel:
         # D066: the land is divided by a line of control, not outlined: the file is that line, with a point on the
         # holder's side; the consumer splits the donors' substrate units by it and keeps the side with the point
@@ -388,6 +407,7 @@ def main():
     inputs, places = spec["inputs"], spec["places"]
     needed = {p["input"] for p in places if p["input"] in inputs}
     needed |= {p["select"]["river"]["input"] for p in places if "river" in p["select"]}
+    needed |= {p["select"]["intersect_with"]["input"] for p in places if "intersect_with" in p["select"]}
     paths = {k: ensure_input(k, inputs[k]) for k in sorted(needed)}
     outputs = {"sources.csv": sources_csv(places)}
     failures = []
