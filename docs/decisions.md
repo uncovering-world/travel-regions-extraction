@@ -640,3 +640,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: a secondary source may misreport or overstate a claim, or report one the claimant no longer presses; the alternatives were the claimant's own document only, and secondary sources for drafts with the claimant's document required for a release.
 - Status: accepted.
 - Basis: owner decision, 2026-10-04 (option "a secondary source is acceptable, marked").
+
+### D068 — A claim holds until the claimant renounces it by an act in force
+
+- Decision: a claim counts for the claimant's point of view (D065) until the claimant renounces it by an explicit act in force — a treaty in force, a ruling it accepts, an amendment of its constitution or law. A claim the sources call dormant or formal still counts; a treaty that renounces it but is not in force does not end it.
+- Rationale: the same test ends a contest under the settling rule (D043: only an explicit act counts); activity is hard to measure and would need dates of the latest statements for every claim; the evidence level of each claim stays visible (D067).
+- Rules: R045 (amended); Q020 (narrowed).
+- Counterarguments: dormant claims create regions few travellers would expect (a claim pressed by no one for decades); the alternatives were claims repeated officially within a stated number of years, and claims written in the claimant's law or shown on its official map only.
+- Status: accepted.
+- Basis: owner decision, 2026-10-04 (option "until renounced by an explicit act").

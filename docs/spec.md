@@ -370,6 +370,8 @@ Amended by D065: every country's point of view is built from its sourced claims 
 
 Amended by D067: a claim may rest on a reliable secondary source that reports it, with the quoted passage; its evidence level is recorded and shown with the region it creates, and the claimant's own document replaces the secondary source when found.
 
+Amended by D068: a claim counts until the claimant renounces it by an explicit act in force (a treaty in force, a ruling it accepts, an amendment of its constitution or law); a claim called dormant or formal still counts, and a treaty not in force does not end it.
+
 ### R046 — Special places and markers [accepted; D041]
 
 A **special place** is an object with its own location or outline that is not a region. It is tickable, it is shown with the region that holds its land (its parent region), it is not counted as a region, and it does not change the partition. A **marker** is a recorded note on a region or a boundary — an overlay in the sense of R017 — and is neither a region nor a special place.
