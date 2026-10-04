@@ -67,7 +67,7 @@ def main() -> None:
     regions = read(REPO / "experiments" / "stage1-list" / "outputs" / "regions.csv")
     links = {r["area_id"]: r for r in read(REPO / "experiments" / "stage1-list" / "inputs" / "links.csv")}
     register = {r["area_id"]: r for r in read(REPO / "data" / "disputed-areas" / "areas.csv")}
-    census = {r["id"]: r for r in read(REPO / "experiments" / "stage1-world-draft" / "inputs" / "crw_scopes.csv")}
+    census = {r["id"]: r for r in read(REPO / "data" / "entry-rules" / "census.csv")}
     admin0 = ne("ne_10m_admin_0_map_units.geojson") + ne("ne_10m_admin_0_countries.geojson")
     disputed = ne("ne_10m_admin_0_disputed_areas.geojson")
     admin1 = ne(NE_ADMIN1["file"], NE_ADMIN1["url"])

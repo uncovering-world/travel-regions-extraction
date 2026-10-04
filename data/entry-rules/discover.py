@@ -32,7 +32,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent.parent
-CENSUS = REPO / "experiments" / "stage1-world-draft" / "inputs" / "crw_scopes.csv"
+CENSUS = ROOT / "census.csv"
 CACHE = ROOT / "cache"
 AGENT = "ctr-entry-rules/0.1 (https://github.com/uncovering-world/travel-regions-extraction)"
 WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"

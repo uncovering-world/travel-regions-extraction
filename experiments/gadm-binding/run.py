@@ -67,7 +67,7 @@ def main() -> None:
     alpha3 = {c["alpha_2"]: c["alpha_3"] for c in json.loads(ISO.read_text())["3166-1"]}
 
     regions = read(REPO / "experiments" / "stage1-list" / "outputs" / "regions.csv")
-    census = {r["id"]: r for r in read(REPO / "experiments" / "stage1-world-draft" / "inputs" / "crw_scopes.csv")}
+    census = {r["id"]: r for r in read(REPO / "data" / "entry-rules" / "census.csv")}
     register = {r["area_id"]: r for r in read(REPO / "data" / "disputed-areas" / "registry.csv")}
     codes = {r["region"]: r for r in read(ROOT / "inputs" / "gadm_codes.csv")}
     reviewed = {r["region"]: r for r in read(ROOT / "inputs" / "reviewed.csv")} if (ROOT / "inputs" / "reviewed.csv").exists() else {}

@@ -12,6 +12,7 @@ import csv
 import html
 import json
 import re
+import subprocess
 import sys
 import time
 import unicodedata
@@ -46,7 +47,12 @@ def page_text(url: str) -> str | None:
             time.sleep(0.5)
         else:
             with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": AGENT}), timeout=30) as response:
-                raw = response.read().decode("utf-8", "replace")
+                body = response.read()
+            if body[:5] == b"%PDF-":  # read the text layer of a PDF, not its bytes
+                done = subprocess.run(["pdftotext", "-layout", "-", "-"], input=body, capture_output=True, timeout=120)
+                raw = html.escape(done.stdout.decode("utf-8", "replace"))
+            else:
+                raw = body.decode("utf-8", "replace")
     except Exception:  # noqa: BLE001 - any failure to read means "unchecked"
         return None
     text = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", raw, flags=re.S)

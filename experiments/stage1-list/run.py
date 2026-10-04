@@ -3,7 +3,7 @@
 
 Inputs: the first world draft's registry cells and census of entry rules, the register of disputed areas,
 inputs/links.csv, which ties register areas to ISO entries, registry cells and census rows, and
-inputs/entry_rule_facts.csv, what the texts of 43 entry rules say (collected 2026-10-03, with quoted passages).
+data/entry-rules/ (census.csv and facts.csv: the living census of entry rules and what their texts say, with quoted passages).
 Run from the repository root: python3 experiments/stage1-list/run.py
 """
 from __future__ import annotations
@@ -35,7 +35,7 @@ def read(path: Path) -> list[dict]:
 
 def main() -> None:
     cells = read(DRAFT / "outputs" / "cells.csv")
-    census = {r["id"]: r for r in read(DRAFT / "inputs" / "crw_scopes.csv")}
+    census = {r["id"]: r for r in read(REPO / "data" / "entry-rules" / "census.csv")}
     areas = read(REPO / "data" / "disputed-areas" / "registry.csv")
     links = {r["area_id"]: r for r in read(ROOT / "inputs" / "links.csv")}
     not_witness = {r["id"] for r in read(ROOT / "inputs" / "not_a_witness.csv")}
@@ -46,7 +46,7 @@ def main() -> None:
         if r["field"] in ("holder", "holder_since", "stated_outline"):
             held.setdefault(r["area_id"], {})[r["field"]] = r["value"]
     rule_facts: dict[str, dict] = {}
-    for r in read(ROOT / "inputs" / "entry_rule_facts.csv"):
+    for r in read(REPO / "data" / "entry-rules" / "facts.csv"):
         rule_facts.setdefault(r["id"], {}).setdefault(r["field"], r["value"])
     known = {a["area_id"] for a in areas}
     registry = {c["cell"]: c for c in cells if c["kind"] == "registry_extra"}

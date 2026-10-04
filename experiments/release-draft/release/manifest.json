@@ -21,7 +21,7 @@
     "experiments/stage1-list/outputs/regions.csv": "48e3338373f1c9611e0358ed5e6afaa015a3135238bd724cc19180f737ae97ba",
     "experiments/gadm-binding/outputs/bindings.csv": "57828218b54258620f62a7caad83aa1ccf3875f43db506fbaa9e16f6c047291d",
     "experiments/outline-sources/outputs/regions.csv": "9df9ec3e721551dfb23b2c38a43497dad08964683281efa2e829c13bb094933c",
-    "experiments/stage1-world-draft/inputs/crw_scopes.csv": "66ef8b50ec73870d0af9033dc88299bc94e5fcee268240a6ffce54db2ae779fb",
+    "data/entry-rules/census.csv": "66ef8b50ec73870d0af9033dc88299bc94e5fcee268240a6ffce54db2ae779fb",
     "experiments/release-draft/inputs/attribution.csv": "81b073a94ac79ac4978b1e16f52032df62310ca3f3bc38256709477cdc19f3b1",
     "experiments/release-draft/inputs/gadm_leftovers.csv": "655378fd0c8060777544a41fe020629562507917aa467013aa18318604add012",
     "data/custom-geometries/sources.csv": "e1fd6880e2064e11c50e75db567ac17f87983a50dd92e794d00566944b841bb0",

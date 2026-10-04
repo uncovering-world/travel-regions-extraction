@@ -31,7 +31,7 @@ INPUTS = [
     "experiments/stage1-list/outputs/regions.csv",
     "experiments/gadm-binding/outputs/bindings.csv",
     "experiments/outline-sources/outputs/regions.csv",
-    "experiments/stage1-world-draft/inputs/crw_scopes.csv",
+    "data/entry-rules/census.csv",
     "experiments/release-draft/inputs/attribution.csv",
     "experiments/release-draft/inputs/gadm_leftovers.csv",
     "data/custom-geometries/sources.csv",
@@ -58,7 +58,7 @@ def main() -> None:
     regions = read("experiments/stage1-list/outputs/regions.csv")
     bindings = {r["region"]: r for r in read("experiments/gadm-binding/outputs/bindings.csv")}
     items = {r["region"]: r["item"] for r in read("experiments/outline-sources/outputs/regions.csv")}
-    census = {r["id"]: r for r in read("experiments/stage1-world-draft/inputs/crw_scopes.csv")}
+    census = {r["id"]: r for r in read("data/entry-rules/census.csv")}
     attribution = {r["region"]: r for r in read("experiments/release-draft/inputs/attribution.csv")}
     iso_names = {c["alpha_2"]: c.get("common_name", c["name"]) for c in
                  json.loads(Path("/usr/share/iso-codes/json/iso_3166-1.json").read_text())["3166-1"]}
