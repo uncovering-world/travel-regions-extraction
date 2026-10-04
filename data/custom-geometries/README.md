@@ -45,7 +45,7 @@ Built and checked with shapely 2 / GEOS from the project's scratch environment; 
 | 2 | `ilemi-triangle` → area/ilemi-triangle | Kenya–South Sudan administrative and provisional boundaries, US DoS | US government work |
 | 2 | 14 islets: `sapodilla-cayes`, `hans-island`, `doumeira-island`, `bassas-da-india`, `europa-island`, `glorioso-islands`, `juan-de-nova`, `matthew-hunter`, `mbanie`, `biot`, `senkaku`, `dokdo`, `scarborough-shoal`, `wake` | the coastline, US DoS | US government work |
 | 3 | `cyprus-buffer-zone`, `gornja-siga`, `kuril-islands`, `somaliland`, `kalapani` → IN | OpenStreetMap mappers | ODbL 1.0 |
-| 3 | `siachen`, `demchok` → area/indian-jammu-kashmir-ladakh | OSM (Siachen's outline is a later Natural Earth edition imported into OSM, extended east by a clipping mask to GADM's NJ9842–Karakoram Pass line, since India holds the whole glacier; Demchok is OSM's India-controlled western sector) | ODbL 1.0 |
+| 3 | `siachen`, `demchok` → area/indian-jammu-kashmir-ladakh | OSM (Siachen's outline is OSM's own relation, its west edge OSM's Actual Ground Position Line, extended east by a clipping mask to GADM's NJ9842–Karakoram Pass line, since India holds the whole glacier; Demchok is OSM's India-controlled western sector) | ODbL 1.0 |
 | 3 | `bhutan-china-north` → BT | OSM: Bhutan-controlled part of the northern disputed area | ODbL 1.0 |
 | 3 | `bajo-nuevo`, `serranilla` → CO; `penon-de-alhucemas` → ES; `rockall` → GB; `bird-island` → VE | OSM coastlines | ODbL 1.0 |
 | 4 | `east-jerusalem`, `shebaa-farms`, `western-sahara-moroccan-controlled` | Natural Earth editors | public domain |

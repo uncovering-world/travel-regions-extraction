@@ -1260,7 +1260,7 @@
    "region": "area/indian-jammu-kashmir-ladakh",
    "donors": "area/gilgit-baltistan",
    "rank": 3,
-   "whose_line": "a later Natural Earth edition (NE_ID 1746708607) imported into OpenStreetMap",
+   "whose_line": "OpenStreetMap mappers (the relation's ways; its west edge is OSM's Actual Ground Position Line)",
    "publisher": "OpenStreetMap contributors",
    "source_url": "https://www.openstreetmap.org/relation/13559521",
    "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 13559521 v10 (2026-09-03T12:38:19Z)",
@@ -1370,7 +1370,7 @@
     }
    },
    "file": "siachen.geojson",
-   "notes": "No agreed line exists, so DoS's 'Siachen' polygon (its own line; note 'Do not connect Line of Control lines to China') is not rank 2. The OSM relation carries ne_id 1746708607 and ne:brk_a3 B45: its outline is Natural Earth's, from an edition later than v5.1.2. Extended east by a clipping mask: the land between the source's straight east edge and GADM's NJ9842-Karakoram Pass line is held by India like the rest of the glacier; only the source's west edge (the Saltoro Ridge, the Actual Ground Position Line) remains a boundary."
+   "notes": "No agreed line exists, so DoS's 'Siachen' polygon (its own line; note 'Do not connect Line of Control lines to China') is not rank 2. The OSM relation is built from OSM's own ways; it is only tagged ne_id 1746708607 and ne:brk_a3 B45, and no polygon with that id is in Natural Earth's disputed areas v5.1.2 (corrected 2026-10-04). Extended east by a clipping mask: the land between the source's straight east edge and GADM's NJ9842-Karakoram Pass line is held by India like the rest of the glacier; only the source's west edge (the Saltoro Ridge, the Actual Ground Position Line) remains a boundary."
   },
   {
    "place": "somaliland",
