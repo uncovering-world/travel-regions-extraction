@@ -15,7 +15,7 @@ Decisions are taken one at a time in conversation with the owner; this list is t
 - D038 / R045 — reference registry: Stage 1 refines ISO 3166-1 and the Natural Earth national points of view (#19); D039 — pinned editions, changed only by the owner's decision at a release.
 - D064, D065 / R045 — every country's point of view is built from its sourced claims; Natural Earth's views are a lead, and a difference no sourced claim supports cuts no boundary. Open: what counts as a claim and how unchecked differences are treated (Q020).
 - D066 / R047 — land a party holds without a published line is divided by the best available line of actual control (party, neutral publisher, OpenStreetMap, Natural Earth), held since a ceasefire; the project draws no polygon for it.
-- D067 — a claim may rest on a reliable secondary source with the quoted passage, marked with its evidence level; the claimant's own document replaces it when found. D068 — a claim counts until renounced by an explicit act in force.
+- D067 — a claim may rest on a reliable secondary source with the quoted passage, marked with its evidence level; the claimant's own document replaces it when found. D068 — a claim counts until renounced by an explicit act in force. D069 — a de facto state that is already a region has a point of view.
 - D040 / R026 (amended) — Antarctica: one Stage 1 cell, divided in Stage 2 by access; claims stay an overlay.
 - D041 / R046 — special places are tickable objects inside their parent region, not regions; to be raised with TYR as an importer need.
 - D042 / R047 — outlines only from lines the parties state; the substrate is extensible with cited custom geometries (design open: Q013).

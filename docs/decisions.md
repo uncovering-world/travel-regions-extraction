@@ -649,3 +649,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: dormant claims create regions few travellers would expect (a claim pressed by no one for decades); the alternatives were claims repeated officially within a stated number of years, and claims written in the claimant's law or shown on its official map only.
 - Status: accepted.
 - Basis: owner decision, 2026-10-04 (option "until renounced by an explicit act").
+
+### D069 — De facto states that are regions have points of view
+
+- Decision: a party that the canon already treats as a country — a region attributed to itself because its control is accepted under the settling rule (R049) — has a point of view like a country with an ISO 3166-1 entry: its sourced claims to land it does not hold cut boundaries (D065, D067, D068).
+- Rationale: the canon lets a user choose a side, and in disputes such as South Ossetia's claim in Kazbegi Municipality, Transnistria's claim to Moldovan-held villages of the left bank or Somaliland's claim to Sool and Sanaag one side is such a party.
+- Rules: R045 (amended); Q020 (narrowed).
+- Counterarguments: it gives entities that most states do not recognise the same weight as states in drawing boundaries; the alternative was views for ISO 3166-1 countries only, with the claims of other parties kept as notes.
+- Status: accepted.
+- Basis: owner decision, 2026-10-04 (option "yes, if it is already a region").

@@ -212,7 +212,7 @@ D065 builds every country's point of view from its sourced claims and treats Nat
 
 **Closure criterion:** the owner decides each point, recorded in R045.
 
-Narrowed on 2026-10-04 by D067: a reliable secondary source with the quoted passage is enough, marked with its evidence level. Narrowed on 2026-10-04 by D068: a claim counts until renounced by an explicit act in force. Still open: de facto authorities; the outline of a claim without a published line; unchecked Natural Earth differences.
+Narrowed on 2026-10-04 by D067: a reliable secondary source with the quoted passage is enough, marked with its evidence level. Narrowed on 2026-10-04 by D068: a claim counts until renounced by an explicit act in force; and by D069: a party that is already a region attributed to itself has a view. Still open: the outline of a claim without a published line; unchecked Natural Earth differences.
 
 ## What is intentionally not included in this list
 
