@@ -40,6 +40,7 @@ def main() -> None:
     links = {r["area_id"]: r for r in read(ROOT / "inputs" / "links.csv")}
     not_witness = {r["id"] for r in read(ROOT / "inputs" / "not_a_witness.csv")}
     lease_roles = {r["area_id"]: r for r in read(ROOT / "inputs" / "lease_holders.csv")}
+    no_outline = {r["area_id"] for r in read(ROOT / "inputs" / "no_outline.csv")}   # R047: no stated line, no cell
     held: dict[str, dict] = {}
     for r in read(REPO / "data" / "disputed-areas" / "facts.csv"):
         if r["field"] in ("holder", "holder_since", "stated_outline"):
@@ -131,6 +132,8 @@ def main() -> None:
 
         if not kind:
             gap("kind", "everything")
+        elif a["area_id"] in no_outline:
+            place("no stated outline found (R047, D061)")
         elif link.get("iso"):
             # the area is, or lies inside, an ISO entry: that entry is the region (Antarctica is one cell, D040);
             # a registry cell inside it still separates

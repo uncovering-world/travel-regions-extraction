@@ -1,0 +1,1402 @@
+{
+ "name": "World",
+ "children": [
+  {
+   "name": "Abkhazia",
+   "wikidataId": "Q23334"
+  },
+  {
+   "name": "Afghanistan",
+   "wikidataId": "Q889"
+  },
+  {
+   "name": "Albania",
+   "wikidataId": "Q222"
+  },
+  {
+   "name": "Algeria",
+   "wikidataId": "Q262"
+  },
+  {
+   "name": "American Samoa",
+   "wikidataId": "Q16641"
+  },
+  {
+   "name": "Andorra",
+   "wikidataId": "Q228"
+  },
+  {
+   "name": "Angola",
+   "wikidataId": "Q916"
+  },
+  {
+   "name": "Anguilla",
+   "wikidataId": "Q25228"
+  },
+  {
+   "name": "Antarctica",
+   "wikidataId": "Q51"
+  },
+  {
+   "name": "Antigua and Barbuda",
+   "wikidataId": "Q316390"
+  },
+  {
+   "name": "Argentina",
+   "wikidataId": "Q414"
+  },
+  {
+   "name": "Armenia",
+   "wikidataId": "Q399"
+  },
+  {
+   "name": "Aruba",
+   "wikidataId": "Q21203"
+  },
+  {
+   "name": "Australia",
+   "children": [
+    {
+     "name": "Australia",
+     "wikidataId": "Q408"
+    },
+    {
+     "name": "Macquarie Island (Macquarie Island Nature Reserve)",
+     "wikidataId": "Q46650"
+    }
+   ]
+  },
+  {
+   "name": "Austria",
+   "wikidataId": "Q40"
+  },
+  {
+   "name": "Azerbaijan",
+   "children": [
+    {
+     "name": "Azerbaijan",
+     "wikidataId": "Q227"
+    },
+    {
+     "name": "Nakhchivan Autonomous Republic",
+     "wikidataId": "Q131083"
+    }
+   ]
+  },
+  {
+   "name": "Bahamas",
+   "wikidataId": "Q778"
+  },
+  {
+   "name": "Bahrain",
+   "wikidataId": "Q398"
+  },
+  {
+   "name": "Bangladesh",
+   "wikidataId": "Q902"
+  },
+  {
+   "name": "Barbados",
+   "wikidataId": "Q244"
+  },
+  {
+   "name": "Belarus",
+   "wikidataId": "Q184"
+  },
+  {
+   "name": "Belgium",
+   "wikidataId": "Q1118"
+  },
+  {
+   "name": "Belize",
+   "wikidataId": "Q242"
+  },
+  {
+   "name": "Benin",
+   "wikidataId": "Q962"
+  },
+  {
+   "name": "Bermuda",
+   "wikidataId": "Q23635"
+  },
+  {
+   "name": "Bhutan",
+   "wikidataId": "Q917"
+  },
+  {
+   "name": "Bolivia",
+   "wikidataId": "Q750"
+  },
+  {
+   "name": "Bonaire, Sint Eustatius and Saba",
+   "wikidataId": "Q27561"
+  },
+  {
+   "name": "Bosnia and Herzegovina",
+   "wikidataId": "Q11198"
+  },
+  {
+   "name": "Botswana",
+   "wikidataId": "Q963"
+  },
+  {
+   "name": "Bouvet Island",
+   "wikidataId": "Q23408"
+  },
+  {
+   "name": "Brazil",
+   "wikidataId": "Q155"
+  },
+  {
+   "name": "British Indian Ocean Territory",
+   "wikidataId": "Q43448"
+  },
+  {
+   "name": "Brunei Darussalam",
+   "wikidataId": "Q921"
+  },
+  {
+   "name": "Bulgaria",
+   "wikidataId": "Q219"
+  },
+  {
+   "name": "Burkina Faso",
+   "wikidataId": "Q965"
+  },
+  {
+   "name": "Burundi",
+   "wikidataId": "Q967"
+  },
+  {
+   "name": "Cabo Verde",
+   "wikidataId": "Q1011"
+  },
+  {
+   "name": "Cambodia",
+   "wikidataId": "Q424"
+  },
+  {
+   "name": "Cameroon",
+   "wikidataId": "Q1009"
+  },
+  {
+   "name": "Canada",
+   "wikidataId": "Q16"
+  },
+  {
+   "name": "Cayman Islands",
+   "wikidataId": "Q5785"
+  },
+  {
+   "name": "Central African Republic",
+   "wikidataId": "Q929"
+  },
+  {
+   "name": "Chad",
+   "wikidataId": "Q657"
+  },
+  {
+   "name": "Chile",
+   "children": [
+    {
+     "name": "Chile",
+     "wikidataId": "Q298"
+    },
+    {
+     "name": "Rapa Nui (Easter Island)",
+     "wikidataId": "Q115116609"
+    }
+   ]
+  },
+  {
+   "name": "China",
+   "children": [
+    {
+     "name": "China",
+     "wikidataId": "Q148"
+    },
+    {
+     "name": "Aksai Chin",
+     "wikidataId": "Q1819167"
+    },
+    {
+     "name": "Hainan Province",
+     "wikidataId": "Q42200"
+    },
+    {
+     "name": "Paracel Islands",
+     "wikidataId": "Q274388"
+    },
+    {
+     "name": "Tibet Autonomous Region",
+     "wikidataId": "Q17269"
+    }
+   ]
+  },
+  {
+   "name": "Christmas Island",
+   "wikidataId": "Q31063"
+  },
+  {
+   "name": "Cocos (Keeling) Islands",
+   "wikidataId": "Q36004"
+  },
+  {
+   "name": "Colombia",
+   "children": [
+    {
+     "name": "Colombia",
+     "wikidataId": "Q739"
+    },
+    {
+     "name": "Archipelago of San Andrés, Providencia and Santa Catalina",
+     "wikidataId": "Q26855"
+    }
+   ]
+  },
+  {
+   "name": "Comoros",
+   "wikidataId": "Q970"
+  },
+  {
+   "name": "Congo",
+   "wikidataId": "Q971"
+  },
+  {
+   "name": "Congo, The Democratic Republic of the",
+   "wikidataId": "Q974"
+  },
+  {
+   "name": "Cook Islands",
+   "wikidataId": "Q26988"
+  },
+  {
+   "name": "Costa Rica",
+   "wikidataId": "Q800"
+  },
+  {
+   "name": "Croatia",
+   "wikidataId": "Q224"
+  },
+  {
+   "name": "Cuba",
+   "children": [
+    {
+     "name": "Cuba",
+     "wikidataId": "Q241"
+    },
+    {
+     "name": "Guantanamo Bay Naval Base"
+    }
+   ]
+  },
+  {
+   "name": "Curaçao",
+   "wikidataId": "Q25279"
+  },
+  {
+   "name": "Cyprus",
+   "wikidataId": "Q229"
+  },
+  {
+   "name": "Czechia",
+   "wikidataId": "Q213"
+  },
+  {
+   "name": "Côte d'Ivoire",
+   "wikidataId": "Q1008"
+  },
+  {
+   "name": "Denmark",
+   "wikidataId": "Q35"
+  },
+  {
+   "name": "Djibouti",
+   "wikidataId": "Q977"
+  },
+  {
+   "name": "Dominica",
+   "wikidataId": "Q784"
+  },
+  {
+   "name": "Dominican Republic",
+   "wikidataId": "Q786"
+  },
+  {
+   "name": "Ecuador",
+   "children": [
+    {
+     "name": "Ecuador",
+     "wikidataId": "Q736"
+    },
+    {
+     "name": "Galápagos Province",
+     "wikidataId": "Q475038"
+    }
+   ]
+  },
+  {
+   "name": "Egypt",
+   "wikidataId": "Q79"
+  },
+  {
+   "name": "El Salvador",
+   "wikidataId": "Q792"
+  },
+  {
+   "name": "Equatorial Guinea",
+   "wikidataId": "Q983"
+  },
+  {
+   "name": "Eritrea",
+   "wikidataId": "Q986"
+  },
+  {
+   "name": "Estonia",
+   "wikidataId": "Q191"
+  },
+  {
+   "name": "Eswatini",
+   "wikidataId": "Q1050"
+  },
+  {
+   "name": "Ethiopia",
+   "wikidataId": "Q115"
+  },
+  {
+   "name": "Falkland Islands (Malvinas)",
+   "wikidataId": "Q9648"
+  },
+  {
+   "name": "Faroe Islands",
+   "wikidataId": "Q4628"
+  },
+  {
+   "name": "Fiji",
+   "wikidataId": "Q712"
+  },
+  {
+   "name": "Finland",
+   "wikidataId": "Q33"
+  },
+  {
+   "name": "France",
+   "children": [
+    {
+     "name": "France",
+     "wikidataId": "Q142"
+    },
+    {
+     "name": "Clipperton Island",
+     "wikidataId": "Q161258"
+    }
+   ]
+  },
+  {
+   "name": "French Guiana",
+   "wikidataId": "Q3769"
+  },
+  {
+   "name": "French Polynesia",
+   "wikidataId": "Q30971"
+  },
+  {
+   "name": "French Southern Territories",
+   "wikidataId": "Q129003"
+  },
+  {
+   "name": "Gabon",
+   "wikidataId": "Q1000"
+  },
+  {
+   "name": "Gambia",
+   "wikidataId": "Q1005"
+  },
+  {
+   "name": "Georgia",
+   "wikidataId": "Q230"
+  },
+  {
+   "name": "Germany",
+   "wikidataId": "Q183"
+  },
+  {
+   "name": "Ghana",
+   "wikidataId": "Q117"
+  },
+  {
+   "name": "Gibraltar",
+   "wikidataId": "Q1410"
+  },
+  {
+   "name": "Greece",
+   "children": [
+    {
+     "name": "Greece",
+     "wikidataId": "Q41"
+    },
+    {
+     "name": "Mount Athos",
+     "wikidataId": "Q780149"
+    }
+   ]
+  },
+  {
+   "name": "Greenland",
+   "wikidataId": "Q223"
+  },
+  {
+   "name": "Grenada",
+   "wikidataId": "Q769"
+  },
+  {
+   "name": "Guadeloupe",
+   "wikidataId": "Q17012"
+  },
+  {
+   "name": "Guam",
+   "wikidataId": "Q16635"
+  },
+  {
+   "name": "Guatemala",
+   "wikidataId": "Q774"
+  },
+  {
+   "name": "Guernsey",
+   "wikidataId": "Q25230"
+  },
+  {
+   "name": "Guinea",
+   "wikidataId": "Q1006"
+  },
+  {
+   "name": "Guinea-Bissau",
+   "wikidataId": "Q1007"
+  },
+  {
+   "name": "Guyana",
+   "wikidataId": "Q734"
+  },
+  {
+   "name": "Haiti",
+   "wikidataId": "Q790"
+  },
+  {
+   "name": "Heard Island and McDonald Islands",
+   "wikidataId": "Q131198"
+  },
+  {
+   "name": "Holy See (Vatican City State)",
+   "wikidataId": "Q237"
+  },
+  {
+   "name": "Honduras",
+   "wikidataId": "Q783"
+  },
+  {
+   "name": "Hong Kong",
+   "wikidataId": "Q8646"
+  },
+  {
+   "name": "Hungary",
+   "wikidataId": "Q28"
+  },
+  {
+   "name": "Iceland",
+   "wikidataId": "Q189"
+  },
+  {
+   "name": "India",
+   "children": [
+    {
+     "name": "India",
+     "wikidataId": "Q668"
+    },
+    {
+     "name": "Arunachal Pradesh",
+     "wikidataId": "Q1162"
+    },
+    {
+     "name": "Jammu and Kashmir and Ladakh (Indian-administered)",
+     "wikidataId": "Q43100"
+    },
+    {
+     "name": "Lakshadweep",
+     "wikidataId": "Q26927"
+    },
+    {
+     "name": "Manipur",
+     "wikidataId": "Q1193"
+    },
+    {
+     "name": "Minicoy (Lakshadweep)",
+     "wikidataId": "Q162448"
+    },
+    {
+     "name": "Mizoram",
+     "wikidataId": "Q1502"
+    },
+    {
+     "name": "Nagaland",
+     "wikidataId": "Q1599"
+    },
+    {
+     "name": "Sikkim",
+     "wikidataId": "Q1505"
+    }
+   ]
+  },
+  {
+   "name": "Indonesia",
+   "wikidataId": "Q252"
+  },
+  {
+   "name": "Iran",
+   "wikidataId": "Q794"
+  },
+  {
+   "name": "Iraq",
+   "children": [
+    {
+     "name": "Iraq",
+     "wikidataId": "Q205047"
+    },
+    {
+     "name": "Kurdistan Region of Iraq",
+     "wikidataId": "Q205047"
+    }
+   ]
+  },
+  {
+   "name": "Ireland",
+   "wikidataId": "Q27"
+  },
+  {
+   "name": "Isle of Man",
+   "wikidataId": "Q9676"
+  },
+  {
+   "name": "Israel",
+   "children": [
+    {
+     "name": "Israel",
+     "wikidataId": "Q801"
+    },
+    {
+     "name": "1949 no-man's-lands (Latrun, Jerusalem) and Mount Scopus enclave",
+     "wikidataId": "Q312818"
+    },
+    {
+     "name": "East Jerusalem",
+     "wikidataId": "Q16129570"
+    },
+    {
+     "name": "Golan Heights",
+     "wikidataId": "Q83210"
+    },
+    {
+     "name": "Shebaa Farms and Kfarchouba hills",
+     "wikidataId": "Q1133272"
+    }
+   ]
+  },
+  {
+   "name": "Italy",
+   "wikidataId": "Q38"
+  },
+  {
+   "name": "Jamaica",
+   "wikidataId": "Q766"
+  },
+  {
+   "name": "Japan",
+   "wikidataId": "Q17"
+  },
+  {
+   "name": "Jersey",
+   "wikidataId": "Q785"
+  },
+  {
+   "name": "Jordan",
+   "wikidataId": "Q810"
+  },
+  {
+   "name": "Kazakhstan",
+   "children": [
+    {
+     "name": "Kazakhstan",
+     "wikidataId": "Q232"
+    },
+    {
+     "name": "Baikonur Cosmodrome and city",
+     "wikidataId": "Q165413"
+    }
+   ]
+  },
+  {
+   "name": "Kenya",
+   "children": [
+    {
+     "name": "Kenya",
+     "wikidataId": "Q114"
+    },
+    {
+     "name": "Ilemi Triangle",
+     "wikidataId": "Q973527"
+    }
+   ]
+  },
+  {
+   "name": "Kiribati",
+   "wikidataId": "Q710"
+  },
+  {
+   "name": "Kosovo",
+   "wikidataId": "Q1246"
+  },
+  {
+   "name": "Kuwait",
+   "wikidataId": "Q817"
+  },
+  {
+   "name": "Kyrgyzstan",
+   "wikidataId": "Q813"
+  },
+  {
+   "name": "Laos",
+   "wikidataId": "Q819"
+  },
+  {
+   "name": "Latvia",
+   "wikidataId": "Q211"
+  },
+  {
+   "name": "Lebanon",
+   "wikidataId": "Q822"
+  },
+  {
+   "name": "Lesotho",
+   "wikidataId": "Q1013"
+  },
+  {
+   "name": "Liberia",
+   "wikidataId": "Q1014"
+  },
+  {
+   "name": "Libya",
+   "wikidataId": "Q1016"
+  },
+  {
+   "name": "Liechtenstein",
+   "wikidataId": "Q347"
+  },
+  {
+   "name": "Lithuania",
+   "wikidataId": "Q37"
+  },
+  {
+   "name": "Luxembourg",
+   "wikidataId": "Q32"
+  },
+  {
+   "name": "Macao",
+   "wikidataId": "Q14773"
+  },
+  {
+   "name": "Madagascar",
+   "wikidataId": "Q1019"
+  },
+  {
+   "name": "Malawi",
+   "wikidataId": "Q1020"
+  },
+  {
+   "name": "Malaysia",
+   "children": [
+    {
+     "name": "Malaysia",
+     "wikidataId": "Q833"
+    },
+    {
+     "name": "Labuan",
+     "wikidataId": "Q214504"
+    },
+    {
+     "name": "Sabah",
+     "wikidataId": "Q179029"
+    },
+    {
+     "name": "Sarawak",
+     "wikidataId": "Q170462"
+    }
+   ]
+  },
+  {
+   "name": "Maldives",
+   "wikidataId": "Q826"
+  },
+  {
+   "name": "Mali",
+   "wikidataId": "Q912"
+  },
+  {
+   "name": "Malta",
+   "wikidataId": "Q233"
+  },
+  {
+   "name": "Marshall Islands",
+   "wikidataId": "Q709"
+  },
+  {
+   "name": "Martinique",
+   "wikidataId": "Q17054"
+  },
+  {
+   "name": "Mauritania",
+   "wikidataId": "Q1025"
+  },
+  {
+   "name": "Mauritius",
+   "wikidataId": "Q1027"
+  },
+  {
+   "name": "Mayotte",
+   "wikidataId": "Q17063"
+  },
+  {
+   "name": "Mexico",
+   "wikidataId": "Q96"
+  },
+  {
+   "name": "Micronesia, Federated States of",
+   "wikidataId": "Q702"
+  },
+  {
+   "name": "Moldova",
+   "wikidataId": "Q217"
+  },
+  {
+   "name": "Monaco",
+   "wikidataId": "Q235"
+  },
+  {
+   "name": "Mongolia",
+   "wikidataId": "Q711"
+  },
+  {
+   "name": "Montenegro",
+   "wikidataId": "Q236"
+  },
+  {
+   "name": "Montserrat",
+   "wikidataId": "Q13353"
+  },
+  {
+   "name": "Morocco",
+   "children": [
+    {
+     "name": "Morocco",
+     "wikidataId": "Q1028"
+    },
+    {
+     "name": "Western Sahara west of the berm",
+     "wikidataId": "Q6250"
+    }
+   ]
+  },
+  {
+   "name": "Mozambique",
+   "wikidataId": "Q1029"
+  },
+  {
+   "name": "Myanmar",
+   "wikidataId": "Q836"
+  },
+  {
+   "name": "Namibia",
+   "wikidataId": "Q1030"
+  },
+  {
+   "name": "Nauru",
+   "wikidataId": "Q697"
+  },
+  {
+   "name": "Nepal",
+   "wikidataId": "Q837"
+  },
+  {
+   "name": "Netherlands",
+   "wikidataId": "Q55"
+  },
+  {
+   "name": "New Caledonia",
+   "wikidataId": "Q33788"
+  },
+  {
+   "name": "New Zealand",
+   "wikidataId": "Q664"
+  },
+  {
+   "name": "Nicaragua",
+   "wikidataId": "Q811"
+  },
+  {
+   "name": "Niger",
+   "wikidataId": "Q1032"
+  },
+  {
+   "name": "Nigeria",
+   "wikidataId": "Q1033"
+  },
+  {
+   "name": "Niue",
+   "wikidataId": "Q34020"
+  },
+  {
+   "name": "Norfolk Island",
+   "wikidataId": "Q31057"
+  },
+  {
+   "name": "North Korea",
+   "wikidataId": "Q423"
+  },
+  {
+   "name": "North Macedonia",
+   "wikidataId": "Q221"
+  },
+  {
+   "name": "Turkish Republic of Northern Cyprus",
+   "wikidataId": "Q23681"
+  },
+  {
+   "name": "Northern Mariana Islands",
+   "wikidataId": "Q16644"
+  },
+  {
+   "name": "Norway",
+   "wikidataId": "Q20"
+  },
+  {
+   "name": "Oman",
+   "wikidataId": "Q842"
+  },
+  {
+   "name": "Pakistan",
+   "children": [
+    {
+     "name": "Pakistan",
+     "wikidataId": "Q843"
+    },
+    {
+     "name": "Azad Jammu and Kashmir",
+     "wikidataId": "Q200697"
+    },
+    {
+     "name": "Gilgit-Baltistan",
+     "wikidataId": "Q200697"
+    }
+   ]
+  },
+  {
+   "name": "Palau",
+   "wikidataId": "Q695"
+  },
+  {
+   "name": "Palestine, State of",
+   "wikidataId": "Q39760"
+  },
+  {
+   "name": "Panama",
+   "wikidataId": "Q804"
+  },
+  {
+   "name": "Papua New Guinea",
+   "wikidataId": "Q691"
+  },
+  {
+   "name": "Paraguay",
+   "wikidataId": "Q733"
+  },
+  {
+   "name": "Peru",
+   "wikidataId": "Q419"
+  },
+  {
+   "name": "Philippines",
+   "wikidataId": "Q928"
+  },
+  {
+   "name": "Pitcairn",
+   "wikidataId": "Q35672"
+  },
+  {
+   "name": "Poland",
+   "wikidataId": "Q36"
+  },
+  {
+   "name": "Portugal",
+   "wikidataId": "Q45"
+  },
+  {
+   "name": "Puerto Rico",
+   "wikidataId": "Q1183"
+  },
+  {
+   "name": "Qatar",
+   "wikidataId": "Q846"
+  },
+  {
+   "name": "Romania",
+   "wikidataId": "Q218"
+  },
+  {
+   "name": "Russian Federation",
+   "children": [
+    {
+     "name": "Russian Federation",
+     "wikidataId": "Q159"
+    },
+    {
+     "name": "Chukotka Autonomous Okrug",
+     "wikidataId": "Q7984"
+    },
+    {
+     "name": "Crimea and Sevastopol",
+     "wikidataId": "Q7835"
+    },
+    {
+     "name": "Southern Kuril Islands (Iturup, Kunashir, Shikotan, Habomai)",
+     "wikidataId": "Q80389"
+    }
+   ]
+  },
+  {
+   "name": "Rwanda",
+   "wikidataId": "Q1037"
+  },
+  {
+   "name": "Réunion",
+   "wikidataId": "Q17070"
+  },
+  {
+   "name": "Saint Barthélemy",
+   "wikidataId": "Q25362"
+  },
+  {
+   "name": "Saint Helena, Ascension and Tristan da Cunha",
+   "children": [
+    {
+     "name": "Saint Helena, Ascension and Tristan da Cunha",
+     "wikidataId": "Q34497"
+    },
+    {
+     "name": "Ascension Island",
+     "wikidataId": "Q46197"
+    },
+    {
+     "name": "Saint Helena",
+     "wikidataId": "Q34497"
+    },
+    {
+     "name": "Tristan da Cunha",
+     "wikidataId": "Q220982"
+    }
+   ]
+  },
+  {
+   "name": "Saint Kitts and Nevis",
+   "wikidataId": "Q763"
+  },
+  {
+   "name": "Saint Lucia",
+   "wikidataId": "Q760"
+  },
+  {
+   "name": "Saint Martin (French part)",
+   "wikidataId": "Q126125"
+  },
+  {
+   "name": "Saint Pierre and Miquelon",
+   "wikidataId": "Q34617"
+  },
+  {
+   "name": "Saint Vincent and the Grenadines",
+   "wikidataId": "Q757"
+  },
+  {
+   "name": "Samoa",
+   "wikidataId": "Q683"
+  },
+  {
+   "name": "San Marino",
+   "wikidataId": "Q238"
+  },
+  {
+   "name": "Sao Tome and Principe",
+   "wikidataId": "Q1039"
+  },
+  {
+   "name": "Saudi Arabia",
+   "wikidataId": "Q851"
+  },
+  {
+   "name": "Senegal",
+   "wikidataId": "Q1041"
+  },
+  {
+   "name": "Serbia",
+   "wikidataId": "Q44749"
+  },
+  {
+   "name": "Seychelles",
+   "wikidataId": "Q1042"
+  },
+  {
+   "name": "Sierra Leone",
+   "wikidataId": "Q1044"
+  },
+  {
+   "name": "Singapore",
+   "wikidataId": "Q334"
+  },
+  {
+   "name": "Sint Maarten (Dutch part)",
+   "wikidataId": "Q26273"
+  },
+  {
+   "name": "Slovakia",
+   "wikidataId": "Q214"
+  },
+  {
+   "name": "Slovenia",
+   "wikidataId": "Q215"
+  },
+  {
+   "name": "Solomon Islands",
+   "wikidataId": "Q685"
+  },
+  {
+   "name": "Somalia",
+   "wikidataId": "Q485112"
+  },
+  {
+   "name": "Somaliland",
+   "wikidataId": "Q34754"
+  },
+  {
+   "name": "South Africa",
+   "wikidataId": "Q258"
+  },
+  {
+   "name": "South Georgia and the South Sandwich Islands",
+   "wikidataId": "Q35086"
+  },
+  {
+   "name": "South Korea",
+   "children": [
+    {
+     "name": "South Korea",
+     "wikidataId": "Q884"
+    },
+    {
+     "name": "Jeju Province",
+     "wikidataId": "Q41164"
+    }
+   ]
+  },
+  {
+   "name": "South Ossetia",
+   "wikidataId": "Q23427"
+  },
+  {
+   "name": "South Sudan",
+   "wikidataId": "Q958"
+  },
+  {
+   "name": "Spain",
+   "children": [
+    {
+     "name": "Spain",
+     "wikidataId": "Q29"
+    },
+    {
+     "name": "Ceuta",
+     "wikidataId": "Q5823"
+    },
+    {
+     "name": "Melilla",
+     "wikidataId": "Q5831"
+    },
+    {
+     "name": "Olivenza and Táliga",
+     "wikidataId": "Q488052"
+    }
+   ]
+  },
+  {
+   "name": "Sri Lanka",
+   "wikidataId": "Q854"
+  },
+  {
+   "name": "Sudan",
+   "wikidataId": "Q1049"
+  },
+  {
+   "name": "Suriname",
+   "wikidataId": "Q730"
+  },
+  {
+   "name": "Svalbard and Jan Mayen",
+   "children": [
+    {
+     "name": "Svalbard and Jan Mayen",
+     "wikidataId": "Q25231"
+    },
+    {
+     "name": "Jan Mayen",
+     "wikidataId": "Q14056"
+    }
+   ]
+  },
+  {
+   "name": "Sweden",
+   "wikidataId": "Q34"
+  },
+  {
+   "name": "Switzerland",
+   "wikidataId": "Q39"
+  },
+  {
+   "name": "Syria",
+   "wikidataId": "Q858"
+  },
+  {
+   "name": "Taiwan",
+   "children": [
+    {
+     "name": "Taiwan",
+     "wikidataId": "Q865"
+    },
+    {
+     "name": "Kinmen, Matsu and Wuqiu",
+     "wikidataId": "Q249870"
+    },
+    {
+     "name": "Penghu County",
+     "wikidataId": "Q198525"
+    }
+   ]
+  },
+  {
+   "name": "Tajikistan",
+   "children": [
+    {
+     "name": "Tajikistan",
+     "wikidataId": "Q863"
+    },
+    {
+     "name": "Gorno-Badakhshan Autonomous Oblast (GBAO)",
+     "wikidataId": "Q207319"
+    }
+   ]
+  },
+  {
+   "name": "Tanzania",
+   "children": [
+    {
+     "name": "Tanzania",
+     "wikidataId": "Q924"
+    },
+    {
+     "name": "Zanzibar",
+     "wikidataId": "Q1774"
+    }
+   ]
+  },
+  {
+   "name": "Thailand",
+   "wikidataId": "Q869"
+  },
+  {
+   "name": "Timor-Leste",
+   "wikidataId": "Q574"
+  },
+  {
+   "name": "Togo",
+   "wikidataId": "Q945"
+  },
+  {
+   "name": "Tokelau",
+   "wikidataId": "Q36823"
+  },
+  {
+   "name": "Tonga",
+   "wikidataId": "Q678"
+  },
+  {
+   "name": "Transnistria (including Bender)",
+   "wikidataId": "Q907112"
+  },
+  {
+   "name": "Trinidad and Tobago",
+   "wikidataId": "Q754"
+  },
+  {
+   "name": "Tunisia",
+   "wikidataId": "Q948"
+  },
+  {
+   "name": "Turkmenistan",
+   "wikidataId": "Q874"
+  },
+  {
+   "name": "Turks and Caicos Islands",
+   "wikidataId": "Q18221"
+  },
+  {
+   "name": "Tuvalu",
+   "wikidataId": "Q672"
+  },
+  {
+   "name": "Türkiye",
+   "wikidataId": "Q43"
+  },
+  {
+   "name": "Uganda",
+   "wikidataId": "Q1036"
+  },
+  {
+   "name": "Ukraine",
+   "wikidataId": "Q212"
+  },
+  {
+   "name": "United Arab Emirates",
+   "wikidataId": "Q878"
+  },
+  {
+   "name": "United Kingdom",
+   "children": [
+    {
+     "name": "United Kingdom",
+     "wikidataId": "Q26"
+    },
+    {
+     "name": "Akrotiri and Dhekelia Sovereign Base Areas"
+    }
+   ]
+  },
+  {
+   "name": "United States",
+   "wikidataId": "Q30"
+  },
+  {
+   "name": "United States Minor Outlying Islands",
+   "wikidataId": "Q16645"
+  },
+  {
+   "name": "Uruguay",
+   "wikidataId": "Q77"
+  },
+  {
+   "name": "Uzbekistan",
+   "wikidataId": "Q265"
+  },
+  {
+   "name": "Vanuatu",
+   "wikidataId": "Q686"
+  },
+  {
+   "name": "Venezuela",
+   "wikidataId": "Q717"
+  },
+  {
+   "name": "Vietnam",
+   "children": [
+    {
+     "name": "Vietnam",
+     "wikidataId": "Q881"
+    },
+    {
+     "name": "Phu Quoc Island",
+     "wikidataId": "Q146695"
+    }
+   ]
+  },
+  {
+   "name": "Virgin Islands, British",
+   "wikidataId": "Q25305"
+  },
+  {
+   "name": "Virgin Islands, U.S.",
+   "wikidataId": "Q11703"
+  },
+  {
+   "name": "Wallis and Futuna",
+   "wikidataId": "Q35555"
+  },
+  {
+   "name": "Western Sahara",
+   "wikidataId": "Q6250"
+  },
+  {
+   "name": "Yemen",
+   "children": [
+    {
+     "name": "Yemen",
+     "wikidataId": "Q805"
+    },
+    {
+     "name": "Socotra Archipelago",
+     "wikidataId": "Q15728745"
+    }
+   ]
+  },
+  {
+   "name": "Zambia",
+   "wikidataId": "Q953"
+  },
+  {
+   "name": "Zimbabwe",
+   "wikidataId": "Q954"
+  },
+  {
+   "name": "No country",
+   "children": [
+    {
+     "name": "Abyei Area",
+     "wikidataId": "Q336494"
+    },
+    {
+     "name": "Bir Tawil",
+     "wikidataId": "Q620634"
+    },
+    {
+     "name": "Gornja Siga and other west-bank pockets",
+     "wikidataId": "Q102285156"
+    },
+    {
+     "name": "Koalou (Kourou) neutral zone"
+    },
+    {
+     "name": "Korean Demilitarized Zone",
+     "wikidataId": "Q331990"
+    },
+    {
+     "name": "Spratly Islands",
+     "wikidataId": "Q215664"
+    },
+    {
+     "name": "UN Buffer Zone in Cyprus",
+     "wikidataId": "Q116970"
+    },
+    {
+     "name": "UNDOF area of separation"
+    }
+   ]
+  },
+  {
+   "name": "Åland Islands",
+   "wikidataId": "Q5689"
+  }
+ ]
+}

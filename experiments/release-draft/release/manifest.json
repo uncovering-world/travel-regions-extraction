@@ -1,0 +1,34 @@
+{
+  "release": "draft-2026-10-04",
+  "status": "draft, not a release",
+  "cutoff": "2025-12-31",
+  "rules": "docs/spec.md 0.4.0-draft (D038-D061)",
+  "registry": {
+    "ISO 3166-1": "iso-codes 4.20.1",
+    "Natural Earth": "v5.1.2"
+  },
+  "substrate": {
+    "GADM": "4.1 (gadm_410.gpkg; unit identifiers only, no GADM geometry in this package)"
+  },
+  "membership": "a region is the union of its include rows minus its exclude rows; precedence 1 (custom geometry) wins over precedence 2 (GADM units)",
+  "counts": {
+    "regions": 314,
+    "countries_in_tree": 256,
+    "membership_rows": 406,
+    "gaps": 0
+  },
+  "inputs": {
+    "experiments/stage1-list/outputs/regions.csv": "8980d0cbd32c235f55d151fde214a1753058b5cba6153ca7e269620e502fc0de",
+    "experiments/gadm-binding/outputs/bindings.csv": "57828218b54258620f62a7caad83aa1ccf3875f43db506fbaa9e16f6c047291d",
+    "experiments/outline-sources/outputs/regions.csv": "9df9ec3e721551dfb23b2c38a43497dad08964683281efa2e829c13bb094933c",
+    "experiments/custom-geometry-sources/inputs/places.csv": "3e385ad14364c59c7edf0f6f91ce8417d12aa081f8d4917cd01c9e28a08fe496",
+    "experiments/stage1-world-draft/inputs/crw_scopes.csv": "66ef8b50ec73870d0af9033dc88299bc94e5fcee268240a6ffce54db2ae779fb",
+    "experiments/release-draft/inputs/attribution.csv": "0d528ce5bc8c993e7e0581e91d26b0825fcba327ce527f657890526a27975c42",
+    "experiments/release-draft/inputs/custom_assignments.csv": "8bfb6c67363d1377c86f2c11198fc74ebbdc4116d9d84b8f1fbaab9e2ba3be3e",
+    "experiments/release-draft/inputs/gadm_leftovers.csv": "655378fd0c8060777544a41fe020629562507917aa467013aa18318604add012",
+    "experiments/release-draft/inputs/osm_geometries.csv": "ee4cf9afb63ca78f11316994a3e4a5005bf2fce895f563dd2d8424cc3ecf4f5b",
+    "data/custom-geometries/koalou.geojson": "c4bac59b49da5ee0e0cd683a96139882da78d157803faf44d749300997eb2ae3",
+    "docs/spec.md": "51b31f181843eddfaac11866f592c0cb81f42c8883065a0741ada6b4f2e8c522"
+  },
+  "correspondence": "none: first draft"
+}

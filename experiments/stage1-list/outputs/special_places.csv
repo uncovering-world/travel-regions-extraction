@@ -60,6 +60,7 @@ place/preah-vihear,Preah Vihear temple surroundings,line_position,a dispute abou
 place/prevlaka,Prevlaka peninsula,own_regime,no resident civilians
 place/rincon-de-artigas,Rincón de Artigas (Arroyo de la Invernada) and Vila Albornoz,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/rockall,Rockall,islets_for_maritime_zone,no resident civilians
+place/rukwanzi-semliki,Rukwanzi Island (Lake Albert) and Semliki River valley,own_regime,"no stated outline found (R047, D061)"
 place/russian-ranges-kazakhstan,Russian-leased military test ranges in Kazakhstan (Sary-Shagan and others),lease_or_base,leased; held by the split
 place/sabanerwa,Sabanerwa and the Rufunzo Valley,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/saimaa-canal,Saimaa Canal (Russian section),lease_or_base,leased; held by the lessor
@@ -86,6 +87,7 @@ place/tigri,New River Triangle (Tigri),line_position,a dispute about a line or a
 place/tin-bigha,Tin Bigha Corridor (Dahagram-Angarpota access),lease_or_base,leased; held by the shared
 place/tiwinza,Tiwinza,lease_or_base,leased; holder not recorded
 place/tort-kocho-road,Tort-Kocho road (Vorukh access),own_regime,no resident civilians
+place/transnistria-security-zone,Dniester Security Zone,own_regime,"no stated outline found (R047, D061)"
 place/tromelin,Tromelin Island,islets_for_maritime_zone,no resident civilians
 place/yalu-tumen-islands,Islands in the Yalu and Tumen rivers,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/yenga,Yenga,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
