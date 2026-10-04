@@ -1,6 +1,7 @@
 id,name,kind,why
 place/al-fashaga,Al-Fashaga district,paper_claim,residents unknown: treated as a special place until sourced
 place/aves-island,Aves Island (Bird Island),islets_for_maritime_zone,no resident civilians
+place/azerbaijani-held-armenian-border-areas,Border heights inside Armenia held by Azerbaijan since 2021-2022,occupied_or_annexed,"no stated outline found (R047, D061)"
 place/bajo-nuevo,Bajo Nuevo Bank,islets_for_maritime_zone,no resident civilians
 place/banc-du-geyser,Banc du Geyser,islets_for_maritime_zone,no resident civilians
 place/belize-guatemala-claim,Belize south of the Sibun River (and Belize as a whole),paper_claim,residents unknown: treated as a special place until sourced
@@ -10,6 +11,7 @@ place/bosnia-serbia-drina,Sections along the Drina,line_position,a dispute about
 place/bukit-jeli,Bukit Jeli (Kolok River headwaters),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/caspian-islets-ukatny,"Ukatny, Zhestky and Maly Zhemchuzhny islands",islets_for_maritime_zone,no resident civilians
 place/chile-peru-land-triangle,Land triangle at Punto Concordia,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/citrana-naktuka,Citrana Triangle (Naktuka) and other unresolved Oecusse segments,line_position,"no stated outline found (R047, D061)"
 place/conejo-island,Conejo Island,paper_claim,no resident civilians
 place/congo-river-islands,Islands in the Congo River,no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/croatia-serbia-danube-pockets,Danube east-bank pockets (Bačka) claimed by Croatia,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
@@ -26,10 +28,12 @@ place/guinea-liberia-makona,"Guinea-Liberia border at the Makona River (Sorlumba
 place/imia-kardak,Imia / Kardak,islets_for_maritime_zone,no resident civilians
 place/india-china-middle-sector,"Middle sector pockets (Chumar, Kaurik, Shipki La, Nelang-Jadhang, Barahoti, Lapthal, Pulam Sumda, Sang)",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/isla-brasilera,Brazilian Island (Ilha Brasileira),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/isla-santa-rosa,Santa Rosa Island (Amazon River),line_position,"no stated outline found (R047, D061)"
 place/isla-suarez,Isla Suárez (Ilha de Guajará-Mirim),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/islas-chafarinas,Chafarinas Islands,paper_claim,no resident civilians
 place/klek-skolj,"Mali Školj, Veliki Školj and the tip of Klek",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/kostajnica-island,River island at Kostajnica (Zrinski castle),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/kpeaba,Kpéaba village area,line_position,"no stated outline found (R047, D061)"
 place/kula-kangri,Kula Kangri area,no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/ladakh-lac-buffer-zones,"Eastern Ladakh LAC friction areas (Depsang, Galwan, Pangong north bank, Gogra-Hot Springs)",own_regime,no resident civilians
 place/lake-constance,Lake Constance (Obersee),no_agreed_boundary,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
@@ -52,6 +56,7 @@ place/navassa,Navassa Island,paper_claim,no resident civilians
 place/nepal-china-humla,Humla border area (Limi/Lapcha),line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/noktundo,Noktundo,paper_claim,residents unknown: treated as a special place until sourced
 place/ntem-island,Island at the mouth of the Ntem River,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/okpara-villages,Villages near the Okpara River,line_position,"no stated outline found (R047, D061)"
 place/orange-river-boundary,Orange River boundary,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/otangav,O'Tangav area,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/palanca-road,Odesa-Reni road section at Palanca,lease_or_base,leased; held by the lessee
@@ -88,6 +93,7 @@ place/sveta-gera,Sveta Gera (Trdinov vrh) barracks,line_position,a dispute about
 place/swains-island,Swains Island (Olohega),paper_claim,no resident civilians
 place/ta-muen-thom-emerald-triangle,"Other contested Thai-Cambodian border areas (Ta Muen Thom, Ta Krabey, Emerald Triangle/Chong Bok)",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
 place/thai-lao-land-border-villages,"Ban Romklao and the three villages (Ban Mai, Ban Klang, Ban Sawang)",line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/three-pagodas-pass,Three Pagodas Pass,line_position,"no stated outline found (R047, D061)"
 place/tin-bigha,Tin Bigha Corridor (Dahagram-Angarpota access),lease_or_base,leased; held by the shared
 place/tiwinza,Tiwinza,lease_or_base,leased; holder not recorded
 place/tort-kocho-road,Tort-Kocho road (Vorukh access),own_regime,no resident civilians
@@ -97,3 +103,4 @@ place/tunbs,Greater and Lesser Tunb,paper_claim,residents unknown: treated as a 
 place/wadi-halfa-salient,Wadi Halfa Salient,paper_claim,no resident civilians
 place/wake-island,Wake Island,paper_claim,no resident civilians
 place/yalu-tumen-islands,Islands in the Yalu and Tumen rivers,line_position,a dispute about a line or an undelimited stretch; the land goes with whoever holds it
+place/yenga,Yenga,line_position,"no stated outline found (R047, D061)"

@@ -11,10 +11,10 @@
 | inhabited | yes | secondary | 2026-10-03 | S0109 | Despite Israeli requests to evacuate most of the villages, towns and cities occupied by the Israeli Defense Forces, some citizens in areas which were non-Shia-majority were allowed to stay in their residences |
 | holder | Israel (its forces prohibit expelled Lebanese civilians from returning) | secondary | 2026-10-03 | S0109 | The Israeli occupation of Lebanon has resulted in the forced expulsion of more than 1.2 million Lebanese civilians (>20% of the country's population), as Israel prohibits them from returning |
 | holder_since | 18 February 2025 for five positions along the border, kept when Israel withdrew from populated areas of southern Lebanon | secondary | 2026-10-03 | S0332 | On 26 January 2025, the U.S. extended the agreement until 18 February. Once this deadline lapsed, Israel withdrew from populated areas in southern Lebanon but declared that it would temporarily remain in five "strategic" Lebanese positions along the border |
-| stated_outline | the "yellow line" in southern Lebanon announced by the Israeli military (stated by Israel only) | secondary | 2026-10-03 | S0333 | The Israeli military announced on the same day that it established a "yellow line" in southern Lebanon, like it did in Gaza. |
+| stated_outline | none: the area Israel holds keeps changing (an Israeli-drawn line of April 2026 moved; the US announced on 20 July 2026 that sections were handed over) | secondary | 2026-10-04 | S0380 | On 20 July, the US announced that Israel handed over sections of the buffer zone occupied by it in southern Lebanon to the Lebanese government |
 
 Sources:
 
 - S0109: https://en.wikipedia.org/w/index.php?title=Israeli_occupation_of_Southern_Lebanon_%282026%29&oldid=1373416657
 - S0332: https://en.wikipedia.org/w/index.php?title=2024_Israel%E2%80%93Lebanon_ceasefire_agreement&oldid=1373415859
-- S0333: https://en.wikipedia.org/w/index.php?title=2026_Lebanon_war&oldid=1377163492
+- S0380: https://en.wikipedia.org/w/index.php?title=2026_Lebanon_war&oldid=1378457150

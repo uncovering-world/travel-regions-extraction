@@ -1,3 +1,10 @@
 area_id,basis
 rukwanzi-semliki,"no outline in any open source (experiments/custom-geometry-sources; geometry search of 2026-10-04); D061 keeps it a special place"
 transnistria-security-zone,"its coordinates are in a protocol to the 1992 agreement that is not public; the only map found is not reusable; D061 keeps it a special place"
+isla-santa-rosa,"no polygon of the island in any source (DoS, Natural Earth, OSM, COD-AB); OSM has only water areas around it, and joining them would draw a line of our own (outline search of 2026-10-04)"
+citrana-naktuka,"no outline of the disputed area in DoS, Natural Earth, OSM or COD-AB (outline search of 2026-10-04)"
+kpeaba,"no outline; the village is not mapped in OSM (outline search of 2026-10-04)"
+okpara-villages,"no outline; which villages the register area means is in doubt (data/disputed-areas/REVIEW.md) (outline search of 2026-10-04)"
+three-pagodas-pass,"no outline of a disputed piece; only an overlap of two layers that are not both the parties' own (outline search of 2026-10-04)"
+yenga,"no outline of the disputed area in DoS, Natural Earth, OSM or COD-AB (outline search of 2026-10-04)"
+azerbaijani-held-armenian-border-areas,"no party or dataset publishes the line Azerbaijan holds since the ceasefire of 14 September 2022; estimates of the area vary from 50 to 215 km² (outline search of 2026-10-04)"

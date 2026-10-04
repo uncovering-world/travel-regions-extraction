@@ -32,7 +32,7 @@ caspian-islets-ukatny,unclear,RU KZ,,,parties,Russia (assigns Ukatny to Astrakha
 ceuta,ES,MA,,,parties,Spain (holds sovereignty); Morocco (calls for its transfer),
 chagos,GB,MU,,,holder; parties; on_the_ground,Mauritius (claims the archipelago),"The 2025 transfer agreement is signed but not ratified, so it does not end any claim."
 chile-peru-land-triangle,unclear,CL PE,,,parties; on_the_ground,Chile (claims; says it patrols the area); Peru (claims; says it patrols the area),Both say they patrol the area; holder not established.
-citrana-naktuka,unclear,TL ID,,,parties,Timor-Leste; Indonesia,Parties listed without roles: holder unknown; read as mutual claimants.
+citrana-naktuka,TL,TL ID,,,parties,Timor-Leste; Indonesia,Parties listed without roles: holder unknown; read as mutual claimants. Reviewed 2026-10-04: holder from the register's new holder fact.
 conejo-island,HN,SV,,,parties,Honduras (administers); El Salvador (claims),
 congo-river-islands,unclear,CG CD,,,parties,Republic of the Congo; Democratic Republic of the Congo,Parties listed without roles: holder unknown; read as mutual claimants.
 crimea,RU,UA,,,parties; holder,Russia (controls; annexed 2014); Ukraine (claims; recognised as Ukrainian by most countries),
@@ -104,7 +104,7 @@ la-guera,MR,MA,,Polisario Front,parties; holder,Mauritania (de facto control); M
 ladakh-lac-buffer-zones,unclear,IN CN,,,parties; on_the_ground,India; China,"Parties listed without roles; buffer zones with patrol restrictions, holder not stated; read as mutual claimants."
 lake-constance,unclear,,,,on_the_ground; origin,In the rest of the Obersee no boundaries were ever fixed between the neighbouring states.,Each state exercises sovereign rights along its own shore; for the rest no holder and no claim is stated.
 lake-nyasa-islands,MW,TZ,,,on_the_ground; parties,Malawi currently administers the disputed waters.,"Holding is stated for the waters, not explicitly for the islands."
-lawa-headwaters,unclear,FR SR,,,parties,France (French Guiana); Suriname,Parties listed without roles: holder unknown; read as mutual claimants.
+lawa-headwaters,FR,FR SR,,,parties,France (French Guiana); Suriname,Parties listed without roles: holder unknown; read as mutual claimants. Reviewed 2026-10-04: holder from the register's new holder fact.
 lebanon-syria-undelimited,unclear,LB SY,,,parties,Lebanon; Syria (no treaty describes the boundary; several sections are in dispute),Parties listed without roles: holder unknown; read as mutual claimants.
 libya-algeria-claim,unclear,LY,,,parties,"Libya (claim of about 32,000 sq km still shown on its maps; dormant)","Algeria's role is that the territory is in south-eastern Algeria, not stated as holding. Libya's claim is dormant but counts (D068)."
 libya-niger-tummo,unclear,LY,,,parties,"Libya (claims about 25,000 sq km in the Tummo region; the dispute is currently dormant)",Niger is listed without a role; holder not stated. Libya's claim is dormant but counts (D068).

@@ -8,8 +8,10 @@
 | kind | line_position | secondary | 2026-10-03 | S0038 | However, neither the 1915 treaty nor the 2021 protocol determines which river is the source of the Lawa. The Netherlands considered the Malani (Dutch: Marowijnekreek) to be the source of the Lawa; the French considered the Litani , located further to the west, to be the source of the Lawa. |
 | origin | After an 1888 agreement to arbitrate, Tsar Alexander III decided that the Lawa was the headwater of the Maroni and thus the border. | secondary | 2026-10-03 | S0038 | On November 29, 1888, France and the Netherlands reached an agreement that the conflict should be subject to arbitration. Tsar Alexander III of Russia , acting as the arbitrator, decided that the Lawa was the headwater of the Maroni, and thus should be considered the border. |
 | inhabited | yes | secondary | 2026-10-03 | S0081 | The area between these two rivers is an approximately 5,000 square mile disputed territory commonly referred to as the Marouini River Tract, a rural and forested area with a small population |
+| holder | France (administers the area de facto) | secondary | 2026-10-04 | S0379 | Cette revendication est toujours d’actualité, même si la zone est administrée de fait par la France. |
 
 Sources:
 
 - S0038: https://en.wikipedia.org/w/index.php?title=Borders_of_Suriname&oldid=1346088633
 - S0081: https://en.wikipedia.org/w/index.php?title=France%E2%80%93Suriname_border&oldid=1377098095
+- S0379: https://pedagogie.ac-montpellier.fr/sites/default/files/2023-12/La%20fronti%C3%A8re%20Guyane%20Suriname%20en%201ere%20HGGSP.pdf

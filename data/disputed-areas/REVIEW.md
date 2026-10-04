@@ -183,3 +183,10 @@ The register's `parties` for `dragonja` gives Slovenia's pre-award claim (south 
 ## 15. Bender (added 2026-10-04)
 
 Bender (Tighina) is entered as its own area, held by Transnistria's authorities since 1992 (pinned Wikipedia), so that the GADM binding of Transnistria, which adds GADM's separate unit for Bender, rests on a register fact.
+
+## 16. Okpara villages and Migingo (added 2026-10-04)
+
+An outline search for the inhabited line disputes found two doubts about the register itself (proposals, not checked here):
+
+- `okpara-villages` rests on a sentence that several villages along the Okpara River are disputed, citing gazetteers and naming no village. The documented Benin–Nigeria village dispute concerns about sixteen villages of the Okuta district (Baruten, Kwara State) near 9.2–9.4° N, north of the stretch where the Okpara forms the border; a 2015 report says Benin raised its flags in most of them. The area may need a new name, place and sources, or removal.
+- `migingo`: who holds the islet is unclear (police of both countries have been posted there; Ugandan patrols dominate the waters), and a 2011 report quotes Uganda's president saying the island is in Kenya and only the waters are Uganda's. Whether Uganda still claims the island, and who holds it, need sources before it is a region.
