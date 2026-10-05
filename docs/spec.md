@@ -1,6 +1,6 @@
 # Canonical Travel Regions — working specification
 
-Version: 0.4.1-draft. Date: 2026-10-04. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
+Version: 0.4.2-draft. Date: 2026-10-05. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
 
 Changes in 0.4.0-draft: R045–R059 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D064); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
 
@@ -436,6 +436,8 @@ Amended by D063: such an area is a region of its own when a supported point of v
 3. An area with its own ISO 3166-1 entry is a region regardless of this test.
 
 An islet group held in parts by several parties with no line between the parts is Q016. When the last residents leave, R055 applies.
+
+Amended by D070: a paper claim with resident civilians is a region only if the claimant has pressed it by an official step (a law, an official map, a court case, a protest or letter to an international body, a government statement) within the last N years (Q021); otherwise it is a special place, its land goes with the holder, and the claimant's point of view still shows the claim.
 
 ### R052 — Zones with no single holder [accepted; D046]
 

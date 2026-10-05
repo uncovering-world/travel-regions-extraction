@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.1-draft. Date: 2026-10-04. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.2-draft. Date: 2026-10-05. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -658,3 +658,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: it gives entities that most states do not recognise the same weight as states in drawing boundaries; the alternative was views for ISO 3166-1 countries only, with the claims of other parties kept as notes.
 - Status: accepted.
 - Basis: owner decision, 2026-10-04 (option "yes, if it is already a region").
+
+### D070 — A paper claim makes a region only while the claimant presses it
+
+- Decision: an area of kind `paper_claim` with resident civilians is a region only if the claimant has pressed the claim by an official step within the last N years — a law, an official map, a case before a court, a protest or letter to an international body, a statement of its government. A claim not pressed in that time is a special place (a curiosity) and its land stays with the holder; the claimant's point of view still shows the claim (D068 is unchanged: the claim counts until renounced). N is open (Q021).
+- Rationale: the owner judged that Olivenza, which Portugal claims but does not press, is a curiosity for a traveller rather than a region; the test separates such claims from those pressed today without a rule tied to a name, a size or a population (D052).
+- Rules: R051 (amended); Q021 (new).
+- Counterarguments: every paper claim needs the date of the claimant's latest official step, and what counts as such a step is a judgement; a claim may be pressed again, so its area can move between region and special place across releases (R055 applies). The alternatives were making every paper claim a special place (Essequibo, Halayib, Junagadh and Abu Musa too), and a curiosity where the claimant cooperates with the holder on the ground.
+- Status: accepted.
+- Basis: owner decision, 2026-10-05 ("Оливенса - курьёз должна быть"; option "not pressed").

@@ -1,6 +1,6 @@
 # Canonical Travel Regions — open questions of the model
 
-Version: 0.4.1-draft. Date: 2026-10-04. Changes in 0.4.1-draft: Q014 narrowed and Q020 added by D065. Changes in 0.4.0-draft: Q006 closed; Q001–Q005 and Q007–Q012 annotated or narrowed by the owner's decisions of 2026-10-03 (D038–D053); Q013–Q019 added; Q017 closed and Q016 narrowed by D054–D055.
+Version: 0.4.2-draft. Date: 2026-10-05. Changes in 0.4.2-draft: Q021 added by D070. Changes in 0.4.1-draft: Q014 narrowed and Q020 added by D065. Changes in 0.4.0-draft: Q006 closed; Q001–Q005 and Q007–Q012 annotated or narrowed by the owner's decisions of 2026-10-03 (D038–D053); Q013–Q019 added; Q017 closed and Q016 narrowed by D054–D055.
 
 The order reflects the potential scale of change to the world map: from a change in the definition of almost all regions to changes in individual classes and in history. These are model questions. "Which document is required now?" and "Where does the line run on date t?" are data tasks, not separate items of this list.
 
@@ -213,6 +213,14 @@ D065 builds every country's point of view from its sourced claims and treats Nat
 **Closure criterion:** the owner decides each point, recorded in R045.
 
 Narrowed on 2026-10-04 by D067: a reliable secondary source with the quoted passage is enough, marked with its evidence level. Narrowed on 2026-10-04 by D068: a claim counts until renounced by an explicit act in force; and by D069: a party that is already a region attributed to itself has a view. Still open: the outline of a claim without a published line; unchecked Natural Earth differences.
+
+## Q021 — How recent must the official step be for a paper claim to make a region?
+
+**Impact: which paper claims with residents are regions and which are curiosities.** R051; D070.
+
+D070 makes a paper claim with residents a region only while the claimant presses it by an official step within the last N years. Not decided: N, and whether every kind of step listed in D070 counts the same.
+
+**Closure criterion:** the owner sets N, recorded in R051.
 
 ## What is intentionally not included in this list
 
