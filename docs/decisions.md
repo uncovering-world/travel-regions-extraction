@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.2-draft. Date: 2026-10-05. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.3-draft. Date: 2026-10-05. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -685,3 +685,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: the consumer must repeat the operation; the remnant is defined by the substrate's parts, so another substrate needs the check again. The alternatives were distance and size thresholds (rejected as hand-picked), and requiring a third source that agrees with the outline (which no open source gives for the Gazakh exclaves).
 - Status: accepted.
 - Basis: owner decision, 2026-10-05 ("Правило имеет право на жизнь но только если различается детализация карт"; then the option with the conditions above).
+
+### D073 — What an own geometry cuts off from a donor goes where the outline's source puts it, else to the neighbour with the longest shared border
+
+- Decision: where an own geometry cuts a piece of a donor off from the donor's main land, or leaves a rim of the same island with the donor, because the outline and the substrate draw the same coast or border differently, the piece goes to the region the outline's source puts there; if that source does not cover the place (it shows sea, or another country it does not draw), the piece goes to the neighbouring region with which it shares the longest border. This holds only where no other register area or recorded claim covers the piece; otherwise the piece stays and is reported. It extends D072, which keeps its narrower conditions for the substrate's copy of a detached part.
+- Rationale: the map review of 2026-10-05 found 546 such pieces (about 220 km²): GADM's rims around the southern Kuril Islands and the Socotra archipelago left with Russia and Yemen, strips of Cyprus between the buffer zone and Northern Cyprus, strips at South Ossetia, the Lawa headwaters, the Hala'ib triangle, the Golan and Transnistria, a piece of North Korea south of the DMZ. They come from two drawings of one coast or line, not from a disagreement about whose the land is; left alone they count a visit to a strip of coast for the wrong country, and the consumer would otherwise repair them by a rule of its own. Where the outline's source says something, it outranks the substrate (D062); where it says nothing, the longest shared border is the neighbour the strip belongs with.
+- Rules: R047 (amended).
+- Counterarguments: a piece the outline's own source deliberately leaves out (a hole in a lease) must not move — such a source covers the place and keeps it with the donor; the longest shared border is a geometric fallback, not a fact, and another substrate may give other pieces. The alternatives were moving only whole islands, with land strips fixed one by one, and fixing every place by hand.
+- Status: accepted.
+- Basis: owner decision, 2026-10-05 (the option "По источнику, иначе соседу", after the geometry review of the release draft; first "Всё сейчас" — fix it before the first release rather than leave it to Track Your Regions).

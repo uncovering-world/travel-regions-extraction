@@ -1,6 +1,6 @@
 # Canonical Travel Regions — working specification
 
-Version: 0.4.2-draft. Date: 2026-10-05. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
+Version: 0.4.3-draft. Date: 2026-10-05. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
 
 Changes in 0.4.0-draft: R045–R059 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D064); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
 
@@ -389,6 +389,8 @@ The registry and the register say which places are separate and whose they are; 
 Amended by D066: where the holder of land is known (R048) but no party publishes the line up to which it holds, the land is divided between the holders by the best available line of actual control, in the source order above, with the source recorded; the line has held since a ceasefire (a moving front does not qualify, R049) and only decides which region the land goes to. The project draws no polygon for the purpose.
 
 Amended by D072: where an own geometry outlines a detached part of a country that the substrate draws elsewhere or differently, the rest of the substrate's copy outside the outline goes to the region the outline's source puts there, if it is the rest of a detached part of the donor that the outline overlaps (never the donor's main land), no register area or recorded claim covers it, and the outline's own source assigns it to the receiving country.
+
+Amended by D073: where an own geometry cuts a piece of a donor off from the donor's main land, or leaves a rim of the same island with the donor, the piece goes to the region the outline's source puts there, or, where that source does not cover the place, to the neighbouring region with the longest shared border — unless another register area or recorded claim covers it; then it stays and is reported.
 
 ### R048 — The holder of an area [accepted; D043]
 
