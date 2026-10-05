@@ -222,6 +222,8 @@ D070 makes a paper claim with residents a region only while the claimant presses
 
 **Closure criterion:** the owner sets N, recorded in R051.
 
+Closed on 2026-10-05 by D071: steps in at least two distinct years of the last ten.
+
 ## What is intentionally not included in this list
 
 Exact visa scopes of islands, the state of border crossing points, the current line of control, coastline quality and the availability of authoritative polygons are tasks of collecting and verifying facts. They are marked in the CSV as `evidence_status`/`premises`. Resolving them may unblock the application of an already defined rule, but does not automatically answer Q001–Q012.

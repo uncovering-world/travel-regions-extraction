@@ -439,6 +439,8 @@ An islet group held in parts by several parties with no line between the parts i
 
 Amended by D070: a paper claim with resident civilians is a region only if the claimant has pressed it by an official step (a law, an official map, a court case, a protest or letter to an international body, a government statement) within the last N years (Q021); otherwise it is a special place, its land goes with the holder, and the claimant's point of view still shows the claim.
 
+Amended by D071: the claim is pressed at a release if the claimant took such steps in at least two distinct calendar years of the ten years up to the release; a step its government disowned, or one that does not name the area, does not count.
+
 ### R052 — Zones with no single holder [accepted; D046]
 
 An area of kind `own_regime` (a buffer, separation or demilitarised zone, a condominium) is a region attributed to no country in the canon's attribution if civilians live there and the parties state its outline (R047). Otherwise it is a special place. The zone is never split between the neighbouring parties. Which region takes the land of such a special place is Q016.

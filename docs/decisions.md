@@ -667,3 +667,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: every paper claim needs the date of the claimant's latest official step, and what counts as such a step is a judgement; a claim may be pressed again, so its area can move between region and special place across releases (R055 applies). The alternatives were making every paper claim a special place (Essequibo, Halayib, Junagadh and Abu Musa too), and a curiosity where the claimant cooperates with the holder on the ground.
 - Status: accepted.
 - Basis: owner decision, 2026-10-05 ("Оливенса - курьёз должна быть"; option "not pressed").
+
+### D071 — A claim is pressed when the claimant took official steps in at least two distinct years of the last ten
+
+- Decision: for D070, a paper claim is pressed at a release if the claimant took official steps (the kinds D070 lists) in at least two distinct calendar years of the ten years up to the release. This replaces D070's "a step within the last N years". A step does not count if the claimant's government disowned it (a remark it called personal or a party statement) or if it does not name the area. Closes Q021.
+- Rationale: the [claim-activity experiment](../experiments/claim-activity/README.md) collected 680 official steps for the 36 paper claims with residents. A single step within N years keeps Olivenza pressed for every N, through one answer of a ministry in 2024; steps in two distinct years of ten keep every claim raised most years pressed (Essequibo, Kashmir, the Kurils, Halayib, Ceuta and Melilla, Junagadh) and make the dormant ones special places (Olivenza, Heglig, Ilemi, Noktundo, the two Libyan claims), and the result did not change when the borderline claims were searched again; three years of ten split Ceuta from Melilla, the same Moroccan claim.
+- Rules: R051 (amended); Q021 (closed).
+- Counterarguments: the count depends on how thoroughly the steps were searched, and the steps rest partly on secondary sources (D067); judging whether a step was disowned or names the area is a reading of sources. The alternatives were a single step within 10 years and steps in three distinct years of ten.
+- Status: accepted.
+- Basis: owner decision, 2026-10-05 (option "two years of ten"); [claim-activity experiment](../experiments/claim-activity/README.md).

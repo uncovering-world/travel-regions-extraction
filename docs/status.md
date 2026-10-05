@@ -12,7 +12,7 @@ Reference registry and points of view (D038, D039, D064–D069): every country's
 
 ## Waiting for the owner
 
-- D070 (2026-10-05): a paper claim with residents is a region only while the claimant presses it within the last N years; N is Q021.
+- D070, D071 (2026-10-05): a paper claim with residents is a region only while the claimant presses it — official steps in at least two distinct years of the last ten (Q021 closed).
 - The open questions that remain: Q015 (one rule over several units), Q016 (islet groups held in parts), Q018 (how special places are carried and attributed), Q019 (release mechanics), Q020 (unchecked Natural Earth differences; the outline of a claim without a line), Q013 (pinning and versioning of geometries).
 
 ## Active
