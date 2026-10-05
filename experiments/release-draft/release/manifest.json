@@ -24,9 +24,9 @@
     "data/entry-rules/census.csv": "66ef8b50ec73870d0af9033dc88299bc94e5fcee268240a6ffce54db2ae779fb",
     "experiments/release-draft/inputs/attribution.csv": "81b073a94ac79ac4978b1e16f52032df62310ca3f3bc38256709477cdc19f3b1",
     "experiments/release-draft/inputs/gadm_leftovers.csv": "fc46c06dad74297edff82dd4cfa64535b0ea492125018f6815b1018bd5cef070",
-    "data/custom-geometries/sources.csv": "66f91eb106e8aba59ded31d79318379147d81438120e293d3f9c6d1cda1d1dc9",
+    "data/custom-geometries/sources.csv": "415881337ed24f5f922264de4c34157f8ba1907d6e45b8606386cf49271af3fb",
     "experiments/stage1-list/inputs/claims.csv": "edac8180392443ec3f17c05844e23ae36d5a7cda34941abc41a48fb1f8e17a48",
-    "data/custom-geometries/sources.json": "bf4f1977050a8c7dcd80b5ebc8388e05bf99bd219e1967e2eccbb7d0acd9fd08",
+    "data/custom-geometries/sources.json": "7f5d9483b5a4614f6b00ec9b505ea6a58e296ea829025a16916998e693a17e59",
     "docs/spec.md": "cb3a981f075c779b5a554e6ab27a50a80d0c2782e2f8d7e80ccef7f3caaf293b"
   },
   "correspondence": "none: first draft"

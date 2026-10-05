@@ -112,6 +112,39 @@ def main():
                        "on_gadm_land_km2": round(on_land, 2),
                        "donors": sorted(donors), "taken_from": {k: round(v, 2) for k, v in sorted(taken.items(), key=lambda kv: -kv[1])}})
 
+    # D072, condition 3: the outline's own source puts the substrate's leftover copy in the receiving country
+    remnant_checks = []
+    wp = REPO / "data" / "custom-geometries" / "cache" / "WorldPolygons11_4.gpkg"
+    a3 = {"AM": "ARM", "AZ": "AZE"}
+    for r in rows:
+        if not r.get("remnants_to") or not wp.exists():
+            continue
+        outline = unary_union([shape(f["geometry"]) for f in json.loads(
+            (REPO / "data" / "custom-geometries" / r["unit"]).read_text())["features"]])
+        x0, y0, x1, y1 = outline.buffer(0.2).bounds
+        for pair in r["remnants_to"].split():
+            src, _, dst = pair.partition(">")
+            land = []
+            for fid, in db.execute("select id from rtree_gadm_410_geom where maxx>=? and minx<=? and maxy>=? and miny<=?",
+                                   (x0, x1, y0, y1)):
+                blob, *gids = db.execute("select geom, GID_0, GID_1, GID_2, GID_3, GID_4, GID_5 from gadm_410 where fid=?",
+                                         (fid,)).fetchone()
+                if region_of([x for x in gids if x]) == src:
+                    land.append(gpkg_geometry(blob))
+            parts = list(getattr(unary_union(land), "geoms", [unary_union(land)])) if land else []
+            main = max(parts, key=lambda g: g.area) if parts else None
+            copies = [g for g in parts if g is not main and g.intersection(outline).area > 0]
+            leftover = unary_union([g.difference(outline) for g in copies]) if copies else None
+            wdb = sqlite3.connect(f"file:{wp}?mode=ro", uri=True)
+            recv = [gpkg_geometry(b) for b, in wdb.execute('select geom from "DoS_WP_11_4" where GENC_3=?', (a3.get(dst, dst),))]
+            if leftover is None or leftover.is_empty or not recv:
+                remnant_checks.append({"unit": r["unit"], "pair": pair, "result": "no leftover found or no receiver polygon"})
+                continue
+            c = leftover.representative_point()
+            share = unary_union(recv).intersection(leftover).area / leftover.area
+            remnant_checks.append({"unit": r["unit"], "pair": pair, "leftover_km2": round(km2(leftover, c.x, c.y), 2),
+                                   "share_in_receiver_per_source": round(share, 3)})
+
     overlaps = []
     donors_of = {r: d for r, _, _, _, d in custom}
     shapes = [(r, u, g) for r, s, u, g, _ in custom if g is not None]
@@ -124,11 +157,12 @@ def main():
                     taker = r1 if r2 in donors_of.get(r1, set()) else r2 if r1 in donors_of.get(r2, set()) else ""
                     overlaps.append({"a": f"{r1} ({u1})", "b": f"{r2} ({u2})", "km2": round(km2(inter, c.x, c.y), 3),
                                      "resolved": f"{taker} takes it (the other is its donor)" if taker else "no: neither is the other's donor"})
-    out = {"custom_geometries": report, "overlaps_between_regions": overlaps}
+    out = {"custom_geometries": report, "overlaps_between_regions": overlaps, "leftover_copies_D072": remnant_checks}
     (ROOT / "release" / "custom_check.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     for r in report:
         print(r)
     print("overlaps:", overlaps)
+    print("leftover copies (D072):", remnant_checks)
 
 
 if __name__ == "__main__":

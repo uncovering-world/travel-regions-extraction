@@ -756,5 +756,19 @@
    "km2": 0.025,
    "resolved": "area/armistice-no-mans-lands takes it (the other is its donor)"
   }
+ ],
+ "leftover_copies_D072": [
+  {
+   "unit": "artsvashen.geojson",
+   "pair": "AM>AZ",
+   "leftover_km2": 13.39,
+   "share_in_receiver_per_source": 1.0
+  },
+  {
+   "unit": "gazakh-exclaves.geojson",
+   "pair": "AZ>AM",
+   "leftover_km2": 13.08,
+   "share_in_receiver_per_source": 0.977
+  }
  ]
 }

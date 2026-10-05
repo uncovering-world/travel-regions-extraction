@@ -192,7 +192,7 @@ def main() -> None:
     # substrate units of their donor regions
     for r in read("data/custom-geometries/sources.csv"):
         membership.append({"region_id": r["region"], "source": CUSTOM, "unit": r["file"], "role": "include",
-                           "precedence": 1, "clip_to": r["donors"].replace(";", " ")})
+                           "precedence": 1, "clip_to": r["donors"].replace(";", " "), "remnants_to": r.get("remnants_to", "")})
     # a region whose GADM units are all taken by other regions and that has no own geometry has no land: an ISO entry
     # divided entirely into entry-rule regions stays a country node in the tree, not a region of its own
     empty = landless(membership)
@@ -231,7 +231,7 @@ def main() -> None:
     write_csv(OUT / "regions.csv", sorted(table, key=lambda r: r["region_id"]),
               ["region_id", "name", "wikidata_id", "basis", "country", "country_code", "evidence", "open"]
               + [f"view_{view_name[p]}" for p in parties])
-    write_csv(OUT / "membership.csv", membership, ["region_id", "source", "unit", "role", "precedence", "clip_to"])
+    write_csv(OUT / "membership.csv", membership, ["region_id", "source", "unit", "role", "precedence", "clip_to", "remnants_to"])
     write_csv(OUT / "gaps.csv", gaps, ["item", "missing"])
     manifest = {
         "release": "draft-2026-10-04", "status": "draft, not a release",

@@ -30,6 +30,8 @@ python3 experiments/release-draft/build.py
 
 An earlier run on Natural Earth's polygons alone had shown how far they were off (the Korean DMZ about 2.5 times too wide, the Cyprus buffer zone displaced, Natural Earth's "Bhutan (northwest valleys)" lying inside China) and how they reached into neighbouring countries (Somaliland 747 km² of Ethiopia); that led to D062.
 
+`check_display.py` (needs shapely and pyproj; run after `render_map.py` and `export_viewer_data.py`) checks the rendered map for what a reader sees: detached fragments of a region against another region (unless `inputs/known_fragments.csv` explains them, e.g. a real exclave), seams between parts of one region, slits narrower than 2 m, and, in the detail zones, overlaps and thin gaps between regions. It writes `cache/map/display_check.json`, ranking findings of 0.05 km² and more first; `check_screens.cjs` photographs them from the running viewer for review. A map change is reviewed with both before it is reported done. Long runs share the machine: `nice -n 10 flock ~/.cache/tyr-heavy.lock <command>`.
+
 ## What is not checked
 - No correspondence table: this is the first draft.
 - TYR's importer reads only the tree; binding by unit identifiers and own geometry need the importer changes listed in the [output-format proposal](../../docs/proposals/output-format.md).

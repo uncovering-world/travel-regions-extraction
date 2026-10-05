@@ -49,7 +49,7 @@ from shapely.ops import linemerge, polygonize, substring, unary_union
 HERE = Path(__file__).resolve().parent
 CACHE = HERE / "cache"
 USER_AGENT = "travel-regions-extraction custom-geometries build (https://github.com/uncovering-world/travel-regions-extraction)"
-CSV_COLUMNS = ["place", "region", "donors", "rank", "whose_line", "publisher", "source_url", "version_or_date",
+CSV_COLUMNS = ["place", "region", "donors", "remnants_to", "rank", "whose_line", "publisher", "source_url", "version_or_date",
                "feature_id", "licence", "file", "notes"]
 
 
@@ -380,7 +380,7 @@ def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
         # holder's side; the consumer splits the donors' substrate units by it and keeps the side with the point
         geometry, operation = control_line(path, sel)
     geometry = json.loads(json.dumps(geometry))  # tuples -> lists
-    props = {k: place[k] for k in CSV_COLUMNS if k not in ("file", "notes")}
+    props = {k: place[k] for k in CSV_COLUMNS if k not in ("file", "notes", "remnants_to")}
     if "holder_point" in sel:
         props["holder_point"] = sel["holder_point"]
     props.update({"notes": place["notes"], "input_sha256": inputs[place["input"]]["sha256"],

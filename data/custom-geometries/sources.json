@@ -210,7 +210,8 @@
     }
    },
    "file": "ankoko-island.geojson",
-   "notes": "Guyana's side of the island, which Venezuela holds and Guyana claims. GADM puts 8.04 km² of the island in Venezuela's Sifontes."
+   "notes": "Guyana's side of the island, which Venezuela holds and Guyana claims. GADM puts 8.04 km² of the island in Venezuela's Sifontes.",
+   "remnants_to": ""
   },
   {
    "place": "armistice-no-mans-lands",
@@ -242,7 +243,8 @@
     ]
    },
    "file": "armistice-no-mans-lands.geojson",
-   "notes": "Union of DoS 'No Man's Land' x2 (Latrun, Jerusalem; LSIB label '1949 Armistice Line') and 'Mt. Scopus South'; one DoS feature also has a 0.01 km² part at about 35.495°E 32.401°N, outside the three places. The Mount Scopus enclave itself (about 1.0 km²) is not a separate DoS feature (it is a part of DoS's 'Israel' polygon), so it is missing here; Natural Earth's 'Mount Scopus' feature included it. Owner to decide (see README). The no-man's-lands take precedence over East Jerusalem where the two outlines overlap (0.1 km²): East Jerusalem is one of their donors."
+   "notes": "Union of DoS 'No Man's Land' x2 (Latrun, Jerusalem; LSIB label '1949 Armistice Line') and 'Mt. Scopus South'; one DoS feature also has a 0.01 km² part at about 35.495°E 32.401°N, outside the three places. The Mount Scopus enclave itself (about 1.0 km²) is not a separate DoS feature (it is a part of DoS's 'Israel' polygon), so it is missing here; Natural Earth's 'Mount Scopus' feature included it. Owner to decide (see README). The no-man's-lands take precedence over East Jerusalem where the two outlines overlap (0.1 km²): East Jerusalem is one of their donors.",
+   "remnants_to": ""
   },
   {
    "place": "artsvashen",
@@ -278,7 +280,8 @@
     ]
    },
    "file": "artsvashen.geojson",
-   "notes": "Held by Azerbaijan since August 1992; Armenia claims it. GADM puts the land in Azerbaijan's Gadabay and its own Artsvashen part overlaps the State Department's outline by only 7 of 38 km²; Armenia's own COD-AB boundary has no exclave. OSM relation 10853047 (Chambarak community) agrees with this outline (37.4 km² overlap)."
+   "notes": "Held by Azerbaijan since August 1992; Armenia claims it. GADM puts the land in Azerbaijan's Gadabay and its own Artsvashen part overlaps the State Department's outline by only 7 of 38 km²; Armenia's own COD-AB boundary has no exclave. OSM relation 10853047 (Chambarak community) agrees with this outline (37.4 km² overlap).",
+   "remnants_to": "AM>AZ"
   },
   {
    "place": "baikonur",
@@ -322,7 +325,8 @@
     }
    },
    "file": "baikonur.geojson",
-   "notes": "Plot No. 1 of the lease: 31 boundary points joined by straight lines, the edges 17-18 and 31-1 along the right bank of the Syr Darya (drawn along the OpenStreetMap centre line of the river), minus the settlements Toretam and Akay and Plots 1-1 to 1-4 returned in 2017. The Novokazalinsk-Dzhusaly road and railway are excluded by the document without a width and are not cut out. Replaces Natural Earth's schematic oval."
+   "notes": "Plot No. 1 of the lease: 31 boundary points joined by straight lines, the edges 17-18 and 31-1 along the right bank of the Syr Darya (drawn along the OpenStreetMap centre line of the river), minus the settlements Toretam and Akay and Plots 1-1 to 1-4 returned in 2017. The Novokazalinsk-Dzhusaly road and railway are excluded by the document without a width and are not cut out. Replaces Natural Earth's schematic oval.",
+   "remnants_to": ""
   },
   {
    "place": "bajo-nuevo",
@@ -358,7 +362,8 @@
     ]
    },
    "file": "bajo-nuevo.geojson",
-   "notes": "Natural Earth's names are swapped: its 'Bajo Nuevo Bank (Petrel Is.)' (NE_ID 1159320425) lies at Serranilla Bank (about 79.8°W) and its 'Serranilla Bank' (1159321245) at Bajo Nuevo (about 78.6°W), where OSM maps 'Cayo Bajo Nuevo'. The membership row of NE_ID 1159320425 should point to this file's twin serranilla.geojson and vice versa. DoS has the cays only as parts of 'Colombia'."
+   "notes": "Natural Earth's names are swapped: its 'Bajo Nuevo Bank (Petrel Is.)' (NE_ID 1159320425) lies at Serranilla Bank (about 79.8°W) and its 'Serranilla Bank' (1159321245) at Bajo Nuevo (about 78.6°W), where OSM maps 'Cayo Bajo Nuevo'. The membership row of NE_ID 1159320425 should point to this file's twin serranilla.geojson and vice versa. DoS has the cays only as parts of 'Colombia'.",
+   "remnants_to": ""
   },
   {
    "place": "bassas-da-india",
@@ -388,7 +393,8 @@
     ]
    },
    "file": "bassas-da-india.geojson",
-   "notes": "Natural Earth's polygon does not overlap DoS's."
+   "notes": "Natural Earth's polygon does not overlap DoS's.",
+   "remnants_to": ""
   },
   {
    "place": "bhutan-china-north",
@@ -424,7 +430,8 @@
     ]
    },
    "file": "bhutan-china-north.geojson",
-   "notes": "Contradiction: Natural Earth's 'Bhutan (northwest valleys)' (1,237 km², 89.8–90.6°E) lies where DoS has China (1,227 km²) and overlaps none of OSM's Bhutan–China disputed areas. This file takes OSM's polygon for Bhutan-held disputed land in the north (claimed_by CN, controlled_by BT; part of 'Beyul'). That it is the register's Pasamlung/Jakarlung is not verified. It lies wholly in GADM's Bhutan, so it moves no land: the 1,220 km² of Tibet that Natural Earth's polygon gave to BT stay with Tibet."
+   "notes": "Contradiction: Natural Earth's 'Bhutan (northwest valleys)' (1,237 km², 89.8–90.6°E) lies where DoS has China (1,227 km²) and overlaps none of OSM's Bhutan–China disputed areas. This file takes OSM's polygon for Bhutan-held disputed land in the north (claimed_by CN, controlled_by BT; part of 'Beyul'). That it is the register's Pasamlung/Jakarlung is not verified. It lies wholly in GADM's Bhutan, so it moves no land: the 1,220 km² of Tibet that Natural Earth's polygon gave to BT stay with Tibet.",
+   "remnants_to": ""
   },
   {
    "place": "biot",
@@ -454,7 +461,8 @@
     ]
    },
    "file": "biot.geojson",
-   "notes": "The whole British Indian Ocean Territory (all atolls, with Diego Garcia); Natural Earth's disputed-area feature had the northern atolls only. Region IO also takes GADM's IOT units."
+   "notes": "The whole British Indian Ocean Territory (all atolls, with Diego Garcia); Natural Earth's disputed-area feature had the northern atolls only. Region IO also takes GADM's IOT units.",
+   "remnants_to": ""
   },
   {
    "place": "bir-tawil",
@@ -484,7 +492,8 @@
     ]
    },
    "file": "bir-tawil.geojson",
-   "notes": "Rank 2 on the reading that the parties dispute which of the two lines is the boundary, not where each runs (register: Egypt asserts the political, Sudan the administrative boundary); that neither disputes their position is not verified. OpenStreetMap relation 3335661 differs by about 22 km² from it."
+   "notes": "Rank 2 on the reading that the parties dispute which of the two lines is the boundary, not where each runs (register: Egypt asserts the political, Sudan the administrative boundary); that neither disputes their position is not verified. OpenStreetMap relation 3335661 differs by about 22 km² from it.",
+   "remnants_to": ""
   },
   {
    "place": "bird-island",
@@ -520,7 +529,8 @@
     ]
    },
    "file": "bird-island.geojson",
-   "notes": "DoS has the island only as a part of 'Venezuela'; HDX COD-AB Venezuela (INE) has no unit there."
+   "notes": "DoS has the island only as a part of 'Venezuela'; HDX COD-AB Venezuela (INE) has no unit there.",
+   "remnants_to": ""
   },
   {
    "place": "cyprus-buffer-zone",
@@ -556,7 +566,8 @@
     ]
    },
    "file": "cyprus-buffer-zone.geojson",
-   "notes": "No party's or UN dataset of the 1974 ceasefire lines found (DoS World Polygons has the zone inside 'Cyprus'; the UNFICYP map is not open data). The relation runs into the sea at both ends and overlaps GADM's Akrotiri and Dhekelia by about 1.7 km²; the consumer's clip to the donors' land removes both."
+   "notes": "No party's or UN dataset of the 1974 ceasefire lines found (DoS World Polygons has the zone inside 'Cyprus'; the UNFICYP map is not open data). The relation runs into the sea at both ends and overlaps GADM's Akrotiri and Dhekelia by about 1.7 km²; the consumer's clip to the donors' land removes both.",
+   "remnants_to": ""
   },
   {
    "place": "demchok",
@@ -592,7 +603,8 @@
     ]
    },
    "file": "demchok.geojson",
-   "notes": "Contradiction with the canon's input: custom_assignments gives Natural Earth's whole 'Demchok' (2,268 km², 'Admin. by India') to India's region, but the register says each side holds its side of the LAC, and DoS (fid 78) and OSM (relation 2713466) draw the whole disputed sector at about 1,474 km². This file takes OSM's India-controlled 'Demchok Western Sector' (claimed_by CN, controlled_by IN). The LAC is not a line both parties state (R047). Alternative: relation 2713466 (whole sector). Since D063 (2026-10-04) Demchok is a region of its own (inhabited; China’s point of view differs)."
+   "notes": "Contradiction with the canon's input: custom_assignments gives Natural Earth's whole 'Demchok' (2,268 km², 'Admin. by India') to India's region, but the register says each side holds its side of the LAC, and DoS (fid 78) and OSM (relation 2713466) draw the whole disputed sector at about 1,474 km². This file takes OSM's India-controlled 'Demchok Western Sector' (claimed_by CN, controlled_by IN). The LAC is not a line both parties state (R047). Alternative: relation 2713466 (whole sector). Since D063 (2026-10-04) Demchok is a region of its own (inhabited; China’s point of view differs).",
+   "remnants_to": ""
   },
   {
    "place": "dokdo",
@@ -622,7 +634,8 @@
     ]
    },
    "file": "dokdo.geojson",
-   "notes": "DoS 'Liancourt Rocks'."
+   "notes": "DoS 'Liancourt Rocks'.",
+   "remnants_to": ""
   },
   {
    "place": "doumeira-island",
@@ -652,7 +665,8 @@
     ]
    },
    "file": "doumeira-island.geojson",
-   "notes": "DoS 'Doumeira Islands' has two parts (the island and an islet)."
+   "notes": "DoS 'Doumeira Islands' has two parts (the island and an islet).",
+   "remnants_to": ""
   },
   {
    "place": "east-jerusalem",
@@ -681,7 +695,8 @@
     ]
    },
    "file": "east-jerusalem.geojson",
-   "notes": "Two parties, two lines (register: Israel's position follows the extended municipal boundary, the Palestinian one the 1949 Agreements); not chosen here. Neither is available as a polygon of East Jerusalem: HDX COD-AB Palestine has only the whole Jerusalem governorate (344.5 km²); OpenStreetMap relation 1381350 is the whole Israeli municipality. Natural Earth kept until the owner decides."
+   "notes": "Two parties, two lines (register: Israel's position follows the extended municipal boundary, the Palestinian one the 1949 Agreements); not chosen here. Neither is available as a polygon of East Jerusalem: HDX COD-AB Palestine has only the whole Jerusalem governorate (344.5 km²); OpenStreetMap relation 1381350 is the whole Israeli municipality. Natural Earth kept until the owner decides.",
+   "remnants_to": ""
   },
   {
    "place": "essequibo",
@@ -717,7 +732,8 @@
     ]
    },
    "file": "essequibo.geojson",
-   "notes": "Venezuela's claim, bounded by the Essequibo River in the east (a 2023 Venezuelan bill: 'Este: Río Esequibo'); no set of GADM units fits, as two Guyanese regions straddle the river. OSM's outline includes the river islands Wakenaam and Leguan; which bank the claim follows is not stated. Area 149,051 km² (the register gives 159,500)."
+   "notes": "Venezuela's claim, bounded by the Essequibo River in the east (a 2023 Venezuelan bill: 'Este: Río Esequibo'); no set of GADM units fits, as two Guyanese regions straddle the river. OSM's outline includes the river islands Wakenaam and Leguan; which bank the claim follows is not stated. Area 149,051 km² (the register gives 159,500).",
+   "remnants_to": ""
   },
   {
    "place": "europa-island",
@@ -747,7 +763,8 @@
     ]
    },
    "file": "europa-island.geojson",
-   "notes": ""
+   "notes": "",
+   "remnants_to": ""
   },
   {
    "place": "gazakh-exclaves",
@@ -787,7 +804,8 @@
     ]
    },
    "file": "gazakh-exclaves.geojson",
-   "notes": "Held by Armenia since 1992; Azerbaijan claims them. Sofulu lies inside the Barkhudarli exclave, so there are two polygons. GADM's exclave parts overlap these outlines by only 6-7 km² each."
+   "notes": "Held by Armenia since 1992; Azerbaijan claims them. Sofulu lies inside the Barkhudarli exclave, so there are two polygons. GADM's exclave parts overlap these outlines by only 6-7 km² each.",
+   "remnants_to": "AZ>AM"
   },
   {
    "place": "ghajar",
@@ -834,7 +852,8 @@
     }
    },
    "file": "ghajar.geojson",
-   "notes": "The part of the village north of the State Department's Israel-Lebanon line (taken as the Lebanese side), which Israel holds and Lebanon claims; the Blue Line itself is not published as data, and Lebanon's COD-AB puts the whole village in Lebanon. GADM puts the village in its 'Chebaa Farms' unit."
+   "notes": "The part of the village north of the State Department's Israel-Lebanon line (taken as the Lebanese side), which Israel holds and Lebanon claims; the Blue Line itself is not published as data, and Lebanon's COD-AB puts the whole village in Lebanon. GADM puts the village in its 'Chebaa Farms' unit.",
+   "remnants_to": ""
   },
   {
    "place": "glorioso-islands",
@@ -864,7 +883,8 @@
     ]
    },
    "file": "glorioso-islands.geojson",
-   "notes": "Natural Earth's polygon does not overlap DoS's."
+   "notes": "Natural Earth's polygon does not overlap DoS's.",
+   "remnants_to": ""
   },
   {
    "place": "gornja-siga",
@@ -900,7 +920,8 @@
     ]
    },
    "file": "gornja-siga.geojson",
-   "notes": "Neither Croatia's nor Serbia's official boundary data was checked. The relation is a multipolygon tagged only with its name and Wikidata id. GADM puts about 4.1 km² of it in Croatia and 1.8 km² in Serbia, hence both donors."
+   "notes": "Neither Croatia's nor Serbia's official boundary data was checked. The relation is a multipolygon tagged only with its name and Wikidata id. GADM puts about 4.1 km² of it in Croatia and 1.8 km² in Serbia, hence both donors.",
+   "remnants_to": ""
   },
   {
    "place": "guantanamo-bay",
@@ -930,7 +951,8 @@
     ]
    },
    "file": "guantanamo-bay.geojson",
-   "notes": "The United States is the lessee, so DoS is also a party here; ranked 2 rather than 1 because the dataset disclaims being the US view ('should not be relied upon as a representation of the views of the United States'), and D062 names a DoS lease boundary as its rank-2 example. Cuba's line not found (HDX COD-AB Cuba is from GADM)."
+   "notes": "The United States is the lessee, so DoS is also a party here; ranked 2 rather than 1 because the dataset disclaims being the US view ('should not be relied upon as a representation of the views of the United States'), and D062 names a DoS lease boundary as its rank-2 example. Cuba's line not found (HDX COD-AB Cuba is from GADM).",
+   "remnants_to": ""
   },
   {
    "place": "halaib-triangle",
@@ -960,7 +982,8 @@
     ]
    },
    "file": "halaib-triangle.geojson",
-   "notes": "Rank 2 read as for Bir Tawil. HDX COD-AB Egypt (CAPMAS) has a markaz 'Halayib' (7,544 km²), not the triangle. OSM relation 4081614 agrees closely."
+   "notes": "Rank 2 read as for Bir Tawil. HDX COD-AB Egypt (CAPMAS) has a markaz 'Halayib' (7,544 km²), not the triangle. OSM relation 4081614 agrees closely.",
+   "remnants_to": ""
   },
   {
    "place": "hans-island",
@@ -990,7 +1013,8 @@
     ]
    },
    "file": "hans-island.geojson",
-   "notes": "Contradiction: the register says the island has been split between Canada and Denmark (Greenland) since 14 June 2022 by a 1,280 m border; the canon gives the whole island to GL. DoS 11.4 still has one 'Hans Island' polygon."
+   "notes": "Contradiction: the register says the island has been split between Canada and Denmark (Greenland) since 14 June 2022 by a 1,280 m border; the canon gives the whole island to GL. DoS 11.4 still has one 'Hans Island' polygon.",
+   "remnants_to": ""
   },
   {
    "place": "ilemi-triangle",
@@ -1021,7 +1045,8 @@
     ]
    },
    "file": "ilemi-triangle.geojson",
-   "notes": "Union of DoS 'Ilemi Triangle (Kenya)' and 'Ilemi Triangle (South Sudan)', bounded by lines LSIB labels 'Administrative Boundary' and 'Provisional Boundary'. Rank 2 on the same reading as Bir Tawil, not verified. OpenStreetMap relation 192797 is a different line (differs by about 1,000 km²). HDX COD-AB Kenya is 'not an official administrative layer from the National authorities'. Since D071 (2026-10-05) the area is a special place, South Sudan's claim not being pressed; its land goes with its holder, Kenya, so this outline moves the land GADM gives to South Sudan into Kenya's region."
+   "notes": "Union of DoS 'Ilemi Triangle (Kenya)' and 'Ilemi Triangle (South Sudan)', bounded by lines LSIB labels 'Administrative Boundary' and 'Provisional Boundary'. Rank 2 on the same reading as Bir Tawil, not verified. OpenStreetMap relation 192797 is a different line (differs by about 1,000 km²). HDX COD-AB Kenya is 'not an official administrative layer from the National authorities'. Since D071 (2026-10-05) the area is a special place, South Sudan's claim not being pressed; its land goes with its holder, Kenya, so this outline moves the land GADM gives to South Sudan into Kenya's region.",
+   "remnants_to": ""
   },
   {
    "place": "juan-de-nova",
@@ -1051,7 +1076,8 @@
     ]
    },
    "file": "juan-de-nova.geojson",
-   "notes": ""
+   "notes": "",
+   "remnants_to": ""
   },
   {
    "place": "junagadh",
@@ -1080,7 +1106,8 @@
     ]
    },
    "file": "junagadh.geojson",
-   "notes": "Pakistan claims the princely state of Junagadh and Manavadar (its 2020 political map; deshgujarat.com 2020-08-04); its own line exists only as a raster map. The area (8,651 km²) matches the princely state's 8,643 km² of 1921; no set of current districts or talukas fits."
+   "notes": "Pakistan claims the princely state of Junagadh and Manavadar (its 2020 political map; deshgujarat.com 2020-08-04); its own line exists only as a raster map. The area (8,651 km²) matches the princely state's 8,643 km² of 1921; no set of current districts or talukas fits.",
+   "remnants_to": ""
   },
   {
    "place": "kafia-kingi",
@@ -1124,7 +1151,8 @@
     ]
    },
    "file": "kafia-kingi.geojson",
-   "notes": "As for Koalou (D061): the overlap of the parties' outlines is a stated outline. South Sudan's line is the 1 January 1956 north-south line (the 2005 agreement), as the State Department draws it; Sudan's official boundary includes the enclave. 12,591 km² (the register gives 12,500). OSM relation 9520186 (12,732 km²) is the next alternative."
+   "notes": "As for Koalou (D061): the overlap of the parties' outlines is a stated outline. South Sudan's line is the 1 January 1956 north-south line (the 2005 agreement), as the State Department draws it; Sudan's official boundary includes the enclave. 12,591 km² (the register gives 12,500). OSM relation 9520186 (12,732 km²) is the next alternative.",
+   "remnants_to": ""
   },
   {
    "place": "kalapani",
@@ -1160,7 +1188,8 @@
     ]
    },
    "file": "kalapani.geojson",
-   "notes": "Two parties, two lines: Nepal's claim and India's line; neither found as data. HDX COD-AB Nepal (Survey Department) does not follow Nepal's claim (it holds 66 of these 410 km²). DoS's 'Kalapani' (60 km²) is DoS's own line, not agreed, so not rank 2. Natural Earth's 'Near Om Parvat' (60 km²) is a different, smaller object. Since D063 (2026-10-04) Kalapani is a region of its own (inhabited; Nepal’s point of view puts it in Nepal)."
+   "notes": "Two parties, two lines: Nepal's claim and India's line; neither found as data. HDX COD-AB Nepal (Survey Department) does not follow Nepal's claim (it holds 66 of these 410 km²). DoS's 'Kalapani' (60 km²) is DoS's own line, not agreed, so not rank 2. Natural Earth's 'Near Om Parvat' (60 km²) is a different, smaller object. Since D063 (2026-10-04) Kalapani is a region of its own (inhabited; Nepal’s point of view puts it in Nepal).",
+   "remnants_to": ""
   },
   {
    "place": "karki",
@@ -1196,7 +1225,8 @@
     ]
    },
    "file": "karki.geojson",
-   "notes": "Held by Armenia since May 1992; Azerbaijan claims it. GADM has no unit or part for it."
+   "notes": "Held by Armenia since May 1992; Azerbaijan claims it. GADM has no unit or part for it.",
+   "remnants_to": ""
   },
   {
    "place": "koalou",
@@ -1215,7 +1245,8 @@
     "sha256": "c4bac59b49da5ee0e0cd683a96139882da78d157803faf44d749300997eb2ae3"
    },
    "file": "koalou.geojson",
-   "notes": "Kept as accepted (D061); not rebuilt, its sha256 is checked. DoS World Polygons' 'Koalou / Kourou' (7.7 km²) lies almost wholly inside it."
+   "notes": "Kept as accepted (D061); not rebuilt, its sha256 is checked. DoS World Polygons' 'Koalou / Kourou' (7.7 km²) lies almost wholly inside it.",
+   "remnants_to": ""
   },
   {
    "place": "korean-dmz",
@@ -1246,7 +1277,8 @@
     ]
    },
    "file": "korean-dmz.geojson",
-   "notes": "Union of DoS 'DMZ - North Korea' and 'DMZ - South Korea' (LSIB labels 'Military Demarcation Line', 'DMZ'). Natural Earth's two halves were about 2.5 times as wide."
+   "notes": "Union of DoS 'DMZ - North Korea' and 'DMZ - South Korea' (LSIB labels 'Military Demarcation Line', 'DMZ'). Natural Earth's two halves were about 2.5 times as wide.",
+   "remnants_to": ""
   },
   {
    "place": "kuril-islands",
@@ -1282,7 +1314,8 @@
     ]
    },
    "file": "kuril-islands.geojson",
-   "notes": "DoS has the islands only as parts of its 'Japan' polygon (no separate feature), so not used. Japan's or Russia's official data not checked."
+   "notes": "DoS has the islands only as parts of its 'Japan' polygon (no separate feature), so not used. Japan's or Russia's official data not checked.",
+   "remnants_to": ""
   },
   {
    "place": "la-guera",
@@ -1318,7 +1351,8 @@
     ]
    },
    "file": "la-guera.geojson",
-   "notes": "Held by Mauritania, claimed by Morocco. Whether Mauritania's policing covers the whole commune is not stated; the register's 87.8 km² is unexplained (the commune is 243.7 km²)."
+   "notes": "Held by Mauritania, claimed by Morocco. Whether Mauritania's policing covers the whole commune is not stated; the register's 87.8 km² is unexplained (the commune is 243.7 km²).",
+   "remnants_to": ""
   },
   {
    "place": "lawa-headwaters",
@@ -1354,7 +1388,8 @@
     ]
    },
    "file": "lawa-headwaters.geojson",
-   "notes": "Held by France (de facto administration); France's own commune of Maripasoula (IGN ADMIN EXPRESS) covers 3,490 of its 3,494.5 km². Natural Earth B14 is the same area. The register's 'about 5,000 square miles' does not match."
+   "notes": "Held by France (de facto administration); France's own commune of Maripasoula (IGN ADMIN EXPRESS) covers 3,490 of its 3,494.5 km². Natural Earth B14 is the same area. The register's 'about 5,000 square miles' does not match.",
+   "remnants_to": ""
   },
   {
    "place": "matthew-hunter",
@@ -1384,7 +1419,8 @@
     ]
    },
    "file": "matthew-hunter.geojson",
-   "notes": "Natural Earth's polygons do not overlap DoS's."
+   "notes": "Natural Earth's polygons do not overlap DoS's.",
+   "remnants_to": ""
   },
   {
    "place": "mbanie",
@@ -1414,7 +1450,8 @@
     ]
    },
    "file": "mbanie.geojson",
-   "notes": "DoS names the feature 'Corisco Bay Islands' but it is one polygon at Mbanié (OSM relation 17877330 'Île Mbanié'). Resolved: the land goes to Equatorial Guinea under D048 (the ICJ ruling of 19 May 2025 is an accepted ruling); before that: the register says the International Court of Justice found in 2025 that the territory belongs to Equatorial Guinea and that Gabon was to remove its presence; the canon gives it to GA."
+   "notes": "DoS names the feature 'Corisco Bay Islands' but it is one polygon at Mbanié (OSM relation 17877330 'Île Mbanié'). Resolved: the land goes to Equatorial Guinea under D048 (the ICJ ruling of 19 May 2025 is an accepted ruling); before that: the register says the International Court of Justice found in 2025 that the territory belongs to Equatorial Guinea and that Gabon was to remove its presence; the canon gives it to GA.",
+   "remnants_to": ""
   },
   {
    "place": "migingo",
@@ -1450,7 +1487,8 @@
     ]
    },
    "file": "migingo.geojson",
-   "notes": "Migingo Island's coastline (about 0.008 km²). No single holder: the latest report from the island (AFP, October 2018) says it is co-managed by Kenya and Uganda. GADM puts the islet in a Ugandan lake unit."
+   "notes": "Migingo Island's coastline (about 0.008 km²). No single holder: the latest report from the island (AFP, October 2018) says it is co-managed by Kenya and Uganda. GADM puts the islet in a Ugandan lake unit.",
+   "remnants_to": ""
   },
   {
    "place": "moldovan-held-left-bank",
@@ -1521,7 +1559,8 @@
     ]
    },
    "file": "moldovan-held-left-bank.geojson",
-   "notes": "The six left-bank communes 'remained under the control of the Moldovan government' and, with Varnița and Copanca, 'are claimed by the PMR' (Wikipedia Transnistria, oldid 1375814450). Whether villages Transnistria holds (Roghi, part of Corjova) lie inside these communes is not checked. GADM has Moldova only at level 1."
+   "notes": "The six left-bank communes 'remained under the control of the Moldovan government' and, with Varnița and Copanca, 'are claimed by the PMR' (Wikipedia Transnistria, oldid 1375814450). Whether villages Transnistria holds (Roghi, part of Corjova) lie inside these communes is not checked. GADM has Moldova only at level 1.",
+   "remnants_to": ""
   },
   {
    "place": "mount-scopus-enclave",
@@ -1557,7 +1596,8 @@
     ]
    },
    "file": "mount-scopus-enclave.geojson",
-   "notes": "The 1948-1967 Mount Scopus enclave, a separate part (1.045 km²) of the State Department's Israel polygon, closed exactly by its LSIB 11.4 lines (the 1949 Armistice Line and the Israel / No Man's Land line). The 1948 agreement's own map is not published with it, and the two parties used different maps (UN S/4030, 1958); OSM way 202753108 differs by 0.5 km²."
+   "notes": "The 1948-1967 Mount Scopus enclave, a separate part (1.045 km²) of the State Department's Israel polygon, closed exactly by its LSIB 11.4 lines (the 1949 Armistice Line and the Israel / No Man's Land line). The 1948 agreement's own map is not published with it, and the two parties used different maps (UN S/4030, 1958); OSM way 202753108 differs by 0.5 km².",
+   "remnants_to": ""
   },
   {
    "place": "penon-de-alhucemas",
@@ -1593,7 +1633,8 @@
     ]
    },
    "file": "penon-de-alhucemas.geojson",
-   "notes": "Only the Peñón itself, as Natural Earth's feature; the neighbouring Isla de Tierra and Isla de Mar (OSM ways 8692720, 8692779) are not included. DoS has it only inside 'Spain (Plazas de Soberania)' with the other plazas."
+   "notes": "Only the Peñón itself, as Natural Earth's feature; the neighbouring Isla de Tierra and Isla de Mar (OSM ways 8692720, 8692779) are not included. DoS has it only inside 'Spain (Plazas de Soberania)' with the other plazas.",
+   "remnants_to": ""
   },
   {
    "place": "rincon-de-artigas",
@@ -1622,7 +1663,8 @@
     ]
    },
    "file": "rincon-de-artigas.geojson",
-   "notes": "Region since D063 (inhabited line dispute; Natural Earth points of view differ). No higher-ranked outline searched yet."
+   "notes": "Region since D063 (inhabited line dispute; Natural Earth points of view differ). No higher-ranked outline searched yet.",
+   "remnants_to": ""
   },
   {
    "place": "rockall",
@@ -1658,7 +1700,8 @@
     ]
    },
    "file": "rockall.geojson",
-   "notes": "DoS has Rockall only as a part of 'United Kingdom'."
+   "notes": "DoS has Rockall only as a part of 'United Kingdom'.",
+   "remnants_to": ""
   },
   {
    "place": "sapodilla-cayes",
@@ -1688,7 +1731,8 @@
     ]
    },
    "file": "sapodilla-cayes.geojson",
-   "notes": "Natural Earth's polygon is offset from DoS's and does not overlap it."
+   "notes": "Natural Earth's polygon is offset from DoS's and does not overlap it.",
+   "remnants_to": ""
   },
   {
    "place": "scarborough-shoal",
@@ -1718,7 +1762,8 @@
     ]
    },
    "file": "scarborough-shoal.geojson",
-   "notes": "Natural Earth's polygon lies about 9 km west of DoS's 'Scarborough Reef'."
+   "notes": "Natural Earth's polygon lies about 9 km west of DoS's 'Scarborough Reef'.",
+   "remnants_to": ""
   },
   {
    "place": "senkaku",
@@ -1748,7 +1793,8 @@
     ]
    },
    "file": "senkaku.geojson",
-   "notes": ""
+   "notes": "",
+   "remnants_to": ""
   },
   {
    "place": "serranilla",
@@ -1799,7 +1845,8 @@
     ]
    },
    "file": "serranilla.geojson",
-   "notes": "Union of the bank's four mapped cays (Beacon Cay, East Cay, Middle Cay, Northeast Breaker). See bajo-nuevo for Natural Earth's swapped names. GADM has 0.005 km² of it in the San Andrés department (region rule/co-san-andres), not a donor."
+   "notes": "Union of the bank's four mapped cays (Beacon Cay, East Cay, Middle Cay, Northeast Breaker). See bajo-nuevo for Natural Earth's swapped names. GADM has 0.005 km² of it in the San Andrés department (region rule/co-san-andres), not a donor.",
+   "remnants_to": ""
   },
   {
    "place": "shebaa-farms",
@@ -1828,7 +1875,8 @@
     ]
    },
    "file": "shebaa-farms.geojson",
-   "notes": "No line stated by the parties (register); the UN's 2007 definition by its former cartographer Miklos Pinther is not available as data. No DoS or OSM polygon. HDX COD-AB Lebanon was 'prepared by ITOS to match the UN GIS boundaries' and has no separate unit."
+   "notes": "No line stated by the parties (register); the UN's 2007 definition by its former cartographer Miklos Pinther is not available as data. No DoS or OSM polygon. HDX COD-AB Lebanon was 'prepared by ITOS to match the UN GIS boundaries' and has no separate unit.",
+   "remnants_to": ""
   },
   {
    "place": "siachen",
@@ -1880,7 +1928,8 @@
     }
    },
    "file": "siachen.geojson",
-   "notes": "No party publishes the line up to which India holds the glacier, so the land is divided by the best available line of control (D066): OSM's India-Pakistan line north of the end of the agreed Line of Control, taken from the ways of the relation 'Siachen Glacier Disputed Area' (13559521) tagged Line of Control, which run along the Saltoro Ridge to the China border. Both ends are prolonged by 0.02° (about 2 km) so the line crosses GADM's own line; the result is the same for 0.02° to 0.1°. The consumer splits Gilgit-Baltistan's units by the line and gives the side with the holder point (the glacier) to India-held Jammu and Kashmir and Ladakh. The OSM relation is built from OSM's own ways and only tagged with a Natural Earth id. DoS draws no such line (its Siachen polygon is a wedge of two straight lines); Natural Earth's is three vertices marked 'please verify'."
+   "notes": "No party publishes the line up to which India holds the glacier, so the land is divided by the best available line of control (D066): OSM's India-Pakistan line north of the end of the agreed Line of Control, taken from the ways of the relation 'Siachen Glacier Disputed Area' (13559521) tagged Line of Control, which run along the Saltoro Ridge to the China border. Both ends are prolonged by 0.02° (about 2 km) so the line crosses GADM's own line; the result is the same for 0.02° to 0.1°. The consumer splits Gilgit-Baltistan's units by the line and gives the side with the holder point (the glacier) to India-held Jammu and Kashmir and Ladakh. The OSM relation is built from OSM's own ways and only tagged with a Natural Earth id. DoS draws no such line (its Siachen polygon is a wedge of two straight lines); Natural Earth's is three vertices marked 'please verify'.",
+   "remnants_to": ""
   },
   {
    "place": "somaliland",
@@ -1916,7 +1965,8 @@
     ]
    },
    "file": "somaliland.geojson",
-   "notes": "No dataset of Somaliland's own line found. Candidate not used: the union of Somalia's five north-western 1984 regions in HDX COD-AB Somalia (Awdal, Woqooyi Galbeed, Togdheer, Sool, Sanaag), because Somalia states no Somaliland line and the union is a construction. Register: Somaliland lost a significant eastern part to SSC-Khatumo (sool-sanaag-cayn); this outline does not show that."
+   "notes": "No dataset of Somaliland's own line found. Candidate not used: the union of Somalia's five north-western 1984 regions in HDX COD-AB Somalia (Awdal, Woqooyi Galbeed, Togdheer, Sool, Sanaag), because Somalia states no Somaliland line and the union is a construction. Register: Somaliland lost a significant eastern part to SSC-Khatumo (sool-sanaag-cayn); this outline does not show that.",
+   "remnants_to": ""
   },
   {
    "place": "south-ossetia",
@@ -1946,7 +1996,8 @@
     ]
    },
    "file": "south-ossetia.geojson",
-   "notes": "South Ossetia's own line (it also claims Georgian-held Truso and other gorges, register area eastern-ossetia-claim) was not found as data. OSM relation 1152717 agrees with this outline to about 100 km²."
+   "notes": "South Ossetia's own line (it also claims Georgian-held Truso and other gorges, register area eastern-ossetia-claim) was not found as data. OSM relation 1152717 agrees with this outline to about 100 km².",
+   "remnants_to": ""
   },
   {
    "place": "tigri",
@@ -1982,7 +2033,8 @@
     ]
    },
    "file": "tigri.geojson",
-   "notes": "Held by Guyana, claimed by Suriname. Natural Earth B15 is the same area (14,319 km²)."
+   "notes": "Held by Guyana, claimed by Suriname. Natural Earth B15 is the same area (14,319 km²).",
+   "remnants_to": ""
   },
   {
    "place": "undof-zone",
@@ -2013,7 +2065,8 @@
     ]
    },
    "file": "undof-zone.geojson",
-   "notes": "Union of DoS 'UNDOF Zone - Israel Sovereignty' and 'UNDOF Zone - Syria Sovereignty' (DoS splits the zone by its view of sovereignty; the union is the zone)."
+   "notes": "Union of DoS 'UNDOF Zone - Israel Sovereignty' and 'UNDOF Zone - Syria Sovereignty' (DoS splits the zone by its view of sovereignty; the union is the zone).",
+   "remnants_to": ""
   },
   {
    "place": "wake",
@@ -2043,7 +2096,8 @@
     ]
    },
    "file": "wake.geojson",
-   "notes": "The United States administers Wake; DoS ranked 2 as for Guantanamo."
+   "notes": "The United States administers Wake; DoS ranked 2 as for Guantanamo.",
+   "remnants_to": ""
   },
   {
    "place": "western-sahara-moroccan-controlled",
@@ -2072,7 +2126,8 @@
     ]
    },
    "file": "western-sahara-moroccan-controlled.geojson",
-   "notes": "The stated outline is the berm (register). No polygon of the Moroccan-controlled part found: HDX COD-AB Morocco and OSM's Moroccan regions cover the whole territory (Morocco's claim), DoS has no separate polygon. OSM has the SADR-held part (relation 5441968) and the berm as a line (13562307); Western Sahara minus SADR (relations 2559126 − 5441968) is a construction, not used."
+   "notes": "The stated outline is the berm (register). No polygon of the Moroccan-controlled part found: HDX COD-AB Morocco and OSM's Moroccan regions cover the whole territory (Morocco's claim), DoS has no separate polygon. OSM has the SADR-held part (relation 5441968) and the berm as a line (13562307); Western Sahara minus SADR (relations 2559126 − 5441968) is a construction, not used.",
+   "remnants_to": ""
   },
   {
    "place": "ye-socotra",
@@ -2102,7 +2157,8 @@
     ]
    },
    "file": "ye-socotra.geojson",
-   "notes": "Replaces the planned OSM relation 5486640. Not a dispute: the outline of the governorate whose entry rule makes the region."
+   "notes": "Replaces the planned OSM relation 5486640. Not a dispute: the outline of the governorate whose entry rule makes the region.",
+   "remnants_to": ""
   }
  ]
 }

@@ -52,6 +52,9 @@ def main():
     parser.add_argument("--tolerance", type=float, default=0.01, help="display simplification, degrees")
     parser.add_argument("--detail-margin", type=float, default=0.2,
                         help="degrees around disputed regions and own geometries kept at full precision (0: none)")
+    parser.add_argument("--display-tolerance", type=float, default=0.003,
+                        help="simplification of what is drawn outside the detail zones, degrees (the GADM rows are united "
+                             "at --tolerance / 10)")
     args = parser.parse_args()
     release = ROOT / "release"
     regions = {r["region_id"]: r for r in csv.DictReader((release / "regions.csv").open(encoding="utf-8"))}
@@ -76,11 +79,13 @@ def main():
         united.write_bytes(pickle.dumps({"key": key, "geoms": {rid: wkb.dumps(g) for rid, g in geoms.items()}}))
     final = OUT / f"final-{args.tolerance}.pickle"
     own_files = sorted((REPO / "data" / "custom-geometries").glob("*.geojson"))
-    # the cache holds the result of apply_own, so it also depends on this script
-    key2 = key + hashlib.sha256(b"".join(f.read_bytes() for f in own_files) + Path(__file__).read_bytes()).hexdigest()
+    # the cache holds the result of apply_own, so it also depends on that function's code
+    import inspect
+    key2 = key + hashlib.sha256(b"".join(f.read_bytes() for f in own_files) + inspect.getsource(apply_own).encode()).hexdigest()
     cached = pickle.loads(final.read_bytes()) if final.exists() else {}
     if cached.get("key") == key2:
         geoms = {rid: wkb.loads(g) for rid, g in cached["geoms"].items()}
+        cached.pop("geoms")
         log(f"regions with own geometries read from {final.name}")
     else:
         pieces = apply_own(geoms, membership)
@@ -102,7 +107,8 @@ def main():
             detail = unite_detail(zones, inc, exc)
             apply_own(detail, membership)
             detail_cache.write_bytes(pickle.dumps({"key": key2, "geoms": {rid: wkb.dumps(g) for rid, g in detail.items()}}))
-    write(geoms, regions, membership, args.tolerance, zones, detail)
+        del cached_d
+    write(geoms, regions, membership, args.display_tolerance, zones, detail)
     write_pieces(pieces, args.tolerance, zones)
 
 
@@ -151,12 +157,21 @@ def unite_detail(zones, inc, exc):
     return {rid: shapely.make_valid(shapely.union_all(items, grid_size=1e-7)) for rid, items in parts.items()}
 
 
-def displayed(geom, tolerance, zones, detail_geom):
-    """Simplified outside the detail zones, the full-precision detail layer inside them."""
+def without_specks(geom, min_deg2=1e-6):
+    """Drops holes smaller than about 0.01 km² (specks of water or gaps the substrate leaves, drawn as a ring)."""
+    def clean(p):
+        return shapely.Polygon(p.exterior, [r for r in p.interiors if shapely.Polygon(r).area >= min_deg2])
+    parts = [clean(p) for p in getattr(geom, "geoms", [geom]) if p.geom_type == "Polygon"]
+    return shapely.MultiPolygon(parts) if len(parts) > 1 else parts[0] if parts else geom
+
+
+def displayed(geom, simple, zones, detail_geom):
+    """The region simplified outside the detail zones, the full-precision detail layer inside them."""
     if zones is None or not geom.intersects(zones):
-        simple = geom.simplify(tolerance, preserve_topology=False)
         return simple if not simple.is_empty else geom
-    outside = shapely.difference(geom, zones).simplify(tolerance, preserve_topology=False)
+    # cut by the zone shrunk by about a metre: the two parts overlap in a thin band instead of meeting on one edge,
+    # so they dissolve without a slit and no seam is drawn on the zone's boundary
+    outside = shapely.difference(simple, zones.buffer(-1e-5, join_style="mitre"))
     inside = detail_geom if detail_geom is not None else shapely.intersection(geom, zones)
     return shapely.make_valid(shapely.union_all([outside, inside]))
 
@@ -221,8 +236,32 @@ def apply_own(geoms, membership):
         near = [local(geoms[ids[i]]) for i in tree.query(geom)]
         uncovered = shapely.difference(geom, shapely.union_all(near)) if near else geom
         piece = shapely.make_valid(shapely.union_all([taken, uncovered]))
+        before = {d: geoms[d] for d in donors}
         for d in donors:
             geoms[d] = shapely.make_valid(shapely.difference(geoms[d], piece))
+        # D072: the rest of the substrate's copy of a detached part that this outline overlaps goes to the region the
+        # outline's source puts there ("AZ>AM": Azerbaijan's leftovers to Armenia); never the donor's main land, never
+        # land of a register area (condition 3, the source's own assignment, is checked by check_custom.py)
+        for pair in m.get("remnants_to", "").split():
+            src, _, dst = pair.partition(">")
+            if src not in before or dst not in geoms:
+                continue
+            parts = list(getattr(before[src], "geoms", [before[src]]))
+            main = max(parts, key=lambda g: g.area)
+            disputed = [g for r, g in geoms.items() if r.startswith("area/") and r != m["region_id"]]
+            moved = []
+            for g in parts:
+                if g is main or shapely.intersection(g, geom).area <= 0:
+                    continue
+                rest = shapely.make_valid(shapely.difference(g, piece))
+                if rest.is_empty or any(shapely.intersection(rest, x).area > 0 for x in disputed if rest.intersects(x)):
+                    continue
+                moved.append(rest)
+            if moved:
+                rest = shapely.union_all(moved)
+                geoms[src] = shapely.make_valid(shapely.difference(geoms[src], rest))
+                geoms[dst] = shapely.make_valid(shapely.union_all([geoms[dst], rest]))
+                log(f"  {len(moved)} leftover part(s) of {src}'s copy near {m['unit']} moved to {dst} (D072)")
         own[m["region_id"]].append(piece)
         pieces[m["unit"]] = piece
         log(f"own geometry {m['unit']} -> {m['region_id']} (donors: {' '.join(donors) or 'none'})")
@@ -242,29 +281,38 @@ def write_pieces(pieces, tolerance, zones=None):
 
 
 def write(geoms, regions, membership, tolerance, zones=None, detail=None):
-    """Display features for the simple HTML page (index.html, regions.js)."""
-    features = []
-    for rid, geom in sorted(geoms.items()):
-        r = regions.get(rid, {"name": rid})
-        povs = {k[5:]: v for k, v in r.items() if k.startswith("view_") and v}
-        majority = max(set(povs.values()), key=list(povs.values()).count) if povs else ""
-        differing = {k: v for k, v in povs.items() if v != majority}
-        simple = displayed(geom, tolerance, zones, (detail or {}).get(rid))
-        if len(features) % 50 == 0:
-            log(f"wrote {len(features)} regions")
-        features.append({"type": "Feature", "geometry": mapping(rounded(simple)), "properties": {
-            "id": rid, "name": r.get("name", rid), "country": r.get("country", ""), "basis": r.get("basis", ""),
-            "evidence": r.get("evidence", ""), "open": r.get("open", ""), "pov_majority": majority,
-            "pov_differing": differing,
-            "units": [f"{m['role']} {m['source']} {m['unit']}" + (f" clip to {m['clip_to']}" if m.get("clip_to") else "")
-                      for m in membership if m["region_id"] == rid][:12]}})
+    """Display features for the simple HTML page (index.html, regions.js), written one region at a time: each region's
+    full geometry is released as soon as it is written, so that the step does not hold the whole map twice."""
+    # each region is simplified on its own, so neighbours' edges may differ by up to the tolerance; a coverage
+    # simplification would keep them identical but needs regions united from unsimplified GADM rows (see README)
+    units = defaultdict(list)
+    for m in membership:
+        units[m["region_id"]].append(f"{m['role']} {m['source']} {m['unit']}" + (f" clip to {m['clip_to']}" if m.get("clip_to") else ""))
     missing = sorted(set(regions) - set(geoms))
     OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "regions.js").write_text("window.REGIONS = " + json.dumps({"type": "FeatureCollection", "features": features},
-                                                                       ensure_ascii=False) + ";\nwindow.MISSING = "
-                                    + json.dumps(missing) + ";\n", encoding="utf-8")
+    written = 0
+    with (OUT / "regions.js").open("w", encoding="utf-8") as out:
+        out.write('window.REGIONS = {"type": "FeatureCollection", "features": [\n')
+        for rid in sorted(geoms):
+            geom = geoms.pop(rid)
+            r = regions.get(rid, {"name": rid})
+            povs = {k[5:]: v for k, v in r.items() if k.startswith("view_") and v}
+            majority = max(set(povs.values()), key=list(povs.values()).count) if povs else ""
+            differing = {k: v for k, v in povs.items() if v != majority}
+            simple = displayed(geom, shapely.make_valid(geom.simplify(tolerance, preserve_topology=False)), zones,
+                               (detail or {}).get(rid))
+            feature = {"type": "Feature", "geometry": mapping(rounded(without_specks(simple))), "properties": {
+                "id": rid, "name": r.get("name", rid), "country": r.get("country", ""), "basis": r.get("basis", ""),
+                "evidence": r.get("evidence", ""), "open": r.get("open", ""), "pov_majority": majority,
+                "pov_differing": differing, "units": units[rid][:12]}}
+            out.write((",\n" if written else "") + json.dumps(feature, ensure_ascii=False))
+            del geom, simple, feature
+            written += 1
+            if written % 50 == 0:
+                log(f"wrote {written} regions")
+        out.write("\n]};\nwindow.MISSING = " + json.dumps(missing) + ";\n")
     (OUT / "index.html").write_text((ROOT / "map_template.html").read_text(encoding="utf-8"), encoding="utf-8")
-    log(f"wrote {len(features)} regions; regions without geometry: {missing}")
+    log(f"wrote {written} regions; regions without geometry: {missing}")
 
 
 if __name__ == "__main__":
