@@ -388,6 +388,8 @@ The registry and the register say which places are separate and whose they are; 
 
 Amended by D066: where the holder of land is known (R048) but no party publishes the line up to which it holds, the land is divided between the holders by the best available line of actual control, in the source order above, with the source recorded; the line has held since a ceasefire (a moving front does not qualify, R049) and only decides which region the land goes to. The project draws no polygon for the purpose.
 
+Amended by D072: where an own geometry outlines a detached part of a country that the substrate draws elsewhere or differently, the rest of the substrate's copy outside the outline goes to the region the outline's source puts there, if it is the rest of a detached part of the donor that the outline overlaps (never the donor's main land), no register area or recorded claim covers it, and the outline's own source assigns it to the receiving country.
+
 ### R048 — The holder of an area [accepted; D043]
 
 `holder(area, t)` is the party whose officers can in practice admit a civilian to the area, refuse one and remove one at t. Rules a party issues for an area but cannot enforce there do not count. Where parts of an area are held by different parties, each part has its own holder. Holding in fact is enough, for inhabited and uninhabited areas alike; there is no separate condition about civil administration. The holder and the date from which it has held the area without interruption are register facts with a source and a quoted passage; attribution is computed from them. Where this test cannot tell the parties apart, the holder is the party that provides civil administration to the residents; if there is none, the area has no holder (amended by D055).

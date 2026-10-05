@@ -676,3 +676,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: the count depends on how thoroughly the steps were searched, and the steps rest partly on secondary sources (D067); judging whether a step was disowned or names the area is a reading of sources. The alternatives were a single step within 10 years and steps in three distinct years of ten.
 - Status: accepted.
 - Basis: owner decision, 2026-10-05 (option "two years of ten"); [claim-activity experiment](../experiments/claim-activity/README.md).
+
+### D072 — The substrate's misdrawn copy of a detached part goes with the outline's source
+
+- Decision: where an own geometry outlines a detached part of a country (an exclave or an islet) that the substrate draws elsewhere or differently, what is left of the substrate's copy outside the outline goes to the region that the outline's source puts there — under three conditions: (1) it is the rest of a detached part of the donor that the outline overlaps, never the donor's main land; (2) no area of the register and no recorded claim covers that land; (3) the outline's own source assigns that land to the receiving country. Otherwise the remnant stays and is reported.
+- Rationale: maps can differ on the same place because of detail, error, date or a real disagreement; only the last is the canon's business, and the register's claims and the settling rule handle it. The conditions rule a real disagreement out and follow the higher-ranked source (D062) over the whole neighbourhood of the place instead of moving land by a rule of the project. The case was GADM's copies of the Artsvashen, Yukhari Askipara and Barkhudarli exclaves, which overlap the State Department's outlines only in part and leave detached fragments (13.4, 7.1 and 5.9 km²); OpenStreetMap agrees with the State Department on Artsvashen (37.4 of 38 km²).
+- Rules: R047 (amended).
+- Counterarguments: the consumer must repeat the operation; the remnant is defined by the substrate's parts, so another substrate needs the check again. The alternatives were distance and size thresholds (rejected as hand-picked), and requiring a third source that agrees with the outline (which no open source gives for the Gazakh exclaves).
+- Status: accepted.
+- Basis: owner decision, 2026-10-05 ("Правило имеет право на жизнь но только если различается детализация карт"; then the option with the conditions above).
