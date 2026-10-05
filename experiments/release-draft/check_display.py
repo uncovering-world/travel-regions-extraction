@@ -3,13 +3,15 @@
 
 Defects a reader sees on the map and that the release checks (check_cover.py, check_custom.py) do not catch:
   fragments  a small detached part of a region lying against another region (e.g. the substrate's own, misplaced copy
-             of an exclave left behind by an own geometry); listed unless inputs/known_fragments.csv explains it;
+             of an exclave left behind by an own geometry); listed unless inputs/known_fragments.csv explains it — each
+             row there names the region, its neighbour and a point (lon, lat) inside the one fragment it explains, so a
+             row never covers other fragments of the same pair;
   seams      parts of one region that touch each other instead of being one polygon (a line is drawn between them);
   slits      holes inside a region narrower than a couple of metres (a cut that the map draws as a line, not water);
   overlaps   land in two regions at once;
   slivers    thin gaps between regions (holes in the union of all regions that are long and narrow).
 Overlaps and slivers are checked in the detail zones only, where the display is exact.
-Writes cache/map/display_check.json and, for each finding, a box for check_screens.cjs to photograph.
+Writes cache/map/display_check.json and, for each finding, a box for plot_findings.py to draw.
 Needs shapely and pyproj. Run from the repository root:
     python experiments/release-draft/check_display.py
 """
@@ -63,10 +65,11 @@ def main() -> None:
     regions = {f["properties"]["id"]: shapely.make_valid(shape(f["geometry"])) for f in features}
     names = {f["properties"]["id"]: f["properties"]["name"] for f in features}
     known_path = ROOT / "inputs" / "known_fragments.csv"
-    known = {}
+    known = []
     if known_path.exists():
         with known_path.open(encoding="utf-8", newline="") as handle:
-            known = {(r["region"], r["near"]): r["why"] for r in csv.DictReader(handle)}
+            known = [(r["region"], r["near"], shapely.Point(float(r["lon"]), float(r["lat"])), r["why"])
+                     for r in csv.DictReader(handle)]
     ids = sorted(regions)
     tree = shapely.STRtree([regions[i] for i in ids])
     log(f"{len(ids)} regions read")
@@ -112,8 +115,9 @@ def main() -> None:
                 neighbours, key=lambda n: shapely.intersection(p.buffer(0.002), regions[n]).area)
             entry = {"check": "fragment", "region": rid, "name": names[rid], "km2": round(a, 3), "near": near,
                      "where": [round(p.centroid.x, 4), round(p.centroid.y, 4)], "box": wide(p)}
-            if (rid, near) in known:
-                entry["explained"] = known[(rid, near)]
+            why = [w for r, n, point, w in known if r == rid and n == near and p.covers(point)]
+            if why:
+                entry["explained"] = why[0]
             findings.append(entry)
 
     log("seams and fragments checked")

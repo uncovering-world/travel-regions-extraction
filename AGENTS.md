@@ -61,6 +61,6 @@ python3 experiments/source-pilot/validate.py
 git diff --check
 ```
 
-For changes to the canon's geometry or the map: `experiments/release-draft/check_custom.py`, `check_cover.py`, and after a render `check_display.py`, then a look at `check_screens.cjs` photographs of the findings and of every area the change touched.
+For changes to the canon's geometry or the map: `experiments/release-draft/check_custom.py`, `check_cover.py`, and after a render `check_display.py`, then a look at the `plot_findings.py` pictures of the findings and of every area the change touched.
 
 For documentation-only changes, `git diff --check` and a check that changed relative links resolve are enough. Report the checks actually run.
