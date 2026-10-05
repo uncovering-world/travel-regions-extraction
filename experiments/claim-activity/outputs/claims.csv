@@ -1,0 +1,37 @@
+area_id,name,steps,years_with_a_step,latest,longest_gap_since_2000,kinds,region_2025_N3,changes_N3,region_2025_N5,changes_N5,region_2025_N10,changes_N10,region_2025_N15,changes_N15,region_2025_N20,changes_N20,distinct_years_2016_2025
+abu-musa,Abu Musa,22,2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2011 2013 2015 2017 2018 2020 2021 2023 2024 2025 2026,2026,2,international,yes,0,yes,0,yes,0,yes,0,yes,0,7
+aksai-chin,Aksai Chin,29,2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2016 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,2,international map statement,yes,0,yes,0,yes,0,yes,0,yes,0,9
+al-fashaga,Al-Fashaga district,31,2002 2004 2013 2014 2015 2016 2018 2020 2021 2022 2023 2024,2024,9,international statement,yes,2,yes,2,yes,0,yes,0,yes,0,7
+armistice-no-mans-lands,"1949 no-man's-lands (Latrun, Jerusalem) and Mount Scopus enclave",9,2003 2005 2012 2013 2015 2020 2025 2026,2026,7,law map statement,yes,6,yes,2,yes,0,yes,0,yes,0,2
+arunachal-pradesh,Arunachal Pradesh,29,2006 2007 2008 2009 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2023 2024 2025 2026,2026,3,international law map statement,yes,1,yes,1,yes,1,yes,1,yes,1,9
+azad-kashmir,Azad Jammu and Kashmir,40,2000 2001 2002 2003 2004 2005 2006 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,2,international law map statement,yes,0,yes,0,yes,0,yes,0,yes,0,10
+belize-guatemala-claim,Belize south of the Sibun River (and Belize as a whole),41,2000 2001 2002 2003 2004 2005 2006 2008 2009 2010 2011 2012 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,3,court international law statement,yes,0,yes,0,yes,0,yes,0,yes,0,10
+ceuta,Ceuta,6,2006 2007 2020 2026,2026,13,statement,no,4,no,4,yes,3,yes,1,yes,1,1
+durand-line,Durand Line,17,2006 2007 2012 2013 2016 2017 2018 2019 2020 2021 2022 2024 2025 2026,2026,5,international statement,yes,3,yes,1,yes,1,yes,1,yes,1,9
+eastern-ossetia-claim,"Truso Gorge, Ghuda Gorge and Kobi Plateau",18,2009 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,6,international statement,yes,3,yes,3,yes,1,yes,1,yes,1,10
+essequibo,Guayana Esequiba (Guyana west of the Essequibo River),37,2000 2003 2010 2011 2012 2013 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,7,court international law statement,yes,2,yes,2,yes,0,yes,0,yes,0,10
+estonia-russia-border,Ivangorod (Jaanilinn) and Pechory district (Petserimaa),3,2020 2021,2021,1,statement,no,2,yes,1,yes,1,yes,1,yes,1,2
+falkland-islands,Falkland Islands (Malvinas),31,2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,1,international law map statement,yes,0,yes,0,yes,0,yes,0,yes,0,10
+gibraltar,Gibraltar,28,2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,1,international statement,yes,0,yes,0,yes,0,yes,0,yes,0,10
+gilgit-baltistan,Gilgit-Baltistan,47,2000 2001 2002 2003 2004 2005 2006 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,2,international law map statement,yes,0,yes,0,yes,0,yes,0,yes,0,10
+halaib-triangle,Hala'ib Triangle,32,2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,1,international statement,yes,0,yes,0,yes,0,yes,0,yes,0,10
+heglig,Heglig (Panthou) oil field area,10,2012,2012,,international map statement,no,2,no,2,no,2,yes,1,yes,1,0
+ilemi-triangle,Ilemi Triangle,3,2011 2026,2026,15,law map statement,no,2,no,2,no,2,yes,1,yes,1,0
+indian-jammu-kashmir-ladakh,Jammu and Kashmir and Ladakh (Indian-administered),30,2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,2,international map,yes,0,yes,0,yes,0,yes,0,yes,0,10
+junagadh,Junagadh and Manavadar,4,2015 2020 2024,2024,5,map statement,yes,5,yes,1,yes,1,yes,1,yes,1,2
+kangwane-ingwavuma,KaNgwane and Ingwavuma,3,2003 2013,2013,10,statement,no,3,no,3,no,1,yes,0,yes,0,0
+kuril-islands,"Southern Kuril Islands (Iturup, Kunashir, Shikotan, Habomai)",32,2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,1,law map statement,yes,0,yes,0,yes,0,yes,0,yes,0,10
+libya-algeria-claim,South-eastern Algeria claimed on Libyan maps,0,,,,,no,0,no,0,no,0,no,0,no,0,0
+libya-niger-tummo,Tummo region,0,,,,,no,0,no,0,no,0,no,0,no,0,0
+mayotte,Mayotte,27,2000 2001 2002 2004 2005 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,2,international law,yes,0,yes,0,yes,0,yes,0,yes,0,10
+melilla,Melilla,6,2006 2007 2020 2026,2026,13,statement,no,4,no,4,yes,3,yes,1,yes,1,1
+moldovan-held-left-bank,"Moldovan-controlled Dubăsari villages, Varnița and Copanca",16,2002 2017 2018 2019 2020 2021 2022 2023 2024 2025,2025,15,law statement,yes,1,yes,2,yes,2,yes,0,yes,0,9
+noktundo,Noktundo,1,1990,1990,,international,no,0,no,0,no,0,no,0,no,1,0
+north-korea-claimed-by-rok,North Korea (claimed by the Republic of Korea),9,2005 2006 2009 2010 2015 2023 2026,2026,8,law,yes,4,yes,2,yes,0,yes,0,yes,0,1
+olivenza,Olivenza and Táliga,6,2001 2003 2008 2024,2024,16,map statement,yes,4,yes,2,yes,2,yes,2,yes,0,1
+roc-legacy-claims,"Legacy claims of the Republic of China (mainland China, Mongolia, Tuva, Pamirs, northern Myanmar, parts of Bhutan, India, Russia and others)",17,1993 2000 2002 2003 2005 2006 2008 2012 2013 2017 2022,2022,5,court law statement,no,7,yes,0,yes,0,yes,0,yes,0,2
+sabah,Eastern Sabah (North Borneo),15,2001 2008 2009 2011 2013 2015 2016 2018 2020 2023 2024 2025 2026,2026,7,court international law statement,yes,1,yes,2,yes,0,yes,0,yes,0,6
+sakteng,Sakteng Wildlife Sanctuary,5,2020 2021 2023,2023,2,international statement,yes,1,yes,1,yes,1,yes,1,yes,1,3
+saudi-uae-border,"Saudi Arabia-UAE border (Khor al-Udaid corridor, Shaybah/Zararah area)",7,2004 2009 2010 2011 2022 2024,2024,11,international law map statement,yes,4,yes,2,yes,2,yes,0,yes,0,2
+sool-sanaag-cayn,"Sool, Sanaag and Cayn (SSC-Khatumo / North Eastern State)",14,2001 2005 2007 2019 2022 2023 2024 2025 2026,2026,12,international law statement,yes,2,yes,2,yes,2,yes,0,yes,0,5
+tunbs,Greater and Lesser Tunb,29,2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026,2026,1,international statement,yes,0,yes,0,yes,0,yes,0,yes,0,10
