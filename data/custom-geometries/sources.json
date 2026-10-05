@@ -994,8 +994,8 @@
   },
   {
    "place": "ilemi-triangle",
-   "region": "area/ilemi-triangle",
-   "donors": "KE;SS",
+   "region": "KE",
+   "donors": "SS",
    "rank": 2,
    "whose_line": "the Kenya–South Sudan administrative and provisional boundaries bounding the triangle, as drawn by the US Department of State",
    "publisher": "US Department of State, Office of the Geographer and Global Issues (World Polygons, high-resolution layer DoS_WP_11_4)",
@@ -1021,7 +1021,7 @@
     ]
    },
    "file": "ilemi-triangle.geojson",
-   "notes": "Union of DoS 'Ilemi Triangle (Kenya)' and 'Ilemi Triangle (South Sudan)', bounded by lines LSIB labels 'Administrative Boundary' and 'Provisional Boundary'. Rank 2 on the same reading as Bir Tawil, not verified. OpenStreetMap relation 192797 is a different line (differs by about 1,000 km²). HDX COD-AB Kenya is 'not an official administrative layer from the National authorities'."
+   "notes": "Union of DoS 'Ilemi Triangle (Kenya)' and 'Ilemi Triangle (South Sudan)', bounded by lines LSIB labels 'Administrative Boundary' and 'Provisional Boundary'. Rank 2 on the same reading as Bir Tawil, not verified. OpenStreetMap relation 192797 is a different line (differs by about 1,000 km²). HDX COD-AB Kenya is 'not an official administrative layer from the National authorities'. Since D071 (2026-10-05) the area is a special place, South Sudan's claim not being pressed; its land goes with its holder, Kenya, so this outline moves the land GADM gives to South Sudan into Kenya's region."
   },
   {
    "place": "juan-de-nova",

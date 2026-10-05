@@ -699,16 +699,7 @@
   },
   {
    "name": "Kenya",
-   "children": [
-    {
-     "name": "Kenya",
-     "wikidataId": "Q114"
-    },
-    {
-     "name": "Ilemi Triangle",
-     "wikidataId": "Q973527"
-    }
-   ]
+   "wikidataId": "Q114"
   },
   {
    "name": "Kiribati",
@@ -1202,10 +1193,6 @@
     {
      "name": "Melilla",
      "wikidataId": "Q5831"
-    },
-    {
-     "name": "Olivenza and Táliga",
-     "wikidataId": "Q488052"
     }
    ]
   },

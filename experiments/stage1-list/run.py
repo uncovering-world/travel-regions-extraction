@@ -44,6 +44,16 @@ def main() -> None:
     # D064-D069: a point of view is a party's sourced claims; inputs/claims.csv reads the register's facts into codes
     claims = {r["area_id"]: r for r in read(ROOT / "inputs" / "claims.csv")}
 
+    # D070, D071: the claimants' official steps (experiments/claim-activity/inputs/steps.csv, rows marked use=yes)
+    step_years: dict[str, set[int]] = {}
+    for r in read(REPO / "experiments" / "claim-activity" / "inputs" / "steps.csv"):
+        if r["use"] == "yes":
+            step_years.setdefault(r["area_id"], set()).add(int(r["date"][:4]))
+
+    def pressed(area_id: str) -> bool:
+        """Official steps in at least two distinct years of the ten up to the release (D071)."""
+        return len({y for y in step_years.get(area_id, set()) if RELEASE_YEAR - 10 < y <= RELEASE_YEAR}) >= 2
+
     def claimed(area_id: str) -> bool:
         """Whether a party other than the holder claims the area (D065): some point of view puts it in another country."""
         c = claims.get(area_id, {})
@@ -180,6 +190,8 @@ def main() -> None:
         elif kind in BY_RESIDENTS or kind == "paper_claim":
             if kind == "paper_claim" and not differ:
                 markers.append({"area_id": a["area_id"], "name": a["name"], "marker": "claimed on paper, but no claim of a party with a point of view is recorded (D065)"})
+            elif kind == "paper_claim" and lives == "yes" and not pressed(a["area_id"]):
+                place("claimed on paper but not pressed: official steps in fewer than two of the last ten years (D070, D071)")
             elif lives == "yes":
                 region("residents; " + ("points of view differ" if kind == "paper_claim" else "no single holder" if kind == "own_regime" else "islet group"),
                        "none" if kind == "own_regime" else "holder", "" if kind == "own_regime" else "who holds it")

@@ -42,7 +42,7 @@ Built and checked with shapely 2 / GEOS from the project's scratch environment; 
 | 2 | `undof-zone` → area/undof-zone | 1974 disengagement lines A and B, US DoS | US government work |
 | 2 | `guantanamo-bay` → area/guantanamo-bay | lease boundary, US DoS | US government work |
 | 2 | `bir-tawil` → area/bir-tawil, `halaib-triangle` → EG | the political boundary (Egypt's) and the administrative boundary (Sudan's), US DoS | US government work |
-| 2 | `ilemi-triangle` → area/ilemi-triangle | Kenya–South Sudan administrative and provisional boundaries, US DoS | US government work |
+| 2 | `ilemi-triangle` → KE (a special place since D071; the outline moves its land to its holder) | Kenya–South Sudan administrative and provisional boundaries, US DoS | US government work |
 | 2 | 14 islets: `sapodilla-cayes`, `hans-island`, `doumeira-island`, `bassas-da-india`, `europa-island`, `glorioso-islands`, `juan-de-nova`, `matthew-hunter`, `mbanie`, `biot`, `senkaku`, `dokdo`, `scarborough-shoal`, `wake` | the coastline, US DoS | US government work |
 | 3 | `cyprus-buffer-zone`, `gornja-siga`, `kuril-islands`, `somaliland`, `kalapani` → IN | OpenStreetMap mappers | ODbL 1.0 |
 | 3 | `siachen`, `demchok` → area/indian-jammu-kashmir-ladakh | OSM (`siachen` is a line of control, D066: OSM's India–Pakistan Line of Control ways north of the agreed line, along the Saltoro Ridge to the China border, with the glacier as the holder's point; Demchok is OSM's India-controlled western sector) | ODbL 1.0 |

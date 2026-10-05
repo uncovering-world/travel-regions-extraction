@@ -128,6 +128,20 @@
    }
   },
   {
+   "region": "KE",
+   "source": "custom geometry",
+   "unit": "ilemi-triangle.geojson",
+   "polygon_km2": 3375.05,
+   "on_gadm_land_km2": 3377.42,
+   "donors": [
+    "SS"
+   ],
+   "taken_from": {
+    "already its own": 3210.19,
+    "SS": 167.22
+   }
+  },
+  {
    "region": "KR",
    "source": "custom geometry",
    "unit": "dokdo.geojson",
@@ -435,21 +449,6 @@
    "taken_from": {
     "SD": 17799.25,
     "EG": 52.34
-   }
-  },
-  {
-   "region": "area/ilemi-triangle",
-   "source": "custom geometry",
-   "unit": "ilemi-triangle.geojson",
-   "polygon_km2": 3375.05,
-   "on_gadm_land_km2": 3377.42,
-   "donors": [
-    "KE",
-    "SS"
-   ],
-   "taken_from": {
-    "KE": 3210.19,
-    "SS": 167.22
    }
   },
   {

@@ -1,19 +1,19 @@
 {
-  "regions": 332,
+  "regions": 330,
   "regions_by_basis": {
     "ISO 3166-1 entry": 249,
     "entry rule": 30,
-    "residents": 29,
+    "residents": 27,
     "registry": 20,
     "leased area held by the lessee": 2,
     "unclaimed land": 2
   },
   "regions_with_nothing_open": 313,
-  "regions_with_an_open_point": 19,
-  "special_places": 114,
+  "regions_with_an_open_point": 17,
+  "special_places": 116,
   "special_places_by_kind": {
     "line_position": 40,
-    "paper_claim": 26,
+    "paper_claim": 28,
     "islets_for_maritime_zone": 16,
     "lease_or_base": 12,
     "no_agreed_boundary": 11,

@@ -83,8 +83,6 @@ EH,GADM 4.1,ESH,include,2,
 ER,custom geometry,doumeira-island.geojson,include,1,
 ER,GADM 4.1,ERI,include,2,
 ES,custom geometry,penon-de-alhucemas.geojson,include,1,
-ES,GADM 4.1,ESP.11.1.8.4_1,exclude,2,
-ES,GADM 4.1,ESP.11.1.8.5_1,exclude,2,
 ES,GADM 4.1,ESP.7.1_1,exclude,2,
 ES,GADM 4.1,ESP.7.2_1,exclude,2,
 ES,GADM 4.1,ESP,include,2,
@@ -155,6 +153,7 @@ JM,GADM 4.1,JAM,include,2,
 JO,GADM 4.1,JOR,include,2,
 JP,custom geometry,senkaku.geojson,include,1,
 JP,GADM 4.1,JPN,include,2,
+KE,custom geometry,ilemi-triangle.geojson,include,1,SS
 KE,GADM 4.1,KEN,include,2,
 KG,GADM 4.1,KGZ,include,2,
 KH,GADM 4.1,KHM,include,2,
@@ -344,7 +343,6 @@ area/golan-heights,GADM 4.1,ISR.1_1,include,2,
 area/gornja-siga,custom geometry,gornja-siga.geojson,include,1,HR RS
 area/guantanamo-bay,custom geometry,guantanamo-bay.geojson,include,1,CU
 area/halaib-triangle,custom geometry,halaib-triangle.geojson,include,1,SD EG
-area/ilemi-triangle,custom geometry,ilemi-triangle.geojson,include,1,KE SS
 area/indian-jammu-kashmir-ladakh,custom geometry,siachen.geojson,include,1,area/gilgit-baltistan
 area/indian-jammu-kashmir-ladakh,GADM 4.1,Z01,include,2,
 area/junagadh,custom geometry,junagadh.geojson,include,1,IN
@@ -362,8 +360,6 @@ area/melilla,GADM 4.1,ESP.7.2_1,include,2,
 area/migingo,custom geometry,migingo.geojson,include,1,KE UG
 area/moldovan-held-left-bank,custom geometry,moldovan-held-left-bank.geojson,include,1,area/transnistria MD
 area/northern-cyprus,GADM 4.1,ZNC,include,2,
-area/olivenza,GADM 4.1,ESP.11.1.8.4_1,include,2,
-area/olivenza,GADM 4.1,ESP.11.1.8.5_1,include,2,
 area/paracel-islands,GADM 4.1,XPI,include,2,
 area/rincon-de-artigas,custom geometry,rincon-de-artigas.geojson,include,1,BR
 area/shebaa-farms,custom geometry,shebaa-farms.geojson,include,1,LB

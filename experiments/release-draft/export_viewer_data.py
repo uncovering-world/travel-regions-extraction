@@ -129,6 +129,8 @@ def why_not_region(text: str) -> str:
         ("leased; held by", "It is not a separate region: the land of a lease stays with the lessor's country unless "
                             "another state controls who enters and civilians live there (R053)."),
         ("residents unknown", "It is kept as a special place until a source says whether civilians live there (R051)."),
+        ("not pressed", "It is not a separate region: the claimant has not pressed its claim lately (official steps in fewer "
+                        "than two of the last ten years), so it is a curiosity and the land stays with the holder (R051, D071)."),
         ("claimed on paper", "It is only a note: the claim exists on paper, and none of the points of view the canon "
                              "supports shows it yet, so it creates no boundary (R051). Once the claimant's own point of "
                              "view is built (D064), this may change."),
