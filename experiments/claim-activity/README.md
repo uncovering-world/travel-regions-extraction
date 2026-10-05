@@ -36,6 +36,14 @@ Test 2, steps in at least K distinct years of the last N (`frequency_test`): wit
 
 A single "step within N years" does not separate Olivenza from pressed claims: a claimant that rarely acts can still make a statement in a given year. A frequency test does: steps in at least two distinct years of the last ten keeps every claim raised most years a region and makes Olivenza, Ceuta, Melilla and the long-silent claims special places. This is a proposal for Q021; it changes D070's test from "a step within N years" to "steps in K of the last N years", which is the owner's decision.
 
+### Second round, 2026-10-05: borderline claims searched again
+
+The owner asked for more data before choosing. Two research agents searched the primary sources directly (the UN Treaty Collection and Digital Library, Security Council documents of 2025–2026, the Pakistani foreign ministry's 6,600 press releases, parliament and ministry sites) for the twelve claims near the threshold: 26 new steps (680 rows in all). Eight rows are not counted (`use` gives the reason): Moroccan ministers' remarks of 2026 on Ceuta and Melilla, which the foreign minister told Spain were party statements, not the official position; the Portuguese defence minister's remarks of 2024 on Olivenza, which he called personal and the foreign ministry declined to comment on; and two China–Bhutan boundary talks that do not name Sakteng. Evidence against a claim being pressed is in the agents' notes: Libya's own pleadings before the ICJ (1991–1994) treated its borders with Algeria and Niger as settled; South Sudan entered Heglig in December 2025 as a neutral guard and agreed with Sudan to restart its oil fields; an Estonian speaker said in 2014 that Estonia had given up the Tartu-treaty border.
+
+With N=10 and K=2, 29 claims are pressed at 2025; not pressed: Olivenza (steps in 2001, 2003, 2008, 2014 and 2024, one year in 2016–2025), Heglig, Ilemi, Noktundo, the two Libyan claims and North Korea claimed by the South (its own ISO entry anyway). Ceuta (three years in 2016–2025) and Melilla (two) are pressed; so are Junagadh, the Estonian claim, the Saudi–UAE border and the 1949 no-man's-lands (two each). With K=3, Melilla falls out while Ceuta, the same Moroccan claim, stays in: the threshold of three is sensitive to how many steps were found. A single step within N years (test 1) still keeps Olivenza pressed for every N, through a 2024 answer of the justice ministry on the nationality of people born there.
+
+Conclusion of the second round: steps in at least two distinct years of the last ten (K=2, N=10) separates the dormant claims and is stable to the extra search; K=3 is not. Proposal for Q021.
+
 ## Status
 
-Concluded 2026-10-05 (first run); waiting for the owner's choice of the test.
+Concluded 2026-10-05 (two rounds); waiting for the owner's choice of the test.

@@ -5,11 +5,11 @@
   "libya-algeria-claim",
   "libya-niger-tummo"
  ],
- "steps": 654,
+ "steps": 680,
  "by_N": {
   "3": {
-   "regions_at_2025": 26,
-   "status_changes_2005_2025": 63,
+   "regions_at_2025": 27,
+   "status_changes_2005_2025": 66,
    "claims_that_change": [
     "al-fashaga",
     "armistice-no-mans-lands",
@@ -35,8 +35,8 @@
    ]
   },
   "5": {
-   "regions_at_2025": 28,
-   "status_changes_2005_2025": 41,
+   "regions_at_2025": 32,
+   "status_changes_2005_2025": 43,
    "claims_that_change": [
     "al-fashaga",
     "armistice-no-mans-lands",
@@ -61,8 +61,8 @@
    ]
   },
   "10": {
-   "regions_at_2025": 30,
-   "status_changes_2005_2025": 25,
+   "regions_at_2025": 32,
+   "status_changes_2005_2025": 17,
    "claims_that_change": [
     "arunachal-pradesh",
     "ceuta",
@@ -72,10 +72,8 @@
     "heglig",
     "ilemi-triangle",
     "junagadh",
-    "kangwane-ingwavuma",
     "melilla",
     "moldovan-held-left-bank",
-    "olivenza",
     "sakteng",
     "saudi-uae-border",
     "sool-sanaag-cayn"
@@ -83,7 +81,7 @@
   },
   "15": {
    "regions_at_2025": 33,
-   "status_changes_2005_2025": 12,
+   "status_changes_2005_2025": 10,
    "claims_that_change": [
     "arunachal-pradesh",
     "ceuta",
@@ -94,7 +92,6 @@
     "ilemi-triangle",
     "junagadh",
     "melilla",
-    "olivenza",
     "sakteng"
    ]
   },
@@ -118,8 +115,8 @@
  },
  "frequency_test": {
   "N3_K1": {
-   "pressed_at_2025": 26,
-   "status_changes_2005_2025": 63,
+   "pressed_at_2025": 27,
+   "status_changes_2005_2025": 66,
    "claims_that_change": [
     "al-fashaga",
     "armistice-no-mans-lands",
@@ -148,7 +145,6 @@
     "estonia-russia-border",
     "heglig",
     "ilemi-triangle",
-    "kangwane-ingwavuma",
     "libya-algeria-claim",
     "libya-niger-tummo",
     "melilla",
@@ -158,7 +154,7 @@
   },
   "N3_K2": {
    "pressed_at_2025": 20,
-   "status_changes_2005_2025": 58,
+   "status_changes_2005_2025": 70,
    "claims_that_change": [
     "abu-musa",
     "aksai-chin",
@@ -201,20 +197,23 @@
   },
   "N3_K3": {
    "pressed_at_2025": 18,
-   "status_changes_2005_2025": 35,
+   "status_changes_2005_2025": 43,
    "claims_that_change": [
     "abu-musa",
     "aksai-chin",
     "al-fashaga",
+    "armistice-no-mans-lands",
     "arunachal-pradesh",
     "azad-kashmir",
     "belize-guatemala-claim",
+    "ceuta",
     "durand-line",
     "eastern-ossetia-claim",
     "essequibo",
     "gilgit-baltistan",
     "indian-jammu-kashmir-ladakh",
     "mayotte",
+    "melilla",
     "moldovan-held-left-bank",
     "sabah",
     "saudi-uae-border",
@@ -285,8 +284,8 @@
    ]
   },
   "N5_K1": {
-   "pressed_at_2025": 28,
-   "status_changes_2005_2025": 41,
+   "pressed_at_2025": 32,
+   "status_changes_2005_2025": 43,
    "claims_that_change": [
     "al-fashaga",
     "armistice-no-mans-lands",
@@ -310,19 +309,15 @@
     "sool-sanaag-cayn"
    ],
    "not_pressed_at_2025": [
-    "ceuta",
     "heglig",
-    "ilemi-triangle",
-    "kangwane-ingwavuma",
     "libya-algeria-claim",
     "libya-niger-tummo",
-    "melilla",
     "noktundo"
    ]
   },
   "N5_K2": {
-   "pressed_at_2025": 22,
-   "status_changes_2005_2025": 35,
+   "pressed_at_2025": 23,
+   "status_changes_2005_2025": 42,
    "claims_that_change": [
     "al-fashaga",
     "armistice-no-mans-lands",
@@ -333,6 +328,7 @@
     "essequibo",
     "estonia-russia-border",
     "junagadh",
+    "kangwane-ingwavuma",
     "melilla",
     "moldovan-held-left-bank",
     "north-korea-claimed-by-rok",
@@ -345,7 +341,6 @@
    ],
    "not_pressed_at_2025": [
     "armistice-no-mans-lands",
-    "ceuta",
     "estonia-russia-border",
     "heglig",
     "ilemi-triangle",
@@ -362,15 +357,17 @@
   },
   "N5_K3": {
    "pressed_at_2025": 20,
-   "status_changes_2005_2025": 25,
+   "status_changes_2005_2025": 31,
    "claims_that_change": [
     "abu-musa",
     "al-fashaga",
     "armistice-no-mans-lands",
     "arunachal-pradesh",
+    "ceuta",
     "durand-line",
     "eastern-ossetia-claim",
     "essequibo",
+    "melilla",
     "moldovan-held-left-bank",
     "north-korea-claimed-by-rok",
     "roc-legacy-claims",
@@ -400,17 +397,20 @@
   },
   "N5_K4": {
    "pressed_at_2025": 19,
-   "status_changes_2005_2025": 23,
+   "status_changes_2005_2025": 29,
    "claims_that_change": [
     "abu-musa",
     "aksai-chin",
     "al-fashaga",
+    "armistice-no-mans-lands",
     "arunachal-pradesh",
     "belize-guatemala-claim",
+    "ceuta",
     "durand-line",
     "eastern-ossetia-claim",
     "essequibo",
     "mayotte",
+    "melilla",
     "moldovan-held-left-bank",
     "roc-legacy-claims",
     "sool-sanaag-cayn"
@@ -436,8 +436,8 @@
    ]
   },
   "N10_K1": {
-   "pressed_at_2025": 30,
-   "status_changes_2005_2025": 25,
+   "pressed_at_2025": 32,
+   "status_changes_2005_2025": 17,
    "claims_that_change": [
     "arunachal-pradesh",
     "ceuta",
@@ -447,26 +447,22 @@
     "heglig",
     "ilemi-triangle",
     "junagadh",
-    "kangwane-ingwavuma",
     "melilla",
     "moldovan-held-left-bank",
-    "olivenza",
     "sakteng",
     "saudi-uae-border",
     "sool-sanaag-cayn"
    ],
    "not_pressed_at_2025": [
     "heglig",
-    "ilemi-triangle",
-    "kangwane-ingwavuma",
     "libya-algeria-claim",
     "libya-niger-tummo",
     "noktundo"
    ]
   },
   "N10_K2": {
-   "pressed_at_2025": 26,
-   "status_changes_2005_2025": 24,
+   "pressed_at_2025": 29,
+   "status_changes_2005_2025": 27,
    "claims_that_change": [
     "al-fashaga",
     "arunachal-pradesh",
@@ -475,6 +471,7 @@
     "eastern-ossetia-claim",
     "estonia-russia-border",
     "junagadh",
+    "kangwane-ingwavuma",
     "melilla",
     "moldovan-held-left-bank",
     "north-korea-claimed-by-rok",
@@ -485,33 +482,31 @@
     "sool-sanaag-cayn"
    ],
    "not_pressed_at_2025": [
-    "ceuta",
     "heglig",
     "ilemi-triangle",
-    "kangwane-ingwavuma",
     "libya-algeria-claim",
     "libya-niger-tummo",
-    "melilla",
     "noktundo",
     "north-korea-claimed-by-rok",
     "olivenza"
    ]
   },
   "N10_K3": {
-   "pressed_at_2025": 21,
-   "status_changes_2005_2025": 22,
+   "pressed_at_2025": 23,
+   "status_changes_2005_2025": 26,
    "claims_that_change": [
     "al-fashaga",
     "armistice-no-mans-lands",
     "arunachal-pradesh",
+    "ceuta",
     "durand-line",
     "eastern-ossetia-claim",
     "essequibo",
     "junagadh",
+    "melilla",
     "moldovan-held-left-bank",
     "north-korea-claimed-by-rok",
     "olivenza",
-    "roc-legacy-claims",
     "sabah",
     "sakteng",
     "saudi-uae-border",
@@ -519,7 +514,6 @@
    ],
    "not_pressed_at_2025": [
     "armistice-no-mans-lands",
-    "ceuta",
     "estonia-russia-border",
     "heglig",
     "ilemi-triangle",
@@ -531,20 +525,21 @@
     "noktundo",
     "north-korea-claimed-by-rok",
     "olivenza",
-    "roc-legacy-claims",
     "saudi-uae-border"
    ]
   },
   "N10_K4": {
    "pressed_at_2025": 20,
-   "status_changes_2005_2025": 17,
+   "status_changes_2005_2025": 23,
    "claims_that_change": [
     "al-fashaga",
     "armistice-no-mans-lands",
     "arunachal-pradesh",
+    "ceuta",
     "durand-line",
     "eastern-ossetia-claim",
     "essequibo",
+    "melilla",
     "moldovan-held-left-bank",
     "north-korea-claimed-by-rok",
     "roc-legacy-claims",
@@ -573,7 +568,7 @@
   },
   "N15_K1": {
    "pressed_at_2025": 33,
-   "status_changes_2005_2025": 12,
+   "status_changes_2005_2025": 10,
    "claims_that_change": [
     "arunachal-pradesh",
     "ceuta",
@@ -584,7 +579,6 @@
     "ilemi-triangle",
     "junagadh",
     "melilla",
-    "olivenza",
     "sakteng"
    ],
    "not_pressed_at_2025": [
@@ -594,14 +588,15 @@
    ]
   },
   "N15_K2": {
-   "pressed_at_2025": 27,
-   "status_changes_2005_2025": 17,
+   "pressed_at_2025": 32,
+   "status_changes_2005_2025": 16,
    "claims_that_change": [
     "arunachal-pradesh",
     "ceuta",
     "durand-line",
     "eastern-ossetia-claim",
     "estonia-russia-border",
+    "ilemi-triangle",
     "junagadh",
     "kangwane-ingwavuma",
     "melilla",
@@ -613,20 +608,15 @@
     "saudi-uae-border"
    ],
    "not_pressed_at_2025": [
-    "ceuta",
     "heglig",
-    "ilemi-triangle",
-    "kangwane-ingwavuma",
     "libya-algeria-claim",
     "libya-niger-tummo",
-    "melilla",
-    "noktundo",
-    "olivenza"
+    "noktundo"
    ]
   },
   "N15_K3": {
-   "pressed_at_2025": 25,
-   "status_changes_2005_2025": 24,
+   "pressed_at_2025": 28,
+   "status_changes_2005_2025": 25,
    "claims_that_change": [
     "al-fashaga",
     "armistice-no-mans-lands",
@@ -636,6 +626,7 @@
     "eastern-ossetia-claim",
     "essequibo",
     "junagadh",
+    "kangwane-ingwavuma",
     "melilla",
     "moldovan-held-left-bank",
     "north-korea-claimed-by-rok",
@@ -646,37 +637,36 @@
     "sool-sanaag-cayn"
    ],
    "not_pressed_at_2025": [
-    "ceuta",
     "estonia-russia-border",
     "heglig",
     "ilemi-triangle",
-    "kangwane-ingwavuma",
     "libya-algeria-claim",
     "libya-niger-tummo",
-    "melilla",
     "noktundo",
     "north-korea-claimed-by-rok",
     "olivenza"
    ]
   },
   "N15_K4": {
-   "pressed_at_2025": 22,
-   "status_changes_2005_2025": 17,
+   "pressed_at_2025": 23,
+   "status_changes_2005_2025": 22,
    "claims_that_change": [
     "al-fashaga",
     "armistice-no-mans-lands",
     "arunachal-pradesh",
+    "ceuta",
     "durand-line",
     "eastern-ossetia-claim",
     "essequibo",
+    "melilla",
     "moldovan-held-left-bank",
     "north-korea-claimed-by-rok",
+    "olivenza",
     "sabah",
     "saudi-uae-border",
     "sool-sanaag-cayn"
    ],
    "not_pressed_at_2025": [
-    "ceuta",
     "estonia-russia-border",
     "heglig",
     "ilemi-triangle",
@@ -715,14 +705,42 @@
    ]
   },
   "N20_K2": {
-   "pressed_at_2025": 30,
-   "status_changes_2005_2025": 16,
+   "pressed_at_2025": 32,
+   "status_changes_2005_2025": 14,
    "claims_that_change": [
     "arunachal-pradesh",
     "ceuta",
     "durand-line",
     "eastern-ossetia-claim",
     "estonia-russia-border",
+    "ilemi-triangle",
+    "junagadh",
+    "kangwane-ingwavuma",
+    "melilla",
+    "moldovan-held-left-bank",
+    "north-korea-claimed-by-rok",
+    "sabah",
+    "sakteng",
+    "saudi-uae-border"
+   ],
+   "not_pressed_at_2025": [
+    "heglig",
+    "libya-algeria-claim",
+    "libya-niger-tummo",
+    "noktundo"
+   ]
+  },
+  "N20_K3": {
+   "pressed_at_2025": 30,
+   "status_changes_2005_2025": 21,
+   "claims_that_change": [
+    "al-fashaga",
+    "armistice-no-mans-lands",
+    "arunachal-pradesh",
+    "ceuta",
+    "durand-line",
+    "eastern-ossetia-claim",
+    "essequibo",
     "junagadh",
     "kangwane-ingwavuma",
     "melilla",
@@ -731,19 +749,20 @@
     "olivenza",
     "sabah",
     "sakteng",
-    "saudi-uae-border"
+    "saudi-uae-border",
+    "sool-sanaag-cayn"
    ],
    "not_pressed_at_2025": [
+    "estonia-russia-border",
     "heglig",
     "ilemi-triangle",
-    "kangwane-ingwavuma",
     "libya-algeria-claim",
     "libya-niger-tummo",
     "noktundo"
    ]
   },
-  "N20_K3": {
-   "pressed_at_2025": 28,
+  "N20_K4": {
+   "pressed_at_2025": 26,
    "status_changes_2005_2025": 17,
    "claims_that_change": [
     "al-fashaga",
@@ -753,45 +772,15 @@
     "durand-line",
     "eastern-ossetia-claim",
     "essequibo",
-    "junagadh",
     "melilla",
     "moldovan-held-left-bank",
     "north-korea-claimed-by-rok",
     "olivenza",
     "sabah",
-    "sakteng",
     "saudi-uae-border",
     "sool-sanaag-cayn"
    ],
    "not_pressed_at_2025": [
-    "estonia-russia-border",
-    "heglig",
-    "ilemi-triangle",
-    "kangwane-ingwavuma",
-    "libya-algeria-claim",
-    "libya-niger-tummo",
-    "noktundo",
-    "olivenza"
-   ]
-  },
-  "N20_K4": {
-   "pressed_at_2025": 24,
-   "status_changes_2005_2025": 13,
-   "claims_that_change": [
-    "al-fashaga",
-    "armistice-no-mans-lands",
-    "arunachal-pradesh",
-    "durand-line",
-    "eastern-ossetia-claim",
-    "essequibo",
-    "moldovan-held-left-bank",
-    "north-korea-claimed-by-rok",
-    "sabah",
-    "saudi-uae-border",
-    "sool-sanaag-cayn"
-   ],
-   "not_pressed_at_2025": [
-    "ceuta",
     "estonia-russia-border",
     "heglig",
     "ilemi-triangle",
@@ -799,7 +788,6 @@
     "kangwane-ingwavuma",
     "libya-algeria-claim",
     "libya-niger-tummo",
-    "melilla",
     "noktundo",
     "olivenza",
     "sakteng"
@@ -807,6 +795,6 @@
   }
  },
  "inputs_sha256": {
-  "inputs/steps.csv": "ad6bc0335469e8a74519ce3cadcba6d43dba2749df081c19b605f89b928b73d4"
+  "inputs/steps.csv": "4f40344dc2f4a570357b58118c44bad562025096363ab6d357b99bc56c1aed38"
  }
 }
