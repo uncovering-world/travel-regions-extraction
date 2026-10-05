@@ -27,4 +27,4 @@ npm run dev                                               # http://localhost:519
 - **Special places** (orange) and **notes** (blue) of the Stage 1 list, at their Wikidata points (`experiments/release-draft/inputs/place_points.csv`), with what they are and why on hover; a region's details list the ones that lie in it, and entry rules for lists of places or classes of land are listed with their country without a point. A switch dims every region without any.
 - An optional OpenStreetMap background.
 
-Outlines are simplified for display (0.01° by default; `render_map.py --tolerance`).
+Outlines are simplified for display (0.01° by default; `render_map.py --tolerance`), except in detail zones: boxes 0.2° wide around every region of the register of disputed areas and every own geometry (`--detail-margin`, 0 to switch off), where GADM rows are taken unsimplified and coordinates are kept to about a metre. What still shows there as a sliver is a real difference between sources, not a display artefact.

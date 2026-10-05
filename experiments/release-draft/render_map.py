@@ -39,8 +39,8 @@ def gpkg_geometry(blob):
 
 
 def rounded(geom):
-    """Coordinates rounded to 1e-4 degrees for a lighter file (display only; validity is not re-checked)."""
-    return shapely.transform(geom, lambda xy: xy.round(4))
+    """Coordinates rounded to 1e-5 degrees, about a metre (display only; validity is not re-checked)."""
+    return shapely.transform(geom, lambda xy: xy.round(5))
 
 
 def log(message):
@@ -50,6 +50,8 @@ def log(message):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--tolerance", type=float, default=0.01, help="display simplification, degrees")
+    parser.add_argument("--detail-margin", type=float, default=0.2,
+                        help="degrees around disputed regions and own geometries kept at full precision (0: none)")
     args = parser.parse_args()
     release = ROOT / "release"
     regions = {r["region_id"]: r for r in csv.DictReader((release / "regions.csv").open(encoding="utf-8"))}
@@ -85,8 +87,78 @@ def main():
         final.write_bytes(pickle.dumps({"key": key2, "geoms": {rid: wkb.dumps(g) for rid, g in geoms.items()},
                                         "pieces": {u: wkb.dumps(g) for u, g in pieces.items()}}))
         cached = {"pieces": {u: wkb.dumps(g) for u, g in pieces.items()}}
-    write(geoms, regions, membership, args.tolerance)
-    write_pieces({u: wkb.loads(g) for u, g in cached.get("pieces", {}).items()}, args.tolerance)
+    pieces = {u: wkb.loads(g) for u, g in cached.get("pieces", {}).items()}
+    zones, detail = None, {}
+    if args.detail_margin > 0:
+        # full precision where boundaries are disputed or drawn by the canon itself: around every region of the register
+        # of disputed areas and every own geometry, GADM rows are taken unsimplified and clipped to these zones
+        zones = detail_zones(geoms, pieces, args.detail_margin)
+        detail_cache = OUT / f"detail-{args.detail_margin}.pickle"
+        cached_d = pickle.loads(detail_cache.read_bytes()) if detail_cache.exists() else {}
+        if cached_d.get("key") == key2:
+            detail = {rid: wkb.loads(g) for rid, g in cached_d["geoms"].items()}
+            log(f"detail layer read from {detail_cache.name}")
+        else:
+            detail = unite_detail(zones, inc, exc)
+            apply_own(detail, membership)
+            detail_cache.write_bytes(pickle.dumps({"key": key2, "geoms": {rid: wkb.dumps(g) for rid, g in detail.items()}}))
+    write(geoms, regions, membership, args.tolerance, zones, detail)
+    write_pieces(pieces, args.tolerance, zones)
+
+
+def detail_zones(geoms, pieces, margin):
+    """Boxes around every region of the register of disputed areas and every own geometry, widened by margin."""
+    boxes = []
+    for rid, g in geoms.items():
+        if rid.startswith("area/") and not g.is_empty:
+            boxes.append(shapely.box(*g.bounds).buffer(margin, join_style="mitre"))
+    for g in pieces.values():
+        if not g.is_empty:
+            boxes.append(shapely.box(*g.bounds).buffer(margin, join_style="mitre"))
+    zones = shapely.union_all(boxes)
+    log(f"detail zones: {len(boxes)} boxes")
+    return zones
+
+
+def unite_detail(zones, inc, exc):
+    """GADM rows inside the zones, unsimplified and clipped to them, united per region."""
+    db = sqlite3.connect(f"file:{GADM}?mode=ro", uri=True)
+    parts = defaultdict(list)
+    seen = set()
+    for z in getattr(zones, "geoms", [zones]):
+        x0, y0, x1, y1 = z.bounds
+        for fid, in db.execute("select id from rtree_gadm_410_geom where maxx>=? and minx<=? and maxy>=? and miny<=?",
+                               (x0, x1, y0, y1)):
+            if fid in seen:
+                continue
+            seen.add(fid)
+            blob, *gids = db.execute("select geom, GID_0, GID_1, GID_2, GID_3, GID_4, GID_5 from gadm_410 where fid=?",
+                                     (fid,)).fetchone()
+            chain = [g for g in gids if g]
+            owners = set()
+            for g in chain:
+                owners |= inc.get(g, set())
+            for g in chain:
+                owners -= exc.get(g, set())
+            if len(owners) != 1:
+                continue
+            g = shapely.make_valid(gpkg_geometry(blob))
+            if g.intersects(zones):
+                parts[owners.pop()].append(shapely.intersection(g, zones))
+            if len(seen) % 2000 == 0:
+                log(f"detail: {len(seen)} GADM rows read")
+    log(f"detail: {len(seen)} GADM rows in the zones; uniting {len(parts)} regions")
+    return {rid: shapely.make_valid(shapely.union_all(items, grid_size=1e-7)) for rid, items in parts.items()}
+
+
+def displayed(geom, tolerance, zones, detail_geom):
+    """Simplified outside the detail zones, the full-precision detail layer inside them."""
+    if zones is None or not geom.intersects(zones):
+        simple = geom.simplify(tolerance, preserve_topology=False)
+        return simple if not simple.is_empty else geom
+    outside = shapely.difference(geom, zones).simplify(tolerance, preserve_topology=False)
+    inside = detail_geom if detail_geom is not None else shapely.intersection(geom, zones)
+    return shapely.make_valid(shapely.union_all([outside, inside]))
 
 
 def unite(tolerance, inc, exc):
@@ -160,14 +232,16 @@ def apply_own(geoms, membership):
     return pieces
 
 
-def write_pieces(pieces, tolerance):
-    """Each own geometry as clipped to its donors: the land it actually moves (own_pieces.json)."""
-    out = {u: mapping(rounded(g.simplify(tolerance / 4))) for u, g in sorted(pieces.items()) if not g.is_empty}
+def write_pieces(pieces, tolerance, zones=None):
+    """Each own geometry as clipped to its donors: the land it actually moves (own_pieces.json), unsimplified
+    when detail zones are on (every own geometry lies inside them)."""
+    out = {u: mapping(rounded(g if zones is not None else g.simplify(tolerance / 4))) for u, g in sorted(pieces.items())
+           if not g.is_empty}
     (OUT / "own_pieces.json").write_text(json.dumps(out), encoding="utf-8")
     log(f"wrote {len(out)} clipped own geometries")
 
 
-def write(geoms, regions, membership, tolerance):
+def write(geoms, regions, membership, tolerance, zones=None, detail=None):
     """Display features for the simple HTML page (index.html, regions.js)."""
     features = []
     for rid, geom in sorted(geoms.items()):
@@ -175,9 +249,7 @@ def write(geoms, regions, membership, tolerance):
         povs = {k[5:]: v for k, v in r.items() if k.startswith("view_") and v}
         majority = max(set(povs.values()), key=list(povs.values()).count) if povs else ""
         differing = {k: v for k, v in povs.items() if v != majority}
-        simple = geom.simplify(tolerance, preserve_topology=False)
-        if simple.is_empty:
-            simple = geom
+        simple = displayed(geom, tolerance, zones, (detail or {}).get(rid))
         if len(features) % 50 == 0:
             log(f"wrote {len(features)} regions")
         features.append({"type": "Feature", "geometry": mapping(rounded(simple)), "properties": {
