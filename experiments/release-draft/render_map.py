@@ -117,6 +117,10 @@ def main():
             detail_cache.write_bytes(pickle.dumps({"key": key2, "geoms": {rid: wkb.dumps(g) for rid, g in detail.items()}}))
         del cached_d
     write(geoms, regions, membership, args.display_tolerance, zones, detail)
+    # what D073 moved or kept, for the consumer (TYR's request 3): shipped beside the membership table
+    listed = OUT / "cut_off_D073.csv"
+    if listed.exists():
+        (ROOT / "release" / "cut_off_D073.csv").write_bytes(listed.read_bytes())
     write_pieces(pieces, args.tolerance, zones)
 
 
