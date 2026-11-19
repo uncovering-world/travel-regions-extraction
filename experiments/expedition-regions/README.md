@@ -31,11 +31,27 @@ python3 experiments/expedition-regions/run.py
 
 ## Result
 
-Pending.
+Run of 2026-11-19 (facts gathered by two research subagents; the sold landings on South Georgia and Jan Mayen were re-checked against the downloaded operator logs):
+
+| Verdict | Regions |
+|---|---|
+| expedition | UM (every refuge closed to the public; Palmyra by special-use permit) |
+| expedition, unconfirmed (no sold landing found 2023–2026) | BV, HM, TF, rule/fr-clipperton, area/gornja-siga |
+| ordinary: sold landings, no residents | AQ, GS, rule/au-macquarie-island, rule/sj-jan-mayen |
+| ordinary: scheduled transport | rule/sh-ascension (monthly charter flight) |
+| ordinary: residents | PN, CC, VA, rule/sh-tristan-da-cunha |
+| undecided: facts unknown | area/ankoko-island, area/bir-tawil, area/gazakh-exclaves, area/la-guera, area/shebaa-farms |
+
+Findings that bear on the definition:
+
+- The line between "expedition" and "ordinary" falls exactly at a publicly sold expedition cruise: Antarctica, South Georgia, Macquarie and Jan Mayen are uninhabited and have no scheduled transport, but expedition ships land paying passengers there each season (e.g. Oceanwide Expeditions at Salisbury Plain, South Georgia, 17 Dec 2025, and on Jan Mayen, 4 June 2025).
+- A second kind of place falls under the definition by its letter but is not an expedition destination: closed military or border areas (Shebaa Farms, Ankoko, the Gazakh exclaves; also most of UM). No permit opens them to a visitor.
+- For the disputed areas the sources rarely say anything about access; five of six stay undecided.
+- The register marks Gornja Siga `closed`; a secondary source says Croatia has let people in on land since 6 August 2023. To be checked against a primary source.
 
 ## Conclusion
 
-Pending.
+Pending the owner's choice on expedition cruises (see the conversation of 2026-11-19).
 
 ## Status
 

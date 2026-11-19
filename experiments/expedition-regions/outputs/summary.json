@@ -1,0 +1,153 @@
+{
+ "input_sha256": "2d2038cd20f5a2c82a5eeb6af0b7b044f746d815b563315e9ea4662d91075ef9",
+ "counts": {
+  "expedition": 1,
+  "expedition (unconfirmed: no sold landing found)": 5,
+  "ordinary: residents": 4,
+  "ordinary: scheduled transport": 1,
+  "ordinary: sold landings": 4,
+  "undecided: facts unknown": 5
+ },
+ "regions": {
+  "AQ": {
+   "verdict": "ordinary: sold landings",
+   "residents": "no",
+   "scheduled": "unknown",
+   "tours": "yes",
+   "permit": "Authorisation from an Antarctic Treaty Party under its national law implementing the Environment Protocol (e.g. UK: FCDO Polar Regions Department permit for British expeditions, vessels or aircraft); passengers on organised tours are usually covered by the operator's permit; protected areas need separate permits."
+  },
+  "BV": {
+   "verdict": "expedition (unconfirmed: no sold landing found)",
+   "residents": "no",
+   "scheduled": "no",
+   "tours": "unknown",
+   "permit": "Nature reserve (1971 regulation): use of off-road vehicles and landing of aircraft forbidden without special permission from the ministry; the ministry may ban all traffic for all or part of the year. Norwegian Polar Institute is said to administer the regulations (its pages could not be read)."
+  },
+  "CC": {
+   "verdict": "ordinary: residents",
+   "residents": "yes",
+   "scheduled": "yes",
+   "tours": "unknown",
+   "permit": "None for Australian residents (photo ID only); the rules for foreign nationals were not checked."
+  },
+  "GS": {
+   "verdict": "ordinary: sold landings",
+   "residents": "no",
+   "scheduled": "no",
+   "tours": "yes",
+   "permit": "Since 2025-26 every visitor needs a chargeable Visit permit (apply at least 14 days ahead, valid 30 days) under the Entry Control Order; the vessel visit is under a permit holder (expedition leader or yacht master); overnight stays ashore count as an expedition needing a Commissioner's permit; some activities need a Regulated Activity Permit."
+  },
+  "HM": {
+   "verdict": "expedition (unconfirmed: no sold landing found)",
+   "residents": "no",
+   "scheduled": "no",
+   "tours": "unknown",
+   "permit": "Permit required to enter or carry out any activity in the Territory and/or the HIMI Marine Reserve (Environment Protection and Management Ordinance 1987); application via the HIMI environmental approval form to the Australian Antarctic Division."
+  },
+  "PN": {
+   "verdict": "ordinary: residents",
+   "residents": "yes",
+   "scheduled": "yes",
+   "tours": "unknown",
+   "permit": "Stays of 14 days or less arriving and leaving on the same vessel: short-term visitor visa on arrival; longer stays need a long-term visitor visa decided by the Governor after consulting the Island Council."
+  },
+  "TF": {
+   "verdict": "expedition (unconfirmed: no sold landing found)",
+   "residents": "no",
+   "scheduled": "no",
+   "tours": "unknown",
+   "permit": "Activities need authorisation from the préfet, administrateur supérieur; in the national nature reserve (Crozet, Kerguelen, Saint-Paul and Amsterdam) all activity and access are forbidden in 'protection intégrale' zones except by derogation, and research-reserved sites are open only to research. No public visitor-permit procedure for private boats was found on taaf.fr."
+  },
+  "UM": {
+   "verdict": "expedition",
+   "residents": "no",
+   "scheduled": "no",
+   "tours": "no",
+   "permit": "Per island: Wake - refuge closed to public, land access via U.S. Air Force, waters by FWS SUP; Midway - closed to public visitation, all entry by permit (Papahānaumokuākea permitting); Johnston - closed, FWS SUP plus U.S. Air Force approval; Baker, Howland, Jarvis, Kingman - closed, entry only by FWS Special Use Permit; Palmyra - FWS SUP, private vessels up to 7 days with prior approval, only when an FWS manager is present; Navassa - closed, access extremely hazardous (permit not mentioned)."
+  },
+  "VA": {
+   "verdict": "ordinary: residents",
+   "residents": "yes",
+   "scheduled": "unknown",
+   "tours": "yes",
+   "permit": "open (Museums need a ticket)"
+  },
+  "area/ankoko-island": {
+   "verdict": "undecided: facts unknown",
+   "residents": "unknown",
+   "scheduled": "unknown",
+   "tours": "unknown",
+   "permit": "FCDO advises against all travel (within 40 km of the Venezuela-Guyana border); Venezuelan entry regime for the island not found"
+  },
+  "area/bir-tawil": {
+   "verdict": "undecided: facts unknown",
+   "residents": "unknown",
+   "scheduled": "no",
+   "tours": "unknown",
+   "permit": "Sudanese visa needed; Sudan not issuing tourist visas (per operator); FCDO advises against all but essential travel"
+  },
+  "area/gazakh-exclaves": {
+   "verdict": "undecided: facts unknown",
+   "residents": "no",
+   "scheduled": "unknown",
+   "tours": "unknown",
+   "permit": "unknown; FCDO advises against all travel within 5 km of Armenia's eastern border with Azerbaijan (not checked whether each exclave lies inside that band); Armenia-Azerbaijan border closed"
+  },
+  "area/gornja-siga": {
+   "verdict": "expedition (unconfirmed: no sold landing found)",
+   "residents": "no",
+   "scheduled": "no",
+   "tours": "unknown",
+   "permit": "open on land through Croatia since 6 August 2023 (ID checks by Croatian police); non-EU/Schengen visitors have been detained; no water crossing from Serbia"
+  },
+  "area/la-guera": {
+   "verdict": "undecided: facts unknown",
+   "residents": "no",
+   "scheduled": "unknown",
+   "tours": "unknown",
+   "permit": "unclear: Mauritanian military post; passport shown at the Cap Blanc barrier; advice to check with local authorities; FCDO advises against all but essential travel within 25 km of the Western Sahara border except Nouadhibou city and the road"
+  },
+  "area/shebaa-farms": {
+   "verdict": "undecided: facts unknown",
+   "residents": "no",
+   "scheduled": "unknown",
+   "tours": "unknown",
+   "permit": "advised against by FCDO (Israeli side and Lebanese south); Israeli military control; civilian entry regime not found"
+  },
+  "rule/au-macquarie-island": {
+   "verdict": "ordinary: sold landings",
+   "residents": "no",
+   "scheduled": "no",
+   "tours": "yes",
+   "permit": "Permit from Tasmania (Tasmania Parks and Wildlife Service), which caps visitors per season and ashore at one time; landings only at approved sites."
+  },
+  "rule/fr-clipperton": {
+   "verdict": "expedition (unconfirmed: no sold landing found)",
+   "residents": "no",
+   "scheduled": "no",
+   "tours": "unknown",
+   "permit": "Any anchoring, landing, aircraft landing or stay needs prior authorisation under art. 8 of décret n° 2023-1182 (13 Dec 2023); the application file is set by the arrêté of 3 Nov 2025; foreign marine research campaigns also need the foreign ministry's opinion. State vessels are exempt."
+  },
+  "rule/sh-ascension": {
+   "verdict": "ordinary: scheduled transport",
+   "residents": "no",
+   "scheduled": "yes",
+   "tours": "yes",
+   "permit": "visa needed (Ascension Island Government e-visa); some parts off-limits"
+  },
+  "rule/sh-tristan-da-cunha": {
+   "verdict": "ordinary: residents",
+   "residents": "yes",
+   "scheduled": "yes",
+   "tours": "yes",
+   "permit": "permission of the Island Council needed"
+  },
+  "rule/sj-jan-mayen": {
+   "verdict": "ordinary: sold landings",
+   "residents": "no",
+   "scheduled": "no",
+   "tours": "yes",
+   "permit": "Norwegian citizens may visit freely under the island's rules; foreigners need permission before arrival: up to 24 h from the Station Commander, up to one week from the Chief of Police in Nordland, longer from the Ministry of Justice; research or other non-tourist activity needs an application to the State Administrator in Nordland; boat landings only at Kvalrossbukta; nature reserve (regulation no. 1456 of 2010)."
+  }
+ }
+}
