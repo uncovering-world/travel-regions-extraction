@@ -694,6 +694,7 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: a piece the outline's own source deliberately leaves out (a hole in a lease) must not move — such a source covers the place and keeps it with the donor; the longest shared border is a geometric fallback, not a fact, and another substrate may give other pieces. The alternatives were moving only whole islands, with land strips fixed one by one, and fixing every place by hand.
 - Status: accepted.
 - Basis: owner decision, 2026-10-05 (the option "По источнику, иначе соседу", after the geometry review of the release draft; first "Всё сейчас" — fix it before the first release rather than leave it to Track Your Regions).
+- Note, 2026-11-19 (owner OK in the conversation): the first full render under this rule also moved land, not strips — the Republic-held part of Famagusta district (Ayia Napa, Paralimni; 203 km²), joined to the rest of Cyprus only through Dhekelia, went to the Sovereign Base Areas, and Kodinar to Junagadh. Operationally a cut-off part therefore moves only if it is a strip: no point of it lies more than 2 km from its edge (the radius of its largest inscribed circle). Wider parts stay with the donor and are listed as kept. On the release draft the moved parts reach about 1.5 km and the kept ones start at 3.4 km.
 
 ### D074 — Hand-fixing a small piece of geometry only where a traveller does something there
 

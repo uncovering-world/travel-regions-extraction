@@ -14,6 +14,7 @@ import argparse
 import csv
 import hashlib
 import json
+import math
 import os
 import pickle
 import sqlite3
@@ -31,6 +32,10 @@ ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parents[1]
 GADM = Path(os.environ.get("GADM_GPKG", REPO.parent / "track-your-regions" / "deployment" / "gadm_410.gpkg"))
 OUT = ROOT / "cache" / "map"
+# D073 moves a strip or rim, not land: a cut-off part moves only if no point of it lies farther than this from its
+# edge (the radius of the largest circle inside it), i.e. it is a strip at most twice as wide. Wider parts stay with
+# the donor and are listed as kept.
+RIM_MAX_RADIUS_M = 2000
 
 
 def gpkg_geometry(blob):
@@ -81,7 +86,8 @@ def main():
     own_files = sorted((REPO / "data" / "custom-geometries").glob("*.geojson"))
     # the cache holds the result of apply_own, so it also depends on that function's code
     import inspect
-    key2 = key + hashlib.sha256(b"".join(f.read_bytes() for f in own_files) + inspect.getsource(apply_own).encode()).hexdigest()
+    key2 = key + hashlib.sha256(b"".join(f.read_bytes() for f in own_files) + (inspect.getsource(apply_own) + inspect.getsource(cut_off) + inspect.getsource(inner_radius_m)
+                                                                  + repr(RIM_MAX_RADIUS_M)).encode()).hexdigest()
     cached = pickle.loads(final.read_bytes()) if final.exists() else {}
     if cached.get("key") == key2:
         geoms = {rid: wkb.loads(g) for rid, g in cached["geoms"].items()}
@@ -105,7 +111,9 @@ def main():
             log(f"detail layer read from {detail_cache.name}")
         else:
             detail = unite_detail(zones, inc, exc)
-            apply_own(detail, membership)
+            # the detail layer holds only the zones: each donor's main land is the one of the full map
+            mains = {d: max(polygons(g), key=lambda x: x.area) for d, g in geoms.items() if polygons(g)}
+            apply_own(detail, membership, mains)
             detail_cache.write_bytes(pickle.dumps({"key": key2, "geoms": {rid: wkb.dumps(g) for rid, g in detail.items()}}))
         del cached_d
     write(geoms, regions, membership, args.display_tolerance, zones, detail)
@@ -204,10 +212,14 @@ def unite(tolerance, inc, exc):
     return geoms
 
 
-def apply_own(geoms, membership):
-    """The canon's own geometries, clipped to their donors (plus land no GADM unit covers), moved to their region."""
+def apply_own(geoms, membership, mains=None):
+    """The canon's own geometries, clipped to their donors (plus land no GADM unit covers), moved to their region; then
+    what they cut off from a donor goes on by D073. mains: each donor's main land, from the full map, for a layer that
+    holds only part of it (the detail zones); by default the largest part of the donor in geoms."""
     own = defaultdict(list)
     pieces = {}
+    start = dict(geoms)          # before any cut: to tell a part the outlines cut from one they left whole
+    outlines = []                # (region, outline) of every polygon own geometry, for D073
     ids = sorted(geoms)
     tree = shapely.STRtree([geoms[i] for i in ids])
     for m in membership:
@@ -264,11 +276,109 @@ def apply_own(geoms, membership):
                 log(f"  {len(moved)} leftover part(s) of {src}'s copy near {m['unit']} moved to {dst} (D072)")
         own[m["region_id"]].append(piece)
         pieces[m["unit"]] = piece
+        outlines.append((m["region_id"], geom, donors))
         log(f"own geometry {m['unit']} -> {m['region_id']} (donors: {' '.join(donors) or 'none'})")
     for rid, parts in own.items():
         geoms[rid] = shapely.make_valid(shapely.union_all(parts + ([geoms[rid]] if rid in geoms else [])))
     log("own geometries applied")
+    moves, kept = cut_off(geoms, start, outlines, mains)
+    if mains is None:
+        OUT.mkdir(parents=True, exist_ok=True)
+        with (OUT / "cut_off_D073.csv").open("w", encoding="utf-8", newline="") as handle:
+            out = csv.writer(handle)
+            out.writerow(["donor", "receiver", "lon", "lat", "area_km2", "radius_m", "outcome"])
+            rows = [(d, to, p, r, "moved") for d, to, p, r in moves] + [(d, d, p, r, "kept: wider than a rim")
+                                                                        for d, p, r in kept]
+            for d, to, p, r, outcome in sorted(rows, key=lambda x: (x[0], x[1], -x[2].area)):
+                c = p.representative_point()
+                out.writerow([d, to, round(c.x, 4), round(c.y, 4), f"{km2(p):.4g}", round(r), outcome])
     return pieces
+
+
+def polygons(g) -> list:
+    return [p for p in getattr(g, "geoms", [g]) if p.geom_type == "Polygon"] if not g.is_empty else []
+
+
+def km2(g) -> float:
+    """Area in km², from degrees at the part's latitude (good enough for small parts)."""
+    lat = g.representative_point().y
+    return g.area * 111.32 ** 2 * math.cos(math.radians(lat))
+
+
+def inner_radius_m(g) -> float:
+    """Radius of the largest circle inside g, in metres (degrees scaled at the part's latitude, the smaller axis)."""
+    lat = g.representative_point().y
+    r = shapely.maximum_inscribed_circle(g, 1e-5).length
+    return r * 111320 * min(1.0, math.cos(math.radians(lat)) or 1.0)
+
+
+def cut_off(geoms, start, outlines, mains=None):
+    """D073: a part of a donor that an own geometry cut off from the donor's main land (a strip, an island's rim) goes
+    to the region the outline's source puts there, else to the neighbour with the longest shared border; it stays if
+    the outline's source leaves it out on purpose (it lies in a hole of the outline: a settlement excluded from a
+    lease, an enclave left out of a district) or if another register area's outline covers it. The outlines we use
+    draw only their own region, so outside a hole the source says nothing about the part: the longest border decides.
+    Returns the moves (donor, receiver, part)."""
+    donors = sorted({d for _, _, ds in outlines for d in ds if d in geoms})
+    ids = sorted(geoms)
+    tree = shapely.STRtree([geoms[i] for i in ids])
+    moves, kept = [], []
+    hulls = [shapely.union_all([shapely.Polygon(x.exterior) for x in polygons(o)]) for _, o, _ in outlines]
+    for d in donors:
+        parts = polygons(geoms[d])
+        if len(parts) < 2:
+            continue
+        main = (mains or {}).get(d)
+        if main is None:
+            main = max(parts, key=lambda g: g.area)
+        shapely.prepare(main)
+        before = polygons(start[d])
+        before_tree = shapely.STRtree(before)
+        for p in parts:
+            if p is main or main.intersects(p):
+                continue
+            # a part the outlines left whole (an island, an exclave) is not cut off
+            if any(abs(before[k].area - p.area) <= 1e-12 * max(1.0, before[k].area)
+                   for k in before_tree.query(p, predicate="intersects")):
+                continue
+            c = p.representative_point()
+            if any(hull.contains(c) and not o.contains(c)
+                   for hull, (_, o, ds) in zip(hulls, outlines) if d in ds and hull.intersects(p)):
+                continue                                    # left out by the outline's source: stays
+            near = [ids[k] for k in tree.query(p.buffer(1e-6), predicate="intersects") if ids[k] != d]
+            x0, y0, x1, y1 = p.bounds
+            shared = {n: shapely.intersection(p.boundary, shapely.clip_by_rect(geoms[n], x0 - 1e-4, y0 - 1e-4, x1 + 1e-4,
+                                                                               y1 + 1e-4).buffer(1e-6)).length
+                      for n in near}
+            shared = {n: v for n, v in shared.items() if v > 0}
+            if not shared:
+                continue
+            to = max(sorted(shared), key=lambda n: shared[n])
+            if any(r != to and r.startswith("area/") and shapely.intersection(o, p).area > 0.01 * p.area
+                   for r, o, _ in outlines):
+                log(f"  D073: part of {d} at {c.x:.4f},{c.y:.4f} lies in another register area's outline; kept")
+                continue
+            r = inner_radius_m(p)
+            if r > RIM_MAX_RADIUS_M:
+                kept.append((d, p, r))
+                log(f"  D073: part of {d} at {c.x:.4f},{c.y:.4f} ({km2(p):.3g} km², {r:.0f} m inside) is land, not a rim; kept")
+                continue
+            moves.append((d, to, p, r))
+    # one difference and one union per region: the parts are disjoint, so this equals moving them one by one
+    taken, given = defaultdict(list), defaultdict(list)
+    for d, to, p, _ in moves:
+        taken[d].append(p)
+        given[to].append(p)
+    for d, ps in taken.items():
+        geoms[d] = shapely.make_valid(shapely.difference(geoms[d], shapely.union_all(ps)))
+    for to, ps in given.items():
+        geoms[to] = shapely.make_valid(shapely.union_all([geoms[to]] + ps))
+    by_pair = defaultdict(list)
+    for d, to, p, _ in moves:
+        by_pair[(d, to)].append(p)
+    for (d, to), ps in sorted(by_pair.items()):
+        log(f"  D073: {len(ps)} cut-off part(s) of {d} moved to {to}")
+    return moves, kept
 
 
 def write_pieces(pieces, tolerance, zones=None):
