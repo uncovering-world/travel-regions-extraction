@@ -297,7 +297,7 @@ def apply_own(geoms, membership, mains=None):
                                                                     for d, p, r in kept]
         for d, to, p, r, outcome in sorted(rows, key=lambda x: (x[0], x[1], -x[2].area)):
             c = p.representative_point()
-            out.writerow([d, to, round(c.x, 4), round(c.y, 4), f"{km2(p):.4g}", round(r), outcome])
+            out.writerow([d, to, round(c.x, 7), round(c.y, 7), f"{km2(p):.4g}", round(r), outcome])
     return pieces
 
 
