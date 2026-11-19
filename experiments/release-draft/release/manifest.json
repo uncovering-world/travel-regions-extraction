@@ -27,7 +27,8 @@
     "data/custom-geometries/sources.csv": "e40637c8a6bddf765079cb97c2b832e1c3d05618ef2f2dc7426776884132021d",
     "experiments/stage1-list/inputs/claims.csv": "edac8180392443ec3f17c05844e23ae36d5a7cda34941abc41a48fb1f8e17a48",
     "data/custom-geometries/sources.json": "6e62d82e4dce5bf058d22f27b603644625e3d016bc9b932330a6e0a2dde8b8fe",
-    "docs/spec.md": "8b04848404bca70462e7b9cd2158607220dcd7129e039f33d4985317c3fa8a5e"
+    "experiments/expedition-regions/outputs/summary.json": "f7450dac76833cece8353d21dbd3e2a4c962e704f338f74265972b41cd2d40ac",
+    "docs/spec.md": "881082dc86fabae4b605c22141b562ef36da4af98df36ccc02696721e90a3b58"
   },
   "correspondence": "none: first draft"
 }

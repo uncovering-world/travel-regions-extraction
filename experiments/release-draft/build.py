@@ -36,6 +36,7 @@ INPUTS = [
     "data/custom-geometries/sources.csv",
     "experiments/stage1-list/inputs/claims.csv",
     "data/custom-geometries/sources.json",
+    "experiments/expedition-regions/outputs/summary.json",
     "docs/spec.md",
 ]
 
@@ -235,8 +236,18 @@ def main() -> None:
     for f in sorted((REPO / "data" / "custom-geometries").glob("*.geojson")):
         (OUT / "geometry" / f.name).write_bytes(f.read_bytes())
     (OUT / "canon.json").write_text(json.dumps(tree, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    # the access mark of every region (R061, D075): from the expedition-regions experiment where tested; every other
+    # region is ordinary with unverified evidence. Never blank.
+    tested = json.loads((REPO / "experiments" / "expedition-regions" / "outputs" / "summary.json").read_text())["regions"]
+    for r in table:
+        v = tested.get(r["region_id"], {}).get("verdict", "")
+        mark = "closed" if v == "closed" else "expedition" if v.startswith("expedition") else "ordinary"
+        r["access"] = mark
+        r["access_evidence"] = (f"{v}; experiments/expedition-regions" if v and not v.startswith("undecided")
+                                else "unverified")
     write_csv(OUT / "regions.csv", sorted(table, key=lambda r: r["region_id"]),
-              ["region_id", "name", "wikidata_id", "basis", "country", "country_code", "evidence", "open"]
+              ["region_id", "name", "wikidata_id", "basis", "country", "country_code", "evidence", "open", "access",
+               "access_evidence"]
               + [f"view_{view_name[p]}" for p in parties])
     write_csv(OUT / "membership.csv", membership, ["region_id", "source", "unit", "role", "precedence", "clip_to", "remnants_to"])
     write_csv(OUT / "gaps.csv", gaps, ["item", "missing"])
