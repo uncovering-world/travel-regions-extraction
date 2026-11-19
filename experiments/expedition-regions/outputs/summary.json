@@ -1,17 +1,19 @@
 {
- "input_sha256": "2d2038cd20f5a2c82a5eeb6af0b7b044f746d815b563315e9ea4662d91075ef9",
+ "input_sha256": "96da36ee63827a62948e76599cc20c2ecc42308df1284888814eedc049fa6810",
+ "access_sha256": "8c596223cb785461a6d6bcd8996425274e7ef396e9730369fa34a48d40c9773a",
  "counts": {
-  "expedition": 6,
-  "expedition (sold expedition landings)": 3,
+  "expedition": 5,
+  "expedition (sold expedition landings)": 4,
+  "ordinary: open land access": 2,
   "ordinary: residents": 4,
   "ordinary: scheduled transport": 1,
-  "undecided: facts unknown": 6
+  "undecided: facts unknown": 4
  },
  "regions": {
   "AQ": {
-   "verdict": "undecided: facts unknown",
+   "verdict": "expedition (sold expedition landings)",
    "residents": "no",
-   "scheduled": "unknown",
+   "scheduled": "no",
    "tours": "yes",
    "permit": "Authorisation from an Antarctic Treaty Party under its national law implementing the Environment Protocol (e.g. UK: FCDO Polar Regions Department permit for British expeditions, vessels or aircraft); passengers on organised tours are usually covered by the operator's permit; protected areas need separate permits."
   },
@@ -86,21 +88,21 @@
    "permit": "Sudanese visa needed; Sudan not issuing tourist visas (per operator); FCDO advises against all but essential travel"
   },
   "area/gazakh-exclaves": {
-   "verdict": "undecided: facts unknown",
+   "verdict": "ordinary: open land access",
    "residents": "no",
    "scheduled": "unknown",
    "tours": "unknown",
    "permit": "unknown; FCDO advises against all travel within 5 km of Armenia's eastern border with Azerbaijan (not checked whether each exclave lies inside that band); Armenia-Azerbaijan border closed"
   },
   "area/gornja-siga": {
-   "verdict": "expedition",
+   "verdict": "undecided: facts unknown",
    "residents": "no",
    "scheduled": "no",
    "tours": "unknown",
    "permit": "open on land through Croatia since 6 August 2023 (ID checks by Croatian police); non-EU/Schengen visitors have been detained; no water crossing from Serbia"
   },
   "area/la-guera": {
-   "verdict": "undecided: facts unknown",
+   "verdict": "ordinary: open land access",
    "residents": "no",
    "scheduled": "unknown",
    "tours": "unknown",

@@ -51,6 +51,19 @@ Findings that bear on the definition:
 - For the disputed areas the sources rarely say anything about access; five of six stay undecided.
 - The register marks Gornja Siga `closed`; a secondary source says Croatia has let people in on land since 6 August 2023. To be checked against a primary source.
 
+### Second run, 2026-11-19
+
+After the owner's revision (expedition cruises are expeditions) and two more of his points — a place is **closed** only where an act bars civilians (travel advice does not count), and a place inside a neighbour that one can simply walk or drive into is ordinary — `inputs/access.csv` adds land access and closure, from `inputs/facts-access.csv`:
+
+| Verdict | Regions |
+|---|---|
+| expedition | AQ, BV, HM, TF, UM, GS, rule/au-macquarie-island, rule/fr-clipperton, rule/sj-jan-mayen |
+| closed | none confirmed |
+| ordinary | PN, CC, VA, rule/sh-tristan-da-cunha (residents); rule/sh-ascension (scheduled flight); area/gazakh-exclaves, area/la-guera (open land access) |
+| undecided | area/ankoko-island, area/bir-tawil, area/gornja-siga, area/shebaa-farms |
+
+No closure by an act was found anywhere. The US Minor Outlying Islands are refuges closed "except as specifically authorized" (50 CFR 26.21), so a permit route exists and they are expeditions. Shebaa Farms is closed in practice (roads not open to civilian traffic, escorted visits only), but no named order was found.
+
 ## Conclusion
 
 Pending the owner's choice on expedition cruises (see the conversation of 2026-11-19).
