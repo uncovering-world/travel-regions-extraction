@@ -130,8 +130,12 @@ def main() -> None:
     # the country of each region under each party's point of view (R045 as amended by D064-D069): a party counts the
     # areas it claims and the areas it holds as its own; everywhere else its view is the canon's attribution.
     # Natural Earth's views are only a lead (D065), checked in experiments/stage1-list/outputs/natural_earth_lead.csv.
+    # explicit conventions (Q011): regions where claims stay an overlay and no point of view attributes the region
+    # to a claimant. D040: Antarctica is one cell; the national claims there create no region and change no view.
+    CLAIMS_AS_OVERLAY = {"AQ": "D040"}
     links = {r["area_id"]: r for r in read("experiments/stage1-list/inputs/links.csv")}
     kinds = {r["area_id"]: r["kind"] for r in read("data/disputed-areas/registry.csv")}
+    overlay_parties: set[str] = set()
     own: dict[str, dict[str, str]] = {}                      # region id -> {party: party} where the party counts it its own
     for area_id, c in claims.items():
         link = links.get(area_id, {})
@@ -145,12 +149,15 @@ def main() -> None:
             continue
         renounced = set(c["renounced"].split())
         parties = set(c["claimants"].split()) - renounced
+        if rid in CLAIMS_AS_OVERLAY:
+            overlay_parties |= parties                    # their views still exist; this claim changes none of them
+            continue
         holder = c["holder"]
         if single(holder) and kinds.get(area_id) != "lease_or_base" and not rid.isupper():
             parties.add(holder)
         for party in parties:
             own.setdefault(rid, {})[party] = party
-    parties = sorted({p for v in own.values() for p in v})
+    parties = sorted({p for v in own.values() for p in v} | overlay_parties)
     view_name = {p: p.split("/", 1)[1] if "/" in p else p for p in parties}
     for r in table:
         slug = r["region_id"].split("/", 1)[1] if r["region_id"].startswith("area/") else ""
