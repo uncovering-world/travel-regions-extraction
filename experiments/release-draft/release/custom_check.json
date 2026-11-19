@@ -106,6 +106,20 @@
    }
   },
   {
+   "region": "IN",
+   "source": "custom geometry",
+   "unit": "cooch-behar-former-enclaves.geojson",
+   "polygon_km2": 3347.97,
+   "on_gadm_land_km2": 3347.97,
+   "donors": [
+    "BD"
+   ],
+   "taken_from": {
+    "already its own": 3326.69,
+    "BD": 21.29
+   }
+  },
+  {
    "region": "IO",
    "source": "custom geometry",
    "unit": "biot.geojson",
@@ -139,6 +153,20 @@
    "taken_from": {
     "already its own": 3210.19,
     "SS": 167.22
+   }
+  },
+  {
+   "region": "KG",
+   "source": "custom geometry",
+   "unit": "chong-kara.geojson",
+   "polygon_km2": 4.2,
+   "on_gadm_land_km2": 4.2,
+   "donors": [
+    "UZ"
+   ],
+   "taken_from": {
+    "already its own": 2.85,
+    "UZ": 1.35
    }
   },
   {

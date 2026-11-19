@@ -162,6 +162,26 @@
    "version": "COD-AB Sudan v03; HDX resource last_modified 2026-01-26",
    "licence": "CC BY-IGO (HDX license_title)",
    "retrieved": "2026-10-04"
+  },
+  "osm-2026-10-04-transfers": {
+   "kind": "osm-overpass",
+   "endpoints": [
+    "https://overpass-api.de/api/interpreter"
+   ],
+   "date": "2026-10-04T06:57:51Z",
+   "cache_file": "osm_transfers_2026-10-04T065751Z.json",
+   "sha256": "b7405303d6fc47ea8e9a79f39923af7eb8ac238ccb537ae0d6b7481c3046cbe2",
+   "sha256_of": "the canonical cache file (elements sorted by type and id, JSON with sorted keys; the Overpass run-time header is dropped)",
+   "publisher": "OpenStreetMap contributors (Overpass API attic query)",
+   "version": "OpenStreetMap as of 2026-10-04T06:57:51Z",
+   "licence": "ODbL 1.0 (https://www.openstreetmap.org/copyright)",
+   "retrieved": "2026-10-05",
+   "elements": {
+    "relation": [
+     1789228,
+     3772474
+    ]
+   }
   }
  },
  "places": [
@@ -2159,6 +2179,86 @@
    "file": "ye-socotra.geojson",
    "notes": "Replaces the planned OSM relation 5486640. Not a dispute: the outline of the governorate whose entry rule makes the region.",
    "remnants_to": ""
+  },
+  {
+   "place": "cooch-behar-former-enclaves",
+   "region": "IN",
+   "donors": "BD",
+   "rank": 3,
+   "whose_line": "OSM mappers: Cooch Behar district of West Bengal as it is since the 2015 exchange of enclaves (Bangladesh's former enclaves inside it; Dahagram–Angarpota left out)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/1789228",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 1789228 v53 (2025-12-17T15:21:14Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04-transfers",
+   "feature_id": "relation 1789228",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      1789228,
+      53
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "cooch-behar-former-enclaves.geojson",
+   "remnants_to": "",
+   "notes": "Not a dispute: the agreed exchange of enclaves (R054), which GADM 4.1 does not show — it still draws Bangladeshi enclaves inside India. Exchange: 'Indian enclaves in Bangladesh and Bangladeshi enclaves in India ... shall stand transferred to the other with effect from the midnight of July 31, 2015' (The Daily Star, 2015-06-08, quoting the agreed modalities, https://www.thedailystar.net/country/exchange-enclaves-start-july-31-midnight-94063, read 2026-10-05). 'All of Bangladesh's enclaves lie in West Bengal's Kochbehar district'; 'The LBA 1974 agreement enabled Bangladesh to retain the Dahagram and Angarpota enclaves' (Ministry of External Affairs of India, booklet 'India & Bangladesh Land Boundary Agreement', https://www.mea.gov.in/Uploads/PublicationDocs/24529_LBA_MEA_Booklet_final.pdf, read 2026-10-05). The district is clipped to Bangladesh's units only, so it moves the former enclaves and the strips where OSM and GADM draw the district's border with Bangladesh differently. The booklet also says that 'The Indian enclaves in Bangladesh are located in four districts'; GADM 4.1 draws none of them (checked on the rendered map 2026-10-05)."
+  },
+  {
+   "place": "chong-kara",
+   "region": "KG",
+   "donors": "UZ",
+   "rank": 3,
+   "whose_line": "OSM mappers: the Chong-Kara (Chon-Qora) exclave as drawn in Uzbekistan's So'x District before its transfer",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/3772474",
+   "version_or_date": "snapshot 2026-10-04T06:57:51Z (Overpass attic query); relation 3772474 v29 (2026-07-18T05:56:45Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-10-04-transfers",
+   "feature_id": "relation 3772474 (the part at 71.0375, 40.2508)",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      3772474,
+      29
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ],
+    "part_at": [
+     [
+      71.0375,
+      40.2508
+     ]
+    ]
+   },
+   "file": "chong-kara.geojson",
+   "remnants_to": "",
+   "notes": "Not a dispute: an agreed transfer (R054) neither GADM 4.1 nor OSM (as of the snapshot) shows. 'два населенных пункта — Чонгара и Таш-Тобо — перешли в состав Кыргызской Республики' (24.kg, 2026-06-23, quoting the presidential press secretary, https://24.kg/vlast/379159_kyirgyizstan_iuzbekistan_obmenyalis_selami_chto_budet_sjitelyami/, read 2026-10-05); the basis is the border treaty signed in November 2022 (same article). That the whole exclave as OSM draws it was transferred is not stated in so many words. Tash-Tobo (Jangail) needs no geometry: GADM already puts its point (40.2008, 71.6694) in Kyrgyzstan's Kadamjai unit, while OSM still draws it as Uzbek."
   }
  ]
 }
