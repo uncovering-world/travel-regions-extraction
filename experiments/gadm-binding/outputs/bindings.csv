@@ -53,7 +53,7 @@ CU,Cuba,ISO 3166-1 entry,CUB,GID_0,ISO alpha-3,
 CV,Cabo Verde,ISO 3166-1 entry,CPV,GID_0,ISO alpha-3,
 CW,Curaçao,ISO 3166-1 entry,CUW,GID_0,ISO alpha-3,
 CX,Christmas Island,ISO 3166-1 entry,CXR,GID_0,ISO alpha-3,
-CY,Cyprus,ISO 3166-1 entry,CYP,GID_0,ISO alpha-3,
+CY,Cyprus,ISO 3166-1 entry,CYP ZNC,GID_0,reviewed,"Cyprus with GADM's pseudo-country Northern Cyprus (ZNC): GADM draws ZNC south of the Green Line, in Nicosia too, so area/northern-cyprus is OSM's outline as an own geometry (D074, 2026-11-19) and takes its land from Cyprus"
 CZ,Czechia,ISO 3166-1 entry,CZE,GID_0,ISO alpha-3,
 DE,Germany,ISO 3166-1 entry,DEU,GID_0,ISO alpha-3,
 DJ,Djibouti,ISO 3166-1 entry,DJI,GID_0,ISO alpha-3,
@@ -273,7 +273,6 @@ area/golan-heights,Golan Heights,registry,ISR.1_1,GID_1,reviewed,GADM's unit Gol
 area/gornja-siga,Gornja Siga and other west-bank pockets,unclaimed land,,,,no GADM unit named ['gornja siga and other west bank pockets']
 area/guantanamo-bay,Guantanamo Bay Naval Base,leased area held by the lessee,,,reviewed,the base is not a GADM unit (it lies in Guantánamo province): custom geometry
 area/halaib-triangle,Hala'ib Triangle,residents,,,,no GADM unit named ['hala ib triangle']
-area/ilemi-triangle,Ilemi Triangle,residents,,,,no GADM unit named ['ilemi triangle']
 area/indian-jammu-kashmir-ladakh,Jammu and Kashmir and Ladakh (Indian-administered),residents,Z01,GID_0,GADM pseudo-country,GADM NAME_0 Jammu and Kashmir
 area/junagadh,Junagadh and Manavadar,residents,,,,no GADM unit named ['junagadh and manavadar']
 area/kafia-kingi,Kafia Kingi enclave,registry,,,,no GADM unit named ['kafia kingi enclave']
@@ -289,8 +288,7 @@ area/lawa-headwaters,Marouini-Litani area (Lawa headwaters),residents,,,,no GADM
 area/melilla,Melilla,residents,ESP.7.2_1,GID_2,exact name,"searched ['melilla']; country not known, all searched"
 area/migingo,Migingo Island and nearby Lake Victoria islets,residents,,,,no GADM unit named ['migingo and nearby lake victoria islets']
 area/moldovan-held-left-bank,"Moldovan-controlled Dubăsari villages, Varnița and Copanca",residents,,,,no GADM unit named ['moldovan controlled dubasari villages']
-area/northern-cyprus,Turkish Republic of Northern Cyprus,registry,ZNC,GID_0,GADM pseudo-country,GADM NAME_0 Northern Cyprus
-area/olivenza,Olivenza and Táliga,residents,ESP.11.1.8.4_1 ESP.11.1.8.5_1,GID_4,reviewed,GADM's municipalities Olivenza and Táliga
+area/northern-cyprus,Turkish Republic of Northern Cyprus,registry,,,,no GADM unit named ['turkish republic northern cyprus']
 area/paracel-islands,Paracel Islands,residents,XPI,GID_0,GADM pseudo-country,GADM NAME_0 Paracel Islands
 area/rincon-de-artigas,Rincón de Artigas (Arroyo de la Invernada) and Vila Albornoz,residents,,,,no GADM unit named ['rincon de artigas']
 area/shebaa-farms,Shebaa Farms and Kfarchouba hills,registry,,,,no GADM unit named ['shebaa farms and kfarchouba hills']

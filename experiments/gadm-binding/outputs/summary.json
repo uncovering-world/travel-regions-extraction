@@ -5,18 +5,18 @@
     "sha256": "5a85ef31541c85e12eed7eabfebe59c88c05881367101696d86abef56bfb4ec2",
     "countries": 263
   },
-  "regions": 332,
+  "regions": 330,
   "matched_by": {
-    "ISO alpha-3": 247,
+    "ISO alpha-3": 246,
     "unbound": 26,
     "reviewed": 25,
     "exact name": 25,
-    "GADM pseudo-country": 9
+    "GADM pseudo-country": 8
   },
   "by_basis": {
     "ISO 3166-1 entry": {
-      "ISO alpha-3": 247,
-      "reviewed": 2
+      "ISO alpha-3": 246,
+      "reviewed": 3
     },
     "entry rule": {
       "exact name": 21,
@@ -27,15 +27,15 @@
       "reviewed": 2
     },
     "registry": {
-      "unbound": 8,
+      "unbound": 9,
       "reviewed": 8,
-      "GADM pseudo-country": 3,
+      "GADM pseudo-country": 2,
       "exact name": 1
     },
     "residents": {
-      "unbound": 16,
-      "reviewed": 5,
+      "unbound": 15,
       "GADM pseudo-country": 5,
+      "reviewed": 4,
       "exact name": 3
     },
     "unclaimed land": {
@@ -57,7 +57,6 @@
     "area/gornja-siga: no GADM unit named ['gornja siga and other west bank pockets']",
     "area/guantanamo-bay: the base is not a GADM unit (it lies in Guantánamo province): custom geometry",
     "area/halaib-triangle: no GADM unit named ['hala ib triangle']",
-    "area/ilemi-triangle: no GADM unit named ['ilemi triangle']",
     "area/junagadh: no GADM unit named ['junagadh and manavadar']",
     "area/kafia-kingi: no GADM unit named ['kafia kingi enclave']",
     "area/kalapani: no GADM unit named ['kalapani']",
@@ -69,6 +68,7 @@
     "area/lawa-headwaters: no GADM unit named ['marouini litani area']",
     "area/migingo: no GADM unit named ['migingo and nearby lake victoria islets']",
     "area/moldovan-held-left-bank: no GADM unit named ['moldovan controlled dubasari villages']",
+    "area/northern-cyprus: no GADM unit named ['turkish republic northern cyprus']",
     "area/rincon-de-artigas: no GADM unit named ['rincon de artigas']",
     "area/shebaa-farms: no GADM unit named ['shebaa farms and kfarchouba hills']",
     "area/somaliland: no GADM unit; the region is Natural Earth's feature, which does not follow GADM's regions",

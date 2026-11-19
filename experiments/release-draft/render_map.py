@@ -282,16 +282,18 @@ def apply_own(geoms, membership, mains=None):
         geoms[rid] = shapely.make_valid(shapely.union_all(parts + ([geoms[rid]] if rid in geoms else [])))
     log("own geometries applied")
     moves, kept = cut_off(geoms, start, outlines, mains)
-    if mains is None:
-        OUT.mkdir(parents=True, exist_ok=True)
-        with (OUT / "cut_off_D073.csv").open("w", encoding="utf-8", newline="") as handle:
-            out = csv.writer(handle)
-            out.writerow(["donor", "receiver", "lon", "lat", "area_km2", "radius_m", "outcome"])
-            rows = [(d, to, p, r, "moved") for d, to, p, r in moves] + [(d, d, p, r, "kept: wider than a rim")
-                                                                        for d, p, r in kept]
-            for d, to, p, r, outcome in sorted(rows, key=lambda x: (x[0], x[1], -x[2].area)):
-                c = p.representative_point()
-                out.writerow([d, to, round(c.x, 4), round(c.y, 4), f"{km2(p):.4g}", round(r), outcome])
+    # the list for the consumer comes from the full-precision detail layer (mains given), which covers every own
+    # geometry; the simplified full map can detach a strip that stays joined to its donor at full precision
+    name = "cut_off_D073.csv" if mains is not None else "cut_off_D073_simplified.csv"
+    OUT.mkdir(parents=True, exist_ok=True)
+    with (OUT / name).open("w", encoding="utf-8", newline="") as handle:
+        out = csv.writer(handle)
+        out.writerow(["donor", "receiver", "lon", "lat", "area_km2", "radius_m", "outcome"])
+        rows = [(d, to, p, r, "moved") for d, to, p, r in moves] + [(d, d, p, r, "kept: wider than a rim")
+                                                                    for d, p, r in kept]
+        for d, to, p, r, outcome in sorted(rows, key=lambda x: (x[0], x[1], -x[2].area)):
+            c = p.representative_point()
+            out.writerow([d, to, round(c.x, 4), round(c.y, 4), f"{km2(p):.4g}", round(r), outcome])
     return pieces
 
 

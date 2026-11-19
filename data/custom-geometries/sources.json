@@ -182,6 +182,24 @@
      3772474
     ]
    }
+  },
+  "osm-2026-11-15-northern-cyprus": {
+   "kind": "osm-pbf-extract",
+   "extract_file": "osm-northern-cyprus-2026-11-15.osm.pbf",
+   "extract_sha256": "8e68d0f5275bf99432072f0914c4aa1b7ec6af271724d4c801a071b4326950a2",
+   "extract_how": "osmium getid -r of relation 2514541 from the OpenStreetMap planet of 2026-11-15 (replication sequence 5177), cut by the Track Your Regions dev stack",
+   "cache_file": "osm_northern_cyprus_2026-11-15.json",
+   "sha256": "b854e7fd0f193d760cb6991bc282e38aa09c92236f9222c45795b6c6c4d1712c",
+   "sha256_of": "the canonical cache file written from the extract by osm_pbf_canonical (relations with tags, version, timestamp and their way members' geometry; JSON with sorted keys)",
+   "publisher": "OpenStreetMap contributors (planet extract)",
+   "version": "OpenStreetMap planet of 2026-11-15, replication sequence 5177",
+   "licence": "ODbL 1.0 (https://www.openstreetmap.org/copyright)",
+   "retrieved": "2026-11-19",
+   "elements": {
+    "relation": [
+     2514541
+    ]
+   }
   }
  },
  "places": [
@@ -2259,6 +2277,43 @@
    "file": "chong-kara.geojson",
    "remnants_to": "",
    "notes": "Not a dispute: an agreed transfer (R054) neither GADM 4.1 nor OSM (as of the snapshot) shows. 'два населенных пункта — Чонгара и Таш-Тобо — перешли в состав Кыргызской Республики' (24.kg, 2026-06-23, quoting the presidential press secretary, https://24.kg/vlast/379159_kyirgyizstan_iuzbekistan_obmenyalis_selami_chto_budet_sjitelyami/, read 2026-10-05); the basis is the border treaty signed in November 2022 (same article). That the whole exclave as OSM draws it was transferred is not stated in so many words. Tash-Tobo (Jangail) needs no geometry: GADM already puts its point (40.2008, 71.6694) in Kyrgyzstan's Kadamjai unit, while OSM still draws it as Uzbek."
+  },
+  {
+   "place": "northern-cyprus",
+   "region": "area/northern-cyprus",
+   "donors": "CY",
+   "rank": 3,
+   "whose_line": "OpenStreetMap mappers: the Northern Cyprus boundary (relation 2514541, its southern edge along the buffer zone)",
+   "publisher": "OpenStreetMap contributors",
+   "source_url": "https://www.openstreetmap.org/relation/2514541",
+   "version_or_date": "planet 2026-11-15 (sequence 5177); relation 2514541 v216 (2026-11-12T23:05:31Z)",
+   "licence": "ODbL 1.0",
+   "input": "osm-2026-11-15-northern-cyprus",
+   "feature_id": "relation 2514541",
+   "select": {
+    "elements": [
+     [
+      "relation",
+      2514541,
+      216
+     ]
+    ],
+    "attributes": [
+     "name",
+     "name:en",
+     "boundary",
+     "admin_level",
+     "place",
+     "claimed_by",
+     "controlled_by",
+     "disputed_by",
+     "source",
+     "ne_id"
+    ]
+   },
+   "file": "northern-cyprus.geojson",
+   "notes": "Replaces GADM's pseudo-country ZNC, which runs south of the Green Line: in Nicosia it puts the Cyprus Museum and Ledra Street in Northern Cyprus (found by Track Your Regions on its catalogue points, 2026-11-19). The relation includes the territorial sea; the consumer's clip to the donors' land removes it. ZNC is bound to Cyprus, so the land outside this outline and the buffer zone stays with Cyprus.",
+   "remnants_to": ""
   }
  ]
 }

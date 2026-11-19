@@ -355,8 +355,7 @@
     "area/northern-cyprus"
    ],
    "taken_from": {
-    "CY": 190.36,
-    "area/northern-cyprus": 53.63,
+    "CY": 243.99,
     "clipped away: area/akrotiri-dhekelia": 1.75
    }
   },
@@ -656,6 +655,20 @@
    }
   },
   {
+   "region": "area/northern-cyprus",
+   "source": "custom geometry",
+   "unit": "northern-cyprus.geojson",
+   "polygon_km2": 10899.39,
+   "on_gadm_land_km2": 3262.35,
+   "donors": [
+    "CY"
+   ],
+   "taken_from": {
+    "CY": 3256.13,
+    "clipped away: area/akrotiri-dhekelia": 6.21
+   }
+  },
+  {
    "region": "area/rincon-de-artigas",
    "source": "custom geometry",
    "unit": "rincon-de-artigas.geojson",
@@ -783,6 +796,12 @@
    "b": "area/east-jerusalem (east-jerusalem.geojson)",
    "km2": 0.025,
    "resolved": "area/armistice-no-mans-lands takes it (the other is its donor)"
+  },
+  {
+   "a": "area/cyprus-buffer-zone (cyprus-buffer-zone.geojson)",
+   "b": "area/northern-cyprus (northern-cyprus.geojson)",
+   "km2": 0.002,
+   "resolved": "area/cyprus-buffer-zone takes it (the other is its donor)"
   }
  ],
  "leftover_copies_D072": [

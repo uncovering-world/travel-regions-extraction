@@ -159,6 +159,40 @@ def osm_canonical(data: dict, date: str) -> bytes:
     return (json.dumps(doc, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n").encode()
 
 
+def osm_pbf_canonical(pbf: Path, relations: list) -> bytes:
+    """An OSM extract (.osm.pbf) in the cached form of an Overpass "out meta geom" answer, for the listed relations:
+    each with its tags, version, timestamp and its way members' geometry. Needs pyosmium."""
+    import osmium
+    want = set(relations)
+    rels, ways = {}, {}
+
+    class Rels(osmium.SimpleHandler):
+        def relation(self, r):
+            if r.id in want:
+                rels[r.id] = {"type": "relation", "id": r.id, "version": r.version,
+                              "timestamp": r.timestamp.strftime("%Y-%m-%dT%H:%M:%SZ"), "tags": dict(r.tags),
+                              "members": [{"type": {"n": "node", "w": "way", "r": "relation"}[m.type], "ref": m.ref,
+                                           "role": m.role} for m in r.members]}
+    Rels().apply_file(str(pbf))
+    need = {m["ref"] for r in rels.values() for m in r["members"] if m["type"] == "way"}
+
+    class Ways(osmium.SimpleHandler):
+        def way(self, w):
+            if w.id in need:
+                ways[w.id] = [{"lat": round(n.lat, 7), "lon": round(n.lon, 7)} for n in w.nodes]
+    Ways().apply_file(str(pbf), locations=True)
+    for r in rels.values():
+        for m in r["members"]:
+            if m["type"] == "way" and m["ref"] in ways:
+                m["geometry"] = ways[m["ref"]]
+    missing = want - set(rels)
+    if missing:
+        raise SystemExit(f"{pbf}: relations {sorted(missing)} not in the extract")
+    doc = {"copyright": "The data included in this document is from www.openstreetmap.org. "
+                        "The data is made available under ODbL.", "elements": [rels[i] for i in sorted(rels)]}
+    return (json.dumps(doc, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n").encode()
+
+
 def ensure_input(key: str, spec: dict) -> Path:
     CACHE.mkdir(exist_ok=True)
     path = CACHE / spec["cache_file"]
@@ -173,6 +207,12 @@ def ensure_input(key: str, spec: dict) -> Path:
         print(f"fetching {key} …", file=sys.stderr)
         if spec["kind"] == "worldpolygons-gpkg":
             fetch_nested_zip_member(spec["url"], spec["zip_members"], path)
+        elif spec["kind"] == "osm-pbf-extract":
+            pbf = CACHE / spec["extract_file"]
+            if not pbf.exists() or sha256_file(pbf) != spec["extract_sha256"]:
+                raise SystemExit(f"{key}: put the extract {spec['extract_file']} (sha256 {spec['extract_sha256']}) "
+                                 f"into {CACHE}; {spec['extract_how']}")
+            path.write_bytes(osm_pbf_canonical(pbf, spec["elements"]["relation"]))
         elif spec["kind"] == "osm-overpass":
             q = "".join(f"{t}(id:{','.join(str(i) for i in ids)});" for t, ids in spec["elements"].items())
             query = f'[out:json][timeout:800][date:"{spec["date"]}"];({q});out meta geom;'
@@ -342,7 +382,7 @@ def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
         feats = read_gpkg(path, sel)
     elif kind == "document-points":
         feats = read_document(path, sel, inputs, paths)
-    elif kind == "osm-overpass":
+    elif kind in ("osm-overpass", "osm-pbf-extract"):
         feats = read_osm(path, sel)
     else:
         feats = read_geojson(path, sel)
@@ -350,7 +390,7 @@ def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
         geometry, operation = feats[0][3], "none (the source feature's geometry as published)"
     elif len(feats) == 1:
         geometry = mapping(feats[0][2])
-        operation = ("assembled from the OSM element's member ways (outer minus inner)" if kind == "osm-overpass"
+        operation = ("assembled from the OSM element's member ways (outer minus inner)" if kind in ("osm-overpass", "osm-pbf-extract")
                      else "the document's points joined by straight lines, river edges along the pinned river line, "
                           "excluded areas cut out" if kind == "document-points"
                      else "none (the source feature's geometry as published)")
@@ -361,7 +401,7 @@ def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
         # the land both sources include: e.g. an island's coastline and the country polygon of the side it belongs to
         other = sel["intersect_with"]
         kind2 = inputs[other["input"]]["kind"]
-        feats2 = (read_gpkg if kind2 == "worldpolygons-gpkg" else read_osm if kind2 == "osm-overpass" else read_geojson)(
+        feats2 = (read_gpkg if kind2 == "worldpolygons-gpkg" else read_osm if kind2 in ("osm-overpass", "osm-pbf-extract") else read_geojson)(
             paths[other["input"]], other)
         geometry = mapping(shape(geometry).intersection(unary_union([f[2] for f in feats2])))
         operation += f"; intersected with {other['input']} " + ", ".join(f[0] for f in feats2)
