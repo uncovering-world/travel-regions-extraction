@@ -1,6 +1,6 @@
 # Canonical Travel Regions — open questions of the model
 
-Version: 0.4.2-draft. Date: 2026-10-05. Changes in 0.4.2-draft: Q021 added by D070. Changes in 0.4.1-draft: Q014 narrowed and Q020 added by D065. Changes in 0.4.0-draft: Q006 closed; Q001–Q005 and Q007–Q012 annotated or narrowed by the owner's decisions of 2026-10-03 (D038–D053); Q013–Q019 added; Q017 closed and Q016 narrowed by D054–D055.
+Version: 0.4.3-draft. Date: 2026-11-19. Changes in 0.4.3-draft: Q022 added by D075. Changes in 0.4.2-draft: Q021 added by D070. Changes in 0.4.1-draft: Q014 narrowed and Q020 added by D065. Changes in 0.4.0-draft: Q006 closed; Q001–Q005 and Q007–Q012 annotated or narrowed by the owner's decisions of 2026-10-03 (D038–D053); Q013–Q019 added; Q017 closed and Q016 narrowed by D054–D055.
 
 The order reflects the potential scale of change to the world map: from a change in the definition of almost all regions to changes in individual classes and in history. These are model questions. "Which document is required now?" and "Where does the line run on date t?" are data tasks, not separate items of this list.
 
@@ -223,6 +223,14 @@ D070 makes a paper claim with residents a region only while the claimant presses
 **Closure criterion:** the owner sets N, recorded in R051.
 
 Closed on 2026-10-05 by D071: steps in at least two distinct years of the last ten.
+
+## Q022 — What evidence shows that a place is closed?
+
+**Impact: which regions are marked `closed` rather than `expedition` or `ordinary`.** R061; D075.
+
+D075 marks a region closed when civilians are barred and no permit opens it, and travel advice does not count. A published act (a decree, a regulation, a declared military zone) would settle it, but closure orders are often not public themselves. The first run found no act for any tested place, although Shebaa Farms is closed in practice: its roads are not open to civilian traffic and visits run only with military escort. Not decided: which other evidence suffices. Candidates (proposal, not adopted): an official statement of the holder that civilians are not admitted; the holder's own published map of a closed zone; or consistent recent reports from independent sources of civilians being turned away with no permit route on offer.
+
+**Closure criterion:** the owner sets the evidence standard, recorded in R061.
 
 ## What is intentionally not included in this list
 

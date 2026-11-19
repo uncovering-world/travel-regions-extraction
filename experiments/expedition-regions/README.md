@@ -66,8 +66,8 @@ No closure by an act was found anywhere. The US Minor Outlying Islands are refug
 
 ## Conclusion
 
-Pending the owner's choice on expedition cruises (see the conversation of 2026-11-19).
+Adopted by the owner on 2026-11-19 as D075 / R061, with the revisions above. How to evidence closure stays open (Q022).
 
 ## Status
 
-Running (2026-11-19).
+Concluded (2026-11-19); the marks go into the release next.

@@ -1,10 +1,10 @@
 # Canonical Travel Regions — working specification
 
-Version: 0.4.4-draft. Date: 2026-11-19. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
+Version: 0.4.5-draft. Date: 2026-11-19. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
 
 Changes in 0.4.0-draft: R045–R059 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D064); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
 
-Changes in 0.4.4-draft: R060 added (D074); note on R029.
+Changes in 0.4.5-draft: R061 added (D075). Changes in 0.4.4-draft: R060 added (D074); note on R029.
 
 ## Basis and limits of reliability
 
@@ -530,3 +530,7 @@ A release consists of: TYR's world-view import tree (`canon.json`: country, then
 ### R060 — Precision work on small pieces of geometry [accepted; D074]
 
 A small piece of geometry — a strip or rim where two sources draw one coast or line differently, a detached fragment, a difference between two drawings of a line — is fixed by hand only if at least one holds: (1) people live on it or it holds a settlement; (2) a road, a border crossing, a bridge end, a landing or a sight lies on it; (3) a real catalogue point of the consumer lies within 1 km of it; (4) it is land the substrate does not draw at all (always added). A piece that meets none of these and is smaller than 1 km² keeps the assignment of the automatic rule for its kind (R047 as amended by D073) without a hand fix. No piece is left in no region, and every piece left rough is listed with its area in the release's check report (R029). The rule governs effort on outlines only; it does not decide which places are regions (D052).
+
+### R061 — Access mark of a region [accepted; D075]
+
+Every region of a release carries exactly one access mark, never blank: `ordinary`, `expedition` or `closed`, with its evidence (source, quote, read date, as for the register's facts). `expedition`: no permanent civilian population (rotating staff are not residents) and no regular way in for an ordinary visitor — no scheduled flight, ferry or supply ship with bookable passage, and no open road or path; sold expedition cruises, fly-cruises and organised expedition tours do not count as regular access. `closed`: civilians are barred from entering and no permit opens the place; travel advice alone is not evidence of closure (what counts as evidence is Q022). Otherwise `ordinary`; where the facts are not yet known the mark is `ordinary` and the evidence says `unverified`. The mark is a fact about the region: it changes no boundary and decides no count. It is re-read for every yearly release (R055). At Stage 2 the mark belongs to the finest region it applies to.

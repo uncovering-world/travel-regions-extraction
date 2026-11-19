@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.4-draft. Date: 2026-11-19. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.5-draft. Date: 2026-11-19. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -704,3 +704,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: this is not the size threshold D052 rejected. It does not decide which places become regions, only how much hand work a piece of an outline gets. The test leans on one consumer's catalogue, which grows: a piece left rough can gain a point later and must then be fixed. The 1 km² and 1 km values are judgement, not measured optima.
 - Status: accepted.
 - Basis: owner decision, 2026-11-19, on TYR's rule of thumb (cross-session answer of track-your-regions-88, 2026-11-19), with the wording put to the owner in the conversation.
+
+### D075 — Every region carries an access mark: ordinary, expedition or closed
+
+- Decision: barely reachable territories stay regions. Every region of a release carries one access mark, written explicitly: **ordinary**, **expedition** or **closed**. A region is an expedition region when it has no permanent civilian population (rotating staff of stations, bases or missions are not residents) and an ordinary visitor has no regular way in: no scheduled flight, ferry or supply ship with bookable passage, and no open road or path. Publicly sold expedition cruises, fly-cruises and organised expedition tours are expeditions, not regular access. A region is closed when civilians are barred from entering and no permit opens it; travel advice alone does not make a place closed. The mark changes no boundary and no count by itself: a consumer may leave expedition or closed regions out of totals.
+- Rationale: Track Your Regions asked whether Clipperton should count in France's total. For a hardcore traveller a hard place is a goal, not something to hide, but an ordinary traveller should be able to see how many of a country's regions are reachable. The definition was tested on 20 regions picked by a generic test ([experiment](../experiments/expedition-regions/README.md)): it marks Antarctica, Bouvet, Heard and McDonald, the French Southern Territories, the US Minor Outlying Islands, South Georgia, Macquarie, Clipperton and Jan Mayen as expedition regions; inhabited places, places with scheduled transport and places one can walk or drive into (the Gazakh exclaves on the Ijevan–Berd highway, La Güera) stay ordinary.
+- Rules: R061; Q022.
+- Counterarguments: the mark rests on access facts that change (a new supply ship, a refuge reopened, an epidemic closing a station), so it must be re-read for each yearly release. Closure is hard to evidence because closure orders are often not public (Q022). Four tested places stay undecided for want of sources.
+- Status: accepted.
+- Basis: owner decisions in the conversation of 2026-11-19: keep such places as regions with a separate mark; expedition cruises are expeditions; "closed" is separate from "expedition"; a place one can enter on land is ordinary; how to evidence closure stays open.
