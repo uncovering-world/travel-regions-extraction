@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Apply the candidate definition of an expedition region (README) to inputs/facts.csv; write outputs/summary.json.
 
-expedition = residents == "no" and scheduled == "no" and tours == "no"; a region with residents "no", scheduled "no"
-and tours "unknown" is reported as "expedition (unconfirmed)": no sold landing was found, which is not proof of none.
+expedition = no permanent residents and no scheduled transport (revision of 2026-11-19: expedition cruises do not
+count as regular access).
 """
 import csv, hashlib, json
 from pathlib import Path
@@ -11,14 +11,14 @@ ROOT = Path(__file__).resolve().parent
 
 
 def verdict(r: dict) -> str:
+    """Revision of 2026-11-19 (owner): a publicly sold expedition cruise is an expedition, not regular access, so
+    only residents or scheduled transport make a region ordinary; sold landings are recorded but decide nothing."""
     if r["residents"] == "yes":
         return "ordinary: residents"
     if r["scheduled"] == "yes":
         return "ordinary: scheduled transport"
-    if r["tours"] == "yes":
-        return "ordinary: sold landings"
     if r["residents"] == "no" and r["scheduled"] == "no":
-        return "expedition" if r["tours"] == "no" else "expedition (unconfirmed: no sold landing found)"
+        return "expedition" + (" (sold expedition landings)" if r["tours"] == "yes" else "")
     return "undecided: facts unknown"
 
 

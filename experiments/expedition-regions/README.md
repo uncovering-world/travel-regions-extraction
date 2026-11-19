@@ -21,6 +21,8 @@ The owner's decision of 2026-11-19 in the conversation, not yet recorded as a D 
 - **Misses:** a region it does not mark although a traveller can in practice only reach it by a private, permit-based expedition. That would mean "regular" is defined too broadly.
 - **Cases that cannot be decided from sources.** If many regions turn on a judgement the facts cannot settle (how regular is regular), the definition needs a measurable threshold, e.g. landings sold in at least two of the last three years.
 
+Revision, 2026-11-19 (owner, after the first run): a publicly sold expedition cruise is an expedition, not regular access. Condition 2 therefore reads: no scheduled flight, ferry or supply ship with bookable passage. Landings from cruises or tours no longer make a region ordinary.
+
 ## Method
 
 Candidates are picked by a generic test, not by name: every region of `experiments/release-draft/release/regions.csv` whose Wikidata population (P1082, read 2026-11-19) is below 1,000, or that is a register area the register does not mark `inhabited: yes`. That gives 19 regions. Antarctica (AQ) is added by hand because it was named in the discussion. For each candidate, `inputs/facts.csv` records with a source and a quote: whether civilians live there permanently; scheduled transport; publicly sold cruises or tours that land (2023–2026); and the permit regime. `run.py` applies the definition and writes `outputs/summary.json`.

@@ -1,23 +1,22 @@
 {
  "input_sha256": "2d2038cd20f5a2c82a5eeb6af0b7b044f746d815b563315e9ea4662d91075ef9",
  "counts": {
-  "expedition": 1,
-  "expedition (unconfirmed: no sold landing found)": 5,
+  "expedition": 6,
+  "expedition (sold expedition landings)": 3,
   "ordinary: residents": 4,
   "ordinary: scheduled transport": 1,
-  "ordinary: sold landings": 4,
-  "undecided: facts unknown": 5
+  "undecided: facts unknown": 6
  },
  "regions": {
   "AQ": {
-   "verdict": "ordinary: sold landings",
+   "verdict": "undecided: facts unknown",
    "residents": "no",
    "scheduled": "unknown",
    "tours": "yes",
    "permit": "Authorisation from an Antarctic Treaty Party under its national law implementing the Environment Protocol (e.g. UK: FCDO Polar Regions Department permit for British expeditions, vessels or aircraft); passengers on organised tours are usually covered by the operator's permit; protected areas need separate permits."
   },
   "BV": {
-   "verdict": "expedition (unconfirmed: no sold landing found)",
+   "verdict": "expedition",
    "residents": "no",
    "scheduled": "no",
    "tours": "unknown",
@@ -31,14 +30,14 @@
    "permit": "None for Australian residents (photo ID only); the rules for foreign nationals were not checked."
   },
   "GS": {
-   "verdict": "ordinary: sold landings",
+   "verdict": "expedition (sold expedition landings)",
    "residents": "no",
    "scheduled": "no",
    "tours": "yes",
    "permit": "Since 2025-26 every visitor needs a chargeable Visit permit (apply at least 14 days ahead, valid 30 days) under the Entry Control Order; the vessel visit is under a permit holder (expedition leader or yacht master); overnight stays ashore count as an expedition needing a Commissioner's permit; some activities need a Regulated Activity Permit."
   },
   "HM": {
-   "verdict": "expedition (unconfirmed: no sold landing found)",
+   "verdict": "expedition",
    "residents": "no",
    "scheduled": "no",
    "tours": "unknown",
@@ -52,7 +51,7 @@
    "permit": "Stays of 14 days or less arriving and leaving on the same vessel: short-term visitor visa on arrival; longer stays need a long-term visitor visa decided by the Governor after consulting the Island Council."
   },
   "TF": {
-   "verdict": "expedition (unconfirmed: no sold landing found)",
+   "verdict": "expedition",
    "residents": "no",
    "scheduled": "no",
    "tours": "unknown",
@@ -94,7 +93,7 @@
    "permit": "unknown; FCDO advises against all travel within 5 km of Armenia's eastern border with Azerbaijan (not checked whether each exclave lies inside that band); Armenia-Azerbaijan border closed"
   },
   "area/gornja-siga": {
-   "verdict": "expedition (unconfirmed: no sold landing found)",
+   "verdict": "expedition",
    "residents": "no",
    "scheduled": "no",
    "tours": "unknown",
@@ -115,14 +114,14 @@
    "permit": "advised against by FCDO (Israeli side and Lebanese south); Israeli military control; civilian entry regime not found"
   },
   "rule/au-macquarie-island": {
-   "verdict": "ordinary: sold landings",
+   "verdict": "expedition (sold expedition landings)",
    "residents": "no",
    "scheduled": "no",
    "tours": "yes",
    "permit": "Permit from Tasmania (Tasmania Parks and Wildlife Service), which caps visitors per season and ashore at one time; landings only at approved sites."
   },
   "rule/fr-clipperton": {
-   "verdict": "expedition (unconfirmed: no sold landing found)",
+   "verdict": "expedition",
    "residents": "no",
    "scheduled": "no",
    "tours": "unknown",
@@ -143,7 +142,7 @@
    "permit": "permission of the Island Council needed"
   },
   "rule/sj-jan-mayen": {
-   "verdict": "ordinary: sold landings",
+   "verdict": "expedition (sold expedition landings)",
    "residents": "no",
    "scheduled": "no",
    "tours": "yes",
