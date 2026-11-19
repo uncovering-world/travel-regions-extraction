@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.3-draft. Date: 2026-10-05. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.4-draft. Date: 2026-11-19. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -694,3 +694,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: a piece the outline's own source deliberately leaves out (a hole in a lease) must not move — such a source covers the place and keeps it with the donor; the longest shared border is a geometric fallback, not a fact, and another substrate may give other pieces. The alternatives were moving only whole islands, with land strips fixed one by one, and fixing every place by hand.
 - Status: accepted.
 - Basis: owner decision, 2026-10-05 (the option "По источнику, иначе соседу", after the geometry review of the release draft; first "Всё сейчас" — fix it before the first release rather than leave it to Track Your Regions).
+
+### D074 — Hand-fixing a small piece of geometry only where a traveller does something there
+
+- Decision: a small piece of geometry (a strip or rim where two sources draw one coast or line differently, a detached fragment, a difference between two drawings of a line) gets hand-fixed precision work only if (1) people live on it or it holds a settlement; (2) a road, a border crossing, a bridge end, a landing or a sight lies on it; (3) at least one real catalogue point of Track Your Regions lies within 1 km of it; or (4) it is land the substrate does not draw at all, which is always added. A piece that meets none of these and is smaller than 1 km² keeps what the automatic rule gives it (D073, or the rule for its kind), with no hand fix. In every case no gap is left — every piece belongs to some region — and nothing is dropped silently: such a piece is listed with its area in the check report (R029).
+- Rationale: the consumer counts regions, not area: a region counts as visited when a traveller's place or tick lands in it, so a piece matters only if something a traveller does lands on it. On TYR's real-geometry run (23,948 catalogue points on GADM 4.1, 2026-11-19) the losses came from gaps and from land the substrate lacks — 538 points on no unit, mostly on coasts and straits, 14 on islands GADM does not draw — not from slivers given to the wrong neighbour. Below about 1 km² with nothing on it, nobody notices which neighbour holds a piece.
+- Rules: R060.
+- Counterarguments: this is not the size threshold D052 rejected. It does not decide which places become regions, only how much hand work a piece of an outline gets. The test leans on one consumer's catalogue, which grows: a piece left rough can gain a point later and must then be fixed. The 1 km² and 1 km values are judgement, not measured optima.
+- Status: accepted.
+- Basis: owner decision, 2026-11-19, on TYR's rule of thumb (cross-session answer of track-your-regions-88, 2026-11-19), with the wording put to the owner in the conversation.

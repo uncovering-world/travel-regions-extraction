@@ -1,8 +1,10 @@
 # Canonical Travel Regions — working specification
 
-Version: 0.4.3-draft. Date: 2026-10-05. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
+Version: 0.4.4-draft. Date: 2026-11-19. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
 
 Changes in 0.4.0-draft: R045–R059 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D064); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
+
+Changes in 0.4.4-draft: R060 added (D074); note on R029.
 
 ## Basis and limits of reliability
 
@@ -218,6 +220,8 @@ Note, 2026-10-03 (D038, D042): registry boundaries come from the pinned editions
 The build fixes the CRS, coordinate precision, snap tolerance, antimeridian/poles rules and engine version. Polygon interiors do not overlap. For a shared line/vertex the geometric lookup chooses the minimal region_id in byte-wise lexicographic order among all incident regions and returns `on_boundary=true`. The ID is not computed from the display name. The rule is technical and does not express sovereignty.
 
 Checkpoint lookup does not override territory(point): a separate query returns departure_region and arrival_region. A zero-area case must not create a separate cell. Neither a sliver nor an island smaller than the tolerance is removed silently: the error/mask change and the area are recorded. Computational tolerance does not permit arbitrary geographic gaps.
+
+Note, 2026-11-19 (D074): how much hand work a small piece of an outline gets follows R060; such a piece is still listed with its area, never dropped.
 
 ### R030 — Uncertain boundaries [tentative; Q007]
 
@@ -522,3 +526,7 @@ An area that no state claims is a region attributed to no country; its outline i
 ### R059 — Release package [accepted; D060]
 
 A release consists of: TYR's world-view import tree (`canon.json`: country, then region, with names and Wikidata ids); `regions.csv` (one row per region: identifier, name, Wikidata id, basis, country under each declared perspective); `membership.csv` (one row per region and substrate unit: region, substrate and version, unit identifier); `geometry/` (the canon's own geometries, R047, with source and licence); and `manifest.json` (release identifier, cutoff date, rule and registry versions, input hashes, correspondence to the previous release). Files are sorted and deterministic.
+
+### R060 — Precision work on small pieces of geometry [accepted; D074]
+
+A small piece of geometry — a strip or rim where two sources draw one coast or line differently, a detached fragment, a difference between two drawings of a line — is fixed by hand only if at least one holds: (1) people live on it or it holds a settlement; (2) a road, a border crossing, a bridge end, a landing or a sight lies on it; (3) a real catalogue point of the consumer lies within 1 km of it; (4) it is land the substrate does not draw at all (always added). A piece that meets none of these and is smaller than 1 km² keeps the assignment of the automatic rule for its kind (R047 as amended by D073) without a hand fix. No piece is left in no region, and every piece left rough is listed with its area in the release's check report (R029). The rule governs effort on outlines only; it does not decide which places are regions (D052).
