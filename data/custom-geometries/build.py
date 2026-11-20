@@ -42,7 +42,7 @@ import zipfile
 import zlib
 from pathlib import Path
 
-from shapely import wkb
+from shapely import make_valid, wkb
 from shapely.geometry import LineString, Point, Polygon, mapping, shape
 from shapely.ops import linemerge, polygonize, substring, unary_union
 
@@ -431,6 +431,37 @@ def build_place(place: dict, inputs: dict, paths: dict) -> bytes:
     return (json.dumps(doc, ensure_ascii=False, separators=(",", ":")) + "\n").encode()
 
 
+LAND_INPUT = "dos-worldpolygons-11.4"
+
+
+def land_part(geometry: dict, path: Path) -> dict:
+    """The part of an outline that is land: its intersection with World Polygons 11.4, a land-only source (D074 (4):
+    land the substrate lacks is added; the sea an administrative outline includes is not)."""
+    geom = shape(geometry)
+    if geom.geom_type not in ("Polygon", "MultiPolygon"):
+        return None
+    db = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+    minx, miny, maxx, maxy = geom.bounds
+    land = [gpkg_geometry(b) for b, in db.execute(
+        'select geom from "DoS_WP_11_4" where fid in (select id from "rtree_DoS_WP_11_4_geom" '
+        'where maxx>=? and minx<=? and maxy>=? and miny<=?)', (minx, maxx, miny, maxy))]
+    part = make_valid(geom).intersection(unary_union(land)) if land else Polygon()
+    part = unary_union([g for g in getattr(part, "geoms", [part]) if g.geom_type in ("Polygon", "MultiPolygon")])
+    return json.loads(json.dumps(mapping(part)))
+
+
+def land_file(place: dict, built: bytes, path: Path) -> bytes:
+    doc = json.loads(built)
+    geometry = land_part(doc["features"][0]["geometry"], path)
+    if geometry is None:
+        return None
+    props = {"place": place["place"], "region": place["region"],
+             "operation": f"{place['file']} intersected with {LAND_INPUT} (land only)",
+             "outline_sha256": hashlib.sha256(built).hexdigest()}
+    out = {"type": "FeatureCollection", "features": [{"type": "Feature", "properties": props, "geometry": geometry}]}
+    return (json.dumps(out, ensure_ascii=False, separators=(",", ":")) + "\n").encode()
+
+
 def sources_csv(places: list) -> bytes:
     buf = io.StringIO()
     w = csv.DictWriter(buf, fieldnames=CSV_COLUMNS, lineterminator="\n")
@@ -449,6 +480,7 @@ def main():
     needed = {p["input"] for p in places if p["input"] in inputs}
     needed |= {p["select"]["river"]["input"] for p in places if "river" in p["select"]}
     needed |= {p["select"]["intersect_with"]["input"] for p in places if "intersect_with" in p["select"]}
+    needed.add(LAND_INPUT)
     paths = {k: ensure_input(k, inputs[k]) for k in sorted(needed)}
     outputs = {"sources.csv": sources_csv(places)}
     failures = []
@@ -459,12 +491,18 @@ def main():
                 failures.append(f"{p['file']}: sha256 {digest}, pinned {p['select']['sha256']}")
             continue
         outputs[p["file"]] = build_place(p, inputs, paths)
+    for p in places:
+        # the land of every outline, kept or built: the consumer adds only this where no substrate unit lies
+        land = land_file(p, outputs.get(p["file"]) or (HERE / p["file"]).read_bytes(), paths[LAND_INPUT])
+        if land is not None:
+            outputs["land/" + p["file"]] = land
     for name, data in outputs.items():
         target = HERE / name
         if args.check:
             if not target.exists() or target.read_bytes() != data:
                 failures.append(f"{name}: differs from a fresh build")
         else:
+            target.parent.mkdir(exist_ok=True)
             target.write_bytes(data)
     for f in failures:
         print("FAIL", f, file=sys.stderr)

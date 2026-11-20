@@ -19,6 +19,7 @@ python3 experiments/release-draft/build.py
 - `regions.csv` — 314 regions with name, Wikidata id, basis, country under the canon's attribution, evidence level, and the country under each of Natural Earth's 31 national points of view (`pov_XX`, Natural Earth's ADM0_A3 codes), taken from the Natural Earth feature that represents the region or its country (`inputs/pov_features.csv` for six that need a choice). This is what lets a user pick a side: the same region counts for Ukraine under one point of view and for Russia under another.
 - `membership.csv` — 402 rows. A region is the union of its `include` rows minus its `exclude` rows; an own geometry (precedence 1), clipped by the consumer to the GADM units of the regions in `clip_to`, wins over GADM units (precedence 2), so land GADM gives to another country (Siachen, Demchok, Halayib…) goes where the canon says, and no geometry reaches into a neighbouring country.
 - `geometry/` — the 42 own geometries, as in `data/custom-geometries/` (licences per file there; 13 OpenStreetMap-derived files are under ODbL).
+- `geometry/land/` — each polygon outline intersected with World Polygons 11.4: its land. A consumer adds land where no GADM unit lies only from this file, never from the outline, which may include the territorial sea (D074 (4)).
 - `manifest.json` — versions, the membership rule and the sha256 of every input.
 - `gaps.csv` — empty in this build.
 

@@ -2312,7 +2312,7 @@
     ]
    },
    "file": "northern-cyprus.geojson",
-   "notes": "Replaces GADM's pseudo-country ZNC, which runs south of the Green Line: in Nicosia it puts the Cyprus Museum and Ledra Street in Northern Cyprus (found by Track Your Regions on its catalogue points, 2026-11-19). The relation includes the territorial sea; the consumer's clip to the donors' land removes it. ZNC is bound to Cyprus, so the land outside this outline and the buffer zone stays with Cyprus.",
+   "notes": "Replaces GADM's pseudo-country ZNC, which runs south of the Green Line: in Nicosia it puts the Cyprus Museum and Ledra Street in Northern Cyprus (found by Track Your Regions on its catalogue points, 2026-11-19). The relation includes the territorial sea; only land/northern-cyprus.geojson, its land, is added where GADM has no unit. ZNC is bound to Cyprus, so the land outside this outline and the buffer zone stays with Cyprus.",
    "remnants_to": ""
   }
  ]

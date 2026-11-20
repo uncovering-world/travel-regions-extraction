@@ -24,9 +24,9 @@
     "data/entry-rules/census.csv": "66ef8b50ec73870d0af9033dc88299bc94e5fcee268240a6ffce54db2ae779fb",
     "experiments/release-draft/inputs/attribution.csv": "81b073a94ac79ac4978b1e16f52032df62310ca3f3bc38256709477cdc19f3b1",
     "experiments/release-draft/inputs/gadm_leftovers.csv": "fc46c06dad74297edff82dd4cfa64535b0ea492125018f6815b1018bd5cef070",
-    "data/custom-geometries/sources.csv": "e40637c8a6bddf765079cb97c2b832e1c3d05618ef2f2dc7426776884132021d",
+    "data/custom-geometries/sources.csv": "da18b036bfbfa399a36f37e24017cfc43731e9c8f9f5d255ff35944fb2e51c9b",
     "experiments/stage1-list/inputs/claims.csv": "edac8180392443ec3f17c05844e23ae36d5a7cda34941abc41a48fb1f8e17a48",
-    "data/custom-geometries/sources.json": "6e62d82e4dce5bf058d22f27b603644625e3d016bc9b932330a6e0a2dde8b8fe",
+    "data/custom-geometries/sources.json": "5e5da78d6485d61b4be84b1dbde61b3d582652e995286735c27a4fdac759d1d1",
     "experiments/expedition-regions/outputs/summary.json": "f7450dac76833cece8353d21dbd3e2a4c962e704f338f74265972b41cd2d40ac",
     "docs/spec.md": "881082dc86fabae4b605c22141b562ef36da4af98df36ccc02696721e90a3b58"
   },

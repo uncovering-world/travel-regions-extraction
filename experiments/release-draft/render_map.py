@@ -83,7 +83,7 @@ def main():
         OUT.mkdir(parents=True, exist_ok=True)
         united.write_bytes(pickle.dumps({"key": key, "geoms": {rid: wkb.dumps(g) for rid, g in geoms.items()}}))
     final = OUT / f"final-{args.tolerance}.pickle"
-    own_files = sorted((REPO / "data" / "custom-geometries").glob("*.geojson"))
+    own_files = sorted((REPO / "data" / "custom-geometries").glob("*.geojson")) + sorted((REPO / "data" / "custom-geometries" / "land").glob("*.geojson"))
     # the cache holds the result of apply_own, so it also depends on that function's code
     import inspect
     key2 = key + hashlib.sha256(b"".join(f.read_bytes() for f in own_files) + (inspect.getsource(apply_own) + inspect.getsource(cut_off) + inspect.getsource(inner_radius_m)
@@ -250,7 +250,12 @@ def apply_own(geoms, membership, mains=None):
         donors = [d for d in m.get("clip_to", "").split() if d in geoms]
         taken = shapely.intersection(geom, shapely.union_all([local(geoms[d]) for d in donors])) if donors else shapely.Polygon()
         near = [local(geoms[ids[i]]) for i in tree.query(geom)]
-        uncovered = shapely.difference(geom, shapely.union_all(near)) if near else geom
+        # D074 (4): only land the substrate lacks is added; an administrative outline's sea is not (land/<file>: the
+        # outline's land under World Polygons 11.4)
+        land_path = REPO / "data" / "custom-geometries" / "land" / m["unit"]
+        land = (shapely.make_valid(shapely.union_all([shape(f["geometry"]) for f in json.loads(land_path.read_text())["features"]]))
+                if land_path.exists() else shapely.Polygon())
+        uncovered = shapely.difference(land, shapely.union_all(near)) if near else land
         piece = shapely.make_valid(shapely.union_all([taken, uncovered]))
         before = {d: geoms[d] for d in donors}
         for d in donors:
@@ -291,7 +296,7 @@ def apply_own(geoms, membership, mains=None):
     name = "cut_off_D073.csv" if mains is not None else "cut_off_D073_simplified.csv"
     OUT.mkdir(parents=True, exist_ok=True)
     with (OUT / name).open("w", encoding="utf-8", newline="") as handle:
-        out = csv.writer(handle)
+        out = csv.writer(handle, lineterminator="\n")
         out.writerow(["donor", "receiver", "lon", "lat", "area_km2", "radius_m", "outcome"])
         rows = [(d, to, p, r, "moved") for d, to, p, r in moves] + [(d, d, p, r, "kept: wider than a rim")
                                                                     for d, p, r in kept]

@@ -235,6 +235,10 @@ def main() -> None:
     (OUT / "geometry").mkdir(exist_ok=True)
     for f in sorted((REPO / "data" / "custom-geometries").glob("*.geojson")):
         (OUT / "geometry" / f.name).write_bytes(f.read_bytes())
+    # each outline's land (D074 (4)): the only part a consumer adds where no GADM unit lies
+    (OUT / "geometry" / "land").mkdir(exist_ok=True)
+    for f in sorted((REPO / "data" / "custom-geometries" / "land").glob("*.geojson")):
+        (OUT / "geometry" / "land" / f.name).write_bytes(f.read_bytes())
     (OUT / "canon.json").write_text(json.dumps(tree, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     # the access mark of every region (R061, D075): from the expedition-regions experiment where tested; every other
     # region is ordinary with unverified evidence. Never blank.
