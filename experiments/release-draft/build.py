@@ -17,6 +17,7 @@ import csv
 import hashlib
 import io
 import json
+import shutil
 import os
 from pathlib import Path
 
@@ -232,7 +233,12 @@ def main() -> None:
     tree = {"name": "World", "children": children}
 
     OUT.mkdir(exist_ok=True)
-    (OUT / "geometry").mkdir(exist_ok=True)
+    # geometry/ is rebuilt from scratch, so a file dropped from data/custom-geometries leaves the release too
+    if (OUT / "geometry").exists():
+        shutil.rmtree(OUT / "geometry")
+    (OUT / "geometry").mkdir()
+    # who drew each file and on whose behalf (publisher, whose_line, region, donors, licence): the per-place table
+    (OUT / "geometry" / "sources.csv").write_bytes((REPO / "data" / "custom-geometries" / "sources.csv").read_bytes())
     for f in sorted((REPO / "data" / "custom-geometries").glob("*.geojson")):
         (OUT / "geometry" / f.name).write_bytes(f.read_bytes())
     # each outline's land (D074 (4)): the only part a consumer adds where no GADM unit lies
