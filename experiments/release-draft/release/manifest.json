@@ -2,7 +2,7 @@
   "release": "draft-2026-10-04",
   "status": "draft",
   "cutoff": "2025-12-31",
-  "rules": "docs/spec.md 0.4.5-draft (D038-D075)",
+  "rules": "docs/spec.md 0.4.6-draft (D038-D076)",
   "registry": {
     "ISO 3166-1": "iso-codes 4.20.1",
     "Natural Earth": "v5.1.2"
@@ -20,7 +20,7 @@
   "inputs": {
     "experiments/stage1-list/outputs/regions.csv": "3b2c3c26d9802ad6a5dd43a276d9f30c5ffcb2548ea33a6735d39179c5beca33",
     "experiments/gadm-binding/outputs/bindings.csv": "404a5cc2b777dd0c1fa1bc2640e6c17b8836da0d89d5297457ef83eb90e91c46",
-    "experiments/outline-sources/outputs/regions.csv": "9df9ec3e721551dfb23b2c38a43497dad08964683281efa2e829c13bb094933c",
+    "experiments/outline-sources/outputs/regions.csv": "6117afe95e962dd5b7601df7b96514b672485c58b745ddb94bc5b79d2b2e3a31",
     "data/entry-rules/census.csv": "66ef8b50ec73870d0af9033dc88299bc94e5fcee268240a6ffce54db2ae779fb",
     "experiments/release-draft/inputs/attribution.csv": "81b073a94ac79ac4978b1e16f52032df62310ca3f3bc38256709477cdc19f3b1",
     "experiments/release-draft/inputs/gadm_leftovers.csv": "fc46c06dad74297edff82dd4cfa64535b0ea492125018f6815b1018bd5cef070",
@@ -30,7 +30,7 @@
     "experiments/expedition-regions/outputs/summary.json": "f7450dac76833cece8353d21dbd3e2a4c962e704f338f74265972b41cd2d40ac",
     "data/names/cldr-48.0.0-en-territories.json": "158c1d575308f7e46912edbeda435c8fe2ef5dad280798231f3a432e406b1807",
     "data/names/common_names.csv": "ceed962b0635ecf036e4040e6766c5dc981671c75c262ac06625e059fe09ef89",
-    "docs/spec.md": "881082dc86fabae4b605c22141b562ef36da4af98df36ccc02696721e90a3b58"
+    "docs/spec.md": "b4217d04831f429e049e4d69c4ad84c79f233000ed31c299e79c3abd76b7520f"
   },
   "correspondence": "none: first draft"
 }

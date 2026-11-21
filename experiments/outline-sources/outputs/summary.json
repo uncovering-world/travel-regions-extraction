@@ -1,63 +1,72 @@
 {
-  "regions": 315,
+  "regions": 330,
   "tied_by": {
-    "Natural Earth admin-0 feature by ISO code": 249,
-    "name search, reviewed": 40,
-    "Natural Earth disputed-area feature": 20,
-    "register wikidata_id": 6
+    "Natural Earth admin-0 feature by ISO code": 244,
+    "name search, reviewed": 53,
+    "Natural Earth disputed-area feature": 15,
+    "reviewed override": 8,
+    "register wikidata_id": 7,
+    "reviewed override: no item": 3
   },
   "no_item": [
+    "area/armistice-no-mans-lands",
+    "area/gazakh-exclaves",
+    "area/indian-jammu-kashmir-ladakh",
     "area/koalou",
-    "area/transnistria-security-zone",
-    "area/undof-zone"
+    "area/lawa-headwaters",
+    "area/moldovan-held-left-bank",
+    "area/undof-zone",
+    "area/western-sahara-moroccan-controlled"
   ],
   "outline_sources": {
-    "Natural Earth + OpenStreetMap + Commons map": 170,
-    "Natural Earth + GADM + OpenStreetMap + Commons map": 99,
-    "Natural Earth + OpenStreetMap": 23,
-    "Natural Earth": 9,
-    "none": 6,
-    "OpenStreetMap": 5,
-    "Natural Earth + GADM + OpenStreetMap": 1,
-    "Commons map": 1,
+    "Natural Earth + GADM + OpenStreetMap + Commons map": 250,
+    "Natural Earth + OpenStreetMap + Commons map": 22,
+    "Natural Earth + OpenStreetMap": 19,
+    "none": 16,
+    "Natural Earth": 8,
+    "OpenStreetMap": 7,
+    "Natural Earth + GADM + OpenStreetMap": 4,
+    "GADM + OpenStreetMap + Commons map": 1,
+    "Natural Earth + Commons map": 1,
+    "GADM + Commons map": 1,
     "OpenStreetMap + Commons map": 1
   },
   "by_basis": {
     "ISO 3166-1 entry": {
-      "Natural Earth + OpenStreetMap + Commons map": 142,
-      "Natural Earth + GADM + OpenStreetMap + Commons map": 96,
-      "Natural Earth + OpenStreetMap": 8,
-      "Natural Earth": 2,
-      "Natural Earth + GADM + OpenStreetMap": 1
+      "Natural Earth + GADM + OpenStreetMap + Commons map": 239,
+      "Natural Earth + GADM + OpenStreetMap": 4,
+      "Natural Earth + OpenStreetMap": 3,
+      "Natural Earth + OpenStreetMap + Commons map": 2,
+      "GADM + OpenStreetMap + Commons map": 1
     },
     "entry rule": {
-      "Natural Earth + OpenStreetMap + Commons map": 17,
+      "Natural Earth + OpenStreetMap + Commons map": 15,
       "Natural Earth + OpenStreetMap": 5,
       "OpenStreetMap": 4,
-      "Natural Earth + GADM + OpenStreetMap + Commons map": 1,
+      "Natural Earth + GADM + OpenStreetMap + Commons map": 3,
       "OpenStreetMap + Commons map": 1,
       "none": 1,
       "Natural Earth": 1
     },
-    "entry rule of the holder": {
-      "Natural Earth + OpenStreetMap + Commons map": 1,
-      "Natural Earth + OpenStreetMap": 1
-    },
-    "leased area with its own entry rule": {
-      "Natural Earth + OpenStreetMap": 1
+    "leased area held by the lessee": {
+      "Natural Earth + OpenStreetMap": 1,
+      "Natural Earth + Commons map": 1
     },
     "registry": {
-      "Natural Earth + OpenStreetMap + Commons map": 5,
+      "none": 6,
+      "Natural Earth + OpenStreetMap + Commons map": 4,
+      "Natural Earth + OpenStreetMap": 3,
       "Natural Earth": 3,
-      "Natural Earth + OpenStreetMap": 2
+      "OpenStreetMap": 2,
+      "Natural Earth + GADM + OpenStreetMap + Commons map": 2
     },
     "residents": {
-      "Natural Earth + OpenStreetMap": 5,
-      "Natural Earth + OpenStreetMap + Commons map": 5,
-      "none": 5,
-      "Natural Earth": 3,
-      "Natural Earth + GADM + OpenStreetMap + Commons map": 2,
-      "Commons map": 1
+      "none": 9,
+      "Natural Earth + OpenStreetMap": 6,
+      "Natural Earth + GADM + OpenStreetMap + Commons map": 6,
+      "Natural Earth": 4,
+      "Natural Earth + OpenStreetMap + Commons map": 1,
+      "GADM + Commons map": 1
     },
     "unclaimed land": {
       "Natural Earth + OpenStreetMap": 1,
@@ -65,13 +74,24 @@
     }
   },
   "without_natural_earth_or_gadm": [
+    "area/ankoko-island (OpenStreetMap)",
+    "area/armistice-no-mans-lands (none)",
+    "area/artsvashen (none)",
+    "area/gazakh-exclaves (none)",
+    "area/ghajar (OpenStreetMap)",
     "area/gornja-siga (OpenStreetMap)",
+    "area/indian-jammu-kashmir-ladakh (none)",
+    "area/junagadh (none)",
+    "area/kafia-kingi (none)",
+    "area/kalapani (none)",
+    "area/karki (none)",
     "area/koalou (none)",
-    "area/rukwanzi-semliki (none)",
-    "area/spratly-islands (Commons map)",
-    "area/transnistria-security-zone (none)",
+    "area/la-guera (none)",
+    "area/lawa-headwaters (none)",
+    "area/migingo (none)",
+    "area/moldovan-held-left-bank (none)",
     "area/undof-zone (none)",
-    "area/varosha (none)",
+    "area/western-sahara-moroccan-controlled (none)",
     "rule/az-nakhchivan (OpenStreetMap + Commons map)",
     "rule/cl-rapa-nui (none)",
     "rule/gr-mount-athos (OpenStreetMap)",

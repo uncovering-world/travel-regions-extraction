@@ -1,0 +1,12 @@
+region,item,label,reason,reviewed
+BE,Q31,Belgium,"Natural Earth's admin-0 feature for BE carries Q1118 (Flemish Brabant)",2026-11-21
+IQ,Q796,Iraq,"Natural Earth's admin-0 feature for IQ carries Q205047 (Kurdistan Region of Iraq)",2026-11-21
+PS,Q219060,Palestine,"Natural Earth's admin-0 feature for PS carries Q39760 (Gaza Strip); Q219060 is the State of Palestine, the ISO 3166-1 entry",2026-11-21
+RS,Q403,Serbia,"Natural Earth's admin-0 feature for RS carries Q44749 (Vojvodina)",2026-11-21
+SO,Q1045,Somalia,"Natural Earth's admin-0 feature for SO carries Q485112 (Puntland)",2026-11-21
+area/aksai-chin,Q230830,Aksai Chin,"Natural Earth's disputed-area feature carries Q1819167 (Trans-Karakoram Tract), a different area",2026-11-21
+area/azad-kashmir,Q200130,Azad Kashmir,"Natural Earth's disputed-area feature carries Q200697 (Gilgit-Baltistan), which is area/gilgit-baltistan",2026-11-21
+area/east-jerusalem,Q212938,East Jerusalem,"Natural Earth's disputed-area feature carries Q16129570 (Latrun fort)",2026-11-21
+area/armistice-no-mans-lands,,,"no item covers the region; Natural Earth's feature carries Q312818 (Mount Scopus), one part of it",2026-11-21
+area/indian-jammu-kashmir-ladakh,,,"no item covers the two union territories together; Natural Earth's feature carries Q43100 (the whole Kashmir region)",2026-11-21
+area/western-sahara-moroccan-controlled,,,"no item covers the part west of the berm; Natural Earth's feature carries Q6250 (all of Western Sahara), which is EH",2026-11-21

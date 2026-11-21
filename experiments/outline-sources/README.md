@@ -70,3 +70,7 @@ At the same time the list build's correction for leased areas removed five regio
 ## Status
 
 Concluded 2026-10-04 (revised the same day).
+
+## Revision, 2026-11-21: wrong Wikidata items
+
+A check of every region's item against its name found eleven wrong ties, all taken from Natural Earth's own `WIKIDATAID`: its admin-0 features for BE, IQ, PS, RS and SO carry a subunit's item (Flemish Brabant, Kurdistan Region, Gaza Strip, Vojvodina, Puntland), and its disputed-area features for Aksai Chin, Azad Kashmir and East Jerusalem carry another place's item. `inputs/item_overrides.csv` corrects them with reviewed items; three regions that no single item covers get none. The rerun also tied the regions added to the Stage 1 list since the last run (330 rows); their name-search hits are reviewed in `inputs/name_ties.csv`.

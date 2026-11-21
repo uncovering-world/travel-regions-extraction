@@ -83,6 +83,7 @@ def main() -> None:
 
     ties_path = ROOT / "inputs" / "name_ties.csv"
     name_ties = {r["region"]: r for r in read(ties_path)} if ties_path.exists() else {}
+    overrides = {r["region"]: r for r in read(ROOT / "inputs" / "item_overrides.csv")}
     rows = []
     for r in regions:
         rid, item, how = r["id"], "", ""
@@ -110,6 +111,8 @@ def main() -> None:
                                   "description": found[0].get("description", "") if found else "", "reviewed": ""}
             item = name_ties[rid]["item"]
             how = "name search, reviewed" if name_ties[rid]["reviewed"] else "name search (to be reviewed)"
+        if rid in overrides:   # a reviewed correction of a wrong item from the sources above
+            item, how = overrides[rid]["item"], "reviewed override" + ("" if overrides[rid]["item"] else ": no item")
         rows.append({"region": rid, "name": r["name"], "basis": r["basis"].split(":")[0].split(";")[0],
                      "item": item, "tied_by": how})
 
