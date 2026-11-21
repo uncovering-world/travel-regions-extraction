@@ -1,0 +1,38 @@
+region_id,common_name,source_url,read
+area/abyei,Abyei,https://en.wikipedia.org/wiki/Abyei,2026-11-21
+area/akrotiri-dhekelia,Akrotiri and Dhekelia,https://en.wikipedia.org/wiki/Akrotiri_and_Dhekelia,2026-11-21
+area/artsvashen,Artsvashen,https://en.wikipedia.org/wiki/Artsvashen,2026-11-21
+area/azad-kashmir,Azad Kashmir,https://en.wikipedia.org/wiki/Azad_Kashmir,2026-11-21
+area/baikonur,Baikonur,https://en.wikipedia.org/wiki/Baikonur,2026-11-21
+area/crimea,Crimea,https://en.wikipedia.org/wiki/Crimea,2026-11-21
+area/demchok,Demchok,https://en.wikipedia.org/wiki/Demchok,2026-11-21
+area/essequibo,Guayana Esequiba,https://en.wikipedia.org/wiki/Guayana_Esequiba,2026-11-21
+area/ghajar,Ghajar,https://en.wikipedia.org/wiki/Ghajar,2026-11-21
+area/gornja-siga,Gornja Siga,https://en.wikipedia.org/wiki/Gornja_Siga,2026-11-21
+area/halaib-triangle,Halaib Triangle,https://en.wikipedia.org/wiki/Halaib_Triangle,2026-11-21
+area/kafia-kingi,Kafia Kingi,https://en.wikipedia.org/wiki/Kafia_Kingi,2026-11-21
+area/kalapani,Kalapani territory,https://en.wikipedia.org/wiki/Kalapani_territory,2026-11-21
+area/karki,Karki,https://en.wikipedia.org/wiki/Karki,2026-11-21
+area/koalou,Koalou,https://en.wikipedia.org/wiki/Koalou,2026-11-21
+area/kuril-islands,South Kuril Islands,https://en.wikipedia.org/wiki/South_Kuril_Islands,2026-11-21
+area/la-guera,La Güera,https://en.wikipedia.org/wiki/La_Güera,2026-11-21
+area/migingo,Migingo Island,https://en.wikipedia.org/wiki/Migingo_Island,2026-11-21
+area/northern-cyprus,Northern Cyprus,https://en.wikipedia.org/wiki/Northern_Cyprus,2026-11-21
+area/rincon-de-artigas,Rincón de Artigas,https://en.wikipedia.org/wiki/Rincón_de_Artigas,2026-11-21
+area/shebaa-farms,Shebaa Farms,https://en.wikipedia.org/wiki/Shebaa_Farms,2026-11-21
+area/tigri,Tigri Area,https://en.wikipedia.org/wiki/Tigri_Area,2026-11-21
+area/transnistria,Transnistria,https://en.wikipedia.org/wiki/Transnistria,2026-11-21
+area/undof-zone,UNDOF Zone,https://en.wikipedia.org/wiki/UNDOF_Zone,2026-11-21
+rule/au-macquarie-island,Macquarie Island,https://en.wikipedia.org/wiki/Macquarie_Island,2026-11-21
+rule/az-nakhchivan,Nakhchivan,https://en.wikipedia.org/wiki/Nakhchivan,2026-11-21
+rule/cl-rapa-nui,Easter Island,https://en.wikipedia.org/wiki/Easter_Island,2026-11-21
+rule/cn-hainan,Hainan,https://en.wikipedia.org/wiki/Hainan,2026-11-21
+rule/cn-tibet,Tibet Autonomous Region,https://en.wikipedia.org/wiki/Tibet_Autonomous_Region,2026-11-21
+rule/co-san-andres,San Andrés and Providencia,https://en.wikipedia.org/wiki/San_Andrés_and_Providencia,2026-11-21
+rule/ec-galapagos,Galápagos Islands,https://en.wikipedia.org/wiki/Galápagos_Islands,2026-11-21
+rule/iq-kurdistan,Kurdistan Region,https://en.wikipedia.org/wiki/Kurdistan_Region,2026-11-21
+rule/kr-jeju,Jeju Island,https://en.wikipedia.org/wiki/Jeju_Island,2026-11-21
+rule/ru-chukotka,Chukotka,https://en.wikipedia.org/wiki/Chukotka,2026-11-21
+rule/tj-gbao,Gorno-Badakhshan,https://en.wikipedia.org/wiki/Gorno-Badakhshan,2026-11-21
+rule/tw-penghu,Penghu,https://en.wikipedia.org/wiki/Penghu,2026-11-21
+rule/vn-phu-quoc,Phú Quốc,https://en.wikipedia.org/wiki/Phú_Quốc,2026-11-21

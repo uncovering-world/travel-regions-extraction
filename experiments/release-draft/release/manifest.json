@@ -28,6 +28,8 @@
     "experiments/stage1-list/inputs/claims.csv": "edac8180392443ec3f17c05844e23ae36d5a7cda34941abc41a48fb1f8e17a48",
     "data/custom-geometries/sources.json": "5e5da78d6485d61b4be84b1dbde61b3d582652e995286735c27a4fdac759d1d1",
     "experiments/expedition-regions/outputs/summary.json": "f7450dac76833cece8353d21dbd3e2a4c962e704f338f74265972b41cd2d40ac",
+    "data/names/cldr-48.0.0-en-territories.json": "158c1d575308f7e46912edbeda435c8fe2ef5dad280798231f3a432e406b1807",
+    "data/names/common_names.csv": "ceed962b0635ecf036e4040e6766c5dc981671c75c262ac06625e059fe09ef89",
     "docs/spec.md": "881082dc86fabae4b605c22141b562ef36da4af98df36ccc02696721e90a3b58"
   },
   "correspondence": "none: first draft"

@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.5-draft. Date: 2026-11-19. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.6-draft. Date: 2026-11-21. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -713,3 +713,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: the mark rests on access facts that change (a new supply ship, a refuge reopened, an epidemic closing a station), so it must be re-read for each yearly release. Closure is hard to evidence because closure orders are often not public (Q022). Four tested places stay undecided for want of sources.
 - Status: accepted.
 - Basis: owner decisions in the conversation of 2026-11-19: keep such places as regions with a separate mark; expedition cruises are expeditions; "closed" is separate from "expedition"; a place one can enter on land is ordinary; how to evidence closure stays open.
+
+### D076 — Every region carries a common name beside its formal one
+
+- Decision: a release gives each region the name a traveller reads (`common_name`) beside its formal name (`name`). A region with an ISO 3166-1 code takes Unicode CLDR's plain English name for the code; a region without a code takes the title of the English Wikipedia article on that place where its register name is a description rather than a name, and otherwise keeps its register name.
+- Rationale: TYR request 23. ISO's formal short names can carry a claim ("Taiwan, Province of China") and read as legal titles ("Bolivia, Plurinational State of"). CLDR is the open, versioned list of territory names that operating systems and programming languages use; it covers all 248 coded regions of the draft. It does not cover areas and rule regions, whose register names are mostly ordinary names already.
+- Rules: R062.
+- Counterarguments: CLDR's plain names keep a few qualifiers of their own ("Congo - Kinshasa", "Hong Kong SAR China"); Wikipedia titles change. Both inputs are pinned by version or read date.
+- Status: accepted.
+- Basis: owner decision in the conversation of 2026-11-21 ("надо какие-то обычные названия очевидно", provided the sources cover every region; agreed to CLDR for coded regions and Wikipedia titles for descriptive names).

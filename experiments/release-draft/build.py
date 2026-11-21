@@ -39,6 +39,8 @@ INPUTS = [
     "experiments/stage1-list/inputs/claims.csv",
     "data/custom-geometries/sources.json",
     "experiments/expedition-regions/outputs/summary.json",
+    "data/names/cldr-48.0.0-en-territories.json",
+    "data/names/common_names.csv",
     "docs/spec.md",
 ]
 
@@ -247,6 +249,14 @@ def main() -> None:
     for f in sorted((REPO / "data" / "custom-geometries" / "land").glob("*.geojson")):
         (OUT / "geometry" / "land" / f.name).write_bytes(f.read_bytes())
     (OUT / "canon.json").write_text(json.dumps(tree, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    # the common name of every region (R062, D076): CLDR for coded regions, else a listed Wikipedia title, else the
+    # register name
+    cldr = json.loads((REPO / "data" / "names" / "cldr-48.0.0-en-territories.json").read_text())
+    cldr = cldr["main"]["en"]["localeDisplayNames"]["territories"]
+    listed = {r["region_id"]: r["common_name"] for r in read("data/names/common_names.csv")}
+    for r in table:
+        rid = r["region_id"]
+        r["common_name"] = cldr[rid] if "/" not in rid else listed.get(rid, r["name"])
     # the access mark of every region (R061, D075): from the expedition-regions experiment where tested; every other
     # region is ordinary with unverified evidence. Never blank.
     tested = json.loads((REPO / "experiments" / "expedition-regions" / "outputs" / "summary.json").read_text())["regions"]
@@ -257,7 +267,7 @@ def main() -> None:
         r["access_evidence"] = (f"{v}; experiments/expedition-regions" if v and not v.startswith("undecided")
                                 else "unverified")
     write_csv(OUT / "regions.csv", sorted(table, key=lambda r: r["region_id"]),
-              ["region_id", "name", "wikidata_id", "basis", "country", "country_code", "evidence", "open", "access",
+              ["region_id", "name", "common_name", "wikidata_id", "basis", "country", "country_code", "evidence", "open", "access",
                "access_evidence"]
               + [f"view_{view_name[p]}" for p in parties])
     write_csv(OUT / "membership.csv", membership, ["region_id", "source", "unit", "role", "precedence", "clip_to", "remnants_to"])
