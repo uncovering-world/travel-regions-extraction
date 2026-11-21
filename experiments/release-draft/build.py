@@ -17,6 +17,7 @@ import csv
 import hashlib
 import io
 import json
+import re
 import shutil
 import os
 from pathlib import Path
@@ -261,14 +262,20 @@ def main() -> None:
               + [f"view_{view_name[p]}" for p in parties])
     write_csv(OUT / "membership.csv", membership, ["region_id", "source", "unit", "role", "precedence", "clip_to", "remnants_to"])
     write_csv(OUT / "gaps.csv", gaps, ["item", "missing"])
+    spec_version = re.search(r"^Version: (\S+)\.", (REPO / "docs" / "spec.md").read_text(), re.M).group(1)
+    last_d = max(re.findall(r"^### (D\d+)", (REPO / "docs" / "decisions.md").read_text(), re.M))
     manifest = {
-        "release": "draft-2026-10-04", "status": "draft, not a release",
+        # status: "draft" (a consumer loads it for checks and never publishes it) or "release" (TYR request 31)
+        "release": "draft-2026-10-04", "status": "draft",
         "cutoff": "2025-12-31",
-        "rules": "docs/spec.md 0.4.0-draft (D038-D061)",
+        "rules": f"docs/spec.md {spec_version} (D038-{last_d})",
         "registry": {"ISO 3166-1": "iso-codes 4.20.1", "Natural Earth": "v5.1.2"},
-        "substrate": {"GADM": "4.1 (gadm_410.gpkg; unit identifiers only, no GADM geometry in this package)"},
+        "substrate": {"GADM": "4.1 as published (gadm_410.gpkg, unsimplified; unit identifiers only, no GADM geometry "
+                              "in this package)"},
         "membership": "a region is the union of its include rows minus its exclude rows; precedence 1 (own "
-                      "geometry, clipped to the GADM units of the regions in clip_to) wins over precedence 2 (GADM units)",
+                      "geometry) wins over precedence 2 (GADM units). An own geometry takes the part of its outline on "
+                      "the GADM units of the regions in clip_to, plus the part of geometry/land/<file> on no GADM unit "
+                      "(land GADM lacks; never sea); then cut_off_D073.csv applies",
         "counts": {"regions": len(table), "countries_in_tree": len(children),
                    "membership_rows": len(membership), "gaps": len(gaps)},
         "inputs": {rel: hashlib.sha256((REPO / rel).read_bytes()).hexdigest() for rel in INPUTS},

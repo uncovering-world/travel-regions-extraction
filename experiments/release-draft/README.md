@@ -1,6 +1,6 @@
 # First draft of a release package
 
-**A draft, not a release and not the canon.** Built to see the package of R059 (D060) filled end to end. Issue [#22](https://github.com/uncovering-world/travel-regions-extraction/issues/22).
+**A draft, not a release and not the canon.** Built to see the package of R059 (D060) filled end to end. Issue [#22](https://github.com/uncovering-world/travel-regions-extraction/issues/22). `manifest.json` says so in `status`: `draft` (load it for checks, never publish it) or `release`.
 
 ```bash
 python3 experiments/release-draft/build.py

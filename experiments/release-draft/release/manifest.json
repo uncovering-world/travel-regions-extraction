@@ -1,16 +1,16 @@
 {
   "release": "draft-2026-10-04",
-  "status": "draft, not a release",
+  "status": "draft",
   "cutoff": "2025-12-31",
-  "rules": "docs/spec.md 0.4.0-draft (D038-D061)",
+  "rules": "docs/spec.md 0.4.5-draft (D038-D075)",
   "registry": {
     "ISO 3166-1": "iso-codes 4.20.1",
     "Natural Earth": "v5.1.2"
   },
   "substrate": {
-    "GADM": "4.1 (gadm_410.gpkg; unit identifiers only, no GADM geometry in this package)"
+    "GADM": "4.1 as published (gadm_410.gpkg, unsimplified; unit identifiers only, no GADM geometry in this package)"
   },
-  "membership": "a region is the union of its include rows minus its exclude rows; precedence 1 (own geometry, clipped to the GADM units of the regions in clip_to) wins over precedence 2 (GADM units)",
+  "membership": "a region is the union of its include rows minus its exclude rows; precedence 1 (own geometry) wins over precedence 2 (GADM units). An own geometry takes the part of its outline on the GADM units of the regions in clip_to, plus the part of geometry/land/<file> on no GADM unit (land GADM lacks; never sea); then cut_off_D073.csv applies",
   "counts": {
     "regions": 329,
     "countries_in_tree": 256,
