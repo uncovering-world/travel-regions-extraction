@@ -87,6 +87,14 @@ def landless(membership: list[dict]) -> set[str]:
     return empty
 
 
+
+def cldr_name(cldr, code):
+    """CLDR's plain name; where it carries a qualifier ("SAR", " - "), its short form, else its variant (D077)."""
+    plain = cldr[code]
+    if "SAR" in plain or " - " in plain:
+        return cldr.get(code + "-alt-short") or cldr.get(code + "-alt-variant") or plain
+    return plain
+
 def main() -> None:
     regions = read("experiments/stage1-list/outputs/regions.csv")
     bindings = {r["region"]: r for r in read("experiments/gadm-binding/outputs/bindings.csv")}
@@ -256,7 +264,7 @@ def main() -> None:
     listed = {r["region_id"]: r["common_name"] for r in read("data/names/common_names.csv")}
     for r in table:
         rid = r["region_id"]
-        r["common_name"] = cldr[rid] if "/" not in rid else listed.get(rid, r["name"])
+        r["common_name"] = cldr_name(cldr, rid) if "/" not in rid else listed.get(rid, r["name"])
     # the access mark of every region (R061, D075): from the expedition-regions experiment where tested; every other
     # region is ordinary with unverified evidence. Never blank.
     tested = json.loads((REPO / "experiments" / "expedition-regions" / "outputs" / "summary.json").read_text())["regions"]

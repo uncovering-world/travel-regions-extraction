@@ -4,7 +4,7 @@ Updated: 2026-11-21.
 
 ## Focus
 
-A first Stage 1 release of the canon for Track Your Regions. The rules for Stage 1 are decided (D038–D076 in [decisions.md](decisions.md), R045–R062 in [spec.md](spec.md)); the [draft release package](../experiments/release-draft/README.md) is built from them and can be inspected on a local map ([tools/map-viewer](../tools/map-viewer/)). Stage 2 comes after the first release (#28).
+A first Stage 1 release of the canon for Track Your Regions. The rules for Stage 1 are decided (D038–D077 in [decisions.md](decisions.md), R045–R062 in [spec.md](spec.md)); the [draft release package](../experiments/release-draft/README.md) is built from them and can be inspected on a local map ([tools/map-viewer](../tools/map-viewer/)). Stage 2 comes after the first release (#28).
 
 Track Your Regions now works with the canon directly: its session for the revised catalogue model (TYR #2634) sends requests and defects by cross-session message. Its list of requests is local to TYR (`docs/local/research/2634-method/v9/canon-requests.md` in that repository). TYR has adopted D049: a trip's date picks the release of its year, so no dated attribution periods are needed. Catalogue points for R060 are a read-only snapshot under `~/tyr-exports/`; OSM extracts come from the dev stack's keeper (the Syncer session), one batched request per planet pass.
 
@@ -22,6 +22,7 @@ Track Your Regions now works with the canon directly: its session for the revise
 - D075 / R061 adopted: every region carries an access mark (ordinary, expedition, closed) in `regions.csv`; how to evidence closure is Q022. TYR counts expedition regions on a line of their own.
 - Own outlines add only land where GADM has none: `geometry/land/<file>` (the outline intersected with World Polygons 11.4). Before this, Northern Cyprus, Somaliland and Essequibo gained their territorial sea.
 - D076 / R062 adopted: every region has a `common_name` (CLDR 48 for coded regions, Wikipedia titles for descriptive area names; TYR request 23).
+- D077 amends R062: where the CLDR plain name has a qualifier ("SAR", " - "), the short or variant form is used — Hong Kong, Macao, Congo (DRC), Congo (Republic).
 - Release format: cut-off points at 7 decimals; `geometry/` rebuilt from scratch with a per-file `sources.csv`; `manifest.json` `status` is `draft` or `release`.
 
 ## Waiting for the owner

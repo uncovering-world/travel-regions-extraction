@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.6-draft. Date: 2026-11-21. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.7-draft. Date: 2026-11-22. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -718,7 +718,16 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 
 - Decision: a release gives each region the name a traveller reads (`common_name`) beside its formal name (`name`). A region with an ISO 3166-1 code takes Unicode CLDR's plain English name for the code; a region without a code takes the title of the English Wikipedia article on that place where its register name is a description rather than a name, and otherwise keeps its register name.
 - Rationale: TYR request 23. ISO's formal short names can carry a claim ("Taiwan, Province of China") and read as legal titles ("Bolivia, Plurinational State of"). CLDR is the open, versioned list of territory names that operating systems and programming languages use; it covers all 248 coded regions of the draft. It does not cover areas and rule regions, whose register names are mostly ordinary names already.
-- Rules: R062.
+- Rules: R062 (amended by D077).
 - Counterarguments: CLDR's plain names keep a few qualifiers of their own ("Congo - Kinshasa", "Hong Kong SAR China"); Wikipedia titles change. Both inputs are pinned by version or read date.
 - Status: accepted.
 - Basis: owner decision in the conversation of 2026-11-21 ("надо какие-то обычные названия очевидно", provided the sources cover every region; agreed to CLDR for coded regions and Wikipedia titles for descriptive names).
+
+### D077 — A CLDR name with a qualifier gives way to CLDR's short form, else its variant
+
+- Decision: where CLDR's plain English name for a code carries a qualifier — "SAR" or a " - " suffix — the common name is CLDR's `-alt-short` form, else its `-alt-variant` form. Every other code keeps the plain name.
+- Rationale: the plain names "Hong Kong SAR China", "Macao SAR China", "Congo - Kinshasa" and "Congo - Brazzaville" are not what a traveller reads. Taking the short or variant form everywhere is wrong the other way: CLDR 48 gives "US", "UK", "Swaziland", "Turkey" and "Falkland Islands (Islas Malvinas)" there. In CLDR 48 the rule changes four names: Hong Kong, Macao, Congo (DRC), Congo (Republic).
+- Rules: R062 (amended).
+- Counterarguments: a parenthesised second name ("Myanmar (Burma)") is not covered; it stays as CLDR has it. A later CLDR version may add qualifiers of another shape.
+- Status: accepted.
+- Basis: owner decision in the conversation of 2026-11-22 ("пусть будет так, если оно покрывает нормально все").
