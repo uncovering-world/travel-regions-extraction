@@ -2,7 +2,7 @@
   "release": "draft-2026-10-04",
   "status": "draft",
   "cutoff": "2025-12-31",
-  "rules": "docs/spec.md 0.4.9-draft (D038-D079)",
+  "rules": "docs/spec.md 0.4.10-draft (D038-D080)",
   "registry": {
     "ISO 3166-1": "iso-codes 4.20.1",
     "Natural Earth": "v5.1.2"
@@ -39,7 +39,7 @@
     "experiments/expedition-regions/outputs/summary.json": "f7450dac76833cece8353d21dbd3e2a4c962e704f338f74265972b41cd2d40ac",
     "data/names/cldr-48.0.0-en-territories.json": "158c1d575308f7e46912edbeda435c8fe2ef5dad280798231f3a432e406b1807",
     "data/names/common_names.csv": "ceed962b0635ecf036e4040e6766c5dc981671c75c262ac06625e059fe09ef89",
-    "docs/spec.md": "d6c47717344bcec51aeaeb1dc485b47a2bc72779e93931a63d55c40caed5e962"
+    "docs/spec.md": "224ff2b3f18b94597e0cb771ffbd01c423f7175c2de669c56951e53fc99656fa"
   },
   "correspondence": "none: first draft"
 }

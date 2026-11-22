@@ -1,10 +1,10 @@
 # Canonical Travel Regions — working specification
 
-Version: 0.4.9-draft. Date: 2026-11-22. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
+Version: 0.4.10-draft. Date: 2026-11-22. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
 
 Changes in 0.4.0-draft: R045–R059 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D064); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
 
-Changes in 0.4.9-draft: R063 amended (D079). Changes in 0.4.8-draft: R063 added (D078). Changes in 0.4.7-draft: R062 amended (D077). Changes in 0.4.6-draft: R062 added (D076). Changes in 0.4.5-draft: R061 added (D075). Changes in 0.4.4-draft: R060 added (D074); note on R029.
+Changes in 0.4.10-draft: R062 amended (D080). Changes in 0.4.9-draft: R063 amended (D079). Changes in 0.4.8-draft: R063 added (D078). Changes in 0.4.7-draft: R062 amended (D077). Changes in 0.4.6-draft: R062 added (D076). Changes in 0.4.5-draft: R061 added (D075). Changes in 0.4.4-draft: R060 added (D074); note on R029.
 
 ## Basis and limits of reliability
 
@@ -535,9 +535,9 @@ A small piece of geometry — a strip or rim where two sources draw one coast or
 
 Every region of a release carries exactly one access mark, never blank: `ordinary`, `expedition` or `closed`, with its evidence (source, quote, read date, as for the register's facts). `expedition`: no permanent civilian population (rotating staff are not residents) and no regular way in for an ordinary visitor — no scheduled flight, ferry or supply ship with bookable passage, and no open road or path; sold expedition cruises, fly-cruises and organised expedition tours do not count as regular access. `closed`: civilians are barred from entering and no permit opens the place; travel advice alone is not evidence of closure (what counts as evidence is Q022). Otherwise `ordinary`; where the facts are not yet known the mark is `ordinary` and the evidence says `unverified`. The mark is a fact about the region: it changes no boundary and decides no count. It is re-read for every yearly release (R055). At Stage 2 the mark belongs to the finest region it applies to.
 
-### R062 — Common name of a region [accepted; D076; amended by D077]
+### R062 — Common name of a region [accepted; D076; amended by D077, D080]
 
-Every region of a release carries `common_name`, never blank, beside its formal `name`. For a region with an ISO 3166-1 code it is Unicode CLDR's plain English territory name for that code, from a pinned CLDR version; where that name carries a qualifier ("SAR" or a " - " suffix), CLDR's `-alt-short` form, else its `-alt-variant` form (amended by D077). For a region without a code it is the title of the English Wikipedia article or redirect on that place, listed with its URL and read date in `data/names/common_names.csv`, where the register name is a description; otherwise the register name. The common name is for display; identity is the region id.
+Every region of a release carries `common_name`, never blank, beside its formal `name`. For a region with an ISO 3166-1 code it is Unicode CLDR's plain English territory name for that code, from a pinned CLDR version; where that name carries a qualifier ("SAR", a " - " suffix, or a second name in brackets at its end), CLDR's `-alt-short` form, else its `-alt-variant` form (amended by D077, D080). For a region without a code it is the title of the English Wikipedia article or redirect on that place, listed with its URL and read date in `data/names/common_names.csv`, where the register name is a description; otherwise the register name. The common name is for display; identity is the region id.
 
 ### R063 — Ground two substrate units of different regions both draw [accepted; D078; amended by D079]
 

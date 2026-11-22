@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.9-draft. Date: 2026-11-22. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.10-draft. Date: 2026-11-22. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -750,3 +750,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: snapping moves vertices by up to a centimetre, far below GADM's own accuracy; two GEOS versions may place vertices slightly differently at that scale. A world-wide cleaning is costly; its cost is still to be measured.
 - Status: accepted.
 - Basis: owner decision in the conversation of 2026-11-22 ("Да, надо пробовать"), after the D078 computation and TYR's review of the recipe.
+
+### D080 — A second name in brackets at the end of a CLDR name is a qualifier too
+
+- Decision: D077's qualifiers also include a second name in brackets at the end of CLDR's plain name ("Myanmar (Burma)"); such a name gives way to CLDR's `-alt-short` form, else its `-alt-variant` form. Brackets inside a name ("Cocos (Keeling) Islands") are part of the name and stay.
+- Rationale: D077 named this case as not covered. In CLDR 48 the predicate changes one name, Myanmar (Burma) → Myanmar.
+- Rules: R062 (amended).
+- Counterarguments: a bracketed suffix could some day carry the main name rather than an alias; CLDR is pinned by version, so a new case shows up as a diff on upgrade.
+- Status: accepted.
+- Basis: owner decision in the conversation of 2026-11-22 ("Как хочешь, как правильно и как реально это сделать формально"), on the question whether to shorten "Myanmar (Burma)".

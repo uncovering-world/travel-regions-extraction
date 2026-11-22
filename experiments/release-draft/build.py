@@ -89,9 +89,10 @@ def landless(membership: list[dict]) -> set[str]:
 
 
 def cldr_name(cldr, code):
-    """CLDR's plain name; where it carries a qualifier ("SAR", " - "), its short form, else its variant (D077)."""
+    """CLDR's plain name; where it carries a qualifier ("SAR", " - ", or a second name in brackets at the end), its
+    short form, else its variant (D077, D080)."""
     plain = cldr[code]
-    if "SAR" in plain or " - " in plain:
+    if "SAR" in plain or " - " in plain or re.search(r" \([^)]*\)$", plain):
         return cldr.get(code + "-alt-short") or cldr.get(code + "-alt-variant") or plain
     return plain
 
