@@ -34,7 +34,7 @@ Track Your Regions now works with the canon directly: its session for the revise
 
 ## Active
 
-- TYR requests from its round 12 (`v12/canon-requests.md` in TYR): 20 (a reason for each region with no country), 11 (a lease's lessee), 22 (Stage 1 cells as rows, a `stage1_cell` column at Stage 2). Also a gap of ours: the release states no rule for GADM's own overlaps between countries (BEN/TGO, GEO/RUS), which V001 forbids; asked TYR how its loader resolves them.
+- TYR requests: done on 2026-11-22 — 20 (`no_country_basis`), 11 lease part (`lessee`, `lease_until`), 33 (D078/D079, substrate cleaning), 34 (cut-off points inside their piece), 35 (a holder for every licence). Open: 22 (Stage 1 cells as rows, a `stage1_cell` column at Stage 2), 6 (keys for reused codes), the rest of 11 (D049's lapsed-rule mark and D043 (5)'s fighting flag have no computed facts yet). TYR will measure a world-wide `ST_CoverageClean` window on GADM 4.1.
 
 - Release draft (#22), open items:
   - islands GADM 4.1 does not draw: Chichijima and the Ogasawara Islands, Fatu Hiva, Rocas Atoll, Malpelo and San Pedro Mártir are in the pinned World Polygons 11.4; Japan's MLIT N03 would be rank 1 for Ogasawara; Roca Partida needs another source;
