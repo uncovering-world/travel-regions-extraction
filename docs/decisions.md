@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.7-draft. Date: 2026-11-22. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.8-draft. Date: 2026-11-22. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -731,3 +731,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: a parenthesised second name ("Myanmar (Burma)") is not covered; it stays as CLDR has it. A later CLDR version may add qualifiers of another shape.
 - Status: accepted.
 - Basis: owner decision in the conversation of 2026-11-22 ("пусть будет так, если оно покрывает нормально все").
+
+### D078 — Ground two substrate units of different regions both draw goes to the one with the longest shared border, and the release says so
+
+- Decision: where two units of one substrate edition (e.g. GADM 4.1's BEN.2.5_1 and TGO.5.2_2) both draw the same ground and the release gives them to different regions, the strip goes to the region with which it shares the longer border — D073's fallback — and the release states the holder of every such strip. A consumer never resolves one itself.
+- Rationale: TYR request 33 (round 12, CAN-OVL; corrected in round 13). Left unresolved, the strip lies in two regions at once and breaks V001; held by neither, it leaves a gap, which D074 and V001 also forbid. On the draft's binding GADM 4.1 draws 128 such strips over the cut's floor, about 24 m² in all, along 14 borders. The rule is the one D073 already uses for strips an own geometry cuts off, so both projects resolve every strip by one rule.
+- Rules: R063.
+- Counterarguments: the longest shared border is a geometric fallback, not a fact about whose the ground is; it may differ between substrate editions. Picking a side by unit order or id was rejected as arbitrary. A place whose pin falls on such a strip is still a matter for the consumer's own check of the side.
+- Status: accepted.
+- Basis: owner decision in the conversation of 2026-11-22 ("да, принимаем"), on TYR's corrected proposal for request 33.

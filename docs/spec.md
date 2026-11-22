@@ -1,10 +1,10 @@
 # Canonical Travel Regions — working specification
 
-Version: 0.4.7-draft. Date: 2026-11-22. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
+Version: 0.4.8-draft. Date: 2026-11-22. Status: CR-W is accepted as the current production Stage 1 core, amended on 2026-10-03 (R056); Stage 1 also refines a reference registry of countries (R045) and applies rules for disputed and special-status areas (R046–R054); releases are yearly and built under the product profile `S1-product-v1` (R055, R057). The full Stage 1 semantics and the world classification are not complete.
 
 Changes in 0.4.0-draft: R045–R059 added from the owner's decisions of 2026-10-03 and 2026-10-04 (D038–D064); R009, R014, R016, R026, R039 and, by D055, R048 amended in place; dated notes added to R007, R010, R013, R015, R017–R019, R022–R025, R027, R028, R030–R032, R038, R044; check V011 added. The evaluator's `SPEC_VERSION` stays `0.3.0-draft`: its input contract and checks are unchanged (see the note under R044).
 
-Changes in 0.4.7-draft: R062 amended (D077). Changes in 0.4.6-draft: R062 added (D076). Changes in 0.4.5-draft: R061 added (D075). Changes in 0.4.4-draft: R060 added (D074); note on R029.
+Changes in 0.4.8-draft: R063 added (D078). Changes in 0.4.7-draft: R062 amended (D077). Changes in 0.4.6-draft: R062 added (D076). Changes in 0.4.5-draft: R061 added (D075). Changes in 0.4.4-draft: R060 added (D074); note on R029.
 
 ## Basis and limits of reliability
 
@@ -538,3 +538,7 @@ Every region of a release carries exactly one access mark, never blank: `ordinar
 ### R062 — Common name of a region [accepted; D076; amended by D077]
 
 Every region of a release carries `common_name`, never blank, beside its formal `name`. For a region with an ISO 3166-1 code it is Unicode CLDR's plain English territory name for that code, from a pinned CLDR version; where that name carries a qualifier ("SAR" or a " - " suffix), CLDR's `-alt-short` form, else its `-alt-variant` form (amended by D077). For a region without a code it is the title of the English Wikipedia article or redirect on that place, listed with its URL and read date in `data/names/common_names.csv`, where the register name is a description; otherwise the register name. The common name is for display; identity is the region id.
+
+### R063 — Ground two substrate units of different regions both draw [accepted; D078]
+
+Where two units of one substrate edition both draw a piece of ground of positive area and the release gives them to different regions, the piece belongs to the region with which it shares the longer border (D073's fallback). The release lists every such piece with both units, the holder, a point inside the piece, and its area, so that a consumer applies the list and never resolves an overlap itself. It serves V001.
