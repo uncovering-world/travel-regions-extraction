@@ -86,7 +86,7 @@ def main():
     own_files = sorted((REPO / "data" / "custom-geometries").glob("*.geojson")) + sorted((REPO / "data" / "custom-geometries" / "land").glob("*.geojson"))
     # the cache holds the result of apply_own, so it also depends on that function's code
     import inspect
-    key2 = key + hashlib.sha256(b"".join(f.read_bytes() for f in own_files) + (inspect.getsource(apply_own) + inspect.getsource(cut_off) + inspect.getsource(inner_radius_m)
+    key2 = key + hashlib.sha256(b"".join(f.read_bytes() for f in own_files) + (inspect.getsource(apply_own) + inspect.getsource(cut_off) + inspect.getsource(inner_radius_m) + inspect.getsource(inner_point)
                                                                   + repr(RIM_MAX_RADIUS_M)).encode()).hexdigest()
     cached = pickle.loads(final.read_bytes()) if final.exists() else {}
     if cached.get("key") == key2:
@@ -301,10 +301,20 @@ def apply_own(geoms, membership, mains=None):
         rows = [(d, to, p, r, "moved") for d, to, p, r in moves] + [(d, d, p, r, "kept: wider than a rim")
                                                                     for d, p, r in kept]
         for d, to, p, r, outcome in sorted(rows, key=lambda x: (x[0], x[1], -x[2].area)):
-            c = p.representative_point()
-            out.writerow([d, to, round(c.x, 7), round(c.y, 7), f"{km2(p):.4g}", round(r), outcome])
+            out.writerow([d, to, *inner_point(p), f"{km2(p):.4g}", round(r), outcome])
     return pieces
 
+
+def inner_point(g) -> tuple[float, float]:
+    """A point of g as deep inside as it gets (the centre of its largest inner circle), at 7 decimals; it still lies in
+    g after rounding, which a point near an edge (representative_point) need not. A piece too thin for 7 decimals (a
+    sliver under a centimetre wide) gets as many decimals as it needs."""
+    c = shapely.maximum_inscribed_circle(g, 1e-9).coords[0]
+    for digits in range(7, 16):
+        x, y = round(c[0], digits), round(c[1], digits)
+        if g.contains(shapely.Point(x, y)):
+            return x, y
+    return c[0], c[1]
 
 def polygons(g) -> list:
     return [p for p in getattr(g, "geoms", [g]) if p.geom_type == "Polygon"] if not g.is_empty else []
