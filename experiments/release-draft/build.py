@@ -34,6 +34,7 @@ INPUTS = [
     "experiments/outline-sources/outputs/regions.csv",
     "data/entry-rules/census.csv",
     "experiments/release-draft/inputs/attribution.csv",
+    "experiments/release-draft/inputs/leases.csv",
     "experiments/release-draft/inputs/gadm_leftovers.csv",
     "data/custom-geometries/sources.csv",
     "experiments/stage1-list/inputs/claims.csv",
@@ -114,6 +115,8 @@ def main() -> None:
     items = {r["region"]: r["item"] for r in read("experiments/outline-sources/outputs/regions.csv")}
     census = {r["id"]: r for r in read("data/entry-rules/census.csv")}
     attribution = {r["region"]: r for r in read("experiments/release-draft/inputs/attribution.csv")}
+    # a leased region's lessee and the lease's end (D047, D057; TYR request 11): from the register, see inputs/leases.csv
+    leases = {r["region_id"]: r for r in read("experiments/release-draft/inputs/leases.csv")}
     claims = {r["area_id"]: r for r in read("experiments/stage1-list/inputs/claims.csv")}
 
     def single(holder: str) -> bool:
@@ -152,6 +155,8 @@ def main() -> None:
         table.append({"region_id": rid, "name": r["name"], "wikidata_id": items.get(rid, ""),
                       "basis": r["basis"].split(":")[0].split(";")[0], "country": country, "country_code": code,
                       "no_country_basis": no_country_basis(rid, country, attribution),
+                      "lessee": leases[rid]["lessee"] if r["basis"].startswith("leased") else "",
+                      "lease_until": leases.get(rid, {}).get("lease_until", ""),
                       "evidence": r["evidence"], "open": r["open"]})
 
     # the country of each region under each party's point of view (R045 as amended by D064-D069): a party counts the
@@ -289,7 +294,7 @@ def main() -> None:
         r["access_evidence"] = (f"{v}; experiments/expedition-regions" if v and not v.startswith("undecided")
                                 else "unverified")
     write_csv(OUT / "regions.csv", sorted(table, key=lambda r: r["region_id"]),
-              ["region_id", "name", "common_name", "wikidata_id", "basis", "country", "country_code", "no_country_basis", "evidence", "open", "access",
+              ["region_id", "name", "common_name", "wikidata_id", "basis", "country", "country_code", "no_country_basis", "lessee", "lease_until", "evidence", "open", "access",
                "access_evidence"]
               + [f"view_{view_name[p]}" for p in parties])
     write_csv(OUT / "membership.csv", membership, ["region_id", "source", "unit", "role", "precedence", "clip_to", "remnants_to"])
