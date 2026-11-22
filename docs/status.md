@@ -39,7 +39,7 @@ Track Your Regions now works with the canon directly: its session for the revise
 - Release draft (#22), open items:
   - islands GADM 4.1 does not draw: Chichijima and the Ogasawara Islands, Fatu Hiva, Rocas Atoll, Malpelo and San Pedro Mártir are in the pinned World Polygons 11.4; Japan's MLIT N03 would be rank 1 for Ogasawara; Roca Partida needs another source;
   - Western Sahara under Morocco's view (needs Morocco's claim to the whole territory as a sourced register fact);
-  - Hans Island (is the 2022 agreement in force?);
+  - Hans Island (is the 2022 agreement in force?): the Folketing consented on 19 December 2023 (ft.dk, B 14, 2023-24 session, timetable; read through en.wikipedia Hans Island, revision 1386274128, 2026-11-22); Greenland's Inatsisartut approved it on 31 May 2023 (naalakkersuisut.gl); Canada's ratification and the date of entry into force are not found (Global Affairs Canada's treaty database was unavailable on 2026-11-22). Uninhabited, 1.3 km²: kept with GL until entry into force is confirmed;
   - Vélez de la Gomera and the Chafarinas (D045: own geometries into ES);
   - 45 unexplained fragments in the display check, mostly real exclaves to list in `inputs/known_fragments.csv`;
   - near Pyla a 0.6 km² part of Cyprus moved to Dhekelia by D073: a village area under R060, to be checked by hand;
