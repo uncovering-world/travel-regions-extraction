@@ -96,6 +96,18 @@ def cldr_name(cldr, code):
         return cldr.get(code + "-alt-short") or cldr.get(code + "-alt-variant") or plain
     return plain
 
+
+def no_country_basis(rid, country, attribution):
+    """Why a region has no country (TYR request 20): land nobody claims (R058), a zone with no single holder (R052),
+    or several holders (Q016; R048 as amended by D055). Blank where the region has a country."""
+    if country != "none":
+        return ""
+    basis = attribution.get(rid, {}).get("basis", "")
+    for key, value in (("R058", "unclaimed"), ("R052", "own_regime"), ("several holders", "several_holders")):
+        if key in basis:
+            return value
+    raise SystemExit(f"{rid}: no country and no stated reason in inputs/attribution.csv")
+
 def main() -> None:
     regions = read("experiments/stage1-list/outputs/regions.csv")
     bindings = {r["region"]: r for r in read("experiments/gadm-binding/outputs/bindings.csv")}
@@ -139,6 +151,7 @@ def main() -> None:
             gaps.append({"item": rid, "missing": "country attribution"})
         table.append({"region_id": rid, "name": r["name"], "wikidata_id": items.get(rid, ""),
                       "basis": r["basis"].split(":")[0].split(";")[0], "country": country, "country_code": code,
+                      "no_country_basis": no_country_basis(rid, country, attribution),
                       "evidence": r["evidence"], "open": r["open"]})
 
     # the country of each region under each party's point of view (R045 as amended by D064-D069): a party counts the
@@ -276,7 +289,7 @@ def main() -> None:
         r["access_evidence"] = (f"{v}; experiments/expedition-regions" if v and not v.startswith("undecided")
                                 else "unverified")
     write_csv(OUT / "regions.csv", sorted(table, key=lambda r: r["region_id"]),
-              ["region_id", "name", "common_name", "wikidata_id", "basis", "country", "country_code", "evidence", "open", "access",
+              ["region_id", "name", "common_name", "wikidata_id", "basis", "country", "country_code", "no_country_basis", "evidence", "open", "access",
                "access_evidence"]
               + [f"view_{view_name[p]}" for p in parties])
     write_csv(OUT / "membership.csv", membership, ["region_id", "source", "unit", "role", "precedence", "clip_to", "remnants_to"])
