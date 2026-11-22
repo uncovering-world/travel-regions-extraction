@@ -2,13 +2,22 @@
   "release": "draft-2026-10-04",
   "status": "draft",
   "cutoff": "2025-12-31",
-  "rules": "docs/spec.md 0.4.7-draft (D038-D077)",
+  "rules": "docs/spec.md 0.4.9-draft (D038-D079)",
   "registry": {
     "ISO 3166-1": "iso-codes 4.20.1",
     "Natural Earth": "v5.1.2"
   },
   "substrate": {
     "GADM": "4.1 as published (gadm_410.gpkg, unsimplified; unit identifiers only, no GADM geometry in this package)"
+  },
+  "substrate_cleaning": {
+    "recipe": "ST_CoverageClean(geom, 0, 1e-7, 'MERGE_LONGEST_BORDER') over every GADM unit at its finest level, in one window (not per country), before own geometries and the land rule",
+    "gap_width": 0,
+    "snapping_distance_deg": 1e-07,
+    "merge_strategy": "longest_border",
+    "geos": "3.14.1",
+    "overlaps_wider_than_snap": "overlaps_D078.csv",
+    "compare_within_deg": 1e-07
   },
   "membership": "a region is the union of its include rows minus its exclude rows; precedence 1 (own geometry) wins over precedence 2 (GADM units). An own geometry takes the part of its outline on the GADM units of the regions in clip_to, plus the part of geometry/land/<file> on no GADM unit (land GADM lacks; never sea); then cut_off_D073.csv applies",
   "counts": {
@@ -24,13 +33,13 @@
     "data/entry-rules/census.csv": "66ef8b50ec73870d0af9033dc88299bc94e5fcee268240a6ffce54db2ae779fb",
     "experiments/release-draft/inputs/attribution.csv": "81b073a94ac79ac4978b1e16f52032df62310ca3f3bc38256709477cdc19f3b1",
     "experiments/release-draft/inputs/gadm_leftovers.csv": "fc46c06dad74297edff82dd4cfa64535b0ea492125018f6815b1018bd5cef070",
-    "data/custom-geometries/sources.csv": "da18b036bfbfa399a36f37e24017cfc43731e9c8f9f5d255ff35944fb2e51c9b",
+    "data/custom-geometries/sources.csv": "0b97be818a841114a602260e77eaa320b7dc639bdd87bc2e28228d12175f895a",
     "experiments/stage1-list/inputs/claims.csv": "edac8180392443ec3f17c05844e23ae36d5a7cda34941abc41a48fb1f8e17a48",
-    "data/custom-geometries/sources.json": "5e5da78d6485d61b4be84b1dbde61b3d582652e995286735c27a4fdac759d1d1",
+    "data/custom-geometries/sources.json": "fe7ca3199e84ef71694e43cd8482f1f664da3c774c86bce8fb05e1a9cf020c98",
     "experiments/expedition-regions/outputs/summary.json": "f7450dac76833cece8353d21dbd3e2a4c962e704f338f74265972b41cd2d40ac",
     "data/names/cldr-48.0.0-en-territories.json": "158c1d575308f7e46912edbeda435c8fe2ef5dad280798231f3a432e406b1807",
     "data/names/common_names.csv": "ceed962b0635ecf036e4040e6766c5dc981671c75c262ac06625e059fe09ef89",
-    "docs/spec.md": "506f8c5aaa760b84c737a7270afefcf1b2e6665c7c17038db6d67906e0dfb3b8"
+    "docs/spec.md": "d6c47717344bcec51aeaeb1dc485b47a2bc72779e93931a63d55c40caed5e962"
   },
   "correspondence": "none: first draft"
 }

@@ -1,0 +1,7 @@
+{
+ "geos": "3.14.1",
+ "snap_deg": 1e-07,
+ "strips_between_regions": 2353,
+ "wider_than_snap": 0,
+ "row_pairs_with_overlap_left_after_cleaning": 0
+}

@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.8-draft. Date: 2026-11-22. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.9-draft. Date: 2026-11-22. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -736,7 +736,17 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 
 - Decision: where two units of one substrate edition (e.g. GADM 4.1's BEN.2.5_1 and TGO.5.2_2) both draw the same ground and the release gives them to different regions, the strip goes to the region with which it shares the longer border — D073's fallback — and the release states the holder of every such strip. A consumer never resolves one itself.
 - Rationale: TYR request 33 (round 12, CAN-OVL; corrected in round 13). Left unresolved, the strip lies in two regions at once and breaks V001; held by neither, it leaves a gap, which D074 and V001 also forbid. On the draft's binding GADM 4.1 draws 128 such strips over the cut's floor, about 24 m² in all, along 14 borders. The rule is the one D073 already uses for strips an own geometry cuts off, so both projects resolve every strip by one rule.
-- Rules: R063.
+- Rules: R063 (amended by D079).
 - Counterarguments: the longest shared border is a geometric fallback, not a fact about whose the ground is; it may differ between substrate editions. Picking a side by unit order or id was rejected as arbitrary. A place whose pin falls on such a strip is still a matter for the consumer's own check of the side.
 - Status: accepted.
 - Basis: owner decision in the conversation of 2026-11-22 ("да, принимаем"), on TYR's corrected proposal for request 33.
+
+### D079 — The substrate is cleaned as a coverage before use; the release states the recipe, not a list of strips
+
+- Decision: before the units of a substrate edition are used, they are cleaned as one polygonal coverage: nearby vertices and edges are snapped together within 1e-7° (about 1 cm), and any overlap that survives goes to the unit with the longest common border (D078). The release states the recipe instead of listing strips; it lists only the overlaps wider than the snapping distance, with their holder. Amends D078.
+- Rationale: computing D078's list on GADM 4.1 at full precision found 2,353 strips between regions, 25 m² in all, every one under 0.1 mm wide: one line drawn twice. Both long sides of such a lens are equal to the micrometre, so the longest border is decided by float noise (2,256 exact ties). Coverage cleaning is the standard practice for this: PostGIS 3.6+ `ST_CoverageClean` and shapely 2.2's `coverage_clean` (both GEOS ≥ 3.14) snap first and then merge overlaps by the longest common border by default. With snapping 1e-7° the lenses collapse (checked on BEN/NGA and BEN/TGO). GADM's licence forbids shipping cleaned geometry, so the consumer applies the recipe; TYR's loader runs PostGIS 3.7 with GEOS 3.15 and has the function.
+- Rules: R063 (amended).
+- Operational details (TYR's points of 2026-11-22, with the owner's OK): the release names the GEOS version it used, and checks between producer and consumer compare within the snapping distance, never by exact equality; `gapMaximumWidth` is 0, so cleaning never fills a gap (gaps stay with the land rule, D074 (4)); one cleaning runs over every unit of the edition at its finest level (a partition by country would miss the lenses between countries), before own geometries and the land rule are applied; what a unit holds stays attribute-based.
+- Counterarguments: snapping moves vertices by up to a centimetre, far below GADM's own accuracy; two GEOS versions may place vertices slightly differently at that scale. A world-wide cleaning is costly; its cost is still to be measured.
+- Status: accepted.
+- Basis: owner decision in the conversation of 2026-11-22 ("Да, надо пробовать"), after the D078 computation and TYR's review of the recipe.

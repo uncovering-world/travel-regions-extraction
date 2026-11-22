@@ -290,6 +290,14 @@ def main() -> None:
         "registry": {"ISO 3166-1": "iso-codes 4.20.1", "Natural Earth": "v5.1.2"},
         "substrate": {"GADM": "4.1 as published (gadm_410.gpkg, unsimplified; unit identifiers only, no GADM geometry "
                               "in this package)"},
+        # D079 / R063: how the consumer cleans the substrate before use; the check that produced overlaps_D078.csv
+        "substrate_cleaning": {
+            "recipe": "ST_CoverageClean(geom, 0, 1e-7, 'MERGE_LONGEST_BORDER') over every GADM unit at its finest "
+                      "level, in one window (not per country), before own geometries and the land rule",
+            "gap_width": 0, "snapping_distance_deg": 1e-7, "merge_strategy": "longest_border",
+            "geos": json.loads((OUT / "overlaps_D078.json").read_text())["geos"],
+            "overlaps_wider_than_snap": "overlaps_D078.csv",
+            "compare_within_deg": 1e-7},
         "membership": "a region is the union of its include rows minus its exclude rows; precedence 1 (own "
                       "geometry) wins over precedence 2 (GADM units). An own geometry takes the part of its outline on "
                       "the GADM units of the regions in clip_to, plus the part of geometry/land/<file> on no GADM unit "

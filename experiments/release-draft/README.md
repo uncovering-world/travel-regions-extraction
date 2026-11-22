@@ -38,3 +38,5 @@ An earlier run on Natural Earth's polygons alone had shown how far they were off
 ## What is not checked
 - No correspondence table: this is the first draft.
 - TYR's importer reads only the tree; binding by unit identifiers and own geometry need the importer changes listed in the [output-format proposal](../../docs/proposals/output-format.md).
+
+`overlaps_D078.py` (needs shapely ≥ 2.2 with GEOS ≥ 3.14; reads GADM directly, a few rows at a time) checks D078 / D079: it finds every piece two GADM 4.1 rows of different regions both draw, cleans each such pair as a coverage with the release's recipe (`substrate_cleaning` in the manifest: snapping 1e-7°, gap width 0, longest border) and counts what overlap is left, and lists in `release/overlaps_D078.csv` only the pieces wider than the snapping distance, with their holder. `release/overlaps_D078.json` gives the totals and the GEOS version. Our own render does not clean the substrate yet.
