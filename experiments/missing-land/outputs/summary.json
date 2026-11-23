@@ -1,0 +1,940 @@
+{
+ "min_km2": 0.01,
+ "parts_tested": 203744,
+ "missing_parts": 88219,
+ "missing_km2": 11903.395,
+ "missing_parts_near_points": 160,
+ "missing_over_1km2": 1187,
+ "by_country": {
+  "CAN": {
+   "parts": 26914,
+   "km2": 2645.037,
+   "near_points": 5
+  },
+  "IDN": {
+   "parts": 2466,
+   "km2": 1063.6207,
+   "near_points": 1
+  },
+  "GRL": {
+   "parts": 6645,
+   "km2": 1016.1014,
+   "near_points": 0
+  },
+  "RUS": {
+   "parts": 4930,
+   "km2": 837.6328,
+   "near_points": 19
+  },
+  "BGD": {
+   "parts": 195,
+   "km2": 637.401,
+   "near_points": 0
+  },
+  "NOR": {
+   "parts": 9838,
+   "km2": 434.1078,
+   "near_points": 30
+  },
+  "USA": {
+   "parts": 4268,
+   "km2": 425.4551,
+   "near_points": 9
+  },
+  "FIN": {
+   "parts": 8050,
+   "km2": 405.6525,
+   "near_points": 29
+  },
+  "CHL": {
+   "parts": 4856,
+   "km2": 363.4777,
+   "near_points": 0
+  },
+  "ZAF": {
+   "parts": 41,
+   "km2": 344.8425,
+   "near_points": 0
+  },
+  "PYF": {
+   "parts": 542,
+   "km2": 330.5572,
+   "near_points": 1
+  },
+  "CHN": {
+   "parts": 851,
+   "km2": 275.9411,
+   "near_points": 1
+  },
+  "ARG": {
+   "parts": 271,
+   "km2": 272.6476,
+   "near_points": 0
+  },
+  "XCS": {
+   "parts": 108,
+   "km2": 254.5029,
+   "near_points": 0
+  },
+  "AUS": {
+   "parts": 1928,
+   "km2": 235.037,
+   "near_points": 1
+  },
+  "SWE": {
+   "parts": 4717,
+   "km2": 176.3214,
+   "near_points": 17
+  },
+  "NZL": {
+   "parts": 576,
+   "km2": 140.4314,
+   "near_points": 0
+  },
+  "VNM": {
+   "parts": 463,
+   "km2": 125.6515,
+   "near_points": 4
+  },
+  "TKL": {
+   "parts": 17,
+   "km2": 97.1276,
+   "near_points": 0
+  },
+  "ARE": {
+   "parts": 166,
+   "km2": 95.0567,
+   "near_points": 0
+  },
+  "ATA": {
+   "parts": 9,
+   "km2": 94.4459,
+   "near_points": 0
+  },
+  "XSV": {
+   "parts": 408,
+   "km2": 94.1843,
+   "near_points": 0
+  },
+  "MMR": {
+   "parts": 255,
+   "km2": 93.0477,
+   "near_points": 0
+  },
+  "SYC": {
+   "parts": 26,
+   "km2": 84.4449,
+   "near_points": 0
+  },
+  "JPN": {
+   "parts": 433,
+   "km2": 79.8557,
+   "near_points": 24
+  },
+  "KOR": {
+   "parts": 623,
+   "km2": 77.8928,
+   "near_points": 7
+  },
+  "SGS": {
+   "parts": 60,
+   "km2": 77.6,
+   "near_points": 0
+  },
+  "MEX": {
+   "parts": 446,
+   "km2": 73.8914,
+   "near_points": 2
+  },
+  "PHL": {
+   "parts": 661,
+   "km2": 61.7412,
+   "near_points": 1
+  },
+  "YEM": {
+   "parts": 58,
+   "km2": 61.6256,
+   "near_points": 0
+  },
+  "IND": {
+   "parts": 262,
+   "km2": 48.3847,
+   "near_points": 1
+  },
+  "XXY": {
+   "parts": 2,
+   "km2": 47.9874,
+   "near_points": 0
+  },
+  "THA": {
+   "parts": 160,
+   "km2": 47.6915,
+   "near_points": 0
+  },
+  "FSM": {
+   "parts": 114,
+   "km2": 45.2039,
+   "near_points": 2
+  },
+  "MOZ": {
+   "parts": 189,
+   "km2": 44.9136,
+   "near_points": 0
+  },
+  "ISL": {
+   "parts": 861,
+   "km2": 44.8286,
+   "near_points": 1
+  },
+  "PAK": {
+   "parts": 41,
+   "km2": 38.869,
+   "near_points": 0
+  },
+  "MYS": {
+   "parts": 132,
+   "km2": 34.9471,
+   "near_points": 0
+  },
+  "PNG": {
+   "parts": 210,
+   "km2": 33.3266,
+   "near_points": 0
+  },
+  "COL": {
+   "parts": 131,
+   "km2": 32.5565,
+   "near_points": 1
+  },
+  "TZA": {
+   "parts": 69,
+   "km2": 31.0524,
+   "near_points": 0
+  },
+  "SAU": {
+   "parts": 169,
+   "km2": 28.8157,
+   "near_points": 0
+  },
+  "VUT": {
+   "parts": 5,
+   "km2": 28.2203,
+   "near_points": 0
+  },
+  "ERI": {
+   "parts": 81,
+   "km2": 25.0208,
+   "near_points": 0
+  },
+  "NLD": {
+   "parts": 33,
+   "km2": 22.0291,
+   "near_points": 0
+  },
+  "SLB": {
+   "parts": 105,
+   "km2": 21.8788,
+   "near_points": 0
+  },
+  "NIC": {
+   "parts": 48,
+   "km2": 21.7358,
+   "near_points": 0
+  },
+  "GBR": {
+   "parts": 439,
+   "km2": 15.2736,
+   "near_points": 2
+  },
+  "IRL": {
+   "parts": 292,
+   "km2": 13.6405,
+   "near_points": 1
+  },
+  "MHL": {
+   "parts": 238,
+   "km2": 13.2331,
+   "near_points": 0
+  },
+  "DNK": {
+   "parts": 141,
+   "km2": 12.1988,
+   "near_points": 1
+  },
+  "EGY": {
+   "parts": 49,
+   "km2": 11.6908,
+   "near_points": 0
+  },
+  "BRA": {
+   "parts": 113,
+   "km2": 11.4657,
+   "near_points": 1
+  },
+  "KEN": {
+   "parts": 21,
+   "km2": 11.3932,
+   "near_points": 0
+  },
+  "IRN": {
+   "parts": 62,
+   "km2": 10.6153,
+   "near_points": 0
+  },
+  "ECU": {
+   "parts": 57,
+   "km2": 10.4847,
+   "near_points": 0
+  },
+  "SOM": {
+   "parts": 30,
+   "km2": 10.0264,
+   "near_points": 0
+  },
+  "QAT": {
+   "parts": 24,
+   "km2": 8.9062,
+   "near_points": 0
+  },
+  "NCL": {
+   "parts": 51,
+   "km2": 8.6568,
+   "near_points": 0
+  },
+  "PRK": {
+   "parts": 98,
+   "km2": 8.6072,
+   "near_points": 0
+  },
+  "MDV": {
+   "parts": 161,
+   "km2": 7.8693,
+   "near_points": 0
+  },
+  "BHR": {
+   "parts": 43,
+   "km2": 7.5444,
+   "near_points": 2
+  },
+  "XXF": {
+   "parts": 2,
+   "km2": 7.5142,
+   "near_points": 0
+  },
+  "PER": {
+   "parts": 51,
+   "km2": 7.4704,
+   "near_points": 0
+  },
+  "FRA": {
+   "parts": 186,
+   "km2": 6.8573,
+   "near_points": 3
+  },
+  "PRT": {
+   "parts": 49,
+   "km2": 6.8382,
+   "near_points": 0
+  },
+  "ITA": {
+   "parts": 132,
+   "km2": 6.752,
+   "near_points": 24
+  },
+  "VEN": {
+   "parts": 80,
+   "km2": 6.5921,
+   "near_points": 0
+  },
+  "TWN": {
+   "parts": 39,
+   "km2": 6.4855,
+   "near_points": 1
+  },
+  "CUB": {
+   "parts": 244,
+   "km2": 6.3163,
+   "near_points": 0
+  },
+  "DEU": {
+   "parts": 79,
+   "km2": 5.2106,
+   "near_points": 2
+  },
+  "MRT": {
+   "parts": 20,
+   "km2": 5.0267,
+   "near_points": 0
+  },
+  "MDG": {
+   "parts": 80,
+   "km2": 4.9873,
+   "near_points": 0
+  },
+  "GRC": {
+   "parts": 181,
+   "km2": 4.9232,
+   "near_points": 4
+  },
+  "BHS": {
+   "parts": 188,
+   "km2": 4.7071,
+   "near_points": 1
+  },
+  "KWT": {
+   "parts": 11,
+   "km2": 4.5232,
+   "near_points": 0
+  },
+  "PAN": {
+   "parts": 134,
+   "km2": 4.517,
+   "near_points": 4
+  },
+  "XPR": {
+   "parts": 12,
+   "km2": 4.4939,
+   "near_points": 0
+  },
+  "KIR": {
+   "parts": 101,
+   "km2": 4.2145,
+   "near_points": 0
+  },
+  "XJV": {
+   "parts": 1,
+   "km2": 3.9994,
+   "near_points": 0
+  },
+  "ATF": {
+   "parts": 146,
+   "km2": 3.7908,
+   "near_points": 0
+  },
+  "XKR": {
+   "parts": 1,
+   "km2": 3.6952,
+   "near_points": 0
+  },
+  "Spain": {
+   "parts": 78,
+   "km2": 3.1107,
+   "near_points": 3
+  },
+  "LKA": {
+   "parts": 46,
+   "km2": 2.9233,
+   "near_points": 0
+  },
+  "CMR": {
+   "parts": 6,
+   "km2": 2.7943,
+   "near_points": 0
+  },
+  "SDN": {
+   "parts": 36,
+   "km2": 2.6788,
+   "near_points": 0
+  },
+  "TUN": {
+   "parts": 23,
+   "km2": 2.1814,
+   "near_points": 0
+  },
+  "HRV": {
+   "parts": 110,
+   "km2": 1.9335,
+   "near_points": 1
+  },
+  "CCK": {
+   "parts": 2,
+   "km2": 1.83,
+   "near_points": 0
+  },
+  "FLK": {
+   "parts": 83,
+   "km2": 1.7883,
+   "near_points": 0
+  },
+  "HND": {
+   "parts": 39,
+   "km2": 1.675,
+   "near_points": 0
+  },
+  "TUR": {
+   "parts": 62,
+   "km2": 1.6524,
+   "near_points": 1
+  },
+  "UKR": {
+   "parts": 35,
+   "km2": 1.5058,
+   "near_points": 0
+  },
+  "SGP": {
+   "parts": 9,
+   "km2": 1.4534,
+   "near_points": 0
+  },
+  "XSP": {
+   "parts": 12,
+   "km2": 1.4233,
+   "near_points": 0
+  },
+  "NGA": {
+   "parts": 11,
+   "km2": 1.3949,
+   "near_points": 0
+  },
+  "GAB": {
+   "parts": 9,
+   "km2": 1.3163,
+   "near_points": 0
+  },
+  "BRN": {
+   "parts": 4,
+   "km2": 1.3116,
+   "near_points": 0
+  },
+  "SLE": {
+   "parts": 20,
+   "km2": 1.2861,
+   "near_points": 0
+  },
+  "PCN": {
+   "parts": 3,
+   "km2": 1.2669,
+   "near_points": 0
+  },
+  "BLZ": {
+   "parts": 57,
+   "km2": 1.2504,
+   "near_points": 1
+  },
+  "KHM": {
+   "parts": 11,
+   "km2": 1.2487,
+   "near_points": 0
+  },
+  "URY": {
+   "parts": 14,
+   "km2": 1.2398,
+   "near_points": 0
+  },
+  "DJI": {
+   "parts": 13,
+   "km2": 1.1305,
+   "near_points": 0
+  },
+  "FJI": {
+   "parts": 38,
+   "km2": 1.0644,
+   "near_points": 0
+  },
+  "HKG": {
+   "parts": 35,
+   "km2": 1.0306,
+   "near_points": 0
+  },
+  "GNB": {
+   "parts": 13,
+   "km2": 0.9791,
+   "near_points": 0
+  },
+  "PRI": {
+   "parts": 16,
+   "km2": 0.9093,
+   "near_points": 0
+  },
+  "CRI": {
+   "parts": 15,
+   "km2": 0.8758,
+   "near_points": 0
+  },
+  "EST": {
+   "parts": 27,
+   "km2": 0.7764,
+   "near_points": 0
+  },
+  "AGO": {
+   "parts": 13,
+   "km2": 0.7471,
+   "near_points": 0
+  },
+  "COK": {
+   "parts": 22,
+   "km2": 0.7468,
+   "near_points": 0
+  },
+  "JAM": {
+   "parts": 12,
+   "km2": 0.7359,
+   "near_points": 0
+  },
+  "SEN": {
+   "parts": 10,
+   "km2": 0.7336,
+   "near_points": 0
+  },
+  "GIN": {
+   "parts": 10,
+   "km2": 0.7041,
+   "near_points": 0
+  },
+  "TON": {
+   "parts": 20,
+   "km2": 0.687,
+   "near_points": 0
+  },
+  "DOM": {
+   "parts": 14,
+   "km2": 0.674,
+   "near_points": 0
+  },
+  "DZA": {
+   "parts": 20,
+   "km2": 0.633,
+   "near_points": 1
+  },
+  "PLW": {
+   "parts": 13,
+   "km2": 0.5802,
+   "near_points": 0
+  },
+  "SUR": {
+   "parts": 5,
+   "km2": 0.5305,
+   "near_points": 0
+  },
+  "AIA": {
+   "parts": 7,
+   "km2": 0.4935,
+   "near_points": 0
+  },
+  "COG": {
+   "parts": 5,
+   "km2": 0.4804,
+   "near_points": 0
+  },
+  "NAM": {
+   "parts": 7,
+   "km2": 0.4423,
+   "near_points": 0
+  },
+  "MUS": {
+   "parts": 8,
+   "km2": 0.4183,
+   "near_points": 0
+  },
+  "LBN": {
+   "parts": 6,
+   "km2": 0.3991,
+   "near_points": 0
+  },
+  "MAR": {
+   "parts": 8,
+   "km2": 0.3838,
+   "near_points": 0
+  },
+  "GUF": {
+   "parts": 7,
+   "km2": 0.3708,
+   "near_points": 0
+  },
+  "GGY": {
+   "parts": 16,
+   "km2": 0.3638,
+   "near_points": 0
+  },
+  "LBR": {
+   "parts": 5,
+   "km2": 0.3181,
+   "near_points": 0
+  },
+  "TCA": {
+   "parts": 12,
+   "km2": 0.3171,
+   "near_points": 0
+  },
+  "OMN": {
+   "parts": 10,
+   "km2": 0.3149,
+   "near_points": 0
+  },
+  "HTI": {
+   "parts": 15,
+   "km2": 0.3138,
+   "near_points": 0
+  },
+  "ALB": {
+   "parts": 11,
+   "km2": 0.2973,
+   "near_points": 0
+  },
+  "ESP": {
+   "parts": 7,
+   "km2": 0.2411,
+   "near_points": 0
+  },
+  "GEO": {
+   "parts": 2,
+   "km2": 0.2296,
+   "near_points": 0
+  },
+  "ABW": {
+   "parts": 5,
+   "km2": 0.2232,
+   "near_points": 0
+  },
+  "COM": {
+   "parts": 3,
+   "km2": 0.1956,
+   "near_points": 0
+  },
+  "REU": {
+   "parts": 6,
+   "km2": 0.1773,
+   "near_points": 0
+  },
+  "GTM": {
+   "parts": 2,
+   "km2": 0.1756,
+   "near_points": 0
+  },
+  "JEY": {
+   "parts": 6,
+   "km2": 0.1724,
+   "near_points": 0
+  },
+  "MTQ": {
+   "parts": 6,
+   "km2": 0.1692,
+   "near_points": 0
+  },
+  "HMD": {
+   "parts": 6,
+   "km2": 0.1583,
+   "near_points": 0
+  },
+  "ASM": {
+   "parts": 3,
+   "km2": 0.1352,
+   "near_points": 0
+  },
+  "GNQ": {
+   "parts": 4,
+   "km2": 0.1255,
+   "near_points": 0
+  },
+  "LBY": {
+   "parts": 5,
+   "km2": 0.1203,
+   "near_points": 0
+  },
+  "SPM": {
+   "parts": 4,
+   "km2": 0.1195,
+   "near_points": 2
+  },
+  "BEN": {
+   "parts": 3,
+   "km2": 0.1175,
+   "near_points": 0
+  },
+  "GUM": {
+   "parts": 5,
+   "km2": 0.1163,
+   "near_points": 2
+  },
+  "CYP": {
+   "parts": 2,
+   "km2": 0.1123,
+   "near_points": 0
+  },
+  "TTO": {
+   "parts": 4,
+   "km2": 0.1099,
+   "near_points": 0
+  },
+  "GLP": {
+   "parts": 4,
+   "km2": 0.1038,
+   "near_points": 0
+  },
+  "GRD": {
+   "parts": 5,
+   "km2": 0.0972,
+   "near_points": 0
+  },
+  "GHA": {
+   "parts": 4,
+   "km2": 0.0826,
+   "near_points": 0
+  },
+  "VIR": {
+   "parts": 4,
+   "km2": 0.0797,
+   "near_points": 0
+  },
+  "GMB": {
+   "parts": 3,
+   "km2": 0.074,
+   "near_points": 0
+  },
+  "IMN": {
+   "parts": 2,
+   "km2": 0.0735,
+   "near_points": 0
+  },
+  "GUY": {
+   "parts": 3,
+   "km2": 0.0729,
+   "near_points": 0
+  },
+  "MYT": {
+   "parts": 4,
+   "km2": 0.0699,
+   "near_points": 0
+  },
+  "SLV": {
+   "parts": 1,
+   "km2": 0.0687,
+   "near_points": 0
+  },
+  "CYM": {
+   "parts": 2,
+   "km2": 0.0661,
+   "near_points": 0
+  },
+  "ROU": {
+   "parts": 1,
+   "km2": 0.0659,
+   "near_points": 0
+  },
+  "XPL": {
+   "parts": 3,
+   "km2": 0.0647,
+   "near_points": 0
+  },
+  "VCT": {
+   "parts": 3,
+   "km2": 0.0639,
+   "near_points": 0
+  },
+  "LCA": {
+   "parts": 3,
+   "km2": 0.0635,
+   "near_points": 0
+  },
+  "XXN": {
+   "parts": 2,
+   "km2": 0.0529,
+   "near_points": 0
+  },
+  "MNP": {
+   "parts": 2,
+   "km2": 0.0522,
+   "near_points": 0
+  },
+  "CPV": {
+   "parts": 3,
+   "km2": 0.0477,
+   "near_points": 0
+  },
+  "BLM": {
+   "parts": 2,
+   "km2": 0.0461,
+   "near_points": 0
+  },
+  "TUV": {
+   "parts": 2,
+   "km2": 0.0403,
+   "near_points": 0
+  },
+  "XQQ": {
+   "parts": 1,
+   "km2": 0.0377,
+   "near_points": 0
+  },
+  "LTU": {
+   "parts": 2,
+   "km2": 0.0327,
+   "near_points": 0
+  },
+  "WSM": {
+   "parts": 2,
+   "km2": 0.0325,
+   "near_points": 0
+  },
+  "POL": {
+   "parts": 1,
+   "km2": 0.0291,
+   "near_points": 1
+  },
+  "WLF": {
+   "parts": 2,
+   "km2": 0.0281,
+   "near_points": 0
+  },
+  "LVA": {
+   "parts": 2,
+   "km2": 0.028,
+   "near_points": 0
+  },
+  "BGR": {
+   "parts": 2,
+   "km2": 0.0264,
+   "near_points": 0
+  },
+  "MAF": {
+   "parts": 1,
+   "km2": 0.0259,
+   "near_points": 0
+  },
+  "BEL": {
+   "parts": 1,
+   "km2": 0.0245,
+   "near_points": 1
+  },
+  "XAC": {
+   "parts": 1,
+   "km2": 0.0202,
+   "near_points": 0
+  },
+  "CUW": {
+   "parts": 1,
+   "km2": 0.0199,
+   "near_points": 0
+  },
+  "TLS": {
+   "parts": 1,
+   "km2": 0.0192,
+   "near_points": 0
+  },
+  "SYR": {
+   "parts": 1,
+   "km2": 0.016,
+   "near_points": 0
+  },
+  "NFK": {
+   "parts": 1,
+   "km2": 0.015,
+   "near_points": 0
+  },
+  "XAA": {
+   "parts": 1,
+   "km2": 0.0119,
+   "near_points": 0
+  },
+  "ATG": {
+   "parts": 1,
+   "km2": 0.0117,
+   "near_points": 0
+  }
+ },
+ "inputs": {
+  "WorldPolygons11_4.gpkg": "55fab422ef09e35eb48d68141b9ece0ace86d4276dfe332a04dfd401c0bfc80c",
+  "points": "750558cefb2ad96d6e85bf186cc57ada886c0fd817e89b154ea72cefa2d0f7d3",
+  "gadm_410.gpkg size": 2759749632
+ }
+}
