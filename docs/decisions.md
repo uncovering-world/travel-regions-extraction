@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.12-draft. Date: 2026-11-23. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.13-draft. Date: 2026-11-23. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -764,7 +764,7 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 
 - Decision: land that the pinned land source draws (World Polygons 11.4, the source of `geometry/land/`) and that no substrate unit and no own geometry covers goes, piece by piece, to the region with which it shares the longest border. A piece that borders no region (an island) goes to the region that the land source's country code for it maps to. A piece that cannot be matched to a region this way is listed in the release for a decision by hand. This is the general form of D074 (4): such land is always added, by this rule instead of one own geometry at a time.
 - Rationale: the [missing-land experiment](../experiments/missing-land/README.md) (2026-11-23) found 88,219 pieces of land, 11,903 km² in all, that World Polygons draws and GADM 4.1 does not: 1,187 of them over 1 km², 160 within 1 km of a catalogue point. Much of it is coastline the two sources draw differently (harbours and reclaimed land in Venice, Helsinki, Trieste), the rest islands (Fatu Hiva, Chichijima). Added by hand one at a time, most of it would stay in no region and a traveller's pin there would count nowhere, which D074 and V001 forbid. The longest border is the fallback D073 and D078 already use.
-- Rules: R064.
+- Rules: R064 (amended by D083).
 - Counterarguments: the longest border is geometry, not a fact about whose the land is; for a coastal strip it is almost always right, for an island near a border it may not be. The land source's country codes follow one government's view (the US Department of State's); a code it gives to a disputed or unclaimed feature may map to no region, or to the wrong one under another point of view, so such pieces go to the hand list rather than being guessed. A piece that a party's sourced claim attributes differently is still decided by the register (R047), which comes first.
 - Status: accepted.
 - Basis: owner decision in the conversation of 2026-11-23 ("Давай"), on the proposal put after the missing-land experiment.
@@ -777,3 +777,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: the second pass is equal to one window only where a seam's influence does not spread beyond the neighbours of seam units; at a 1e-7° snap that holds in TYR's measurement but is not proved in general. Results are still compared within the snapping distance, never byte for byte (D079).
 - Status: accepted.
 - Basis: owner decision in the conversation of 2026-11-23 ("Разрешаю"), on TYR's proposal after its round-13 measurement.
+
+### D083 — Land the substrate does not draw is added only in pieces of at least 0.01 km²
+
+- Decision: amends D081. A piece of land under D081 smaller than 0.01 km² is not added. It stays land no region holds, and the consumer's nearest-region rule places a point there. The floor is by area alone; it does not depend on the consumer's catalogue. R060's within-1-km test stays a check in the release report, flagging a piece near a catalogue point, not a selection rule.
+- Rationale: the full difference between World Polygons 11.4 and GADM 4.1 is mostly the same coast drawn twice. A whole-Ireland sample (11–5° W, 51–56° N, 2026-11-23) gave 17,685 pieces and 18.5 MB of geometry; pieces under 0.01 km² were 79% of them and 7% of the area, and no catalogue point fell in any piece under 1 km². World-wide the full difference would be millions of pieces and several GB. A floor that kept pieces near catalogue points was rejected on TYR's objection: it would make the release depend on a catalogue that grows weekly. A sliver under the floor borders the region it would have gone to, so the nearest region is in practice the same region.
+- Rules: R064 (amended).
+- Counterarguments: an islet under 0.01 km² (about 100 m by 100 m) near an international border may be nearer to the other country's unit than to its own; there the nearest-region rule gives the wrong country. The release report lists the pieces under the floor near catalogue points, so such a case is seen and can be fixed by an own geometry. The value 0.01 km² is judgement on one sample.
+- Status: accepted.
+- Basis: owner decision in the conversation of 2026-11-23 ("если это не создаст проблем нигде, то ок"), on the proposal revised after TYR's objection.

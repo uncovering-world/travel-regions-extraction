@@ -4,7 +4,7 @@
 Land source: World Polygons 11.4 (layer DoS_WP_11_4, pinned in data/custom-geometries/sources.json). Substrate:
 GADM 4.1. Every World Polygons part (a large part cut into 1-degree tiles) minus the GADM units and own land files
 that meet it leaves pieces of land no unit draws. A piece narrower than D079's snapping distance is the same line
-drawn twice and is dropped. Pieces cut by a tile edge are joined again. Each piece goes to the region with which it
+drawn twice and is dropped; a piece smaller than FLOOR_KM2 is not added (D083) and is counted in the summary. Pieces cut by a tile edge are joined again. Each piece goes to the region with which it
 shares the longest border; a piece that borders no region takes the region its World Polygons country code (GENC_3,
 which is GADM's GID_0 for the same country) maps to in membership.csv; the rest are listed for a decision by hand.
 
@@ -40,6 +40,7 @@ WP = REPO / "data" / "custom-geometries" / "cache" / "WorldPolygons11_4.gpkg"
 SNAP = 1e-7   # D079's snapping distance, degrees
 EDGE = 1e-7   # how close a piece's edge must run to a neighbour's boundary to count as a shared border
 TILE = 1.0    # degrees
+FLOOR_KM2 = 0.01  # D083: a piece smaller than this is not added; the consumer's nearest-region rule takes it
 GEOD = Geod(ellps="WGS84")
 
 
@@ -198,6 +199,11 @@ def main() -> None:
     for c, ps in sorted(by_country.items(), key=lambda kv: str(kv[0])):
         pieces += [(p, c) for p in polygons(shapely.union_all(ps))]
     print(f"{len(pieces)} pieces after joining tiles, {time.time() - t0:.0f} s", flush=True)
+    # D083: the floor
+    sized = [(p, c, km2(p)) for p, c in pieces]
+    below = [a for _, _, a in sized if a < FLOOR_KM2]
+    pieces = [(p, c) for p, c, a in sized if a >= FLOOR_KM2]
+    print(f"{len(pieces)} pieces at or above {FLOOR_KM2} km2 ({len(below)} below, {sum(below):.3f} km2)", flush=True)
 
     # assign each piece (D081); the finest GADM unit it attaches to, within its region, by the same rule
     def gid(fid):
@@ -295,7 +301,9 @@ def main() -> None:
         sizes["<0.001" if a < 0.001 else "<0.01" if a < 0.01 else "<0.1" if a < 0.1 else "<1" if a < 1
               else "<10" if a < 10 else ">=10"] += 1
     features = sorted({r["region_id"] for r in rows if r["region_id"]})
-    summary = {"bbox": args.bbox, "wp_parts": parts_seen, "pieces": len(pieces), "by_basis": dict(sorted(how.items())),
+    summary = {"bbox": args.bbox, "wp_parts": parts_seen, "pieces": len(pieces),
+               "below_floor": {"floor_km2": FLOOR_KM2, "pieces": len(below), "km2": round(sum(below), 3)},
+               "by_basis": dict(sorted(how.items())),
                "regions_gaining_land": len(features),
                "added_km2": round(sum(r["area_km2"] for r in rows if r["region_id"]), 3),
                "undecided_km2": round(sum(r["area_km2"] for r in rows if not r["region_id"]), 3),
