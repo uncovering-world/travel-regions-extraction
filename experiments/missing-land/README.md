@@ -37,7 +37,7 @@ Run of 2026-11-23 (`outputs/summary.json`). Of 203,744 World Polygons parts of a
 | 1 to 10 | 1,072 |
 | 10 and more | 115 |
 
-The most land is in Canada (2,645 km², 26,914 parts, mostly small Arctic islands), Indonesia (1,064), Greenland (1,016), Russia (838), Bangladesh (637, coastal chars), Norway, the United States, Finland and Chile. The largest single pieces: the Prince Edward Islands (South Africa, 297 km²), Enggano (Indonesia, 246 km² uncovered), Bangladesh's coastal chars, Valdés-area coast of Argentina, Tokelau's atolls, Fatu Hiva (83 km²), Chichijima (24 km²).
+The most land is in Canada (2,645 km², 26,914 parts, mostly small Arctic islands), Indonesia (1,064), Greenland (1,016), Russia (838), Bangladesh (637), Norway, the United States, Finland and Chile. The largest single pieces, by World Polygons country and a point inside: South Africa at 37.75° E 46.90° S (297 km²), Indonesia at 102.25° E 5.41° S (246 km² uncovered), Bangladesh at 91.35° E 22.52° N (234 km²), Argentina at 62.08° W 40.48° S (146 km²), China at 118.52° E 38.98° N (120 km²), Tokelau (97 km²); the catalogue names Fatu Hiva (83 km²) and Chichijima (24 km²). Which islands these are is not checked here.
 
 160 parts (161 km²) lie within 1 km of a catalogue point. Most of them are not islands but harbour and reclaimed coast that World Polygons draws and GADM's coastline leaves out (Venice, Trieste, Helsinki, Karlskrona, Tromsø, Stavanger, Panama City's old town); the rest are islands (Fatu Hiva, Chichijima, Small Zayatsky in the Solovetsky Islands, Bahrain's reclaimed land).
 
