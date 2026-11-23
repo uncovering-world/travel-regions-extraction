@@ -1,10 +1,10 @@
 # Status
 
-Updated: 2026-11-21.
+Updated: 2026-11-23.
 
 ## Focus
 
-A first Stage 1 release of the canon for Track Your Regions. The rules for Stage 1 are decided (D038–D080 in [decisions.md](decisions.md), R045–R063 in [spec.md](spec.md)); the [draft release package](../experiments/release-draft/README.md) is built from them and can be inspected on a local map ([tools/map-viewer](../tools/map-viewer/)). Stage 2 comes after the first release (#28).
+A first Stage 1 release of the canon for Track Your Regions. The rules for Stage 1 are decided (D038–D081 in [decisions.md](decisions.md), R045–R064 in [spec.md](spec.md)); the [draft release package](../experiments/release-draft/README.md) is built from them and can be inspected on a local map ([tools/map-viewer](../tools/map-viewer/)). Stage 2 comes after the first release (#28).
 
 Track Your Regions now works with the canon directly: its session for the revised catalogue model (TYR #2634) sends requests and defects by cross-session message. Its list of requests is local to TYR (`docs/local/research/2634-method/v9/canon-requests.md` in that repository). TYR has adopted D049: a trip's date picks the release of its year, so no dated attribution periods are needed. Catalogue points for R060 are a read-only snapshot under `~/tyr-exports/`; OSM extracts come from the dev stack's keeper (the Syncer session), one batched request per planet pass.
 
@@ -24,6 +24,7 @@ Track Your Regions now works with the canon directly: its session for the revise
 - D076 / R062 adopted: every region has a `common_name` (CLDR 48 for coded regions, Wikipedia titles for descriptive area names; TYR request 23).
 - D077 amends R062: where the CLDR plain name has a qualifier ("SAR", " - "), the short or variant form is used — Hong Kong, Macao, Congo (DRC), Congo (Republic); D080 adds a bracketed second name at the end (Myanmar).
 - D078 / R063 adopted (TYR request 33): ground two GADM units of different regions both draw goes to the region with the longer shared border; amended by D079: the substrate is cleaned as a coverage (snap 1e-7°, longest border, gap 0) and the release states the recipe; on GADM 4.1 all 2,353 strips are sub-millimetre lenses that snapping removes. Our own render does not clean yet.
+- D081 / R064 adopted (2026-11-23): land World Polygons 11.4 draws and GADM 4.1 does not goes to the region it borders longest, else to the region of its World Polygons country code; unmatched pieces are listed. The [missing-land experiment](../experiments/missing-land/README.md) found 88,219 such pieces, 11,903 km². Not yet built into the release draft.
 - Release format: cut-off points at 7 decimals; `geometry/` rebuilt from scratch with a per-file `sources.csv`; `manifest.json` `status` is `draft` or `release`.
 
 ## Waiting for the owner
@@ -37,7 +38,7 @@ Track Your Regions now works with the canon directly: its session for the revise
 - TYR requests: done on 2026-11-22 — 20 (`no_country_basis`), 11 lease part (`lessee`, `lease_until`), 33 (D078/D079, substrate cleaning), 34 (cut-off points inside their piece), 35 (a holder for every licence). Open: 22 (Stage 1 cells as rows, a `stage1_cell` column at Stage 2), 6 (keys for reused codes), the rest of 11 (D049's lapsed-rule mark and D043 (5)'s fighting flag have no computed facts yet). TYR will measure a world-wide `ST_CoverageClean` window on GADM 4.1.
 
 - Release draft (#22), open items:
-  - islands GADM 4.1 does not draw: Chichijima and the Ogasawara Islands, Fatu Hiva, Rocas Atoll, Malpelo and San Pedro Mártir are in the pinned World Polygons 11.4; Japan's MLIT N03 would be rank 1 for Ogasawara; Roca Partida needs another source;
+  - build D081 (land GADM 4.1 does not draw) into the release draft; Roca Partida is not in World Polygons and needs another source;
   - Western Sahara under Morocco's view (needs Morocco's claim to the whole territory as a sourced register fact);
   - Hans Island (is the 2022 agreement in force?): the Folketing consented on 19 December 2023 (ft.dk, B 14, 2023-24 session, timetable; read through en.wikipedia Hans Island, revision 1386274128, 2026-11-22); Greenland's Inatsisartut approved it on 31 May 2023 (naalakkersuisut.gl); Canada's ratification and the date of entry into force are not found (Global Affairs Canada's treaty database was unavailable on 2026-11-22). Uninhabited, 1.3 km²: kept with GL until entry into force is confirmed;
   - Vélez de la Gomera and the Chafarinas (D045: own geometries into ES);

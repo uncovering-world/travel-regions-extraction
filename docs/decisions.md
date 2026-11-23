@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.10-draft. Date: 2026-11-22. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.11-draft. Date: 2026-11-23. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -759,3 +759,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: a bracketed suffix could some day carry the main name rather than an alias; CLDR is pinned by version, so a new case shows up as a diff on upgrade.
 - Status: accepted.
 - Basis: owner decision in the conversation of 2026-11-22 ("Как хочешь, как правильно и как реально это сделать формально"), on the question whether to shorten "Myanmar (Burma)".
+
+### D081 — Land the substrate does not draw goes to the region it borders longest, else to its land source's country
+
+- Decision: land that the pinned land source draws (World Polygons 11.4, the source of `geometry/land/`) and that no substrate unit and no own geometry covers goes, piece by piece, to the region with which it shares the longest border. A piece that borders no region (an island) goes to the region that the land source's country code for it maps to. A piece that cannot be matched to a region this way is listed in the release for a decision by hand. This is the general form of D074 (4): such land is always added, by this rule instead of one own geometry at a time.
+- Rationale: the [missing-land experiment](../experiments/missing-land/README.md) (2026-11-23) found 88,219 pieces of land, 11,903 km² in all, that World Polygons draws and GADM 4.1 does not: 1,187 of them over 1 km², 160 within 1 km of a catalogue point. Much of it is coastline the two sources draw differently (harbours and reclaimed land in Venice, Helsinki, Trieste), the rest islands (Fatu Hiva, Chichijima). Added by hand one at a time, most of it would stay in no region and a traveller's pin there would count nowhere, which D074 and V001 forbid. The longest border is the fallback D073 and D078 already use.
+- Rules: R064.
+- Counterarguments: the longest border is geometry, not a fact about whose the land is; for a coastal strip it is almost always right, for an island near a border it may not be. The land source's country codes follow one government's view (the US Department of State's); a code it gives to a disputed or unclaimed feature may map to no region, or to the wrong one under another point of view, so such pieces go to the hand list rather than being guessed. A piece that a party's sourced claim attributes differently is still decided by the register (R047), which comes first.
+- Status: accepted.
+- Basis: owner decision in the conversation of 2026-11-23 ("Давай"), on the proposal put after the missing-land experiment.
