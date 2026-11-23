@@ -16,3 +16,5 @@ CLAUDE.local.md
 # Register downloads are refetched by refresh_machine.py
 data/disputed-areas/cache/
 data/entry-rules/cache/
+experiments/release-draft/release/added_land_D081.geojson
+experiments/release-draft/release/added_land_D081.csv

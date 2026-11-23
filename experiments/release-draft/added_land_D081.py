@@ -239,6 +239,25 @@ def main() -> None:
                 return min(near)[1]
         return None
 
+    # World Polygons codes that are not GADM GID_0 codes, mapped by hand with evidence (inputs/added_land_codes.csv);
+    # keyed by code, and the piece must lie in that World Polygons feature (two features have no code: Spain and the
+    # Caspian Sea)
+    wp_codes = {}
+    for d in csv.DictReader((ROOT / "inputs" / "added_land_codes.csv").open()):
+        blob, name = wp.execute("select geom, WP_Name from DoS_WP_11_4 where fid = ?", (int(d["wp_fid"]),)).fetchone()
+        if name != d["wp_name"]:
+            raise SystemExit(f"inputs/added_land_codes.csv: feature {d['wp_fid']} is {name!r}, not {d['wp_name']!r}")
+        feature = gpkg_geometry(blob)
+        shapely.prepare(feature)
+        wp_codes[d["genc_3"] or None] = (d["region_id"], feature, f"{d['genc_3'] or d['wp_name']} (hand map)")
+
+    def code_region(c, p):
+        if c in region_of_country:
+            return region_of_country[c], "country_code", c
+        if c in wp_codes and wp_codes[c][1].intersects(p.representative_point()):
+            return wp_codes[c][0], "country_code", wp_codes[c][2]
+        return None
+
     rows, how = [], defaultdict(int)
     for k, (wkb, c) in enumerate(pieces):
         p = shapely.from_wkb(wkb)
@@ -274,8 +293,8 @@ def main() -> None:
             holder, basis, decided_by = best[0][0], "longest_border", f"{best[0][1]:.1f} m"
             mine = sorted(((m, f) for f, m in unit_border.items() if region_of[f] == holder), reverse=True)
             ufid = mine[0][1] if mine else None
-        elif not best and c in region_of_country:
-            holder, basis, decided_by = region_of_country[c], "country_code", c
+        elif not best and code_region(c, p):
+            holder, basis, decided_by = code_region(c, p)
             ufid = nearest_unit(p, holder)
         else:
             holder, basis = "", "undecided"
