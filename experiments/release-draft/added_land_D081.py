@@ -20,13 +20,15 @@ Run from the repository root (heavy: run niced, under the shared lock):
 """
 import argparse
 import csv
+import gc
 import hashlib
 import json
 import math
 import os
+import pickle
 import sqlite3
 import time
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import shapely
@@ -135,6 +137,8 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--bbox", help="only World Polygons land in minx,miny,maxx,maxy (a sample run)")
     ap.add_argument("--out-suffix", default="")
+    ap.add_argument("--reuse-pieces", action="store_true",
+                    help="skip the cut and reuse cache/added_land_pieces<suffix>.pkl from the last run")
     args = ap.parse_args()
     clip_box = box(*map(float, args.bbox.split(","))) if args.bbox else None
     t0 = time.time()
@@ -149,7 +153,7 @@ def main() -> None:
 
     def unit(fid):
         if fid not in cache:
-            if len(cache) > 5000:
+            if len(cache) > 1500:
                 cache.clear()
             cache[fid] = shapely.make_valid(gpkg_geometry(
                 gadm.execute("select geom from gadm_410 where fid = ?", (fid,)).fetchone()[0]))
@@ -172,38 +176,55 @@ def main() -> None:
         cover = [c for c in (clipped(u, part.bounds) for u in cover) if not c.is_empty and c.intersects(part)]
         return shapely.difference(part, shapely.union_all(cover)) if cover else part
 
-    pieces, edge_pieces = [], []   # (geometry, genc_3)
-    parts_seen = 0
-    for fid, blob, genc3 in wp.execute("select fid, geom, GENC_3 from DoS_WP_11_4 order by fid"):
-        g = gpkg_geometry(blob)
-        for part in polygons(g):
-            if clip_box is not None:
-                if not part.intersects(clip_box):
-                    continue
-                part = shapely.intersection(part, clip_box)
-                if part.is_empty:
-                    continue
-            parts_seen += 1
-            tiles = [(t, len(t_list) > 1) for t_list in [split(part)] for t in t_list]
-            for piece_src, tiled in tiles:
-                for p in polygons(uncovered(piece_src)):
-                    if shapely.buffer(p, -SNAP / 2).is_empty:
-                        continue   # narrower than the snapping distance: one line drawn twice
-                    (edge_pieces if tiled else pieces).append((p, genc3))
-        print(f"wp fid {fid}: {len(pieces)} pieces, {len(edge_pieces)} tiled, {time.time() - t0:.0f} s", flush=True)
+    # the cut; pieces are kept as WKB to save memory, and saved so a failed assignment does not redo the cut
+    store = ROOT / "cache" / f"added_land_pieces{args.out_suffix}.pkl"
+    if args.reuse_pieces:
+        pieces, below_n, below_km2, parts_seen = pickle.loads(store.read_bytes())
+    else:
+        pieces, edge_pieces = [], defaultdict(list)   # pieces: (wkb, genc_3); edge_pieces: genc_3 -> [wkb]
+        below_n, below_km2, parts_seen = 0, 0.0, 0
 
-    # join pieces a tile edge cut, within one World Polygons country
-    by_country = defaultdict(list)
-    for p, c in edge_pieces:
-        by_country[c].append(p)
-    for c, ps in sorted(by_country.items(), key=lambda kv: str(kv[0])):
-        pieces += [(p, c) for p in polygons(shapely.union_all(ps))]
-    print(f"{len(pieces)} pieces after joining tiles, {time.time() - t0:.0f} s", flush=True)
-    # D083: the floor
-    sized = [(p, c, km2(p)) for p, c in pieces]
-    below = [a for _, _, a in sized if a < FLOOR_KM2]
-    pieces = [(p, c) for p, c, a in sized if a >= FLOOR_KM2]
-    print(f"{len(pieces)} pieces at or above {FLOOR_KM2} km2 ({len(below)} below, {sum(below):.3f} km2)", flush=True)
+        def keep(p, c):
+            nonlocal below_n, below_km2
+            a = km2(p)
+            if a < FLOOR_KM2:   # D083: the floor
+                below_n += 1
+                below_km2 += a
+            else:
+                pieces.append((shapely.to_wkb(p), c))
+
+        for fid, blob, genc3 in wp.execute("select fid, geom, GENC_3 from DoS_WP_11_4 order by fid"):
+            g = gpkg_geometry(blob)
+            for part in polygons(g):
+                if clip_box is not None:
+                    if not part.intersects(clip_box):
+                        continue
+                    part = shapely.intersection(part, clip_box)
+                    if part.is_empty:
+                        continue
+                parts_seen += 1
+                tiles = split(part)
+                for piece_src in tiles:
+                    for p in polygons(uncovered(piece_src)):
+                        if shapely.buffer(p, -SNAP / 2).is_empty:
+                            continue   # narrower than the snapping distance: one line drawn twice
+                        if len(tiles) > 1:
+                            edge_pieces[genc3].append(shapely.to_wkb(p))
+                        else:
+                            keep(p, genc3)
+            del g
+            print(f"wp fid {fid}: {len(pieces)} pieces kept, {below_n} below the floor, "
+                  f"{sum(map(len, edge_pieces.values()))} tiled, {time.time() - t0:.0f} s", flush=True)
+        # join pieces a tile edge cut, within one World Polygons country
+        for c in sorted(edge_pieces, key=str):
+            for p in polygons(shapely.union_all(shapely.from_wkb(edge_pieces.pop(c)))):
+                keep(p, c)
+        del edge_pieces
+        store.parent.mkdir(exist_ok=True)
+        store.write_bytes(pickle.dumps((pieces, below_n, below_km2, parts_seen)))
+    gc.collect()
+    print(f"{len(pieces)} pieces at or above {FLOOR_KM2} km2 ({below_n} below, {below_km2:.3f} km2), "
+          f"{time.time() - t0:.0f} s", flush=True)
 
     # assign each piece (D081); the finest GADM unit it attaches to, within its region, by the same rule
     def gid(fid):
@@ -219,7 +240,10 @@ def main() -> None:
         return None
 
     rows, how = [], defaultdict(int)
-    for p, c in pieces:
+    for k, (wkb, c) in enumerate(pieces):
+        p = shapely.from_wkb(wkb)
+        if k % 20000 == 0:
+            print(f"assigned {k}, {time.time() - t0:.0f} s", flush=True)
         lat = p.representative_point().y
         edge = p.boundary
         near = edge.buffer(EDGE)
@@ -260,16 +284,17 @@ def main() -> None:
         x, y = inner_point(p)
         rows.append({"piece_id": f"wp{c or 'none'}-{x:.7f}_{y:.7f}", "region_id": holder, "basis": basis,
                      "decided_by": decided_by, "gadm_unit": gid(ufid) if ufid else "",
-                     "wp_genc_3": c or "", "lon": x, "lat": y, "area_km2": round(km2(p), 6), "geometry": p})
+                     "wp_genc_3": c or "", "lon": x, "lat": y, "area_km2": round(km2(p), 6), "geometry": wkb})
     rows.sort(key=lambda r: r["piece_id"])
     ids = [r["piece_id"] for r in rows]
     if len(set(ids)) != len(ids):
-        raise SystemExit("piece_id is not unique: " + ", ".join(sorted({i for i in ids if ids.count(i) > 1})[:10]))
+        raise SystemExit("piece_id is not unique: " + ", ".join(sorted(i for i, n in Counter(ids).items() if n > 1)[:10]))
 
     # hand decisions (inputs/added_land_hand.csv), keyed by World Polygons code and a point, not by piece_id: a new
     # edition changes the piece and its id, and the point finds the piece again. A point in no piece fails the build.
-    tree = shapely.STRtree([r["geometry"] for r in rows])
-    for d in csv.DictReader((ROOT / "inputs" / "added_land_hand.csv").open()):
+    decisions = list(csv.DictReader((ROOT / "inputs" / "added_land_hand.csv").open()))
+    tree = shapely.STRtree(shapely.from_wkb([r["geometry"] for r in rows])) if decisions else None
+    for d in decisions:
         pt = shapely.Point(float(d["lon"]), float(d["lat"]))
         hit = [rows[i] for i in tree.query(pt, predicate="intersects") if rows[i]["wp_genc_3"] == d["wp_genc_3"]]
         if len(hit) != 1:
@@ -288,7 +313,7 @@ def main() -> None:
                 % (json.dumps(source), json.dumps(licence)))
         for k, r in enumerate(rows):
             feat = {"type": "Feature", "properties": {k2: r[k2] for k2 in fields},
-                    "geometry": mapping(shapely.set_precision(r["geometry"], 1e-9))}
+                    "geometry": mapping(shapely.set_precision(shapely.from_wkb(r["geometry"]), 1e-9))}
             f.write(("," if k else "") + json.dumps(feat, separators=(",", ":"), ensure_ascii=False) + "\n")
         f.write("]}\n")
     with (out / f"added_land_D081{args.out_suffix}.csv").open("w", encoding="utf-8", newline="") as f:
@@ -302,7 +327,7 @@ def main() -> None:
               else "<10" if a < 10 else ">=10"] += 1
     features = sorted({r["region_id"] for r in rows if r["region_id"]})
     summary = {"bbox": args.bbox, "wp_parts": parts_seen, "pieces": len(pieces),
-               "below_floor": {"floor_km2": FLOOR_KM2, "pieces": len(below), "km2": round(sum(below), 3)},
+               "below_floor": {"floor_km2": FLOOR_KM2, "pieces": below_n, "km2": round(below_km2, 3)},
                "by_basis": dict(sorted(how.items())),
                "regions_gaining_land": len(features),
                "added_km2": round(sum(r["area_km2"] for r in rows if r["region_id"]), 3),
