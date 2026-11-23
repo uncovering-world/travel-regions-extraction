@@ -4,3 +4,4 @@ wp_fid,wp_name,genc_3,region_id,evidence
 228,Paracel Islands,XPR,area/paracel-islands,"World Polygons 11.4 feature 228 'Paracel Islands'; the register's area of the same name (data/disputed-areas), a region of the canon"
 273,Spain,,ES,"World Polygons 11.4 feature 273 'Spain' has no GENC_3 value; ISO 3166-1 ES 'Spain'"
 279,Svalbard,XSV,SJ,"World Polygons 11.4 feature 279 'Svalbard'; ISO 3166-1 SJ 'Svalbard and Jan Mayen' (iso-codes 4.20.1); Jan Mayen is the canon's rule/sj-jan-mayen, Svalbard stays SJ"
+69,Coral Sea Islands,XCS,AU,"World Polygons 11.4 feature 69 'Coral Sea Islands' (DOS_Long 'Coral Sea Islands Territory', US_Recog 'Dependency or Area of Special Sovereignty'), WP_PAR_ID 1f959630-f4f3-446e-8aeb-28c0fb371d52 = feature 'Australia' (AUS); GADM 4.1 files 'Coral Sea Islands Territory' as AUS.3_1 under AUS, the canon's region AU"
