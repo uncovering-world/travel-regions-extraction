@@ -33,7 +33,7 @@
    "url": "https://data.humdata.org/dataset/3ee95199-2dfe-40fc-b9bd-b44cc8c91024/resource/e5f2125c-d2aa-49ee-a7d1-1fa27fb030df/download/geo_admin_boundaries.geojson.zip",
    "cache_file": "geo_admin_boundaries.geojson.zip",
    "sha256": "a746ea99257e3e949eb519c01fd4423464ab0236471e8e671358ec0329a0bc73",
-   "publisher": "National Statistics Office of Georgia, via OCHA's COD-AB on HDX (dataset cod-ab-geo; 'modifications by OCHA')",
+   "publisher": "National Statistics Office of Georgia, via OCHA's COD-AB on HDX (dataset cod-ab-geo, 'modifications by OCHA')",
    "version": "COD-AB Georgia v01, valid_on 2019-10-18; HDX resource last_modified 2026-01-26",
    "licence": "CC BY-IGO (HDX license_title)",
    "retrieved": "2026-10-04"
@@ -2012,7 +2012,7 @@
    "donors": "GE",
    "rank": 1,
    "whose_line": "Georgia's official administrative unit 'Provisional Administration' (დროებითი ადმინისტრაცია, adm1 GE48)",
-   "publisher": "National Statistics Office of Georgia, via OCHA's COD-AB on HDX (cod-ab-geo; 'modifications by OCHA')",
+   "publisher": "National Statistics Office of Georgia, via OCHA's COD-AB on HDX (cod-ab-geo, 'modifications by OCHA')",
    "source_url": "https://data.humdata.org/dataset/3ee95199-2dfe-40fc-b9bd-b44cc8c91024/resource/e5f2125c-d2aa-49ee-a7d1-1fa27fb030df/download/geo_admin_boundaries.geojson.zip",
    "version_or_date": "COD-AB Georgia v01, valid_on 2019-10-18; HDX resource last_modified 2026-01-26; read 2026-10-04",
    "feature_id": "geo_admin1.geojson adm1_pcode GE48",

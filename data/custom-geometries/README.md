@@ -55,7 +55,7 @@ Built and checked with shapely 2 / GEOS from the project's scratch environment; 
 | 4 | `junagadh` → area/junagadh | Natural Earth editors: the princely state of Junagadh with Manavadar, as Pakistan claims it | public domain |
 | 4 | `east-jerusalem`, `shebaa-farms`, `western-sahara-moroccan-controlled` | Natural Earth editors | public domain |
 
-Each row of `sources.csv` gives the publisher, URL, version, feature ids and notes. Where a place combines inputs, `licence` and `publisher` list them in the same order, separated by "; ", so every licence has its holder (TYR request 35).
+Each row of `sources.csv` gives the publisher, URL, version, feature ids and notes. Where a place combines inputs, `licence` and `publisher` list them in the same order, separated by "; ", so every licence has its holder (TYR request 35); a ";" never appears inside one holder or licence.
 
 ### Licences
 
