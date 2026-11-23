@@ -1,6 +1,6 @@
 # Canonical Travel Regions — decision log
 
-Version: 0.4.11-draft. Date: 2026-11-23. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
+Version: 0.4.12-draft. Date: 2026-11-23. Related documents: [spec.md](spec.md), [open-questions.md](open-questions.md).
 
 The current normative decisions on Stage 1 are D032–D037, extended by the owner's decisions of 2026-10-03, D038–D053: a reference registry of countries, Antarctica, special places, outlines, the settling rule for contested control, the treatment of each kind of disputed area, yearly releases, amendments to CR-W and the product profile. Earlier research/experimental entries preserve the history but do not override them. D004–D007 remain accepted product constraints.
 
@@ -745,7 +745,7 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 
 - Decision: before the units of a substrate edition are used, they are cleaned as one polygonal coverage: nearby vertices and edges are snapped together within 1e-7° (about 1 cm), and any overlap that survives goes to the unit with the longest common border (D078). The release states the recipe instead of listing strips; it lists only the overlaps wider than the snapping distance, with their holder. Amends D078.
 - Rationale: computing D078's list on GADM 4.1 at full precision found 2,353 strips between regions, 25 m² in all, every one under 0.1 mm wide: one line drawn twice. Both long sides of such a lens are equal to the micrometre, so the longest border is decided by float noise (2,256 exact ties). Coverage cleaning is the standard practice for this: PostGIS 3.6+ `ST_CoverageClean` and shapely 2.2's `coverage_clean` (both GEOS ≥ 3.14) snap first and then merge overlaps by the longest common border by default. With snapping 1e-7° the lenses collapse (checked on BEN/NGA and BEN/TGO). GADM's licence forbids shipping cleaned geometry, so the consumer applies the recipe; TYR's loader runs PostGIS 3.7 with GEOS 3.15 and has the function.
-- Rules: R063 (amended).
+- Rules: R063 (amended; amended again by D082).
 - Operational details (TYR's points of 2026-11-22, with the owner's OK): the release names the GEOS version it used, and checks between producer and consumer compare within the snapping distance, never by exact equality; `gapMaximumWidth` is 0, so cleaning never fills a gap (gaps stay with the land rule, D074 (4)); one cleaning runs over every unit of the edition at its finest level (a partition by country would miss the lenses between countries), before own geometries and the land rule are applied; what a unit holds stays attribute-based.
 - Counterarguments: snapping moves vertices by up to a centimetre, far below GADM's own accuracy; two GEOS versions may place vertices slightly differently at that scale. A world-wide cleaning is costly; its cost is still to be measured.
 - Status: accepted.
@@ -768,3 +768,12 @@ Taken one at a time in conversation with the owner; the backlog and its order ar
 - Counterarguments: the longest border is geometry, not a fact about whose the land is; for a coastal strip it is almost always right, for an island near a border it may not be. The land source's country codes follow one government's view (the US Department of State's); a code it gives to a disputed or unclaimed feature may map to no region, or to the wrong one under another point of view, so such pieces go to the hand list rather than being guessed. A piece that a party's sourced claim attributes differently is still decided by the register (R047), which comes first.
 - Status: accepted.
 - Basis: owner decision in the conversation of 2026-11-23 ("Давай"), on the proposal put after the missing-land experiment.
+
+### D082 — The cleaned coverage is the one-window result; it may be computed in longitude windows with the seams cleaned again
+
+- Decision: amends D079. The cleaned substrate is defined as the result of cleaning every unit of the edition, at its finest level, in one window. It may be computed in windows cut by longitude (never by country), each cleaned on its own, followed by one more cleaning of every unit that has a neighbour in another window together with those units' neighbours; that second result replaces the first for those units. Window size is a computing choice, not part of the recipe.
+- Rationale: TYR's measurement of 2026-11-23 (round 13, PostGIS 3.7.0, GEOS 3.15.0): one window over GADM 4.1's 356,488 finest units (151.8 M vertices) needs about 60–80 GB of memory and was killed at 14 GB. Five longitude windows of about 30 M vertices fit in 14 GB, about 6 minutes in all, and cut overlapping pairs from 807 to 1 (0.0056 m², on a seam). Compared with one window over the 4,649 units touching a seam and their neighbours, 11 units differed (0.357 m², all where Ghana meets its neighbours at one seam); cleaning those units again in one window gives the one-window result for them.
+- Rules: R063 (amended).
+- Counterarguments: the second pass is equal to one window only where a seam's influence does not spread beyond the neighbours of seam units; at a 1e-7° snap that holds in TYR's measurement but is not proved in general. Results are still compared within the snapping distance, never byte for byte (D079).
+- Status: accepted.
+- Basis: owner decision in the conversation of 2026-11-23 ("Разрешаю"), on TYR's proposal after its round-13 measurement.
