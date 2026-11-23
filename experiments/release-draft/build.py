@@ -26,6 +26,15 @@ ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parents[1]
 OUT = ROOT / "release"
 GADM = "GADM 4.1"
+GADM_GPKG = Path(os.environ.get("GADM_GPKG", REPO.parent / "track-your-regions" / "deployment" / "gadm_410.gpkg"))
+
+
+def file_sha256(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        for block in iter(lambda: f.read(1 << 22), b""):
+            h.update(block)
+    return h.hexdigest()
 NE = "Natural Earth 5.1.2 disputed areas"
 CUSTOM = "custom geometry"
 INPUTS = [
@@ -307,12 +316,19 @@ def main() -> None:
         "cutoff": "2025-12-31",
         "rules": f"docs/spec.md {spec_version} (D038-{last_d})",
         "registry": {"ISO 3166-1": "iso-codes 4.20.1", "Natural Earth": "v5.1.2"},
+        # an edition is identified by (provider, pin); the label is for people (TYR's request after round 13)
         "substrate": {"GADM": "4.1 as published (gadm_410.gpkg, unsimplified; unit identifiers only, no GADM geometry "
-                              "in this package)"},
+                              "in this package)",
+                      "pins": {"GADM": {"file": "gadm_410.gpkg", "bytes": GADM_GPKG.stat().st_size,
+                                        "sha256": file_sha256(GADM_GPKG),
+                                        "note": "the copy this build read (TYR's deployment/gadm_410.gpkg)"}}},
         # D079 / R063: how the consumer cleans the substrate before use; the check that produced overlaps_D078.csv
         "substrate_cleaning": {
             "recipe": "ST_CoverageClean(geom, 0, 1e-7, 'MERGE_LONGEST_BORDER') over every GADM unit at its finest "
-                      "level, in one window (not per country), before own geometries and the land rule",
+                      "level, before own geometries and the land rule; the result is the one-window result, which may "
+                      "be computed in longitude windows (never by country) followed by one more cleaning of every unit "
+                      "within 1e-6 deg of another window plus their neighbours (D082)",
+            "seam_reach_deg": 1e-6,
             "gap_width": 0, "snapping_distance_deg": 1e-7, "merge_strategy": "longest_border",
             "geos": json.loads((OUT / "overlaps_D078.json").read_text())["geos"],
             "overlaps_wider_than_snap": "overlaps_D078.csv",
