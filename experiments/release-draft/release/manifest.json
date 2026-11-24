@@ -2,7 +2,7 @@
   "release": "draft-2026-10-04",
   "status": "draft",
   "cutoff": "2025-12-31",
-  "rules": "docs/spec.md 0.4.12-draft (D038-D082)",
+  "rules": "docs/spec.md 0.4.13-draft (D038-D083)",
   "registry": {
     "ISO 3166-1": "iso-codes 4.20.1",
     "Natural Earth": "v5.1.2"
@@ -28,12 +28,22 @@
     "overlaps_wider_than_snap": "overlaps_D078.csv",
     "compare_within_deg": 1e-07
   },
-  "membership": "a region is the union of its include rows minus its exclude rows; precedence 1 (own geometry) wins over precedence 2 (GADM units). An own geometry takes the part of its outline on the GADM units of the regions in clip_to, plus the part of geometry/land/<file> on no GADM unit (land GADM lacks; never sea); then cut_off_D073.csv applies",
+  "membership": "a region is the union of its include rows minus its exclude rows; precedence 1 (own geometry) wins over precedence 2 (GADM units). An own geometry takes the part of its outline on the GADM units of the regions in clip_to, plus the part of geometry/land/<file> on no GADM unit (land GADM lacks; never sea); precedence 3 (added land, R064): the pieces of added_land_D081.geojson whose region_id is the region; then cut_off_D073.csv applies",
+  "added_land": {
+    "file": "added_land_D081.geojson",
+    "table": "added_land_D081.csv",
+    "summary": "added_land_D081.json",
+    "bytes": 1073996232,
+    "sha256": "80cf10814dfdabdc3549b68ed5a03b86d75112bbb5105b5c769ede7c22dbda10",
+    "table_sha256": "36d1e548888ebdd5fcde869da3340fc5f8bee5dd2504ac35225e32760de14a9e",
+    "pieces": 554407,
+    "undecided_pieces": 4
+  },
   "counts": {
     "regions": 329,
     "countries_in_tree": 256,
-    "membership_rows": 413,
-    "gaps": 0
+    "membership_rows": 649,
+    "gaps": 4
   },
   "inputs": {
     "experiments/stage1-list/outputs/regions.csv": "3b2c3c26d9802ad6a5dd43a276d9f30c5ffcb2548ea33a6735d39179c5beca33",
@@ -49,7 +59,7 @@
     "experiments/expedition-regions/outputs/summary.json": "f7450dac76833cece8353d21dbd3e2a4c962e704f338f74265972b41cd2d40ac",
     "data/names/cldr-48.0.0-en-territories.json": "158c1d575308f7e46912edbeda435c8fe2ef5dad280798231f3a432e406b1807",
     "data/names/common_names.csv": "ceed962b0635ecf036e4040e6766c5dc981671c75c262ac06625e059fe09ef89",
-    "docs/spec.md": "9c743e75cf5afc5f279bffd27e5f2127726da3e3a469dbe884245c6bba628d3f"
+    "docs/spec.md": "adc561dfaeca9a44a51ac3eaf41181431a091f536a9821d8d6e5a59926f58f8e"
   },
   "correspondence": "none: first draft"
 }
