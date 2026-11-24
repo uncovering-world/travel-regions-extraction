@@ -42,7 +42,7 @@
   "counts": {
     "regions": 329,
     "countries_in_tree": 256,
-    "membership_rows": 649,
+    "membership_rows": 651,
     "gaps": 4
   },
   "inputs": {
@@ -52,6 +52,7 @@
     "data/entry-rules/census.csv": "66ef8b50ec73870d0af9033dc88299bc94e5fcee268240a6ffce54db2ae779fb",
     "experiments/release-draft/inputs/attribution.csv": "73c7519e59a00bcdf06124d4911f19db53f9ffcd270b351c9296b1e1f243dcd9",
     "experiments/release-draft/inputs/leases.csv": "aa710ad12ba69798e3ded00ac1d461497d91b9143196d848c9d6d1524e1d44b2",
+    "experiments/release-draft/inputs/binding_overrides.csv": "40e00d9e2e4542153e8bf028bcb5f5a317aac74c08f2c338d35be49543a63f2f",
     "experiments/release-draft/inputs/gadm_leftovers.csv": "fc46c06dad74297edff82dd4cfa64535b0ea492125018f6815b1018bd5cef070",
     "data/custom-geometries/sources.csv": "cff61a9b4ee4ff57f8e21f648ad935f402a6d7cbbffa021ef0657367faac9ae7",
     "experiments/stage1-list/inputs/claims.csv": "edac8180392443ec3f17c05844e23ae36d5a7cda34941abc41a48fb1f8e17a48",

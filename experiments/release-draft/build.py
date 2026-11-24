@@ -46,6 +46,7 @@ INPUTS = [
     "data/entry-rules/census.csv",
     "experiments/release-draft/inputs/attribution.csv",
     "experiments/release-draft/inputs/leases.csv",
+    "experiments/release-draft/inputs/binding_overrides.csv",
     "experiments/release-draft/inputs/gadm_leftovers.csv",
     "data/custom-geometries/sources.csv",
     "experiments/stage1-list/inputs/claims.csv",
@@ -123,6 +124,10 @@ def no_country_basis(rid, country, attribution):
 def main() -> None:
     regions = read("experiments/stage1-list/outputs/regions.csv")
     bindings = {r["region"]: r for r in read("experiments/gadm-binding/outputs/bindings.csv")}
+    # finer bindings where a GADM unit holds land that belongs to another region (inputs/binding_overrides.csv, with
+    # evidence): the units left out fall back to the country that includes their GADM ancestor
+    for r in read("experiments/release-draft/inputs/binding_overrides.csv"):
+        bindings[r["region"]] = {**bindings[r["region"]], "gadm_units": r["gadm_units"], "level": r["level"]}
     items = {r["region"]: r["item"] for r in read("experiments/outline-sources/outputs/regions.csv")}
     census = {r["id"]: r for r in read("data/entry-rules/census.csv")}
     attribution = {r["region"]: r for r in read("experiments/release-draft/inputs/attribution.csv")}
