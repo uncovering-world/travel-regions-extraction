@@ -8,13 +8,14 @@
   "km2": 3040.238
  },
  "by_basis": {
-  "country_code": 79727,
+  "country_code": 79827,
+  "hand_decided": 4,
   "longest_border": 474572,
-  "undecided": 108
+  "undecided": 4
  },
  "regions_gaining_land": 236,
- "added_km2": 155552.239,
- "undecided_km2": 273.005,
+ "added_km2": 155777.203,
+ "undecided_km2": 48.04,
  "pieces_by_km2": {
   "<0.1": 429848,
   "<1": 107888,
@@ -30,5 +31,5 @@
   "WorldPolygons11_4.gpkg": "55fab422ef09e35eb48d68141b9ece0ace86d4276dfe332a04dfd401c0bfc80c",
   "gadm_410.gpkg size": 2759749632
  },
- "seconds": 10649
+ "seconds": 10000
 }
